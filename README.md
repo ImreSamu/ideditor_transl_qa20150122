@@ -83,15 +83,15 @@ special XLS file -  3 sheets
 you have to manually add "AutoFilter" 
 
 this is based iD Editor - preset schema 
-  schema:  https://github.com/openstreetmap/iD/blob/master/data/presets/schema/preset.json
+   *  schema:  https://github.com/openstreetmap/iD/blob/master/data/presets/schema/preset.json
 and added some translation fileds  
-- nameEn             ( name - english )	
-- nameTransl         ( name - translated )    
+*  nameEn             ( name - english )	
+*  nameTransl         ( name - translated )    
 And  some special variable
-- duplicateTranslation  :  check "nameTransl" duplicates
-- nameTranslWarnings    :  DoubleSpace,LineFeed,FormFeed,Tab  checking  at the translated  "name" field 
-- termsTranslWarnings   :  DoubleSpace,LineFeed,FormFeed,Tab  checking  at the translated  "terms" field 
-- ....
+*  duplicateTranslation  :  check "nameTransl" duplicates
+*  nameTranslWarnings    :  DoubleSpace,LineFeed,FormFeed,Tab  checking  at the translated  "name" field 
+*  termsTranslWarnings   :  DoubleSpace,LineFeed,FormFeed,Tab  checking  at the translated  "terms" field 
+*  ....
 
 ####  sheet : 'iFields' 
 you have to manually add "AutoFilter" 
