@@ -1,0 +1,145 @@
+ {
++  map_data: {
++    title: "地圖圖資"
++    description: "地圖圖資"
++    data_layers: "資料圖層"
++    fill_area: "填土區"
++    map_features: "地圖圖徵"
++  }
++  feature: {
++    points: {
++      description: "點"
++      tooltip: "興趣點"
++    }
++    major_roads: {
++      description: "主要道路"
++      tooltip: "公路、街道等"
++    }
++    buildings: {
++      description: "建築物"
++    }
++    water: {
++      description: "水域圖徵"
++      tooltip: "河道、湖泊、池溏、蓄水池等"
++    }
++    rail: {
++      description: "鐵路圖徵"
++      tooltip: "鐵路"
++    }
++    past_future: {
++      description: "過去/未來"
++    }
++    others: {
++      description: "其他"
++    }
++  }
+   inspector: {
++    add_fields: "新增空間"
+   }
+   help: {
+-    gps: "# GPS軌跡\n\nGPS數據是OpenStreetMap中最可信的的數據來源。此編輯器\n支援在您的電腦上的GPS軌跡 - `.gpx`文件。你可以使用多個智能手機的應用程序或個人GPS硬件，收集這類GPS數據。\n\n有關如何進行GPS測量的資料，請參閱[Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/)。\n\n要使用一個GPX軌跡製圖，可將GPX文件拖曳到編輯器中。如果編輯器能讀取該文件，它會被添加到地圖上，並以明亮的綠色線顯示。點擊左側的'設置背景'選單，便可啟用、停用或縮放這個新的的GPX圖層。\n\nGPX軌跡並不會直接上載到OpenStreetMap － 使用GPX軌跡的最佳方式，是以它作為指引，在繪製地圖時添加新的物件，並[上傳至 OpenStreetMap](http://www.openstreetmap.org/trace/create)來讓其他使用者運用。\n"
+   }
+   presets: {
+     fields: {
++      bench: {
++        label: "長凳"
++      }
++      service/bicycle/pump: {
++        label: "打氣設備"
++        options: {
++          undefined: "預設沒有"
++          yes: "有"
++          no: "沒有"
++        }
++      }
++      substation: {
++        label: "種類"
++      }
++      takeaway: {
++        label: "外帶"
++        placeholder: "可以, 不行, 只能外帶 ..."
++        options: {
++          yes: "可以"
++          no: "不行"
++          only: "只能外帶"
++        }
++      }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "甜品店"
+-        terms: "甜品店"
+-      }
++      amenity/bicycle_repair_station: {
++        name: "自行車維修站"
++        terms: "提供自行車維修服務的地方"
++      }
++      amenity/grit_bin: {
++        name: "沙盒"
++        terms: "儲存用來加速路面融雪的沙、鹽混合物容器"
++      }
++      amenity/public_bookcase: {
++        name: "開放書架"
++        terms: "可以自由取用、放置書籍的書架"
++      }
++      amenity/register_office: {
++        name: "戶政事務所"
++        terms: "戶政事務所"
++      }
++      craft/confectionery: {
++        name: "甜點店"
++        terms: "糕餅店"
++      }
++      landuse/garages: {
++        name: "車庫群"
++        terms: "許多相連的車庫"
++      }
++      natural/cave_entrance: {
++        name: "洞穴入口"
++        terms: "洞穴入口"
++      }
++      power/substation: {
++        name: "變電所"
++        terms: "變電站"
++      }
++      traffic_calming/bump: {
++        name: "減速丘"
++        terms: "減速帶,減速器"
++      }
++      traffic_calming/hump: {
++        name: "減速標線"
++        terms: "減速標線"
++      }
++      traffic_calming/rumble_strip: {
++        name: "跳動路面"
++        terms: "起皺狹長路段"
++      }
++      traffic_calming/table: {
++        name: "隆起行人穿越道"
++        terms: "隆起行人穿越道"
++      }
+       highway/service/drive-through: {
+-        name: "穿越道路"
++        name: "德來速車道"
+-        terms: "駕駛通過以獲取服務,穿越性道路"
++        terms: "駕駛通過以獲取服務,德來速車道"
+       }
+       landuse/farmland: {
+-        name: "耕地"
++        name: "農場"
+-        terms: "耕地"
++        terms: "農場"
+       }
+       power/transformer: {
+-        name: "變電所"
++        name: "變壓器"
+-        terms: "變電所,變電站"
++        terms: "變壓器"
+       }
+       railway/abandoned: {
+-        terms: "鐵路線遺跡"
++        terms: "舊鐵路線"
+       }
+     }
+   }
+ }

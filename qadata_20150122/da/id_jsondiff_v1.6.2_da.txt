@@ -1,0 +1,223 @@
+ {
++  feature_info: {
++    hidden_warning: "{count}  skjulte objekter"
++    hidden_details: "Disse objekter er pt. skjulte: {details}"
++  }
++  map_data: {
++    title: "Kortdata"
++    description: "Kortdata"
++    data_layers: "Data lag"
++    fill_area: "Fyldte områder"
++    map_features: "Kortobjekter"
++    autohidden: "Disse objekter er automatisk blevet skjult da ellers for mange vil blive vist på skærmen.\nDu kan zoome ind for at redigere i dem."
++  }
++  feature: {
++    points: {
++      description: "Punkter"
++      tooltip: "Interessepunkter"
++    }
++    major_roads: {
++      description: "Store veje"
++      tooltip: "Veje, Gader, osv."
++    }
++    minor_roads: {
++      description: "Mindre veje"
++      tooltip: "Serviceveje, parkeringspladsveje, markveje, skoveveje osv."
++    }
++    paths: {
++      description: "Stier"
++      tooltip: "Fortov, gangstier, cykelstier, osv."
++    }
++    buildings: {
++      description: "Bygninger"
++      tooltip: "Bygninger, Shelter, Garager, osv."
++    }
++    landuse: {
++      description: "Landområdeobjekter"
++      tooltip: "Skove, Marker, Parker, Boligområder, Handelsområder, os.v"
++    }
++    boundaries: {
++      description: "Grænser"
++      tooltip: "Administrative grænser"
++    }
++    water: {
++      description: "Vandobjekter"
++      tooltip: "Floder, Søer, Damme, Basiner, osv."
++    }
++    rail: {
++      description: "Jernbaneobjekter"
++      tooltip: "Jernbaner"
++    }
++    power: {
++      description: "Elektricitetsobjekter"
++      tooltip: "Højspændingsmaster, kraftstationer, transformatorstationer, osv."
++    }
++    past_future: {
++      description: "Fortid/Fremtid"
++      tooltip: "Planlagt, Konstruktion, Forladt, Tilintetgjort, osv."
++    }
++    others: {
++      description: "Andet"
++      tooltip: "Alt andet"
++    }
++  }
++  area_fill: {
++    wireframe: {
++      description: "Ingen fyld (Trådnet)"
++      tooltip: "At slå trådnet visning til gør det lettere at se baggrundsbilledet."
++    }
++    partial: {
++      description: "En smule fyldt"
++      tooltip: "Områder er optegnet med fyld kun omkring inderkanten. (Anbefales til nybegyndere)"
++    }
++    full: {
++      description: "Fuldt fyld"
++      tooltip: "Områder er optegnet med fuldt fyld."
++    }
++  }
+   operations: {
+     circularize: {
++      connected_to_hidden: "Dette kan ikke laves rundt da det er forbundet til et skjult objekt."
+     }
+     orthogonalize: {
++      connected_to_hidden: "Det kan ikke laves til en firkant da det er forbundet til et skjult objekt."
+     }
+     straighten: {
++      connected_to_hidden: "Denne linje kan ikke rettes lige ud da den er forbundet til et skjult objekt."
+     }
+     delete: {
++      connected_to_hidden: "Dette kan ikke slettes da det er forbundet til et skjult objekt."
+     }
+     disconnect: {
++      connected_to_hidden: "Dette kan ikke klippes over da det er forbundet til et skjult objekt."
+     }
+     move: {
++      connected_to_hidden: "Dette kan ikke flyttes da det er forbundet til et skjult objekt."
+     }
+     rotate: {
++      connected_to_hidden: "Dette kan ikke roteres da det er forbundet til et skjult objekt."
+     }
+     split: {
++      connected_to_hidden: "Dette kan ikke klippes da det er forbundet til et skjult objekt."
+     }
+   }
+   commit: {
++    changes: "{count} Ændringer"
+   }
+   inspector: {
++    add_fields: "Tilføj felt:"
+   }
+   save: {
++    unknown_error_details: "Vær sikker på du er forbundet til internettet."
+   }
+   presets: {
+     fields: {
++      bench: {
++        label: "Bænk"
++      }
++      delivery: {
++        label: "Levering"
++      }
++      service/bicycle/chaintool: {
++        label: "Kædeværktøj"
++        options: {
++          undefined: "Forventet at være Nej"
++          yes: "Ja"
++          no: "Nej"
++        }
++      }
++      service/bicycle/pump: {
++        label: "Luftpumpe"
++        options: {
++          undefined: "Er forventet at være Nej"
++          yes: "Ja"
++          no: "Nej"
++        }
++      }
++      substation: {
++        label: "Type"
++      }
++      takeaway: {
++        label: "Takeaway"
++        placeholder: "Ja, Nej, kun Takeaway..."
++        options: {
++          yes: "Ja"
++          no: "Nej"
++          only: "Kun Takeway"
++        }
++      }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Slikbutik"
+-        terms: "Slikbutik, Konfekturebutik"
+-      }
++      amenity/bicycle_repair_station: {
++        name: "Cykelværktøjlån"
++        terms: "Cykelværktøjlån, Cykelværktøj"
++      }
++      amenity/community_centre: {
++        name: "Medborgerhus"
++        terms: "Medborgerhus, Forsamlingshus"
++      }
++      amenity/grit_bin: {
++        name: "Vejsaltkasse"
++        terms: "Vejsaltkasse, Saltkasse"
++      }
++      amenity/public_bookcase: {
++        name: "Bogkasse"
++        terms: "Bogkasse"
++      }
++      amenity/register_office: {
++        name: "Tinglysningskontor"
++        terms: "Tinglysningskontor"
++      }
++      craft/confectionery: {
++        name: "Slikbutik"
++        terms: "Slikbutik, Chokoladeforretning"
++      }
++      junction: {
++        name: "Vejfletning"
++        terms: "Vejfletning, Gadefletning"
++      }
++      landuse/garages: {
++        name: "Garager"
++        terms: "Garager"
++      }
++      leisure/nature_reserve: {
++        name: "Naturreservat"
++        terms: "Naturreservat"
++      }
++      natural/cave_entrance: {
++        name: "Huleindgang"
++        terms: "Huleindgang"
++      }
++      power/substation: {
++        name: "Transformatorstation"
++        terms: "Transformatorstation"
++      }
++      traffic_calming/bump: {
++        name: "Vejbump"
++        terms: "Vejbump"
++      }
++      traffic_calming/hump: {
++        name: "Fartbumprampe"
++        terms: "Fartbumprampe"
++      }
++      traffic_calming/rumble_strip: {
++        name: "Rumlestriber"
++        terms: "Rumlestriber,  Rumleriller"
++      }
++      traffic_calming/table: {
++        name: "Fodgængerfelt"
++        terms: "Fodgængerfelt, Fodgængerovergang"
++      }
+       landuse/farmland: {
+-        name: "Landbrugsjord"
++        name: "Gård"
+-        terms: "Landbrugsjord, Marker"
++        terms: "Gård, Bondegård"
+       }
+     }
+   }
+ }

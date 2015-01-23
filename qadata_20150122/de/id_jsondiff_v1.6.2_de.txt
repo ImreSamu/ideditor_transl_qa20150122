@@ -1,0 +1,262 @@
+ {
++  feature_info: {
++    hidden_warning: "{count} versteckte Objekte"
++    hidden_details: "Diese Objekte sind aktuell versteckt: {details}"
++  }
++  map_data: {
++    title: "Kartendaten"
++    description: "Kartendaten"
++    data_layers: "Datenlayer"
++    fill_area: "Füllflächen"
++    map_features: "Kartenobjekte"
++    autohidden: "Diese Objekte wurden automatisch versteckt, weil zu viele auf dem Bildschirm sichtbar wären. Um diese zu editieren bitte hineinzoomen."
++  }
++  feature: {
++    points: {
++      description: "Punkte"
++      tooltip: "Wichtiger Punkt"
++    }
++    major_roads: {
++      description: "Hauptstraßen"
++      tooltip: "Autobahnen, Straßen, etc."
++    }
++    minor_roads: {
++      description: "Nebenstraßen"
++      tooltip: "Zufahrtsstraßen, Parkplatzreihe, Feldweg, etc."
++    }
++    paths: {
++      description: "Pfade"
++      tooltip: "Gehsteige, Fußwege, Radwege, etc."
++    }
++    buildings: {
++      description: "Gebäude"
++      tooltip: "Gebäude, Unterstände, Garagen, etc."
++    }
++    landuse: {
++      description: "Flächennutzungsobjekte"
++      tooltip: "Wälder, Äcker, Parks, Wohngebiete, Industriegebiete, etc."
++    }
++    boundaries: {
++      description: "Grenzen"
++      tooltip: "Verwaltungsgrenzen"
++    }
++    water: {
++      description: "Wasserobjekte"
++      tooltip: "Flüsse, Seen, Teichen, Weiher, etc."
++    }
++    rail: {
++      description: "Eisenbahnobjekte"
++      tooltip: "Eisenbahnen"
++    }
++    power: {
++      description: "Stromleitungsobjekte"
++      tooltip: "Stromleitungen, Kraftwerke, Umspannwerke, etc."
++    }
++    past_future: {
++      description: "Vergangen/Zukünftig"
++      tooltip: "Geplant, in Bau, Außer Betrieb, Abgerissen, etc."
++    }
++    others: {
++      description: "Andere"
++      tooltip: "Alles andere"
++    }
++  }
++  area_fill: {
++    wireframe: {
++      description: "Keine Füllung (Drahtgitter)"
++      tooltip: "Der Drahtgittermodus verbessert die Sichtbarkeit des Hintergrundbildes"
++    }
++    partial: {
++      description: "Teilweise Füllung"
++      tooltip: "Flächen werden nur mit Füllung in den Innenecken gezeichnet (Empfohlen für Anfänger)"
++    }
++    full: {
++      description: "Vollständige Füllung"
++      tooltip: "Flächen werden vollständig gefüllt angezeigt"
++    }
++  }
+   operations: {
+     circularize: {
++      connected_to_hidden: "Dieses Objekt kann nicht kreisfömig gemacht werden, weil es mit einem versteckten Objekt verbunden ist."
+     }
+     orthogonalize: {
++      connected_to_hidden: "Dieses Objekt kann nicht quadratisch gemacht werden, weil es mit einem versteckten Objekt verbunden ist."
+     }
+     straighten: {
++      connected_to_hidden: "Dieses Objekt kann nicht geradlinig gemacht werden, weil es mit einem versteckten Objekt verbunden ist."
+     }
+     delete: {
++      connected_to_hidden: "Dieses Objekt kann nicht gelöscht werden, weil es mit einem versteckten Objekt verbunden ist."
+     }
+     disconnect: {
++      connected_to_hidden: "Dieses Objekt kann nicht getrennt werden, weil es mit einem versteckten Objekt verbunden ist."
+     }
+     move: {
++      connected_to_hidden: "Dieses Objekt kann nicht verschoben werden, weil es mit einem versteckten Objekt verbunden ist."
+     }
+     rotate: {
++      connected_to_hidden: "Dieses Objekt kann nicht gedreht werden, weil es mit einem versteckten Objekt verbunden ist."
+     }
+     split: {
++      connected_to_hidden: "Dieses Objekt kann nicht geteilt werden, weil es mit einem versteckten Objekt verbunden ist."
+     }
+   }
+   commit: {
++    changes: "{count} Änderungen"
+   }
+   inspector: {
++    add_fields: "Feld hinzufügen:"
+   }
+   help: {
+-    gps: "# GPS\n\nGPS-Daten sind die vertrauenswürdigste Quelle für OpenStreetMap. Dieser Editor unterstützt lokale GPS-Spuren — \".gpx\"-Dateien auf deinem Rechner. Du kannst diese GPS-Spuren mit Hilfe diverser Smartphone-Apps oder anderen GPS-Geräten aufnehmen.\n\nFür Informationen über das Sammeln von GPS-Daten kannst du dir folgende Anleitung durchlesen: [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/) (zur Zeit nur auf Englisch).\n\nUm eine GPX-Spur zu verwenden, ziehe sie einfach in den Karteneditor. Wenn sie erkannt wurde, wird diese Spur als leuchtend grüne Linie auf der Karte dargestellt. Klicke auf \"Hintergrundeinstellungen\", um sie zu (de-)aktivieren, oder um zum Gebiet der Spur zu gelangen (Lupe).\n\nDie GPX-Spur wird nicht automatisch direkt zu OpenStreetMap hoch geladen. Am besten verwendest du sie, um neue Wege hinzuzufügen. Möchtest du die GPX-Spur jedem zugänglich machen, kannst du sie über die [Track-Upload-Seite](http://www.openstreetmap.org/trace/create) hochladen.\n"
++    gps: "# GPS\n\nGPS-Daten sind die vertrauenswürdigste Quelle für OpenStreetMap.\nDieser Editor unterstützt lokale GPS-Tracks — \".gpx\"-Dateien auf \ndeinem Computer. Du kannst diese GPS-Tracks mit Hilfe diverser\nSmartphone-Apps oder anderen GPS-Geräten aufnehmen.\n\nFür Informationen über das Sammeln von GPS-Daten kannst du dir\nfolgende Anleitung durchlesen: [Surveying with a GPS, zur Zeit nur auf Englisch](http://learnosm.org/en/beginner/using-gps/)\n\nUm einen GPX-Track fürs Mapping zu verwenden, ziehe ihn einfach in den Karteneditor.\nWenn er erkannt wurde, wird der Track als helle lila Linie auf\nder Karte dargestellt. Klicke auf \"Hintergrundeinstellungen\", um die neue Ebene mit dem Track zu aktivieren/deaktivieren oder zoome zum Gebiet des Tracks.\n\nDer GPX-Track wird nicht automatisch direkt zu OpenStreetMap hochgeladen.\nAm besten verwendest du ihn als Grundlage um neue Objekte zu zeichnen. Möchtest du den GPX-Track jedem zugänglich machen, kannst du ihn [nach OpenStreetMap hochladen] (http://www.openstreetmap.org/trace/create).\n"
+   }
+   presets: {
+     fields: {
++      bench: {
++        label: "Sitzbank"
++      }
++      delivery: {
++        label: "Zustellung"
++      }
++      service/bicycle/chaintool: {
++        label: "Kettennietdrücker"
++        options: {
++          undefined: "Vermutlich Nein"
++          yes: "Ja"
++          no: "Nein"
++        }
++      }
++      service/bicycle/pump: {
++        label: "Luftpumpe"
++        options: {
++          undefined: "Vermutlich Nein"
++          yes: "Ja"
++          no: "Nein"
++        }
++      }
++      substation: {
++        label: "Typ"
++      }
++      takeaway: {
++        label: "Takeaway"
++        placeholder: "Ja, Nein, Nur Takeaway ..."
++        options: {
++          yes: "Ja"
++          no: "Nein"
++          only: "Nur Takeaway"
++        }
++      }
+       fire_hydrant/type: {
+         options: {
+-          underground: "Untergrund"
++          underground: "Unterirdisch"
+         }
+       }
+       mtb/scale: {
+-        label: "Mountain Bike Schwierigkeit"
++        label: "MTB Schwierigkeitsgrad"
+       }
+       toilets/disposal: {
+         options: {
+-          flush: "flach"
++          flush: "Spülung"
+         }
+       }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Süßwarengeschäft"
+-        terms: "Süßwarengeschäfts, Konditorei, Konfektladen"
+-      }
++      amenity/bicycle_repair_station: {
++        name: "Fahrradreperaturstation"
++        terms: "Fahrradreperaturstation, Fahrradreperaturbox"
++      }
++      amenity/grit_bin: {
++        name: "Streugutkist"
++        terms: "Streugutkiste, Streugutbehälter, Splitkiste"
++      }
++      amenity/public_bookcase: {
++        name: "öffentlicher Bücherschrank"
++        terms: "öffentlicher Bücherschrank, öffentlicher Bücherkasten"
++      }
++      amenity/register_office: {
++        name: "Standesamt"
++        terms: "Standesamt, Evidenzbüro"
++      }
++      craft/confectionery: {
++        name: "Konditorei"
++        terms: "Konditorei, Feinbäckerei, Süßwarengeschäft"
++      }
++      junction: {
++        name: "Straßenknotenpunkt"
++        terms: "Kreuzung, Abzweigung, Anschlussstelle, Knotenpunkt, Straßenknotenpunkt"
++      }
++      landuse/garages: {
++        name: "Garagen"
++        terms: "Garagen"
++      }
++      leisure/nature_reserve: {
++        name: "Naturschutzgebiet"
++        terms: "Naturschutzgebiet, Landschaftsschutzgebiet, Naturreservat, Naturschutzpark"
++      }
++      natural/cave_entrance: {
++        name: "Höhleneingang"
++        terms: "Höhleneingang, Höhlenzugang"
++      }
+       amenity/bbq: {
+-        name: "Grillgerät"
++        name: "Grillrestaurant"
+-        terms: "Grillgerät, Grill, Barbecue, Grillparty"
++        terms: "Grill, Barbecue, Steakhouse"
+       }
+       amenity/studio: {
+-        name: "Atelier"
++        name: "Ton- / Fernsehstudio"
+-        terms: "Atelier, Werkstatt, Studio"
++        terms: "Tonstudio, Radiostudio, TV-Studio, Fernsehstudio"
+       }
+       building/detached: {
+-        name: "Doppelhaus"
++        name: "freistehendes Haus"
+-        terms: "Haushälfte, Doppelhaus"
++        terms: "freistehendes Haus, Einfamilienhaus"
+       }
+       craft/dressmaker: {
+-        name: "Schneiderei"
++        name: "Damenschneiderei"
+       }
+       landuse/farmland: {
+-        name: "Acker"
++        name: "Bauernhof"
+-        terms: "Acker, Ackerboden, Ackerland, landwirtschaftliche Fläche"
++        terms: "Bauernhof, Bauernhaus, Farm"
+       }
+       office/educational_institution: {
+-        name: "Schulamt"
++        name: "Bildungseinrichtung"
+-        terms: "Schulverwaltung, Universitätsverwaltung, Bildungseinrichtung"
++        terms: "Bildungseinrichtung, Schulverwaltung, Universitätsverwaltung"
+       }
+       shop/butcher: {
+-        name: "Fleischer"
++        name: "Metzger"
+-        terms: "Fleischer, Schlachter"
++        terms: "Fleischer, Metzger, Schlachter"
+       }
+       shop/religion: {
+-        name: "Relegionsgeschäft"
++        name: "Devotionalienhandlung"
+-        terms: "Religionsbedarfsladen,Klosterladen,Kirchenladen"
++        terms: "Devotionalienhandlung, Religionsbedarfsladen, Klosterladen, Kirchenladen"
+       }
+       shop/second_hand: {
+-        name: "Spediteur"
++        name: "Second-Hand-Laden"
+-        terms: "Spediteur,Speditionsgeschäft"
++        terms: "Second-Hand-Laden, Trödel, Trödelladen"
+       }
+     }
+   }
+ }

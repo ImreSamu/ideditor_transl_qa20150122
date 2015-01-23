@@ -1,0 +1,255 @@
+ {
++  feature_info: {
++    hidden_warning: "{count} elementos escondidos"
++    hidden_details: "Estes elementos estão neste momento ocultados: {details}"
++  }
++  map_data: {
++    title: "Dados do Mapa"
++    description: "Dados do Mapa"
++    data_layers: "Camadas de Dados"
++    fill_area: "Preencher Áreas"
++    map_features: "Elementos do Mapa"
++    autohidden: "Estes elementos foram automaticamente ocultados porque senão haveriam demasiados elementos no ecrã. Pode fazer zoom e editar-los."
++  }
++  feature: {
++    points: {
++      description: "Pontos"
++      tooltip: "Pontos de Interesse"
++    }
++    major_roads: {
++      description: "Rodovias Principais"
++      tooltip: "Estradas, Ruas, etc."
++    }
++    minor_roads: {
++      description: "Rodovias Menores"
++      tooltip: "Estradas de Serviço, Estradas Florestais, etc."
++    }
++    paths: {
++      description: "Caminhos"
++      tooltip: "Passeios, Caminhos Pedestres, Ciclovias, etc."
++    }
++    buildings: {
++      description: "Edifícios"
++      tooltip: "Edifícios, Abrigos, Garagens, etc."
++    }
++    landuse: {
++      description: "Elementos de Uso de Solo"
++      tooltip: "Florestas, Quintas, Parques, Áreas Residenciais, etc."
++    }
++    boundaries: {
++      description: "Fronteiras"
++      tooltip: "Fronteiras Administrativas"
++    }
++    water: {
++      description: "Elementos de Água"
++      tooltip: "Rios, Lagos, Poças, Bacias, etc."
++    }
++    rail: {
++      description: "Elementos de Ferrovias"
++      tooltip: "Ferrovias"
++    }
++    power: {
++      description: "Elementos de Energia"
++      tooltip: "Linhas de Transmissão, Centrais Elétricas, Subestações, etc."
++    }
++    past_future: {
++      description: "Passado/Futuro"
++      tooltip: "Proposto, Construção, Abandonado, Demolido, etc."
++    }
++    others: {
++      description: "Outros"
++      tooltip: "Tudo o Resto"
++    }
++  }
++  area_fill: {
++    wireframe: {
++      description: "Sem Preenchimento (Wireframe)"
++      tooltip: "Ativar o modo wireframe permite melhor visualizar a imagem de fundo."
++    }
++    partial: {
++      description: "Preenchimento Parcial"
++      tooltip: "As áreas são apresentadas com preenchimento apenas perto da sua borda interior. (Recomendado para mapeadores iniciantes)"
++    }
++    full: {
++      description: "Preenchimento Total"
++      tooltip: "As áreas são apresentadas totalmente preenchidas."
++    }
++  }
+   operations: {
+     circularize: {
++      connected_to_hidden: "Não é possível fazer um circulo pois este elemento está conectado a outro elemento escondido."
+     }
+     orthogonalize: {
++      connected_to_hidden: "Não é possível enquadrar pois este elemento está conectado a outro elemento escondido."
+     }
+     straighten: {
++      connected_to_hidden: "Não é possível endireitar pois este elemento está conectado a outro elemento escondido."
+     }
+     delete: {
++      connected_to_hidden: "Não é possível eliminar pois este elemento está conectado a outro elemento escondido."
+     }
+     disconnect: {
++      connected_to_hidden: "Não é possível desconectar pois este elemento está conectado a outro elemento escondido."
+     }
+     move: {
++      connected_to_hidden: "Não é possível mover pois este elemento está conectado a outro elemento escondido."
+     }
+     rotate: {
++      connected_to_hidden: "Não é possível rodar pois este elemento está conectado a outro elemento escondido."
+     }
+     split: {
++      connected_to_hidden: "Não é possível dividir pois este elemento está conectado a outro elemento escondido."
+     }
+   }
+   commit: {
++    changes: "{Count} Alterações"
+   }
+   inspector: {
++    add_fields: "Adicionar campo:"
+   }
+   save: {
++    unknown_error_details: "Por favor certifique-se que está conectado à Internet."
+   }
+   help: {
+-    gps: "# GPS\n\nOs dados GPS são os de maior confiança para o OpenStreetMap. Este editor\npermite usar ficheiros `.gpx` como fundo para ajudar a editar mapas.\nPode obter dados GPS com vários telemóveis, assim como dispositivos GPS.\n\nPara mais informações sobre a obtenção de dados GPS ver a página [Gravando trilhos GPS] (http://wiki.openstreetmap.org/wiki/Recording_GPS_tracks).\n\nPara usar um ficheiro GPX como imagem de fundo, arraste o ficheiro do seu\ncomputador para o mapa. Se o ficheiro for reconhecido corretamente o trilho GPS\nserá mostrado a verde. Clique em  'Configuração da imagem de fundo' do lado\ndireito para mostrar ou esconder o trilho GPS, assim como enquadrar todo\no trilho GPS na janela.\n\nEste trilho GPS não é carregado para o OpenStreetMap para estar disponível\na outros editores, é apenas um ficheiro local GPS que pode utilizar para servir\nde referência e ajuda a editar o mapa. Também pode [carregar o ficheiro GPX para o OpenStreetMap](http://www.openstreetmap.org/trace/create)⏎\npara que outros o possam utilizar ao editar mapas.\n"
++    gps: "# GPS\n\nOs dados de GPS são a fonte mais fidedigna de dados no OpenStreetMap.\nEste editor suporta tracejamentos locais - ficheiros `.gpx` que estejam no\nseu computador. Pode também coleccionar este tipo de traços de GPS\natravés das várias aplicações existentes para smartphones assim como\nsistemas pessoais de GPS.\n\nPara mais informações sobre como realizar um exame topográfico com GPS,\nleia [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nPara usar um traço GPX para mapear, arraste e coloque o ficheiro GPX no\nmapa do editor. Se for reconhecido com sucesso, o troço será adicionado\nno mapa, aparecendo como uma linha de cor roxa. Clique no menu\n'Dados do Mapa' à direita para ativar, desativar ou enquadrar nesta nova\ncamada onde se situa o GPX.\n\nO troço GPX não é enviado diretamente para o OpenStreetMap -  a melhor\nmaneira de usar-lo é como uma referência para desenhar elementos no\nmapa que precisem de ser mapeados ou alinhados corretamente. Também\npode [enviar os tracejamentos](http://www.openstreetmap.org/trace/create) que faça para o OpenStreetMap de modo a ajudar outros\nutilizadores que podem vir a utilizar esses dados.\n"
+   }
+   presets: {
+     fields: {
++      bench: {
++        label: "Banco de Sentar"
++      }
++      delivery: {
++        label: "Entrega"
++      }
++      service/bicycle/chaintool: {
++        label: "Corrente de Corte"
++        options: {
++          undefined: "Assumido que seja Não"
++          yes: "Sim"
++          no: "Não"
++        }
++      }
++      service/bicycle/pump: {
++        label: "Bomba de Ar"
++        options: {
++          undefined: "Assumido que seja Não"
++          yes: "Sim"
++          no: "Não"
++        }
++      }
++      substation: {
++        label: "Tipo"
++      }
++      takeaway: {
++        label: "Take Away"
++        placeholder: "Sim, Não, Apenas Take Away"
++        options: {
++          yes: "Sim"
++          no: "Não"
++          only: "Apenas Take Away"
++        }
++      }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Confeitaria"
+-        terms: "Confectionary, Bolos, Sobremesas"
+-      }
++      amenity/bicycle_repair_station: {
++        name: "Estação de Reparação de Bicicletas"
++        terms: "Bicycle Repair Station"
++      }
++      amenity/community_centre: {
++        name: "Centro Comunitário"
++        terms: "Community Center, Espaço Social"
++      }
++      amenity/grit_bin: {
++        name: "Caixa de Sal"
++        terms: "Grit Bin, Sal de Estrada"
++      }
++      amenity/public_bookcase: {
++        name: "Biblioteca Livre"
++        terms: "Public Bookcase, Estante Pública, Livros para o Público"
++      }
++      amenity/register_office: {
++        name: "Escritório de Registros"
++        terms: "Register Office"
++      }
++      craft/confectionery: {
++        name: "Confeitaria"
++        terms: "Confectionery, Bolos, Pastelaria"
++      }
++      junction: {
++        name: "Junção"
++        terms: "Junction"
++      }
++      landuse/garages: {
++        name: "Garagens"
++        terms: "Garages"
++      }
++      leisure/nature_reserve: {
++        name: "Reserva Natural"
++        terms: "Nature Reserve, Natureza"
++      }
++      natural/cave_entrance: {
++        name: "Entrada de Gruta"
++        terms: "Cave Entrance"
++      }
++      power/substation: {
++        name: "Subestação"
++        terms: "Substation, energia"
++      }
++      traffic_calming/bump: {
++        name: "Lomba Pequena"
++        terms: "Speed Bump, Lombada, Policia Deitado"
++      }
++      traffic_calming/hump: {
++        name: "Lomba Grande"
++        terms: "Speed Hump"
++      }
++      traffic_calming/rumble_strip: {
++        name: "Bandas Cromáticas"
++        terms: "Rumble Strip"
++      }
++      traffic_calming/table: {
++        name: "Passadeira Lombada"
++        terms: "Raised Pedestrian Crossing"
++      }
+       highway/pedestrian: {
+-        name: "Praça"
++        name: "Praça / Rua Pedonal"
+       }
+       landuse/farmland: {
+-        terms: "Farmland, Pasto"
++        terms: "Farm, Pasto"
+       }
+       natural/peak: {
+-        name: "Cume"
++        name: "Pico / Cume"
+-        terms: "Cume, Montanha, Pináculo"
++        terms: "Peak, Montanha, Pináculo"
+       }
+       place/neighbourhood: {
+-        name: "Bairro"
++        name: "Lugar"
+       }
+       power/line: {
+-        name: "Linha de Média e Alta Tensão"
++        name: "Linha de Alta Tensão"
+       }
+       power/minor_line: {
+-        name: "Linha de Baixa Tensão"
++        name: "Linha de Média e Baixa Tensão"
+       }
+       power/pole: {
+-        name: "Torre de Baixa Tensão"
++        name: "Torre de Média e Baixa Tensão"
+       }
+       power/tower: {
+-        name: "Torre de Média e Alta Tensão"
++        name: "Torre de Alta Tensão"
+       }
+     }
+   }
+ }

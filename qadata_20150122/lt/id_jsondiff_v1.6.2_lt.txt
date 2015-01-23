@@ -1,0 +1,175 @@
+ {
++  feature_info: {
++    hidden_warning: "{count} paslėptų objektų"
++    hidden_details: "Šie objektai šiuo metu paslėpti: {details}"
++  }
++  map_data: {
++    title: "Žemėlapio duomenys"
++    description: "Žemėlapio duomenys"
++    data_layers: "Duomenų sluoksniai"
++    fill_area: "Pildyti plotus"
++    map_features: "Žemėlapio savybės"
++    autohidden: "Šie objektai buvo automatiškai paslėpti, nes ekrane tektų rodyti per daug. Galite didinti, jei norite juos keisti."
++  }
++  feature: {
++    points: {
++      description: "Taškai"
++      tooltip: "Lankytinos vietos"
++    }
++    major_roads: {
++      description: "Pagrindiniai keliai"
++      tooltip: "Plentai, gatvės ir pan."
++    }
++    minor_roads: {
++      description: "Nedideli keliai"
++      tooltip: "Privažiavimai, parkavimo keliai, miško/laukų keliai ir pan."
++    }
++    paths: {
++      description: "Takai"
++      tooltip: "Šaligatviai, pėsčiųjų takai, dviračių takai ir pan."
++    }
++    buildings: {
++      description: "Pastatai"
++      tooltip: "Pastatai, pastogės, garažai ir pan."
++    }
++    landuse: {
++      description: "Žemėnaudos objektai"
++      tooltip: "Miškai, dirbama žemė, parkai, gyvenamosios, komercinės zonos ir pan."
++    }
++    boundaries: {
++      description: "Ribos"
++      tooltip: "Administracinės ribos"
++    }
++    water: {
++      description: "Vandens objektai"
++      tooltip: "Upės, ežerai, prūdai, tvenkiniai ir pan."
++    }
++    rail: {
++      description: "Gelžkelio objektai"
++      tooltip: "Geležinkeliai"
++    }
++    power: {
++      description: "Energetikos objektai"
++      tooltip: "Elektros linijos, jėgainės, pastotės ir pan."
++    }
++    past_future: {
++      description: "Praeitis/Ateitis"
++      tooltip: "Siūloma, statoma, apleista, nugriauta ir pan."
++    }
++    others: {
++      description: "Kita"
++      tooltip: "Visa kita"
++    }
++  }
++  area_fill: {
++    wireframe: {
++      description: "Be užpildymo (tik rėmai)"
++      tooltip: "Įjungus rėmo režimą galima fone geriau matyti nuotraukas."
++    }
++    partial: {
++      description: "Dalinis užpildymas"
++      tooltip: "Plotai paišomi užpildant tik vietas ties vidiniais kampais. (Rekomenduojama pradedantiems žymėtojams)"
++    }
++    full: {
++      description: "Pilnas užpildymas"
++      tooltip: "Plotai paišomi pilnai užpildant"
++    }
++  }
+   operations: {
+     circularize: {
++      connected_to_hidden: "Negalima suapvalinti, nes yra prijungtas prie paslėpto objekto."
+     }
+     orthogonalize: {
++      connected_to_hidden: "Negalima kampų paversti stačiais, nes yra prijungtas prie paslėpto objekto."
+     }
+     straighten: {
++      connected_to_hidden: "Ši linija negali būti ištiesinta, nes ji prijungta prie paslėpto objekto."
+     }
+     delete: {
++      connected_to_hidden: "Tai negali būti panaikinta, nes yra prijungta prie paslėpto objekto."
+     }
+     disconnect: {
++      connected_to_hidden: "Tai negali būti atjungta, nes yra prijungta prie paslėpto objekto."
+     }
+     move: {
++      connected_to_hidden: "Tai negali būti perkelta, nes yra prijungta prie paslėpto objekto."
+     }
+     rotate: {
++      connected_to_hidden: "Tai negali būti pasukta, nes yra prijungta prie paslėpto objekto."
+     }
+     split: {
++      connected_to_hidden: "Tai negali būti padalinta, nes yra prijungta prie paslėpto objekto."
+     }
+   }
+   commit: {
++    changes: "{count} Pakeitimai"
+   }
+   inspector: {
++    add_fields: "Pridėti lauką:"
+   }
+   background: {
++    custom_prompt: "Įveskite kaladėlių URL šabloną. Galimi ženklai yra {z}, {x}, {y} Z/X/Y schemai ir {u} quadtile schemai."
+   }
+   save: {
++    unknown_error_details: "Prašome įsitikinti, kad esate prisijungęs prie interneto."
+   }
+   help: {
++    editing_saving: "# Keitimas ir įrašymas\n\nŠis redaktorius sukurtas visų pirma darbui prisijungus, todėl jūs jį paleidžiate per svetainę.\n\n### Objektų žymėjimas\n\nNorėdami pažymėti objektą, tokį kaip kelią ar lankytiną vietą, pažymėkite jį žemėlapyje. Taip pažymėtas objektus bus paryškintas ir bus atidaryta panelė su objekto informacija bei meniu veiksmų, kuriuos galite atlikti su pažymėtu objektu.\n\nNorėdami pažymėti kelis objektus, laikykite paspaudę klavišą „Shift“. Tada arba spauskite ant kitų objektų, kuriuos norite pažymėti, arba tempkite pele per žemėlapį, kad nupaišytumėte stačiakampį.\nTaip bus pažymėti visi taškai, esantys stačiakampio viduje.\n\n### Pakeitimų įrašymas\n\nKai padarote tarkim kelių, pastatų ar vietovių pakeitimų, jie saugomi vietoje tol, kol jūs neįrašote jų į serverį. Nesijaudinkite jei padarote klaidą, visada galite atstatyti pakeitimus su atstatymo mygtuku ir pakartotinai juos padaryti paspaudę pakartojimo mygtuką.\n\nSpauskite mygtuką „Įrašyti“, jei norite įrašyti grupę pakeitimų, pavyzdžiui jei baigėte vienos vietos pakeitimus ir dabar norėtumėte pradėti keisti kitoje vietoje. Galėsite peržiūrėti, ką padarėte, o redaktorius pateiks naudingus patarimus ar įspėjimus, jei kažkas atrodo ne visai teisingai.\n\nJei viskas gerai, galite įvesti trumpą komentarą, paaiškinantį jūsų pakeitimus ir tada vėl spausti „Įrašyti“, kad įkeltumėte pakeitimus į\n[OpenStreetMap.org](http://www.openstreetmap.org/), kur visi kiti naudotojai juos matys ir galės toliau tobulinti.\n\nJei negalite baigti savo pakeitimų vienu prisėdimu, galite palikti redaktoriaus langą ir grįžti vėliau (toje pačioje naršyklėje ir tame pačiame kompiuteryje), redaktorius jums pasiūlys tęsti jūsų darbą.\n"
++    gps: "# GPS\n\nGPS duomenys - patikimiausias duomenų šaltinis atvirame žemėlapyje. Šis redaktorius palaiko vietinius pėdsakus - „.gpx“ failus jūsų kompiuteryje. Jūs galite surinkti tokius GPS pėdsakus eile išmaniųjų telefonų aplikacijų arba asmenine GPS įranga.\n\nDaugiau informacijos apie tai, kaip daryti GPS apžiūrą rasite [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nNorint panaudoti GPX pėdsaką žymėjimui, atitempkite GPX failą ant žemėlapio. Jei jis bus atpažintas - pamatysite jį žemėlapyje kaip ryškią purpurinę liniją. Spauskite dešinėje esantį meniu „Žemėlapio duomenys“, norėdami įjungti, išjungti ar priartinti šį naują GPX valdomą sluoksnį.\n\nGPX pėdsakas nekeliamas tiesiogiai į OpenStreetMap - geriausias naudojimo būdas - naudoti pėdsaką kaip orientyrą braižant naujus žemėlapio objektus. Vėliau pėdsaką patartina įkelti, kad jį galėtų naudoti kiti braižytojai [upload it to OpenStreetMap](http://www.openstreetmap.org/trace/create).\n"
++    inspector: "# Inspektoriaus naudojimas\n\nInspekatorius - tai puslapio kairėje esanti dalis, kurioje jūs galite keisti pažymėto objekto detales.\n\n### Objekto tipo parinkimas\n\nPo to, kai jūs pridedate tašką, liniją ar plotą, jūs galite pasirinkti kokio tipo tai objektas, pavyzdžiui ar tai yra greitkelis ar kelias, prekybos centras ar kavinė. Inspektorius rodys mygtukus populiariausiems objektų tipams, o kitus galite rasti įrašydami raktažodžius į paieškos lauką.\n\nSpauskite „i“ objekto tipo mygtuko dešinėje apatinėje pusėje, jei norite sužinoti daugiau. Spauskite mygtuką, jei norite parinkti tipą.\n\n### Formų naudojimas ir žymų keitimas\n\nPo to, kai jūs parenkate objekto tipą, arba kai parinkote objektą, kurio tipas jau buvo nurodytas, inspektorius rodys laukus su objekto informacija, tokia kaip pavadinimas ir adresas.\n\nPo šiais laukais jūs galite spausti piktogramas, kad pridėtumėte kitas detales, tokias kaip [Wikipedijos](http://www.wikipedia.org/) informaciją, prieinamumą vėžymėlyje ir pan.\n\nInspektoriaus apačioje spauskite „Papildomo žymos“, kad pridėtumėte prie objekto bet kokias kitas žymas. [Taginfo](http://taginfo.openstreetmap.org/) - puikus resursas, kurio pagalba galite sužinoti daugiau apie kitas populiarias žymų kombinacijas.\n\nPakeitimai, kuriuos darote inspektoriuje automatiškai pritaikomi žemėlapiui. Bet kuriuo metu galite atstatyti pakeitimus spausdami mygtuką „atstatyti“.\n"
++    relations: "# Ryšiai\n\nRyšys - tai specialus OpenStreetMap objekto tipas, kuris grupuoja kelis objektus. Pavyzdžiui du populiarūs ryšių tipai yra *maršruto ryšys*, kuris grupuoja kelis skirtingus to paties greitkelio gabalus, ir *multipoligonai*, kurie grupuoja kelias linijas, apibrėžiančias sudėtingą plotą (tokį, kuris turi kelis gabalus arba skyles kaip riestainyje).\n\nObjektai ryšyje vadinami „nariais“. Šoninėje juostoje galite matyti, kuriems ryšiams priklauso objektas. Ten pat galite pažymėti ryšį. Pažymėjus ryšį galėsite matyti visus jo narius šoninėje juostoje bei paryškintus žemėlapyje.\n\nDažniausiai iD pasirūpins ir sutvarkys ryšius automatiškai, tol kol jūs keisite kitus objektus. Pagrindinis dalykas, kurį turėtumėte atsiminti yra tai, kad jei panaikinate kelio dalį, kad nupaišytumėte ją tiksliau iš naujo, būtinai turite naujai nupieštą dalį įtraukti į tą patį ryšį, į kurį buvo įtraukta ir pradinė dalis.\n\n## Ryšių keitimas\n\nJei norite keisti ryšius, štai pagrindiniai dalykai, kuriuos turite žinoti.\n\nNorėdami pridėti objektą prie ryšio, pažymėkite objektą, spauskite mygtuką „+“ šoninės juostos dalyje „Visi ryšiai“ ir tada parinkite arba įrašykite ryšio pavadinimą.\n\nNorėdami sukurti naują ryšį, pažymėkite pirmą objektą, kuris turėtų būti narys, spauskite mygtuką „+“ sekcijoje „Visi ryšiai“ ir tada parinkite „Naujas ryšys...“.\n\nNorėdami išimti objektą iš ryšio, parinkite objektą ir spauskite šiukšlių dėžės mygtuką šalia ryšio, iš kurio norite objektą išmesti.\n\nGalite sukurti multipoligonus su skylėmis naudodami mygtuką „Sulieti“. Nubrėžkite du plotus (vidinį ir išorinį), laikykite Shift mygtuką ir spauskite ant abiejų plotų, tada spauskite mygtuką „Sulieti“ (+).\n"
+   }
+   intro: {
+     areas: {
++      add: "Poligonai gali būti naudojami atvaizduoti ribas tokių objektų kaip ežerai, pastatai ir gyvenamosios teritorijos. Taip pat jie gali būti naudojami norint detalizuoti daugelį objektų, kuriuos paprastai žymime taškais. **Spauskite mygtuką \"Poligonas\", kad pridėtumėte naują plotą.**"
+     }
+     lines: {
++      add: "Linijos gali būti naudojamos atvaizduoti tokius objektus kaip keliai, geležinkeliai ir upės. **Spauskite mygtuką \"Linija\", kad pridėtumėte liniją.**"
+     }
+   }
+   presets: {
+     fields: {
++      bench: {
++        label: "Suolas"
++      }
++      crop: {
++        label: "Pasėliai"
++      }
++      service/bicycle/chaintool: {
++        options: {
++          yes: "Taip"
++          no: "Ne"
++        }
++      }
++      service/bicycle/pump: {
++        options: {
++          yes: "Taip"
++          no: "Ne"
++        }
++      }
++      takeaway: {
++        label: "Išsinešimui"
++        placeholder: "Taip, ne, tik išsinešimui..."
++        options: {
++          yes: "Taip"
++          no: "Ne"
++          only: "Tik išsinešimui"
++        }
++      }
++      tracktype: {
++        label: "Kelio tipas"
++      }
+       structure: {
++        label: "Struktūra"
+       }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Konditerija"
+-      }
+-      landuse/farmland: {
+-        name: "Dirbamos žemės"
+-      }
+     }
+   }
+ }

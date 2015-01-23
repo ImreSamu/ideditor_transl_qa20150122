@@ -1,0 +1,253 @@
+|presetFieldsKey|r|type|labelEn|labelTransl|icon|universal|keys|optionskey|valueEn|valueTransl|placeholderEn|placeholderTransl|endRec|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|access|1|access|Access|Zugangsberechtigung| | |access,foot,motor_vehicle,bicycle,horse| | | |Unknown|Unbekannt|last|
+|access_simple|1|combo|Access|Zugang| | |access| | | |yes|Ja|last|
+|access_toilets|1|combo|Access|Zugang| | |access| | | | | |last|
+|address|1|address|Address|Adresse|address|true|addr:housename,addr:housenumber,addr:street,addr:city,addr:postcode| | | | | |last|
+|admin_level|1|number|Admin Level|Verwaltungsebene| | |admin_level| | | | | |last|
+|aerialway|1|typeCombo|Type|Typ| | |aerialway| | | | | |last|
+|aerialway/access|1|combo|Access|Zugang| | |aerialway:access|entry|Entry|Eingang| | |last|
+|aerialway/access|2|combo| | | | | |exit|Exit|Ausgang| | |last|
+|aerialway/access|3|combo| | | | | |both|Both|Beide| | |last|
+|aerialway/bubble|1|check|Bubble|Blase| | |aerialway:bubble| | | | | |last|
+|aerialway/capacity|1|number|Capacity (per hour)|Kapazität (pro Stunde)| | |aerialway:capacity| | | |500, 2500, 5000...|500, 2500, 5000...|last|
+|aerialway/duration|1|number|Duration (minutes)|Dauer (Minuten)| | |aerialway:duration| | | |1, 2, 3...|1, 2, 3...|last|
+|aerialway/heating|1|check|Heated|beheizt| | |aerialway:heating| | | | | |last|
+|aerialway/occupancy|1|number|Occupancy|Belegung| | |aerialway:occupancy| | | |2, 4, 8...|2, 4, 8...|last|
+|aerialway/summer/access|1|combo|Access (summer)|Zugang (Sommer)| | |aerialway:summer:access|entry|Entry|Eingang| | |last|
+|aerialway/summer/access|2|combo| | | | | |exit|Exit|Ausgang| | |last|
+|aerialway/summer/access|3|combo| | | | | |both|Both|Beide| | |last|
+|aeroway|1|typeCombo|Type|Typ| | |aeroway| | | | | |last|
+|amenity|1|typeCombo|Type|Typ| | |amenity| | | | | |last|
+|artist|1|text|Artist|Künstler| | |artist_name| | | | | |last|
+|artwork_type|1|combo|Type|Typ| | |artwork_type| | | | | |last|
+|atm|1|check|ATM|Geldautomat| | |atm| | | | | |last|
+|backrest|1|check|Backrest|Lehne| | |backrest| | | | | |last|
+|barrier|1|typeCombo|Type|Typ| | |barrier| | | | | |last|
+|bench|1|check|Bench|Sitzbank| | |bench| | | | | |last|
+|bicycle_parking|1|combo|Type|Typ| | |bicycle_parking| | | | | |last|
+|boundary|1|combo|Type|Typ| | |boundary| | | | | |last|
+|building|1|typeCombo|Building|Gebäude| | |building| | | | | |last|
+|building_area|1|defaultcheck|Building|Gebäude| | |building| | | | | |last|
+|capacity|1|number|Capacity|Kapazität| | |capacity| | | |50, 100, 200...|50, 100, 200...|last|
+|cardinal_direction|1|combo|Direction|Richtung| | |direction|N|North|Nord| | |last|
+|cardinal_direction|2|combo| | | | | |E|East|Ost| | |last|
+|cardinal_direction|3|combo| | | | | |S|South|Süd| | |last|
+|cardinal_direction|4|combo| | | | | |W|West|West| | |last|
+|cardinal_direction|5|combo| | | | | |NE|Northeast|Nordost| | |last|
+|cardinal_direction|6|combo| | | | | |SE|Southeast|Südost| | |last|
+|cardinal_direction|7|combo| | | | | |SW|Southwest|Südwest| | |last|
+|cardinal_direction|8|combo| | | | | |NW|Northwest|Nordwest| | |last|
+|cardinal_direction|9|combo| | | | | |NNE|North-northeast|Nord-Nordost| | |last|
+|cardinal_direction|10|combo| | | | | |ENE|East-northeast|Ost-Nordost| | |last|
+|cardinal_direction|11|combo| | | | | |ESE|East-southeast|Ost-Südost| | |last|
+|cardinal_direction|12|combo| | | | | |SSE|South-southeast|Süd-Südost| | |last|
+|cardinal_direction|13|combo| | | | | |SSW|South-southwest|Süd-Südwest| | |last|
+|cardinal_direction|14|combo| | | | | |WSW|West-southwest|West-Südwest| | |last|
+|cardinal_direction|15|combo| | | | | |WNW|West-northwest|West-Nordwest| | |last|
+|cardinal_direction|16|combo| | | | | |NNW|North-northwest|Nord-Nordwest| | |last|
+|clock_direction|1|combo|Direction|Richtung| | |direction|clockwise|Clockwise|im Uhrzeigersinn| | |last|
+|clock_direction|2|combo| | | | | |anticlockwise|Counterclockwise|gegen den Uhrzeigersinn| | |last|
+|collection_times|1|text|Collection Times|Leerungszeiten| | |collection_times| | | | | |last|
+|construction|1|combo|Type|Typ| | |construction| | | | | |last|
+|country|1|combo|Country|Land| | |country| | | | | |last|
+|covered|1|check|Covered|Überdacht / Verdeckt| | |covered| | | | | |last|
+|craft|1|typeCombo|Type|Typ| | |craft| | | | | |last|
+|crop|1|combo|Crop|Ernte| | |crop| | | | | |last|
+|crossing|1|combo|Type|Typ| | |crossing| | | | | |last|
+|cuisine|1|combo|Cuisine|Küche| | |cuisine| | | | | |last|
+|delivery|1|check|Delivery|Zustellung| | |delivery| | | | | |last|
+|denomination|1|combo|Denomination|Glaubensrichtung| | |denomination| | | | | |last|
+|denotation|1|combo|Denotation|Vorgesehene Verwendung| | |denotation| | | | | |last|
+|description|1|textarea|Description|Beschreibung| | |description| | | | | |last|
+|electrified|1|combo|Electrification|Elektrifizierung| | |electrified|contact_line|Contact Line|Fahrleitung|Contact Line, Electrified Rail...|Fahrleitung, elektrifizierte Eisenbahn ...|last|
+|electrified|2|combo| | | | | |rail|Electrified Rail|Elektrifizierte Eisenbahn| | |last|
+|electrified|3|combo| | | | | |yes|Yes (unspecified)|Ja (unspezifiziert)| | |last|
+|electrified|4|combo| | | | | |no|No|Nein| | |last|
+|elevation|1|number|Elevation|Höhe über dem Meeresspiegel|elevation|true|ele| | | | | |last|
+|emergency|1|check|Emergency|Notfall| | |emergency| | | | | |last|
+|entrance|1|typeCombo|Type|Typ| | |entrance| | | | | |last|
+|except|1|combo|Exceptions|Ausnahmen| | |except| | | | | |last|
+|fax|1|tel|Fax|Fax| | |fax| | | |+31 42 123 4567|+31 42 123 4567|last|
+|fee|1|check|Fee|Gebühr| | |fee| | | | | |last|
+|fire_hydrant/type|1|combo|Type|Typ| | |fire_hydrant:type|pillar|Pillar/Aboveground|Ständer/Oberirdisch| | |last|
+|fire_hydrant/type|2|combo| | | | | |underground|Underground|Unterirdisch| | |last|
+|fire_hydrant/type|3|combo| | | | | |wall|Wall|Mauer| | |last|
+|fire_hydrant/type|4|combo| | | | | |pond|Pond|Teich| | |last|
+|fixme|1|textarea|Fix Me|Korrigiere mich| | |fixme| | | | | |last|
+|fuel|1|combo|Fuel|Brennstoff| | |fuel| | | | | |last|
+|fuel/biodiesel|1|check|Sells Biodiesel|Verkauft Biodiesel| | |fuel:biodiesel| | | | | |last|
+|fuel/diesel|1|check|Sells Diesel|Verkauft Diesel| | |fuel:diesel| | | | | |last|
+|fuel/e10|1|check|Sells E10|Verkauft E10| | |fuel:e10| | | | | |last|
+|fuel/e85|1|check|Sells E85|Verkauft E85| | |fuel:e85| | | | | |last|
+|fuel/lpg|1|check|Sells Propane|Verkauft Propan| | |fuel:lpg| | | | | |last|
+|fuel/octane_100|1|check|Sells Racing Gasoline|Verkauft Rennkraftstoffe| | |fuel:octane_100| | | | | |last|
+|fuel/octane_91|1|check|Sells Regular Gasoline|Verkauft Kraftstoffe| | |fuel:octane_91| | | | | |last|
+|fuel/octane_95|1|check|Sells Midgrade Gasoline|Verkauft Mittelklassekraftstoffe| | |fuel:octane_95| | | | | |last|
+|fuel/octane_98|1|check|Sells Premium Gasoline|Verkauft Premiumkraftstoffe| | |fuel:octane_98| | | | | |last|
+|gauge|1|combo|Gauge|Spurbreite| | |gauge| | | | | |last|
+|generator/method|1|combo|Method|Methode| | |generator:method| | | | | |last|
+|generator/source|1|combo|Source|Quelle| | |generator:source| | | | | |last|
+|generator/type|1|combo|Type|Typ| | |generator:type| | | | | |last|
+|golf_hole|1|text|Reference|Loch-Nummer| | |ref| | | |Hole number (1-18)|1-18|last|
+|handicap|1|number|Handicap|Handicap| | |handicap| | | |1-18|1-18|last|
+|highway|1|typeCombo|Type|Typ| | |highway| | | | | |last|
+|historic|1|typeCombo|Type|Typ| | |historic| | | | | |last|
+|hoops|1|number|Hoops|Basketball| | |hoops| | | |1, 2, 4...|1, 2, 4 ...|last|
+|iata|1|text|IATA|IATA| | |iata| | | | | |last|
+|icao|1|text|ICAO|ICAO| | |icao| | | | | |last|
+|incline|1|combo|Incline|Steigung| | |incline| | | | | |last|
+|information|1|typeCombo|Type|Typ| | |information| | | | | |last|
+|internet_access|1|combo|Internet Access|Internetzugang| | |internet_access|yes|Yes|Ja| | |last|
+|internet_access|2|combo| | | | | |no|No|Nein| | |last|
+|internet_access|3|combo| | | | | |wlan|Wifi|Wifi| | |last|
+|internet_access|4|combo| | | | | |wired|Wired|kabelgebunden| | |last|
+|internet_access|5|combo| | | | | |terminal|Terminal|Terminal| | |last|
+|lamp_type|1|combo|Type|Typ| | |lamp_type| | | | | |last|
+|landuse|1|typeCombo|Type|Typ| | |landuse| | | | | |last|
+|lanes|1|number|Lanes|Fahrspuren| | |lanes| | | |1, 2, 3...|1, 2, 3...|last|
+|layer|1|combo|Layer|Ebene| | |layer| | | | | |last|
+|leisure|1|typeCombo|Type|Typ| | |leisure| | | | | |last|
+|length|1|number|Length (Meters)|Länge (Meter)| | |length| | | | | |last|
+|levels|1|number|Levels|Etagen| | |building:levels| | | |2, 4, 6...|2, 4, 6...|last|
+|lit|1|check|Lit|Beleuchtet| | |lit| | | | | |last|
+|location|1|combo|Location|Position| | |location| | | | | |last|
+|man_made|1|typeCombo|Type|Typ| | |man_made| | | | | |last|
+|maxspeed|1|maxspeed|Speed Limit|Höchstgeschwindigkeit| | |maxspeed| | | |40, 50, 60...|40, 50, 60...|last|
+|mtb/scale|1|combo|Mountain Biking Difficulty|MTB Schwierigkeitsgrad| | |mtb:scale|0|0: Solid gravel/packed earth, no obstacles, wide curves|0: Solider Kies/komprimierte Erde, keine Hindernisse, weite Kurven|0, 1, 2, 3...|0, 1, 2, 3 ...|last|
+|mtb/scale|2|combo| | | | | |1|1: Some loose surface, small obstacles, wide curves|1: Teilweise lockerer Untergrund, kleine Hindernisse, weite Kurve| | |last|
+|mtb/scale|3|combo| | | | | |2|2: Much loose surface, large obstacles, easy hairpins|2: Viel looser Untergrund, große Hindernisse, einfach Haarnadelkurven| | |last|
+|mtb/scale|4|combo| | | | | |3|3: Slippery surface, large obstacles, tight hairpins|3: Rutschige Oberfläche, große Hindernisse, enge Haarnadelkurven| | |last|
+|mtb/scale|5|combo| | | | | |4|4: Loose surface or boulders, dangerous hairpins|4: Lockere Oberfläche oder Felsbrocken, gefährliche Haarnadelkurven| | |last|
+|mtb/scale|6|combo| | | | | |5|5: Maximum difficulty, boulder fields, landslides|5: Maximale Schwierigkeit, Geröllfelder, Erdrutsche| | |last|
+|mtb/scale|7|combo| | | | | |6|6: Not rideable except by the very best mountain bikers|6: Nicht befahrbar ausgenommen durch die allerbesten Mountain Biker| | |last|
+|mtb/scale/imba|1|combo|IMBA Trail Difficulty|IMBA Schwierigkeitsgrad| | |mtb:scale:imba|0|Easiest (white circle)|Am Einfachsten (weißer Kreis)|Easy, Medium, Difficult...|Einfach, Mittel, Schwierig ...|last|
+|mtb/scale/imba|2|combo| | | | | |1|Easy (green circle)|einfach (grüner Kreis)| | |last|
+|mtb/scale/imba|3|combo| | | | | |2|Medium (blue square)|Mittel (blaues Quadrat)| | |last|
+|mtb/scale/imba|4|combo| | | | | |3|Difficult (black diamond)|Schwierig (schwarze Raute)| | |last|
+|mtb/scale/imba|5|combo| | | | | |4|Extremely Difficult (double black diamond)|Sehr schwierig (doppelte schwarze Raute)| | |last|
+|mtb/scale/uphill|1|combo|Mountain Biking Uphill Difficulty|Mountain Bike Bergauf-Hinderniss| | |mtb:scale:uphill|0|0: Avg. incline <10%, gravel/packed earth, no obstacles|0: Durschnittliche Steigung <10%, Kies/verdichtete Erde, keine Hindernisse|0, 1, 2, 3...|0, 1, 2, 3 ...|last|
+|mtb/scale/uphill|2|combo| | | | | |1|1: Avg. incline <15%, gravel/packed earth, few small objects|1: Durchschnittliche Steigung <15%, Kies/verdichtete Erde, wenige kleine Hindernisse| | |last|
+|mtb/scale/uphill|3|combo| | | | | |2|2: Avg. incline <20%, stable surface, fistsize rocks/roots|2: Durchschnittliche Steigung <20%, stabiel Oberfläche, fautgroße Steine/Wurzeln| | |last|
+|mtb/scale/uphill|4|combo| | | | | |3|3: Avg. incline <25%, variable surface, fistsize rocks/branches|3: Durchschnittliche Steigung <25%, unterschiedliche Oberfläche, faustgroße Steine/Wurzeln| | |last|
+|mtb/scale/uphill|5|combo| | | | | |4|4: Avg. incline <30%, poor condition, big rocks/branches|4: Durchschnittliche Steigung <30%, schlechter Zustand, große Steine/Zweige| | |last|
+|mtb/scale/uphill|6|combo| | | | | |5|5: Very steep, bike generally needs to be pushed or carried|5: sehr steig, Fahrrad muss generell geschoben oder getragen werden| | |last|
+|name|1|localized|Name|Name| | |name| | | |Common name (if any)|allgemeine Bezeichnung (falls vorhanden)|last|
+|natural|1|typeCombo|Natural|Natur| | |natural| | | | | |last|
+|network|1|text|Network|Netzwerk| | |network| | | | | |last|
+|note|1|textarea|Note|Notiz|note|true|note| | | | | |last|
+|office|1|typeCombo|Type|Typ| | |office| | | | | |last|
+|oneway|1|check|One Way|Einbahnstraße| | |oneway| | | | | |last|
+|oneway_yes|1|check|One Way|Einbahnstraße| | |oneway| | | | | |last|
+|opening_hours|1|text|Hours|Öffnungszeiten| | |opening_hours| | | | | |last|
+|operator|1|text|Operator|Betreiber| | |operator| | | | | |last|
+|par|1|number|Par|Par| | |par| | | |3, 4, 5...|3, 4, 5…|last|
+|park_ride|1|check|Park and Ride|Park and Ride| | |park_ride| | | | | |last|
+|parking|1|combo|Type|Typ| | |parking|surface|Surface|Oberfläche| | |last|
+|parking|2|combo| | | | | |multi-storey|Multilevel|Mehrstufig| | |last|
+|parking|3|combo| | | | | |underground|Underground|Untergrund| | |last|
+|parking|4|combo| | | | | |sheds|Sheds|Schuppen| | |last|
+|parking|5|combo| | | | | |carports|Carports|Carports| | |last|
+|parking|6|combo| | | | | |garage_boxes|Garage Boxes|Garagen| | |last|
+|parking|7|combo| | | | | |lane|Roadside Lane|Straßenrand| | |last|
+|phone|1|tel|Phone|Telefon|telephone|true|phone| | | |+31 42 123 4567|+31 42 123 4567|last|
+|piste/difficulty|1|combo|Difficulty|Schwierigkeit| | |piste:difficulty|novice|Novice (instructional)|Anfänger (Unterricht)|Easy, Intermediate, Advanced...|Einfach, Mittel, Fortgeschritten ...|last|
+|piste/difficulty|2|combo| | | | | |easy|Easy (green circle)|Einfach (grüner Kreis)| | |last|
+|piste/difficulty|3|combo| | | | | |intermediate|Intermediate (blue square)|Mittel (blaues Quadrat)| | |last|
+|piste/difficulty|4|combo| | | | | |advanced|Advanced (black diamond)|fortgeschritten (schwarze Raute)| | |last|
+|piste/difficulty|5|combo| | | | | |expert|Expert (double black diamond)|Experte (doppelte schwarze Raute)| | |last|
+|piste/difficulty|6|combo| | | | | |freeride|Freeride (off-piste)|Variantenabfahrt (abseits der Piste)| | |last|
+|piste/difficulty|7|combo| | | | | |extreme|Extreme (climbing equipment required)|Extrem (Kletterausrüstung benötigt)| | |last|
+|piste/grooming|1|combo|Grooming|Grooming| | |piste:grooming|classic|Classic|Klassisch| | |last|
+|piste/grooming|2|combo| | | | | |mogul|Mogul|Buckelpiste| | |last|
+|piste/grooming|3|combo| | | | | |backcountry|Backcountry|Hinterland-Skitouren| | |last|
+|piste/grooming|4|combo| | | | | |classic+skating|Classic and Skating|Klassisch oder Skating| | |last|
+|piste/grooming|5|combo| | | | | |scooter|Scooter/Snowmobile|Roller/Schneemobil| | |last|
+|piste/grooming|6|combo| | | | | |skating|Skating|Skating| | |last|
+|piste/type|1|typeCombo|Type|Typ| | |piste:type| | | | | |last|
+|place|1|typeCombo|Type|Typ| | |place| | | | | |last|
+|population|1|text|Population|Bevölkerung| | |population| | | | | |last|
+|power|1|typeCombo|Type|Typ| | |power| | | | | |last|
+|railway|1|typeCombo|Type|Typ| | |railway| | | | | |last|
+|recycling/cans|1|check|Accepts Cans|Dosen| | |recycling:cans| | | | | |last|
+|recycling/clothes|1|check|Accepts Clothes|Kleidung| | |recycling:clothes| | | | | |last|
+|recycling/glass|1|check|Accepts Glass|Glas| | |recycling:glass| | | | | |last|
+|recycling/paper|1|check|Accepts Paper|Papier| | |recycling:paper| | | | | |last|
+|ref|1|text|Reference|Referenz| | |ref| | | | | |last|
+|relation|1|combo|Type|Typ| | |type| | | | | |last|
+|religion|1|combo|Religion|Religion| | |religion| | | | | |last|
+|restriction|1|combo|Type|Typ| | |restriction| | | | | |last|
+|restrictions|1|restrictions|Turn Restrictions|Abbiegevorschriften|restrictions| | | | | | | |last|
+|route|1|combo|Type|Typ| | |route| | | | | |last|
+|route_master|1|combo|Type|Typ| | |route_master| | | | | |last|
+|sac_scale|1|combo|Hiking Difficulty|Wanderweg Klassifizierung| | |sac_scale|hiking|T1: Hiking|T1: Wandern|Mountain Hiking, Alpine Hiking...|Bergwandern, Bergsteigen ...|last|
+|sac_scale|2|combo| | | | | |mountain_hiking|T2: Mountain Hiking|T2: Bergwandern| | |last|
+|sac_scale|3|combo| | | | | |demanding_mountain_hiking|T3: Demanding Mountain Hiking|T3: Anspruchsvolles Bergwandern| | |last|
+|sac_scale|4|combo| | | | | |alpine_hiking|T4: Alpine Hiking|T4: Bergsteigen| | |last|
+|sac_scale|5|combo| | | | | |demanding_alpine_hiking|T5: Demanding Alpine Hiking|T5: Anspruchsvolles Bergsteigen| | |last|
+|sac_scale|6|combo| | | | | |difficult_alpine_hiking|T6: Difficult Alpine Hiking|T6: Schwieriges Bergsteigen| | |last|
+|seasonal|1|check|Seasonal|Saisonal| | |seasonal| | | | | |last|
+|service|1|combo|Type|Typ| | |service| | | | | |last|
+|service/bicycle/chaintool|1|check|Chain Tool|Kettennietdrücker| | |service:bicycle:chaintool| | | | | |last|
+|service/bicycle/pump|1|check|Air Pump|Luftpumpe| | |service:bicycle:pump| | | | | |last|
+|shelter|1|check|Shelter|Unterstand| | |shelter| | | | | |last|
+|shelter_type|1|combo|Type|Typ| | |shelter_type| | | | | |last|
+|shop|1|typeCombo|Type|Typ| | |shop| | | | | |last|
+|sloped_curb|1|combo|Sloped Curb|abgeschrägter Bordstein| | |sloped_curb| | | | | |last|
+|smoking|1|combo|Smoking|Rauchen| | |smoking|no|No smoking anywhere|Rauchen überall verboten|No, Separated, Yes...|Nein, Getrennt, Ja ...|last|
+|smoking|2|combo| | | | | |separated|In smoking areas, not physically isolated|In Raucherzonen, nicht baulich getrennt| | |last|
+|smoking|3|combo| | | | | |isolated|In smoking areas, physically isolated|In Raucherzonen, baulich getrennt| | |last|
+|smoking|4|combo| | | | | |outside|Allowed outside|Im Freien erlaubt| | |last|
+|smoking|5|combo| | | | | |yes|Allowed everywhere|Überall erlaubt| | |last|
+|smoking|6|combo| | | | | |dedicated|Dedicated to smokers (e.g. smokers' club)|Für Raucher besteimmt (z.B.: Raucherklub)| | |last|
+|smoothness|1|combo|Smoothness|Gleichmäßigkeit| | |smoothness|excellent|Thin Rollers: rollerblade, skateboard|Schmale Reifen: Rollerblade, Skateboard|Thin Rollers, Wheels, Off-Road...|Schmale Reifen, Räder, Off-Road ...|last|
+|smoothness|2|combo| | | | | |good|Thin Wheels: racing bike|Schmale Reifen: Rennrad| | |last|
+|smoothness|3|combo| | | | | |intermediate|Wheels: city bike, wheelchair, scooter|Räder: Citybike, Rollstuhl, Roller| | |last|
+|smoothness|4|combo| | | | | |bad|Robust Wheels: trekking bike, car, rickshaw|Robuste Räder: Trekkingrad, Auto, Rikscha| | |last|
+|smoothness|5|combo| | | | | |very_bad|High Clearance: light duty off-road vehicle|Hoher Radstand: leichtes Off-Road-Fahrzeug| | |last|
+|smoothness|6|combo| | | | | |horrible|Off-Road: heavy duty off-road vehicle|Off-Road: Schweres Off-Road-Fahrzeug| | |last|
+|smoothness|7|combo| | | | | |very_horrible|Specialized off-road: tractor, ATV|Spezialisiertes Off-Road: Traktor, Quad| | |last|
+|smoothness|8|combo| | | | | |impassible|Impassible / No wheeled vehicle|Unpassierbar / keine Reifen-Fahrzeuge| | |last|
+|social_facility_for|1|radio|People served|Zielgruppe der Einrichtung| | |social_facility:for| | | |Homeless, Disabled, Child, etc|Obdachlose, Behinderte, Kinder, etc.|last|
+|source|1|text|Source|Quelle|source|true|source| | | | | |last|
+|sport|1|combo|Sport|Sport| | |sport| | | | | |last|
+|sport_ice|1|combo|Sport|Sport| | |sport| | | | | |last|
+|sport_racing|1|combo|Sport|Sport| | |sport| | | | | |last|
+|structure|1|radio|Structure|Struktur| | |bridge,tunnel,embankment,cutting,ford| | | |Unknown|Unbekannt|last|
+|studio_type|1|combo|Type|Typ| | |type| | | | | |last|
+|substation|1|typeCombo|Type|Typ| | |substation| | | | | |last|
+|supervised|1|check|Supervised|überwacht| | |supervised| | | | | |last|
+|surface|1|combo|Surface|Oberfläche| | |surface| | | | | |last|
+|tactile_paving|1|check|Tactile Paving|taktile Oberfläche| | |tactile_paving| | | | | |last|
+|takeaway|1|combo|Takeaway|Takeaway| | |takeaway|yes|Yes|Ja|Yes, No, Takeaway Only...|Ja, Nein, Nur Takeaway ...|last|
+|takeaway|2|combo| | | | | |no|No|Nein| | |last|
+|takeaway|3|combo| | | | | |only|Takeaway Only|Nur Takeaway| | |last|
+|toilets/disposal|1|combo|Disposal|Toiletten-Bauart| | |toilets:disposal|flush|Flush|Spülung| | |last|
+|toilets/disposal|2|combo| | | | | |pitlatrine|Pit/Latrine|Grube/Latrine| | |last|
+|toilets/disposal|3|combo| | | | | |chemical|Chemical|Chemisch| | |last|
+|toilets/disposal|4|combo| | | | | |bucket|Bucket|Eimer| | |last|
+|tourism|1|typeCombo|Type|Typ| | |tourism| | | | | |last|
+|towertype|1|combo|Tower type|Turmart| | |tower:type| | | | | |last|
+|tracktype|1|combo|Track Type|Feld-/Waldweg-Typ| | |tracktype|grade1|Solid: paved or heavily compacted hardcore surface|Fest: befestigt oder sehr kompakte harte Oberfläche|Solid, Mostly Solid, Soft...|fest, großteils fest, weich ...|last|
+|tracktype|2|combo| | | | | |grade2|Mostly Solid: gravel/rock with some soft material mixed in|Großteils Fest: Kies/Stein gemischt mit etwas weichem Material| | |last|
+|tracktype|3|combo| | | | | |grade3|Even mixture of hard and soft materials|Gleichmäßige Mischung von harten und weichem Material| | |last|
+|tracktype|4|combo| | | | | |grade4|Mostly Soft: soil/sand/grass with some hard material mixed in|Großteils weich: Erde/Sand/Gras gemischt mit etwas hartem Material| | |last|
+|tracktype|5|combo| | | | | |grade5|Soft: soil/sand/grass|Weiche: Erde/Sand/Gras| | |last|
+|trail_visibility|1|combo|Trail Visibility|Erkennbarkeit des Wanderweges| | |trail_visibility|excellent|Excellent: unambiguous path or markers everywhere|Ausgezeichnet: unmissverständlicher Weg oder überall Markierungen|Excellent, Good, Bad...|Ausgezeichnet, Gut, Schlecht ...|last|
+|trail_visibility|2|combo| | | | | |good|Good: markers visible, sometimes require searching|Gut: sicherbare Markierungen, müssen teilweise gesucht werden| | |last|
+|trail_visibility|3|combo| | | | | |intermediate|Intermediate: few markers, path mostly visible|Mittelmäßig: Wenige Markierungen, Weg großteils sichtbar| | |last|
+|trail_visibility|4|combo| | | | | |bad|Bad: no markers, path sometimes invisible/pathless|Schlecht: Keine Markierungen, Weg teilweise unsichtbar oder nicht vorhanden| | |last|
+|trail_visibility|5|combo| | | | | |horrible|Horrible: often pathless, some orientation skills required|Schrecklich: oft kein Weg, teilweise Orientierungserfahrung benötigt| | |last|
+|trail_visibility|6|combo| | | | | |no|No: pathless, excellent orientation skills required|Nein: Kein Weg, ausgezeichnete Orientierungserfahrung benötigt| | |last|
+|tree_type|1|combo|Type|Typ| | |type| | | | | |last|
+|trees|1|combo|Trees|Bäume| | |trees| | | | | |last|
+|tunnel|1|combo|Tunnel|Tunnel| | |tunnel| | | | | |last|
+|vending|1|combo|Type of Goods|Dienstleistung| | |vending| | | | | |last|
+|water|1|combo|Type|Typ| | |water| | | | | |last|
+|waterway|1|typeCombo|Type|Typ| | |waterway| | | | | |last|
+|website|1|url|Website|Webseite|website|true|website| | | |http://example.com/|http://example.com/|last|
+|wetland|1|combo|Type|Typ| | |wetland| | | | | |last|
+|wheelchair|1|radio|Wheelchair Access|Rollstuhlzugang|wheelchair|true|wheelchair| | | | | |last|
+|width|1|number|Width (Meters)|Breite (Meter)| | |width| | | | | |last|
+|wikipedia|1|wikipedia|Wikipedia|Wikipedia|wikipedia|true|wikipedia| | | | | |last|
+|wood|1|combo|Type|Typ| | |wood| | | | | |last|

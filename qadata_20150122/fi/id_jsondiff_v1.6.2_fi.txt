@@ -1,0 +1,245 @@
+ {
++  feature_info: {
++    hidden_details: "Nämä ominaisuudet ovat nykyisin piilotettu: {details}"
++  }
++  map_data: {
++    title: "Karttatiedot"
++    description: "Karttatiedot"
++    data_layers: "Tietokerrokset"
++    map_features: "Karttaominaisuudet"
++  }
++  feature: {
++    major_roads: {
++      description: "Päätiet"
++      tooltip: "Valtatiet, kadut, jne."
++    }
++    minor_roads: {
++      description: "Pienemmät tiet"
++    }
++    paths: {
++      description: "Polut"
++    }
++    buildings: {
++      description: "Rakennukset"
++    }
++    rail: {
++      tooltip: "Rautatiet"
++    }
++    others: {
++      description: "Muut"
++      tooltip: "Kaikki muu"
++    }
++  }
+   operations: {
+     delete: {
++      description: "Poista tämä kohde pysyvästi."
+     }
+   }
+   commit: {
++    changes: "{count} muutosta"
+   }
+   inspector: {
++    add_fields: "Lisää kenttä:"
+   }
+   help: {
+-    gps: "# GPS\n\nGPS-mittaukset ovat tärkein OpenStreetMapin aineiston lähde. Tämä\nmuokkausohjelma tukee omalta tietokoneeltasi käytettäviä `.gpx`-tiedostoja.\nGPS-mittauksia voi tehdä useilla älypuhelinsovelluksilla ja tietysti myös\nerillisillä GPS-mittalaitteilla.\n\nLisätietoja GPS-mittausten tekemisestä on sivuilla\n[Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/)\nja [Aloittelijan opas](http://wiki.openstreetmap.org/wiki/Fi:Beginners_Guide_1.1).\n\nKäytä GPX-tiedostoa kartoittamisen apuna vetämällä ja pudottamalla\ntiedosto kartanmuokkausohjelmaan. Jos se toimii, GPS-jälki ilmestyy\nkarttapohjalle kirkkaanvihreänä viivana. Tämän uuden GPX-karttatason\nasetuksia voi muuttaa Taustan asetukset -valikossa.\n\nTällä tavalla kartoittamisen apuna käytettyä GPX-tiedostoa ei tallenneta\nOpenStreetMapiin - tiedosto tulee hyödynnettyä parhaiten tallentamalla\ntiedosto myös muiden [karttakehittäjien käyttöön](http://www.openstreetmap.org/trace/create).\n"
+   }
+   presets: {
+     fields: {
++      bench: {
++        label: "Penkki"
++      }
++      craft: {
++        label: "Tyyppi"
++      }
++      sac_scale: {
++        label: "Patikointireitin vaikeustaso"
++        placeholder: "Vuoristopatikointi, alppipatikointi..."
++        options: {
++          hiking: "T1: Patikointi"
++          mountain_hiking: "T2: Vuoristopatikointi"
++          demanding_mountain_hiking: "T3: Vaativa vuoristopatikointi"
++          alpine_hiking: "T4: Alppipatikointi"
++          demanding_alpine_hiking: "T5: Vaativa alppipatikointi"
++          difficult_alpine_hiking: "T6: Vaikea alppipatikointi"
++        }
++      }
++      seasonal: {
++        label: "Kausiluonteisuus"
++      }
++      tree_type: {
++        label: "Tyyppi"
++      }
++      trees: {
++        label: "Puut"
++      }
+       cardinal_direction: {
+         options: {
++          W: "Länsi"
+         }
+       }
+       electrified: {
+         options: {
++          contact_line: "Sähkojohtimet"
++          rail: "Sähkökisko"
+         }
+       }
+       mtb/scale: {
++        label: "Maastopyöräilyn haastavuus"
++        options: {
++          0: "0: Tasainen sora/pakattu maa-aines, ei esteitä, laajakaariset käännökset"
++          1: "1: Hieman irtomaata, pieniä esteitä, laajakaariset käännökset"
++          2: "2: Runsaasti irtomaata, suuria esteitä, helpot käännökset"
++          3: "3: Liukas pinta, suuria esteitä, tiukat käännökset"
++          4: "4: Irtomaapäällyste tai -kalliot, vaarralliset käännökset"
++          5: "5: Vaikein mahdollinen, kivikkoa, jyrkänteitä"
++          6: "6: Ei ajokelpoinen huippuammattilaisia lukuunottamatta"
++        }
+       }
+       mtb/scale/imba: {
++        label: "IMBA-polkuluokitus"
+       }
+       mtb/scale/uphill: {
++        label: "Ylämäkipyöräilyn haastavuus"
++        options: {
++          0: "0: Nousu keskimäärin <10%, sorapohja, ei esteitä"
++          1: "1: Nousu keskimäärin <15%, sorapohja, satunnaisia pieniä esteitä"
++          2: "2: Nousu keskimäärin <20%, vakaa pinta, juurikkoa"
++          3: "3: Nousu keskimäärin <25%, vaihteleva pinta, kiviä, runsasta juurikkoa"
++          4: "4: Nousu keskimäärin <30%, huonokuntoinen, suuria kiviä ja erittäin runsasta juurikkoa"
++          5: "5: Todella jyrkkä, pyörän taluttaminen tai kantaminen suositeltavaa"
++        }
+       }
+       piste/difficulty: {
++        placeholder: "Helppo, keskivaikea, vaikea..."
++        options: {
++          novice: "Vasta-alkaja (ohjeellinen)"
++          easy: "Erittäin helppo (vihreä ympyrä)"
++          intermediate: "Helppo (sininen neliö)"
++          advanced: "Keskivaikea (punainen timantti)"
++          expert: "Vaikea (musta timantti)"
++          freeride: "Merkitsemätön (off-rinne)"
++          extreme: "Extreme (edellyttää kiipeilyvarusteet)"
++        }
+       }
+       piste/grooming: {
++        options: {
++          classic: "Tasainen"
++          mogul: "Kumpare"
++          backcountry: "Maaseutuhiihto"
++          classic+skating: "Perinteinen ja vapaa hiihtotyyli"
++          scooter: "Lumikelkka"
++          skating: "Luistelu"
++        }
+-        label: "Latupohjan soveltuvuus"
++        label: "Rinne/latupohja"
+       }
+       piste/type: {
++        options: {
++          downhill: "Laskettelu"
++          nordic: "Murtomaahiihto"
++          playground: "Leikkipuisto"
++        }
+       }
+       trail_visibility: {
++        placeholder: "Erinomainen, hyvä, huono..."
++        options: {
++          excellent: "Erinomainen: selkeästi erottuva tai viitoitettu polku"
++          good: "Hyvä: viitoitettu hyvin, vaatii satunnaisesti polun hakemista"
++          intermediate: "Keskinkertainen: viitoitettu satunnaisesti, polku pääosin näkyvissä"
++          bad: "Huono: ei viitoitusta, polku on satunnaisesti heikosti havaittavissa/puuttuu kokonaan"
++          horrible: "Surkea: pääosin ei polkua ollenkaan, suunnistustaidot välttämättömiä"
++          no: "Ei: ei minkäänlaista polkua, edistyneet suunnistustaidot välttämättömiä"
++        }
+-        label: "Näkyvyys"
++        label: "Havaittavuus"
+       }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Konditoria"
+-      }
++      amenity/bureau_de_change: {
++        name: "Valuutanvaihtopiste"
++        terms: "valuutta, raha, vaihto, vaihtaminen, valuutanvaihto, valuutanvaihtaminen, rahanvaihto, rahanvaihtaminen, Forex"
++      }
++      amenity/bus_station: {
++        name: "Linja-autoasema"
++        terms: "linja, linja-auto, asema, pysäkki, keskus, matkakeskus, bussiasema, bussi, bussit, nysse, dösä, terminaali, linja-autoterminaali, bussiterminaali"
++      }
++      amenity/childcare: {
++        name: "Päiväkoti"
++        terms: "päivähoito, perhepäivähoito, päiväkoti, lapset, lapsi, lastenhoito, lastenvahti, lapsenvahti, lapsenhoito, vahtiminen"
++      }
++      amenity/kindergarten: {
++        name: "Esikoulu"
++        terms: "eskari, leikkikoulu, koulu, nollaluokka, 0. luokka, 0 luokka, 0-luokka"
++      }
++      amenity/parking_entrance: {
++        name: "Pysäköintihallin sisäänajo"
++        terms: "pysäköinti, parkkipaikka, pysäköintipaikka, parkki, pysäköintitalo, parkkitalo, ulosajo, sisäänajo, ajo, ulos, sisään"
++      }
++      building/bunker: {
++        name: "Bunkkeri"
++      }
++      building/kindergarten: {
++        name: "Esikoulurakennus"
++      }
++      landuse/churchyard: {
++        name: "Hautausmaa"
++        terms: "hautaaminen, vainaja, kuollut, ruumis, hautuumaa, hautaus, hauta, haudat"
++      }
++      leisure/running_track: {
++        name: "Juoksupolku"
++      }
++      shop/art: {
++        name: "Taidegalleria"
++      }
++      shop/baby_goods: {
++        name: "Vauvatarvikeliike"
++        terms: "vauva, lapsi, vastasyntynyt, vauvatalo, lastenhoito, lapset, vauvat, vauvanhoito, hoito, lapsenhoito"
++      }
++      shop/bag: {
++        name: "Matkalaukkumyymälä"
++        terms: "matkalaukku, matkatavara, laukku, kassi, säkki, kapsäkki, laukut, kassit, säkit, kapsäkit"
++      }
++      shop/books: {
++        name: "Kirjakauppa"
++      }
++      shop/candles: {
++        name: "Kynttiläkauppa"
++      }
++      shop/carpet: {
++        name: "Mattokauppa"
++      }
++      shop/cheese: {
++        name: "Juustopuoti"
++      }
++      shop/chocolate: {
++        name: "Suklaapuoti"
++      }
++      shop/confectionery: {
++        name: "Karkkipuoti"
++      }
++      shop/cosmetics: {
++        name: "Kosmetiikkamyymälä"
++      }
++      shop/erotic: {
++        name: "Erotiikkamyymälä"
++      }
++      shop/kiosk: {
++        name: "Lehtikioski"
++      }
++      shop/scuba_diving: {
++        name: "Sukellusliike"
++        terms: "laitesukellus, sukellus, sukeltaminen, laitesukeltaminen, sukelluskauppa, sukellusliike"
++      }
++      shop/tobacco: {
++        name: "Tupakkapuoti"
++      }
++      traffic_calming/table: {
++        name: "Korotettu suojatie"
++      }
+     }
+   }
+ }

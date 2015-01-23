@@ -1,0 +1,12 @@
+ {
+   presets: {
+     presets: {
+-      craft/confectionary: {
+-        name: "قنادی"
+-      }
+-      landuse/farmland: {
+-        name: "زمین کشاورزی"
+-      }
+     }
+   }
+ }

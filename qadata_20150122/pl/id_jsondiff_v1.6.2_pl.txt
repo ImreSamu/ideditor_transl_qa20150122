@@ -1,0 +1,155 @@
+ {
++  feature: {
++    points: {
++      description: "Punkty"
++    }
++    paths: {
++      description: "Ścieżki"
++    }
++    buildings: {
++      description: "Budynki"
++    }
++    boundaries: {
++      description: "Granice"
++    }
++  }
+   inspector: {
++    add_fields: "Dodaj pole:"
+   }
+   help: {
+-    gps: "# GPS\n\nDane GPS są najbardziej zaufanym źródłem dla OpenStreetMap. Ten edytor obsługuje lokalne ślady -\npliki `.gpx` na twoim komputerze. Możesz zbierać tego rodzaju ślady GPS używając aplikacji na\nsmartfony lub sprzętu GPS.\n\nInformacje jak używać GPS-u do zbierania informacji o okolicy możesz znaleźć pod\n[Zbieranie informacji z GPS](http://learnosm.org/en/beginner/using-gps/).\n\nAby użyć śladu GPX do rysowania mapy, przeciągnij i upuść plik GPX na edytor. Jeżeli zostanie\nrozpoznany, zostanie dodany na mapę w postaci jaskrawej linii. Kliknij menu 'Ustawienia tła'\npo prawej stronie, aby włączyć, wyłączyć lub powiększyć do nowej warstwy GPX.\n\nŚlad GPX nie jest bezpośrednio wysyłany do OpenStreetMap - najlepiej użyć go do rysowania mapy,\nużywając go jako wzoru dla nowych obiektów, które dodasz. Aby wysłać ślad na serwer odwiedź stronę \n [Publiczne ślady GPS](http://www.openstreetmap.org/trace/create), będziesz mógł go udostępnić\ninnym użytkownikom.\n"
+   }
+   presets: {
+     fields: {
++      craft: {
++        label: "Typ"
++      }
++      fuel/biodiesel: {
++        label: "Biodiesel"
++      }
++      fuel/diesel: {
++        label: "Diesel"
++      }
++      fuel/e10: {
++        label: "E10"
++      }
++      mtb/scale: {
++        placeholder: "0, 1, 2, 3..."
++      }
++      service/bicycle/chaintool: {
++        options: {
++          yes: "Tak"
++          no: "Nie"
++        }
++      }
++      service/bicycle/pump: {
++        options: {
++          yes: "Tak"
++          no: "Nie"
++        }
++      }
++      sport_racing: {
++        label: "Sport"
++      }
++      substation: {
++        label: "Typ"
++      }
++      takeaway: {
++        placeholder: "Tak, Nie, Tylko na wynos..."
++        options: {
++          yes: "Tak"
++          no: "Nie"
++          only: "Tylko na wynos."
++        }
++      }
+       aerialway/access: {
++        options: {
++          entry: "Wejście"
++          exit: "Wyjście"
++          both: "Oba"
++        }
+       }
+       aerialway/summer/access: {
++        options: {
++          entry: "Wejście"
++          exit: "Wyjście"
++        }
+       }
+       electrified: {
++        placeholder: "Linia napowietrzna, Trzecia szyna"
++        options: {
++          contact_line: "Linia napowietrzna"
++          rail: "Trzecia szyna"
++          yes: "Tak (nieokreślone)"
++          no: "Nie"
++        }
+       }
+       fire_hydrant/type: {
++        options: {
++          wall: "Mur"
++          pond: "Staw"
++        }
+       }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Cukiernik"
+-      }
+-      landuse/farmland: {
+-        name: "Pole uprawne"
+-      }
++      amenity/bicycle_repair_station: {
++        name: "Punkt naprawy rowerów"
++      }
++      amenity/grit_bin: {
++        name: "Pojemnik z piaskiem, żwirem..."
++      }
++      amenity/public_bookcase: {
++        name: "Półka bookcrossingowa"
++      }
++      landuse/garages: {
++        name: "Garaże"
++      }
++      leisure/nature_reserve: {
++        name: "Rezerwat przyrody"
++      }
++      leisure/running_track: {
++        name: "Bieżnia"
++      }
++      natural/cave_entrance: {
++        name: "Wejście do jaskini"
++      }
++      shop/copyshop: {
++        name: "Punkt ksero"
++        terms: "kopiowanie"
++      }
+       amenity/boat_rental: {
+-        name: "Wpożyczalnia łodzi"
++        name: "Wypożyczalnia łodzi"
+       }
+       amenity/drinking_water: {
+-        terms: "wodotrysk,woda pitna"
++        terms: "wodotrysk,woda pitna,poidło"
+       }
+       amenity/fire_station: {
+-        terms: "straż,osp"
++        terms: "straż,osp,psp,ochotnicza straż pożarna"
+       }
+       building/construction: {
++        terms: "Budowa"
+       }
+       building/dormitory: {
+-        terms: "Akademik, bursa, "
++        terms: "Akademik, bursa, internat"
+       }
+       building/industrial: {
+-        name: "Budynek przymysłowy"
++        name: "Budynek przemysłowy"
+       }
+       highway/track: {
+-        name: "Droga gruntowa"
++        name: "Droga polna lub leśna"
+       }
+     }
+   }
+ }

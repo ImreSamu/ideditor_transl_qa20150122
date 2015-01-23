@@ -1,0 +1,23 @@
+ {
+   help: {
+-    gps: "# GPS\nGPS údaje sú najviac dôveryhodný zdroj dát pre OpenStreetMap. Tento editor podporuje stopy z lokálnych \".gpx\" súborov na vašom počítači. Tento typ GPS stôp môžete zachytiť pomocou rôznych aplikácií pre múdre telefóny ako aj GPS prístrojmi.\n\nPre informácie, ako robiť GPS prieskum, si prečítajte [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nAby ste použili GPX trasu pre mapovanie, pretiahnite a pustite GPX súbor na mapový editor. Po rozpoznaní, bude pridaný na mapu ako jasná zelená čiara. Kliknite na ponuku \"Nastavenia pozadia\" na ľavej strane pre zapnutie, vypnutie alebo priblíženie na túto novú GPX vrstvu.\n\nGPX trasa nie je priamo nahraná na OpenStreetMap. Najlepší spôsob ako ju využiť je, použiť ju ako predlohu pre zakreslovanie nových objektov a potom ju [nahrať na OpenStreetMap](http://www.openstreetmap.org/trace/create) pre ďalších uživateľov.\n \n"
+   }
+   presets: {
+     fields: {
+       name: {
+-        placeholder: "Vlastné meno objektu (iba ak existuje)"
++        placeholder: "Vlastné meno objektu (nepovinné)"
+       }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Cukrárstvo"
+-        terms: "cukrarstvo,cukrovinky"
+-      }
+-      landuse/farmland: {
+-        name: "Farma"
+-        terms: "druzstvo,družstvo,chov,výbeh,vybeh,pole,roľa,rola"
+-      }
+     }
+   }
+ }
