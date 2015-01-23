@@ -1,3 +1,13 @@
+
+translation statistics by language 
+Data downloaded from transifex 
+
+some statistics:
+* percentFullTranslations	 : language status percent  ,  100% is perfect
+* percentFullTranslationsWTerms	: language status percent  ( without 'terms' )   ,  100% is perfect
+* missingTranslationsWoutTerms : missing translations without 'terms' - how many expression need to translate ? 
+
+
 |lcode|lname|percentFullTranslations|percentFullTranslationsWTerms|missingTranslationsWoutTerms|
 | ------ | ------ | ------ | ------ | ------ |
 |af|Afrikaans|35.28455284552845|46.414499605988965|680|
