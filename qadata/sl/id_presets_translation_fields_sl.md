@@ -27,6 +27,7 @@
 |bench|1|check|Bench| | | |bench| | | | | |last|
 |bicycle_parking|1|combo|Type|Vrsta| | |bicycle_parking| | | | | |last|
 |boundary|1|combo|Type|Vrsta| | |boundary| | | | | |last|
+|brand|1|text|Brand| | | |brand| | | | | |last|
 |building|1|typeCombo|Building|Zgradba| | |building| | | | | |last|
 |building_area|1|defaultcheck|Building|Zgradba| | |building| | | | | |last|
 |capacity|1|number|Capacity|Kapaciteta| | |capacity| | | |50, 100, 200...|50, 100, 200...|last|
@@ -107,6 +108,15 @@
 |landuse|1|typeCombo|Type|Vrsta| | |landuse| | | | | |last|
 |lanes|1|number|Lanes|Pasov| | |lanes| | | |1, 2, 3...|1, 2, 3...|last|
 |layer|1|combo|Layer|Plast| | |layer| | | | | |last|
+|leaf_cycle|1|combo|Leaf Cycle| | | |leaf_cycle|evergreen|Evergreen|| | |last|
+|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|| | |last|
+|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|| | |last|
+|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|| | |last|
+|leaf_cycle|5|combo| | | | | |mixed|Mixed|| | |last|
+|leaf_type|1|combo|Leaf Type| | | |leaf_type|broadleaved|Broadleaved|| | |last|
+|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|| | |last|
+|leaf_type|3|combo| | | | | |mixed|Mixed|| | |last|
+|leaf_type|4|combo| | | | | |leafless|Leafless|| | |last|
 |leisure|1|typeCombo|Type|Vrsta| | |leisure| | | | | |last|
 |length|1|number|Length (Meters)|Dolžina (metri)| | |length| | | | | |last|
 |levels|1|number|Levels|Nivojev| | |building:levels| | | |2, 4, 6...|2, 4, 6...|last|
@@ -239,7 +249,6 @@
 |trail_visibility|4|combo| | | | | |bad|Bad: no markers, path sometimes invisible/pathless|Slaba: ni oznak poti, pot ponekod ni vidna oz. je sploh ni| | |last|
 |trail_visibility|5|combo| | | | | |horrible|Horrible: often pathless, some orientation skills required|Obupna: pogosto brezpotje, terja sposobnost orientacije| | |last|
 |trail_visibility|6|combo| | | | | |no|No: pathless, excellent orientation skills required|Ne: brezpotje, terja zelo dobro sposobnost orientacije| | |last|
-|tree_type|1|combo|Type|Vrsta| | |type| | | | | |last|
 |trees|1|combo|Trees|Drevesa| | |trees| | | | | |last|
 |tunnel|1|combo|Tunnel|Predor| | |tunnel| | | | | |last|
 |vending|1|combo|Type of Goods|Vrsta dobrin| | |vending| | | | | |last|
@@ -250,4 +259,3 @@
 |wheelchair|1|radio|Wheelchair Access|Dostop z vozičkom|wheelchair|true|wheelchair| | | | | |last|
 |width|1|number|Width (Meters)|Širina (metri)| | |width| | | | | |last|
 |wikipedia|1|wikipedia|Wikipedia|Wikipedia|wikipedia|true|wikipedia| | | | | |last|
-|wood|1|combo|Type|Vrsta| | |wood| | | | | |last|

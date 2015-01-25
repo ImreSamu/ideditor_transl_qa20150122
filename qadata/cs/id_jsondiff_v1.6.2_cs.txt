@@ -133,6 +133,10 @@
 +    changes: "{count} změn"
    }
    inspector: {
++    check: {
++      yes: "Ano"
++      no: "Ne"
++    }
 +    add_fields: "Přidat pole:"
    }
    save: {
@@ -154,11 +158,20 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Typ"
+-      }
+-      wood: {
+-        label: "Typ"
+-      }
 +      access_toilets: {
 +        label: "Přístup"
 +      }
 +      bench: {
 +        label: "Lavička"
++      }
++      brand: {
++        label: "Obchodní značka"
 +      }
 +      craft: {
 +        label: "Typ"
@@ -205,6 +218,25 @@
 +      }
 +      lamp_type: {
 +        label: "Typ"
++      }
++      leaf_cycle: {
++        label: "Opadavost listí"
++        options: {
++          evergreen: "Stálezelené"
++          deciduous: "Opadavé"
++          semi_evergreen: "Polostálezelené"
++          semi_deciduous: "Poloopadavé"
++          mixed: "Smíšené"
++        }
++      }
++      leaf_type: {
++        label: "Druh listů"
++        options: {
++          broadleaved: "Listnaté"
++          needleleaved: "Jehličnaté"
++          mixed: "Smíšené"
++          leafless: "Bezlisté"
++        }
 +      }
 +      mtb/scale: {
 +        label: "Klasifikace obtížnosti pro MTB"
@@ -840,6 +872,10 @@
 +      shop/herbalist: {
 +        name: "Bylinkářství"
 +        terms: "bylinkář,bylinkářka,bylinář,bylinářka,bylinkářství,bylinářství,kořenář,kořenářka,kořenářství,herbalista,bylinky,byliny,bylinka,bylina"
++      }
++      shop/household: {
++        name: "Domácí potřeby"
++        terms: "domácí potřeby,potřeby pro domácnost,domácnost,kuchyňské potřeby"
 +      }
 +      shop/interior_decoration: {
 +        name: "Obchod s bytovými doplňky"

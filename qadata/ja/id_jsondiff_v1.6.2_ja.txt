@@ -10,6 +10,12 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "タイプ"
+-      }
+-      wood: {
+-        label: "タイプ"
+-      }
        address: {
          placeholders: {
 -          suburb: "Suburb"

@@ -419,6 +419,21 @@
 |  
 | last
 |-
+| brand
+| 1
+| text
+| Brand
+| Marca
+|  
+|  
+| brand
+|  
+|  
+|  
+|  
+|  
+| last
+|-
 | building
 | 1
 | typeCombo
@@ -1615,6 +1630,141 @@
 |  
 |  
 |  
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 1
+| combo
+| Leaf Cycle
+| Cicle del fullatge
+|  
+|  
+| leaf_cycle
+| evergreen
+| Evergreen
+| Perenne
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| deciduous
+| Deciduous
+| Caducifoli
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| semi_evergreen
+| Semi-Evergreen
+| Semiperenne
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| semi_deciduous
+| Semi-Deciduous
+| Semicaducifoli
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| mixed
+| Mixed
+| Barrejat
+|  
+|  
+| last
+|-
+| leaf_type
+| 1
+| combo
+| Leaf Type
+| Tipus de fulles
+|  
+|  
+| leaf_type
+| broadleaved
+| Broadleaved
+| Fulles amples
+|  
+|  
+| last
+|-
+| leaf_type
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| needleleaved
+| Needleleaved
+| Fulles primes
+|  
+|  
+| last
+|-
+| leaf_type
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| mixed
+| Mixed
+| Barrejat
+|  
+|  
+| last
+|-
+| leaf_type
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| leafless
+| Leafless
+| Sense fullatge
 |  
 |  
 | last
@@ -3599,21 +3749,6 @@
 |  
 | last
 |-
-| tree_type
-| 1
-| combo
-| Type
-| Tipus
-|  
-|  
-| type
-|  
-|  
-|  
-|  
-|  
-| last
-|-
 | trees
 | 1
 | combo
@@ -3757,21 +3892,6 @@
 | wikipedia
 | true
 | wikipedia
-|  
-|  
-|  
-|  
-|  
-| last
-|-
-| wood
-| 1
-| combo
-| Type
-| Tipus
-|  
-|  
-| wood
 |  
 |  
 |  

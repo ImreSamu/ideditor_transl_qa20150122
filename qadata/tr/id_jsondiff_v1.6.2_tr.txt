@@ -1,5 +1,10 @@
  {
    presets: {
+     fields: {
+-      wood: {
+-        label: "Tip"
+-      }
+     }
      presets: {
 -      landuse/farmland: {
 -        name: "Çiftlik"

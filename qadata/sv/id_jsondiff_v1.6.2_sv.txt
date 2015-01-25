@@ -105,6 +105,10 @@
 +    changes: "{count} ändringar"
    }
    inspector: {
++    check: {
++      yes: "Ja"
++      no: "Nej"
++    }
 +    add_fields: "Lägg till fällt:"
    }
    save: {
@@ -122,6 +126,12 @@
        }
      }
      fields: {
+-      tree_type: {
+-        label: "Typ"
+-      }
+-      wood: {
+-        label: "Typ"
+-      }
 +      bench: {
 +        label: "Bänk"
 +      }

@@ -1197,6 +1197,12 @@
         "label__transl": "类型",
         "type": "combo"
       },
+      "brand": {
+        "key": "brand",
+        "label": "Brand",
+        "label__en": "Brand",
+        "type": "text"
+      },
       "building": {
         "key": "building",
         "label": "Building",
@@ -1720,6 +1726,48 @@
         "label": "Layer",
         "label__en": "Layer",
         "label__transl": "图层",
+        "type": "combo"
+      },
+      "leaf_cycle": {
+        "key": "leaf_cycle",
+        "label": "Leaf Cycle",
+        "label__en": "Leaf Cycle",
+        "options": {
+          "deciduous__en": "Deciduous",
+          "evergreen__en": "Evergreen",
+          "mixed__en": "Mixed",
+          "semi_deciduous__en": "Semi-Deciduous",
+          "semi_evergreen__en": "Semi-Evergreen"
+        },
+        "strings": {
+          "options": {
+            "deciduous": "Deciduous",
+            "evergreen": "Evergreen",
+            "mixed": "Mixed",
+            "semi_deciduous": "Semi-Deciduous",
+            "semi_evergreen": "Semi-Evergreen"
+          }
+        },
+        "type": "combo"
+      },
+      "leaf_type": {
+        "key": "leaf_type",
+        "label": "Leaf Type",
+        "label__en": "Leaf Type",
+        "options": {
+          "broadleaved__en": "Broadleaved",
+          "leafless__en": "Leafless",
+          "mixed__en": "Mixed",
+          "needleleaved__en": "Needleleaved"
+        },
+        "strings": {
+          "options": {
+            "broadleaved": "Broadleaved",
+            "leafless": "Leafless",
+            "mixed": "Mixed",
+            "needleleaved": "Needleleaved"
+          }
+        },
         "type": "combo"
       },
       "leisure": {
@@ -2721,18 +2769,6 @@
         },
         "type": "combo"
       },
-      "tree_type": {
-        "key": "type",
-        "label": "Type",
-        "label__en": "Type",
-        "label__transl": "类型",
-        "options": [
-          "broad_leaved",
-          "conifer",
-          "palm"
-        ],
-        "type": "combo"
-      },
       "trees": {
         "key": "trees",
         "label": "Trees",
@@ -2816,13 +2852,6 @@
         "label__transl": "维基百科",
         "type": "wikipedia",
         "universal": true
-      },
-      "wood": {
-        "key": "wood",
-        "label": "Type",
-        "label__en": "Type",
-        "label__transl": "类型",
-        "type": "combo"
       }
     },
     "presets": {
@@ -8482,6 +8511,7 @@
       "amenity/bicycle_repair_station": {
         "fields": [
           "operator",
+          "brand",
           "opening_hours",
           "fee",
           "service/bicycle/chaintool",
@@ -24488,7 +24518,8 @@
       },
       "landuse/forest": {
         "fields": [
-          "wood"
+          "leaf_type",
+          "leaf_cycle"
         ],
         "geometry": [
           "point",
@@ -24502,8 +24533,9 @@
           "landuse": "forest"
         },
         "terms": [
+          "tree"
         ],
-        "terms__en": "",
+        "terms__en": "tree",
         "terms__transl": "森林"
       },
       "landuse/garages": {
@@ -25806,7 +25838,8 @@
       },
       "natural/tree": {
         "fields": [
-          "tree_type",
+          "leaf_type",
+          "leaf_cycle",
           "denotation"
         ],
         "geometry": [
@@ -25921,7 +25954,8 @@
       },
       "natural/wood": {
         "fields": [
-          "wood"
+          "leaf_type",
+          "leaf_cycle"
         ],
         "geometry": [
           "point",
@@ -25935,8 +25969,9 @@
           "natural": "wood"
         },
         "terms": [
+          "tree"
         ],
-        "terms__en": "",
+        "terms__en": "tree",
         "terms__transl": "树林"
       },
       "office": {
@@ -35272,6 +35307,28 @@
         ],
         "terms__en": "stereo,video",
         "terms__transl": "音响店"
+      },
+      "shop/household": {
+        "fields": [
+          "operator",
+          "address",
+          "building_area",
+          "opening_hours"
+        ],
+        "geometry": [
+          "point",
+          "area"
+        ],
+        "icon": "shop",
+        "name": "Household Store",
+        "name__en": "Household Store",
+        "tags": {
+          "shop": "household"
+        },
+        "terms": [
+          "home"
+        ],
+        "terms__en": "home"
       },
       "shop/interior_decoration": {
         "fields": [

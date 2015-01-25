@@ -41,6 +41,12 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "種類"
+-      }
+-      wood: {
+-        label: "種類"
+-      }
 +      bench: {
 +        label: "長凳"
 +      }

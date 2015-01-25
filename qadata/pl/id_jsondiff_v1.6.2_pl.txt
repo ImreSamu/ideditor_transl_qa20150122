@@ -1,7 +1,20 @@
  {
++  map_data: {
++    title: "Dane mapy"
++    description: "Dane mapy"
++    data_layers: "Warstwy danych"
++    fill_area: "Wypełnianie obszarów"
++    map_features: "Obiekty na mapie"
++  }
 +  feature: {
 +    points: {
 +      description: "Punkty"
++    }
++    major_roads: {
++      description: "Główne drogi"
++    }
++    minor_roads: {
++      description: "Drogi drugorzędne"
 +    }
 +    paths: {
 +      description: "Ścieżki"
@@ -13,6 +26,20 @@
 +      description: "Granice"
 +    }
 +  }
++  area_fill: {
++    wireframe: {
++      description: "Bez wypełnienia (szkielet)"
++    }
++    partial: {
++      description: "Częściowe wypełnienie"
++    }
++    full: {
++      description: "Pełne wypełnienie"
++    }
++  }
++  mapillary: {
++    title: "Nakładka zdjęć (Mapillary)"
++  }
    inspector: {
 +    add_fields: "Dodaj pole:"
    }
@@ -21,6 +48,12 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Typ"
+-      }
+-      wood: {
+-        label: "Typ"
+-      }
 +      craft: {
 +        label: "Typ"
 +      }

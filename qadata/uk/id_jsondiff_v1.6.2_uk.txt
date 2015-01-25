@@ -121,6 +121,12 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Тип"
+-      }
+-      wood: {
+-        label: "Тип"
+-      }
 +      bench: {
 +        label: "Лавка"
 +      }

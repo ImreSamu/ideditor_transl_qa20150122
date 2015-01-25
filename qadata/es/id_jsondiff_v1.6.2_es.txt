@@ -158,6 +158,12 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Tipo"
+-      }
+-      wood: {
+-        label: "Tipo"
+-      }
 +      bench: {
 +        label: "Banco"
 +      }

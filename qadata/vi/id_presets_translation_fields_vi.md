@@ -27,6 +27,7 @@
 |bench|1|check|Bench|Ghế| | |bench| | | | | |last|
 |bicycle_parking|1|combo|Type|Kiểu| | |bicycle_parking| | | | | |last|
 |boundary|1|combo|Type|Kiểu| | |boundary| | | | | |last|
+|brand|1|text|Brand|Nhãn hiệu| | |brand| | | | | |last|
 |building|1|typeCombo|Building|Tòa nhà| | |building| | | | | |last|
 |building_area|1|defaultcheck|Building|Tòa nhà| | |building| | | | | |last|
 |capacity|1|number|Capacity|Sức chứa| | |capacity| | | |50, 100, 200...|50, 100, 200…|last|
@@ -107,6 +108,15 @@
 |landuse|1|typeCombo|Type|Mục đích| | |landuse| | | | | |last|
 |lanes|1|number|Lanes|Số Làn| | |lanes| | | |1, 2, 3...|1, 2, 3…|last|
 |layer|1|combo|Layer|Lớp| | |layer| | | | | |last|
+|leaf_cycle|1|combo|Leaf Cycle|Thời gian Mọc Lá| | |leaf_cycle|evergreen|Evergreen|Thường xanh| | |last|
+|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|Rụng Lá| | |last|
+|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|Bán Thường xanh| | |last|
+|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|Bán Rụng Lá| | |last|
+|leaf_cycle|5|combo| | | | | |mixed|Mixed|Pha trộn| | |last|
+|leaf_type|1|combo|Leaf Type|Loại Lá| | |leaf_type|broadleaved|Broadleaved|Hình Quạt| | |last|
+|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|Hình Kim| | |last|
+|leaf_type|3|combo| | | | | |mixed|Mixed|Pha trộn| | |last|
+|leaf_type|4|combo| | | | | |leafless|Leafless|Không có| | |last|
 |leisure|1|typeCombo|Type|Loại| | |leisure| | | | | |last|
 |length|1|number|Length (Meters)|Chiều dài (Mét)| | |length| | | | | |last|
 |levels|1|number|Levels|Số Tầng| | |building:levels| | | |2, 4, 6...|2, 4, 6…|last|
@@ -239,7 +249,6 @@
 |trail_visibility|4|combo| | | | | |bad|Bad: no markers, path sometimes invisible/pathless|Kém: Không có cắm bảng, đôi khi không thấy được lối đi hoặc không có lối đi| | |last|
 |trail_visibility|5|combo| | | | | |horrible|Horrible: often pathless, some orientation skills required|Tồi: Nhiều khi không có lối đi, cần biết dò đường một chút| | |last|
 |trail_visibility|6|combo| | | | | |no|No: pathless, excellent orientation skills required|Không có lối đi, rất cần biết dò đường| | |last|
-|tree_type|1|combo|Type|Loại| | |type| | | | | |last|
 |trees|1|combo|Trees|Loại cây| | |trees| | | | | |last|
 |tunnel|1|combo|Tunnel|Đường hầm| | |tunnel| | | | | |last|
 |vending|1|combo|Type of Goods|Loại Hàng hóa| | |vending| | | | | |last|
@@ -250,4 +259,3 @@
 |wheelchair|1|radio|Wheelchair Access|Đi Xe lăn Được|wheelchair|true|wheelchair| | | | | |last|
 |width|1|number|Width (Meters)|Chiều ngang (Mét)| | |width| | | | | |last|
 |wikipedia|1|wikipedia|Wikipedia|Wikipedia|wikipedia|true|wikipedia| | | | | |last|
-|wood|1|combo|Type|Loại| | |wood| | | | | |last|

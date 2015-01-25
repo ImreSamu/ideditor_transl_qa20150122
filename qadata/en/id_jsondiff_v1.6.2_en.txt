@@ -110,11 +110,39 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Type"
+-      }
+-      wood: {
+-        label: "Type"
+-      }
 +      bench: {
 +        label: "Bench"
 +      }
++      brand: {
++        label: "Brand"
++      }
 +      delivery: {
 +        label: "Delivery"
++      }
++      leaf_cycle: {
++        label: "Leaf Cycle"
++        options: {
++          evergreen: "Evergreen"
++          deciduous: "Deciduous"
++          semi_evergreen: "Semi-Evergreen"
++          semi_deciduous: "Semi-Deciduous"
++          mixed: "Mixed"
++        }
++      }
++      leaf_type: {
++        label: "Leaf Type"
++        options: {
++          broadleaved: "Broadleaved"
++          needleleaved: "Needleleaved"
++          mixed: "Mixed"
++          leafless: "Leafless"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        label: "Chain Tool"
@@ -186,11 +214,23 @@
 +        name: "Cave Entrance"
 +        terms: ""
 +      }
++      shop/household: {
++        name: "Household Store"
++        terms: "home"
++      }
        landuse/farmland: {
 -        name: "Farmland"
 +        name: "Farm"
 -        terms: ""
 +        terms: "farmland"
+       }
+       landuse/forest: {
+-        terms: ""
++        terms: "tree"
+       }
+       natural/wood: {
+-        terms: ""
++        terms: "tree"
        }
      }
    }

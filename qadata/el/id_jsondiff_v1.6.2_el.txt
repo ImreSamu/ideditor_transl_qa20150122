@@ -94,6 +94,14 @@
      }
    }
    presets: {
+     fields: {
+-      tree_type: {
+-        label: "Τύπος"
+-      }
+-      wood: {
+-        label: "Είδος"
+-      }
+     }
      presets: {
 -      craft/confectionary: {
 -        name: "Ζαχαροπλαστείο"

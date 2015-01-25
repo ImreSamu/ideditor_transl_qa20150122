@@ -1,5 +1,10 @@
  {
    presets: {
+     fields: {
+-      wood: {
+-        label: "Tipo"
+-      }
+     }
      presets: {
 -      landuse/farmland: {
 -        name: "Terra de cultivo"

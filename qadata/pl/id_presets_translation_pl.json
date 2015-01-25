@@ -2,14 +2,17 @@
   "area_fill": {
     "full": {
       "description__en": "Full Fill",
+      "description__transl": "Pełne wypełnienie",
       "tooltip__en": "Areas are drawn fully filled."
     },
     "partial": {
       "description__en": "Partial Fill",
+      "description__transl": "Częściowe wypełnienie",
       "tooltip__en": "Areas are drawn with fill only around their inner edges. (Recommended for beginner mappers)"
     },
     "wireframe": {
       "description__en": "No Fill (Wireframe)",
+      "description__transl": "Bez wypełnienia (szkielet)",
       "tooltip__en": "Enabling wireframe mode makes it easy to see the background imagery."
     }
   },
@@ -89,10 +92,12 @@
     },
     "major_roads": {
       "description__en": "Major Roads",
+      "description__transl": "Główne drogi",
       "tooltip__en": "Highways, Streets, etc."
     },
     "minor_roads": {
       "description__en": "Minor Roads",
+      "description__transl": "Drogi drugorzędne",
       "tooltip__en": "Service Roads, Parking Aisles, Tracks, etc."
     },
     "others": {
@@ -323,13 +328,19 @@
   "map_data": {
     "autohidden__en": "These features have been automatically hidden because too many would be shown on the screen.  You can zoom in to edit them.",
     "data_layers__en": "Data Layers",
+    "data_layers__transl": "Warstwy danych",
     "description__en": "Map Data",
+    "description__transl": "Dane mapy",
     "fill_area__en": "Fill Areas",
+    "fill_area__transl": "Wypełnianie obszarów",
     "map_features__en": "Map Features",
-    "title__en": "Map Data"
+    "map_features__transl": "Obiekty na mapie",
+    "title__en": "Map Data",
+    "title__transl": "Dane mapy"
   },
   "mapillary": {
     "title__en": "Photo Overlay (Mapillary)",
+    "title__transl": "Nakładka zdjęć (Mapillary)",
     "tooltip__en": "Street-level photos from Mapillary",
     "view_on_mapillary__en": "View this image on Mapillary"
   },
@@ -1192,6 +1203,12 @@
         "label__transl": "Typ",
         "type": "combo"
       },
+      "brand": {
+        "key": "brand",
+        "label": "Brand",
+        "label__en": "Brand",
+        "type": "text"
+      },
       "building": {
         "key": "building",
         "label": "Building",
@@ -1706,6 +1723,48 @@
         "label": "Layer",
         "label__en": "Layer",
         "label__transl": "Warstwa",
+        "type": "combo"
+      },
+      "leaf_cycle": {
+        "key": "leaf_cycle",
+        "label": "Leaf Cycle",
+        "label__en": "Leaf Cycle",
+        "options": {
+          "deciduous__en": "Deciduous",
+          "evergreen__en": "Evergreen",
+          "mixed__en": "Mixed",
+          "semi_deciduous__en": "Semi-Deciduous",
+          "semi_evergreen__en": "Semi-Evergreen"
+        },
+        "strings": {
+          "options": {
+            "deciduous": "Deciduous",
+            "evergreen": "Evergreen",
+            "mixed": "Mixed",
+            "semi_deciduous": "Semi-Deciduous",
+            "semi_evergreen": "Semi-Evergreen"
+          }
+        },
+        "type": "combo"
+      },
+      "leaf_type": {
+        "key": "leaf_type",
+        "label": "Leaf Type",
+        "label__en": "Leaf Type",
+        "options": {
+          "broadleaved__en": "Broadleaved",
+          "leafless__en": "Leafless",
+          "mixed__en": "Mixed",
+          "needleleaved__en": "Needleleaved"
+        },
+        "strings": {
+          "options": {
+            "broadleaved": "Broadleaved",
+            "leafless": "Leafless",
+            "mixed": "Mixed",
+            "needleleaved": "Needleleaved"
+          }
+        },
         "type": "combo"
       },
       "leisure": {
@@ -2658,18 +2717,6 @@
         },
         "type": "combo"
       },
-      "tree_type": {
-        "key": "type",
-        "label": "Type",
-        "label__en": "Type",
-        "label__transl": "Typ",
-        "options": [
-          "broad_leaved",
-          "conifer",
-          "palm"
-        ],
-        "type": "combo"
-      },
       "trees": {
         "key": "trees",
         "label": "Trees",
@@ -2753,13 +2800,6 @@
         "label__transl": "Wikipedia",
         "type": "wikipedia",
         "universal": true
-      },
-      "wood": {
-        "key": "wood",
-        "label": "Type",
-        "label__en": "Type",
-        "label__transl": "Typ",
-        "type": "combo"
       }
     },
     "presets": {
@@ -8425,6 +8465,7 @@
       "amenity/bicycle_repair_station": {
         "fields": [
           "operator",
+          "brand",
           "opening_hours",
           "fee",
           "service/bicycle/chaintool",
@@ -24436,7 +24477,8 @@
       },
       "landuse/forest": {
         "fields": [
-          "wood"
+          "leaf_type",
+          "leaf_cycle"
         ],
         "geometry": [
           "point",
@@ -24450,8 +24492,9 @@
           "landuse": "forest"
         },
         "terms": [
+          "tree"
         ],
-        "terms__en": "",
+        "terms__en": "tree",
         "terms__transl": "Las"
       },
       "landuse/garages": {
@@ -25732,7 +25775,8 @@
       },
       "natural/tree": {
         "fields": [
-          "tree_type",
+          "leaf_type",
+          "leaf_cycle",
           "denotation"
         ],
         "geometry": [
@@ -25847,7 +25891,8 @@
       },
       "natural/wood": {
         "fields": [
-          "wood"
+          "leaf_type",
+          "leaf_cycle"
         ],
         "geometry": [
           "point",
@@ -25861,8 +25906,9 @@
           "natural": "wood"
         },
         "terms": [
+          "tree"
         ],
-        "terms__en": ""
+        "terms__en": "tree"
       },
       "office": {
         "fields": [
@@ -35166,6 +35212,28 @@
           "video"
         ],
         "terms__en": "stereo,video"
+      },
+      "shop/household": {
+        "fields": [
+          "operator",
+          "address",
+          "building_area",
+          "opening_hours"
+        ],
+        "geometry": [
+          "point",
+          "area"
+        ],
+        "icon": "shop",
+        "name": "Household Store",
+        "name__en": "Household Store",
+        "tags": {
+          "shop": "household"
+        },
+        "terms": [
+          "home"
+        ],
+        "terms__en": "home"
       },
       "shop/interior_decoration": {
         "fields": [

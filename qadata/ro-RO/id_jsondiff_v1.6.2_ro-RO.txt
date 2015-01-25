@@ -38,4 +38,11 @@
 +      title: "Începe editarea"
      }
    }
+   presets: {
+     fields: {
+-      wood: {
+-        label: "Tip"
+-      }
+     }
+   }
  }

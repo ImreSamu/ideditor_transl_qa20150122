@@ -1,5 +1,13 @@
  {
    presets: {
+     fields: {
+-      tree_type: {
+-        label: "نوع"
+-      }
+-      wood: {
+-        label: "نوع"
+-      }
+     }
      presets: {
 -      craft/confectionary: {
 -        name: "قنادی"

@@ -18,6 +18,14 @@
 +    }
 +  }
    presets: {
+     fields: {
+-      tree_type: {
+-        label: "Tipe"
+-      }
+-      wood: {
+-        label: "Tipe"
+-      }
+     }
      presets: {
 -      landuse/farmland: {
 -        name: "Lahan Pertanian"

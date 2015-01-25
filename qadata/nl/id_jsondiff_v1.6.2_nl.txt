@@ -119,6 +119,10 @@
 +    changes: "{count} Veranderingen"
    }
    inspector: {
++    check: {
++      yes: "Ja"
++      no: "Nee"
++    }
 +    add_fields: "Veld toevoegen:"
    }
    background: {
@@ -131,8 +135,17 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Type"
+-      }
+-      wood: {
+-        label: "Type"
+-      }
 +      bench: {
 +        label: "Bank"
++      }
++      brand: {
++        label: "Merk"
 +      }
 +      delivery: {
 +        label: "Levering"
@@ -142,6 +155,25 @@
 +      }
 +      fuel/octane_95: {
 +        label: "Verkoopt Standaard Brandstof"
++      }
++      leaf_cycle: {
++        label: "Bladercyclus"
++        options: {
++          evergreen: "Groenblijvend"
++          deciduous: "Bladverliezend"
++          semi_evergreen: "Half-Groenblijvend"
++          semi_deciduous: "Half-Bladverliezend"
++          mixed: "Gemengd"
++        }
++      }
++      leaf_type: {
++        label: "Bladsoort"
++        options: {
++          broadleaved: "Brede bladeren"
++          needleleaved: "Naalden"
++          mixed: "Gemengd"
++          leafless: "Bladloos"
++        }
 +      }
 +      mtb/scale/imba: {
 +        label: "IMBA Route Moeilijkheidsgraad"
@@ -190,6 +222,13 @@
 +      }
 +      seasonal: {
 +        label: "Seizoensgebonden"
++      }
++      service/bicycle/chaintool: {
++        options: {
++          undefined: "Aangenomen dat het Nee is"
++          yes: "Ja"
++          no: "Nee"
++        }
 +      }
 +      service/bicycle/pump: {
 +        options: {

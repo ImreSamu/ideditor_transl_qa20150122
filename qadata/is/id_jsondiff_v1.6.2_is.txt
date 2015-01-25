@@ -73,6 +73,9 @@
 +      }
      }
      fields: {
+-      wood: {
+-        label: "Tegund"
+-      }
 +      aerialway/access: {
 +        options: {
 +          exit: "Útgangur"

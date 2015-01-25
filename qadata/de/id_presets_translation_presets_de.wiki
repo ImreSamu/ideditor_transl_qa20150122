@@ -1366,7 +1366,7 @@
 |  
 | bicycle
 |  
-| operator,opening_hours,fee,service/bicycle/chaintool,service/bicycle/pump
+| operator,brand,opening_hours,fee,service/bicycle/chaintool,service/bicycle/pump
 |  
 |  
 | amenity=bicycle_repair_station
@@ -12385,13 +12385,13 @@
 |  
 | duplicate
 |  
-| 
+| tree
 | Forst, bewirtschafteter Wald
 | 28
 |  
 | park2
 |  
-| wood
+| leaf_type,leaf_cycle
 |  
 |  
 | landuse=forest
@@ -15631,7 +15631,7 @@
 |  
 | park
 |  
-| tree_type,denotation
+| leaf_type,leaf_cycle,denotation
 |  
 |  
 | natural=tree
@@ -15895,13 +15895,13 @@
 |  
 | duplicate
 |  
-| 
+| tree
 | Urwald, Naturwald
 | 17
 |  
 | park2
 |  
-| wood
+| leaf_type,leaf_cycle
 |  
 |  
 | natural=wood
@@ -21170,6 +21170,51 @@
 |  
 |  
 | shop=hifi
+|  
+|  
+|  
+|  
+| 1
+|  
+|  
+|  
+|  
+|  
+| 0
+|  
+|  
+|  
+|  
+|  
+| 0
+| area
+|  
+| point
+|  
+|  
+| last
+|-
+| shop/household
+| shop
+| household
+|  
+| Household Store
+| Household Store
+|  
+| 0
+|  
+|  
+| notTranslated
+| home
+|  
+| 0
+|  
+| shop
+|  
+| operator,address,building_area,opening_hours
+|  
+|  
+| shop=household
 |  
 |  
 |  

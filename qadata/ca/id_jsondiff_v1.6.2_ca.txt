@@ -113,6 +113,10 @@
 +    title: "Mostra la meva ubicació"
    }
    inspector: {
++    check: {
++      yes: "Sí"
++      no: "No"
++    }
 +    add_fields: "Afegir camp:"
 -    show_more: "Mostrar-ne més"
 +    show_more: "Mostra'n més"
@@ -152,11 +156,39 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Tipus"
+-      }
+-      wood: {
+-        label: "Tipus"
+-      }
 +      bench: {
 +        label: "Banc per a asseure's"
 +      }
++      brand: {
++        label: "Marca"
++      }
 +      delivery: {
 +        label: "Entrega"
++      }
++      leaf_cycle: {
++        label: "Cicle del fullatge"
++        options: {
++          evergreen: "Perenne"
++          deciduous: "Caducifoli"
++          semi_evergreen: "Semiperenne"
++          semi_deciduous: "Semicaducifoli"
++          mixed: "Barrejat"
++        }
++      }
++      leaf_type: {
++        label: "Tipus de fulles"
++        options: {
++          broadleaved: "Fulles amples"
++          needleleaved: "Fulles primes"
++          mixed: "Barrejat"
++          leafless: "Sense fullatge"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        label: "Eina de cadena"
@@ -226,6 +258,9 @@
 +      power/substation: {
 +        name: "Subestació"
 +        terms: "Subestació elèctrica, Estació elèctrica, Central elèctrica"
++      }
++      shop/household: {
++        name: "Botiga de la llar"
 +      }
 +      traffic_calming/bump: {
 +        name: "Ressalt"

@@ -123,6 +123,10 @@
 +    changes: "{count} módosítás"
    }
    inspector: {
++    check: {
++      yes: "Igen"
++      no: "Nem"
++    }
 +    add_fields: "Mező hozzáadása:"
    }
    save: {
@@ -145,6 +149,12 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Típus"
+-      }
+-      wood: {
+-        label: "Típus"
+-      }
 +      bench: {
 +        label: "Pad"
 +      }

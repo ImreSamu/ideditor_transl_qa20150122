@@ -29,7 +29,7 @@
 |amenity/bench|amenity|bench| |Bench|Bench|Пейка|5| | | || |0| | | |backrest| | |amenity=bench| | | | |1| | | | | |0| | | | | |0| |line|point|vertex| |last|
 |amenity/bicycle_parking|amenity|bicycle_parking| |Bicycle Parking|Bicycle Parking|Паркинг за велосипеди|21| | | |bike| |0| |bicycle| |bicycle_parking,capacity,operator,covered,access_simple| | |amenity=bicycle_parking| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |amenity/bicycle_rental|amenity|bicycle_rental| |Bicycle Rental|Bicycle Rental|Наем на велосипеди|18| | | |bike| |0| |bicycle| |capacity,network,operator| | |amenity=bicycle_rental| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
-|amenity/bicycle_repair_station|amenity|bicycle_repair_station| |Bicycle Repair Station|Bicycle Repair Station| |0| | |notTranslated|bike| |0| |bicycle| |operator,opening_hours,fee,service/bicycle/chaintool,service/bicycle/pump| | |amenity=bicycle_repair_station| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
+|amenity/bicycle_repair_station|amenity|bicycle_repair_station| |Bicycle Repair Station|Bicycle Repair Station| |0| | |notTranslated|bike| |0| |bicycle| |operator,brand,opening_hours,fee,service/bicycle/chaintool,service/bicycle/pump| | |amenity=bicycle_repair_station| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |amenity/boat_rental|amenity|boat_rental| |Boat Rental|Boat Rental| |0| | |notTranslated|| |0| | | |operator| | |amenity=boat_rental| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/bureau_de_change|amenity|bureau_de_change| |Currency Exchange|Currency Exchange| |0| | |notTranslated|bureau de change,money changer| |0| |bank| |operator| | |amenity=bureau_de_change| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
 |amenity/bus_station|amenity|bus_station| |Bus Station|Bus Station| |0| | |notTranslated|| |0| |bus| |building_area,operator| | |amenity=bus_station| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -274,7 +274,7 @@
 |landuse/farm|landuse|farm| |Farm|Farm|Селско стопанство|17| | | || |0| |farm| |crop|false| |landuse=farm| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |landuse/farmland|landuse|farmland| |Farm|Farm| |0| | |notTranslated|farmland| |0| |farm| |crop| | |landuse=farmland| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |landuse/farmyard|landuse|farmyard| |Farmyard|Farmyard|Селскостопански двор|20| | | || |0| |farm| |crop| | |landuse=farmyard| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/forest|landuse|forest| |Forest|Forest|Гора|4| |duplicate| || |0| |park2| |wood| | |landuse=forest| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|landuse/forest|landuse|forest| |Forest|Forest|Гора|4| |duplicate| |tree| |0| |park2| |leaf_type,leaf_cycle| | |landuse=forest| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |landuse/garages|landuse|garages| |Garages|Garages| |0| | |notTranslated|| |0| | | | | | |landuse=garages| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |landuse/grass|landuse|grass| |Grass|Grass|Трева|5| | | || |0| | | | | | |landuse=grass| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |landuse/industrial|landuse|industrial| |Industrial|Industrial|Индустрия|9| | | || |0| |industrial| | | | |landuse=industrial| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -346,13 +346,13 @@
 |natural/scree|natural|scree| |Scree|Scree| |0| | |notTranslated|loose rocks| |0| | | | | | |natural=scree| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |natural/scrub|natural|scrub| |Scrub|Scrub|Шубрак|6| | | || |0| | | | | | |natural=scrub| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |natural/spring|natural|spring| |Spring|Spring|Извор|5| | | || |0| | | | | | |natural=spring| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
-|natural/tree|natural|tree| |Tree|Tree|Дърво|5| | | || |0| |park| |tree_type,denotation| | |natural=tree| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
+|natural/tree|natural|tree| |Tree|Tree|Дърво|5| | | || |0| |park| |leaf_type,leaf_cycle,denotation| | |natural=tree| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
 |natural/water|natural|water| |Water|Water|Водна площ|10| | | || |0| |water| |water| | |natural=water| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |natural/water/lake|natural|water|lake|Lake|Lake|Езеро|5| | | |lakelet,loch,mere| |0| |water| | | | |natural=water|water=lake| | | |2| | | | | |0| | | | | |0|area| | | | |last|
 |natural/water/pond|natural|water|pond|Pond|Pond|Малко езеро|11| | | |lakelet,millpond,tarn,pool,mere| |0| |water| | | | |natural=water|water=pond| | | |2| | | | | |0| | | | | |0|area| | | | |last|
 |natural/water/reservoir|natural|water|reservoir|Reservoir|Reservoir|Язовир|6| | | || |0| |water| | | | |natural=water|water=reservoir| | | |2| | | | | |0| | | | | |0|area| | | | |last|
 |natural/wetland|natural|wetland| |Wetland|Wetland|Блатиста зона|13| | | || |0| |wetland| |wetland| | |natural=wetland| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|natural/wood|natural|wood| |Wood|Wood|Гора|4| |duplicate| || |0| |park2| |wood| | |natural=wood| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|natural/wood|natural|wood| |Wood|Wood|Гора|4| |duplicate| |tree| |0| |park2| |leaf_type,leaf_cycle| | |natural=wood| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |office|office| | |Office|Office|Офис|4| | | || |0| |commercial| |office,address,building_area,opening_hours,smoking| | |office=*| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |office/accountant|office|accountant| |Accountant|Accountant| |0| | |notTranslated|| |0| |commercial| |address,building_area,opening_hours| | |office=accountant| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |office/administrative|office|administrative| |Administrative Office|Administrative Office| |0| | |notTranslated|| |0| |commercial| |address,building_area,opening_hours| | |office=administrative| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
@@ -470,6 +470,7 @@
 |shop/hearing_aids|shop|hearing_aids| |Hearing Aids Store|Hearing Aids Store| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=hearing_aids| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/herbalist|shop|herbalist| |Herbalist|Herbalist| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=herbalist| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/hifi|shop|hifi| |Hifi Store|Hifi Store|Магазин за аудиотехника|23| | | |stereo,video| |0| |shop| |operator,address,building_area,opening_hours| | |shop=hifi| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|shop/household|shop|household| |Household Store|Household Store| |0| | |notTranslated|home| |0| |shop| |operator,address,building_area,opening_hours| | |shop=household| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/interior_decoration|shop|interior_decoration| |Interior Decoration Store|Interior Decoration Store| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=interior_decoration| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/jewelry|shop|jewelry| |Jeweler|Jeweler|Бижутер|7| | | |diamond,gem,ring| |0| |shop| |operator,address,building_area,opening_hours| | |shop=jewelry| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/kiosk|shop|kiosk| |News Kiosk|News Kiosk| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=kiosk| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|

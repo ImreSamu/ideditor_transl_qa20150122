@@ -29,7 +29,7 @@
 |amenity/bench|amenity|bench| |Bench|Bench|ベンチ|3| | | ||ベンチ|3| | | |backrest| | |amenity=bench| | | | |1| | | | | |0| | | | | |0| |line|point|vertex| |last|
 |amenity/bicycle_parking|amenity|bicycle_parking| |Bicycle Parking|Bicycle Parking|駐輪場|3| | | |bike|駐輪場,自転車駐車場|10| |bicycle| |bicycle_parking,capacity,operator,covered,access_simple| | |amenity=bicycle_parking| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |amenity/bicycle_rental|amenity|bicycle_rental| |Bicycle Rental|Bicycle Rental|レンタサイクル|7| | | |bike|レンタサイクル|7| |bicycle| |capacity,network,operator| | |amenity=bicycle_rental| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
-|amenity/bicycle_repair_station|amenity|bicycle_repair_station| |Bicycle Repair Station|Bicycle Repair Station| |0| | |notTranslated|bike| |0| |bicycle| |operator,opening_hours,fee,service/bicycle/chaintool,service/bicycle/pump| | |amenity=bicycle_repair_station| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
+|amenity/bicycle_repair_station|amenity|bicycle_repair_station| |Bicycle Repair Station|Bicycle Repair Station| |0| | |notTranslated|bike| |0| |bicycle| |operator,brand,opening_hours,fee,service/bicycle/chaintool,service/bicycle/pump| | |amenity=bicycle_repair_station| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |amenity/boat_rental|amenity|boat_rental| |Boat Rental|Boat Rental|貸しボート|5| | | ||貸しボート|5| | | |operator| | |amenity=boat_rental| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/bureau_de_change|amenity|bureau_de_change| |Currency Exchange|Currency Exchange|両替|2| | | |bureau de change,money changer|両替商|3| |bank| |operator| | |amenity=bureau_de_change| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
 |amenity/bus_station|amenity|bus_station| |Bus Station|Bus Station|バスターミナル|7| | | ||バスターミナル|7| |bus| |building_area,operator| | |amenity=bus_station| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -274,7 +274,7 @@
 |landuse/farm|landuse|farm| |Farm|Farm|農地（旧）|5| | | ||農地（旧）|5| |farm| |crop|false| |landuse=farm| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |landuse/farmland|landuse|farmland| |Farm|Farm| |0| | |notTranslated|farmland| |0| |farm| |crop| | |landuse=farmland| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |landuse/farmyard|landuse|farmyard| |Farmyard|Farmyard|農業施設用地|6| | | ||農業施設用地|6| |farm| |crop| | |landuse=farmyard| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/forest|landuse|forest| |Forest|Forest|人工林|3| | | ||人工林, 二次林, 営林, 保安林, 鉄道林|22| |park2| |wood| | |landuse=forest| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|landuse/forest|landuse|forest| |Forest|Forest|人工林|3| | | |tree|人工林, 二次林, 営林, 保安林, 鉄道林|22| |park2| |leaf_type,leaf_cycle| | |landuse=forest| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |landuse/garages|landuse|garages| |Garages|Garages| |0| | |notTranslated|| |0| | | | | | |landuse=garages| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |landuse/grass|landuse|grass| |Grass|Grass|草地|2| | | ||草地, 芝生|6| | | | | | |landuse=grass| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |landuse/industrial|landuse|industrial| |Industrial|Industrial|工業用地|4| | | ||工業用地|4| |industrial| | | | |landuse=industrial| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -346,13 +346,13 @@
 |natural/scree|natural|scree| |Scree|Scree|ガレ場|3| | | |loose rocks|ガレ場|3| | | | | | |natural=scree| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |natural/scrub|natural|scrub| |Scrub|Scrub|低木|2| | | ||低木, 茂み|6| | | | | | |natural=scrub| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |natural/spring|natural|spring| |Spring|Spring|泉|1| | | ||泉, 湧水|5| | | | | | |natural=spring| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
-|natural/tree|natural|tree| |Tree|Tree|樹木・林|4| | | ||樹木, 林|5| |park| |tree_type,denotation| | |natural=tree| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
+|natural/tree|natural|tree| |Tree|Tree|樹木・林|4| | | ||樹木, 林|5| |park| |leaf_type,leaf_cycle,denotation| | |natural=tree| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
 |natural/water|natural|water| |Water|Water|水域|2| | | ||水域|2| |water| |water| | |natural=water| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |natural/water/lake|natural|water|lake|Lake|Lake|湖|1| | | |lakelet,loch,mere|湖|1| |water| | | | |natural=water|water=lake| | | |2| | | | | |0| | | | | |0|area| | | | |last|
 |natural/water/pond|natural|water|pond|Pond|Pond|池|1| | | |lakelet,millpond,tarn,pool,mere|池|1| |water| | | | |natural=water|water=pond| | | |2| | | | | |0| | | | | |0|area| | | | |last|
 |natural/water/reservoir|natural|water|reservoir|Reservoir|Reservoir|貯水池|3| | | ||貯水池|3| |water| | | | |natural=water|water=reservoir| | | |2| | | | | |0| | | | | |0|area| | | | |last|
 |natural/wetland|natural|wetland| |Wetland|Wetland|湿地帯|3| | | ||湿地帯|3| |wetland| |wetland| | |natural=wetland| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|natural/wood|natural|wood| |Wood|Wood|自然林|3| | | ||自然林, 原生林|8| |park2| |wood| | |natural=wood| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|natural/wood|natural|wood| |Wood|Wood|自然林|3| | | |tree|自然林, 原生林|8| |park2| |leaf_type,leaf_cycle| | |natural=wood| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |office|office| | |Office|Office|オフィス|4| | | ||オフィス|4| |commercial| |office,address,building_area,opening_hours,smoking| | |office=*| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |office/accountant|office|accountant| |Accountant|Accountant|会計事務所|5| |duplicate| ||会計事務所, 会計士|10| |commercial| |address,building_area,opening_hours| | |office=accountant| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |office/administrative|office|administrative| |Administrative Office|Administrative Office|地方行政事務所|7| | | ||地方行政事務所|7| |commercial| |address,building_area,opening_hours| | |office=administrative| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
@@ -470,6 +470,7 @@
 |shop/hearing_aids|shop|hearing_aids| |Hearing Aids Store|Hearing Aids Store| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=hearing_aids| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/herbalist|shop|herbalist| |Herbalist|Herbalist| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=herbalist| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/hifi|shop|hifi| |Hifi Store|Hifi Store|音響機器店|5| | | |stereo,video|音響機器店, オーディオ店|13| |shop| |operator,address,building_area,opening_hours| | |shop=hifi| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|shop/household|shop|household| |Household Store|Household Store| |0| | |notTranslated|home| |0| |shop| |operator,address,building_area,opening_hours| | |shop=household| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/interior_decoration|shop|interior_decoration| |Interior Decoration Store|Interior Decoration Store| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=interior_decoration| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/jewelry|shop|jewelry| |Jeweler|Jeweler|宝石店|3| | | |diamond,gem,ring|宝石店|3| |shop| |operator,address,building_area,opening_hours| | |shop=jewelry| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/kiosk|shop|kiosk| |News Kiosk|News Kiosk| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=kiosk| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|

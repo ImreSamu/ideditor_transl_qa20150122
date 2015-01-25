@@ -216,7 +216,9 @@
     "back_tooltip__transl": "Thay đổi đối tượng",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "Không",
+      "yes__en": "Yes",
+      "yes__transl": "Có"
     },
     "choose__en": "Select feature type",
     "choose__transl": "Chọn thể loại đối tượng",
@@ -1242,6 +1244,13 @@
         "label__transl": "Kiểu",
         "type": "combo"
       },
+      "brand": {
+        "key": "brand",
+        "label": "Brand",
+        "label__en": "Brand",
+        "label__transl": "Nhãn hiệu",
+        "type": "text"
+      },
       "building": {
         "key": "building",
         "label": "Building",
@@ -1766,6 +1775,59 @@
         "label": "Layer",
         "label__en": "Layer",
         "label__transl": "Lớp",
+        "type": "combo"
+      },
+      "leaf_cycle": {
+        "key": "leaf_cycle",
+        "label": "Leaf Cycle",
+        "label__en": "Leaf Cycle",
+        "label__transl": "Thời gian Mọc Lá",
+        "options": {
+          "deciduous__en": "Deciduous",
+          "deciduous__transl": "Rụng Lá",
+          "evergreen__en": "Evergreen",
+          "evergreen__transl": "Thường xanh",
+          "mixed__en": "Mixed",
+          "mixed__transl": "Pha trộn",
+          "semi_deciduous__en": "Semi-Deciduous",
+          "semi_deciduous__transl": "Bán Rụng Lá",
+          "semi_evergreen__en": "Semi-Evergreen",
+          "semi_evergreen__transl": "Bán Thường xanh"
+        },
+        "strings": {
+          "options": {
+            "deciduous": "Deciduous",
+            "evergreen": "Evergreen",
+            "mixed": "Mixed",
+            "semi_deciduous": "Semi-Deciduous",
+            "semi_evergreen": "Semi-Evergreen"
+          }
+        },
+        "type": "combo"
+      },
+      "leaf_type": {
+        "key": "leaf_type",
+        "label": "Leaf Type",
+        "label__en": "Leaf Type",
+        "label__transl": "Loại Lá",
+        "options": {
+          "broadleaved__en": "Broadleaved",
+          "broadleaved__transl": "Hình Quạt",
+          "leafless__en": "Leafless",
+          "leafless__transl": "Không có",
+          "mixed__en": "Mixed",
+          "mixed__transl": "Pha trộn",
+          "needleleaved__en": "Needleleaved",
+          "needleleaved__transl": "Hình Kim"
+        },
+        "strings": {
+          "options": {
+            "broadleaved": "Broadleaved",
+            "leafless": "Leafless",
+            "mixed": "Mixed",
+            "needleleaved": "Needleleaved"
+          }
+        },
         "type": "combo"
       },
       "leisure": {
@@ -2781,18 +2843,6 @@
         },
         "type": "combo"
       },
-      "tree_type": {
-        "key": "type",
-        "label": "Type",
-        "label__en": "Type",
-        "label__transl": "Loại",
-        "options": [
-          "broad_leaved",
-          "conifer",
-          "palm"
-        ],
-        "type": "combo"
-      },
       "trees": {
         "key": "trees",
         "label": "Trees",
@@ -2876,13 +2926,6 @@
         "label__transl": "Wikipedia",
         "type": "wikipedia",
         "universal": true
-      },
-      "wood": {
-        "key": "wood",
-        "label": "Type",
-        "label__en": "Type",
-        "label__transl": "Loại",
-        "type": "combo"
       }
     },
     "presets": {
@@ -8555,6 +8598,7 @@
       "amenity/bicycle_repair_station": {
         "fields": [
           "operator",
+          "brand",
           "opening_hours",
           "fee",
           "service/bicycle/chaintool",
@@ -24678,7 +24722,8 @@
       },
       "landuse/forest": {
         "fields": [
-          "wood"
+          "leaf_type",
+          "leaf_cycle"
         ],
         "geometry": [
           "point",
@@ -24692,8 +24737,9 @@
           "landuse": "forest"
         },
         "terms": [
+          "tree"
         ],
-        "terms__en": "",
+        "terms__en": "tree",
         "terms__transl": "rừng trồng cây, rừng lâm nghiệp, lâm học, rung trong cay, rung lam nghiep, lam hoc"
       },
       "landuse/garages": {
@@ -26011,7 +26057,8 @@
       },
       "natural/tree": {
         "fields": [
-          "tree_type",
+          "leaf_type",
+          "leaf_cycle",
           "denotation"
         ],
         "geometry": [
@@ -26126,7 +26173,8 @@
       },
       "natural/wood": {
         "fields": [
-          "wood"
+          "leaf_type",
+          "leaf_cycle"
         ],
         "geometry": [
           "point",
@@ -26140,8 +26188,9 @@
           "natural": "wood"
         },
         "terms": [
+          "tree"
         ],
-        "terms__en": "",
+        "terms__en": "tree",
         "terms__transl": "rừng, cây cối, rung, cay coi"
       },
       "office": {
@@ -35534,6 +35583,30 @@
         ],
         "terms__en": "stereo,video",
         "terms__transl": "tiệm thiết bị âm thanh, cửa hàng thiết bị âm thanh, chỗ bán thiết bị âm thanh, cửa hiệu thiết bị âm thanh, hifi, hi-fi, video, loa, tiem thiet bi am thanh, cua hang thiet bi am thanh, cho ban thiet bi am thanh, cua hieu thiet bi am thanh"
+      },
+      "shop/household": {
+        "fields": [
+          "operator",
+          "address",
+          "building_area",
+          "opening_hours"
+        ],
+        "geometry": [
+          "point",
+          "area"
+        ],
+        "icon": "shop",
+        "name": "Household Store",
+        "name__en": "Household Store",
+        "name__transl": "Gia dụng",
+        "tags": {
+          "shop": "household"
+        },
+        "terms": [
+          "home"
+        ],
+        "terms__en": "home",
+        "terms__transl": "tiệm gia dụng, cửa hàng gia dụng, tiệm bán đồ gia dụng, cửa hàng bán đồ gia dụng, tiệm bán đồ dùng gia đình, cửa hàng bán đồ dùng gia đình, tiem gia dung, cua hang gia dung, tiem ban do gia dung, cua hang ban do gia dung, tiem ban do dung gia dinh, cua hang ban do dung gia dinh"
       },
       "shop/interior_decoration": {
         "fields": [

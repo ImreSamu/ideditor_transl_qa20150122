@@ -138,6 +138,12 @@
        }
      }
      fields: {
+-      tree_type: {
+-        label: "Тип"
+-      }
+-      wood: {
+-        label: "Тип"
+-      }
 +      bench: {
 +        label: "Скамейка"
 +      }
@@ -376,10 +382,6 @@
 +        }
 -        label: "Видимость"
 +        label: "Видимость пути"
-       }
-       wood: {
--        label: "Тип"
-+        label: "Тип леса"
        }
      }
      presets: {

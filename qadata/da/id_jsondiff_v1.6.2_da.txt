@@ -105,6 +105,10 @@
 +    changes: "{count} Ændringer"
    }
    inspector: {
++    check: {
++      yes: "Ja"
++      no: "Nej"
++    }
 +    add_fields: "Tilføj felt:"
    }
    save: {
@@ -112,11 +116,39 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Type"
+-      }
+-      wood: {
+-        label: "Type"
+-      }
 +      bench: {
 +        label: "Bænk"
 +      }
++      brand: {
++        label: "Brand"
++      }
 +      delivery: {
 +        label: "Levering"
++      }
++      leaf_cycle: {
++        label: "Bladcyklus"
++        options: {
++          evergreen: "Altid grønt"
++          deciduous: "Løvfældende"
++          semi_evergreen: "Semi-grønt"
++          semi_deciduous: "Semi-løvfældende"
++          mixed: "Blandet"
++        }
++      }
++      leaf_type: {
++        label: "Bladtype"
++        options: {
++          broadleaved: "Løvtræsblade"
++          needleleaved: "Nåleblade"
++          mixed: "Blandet"
++          leafless: "Bladløs"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        label: "Kædeværktøj"
@@ -195,6 +227,10 @@
 +      power/substation: {
 +        name: "Transformatorstation"
 +        terms: "Transformatorstation"
++      }
++      shop/household: {
++        name: "Køkkenudstyr"
++        terms: "Køkkenudstyr"
 +      }
 +      traffic_calming/bump: {
 +        name: "Vejbump"

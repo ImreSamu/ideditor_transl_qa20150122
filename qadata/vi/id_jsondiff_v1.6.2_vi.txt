@@ -105,6 +105,10 @@
 +    changes: "{count} Thay đổi"
    }
    inspector: {
++    check: {
++      yes: "Có"
++      no: "Không"
++    }
 +    add_fields: "Thêm chi tiết:"
    }
    help: {
@@ -113,11 +117,39 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Loại"
+-      }
+-      wood: {
+-        label: "Loại"
+-      }
 +      bench: {
 +        label: "Ghế"
 +      }
++      brand: {
++        label: "Nhãn hiệu"
++      }
 +      delivery: {
 +        label: "Giao hàng"
++      }
++      leaf_cycle: {
++        label: "Thời gian Mọc Lá"
++        options: {
++          evergreen: "Thường xanh"
++          deciduous: "Rụng Lá"
++          semi_evergreen: "Bán Thường xanh"
++          semi_deciduous: "Bán Rụng Lá"
++          mixed: "Pha trộn"
++        }
++      }
++      leaf_type: {
++        label: "Loại Lá"
++        options: {
++          broadleaved: "Hình Quạt"
++          needleleaved: "Hình Kim"
++          mixed: "Pha trộn"
++          leafless: "Không có"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        label: "Dụng cụ Cắt Xích"
@@ -202,6 +234,10 @@
 +      natural/cave_entrance: {
 +        name: "Cửa Hang"
 +        terms: "cửa hang, lối vào hang, cua hang, loi vao hang"
++      }
++      shop/household: {
++        name: "Gia dụng"
++        terms: "tiệm gia dụng, cửa hàng gia dụng, tiệm bán đồ gia dụng, cửa hàng bán đồ gia dụng, tiệm bán đồ dùng gia đình, cửa hàng bán đồ dùng gia đình, tiem gia dung, cua hang gia dung, tiem ban do gia dung, cua hang ban do gia dung, tiem ban do dung gia dinh, cua hang ban do dung gia dinh"
 +      }
        landuse/farmland: {
 -        name: "Nông nghiệp"

@@ -216,7 +216,9 @@
     "back_tooltip__transl": "Alterar elemento",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "Não",
+      "yes__en": "Yes",
+      "yes__transl": "Sim"
     },
     "choose__en": "Select feature type",
     "choose__transl": "Editar características",
@@ -1242,6 +1244,13 @@
         "label__transl": "Tipo",
         "type": "combo"
       },
+      "brand": {
+        "key": "brand",
+        "label": "Brand",
+        "label__en": "Brand",
+        "label__transl": "Variedade",
+        "type": "text"
+      },
       "building": {
         "key": "building",
         "label": "Building",
@@ -1766,6 +1775,59 @@
         "label": "Layer",
         "label__en": "Layer",
         "label__transl": "Camada",
+        "type": "combo"
+      },
+      "leaf_cycle": {
+        "key": "leaf_cycle",
+        "label": "Leaf Cycle",
+        "label__en": "Leaf Cycle",
+        "label__transl": "Ciclo das Folhas",
+        "options": {
+          "deciduous__en": "Deciduous",
+          "deciduous__transl": "Caduca",
+          "evergreen__en": "Evergreen",
+          "evergreen__transl": "Persistente",
+          "mixed__en": "Mixed",
+          "mixed__transl": "Mistura",
+          "semi_deciduous__en": "Semi-Deciduous",
+          "semi_deciduous__transl": "Semi-Caduca",
+          "semi_evergreen__en": "Semi-Evergreen",
+          "semi_evergreen__transl": "Semi-Presistente"
+        },
+        "strings": {
+          "options": {
+            "deciduous": "Deciduous",
+            "evergreen": "Evergreen",
+            "mixed": "Mixed",
+            "semi_deciduous": "Semi-Deciduous",
+            "semi_evergreen": "Semi-Evergreen"
+          }
+        },
+        "type": "combo"
+      },
+      "leaf_type": {
+        "key": "leaf_type",
+        "label": "Leaf Type",
+        "label__en": "Leaf Type",
+        "label__transl": "Tipo de Folha",
+        "options": {
+          "broadleaved__en": "Broadleaved",
+          "broadleaved__transl": "Largas",
+          "leafless__en": "Leafless",
+          "leafless__transl": "Sem folha",
+          "mixed__en": "Mixed",
+          "mixed__transl": "Mistura",
+          "needleleaved__en": "Needleleaved",
+          "needleleaved__transl": "Agulhas"
+        },
+        "strings": {
+          "options": {
+            "broadleaved": "Broadleaved",
+            "leafless": "Leafless",
+            "mixed": "Mixed",
+            "needleleaved": "Needleleaved"
+          }
+        },
         "type": "combo"
       },
       "leisure": {
@@ -2781,18 +2843,6 @@
         },
         "type": "combo"
       },
-      "tree_type": {
-        "key": "type",
-        "label": "Type",
-        "label__en": "Type",
-        "label__transl": "Tipo",
-        "options": [
-          "broad_leaved",
-          "conifer",
-          "palm"
-        ],
-        "type": "combo"
-      },
       "trees": {
         "key": "trees",
         "label": "Trees",
@@ -2876,13 +2926,6 @@
         "label__transl": "Wikipédia",
         "type": "wikipedia",
         "universal": true
-      },
-      "wood": {
-        "key": "wood",
-        "label": "Type",
-        "label__en": "Type",
-        "label__transl": "Tipo",
-        "type": "combo"
       }
     },
     "presets": {
@@ -8555,6 +8598,7 @@
       "amenity/bicycle_repair_station": {
         "fields": [
           "operator",
+          "brand",
           "opening_hours",
           "fee",
           "service/bicycle/chaintool",
@@ -24678,7 +24722,8 @@
       },
       "landuse/forest": {
         "fields": [
-          "wood"
+          "leaf_type",
+          "leaf_cycle"
         ],
         "geometry": [
           "point",
@@ -24692,8 +24737,9 @@
           "landuse": "forest"
         },
         "terms": [
+          "tree"
         ],
-        "terms__en": "",
+        "terms__en": "tree",
         "terms__transl": "Floresta, Área Verde"
       },
       "landuse/garages": {
@@ -26011,7 +26057,8 @@
       },
       "natural/tree": {
         "fields": [
-          "tree_type",
+          "leaf_type",
+          "leaf_cycle",
           "denotation"
         ],
         "geometry": [
@@ -26126,7 +26173,8 @@
       },
       "natural/wood": {
         "fields": [
-          "wood"
+          "leaf_type",
+          "leaf_cycle"
         ],
         "geometry": [
           "point",
@@ -26140,8 +26188,9 @@
           "natural": "wood"
         },
         "terms": [
+          "tree"
         ],
-        "terms__en": "",
+        "terms__en": "tree",
         "terms__transl": "Wood"
       },
       "office": {
@@ -35534,6 +35583,30 @@
         ],
         "terms__en": "stereo,video",
         "terms__transl": "Hifi Store, Som"
+      },
+      "shop/household": {
+        "fields": [
+          "operator",
+          "address",
+          "building_area",
+          "opening_hours"
+        ],
+        "geometry": [
+          "point",
+          "area"
+        ],
+        "icon": "shop",
+        "name": "Household Store",
+        "name__en": "Household Store",
+        "name__transl": "Loja Caseira",
+        "tags": {
+          "shop": "household"
+        },
+        "terms": [
+          "home"
+        ],
+        "terms__en": "home",
+        "terms__transl": "Household Store"
       },
       "shop/interior_decoration": {
         "fields": [

@@ -105,6 +105,10 @@
 +    changes: "{Count} Alterações"
    }
    inspector: {
++    check: {
++      yes: "Sim"
++      no: "Não"
++    }
 +    add_fields: "Adicionar campo:"
    }
    save: {
@@ -116,11 +120,39 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Tipo"
+-      }
+-      wood: {
+-        label: "Tipo"
+-      }
 +      bench: {
 +        label: "Banco de Sentar"
 +      }
++      brand: {
++        label: "Variedade"
++      }
 +      delivery: {
 +        label: "Entrega"
++      }
++      leaf_cycle: {
++        label: "Ciclo das Folhas"
++        options: {
++          evergreen: "Persistente"
++          deciduous: "Caduca"
++          semi_evergreen: "Semi-Presistente"
++          semi_deciduous: "Semi-Caduca"
++          mixed: "Mistura"
++        }
++      }
++      leaf_type: {
++        label: "Tipo de Folha"
++        options: {
++          broadleaved: "Largas"
++          needleleaved: "Agulhas"
++          mixed: "Mistura"
++          leafless: "Sem folha"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        label: "Corrente de Corte"
@@ -199,6 +231,10 @@
 +      power/substation: {
 +        name: "Subestação"
 +        terms: "Substation, energia"
++      }
++      shop/household: {
++        name: "Loja Caseira"
++        terms: "Household Store"
 +      }
 +      traffic_calming/bump: {
 +        name: "Lomba Pequena"

@@ -27,6 +27,7 @@
 |bench|1|check|Bench|Banco de Sentar| | |bench| | | | | |last|
 |bicycle_parking|1|combo|Type|Tipo| | |bicycle_parking| | | | | |last|
 |boundary|1|combo|Type|Tipo| | |boundary| | | | | |last|
+|brand|1|text|Brand|Variedade| | |brand| | | | | |last|
 |building|1|typeCombo|Building|Edifício| | |building| | | | | |last|
 |building_area|1|defaultcheck|Building|Edifício| | |building| | | | | |last|
 |capacity|1|number|Capacity|Capacidade| | |capacity| | | |50, 100, 200...|50, 100, 200...|last|
@@ -107,6 +108,15 @@
 |landuse|1|typeCombo|Type|Tipo| | |landuse| | | | | |last|
 |lanes|1|number|Lanes|Vias de Trânsito| | |lanes| | | |1, 2, 3...|1, 2, 3...|last|
 |layer|1|combo|Layer|Camada| | |layer| | | | | |last|
+|leaf_cycle|1|combo|Leaf Cycle|Ciclo das Folhas| | |leaf_cycle|evergreen|Evergreen|Persistente| | |last|
+|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|Caduca| | |last|
+|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|Semi-Presistente| | |last|
+|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|Semi-Caduca| | |last|
+|leaf_cycle|5|combo| | | | | |mixed|Mixed|Mistura| | |last|
+|leaf_type|1|combo|Leaf Type|Tipo de Folha| | |leaf_type|broadleaved|Broadleaved|Largas| | |last|
+|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|Agulhas| | |last|
+|leaf_type|3|combo| | | | | |mixed|Mixed|Mistura| | |last|
+|leaf_type|4|combo| | | | | |leafless|Leafless|Sem folha| | |last|
 |leisure|1|typeCombo|Type|Tipo| | |leisure| | | | | |last|
 |length|1|number|Length (Meters)|Comprimento (metros)| | |length| | | | | |last|
 |levels|1|number|Levels|Nº de Andares| | |building:levels| | | |2, 4, 6...|2, 4, 6...|last|
@@ -239,7 +249,6 @@
 |trail_visibility|4|combo| | | | | |bad|Bad: no markers, path sometimes invisible/pathless|Má: caminho pouco visível| | |last|
 |trail_visibility|5|combo| | | | | |horrible|Horrible: often pathless, some orientation skills required|Péssima: por vezes sem caminho ou com nenhum marco de informação| | |last|
 |trail_visibility|6|combo| | | | | |no|No: pathless, excellent orientation skills required|Nenhuma: caminho não é visível, boa habilidade de orientação é necessária| | |last|
-|tree_type|1|combo|Type|Tipo| | |type| | | | | |last|
 |trees|1|combo|Trees|Árvores| | |trees| | | | | |last|
 |tunnel|1|combo|Tunnel|Túnel| | |tunnel| | | | | |last|
 |vending|1|combo|Type of Goods|Tipo de Produtos| | |vending| | | | | |last|
@@ -250,4 +259,3 @@
 |wheelchair|1|radio|Wheelchair Access|Acesso com cadeira de rodas|wheelchair|true|wheelchair| | | | | |last|
 |width|1|number|Width (Meters)|Largura (metros)| | |width| | | | | |last|
 |wikipedia|1|wikipedia|Wikipedia|Wikipédia|wikipedia|true|wikipedia| | | | | |last|
-|wood|1|combo|Type|Tipo| | |wood| | | | | |last|

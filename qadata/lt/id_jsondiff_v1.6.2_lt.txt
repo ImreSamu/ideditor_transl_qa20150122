@@ -129,6 +129,12 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Tipas"
+-      }
+-      wood: {
+-        label: "Tipas"
+-      }
 +      bench: {
 +        label: "Suolas"
 +      }

@@ -27,6 +27,7 @@
 |bench|1|check|Bench|Bench| | |bench| | | | | |last|
 |bicycle_parking|1|combo|Type|Type| | |bicycle_parking| | | | | |last|
 |boundary|1|combo|Type|Type| | |boundary| | | | | |last|
+|brand|1|text|Brand|Brand| | |brand| | | | | |last|
 |building|1|typeCombo|Building|Building| | |building| | | | | |last|
 |building_area|1|defaultcheck|Building|Building| | |building| | | | | |last|
 |capacity|1|number|Capacity|Capacity| | |capacity| | | |50, 100, 200...|50, 100, 200...|last|
@@ -107,6 +108,15 @@
 |landuse|1|typeCombo|Type|Type| | |landuse| | | | | |last|
 |lanes|1|number|Lanes|Lanes| | |lanes| | | |1, 2, 3...|1, 2, 3...|last|
 |layer|1|combo|Layer|Layer| | |layer| | | | | |last|
+|leaf_cycle|1|combo|Leaf Cycle|Leaf Cycle| | |leaf_cycle|evergreen|Evergreen|Evergreen| | |last|
+|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|Deciduous| | |last|
+|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|Semi-Evergreen| | |last|
+|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|Semi-Deciduous| | |last|
+|leaf_cycle|5|combo| | | | | |mixed|Mixed|Mixed| | |last|
+|leaf_type|1|combo|Leaf Type|Leaf Type| | |leaf_type|broadleaved|Broadleaved|Broadleaved| | |last|
+|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|Needleleaved| | |last|
+|leaf_type|3|combo| | | | | |mixed|Mixed|Mixed| | |last|
+|leaf_type|4|combo| | | | | |leafless|Leafless|Leafless| | |last|
 |leisure|1|typeCombo|Type|Type| | |leisure| | | | | |last|
 |length|1|number|Length (Meters)|Length (Meters)| | |length| | | | | |last|
 |levels|1|number|Levels|Levels| | |building:levels| | | |2, 4, 6...|2, 4, 6...|last|
@@ -239,7 +249,6 @@
 |trail_visibility|4|combo| | | | | |bad|Bad: no markers, path sometimes invisible/pathless|Bad: no markers, path sometimes invisible/pathless| | |last|
 |trail_visibility|5|combo| | | | | |horrible|Horrible: often pathless, some orientation skills required|Horrible: often pathless, some orientation skills required| | |last|
 |trail_visibility|6|combo| | | | | |no|No: pathless, excellent orientation skills required|No: pathless, excellent orientation skills required| | |last|
-|tree_type|1|combo|Type|Type| | |type| | | | | |last|
 |trees|1|combo|Trees|Trees| | |trees| | | | | |last|
 |tunnel|1|combo|Tunnel|Tunnel| | |tunnel| | | | | |last|
 |vending|1|combo|Type of Goods|Type of Goods| | |vending| | | | | |last|
@@ -250,4 +259,3 @@
 |wheelchair|1|radio|Wheelchair Access|Wheelchair Access|wheelchair|true|wheelchair| | | | | |last|
 |width|1|number|Width (Meters)|Width (Meters)| | |width| | | | | |last|
 |wikipedia|1|wikipedia|Wikipedia|Wikipedia|wikipedia|true|wikipedia| | | | | |last|
-|wood|1|combo|Type|Type| | |wood| | | | | |last|

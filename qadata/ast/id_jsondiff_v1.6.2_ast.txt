@@ -1,5 +1,13 @@
  {
    presets: {
+     fields: {
+-      tree_type: {
+-        label: "Tipu"
+-      }
+-      wood: {
+-        label: "Tipu"
+-      }
+     }
      presets: {
 -      craft/confectionary: {
 -        name: "Confitería"

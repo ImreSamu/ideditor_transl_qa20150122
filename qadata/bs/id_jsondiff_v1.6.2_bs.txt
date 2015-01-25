@@ -3,6 +3,14 @@
 -    gps: "# GPS\n\nGPS podaci su napouzdaniji izvor podataka za OpenStreetMap. Ovaj uređivač\npodržava lokalne trase - `.gpx` datoteke na Vašem lokalnom računaru. Možete sakupiti\novu vrstu GPS trasa sa brojnim \"smartphone\" aplikacijama kao i sa\nličnim GPS hardverom.\n\nZa informacije kako izbršiti GPS istraživanje, pročitajte\n[Istraživanje sa GPS-om](http://learnosm.org/en/beginner/using-gps/).\n\nDa bi koristili GPX trase za mapiranje, povucite i spustite GPX datoteku na uređivač\nkarte. Ukoliko je prepoznat, biće dodan karti kao svjetlo zelena\nlinija. Kliknite na meni 'Podešavanja pozadine' na lijevoj strani da omogućite,\nonemogućite, ili uvećate ovaj novi sloj pokretan GPX-om.\n\nGPX trasa ne biva direktno postavljena na OpenStreetMap - najbolji način\nda se ona koristi je crtanje na karti, koristeći je kao vodilju za nove značajke koje\nVi dodajete, i takođe možete [da je postavite na OpenStreetMap](http://www.openstreetmap.org/trace/create)\nza druge korisnike da je koriste.\n"
    }
    presets: {
+     fields: {
+-      tree_type: {
+-        label: "Vrsta"
+-      }
+-      wood: {
+-        label: "Vrsta"
+-      }
+     }
      presets: {
 -      landuse/farmland: {
 -        name: "Agrarno zemljište"

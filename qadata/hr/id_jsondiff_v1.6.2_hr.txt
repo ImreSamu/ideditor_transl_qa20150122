@@ -4,6 +4,9 @@
    }
    presets: {
      fields: {
+-      wood: {
+-        label: "Vrsta"
+-      }
 +      craft: {
 +        label: "Vrsta"
 +      }

@@ -27,6 +27,7 @@
 |bench|1|check|Bench| | | |bench| | | | | |last|
 |bicycle_parking|1|combo|Type|Uri| | |bicycle_parking| | | | | |last|
 |boundary|1|combo|Type|Uri| | |boundary| | | | | |last|
+|brand|1|text|Brand| | | |brand| | | | | |last|
 |building|1|typeCombo|Building|Gusali| | |building| | | | | |last|
 |building_area|1|defaultcheck|Building|Gusali| | |building| | | | | |last|
 |capacity|1|number|Capacity|Kapasidad| | |capacity| | | |50, 100, 200...| |last|
@@ -107,6 +108,15 @@
 |landuse|1|typeCombo|Type|Uri| | |landuse| | | | | |last|
 |lanes|1|number|Lanes| | | |lanes| | | |1, 2, 3...| |last|
 |layer|1|combo|Layer| | | |layer| | | | | |last|
+|leaf_cycle|1|combo|Leaf Cycle| | | |leaf_cycle|evergreen|Evergreen|| | |last|
+|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|| | |last|
+|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|| | |last|
+|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|| | |last|
+|leaf_cycle|5|combo| | | | | |mixed|Mixed|| | |last|
+|leaf_type|1|combo|Leaf Type| | | |leaf_type|broadleaved|Broadleaved|| | |last|
+|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|| | |last|
+|leaf_type|3|combo| | | | | |mixed|Mixed|| | |last|
+|leaf_type|4|combo| | | | | |leafless|Leafless|| | |last|
 |leisure|1|typeCombo|Type|Uri| | |leisure| | | | | |last|
 |length|1|number|Length (Meters)| | | |length| | | | | |last|
 |levels|1|number|Levels| | | |building:levels| | | |2, 4, 6...| |last|
@@ -239,7 +249,6 @@
 |trail_visibility|4|combo| | | | | |bad|Bad: no markers, path sometimes invisible/pathless|| | |last|
 |trail_visibility|5|combo| | | | | |horrible|Horrible: often pathless, some orientation skills required|| | |last|
 |trail_visibility|6|combo| | | | | |no|No: pathless, excellent orientation skills required|| | |last|
-|tree_type|1|combo|Type|Uri| | |type| | | | | |last|
 |trees|1|combo|Trees| | | |trees| | | | | |last|
 |tunnel|1|combo|Tunnel| | | |tunnel| | | | | |last|
 |vending|1|combo|Type of Goods| | | |vending| | | | | |last|
@@ -250,4 +259,5 @@
 |wheelchair|1|radio|Wheelchair Access| |wheelchair|true|wheelchair| | | | | |last|
 |width|1|number|Width (Meters)| | | |width| | | | | |last|
 |wikipedia|1|wikipedia|Wikipedia| |wikipedia|true|wikipedia| | | | | |last|
-|wood|1|combo|Type|Uri| | |wood| | | | | |last|
+|tree_type|1| | |Uri| | | | | | | | |last|
+|wood|1| | |Uri| | | | | | | | |last|

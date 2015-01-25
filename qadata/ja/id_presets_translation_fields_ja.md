@@ -27,6 +27,7 @@
 |bench|1|check|Bench| | | |bench| | | | | |last|
 |bicycle_parking|1|combo|Type|種類| | |bicycle_parking| | | | | |last|
 |boundary|1|combo|Type|タイプ| | |boundary| | | | | |last|
+|brand|1|text|Brand| | | |brand| | | | | |last|
 |building|1|typeCombo|Building|建物| | |building| | | | | |last|
 |building_area|1|defaultcheck|Building|建物| | |building| | | | | |last|
 |capacity|1|number|Capacity|収容数| | |capacity| | | |50, 100, 200...|50, 100, 200...|last|
@@ -107,6 +108,15 @@
 |landuse|1|typeCombo|Type|土地区分| | |landuse| | | | | |last|
 |lanes|1|number|Lanes|車線数| | |lanes| | | |1, 2, 3...|1, 2, 3...|last|
 |layer|1|combo|Layer|レイヤー| | |layer| | | | | |last|
+|leaf_cycle|1|combo|Leaf Cycle| | | |leaf_cycle|evergreen|Evergreen|| | |last|
+|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|| | |last|
+|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|| | |last|
+|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|| | |last|
+|leaf_cycle|5|combo| | | | | |mixed|Mixed|| | |last|
+|leaf_type|1|combo|Leaf Type| | | |leaf_type|broadleaved|Broadleaved|| | |last|
+|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|| | |last|
+|leaf_type|3|combo| | | | | |mixed|Mixed|| | |last|
+|leaf_type|4|combo| | | | | |leafless|Leafless|| | |last|
 |leisure|1|typeCombo|Type|タイプ| | |leisure| | | | | |last|
 |length|1|number|Length (Meters)|長さ (m)| | |length| | | | | |last|
 |levels|1|number|Levels|階数| | |building:levels| | | |2, 4, 6...|2, 4, 6...|last|
@@ -239,7 +249,6 @@
 |trail_visibility|4|combo| | | | | |bad|Bad: no markers, path sometimes invisible/pathless|悪: 道はなかったりわからなかったりで，かつ目印なし| | |last|
 |trail_visibility|5|combo| | | | | |horrible|Horrible: often pathless, some orientation skills required|劣悪: ほとんど道がなく定位技量が必要| | |last|
 |trail_visibility|6|combo| | | | | |no|No: pathless, excellent orientation skills required|不可: 道はなく，高度な定位技量が必要| | |last|
-|tree_type|1|combo|Type|タイプ| | |type| | | | | |last|
 |trees|1|combo|Trees|木の数| | |trees| | | | | |last|
 |tunnel|1|combo|Tunnel|トンネル| | |tunnel| | | | | |last|
 |vending|1|combo|Type of Goods|販売商品の種別| | |vending| | | | | |last|
@@ -250,4 +259,3 @@
 |wheelchair|1|radio|Wheelchair Access|車椅子の利用可否|wheelchair|true|wheelchair| | | | | |last|
 |width|1|number|Width (Meters)|幅 (m)| | |width| | | | | |last|
 |wikipedia|1|wikipedia|Wikipedia|Wikipedia|wikipedia|true|wikipedia| | | | | |last|
-|wood|1|combo|Type|タイプ| | |wood| | | | | |last|

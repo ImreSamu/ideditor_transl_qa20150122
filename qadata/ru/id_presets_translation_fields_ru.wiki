@@ -419,6 +419,21 @@
 |  
 | last
 |-
+| brand
+| 1
+| text
+| Brand
+|  
+|  
+|  
+| brand
+|  
+|  
+|  
+|  
+|  
+| last
+|-
 | building
 | 1
 | typeCombo
@@ -1615,6 +1630,141 @@
 |  
 |  
 |  
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 1
+| combo
+| Leaf Cycle
+|  
+|  
+|  
+| leaf_cycle
+| evergreen
+| Evergreen
+| 
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| deciduous
+| Deciduous
+| 
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| semi_evergreen
+| Semi-Evergreen
+| 
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| semi_deciduous
+| Semi-Deciduous
+| 
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| mixed
+| Mixed
+| 
+|  
+|  
+| last
+|-
+| leaf_type
+| 1
+| combo
+| Leaf Type
+|  
+|  
+|  
+| leaf_type
+| broadleaved
+| Broadleaved
+| 
+|  
+|  
+| last
+|-
+| leaf_type
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| needleleaved
+| Needleleaved
+| 
+|  
+|  
+| last
+|-
+| leaf_type
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| mixed
+| Mixed
+| 
+|  
+|  
+| last
+|-
+| leaf_type
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| leafless
+| Leafless
+| 
 |  
 |  
 | last
@@ -3599,21 +3749,6 @@
 |  
 | last
 |-
-| tree_type
-| 1
-| combo
-| Type
-| Тип
-|  
-|  
-| type
-|  
-|  
-|  
-|  
-|  
-| last
-|-
 | trees
 | 1
 | combo
@@ -3757,21 +3892,6 @@
 | wikipedia
 | true
 | wikipedia
-|  
-|  
-|  
-|  
-|  
-| last
-|-
-| wood
-| 1
-| combo
-| Type
-| Тип леса
-|  
-|  
-| wood
 |  
 |  
 |  

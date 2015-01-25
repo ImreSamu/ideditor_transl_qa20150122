@@ -53,6 +53,9 @@
    }
    presets: {
      fields: {
+-      wood: {
+-        label: "Tyyppi"
+-      }
 +      bench: {
 +        label: "Penkki"
 +      }
@@ -81,9 +84,6 @@
 +          pitlatrine: "Peittoaines"
 +          chemical: "Kemikaalinen"
 +        }
-+      }
-+      tree_type: {
-+        label: "Tyyppi"
 +      }
 +      trees: {
 +        label: "Puut"

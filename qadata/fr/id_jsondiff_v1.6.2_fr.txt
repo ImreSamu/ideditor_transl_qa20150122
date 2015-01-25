@@ -116,6 +116,12 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Type"
+-      }
+-      wood: {
+-        label: "Type"
+-      }
 +      bench: {
 +        label: "Banc"
 +      }

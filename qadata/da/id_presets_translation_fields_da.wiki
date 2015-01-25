@@ -419,6 +419,21 @@
 |  
 | last
 |-
+| brand
+| 1
+| text
+| Brand
+| Brand
+|  
+|  
+| brand
+|  
+|  
+|  
+|  
+|  
+| last
+|-
 | building
 | 1
 | typeCombo
@@ -1615,6 +1630,141 @@
 |  
 |  
 |  
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 1
+| combo
+| Leaf Cycle
+| Bladcyklus
+|  
+|  
+| leaf_cycle
+| evergreen
+| Evergreen
+| Altid grønt
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| deciduous
+| Deciduous
+| Løvfældende
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| semi_evergreen
+| Semi-Evergreen
+| Semi-grønt
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| semi_deciduous
+| Semi-Deciduous
+| Semi-løvfældende
+|  
+|  
+| last
+|-
+| leaf_cycle
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| mixed
+| Mixed
+| Blandet
+|  
+|  
+| last
+|-
+| leaf_type
+| 1
+| combo
+| Leaf Type
+| Bladtype
+|  
+|  
+| leaf_type
+| broadleaved
+| Broadleaved
+| Løvtræsblade
+|  
+|  
+| last
+|-
+| leaf_type
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| needleleaved
+| Needleleaved
+| Nåleblade
+|  
+|  
+| last
+|-
+| leaf_type
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| mixed
+| Mixed
+| Blandet
+|  
+|  
+| last
+|-
+| leaf_type
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| leafless
+| Leafless
+| Bladløs
 |  
 |  
 | last
@@ -3599,21 +3749,6 @@
 |  
 | last
 |-
-| tree_type
-| 1
-| combo
-| Type
-| Type
-|  
-|  
-| type
-|  
-|  
-|  
-|  
-|  
-| last
-|-
 | trees
 | 1
 | combo
@@ -3757,21 +3892,6 @@
 | wikipedia
 | true
 | wikipedia
-|  
-|  
-|  
-|  
-|  
-| last
-|-
-| wood
-| 1
-| combo
-| Type
-| Type
-|  
-|  
-| wood
 |  
 |  
 |  

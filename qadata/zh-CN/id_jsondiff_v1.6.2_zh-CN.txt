@@ -25,6 +25,12 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "类型"
+-      }
+-      wood: {
+-        label: "类型"
+-      }
 +      bench: {
 +        label: "长凳"
 +      }

@@ -113,6 +113,12 @@
    }
    presets: {
      fields: {
+-      tree_type: {
+-        label: "Typ"
+-      }
+-      wood: {
+-        label: "Typ"
+-      }
 +      bench: {
 +        label: "Sitzbank"
 +      }
