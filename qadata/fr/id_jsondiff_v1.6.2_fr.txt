@@ -1,0 +1,235 @@
+ {
++  feature_info: {
++    hidden_warning: "{count} éléments cachés"
++    hidden_details: "Ces éléments sont en ce moment cachés: {details}"
++  }
++  map_data: {
++    title: "Données cartographiques"
++    description: "Données cartographiques"
++    data_layers: "Calques de données"
++    fill_area: "Remplissage des zones"
++    map_features: "Éléments de la carte"
++    autohidden: "Ces éléments ont été automatiquement cachés parce qu'un trop grand nombre d'entre eux seraient affichés à l'écran. Vous pouvez zoomer pour les éditer."
++  }
++  feature: {
++    points: {
++      description: "Points"
++      tooltip: "Points d'intérêt"
++    }
++    major_roads: {
++      description: "Routes principales"
++      tooltip: "Voies, Rues, etc."
++    }
++    minor_roads: {
++      description: "Routes secondaires"
++      tooltip: "Voies de service, Allées de stationnement, Pistes, etc."
++    }
++    paths: {
++      description: "Chemins"
++      tooltip: "Trottoirs, Chemins piétonniers, Pistes cyclables, etc."
++    }
++    buildings: {
++      description: "Bâtiments"
++      tooltip: "Bâtiments, Abris, Garages, etc."
++    }
++    landuse: {
++      description: "Éléments d'occupation des sols"
++      tooltip: "Forêts, Terres arables, Parcs, Zone résidentielle, Zone commerciale, etc."
++    }
++    boundaries: {
++      description: "Frontières"
++      tooltip: "Limites administratives"
++    }
++    water: {
++      description: "Éléments aquatiques"
++      tooltip: "Rivières, Lacs, Étangs, Bassins, etc."
++    }
++    rail: {
++      description: "Éléments ferroviaires"
++      tooltip: "Voies ferrées"
++    }
++    power: {
++      description: "Éléments électriques"
++      tooltip: "Lignes électriques, Centrales électriques, Postes électriques, etc."
++    }
++    past_future: {
++      description: "Passé/Futur"
++      tooltip: "Proposé, Construction, Abandonné, Démoli, etc."
++    }
++    others: {
++      description: "Autres"
++      tooltip: "Autres"
++    }
++  }
++  area_fill: {
++    wireframe: {
++      description: "Pas de remplissage (Filaire)"
++      tooltip: "Activer le mode filaire facilite la vue de l'imagerie aérienne."
++    }
++    partial: {
++      description: "Remplissage partiel"
++      tooltip: "Les zones sont dessinées avec un remplissage seulement autour de leurs bords intérieurs. (recommandé pour les cartographes débutants)"
++    }
++    full: {
++      description: "Remplissage complet"
++      tooltip: "Les zones sont dessinées complètement remplies."
++    }
++  }
+   operations: {
+     circularize: {
++      connected_to_hidden: "Ceci ne peut pas être transformé en cercle parce que c'est connecté à un élément caché."
+     }
+     orthogonalize: {
++      connected_to_hidden: "Ceci ne peut être orthogonalisé parce que c'est connecté à un élément caché."
+     }
+     straighten: {
++      connected_to_hidden: "Cette ligne ne peut être rendue droite parce qu'elle est connecté à un élément caché."
+     }
+     delete: {
++      connected_to_hidden: "Ceci ne peut être supprimé parce que c'est connecté à un élément caché."
+     }
+     disconnect: {
++      connected_to_hidden: "Ceci ne peut être déconnecté parce que c'est connecté à un élément caché."
+     }
+     move: {
++      connected_to_hidden: "Ceci ne peut être bougé parce que c'est connecté à un élément caché."
+     }
+     rotate: {
++      connected_to_hidden: "Ceci ne peut être tourné parce que c'est connecté à un élément caché."
+     }
+     split: {
++      connected_to_hidden: "Ceci ne peut être scindé parce que c'est connecté à un élément caché."
+     }
+   }
+   commit: {
++    changes: "{count} changements"
+   }
+   inspector: {
++    add_fields: "Ajouter champ:"
+   }
+   save: {
++    unknown_error_details: "S'il vous plaît, assurez-vous d'être connecté à l'internet."
+   }
+   help: {
+-    gps: "# GPS⏎\n⏎\nLes traces GPS sont les données les plus fiables pour OpenStreetMap. ⏎\nCet éditeur connaît les traces au format  -`.gpx`. Vous pouvez enregistrer ce\ntype de traces avec un grand nombre d'applications pour smartphones\nainsi qu'avec certains GPS de randonnées.⏎\n⏎\nPour plus d'informations sur la manière de relever des traces GPS, vous\npouvez consulter le guide [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).⏎\n⏎\nPour utiliser un relevé GPX, il vous suffit de glisser-déposer le fichier GPX\ndirectement sur la carte. S'il est reconnu, il sera ajouté sur la carte sous\nla forme d'une ligne vert clair. Cliquez sur le menu \"Configuration du fond\nde carte\" à gauche pour activer et désactiver l'affichage de la trace, ou\nencore pour centrer le zoom sur la trace.⏎\n⏎\nLes traces GPX ne sont pas directement enregistrée dans OpenStreetMap.⏎\nLe meilleur moyen de les utiliser est de les prendre comme guide pour ajouter⏎\nvous même des informations sur la carte ou bien en les [upload it to OpenStreetMap](http://www.openstreetmap.org/trace/create)⏎\npour les fournir aux autres contributeurs⏎\n"
++    gps: "# GPS\n\nLa donnée GPS est la source la plus fiable de données pour OpenStreetMap. Cet éditeur\nsupporte les traces en local - fichiers `.gpx` sur votre ordinateur. Vous pouvez collecter\nce genre de trace GPS à l'aide de nombreuses applications pour smartphones ainsi qu'avec\ndu matériel GPS personnel.\n\nPour de la documentation sur la manière de faire un relevé GPS, lisez\n[Sur le terrain avec un GPS](http://learnosm.org/fr/beginner/using-gps/).\n\nPour utiliser un tracé GPX pour cartographier, effectuer un \"glissé-déposé\" du fichier GPX dans l'éditeur de cartes.\nS'il est reconnu, il sera ajouté à la carte comme une ligne violette en surbrillance.\nCliquez dans le menu \"Données de la carte\" sur le côté droit pour activer,\ndésactiver, ou zoomer dans ce nouveau calque GPX.\n\nLe tracé GPX n'est pas directement chargé vers OpenStreetMap - le meilleur moyen de\nl'utiliser est de dessiner sur la carte, en l'utilisant comme guide pour les nouveaux éléments que\nvous ajoutez, et aussi de le [charger dans OpenStreetMap](http://www.openstreetmap.org/trace/create) pour que les autres utilisateurs puissent s'en servir.\n"
+   }
+   presets: {
+     fields: {
++      bench: {
++        label: "Banc"
++      }
++      delivery: {
++        label: "Livraison"
++      }
++      service/bicycle/chaintool: {
++        label: "Outil de réparation de chaînes de vélo"
++        options: {
++          undefined: "Supposé être Non"
++          yes: "Oui"
++          no: "Non"
++        }
++      }
++      service/bicycle/pump: {
++        label: "Pompe à air"
++        options: {
++          undefined: "Supposé être Non"
++          yes: "Oui"
++          no: "Non"
++        }
++      }
++      substation: {
++        label: "Type"
++      }
++      takeaway: {
++        label: "À emporter"
++        placeholder: "Oui, Non, À emporter seulement..."
++        options: {
++          yes: "Oui"
++          no: "Non"
++          only: "À emporter seulement"
++        }
++      }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Confiserie"
+-        terms: "Confiserie"
+-      }
++      amenity/bicycle_repair_station: {
++        name: "Station de réparation de vélos"
++        terms: "Borne de réparation de vélos,Point de réparation de vélos"
++      }
++      amenity/community_centre: {
++        name: "Salle des fêtes"
++        terms: "Salle festive, Salle polyvalente, Centre communautaire => Canada"
++      }
++      amenity/grit_bin: {
++        name: "Bac à sel"
++        terms: "Bacs à sel de déneigement"
++      }
++      amenity/public_bookcase: {
++        name: "Microbibliothèque"
++        terms: "Bibliothèque en libre service, Micro-bibliothèque"
++      }
++      amenity/register_office: {
++        name: "Bureau d'état-civil"
++        terms: "Bureau d'enregistrement"
++      }
++      craft/confectionery: {
++        name: "Confiserie"
++        terms: "Confiserie"
++      }
++      junction: {
++        name: "Jonction routière"
++        terms: "Jonction routière, Jonction, Carrefour, Intersection routière,  Intersection"
++      }
++      landuse/garages: {
++        name: "Garages"
++        terms: "Garages privés, boxes"
++      }
++      leisure/nature_reserve: {
++        name: "Réserve naturelle"
++        terms: "Zone protégée"
++      }
++      natural/cave_entrance: {
++        name: "Entrée de caverne"
++        terms: "Abri sous roche"
++      }
++      power/substation: {
++        name: "Sous-station"
++        terms: "Sous-station électrique"
++      }
++      traffic_calming/bump: {
++        name: "Ralentisseur"
++        terms: "ralentisseur, casse-vitesse"
++      }
++      traffic_calming/hump: {
++        name: "Ralentisseur dos d’âne (gendarme couché)"
++        terms: "Dos d'âne"
++      }
++      traffic_calming/rumble_strip: {
++        name: "Section de route à rainurage"
++        terms: "Bande rugueuse"
++      }
++      traffic_calming/table: {
++        name: "Passage pour piétons surélévé"
++        terms: "Passage piéton surélevé, Ralentisseur de type trapézoïdal"
++      }
+       landuse/farm: {
+-        terms: "Ferme"
++        terms: "Terres cultivées, champs cultivés"
+       }
+       landuse/farmland: {
+-        name: "Terre agricole"
++        name: "Cultures"
+-        terms: "Terre agricole, Cultures"
++        terms: "Terres cultivées, champs cultivés"
+       }
+       landuse/farmyard: {
+-        terms: "Cour de ferme"
++        terms: "Cour de ferme, ensemble des bâtiments d'une ferme"
+       }
+     }
+   }
+ }

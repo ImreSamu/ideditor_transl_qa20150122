@@ -1,0 +1,145 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| உணவகம்
+| Restaurant
+| amenity/restaurant
+|  
+| restaurant
+| amenity=restaurant
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| உணவகம்
+| Hotel
+| tourism/hotel
+|  
+| lodging
+| tourism=hotel
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| கடற்கரை
+| Beach
+| natural/beach
+|  
+|  
+| natural=beach
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| கடற்கரை
+| Coastline
+| natural/coastline
+|  
+|  
+| natural=coastline
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| பயன்படுத்தப்படாத இரயில்வே
+| Abandoned Railway
+| railway/abandoned
+|  
+| railway-abandoned
+| railway=abandoned
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| பயன்படுத்தப்படாத இரயில்வே
+| Disused Railway
+| railway/disused
+|  
+| railway-disused
+| railway=disused
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| மரம்
+| Tree
+| natural/tree
+|  
+| park
+| natural=tree
+|  
+|  
+|  
+|  
+|  
+|  
+| point
+| vertex
+|  
+|-
+| மரம்
+| Wood
+| natural/wood
+|  
+| park2
+| natural=wood
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|}

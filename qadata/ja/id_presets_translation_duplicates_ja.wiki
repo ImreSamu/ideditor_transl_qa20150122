@@ -1,0 +1,337 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| ケーブルカー
+| Cable Car
+| aerialway/cable_car
+|  
+|  
+| aerialway=cable_car
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| ケーブルカー
+| Funicular
+| railway/funicular
+|  
+| railway-rail
+| railway=funicular
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| 会計事務所
+| Financial Office
+| office/financial
+|  
+| commercial
+| office=financial
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| 会計事務所
+| Accountant
+| office/accountant
+|  
+| commercial
+| office=accountant
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| 写真屋
+| Photography Store
+| shop/photo
+|  
+| camera
+| shop=photo
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| 写真屋
+| Photographer
+| craft/photographer
+|  
+| camera
+| craft=photographer
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| 大学の敷地
+| College Grounds
+| amenity/college
+|  
+| college
+| amenity=college
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| 大学の敷地
+| University Grounds
+| amenity/university
+|  
+| college
+| amenity=university
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| 教会
+| Church
+| building/church
+|  
+| place-of-worship
+| building=church
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| 教会
+| Church
+| amenity/place_of_worship/christian
+|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| 格納庫
+| Hangar
+| aeroway/hangar
+|  
+|  
+| aeroway=hangar
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| 格納庫
+| Shed
+| building/shed
+|  
+| building
+| building=shed
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| 横断歩道
+| Crossing
+| highway/crossing
+|  
+|  
+| highway=crossing
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| 横断歩道
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| 横断歩道
+| Crosswalk
+| footway/crosswalk
+|  
+|  
+| highway=footway
+| footway=crossing
+| crossing=zebra
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| 横断歩道
+| Crossing
+| footway/crossing
+|  
+|  
+| highway=footway
+| footway=crossing
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| 歩道
+| Foot Path
+| highway/footway
+|  
+| highway-footway
+| highway=footway
+|  
+|  
+|  
+|  
+| area
+| line
+|  
+|  
+|  
+|-
+| 歩道
+| Sidewalk
+| footway/sidewalk
+|  
+|  
+| highway=footway
+| footway=sidewalk
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| 行政境界
+| Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| 行政境界
+| Administrative Boundary
+| type/boundary/administrative
+|  
+| boundary
+| type=boundary
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|}

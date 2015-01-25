@@ -1,0 +1,372 @@
+ {
++  feature_info: {
++    hidden_warning: "{count} característiques ocultes"
++    hidden_details: "S'han ocultat aquestes característiques: {details}"
++  }
++  map_data: {
++    title: "Dades del mapa"
++    description: "Dades del mapa"
++    data_layers: "Capes de dades"
++    fill_area: "Emplenat d'àrees"
++    map_features: "Característiques del mapa"
++    autohidden: "Aquestes característiques s'han amagat automàticament perquè n'haurien aparegut massa a la pantalla. Podeu acostar el zoom per editar-les."
++  }
++  feature: {
++    points: {
++      description: "Punts"
++      tooltip: "Punts d'Interès"
++    }
++    major_roads: {
++      description: "Carreteres bàsiques"
++      tooltip: "Autopistes, carrers, etc."
++    }
++    minor_roads: {
++      description: "Carreteres menors"
++      tooltip: "Carreteres de servei, carrils d'aparcament, pistes, etc."
++    }
++    paths: {
++      description: "Camins"
++      tooltip: "Voreres, camins per vianants, carrils bici, etc."
++    }
++    buildings: {
++      description: "Edificis"
++      tooltip: "Edificis, refugis, garatges, etc."
++    }
++    landuse: {
++      description: "Ús del terreny"
++      tooltip: "Boscos, camps, parcs, residencial, comercial, etc."
++    }
++    boundaries: {
++      description: "Límits"
++      tooltip: "Límits administratius"
++    }
++    water: {
++      description: "Cossos d'aigua"
++      tooltip: "Rius, llacs, basses, conques, etc."
++    }
++    rail: {
++      description: "Ferrocarril"
++      tooltip: "Vies fèrries"
++    }
++    power: {
++      description: "Electricitat"
++      tooltip: "Línies elèctriques, centrals, subestacions, etc."
++    }
++    past_future: {
++      description: "Passat/futur"
++      tooltip: "Proposat, en construcció, abandonat, enderrocat, etc."
++    }
++    others: {
++      description: "Altres"
++      tooltip: "Tota la resta"
++    }
++  }
++  area_fill: {
++    wireframe: {
++      description: "Sense emplenat (esquelet)"
++      tooltip: "El mode d'esquelet fa més fàcil veure la imatgeria de fons."
++    }
++    partial: {
++      description: "Emplenat parcial"
++      tooltip: "Les àrees només s'omplen al voltant de la seva vora interior. (Recomanat per principiants)"
++    }
++    full: {
++      description: "Emplenat total"
++      tooltip: "Les àrees es dibuixen totalment plenes."
++    }
++  }
+   operations: {
+     circularize: {
++      connected_to_hidden: "No es pot fer circular perquè està connectat a una característica oculta."
+     }
+     orthogonalize: {
++      connected_to_hidden: "No es pot quadrar perquè està connectat a una característica oculta."
+     }
+     straighten: {
++      connected_to_hidden: "Aquesta línia no es pot posar recta perquè està connectada a una característica oculta."
+     }
+     delete: {
++      connected_to_hidden: "No es pot esborrar perquè està connectat a una característica oculta."
+     }
+     disconnect: {
++      connected_to_hidden: "No es pot desconnectar perquè està connectat a una característica oculta."
+     }
+     move: {
++      connected_to_hidden: "No es pot moure perquè està connectat a una característica oculta."
+     }
+     rotate: {
++      connected_to_hidden: "No es pot rotar perquè està connectat a una característica oculta."
+     }
+     split: {
++      connected_to_hidden: "No es pot dividir perquè està connectat a una característica oculta."
+     }
+   }
+   commit: {
++    changes: "{count} canvis"
+-    title: "Desar els canvis"
++    title: "Desa els canvis"
+-    save: "Desar"
++    save: "Desa"
+   }
+   geolocate: {
+-    title: "Mostrar la meva ubicació"
++    title: "Mostra la meva ubicació"
+   }
+   inspector: {
++    add_fields: "Afegir camp:"
+-    show_more: "Mostrar-ne més"
++    show_more: "Mostra'n més"
+-    view_on_osm: "Mostrar-ho a openstreetmap.org"
++    view_on_osm: "Mostra-ho a openstreetmap.org"
+-    reference: "Mostrar-ho al wiki de l'OpenStreetMap"
++    reference: "Mostra-ho al wiki de l'OpenStreetMap"
+   }
+   save: {
++    unknown_error_details: "Assegureu-vos d'estar connectats a Internet"
+-    title: "Desar"
++    title: "Desa"
+-    help: "Deseu els canvis a OpenStreetMap, fent-los visibles per als altres usuaris."
++    help: "Desa els canvis a l'OpenStreetMap, fent-los visibles per als altres usuaris."
+   }
+   success: {
+-    help_html: "Els canvis haurien d'aparèxier a la capa \"Estàndard\" en pocs minuts. Altres capes i algunes característiques, poden trigar més temps.\n(<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map'>detalls</a>).\n"
++    help_html: "Els canvis haurien d'aparèixer a la capa \"Estàndard\" en pocs minuts. Altres capes i algunes característiques, poden trigar més temps.\n(<a href='https://help.openstreetmap.org/questions/4705/why-havent-my-changes-appeared-on-the-map'>detalls</a>).\n"
+   }
+   source_switch: {
+-    lose_changes: "Teniu canvis sense desar. Canviant el servidor del mapa els descartarà. Esteu segurs que voleu canviar els sevidors?"
++    lose_changes: "Teniu canvis sense desar. Si canvieu el servidor del mapa els descartarà. Esteu segurs que voleu canviar els sevidors?"
+   }
+   zoom: {
+-    in: "Apropar-se"
++    in: "Apropa't"
+-    out: "Allunyar-se"
++    out: "Allunya't"
+   }
+   gpx: {
+-    zoom: "Ajusteu la vista a la traça GPX"
++    zoom: "Ajusta la vista a la traça GPX"
+   }
+   help: {
+-    gps: "# GPS\n\nLes dades de GPS són la font més fiable de dades per a l'OpenStreetMap. Aquest editor és compatible amb les taces locals - fitxers`.gpx`al vostre ordinador local. Podeu recollir \naquest tipus de traça GPS amb algunes aplicacions per a smartphones com també \ndispositius personals de GPS.\n\nPer a més informació sobre com recollir dades amb GPS, llegiu\n[Recollir dades amb GPS](http://learnosm.org/en/beginner/using-gps/).\n\nper fer servir una traça GPX per editar el mapa, arrossegueu i deixeu el fitxer GPX a l'editor. \nSi es detecta, s'afegirà el mapa com una línia verda llampant. \nCliqueu a 'Paràmetres de configuració del fons'  al cantó esquerre per activar,\ndesactivar, o per ajustar la vista a aquesta capa GPX.\n\nLa traça GPX no és pujada directament a OpenStreetMap - la millor manera de \nfer-la servir és dibuixar vosaltres el mapa, fent-la servir com a guia per a les noves característiques que afegireu. També les podeu [pujar a l'OpenStreetMap] \n(http://www.openstreetmap.org/trace/create)\nperquè d'altres persones les utilitzin.\n"
++    gps: "# GPS\n\nLes dades de GPS són la font més fiable de dades per a l'OpenStreetMap. Aquest editor \nés compatible amb les traces locals - fitxers`.gpx`al vostre ordinador. Pots recollir aquest tipus de traça GPS amb algunes aplicacions per a smartphones com també \ndispositius personals de GPS.\n\nPer a més informació sobre com recollir dades amb GPS, llegeix\n[Recollir dades amb GPS](http://learnosm.org/en/beginner/using-gps/).\n\nper fer servir una traça GPX per editar el mapa, arrossega i deixa el fitxer GPX a l'editor. \nSi es detecta, s'afegirà el mapa com una línia verda llampant. \nClica a 'Dades del mapa'  al cantó dret per activar,\ndesactivar, o per ajustar la vista a aquesta capa GPX.\n\nLa traça GPX no és pujada directament a OpenStreetMap - la millor manera de \nfer-la servir és dibuixar tu el mapa, fent-la servir com a guia per a les noves característiques que afegiràs. també les pots [pujar a l'OpenStreetMap] \n(http://www.openstreetmap.org/trace/create)\nperquè d'altres persones les utilitzin.\n"
+   }
+   presets: {
+     fields: {
++      bench: {
++        label: "Banc per a asseure's"
++      }
++      delivery: {
++        label: "Entrega"
++      }
++      service/bicycle/chaintool: {
++        label: "Eina de cadena"
++        options: {
++          undefined: "Entès que no"
++          yes: "Sí"
++          no: "No"
++        }
++      }
++      service/bicycle/pump: {
++        label: "Bombament d'aire"
++        options: {
++          undefined: "Entès que no"
++          yes: "Sí"
++          no: "No"
++        }
++      }
++      substation: {
++        label: "Tipus"
++      }
++      takeaway: {
++        label: "Per emportar"
++        placeholder: "Sí, No, Només per emportar..."
++        options: {
++          yes: "Sí"
++          no: "No"
++          only: "Només per emportar"
++        }
++      }
+       sloped_curb: {
+-        label: "Corba peraltada"
++        label: "Rampa a la vorera"
+       }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Confiteria"
+-      }
++      amenity/bicycle_repair_station: {
++        name: "Punt de reparació de bicicletes"
++      }
++      amenity/grit_bin: {
++        name: "Contenidor de sorra"
++      }
++      amenity/public_bookcase: {
++        name: "Biblioteca pública"
++      }
++      amenity/register_office: {
++        name: "Oficina de registre"
++      }
++      craft/confectionery: {
++        name: "Confiteria"
++        terms: "Dolços, Llaminadures, Llamins, Bombons, Caramels, Carmels, Confits, Llepolies"
++      }
++      junction: {
++        name: "Encreuament"
++      }
++      landuse/garages: {
++        name: "Garatges"
++      }
++      leisure/nature_reserve: {
++        name: "Reserva Natural"
++      }
++      natural/cave_entrance: {
++        name: "Entrada de cova"
++      }
++      power/substation: {
++        name: "Subestació"
++        terms: "Subestació elèctrica, Estació elèctrica, Central elèctrica"
++      }
++      traffic_calming/bump: {
++        name: "Ressalt"
++        terms: "Cavalló, Resalt, Túmul, Reductor, Tope"
++      }
++      traffic_calming/hump: {
++        name: "Esquena d'ase"
++        terms: "Esquena de ruc, Esquena de burro, Esquena de bou, Esquena de toro, Llom d'ase, Llom de ruc, Llom de burro, Llom de bou, Llom de toro, Ressalt, Cavalló, Túmul"
++      }
++      traffic_calming/rumble_strip: {
++        name: "Bandes rugoses"
++        terms: "banda, bandes, rugós, rugoses"
++      }
++      traffic_calming/table: {
++        name: "Pas de vianants de ressalt"
++        terms: "pas de vianants elevat, peató, peatons, pas, vianant, elevat, ressalt, esquena d'ase"
++      }
+       amenity/drinking_water: {
+-        name: "Aigua apte per al consum"
++        name: "Aigua apta per al consum"
+-        terms: "Aigua potable, Aigua apte per al consum humà, Aigua per beure"
++        terms: "Aigua potable, Aigua apta per al consum humà, Aigua per beure, Font"
+       }
+       amenity/social_facility/group_home: {
++        terms: "Geriàtric, Residencia geriàtrica"
+       }
+       building/apartments: {
+-        terms: "Apartaments"
++        terms: "Apartaments, Pisos, Bloc de pisos, Bloc"
+       }
+       craft/carpenter: {
++        terms: "Fuster, Fusteria, Ebenista, Ebenisteria, Tallista"
+       }
+       footway/crosswalk: {
+-        terms: "Pas de peations, pas, de, peatons, vianants, persones, zebra"
++        terms: "Pas de peatons, pas, de, peatons, vianants, persones, zebra"
+       }
+       highway/crosswalk: {
+-        terms: "Pas de peations, pas, de, peatons, vianants, persones, zebra"
++        terms: "Pas de peatons, pas, de, peatons, vianants, persones, zebra"
+       }
+       highway/cycleway: {
+-        terms: "Carril bici, Via verda,Via ciclista"
++        terms: "Carril bici, Via verda, Via ciclista"
+       }
+       highway/track: {
+-        name: "Pista,Camí"
++        name: "Pista"
+-        terms: "Pista, Traça"
++        terms: "Pista, Traça, Camí"
+       }
+       landuse/farmland: {
+-        terms: "Camps de conreu, Pastures, Erm, Erms, Guaret, Camp de blat, Blat, Hort, Horts, Camp, Camps, Camps de cultiu, Cultiu"
+-        name: "Terrenys de Granja"
++        name: "Granja"
+       }
+       leisure/running_track: {
++        terms: "Pista per córrer, Pista d'atletisme, Pista, Córrer, Atlètic, Atlètica, Atletisme"
+-        name: "Pista per córrer"
++        name: "Pista atlètica"
+       }
+       natural/wood: {
++        terms: "Bosc, Forest"
+       }
+       office/newspaper: {
++        terms: "Periòdic"
+       }
+       office/physician: {
++        terms: "Metgessa, Doctor, Doctora"
+-        name: "Fisioterapeuta"
++        name: "Metge"
+       }
+       railway/disused: {
++        terms: "Via fèrria abandonada, Via de tren fora d'ús, Via de tren abandonada"
+-        name: "Vià de tren fora d'ús"
++        name: "Via fèrria fora d'ús"
+       }
+       shop/bakery: {
+-        terms: "Forn de pa, Panaderia"
++        terms: "Forn de pa, Panaderia, pastisseria, forn"
+       }
+       shop/beverages: {
++        terms: "Licoreria"
+-        name: "botiga de begudes"
++        name: "Botiga de begudes"
+       }
+       shop/confectionery: {
++        terms: "Botiga de dolços, Botiga de caramels, Botiga de Llepolies, Dolços, Llaminadures, Caramels, Llepolies"
+       }
+       shop/convenience: {
++        terms: "Botiga de queviures, Ultramarins, Queviures, Colmado"
+       }
+       shop/cosmetics: {
++        terms: "Botiga de perfums, Cosmètics, Cosmètica, Perfums, Perfumeria"
+       }
+       shop/craft: {
++        terms: "Botiga de manualitats, Manualitats, Arts plàstiques"
+       }
+       shop/curtain: {
++        terms: "Botiga de roba de la llar, Cortines, Coixins"
+       }
+       shop/dry_cleaning: {
++        terms: "Tintoreria, Centre de neteja, Neteja, Neteja en sec"
+-        name: "Tintoreria"
++        name: "Bugaderia"
+       }
+       shop/fabric: {
++        terms: "Botiga de robes, Teles, Robes"
+       }
+       shop/furnace: {
++        terms: "Botiga de forns, Botiga de calderes, Forn, Forns, Caldera, Calderes, Calefacció, Calefactors"
+-        name: "Botiga de mobles"
++        name: "Botiga de forns i calderes"
+       }
+       shop/furniture: {
+-        terms: "Botiga de mobles"
++        terms: "Botiga de mobles, Moblista"
+       }
+       shop/variety_store: {
++        terms: "Basar"
+       }
+       shop/video: {
++        terms: "Videoclub"
+       }
+       waterway/ditch: {
+-        name: "Sèquia"
++        name: "Séquia"
+-        terms: "Sèquia, Rara, Canal, Aigua, Via aquífera, Torrent, Conducció d'aigua, Aquífer, Rierol"
++        terms: "Séquia, Sèquia, Rara, Canal, Aigua, Via aqüífera, Torrent, Conducció d'aigua, Aqüífer, Rierol"
+       }
+       waterway/drain: {
++        terms: "Torrentera, Rambla"
+       }
+       waterway/riverbank: {
+-        terms: "Riba del riu,ribera"
++        terms: "Riba del riu, Ribera"
+       }
+       waterway/stream: {
+-        terms: "Sèquia, rierol, fil d'aigua, rajolí, riuet, riachuelu, ramal, reguer, segla, canal, rec, regueró, sequiola, sequió, cavim."
++        terms: "Séquia, rierol, Fil d'aigua, Rajolí, Riuet, Ramal, Reguer, Segla, Canal, Rec, Regueró, Sequiola, Sequió, Cavim."
+       }
+     }
+   }
+ }

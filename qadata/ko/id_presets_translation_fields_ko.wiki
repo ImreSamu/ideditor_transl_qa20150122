@@ -1,0 +1,3781 @@
+{| class="wikitable"
+! style="font-weight: bold;" | presetFieldsKey
+! style="font-weight: bold;" | r
+! style="font-weight: bold;" | type
+! style="font-weight: bold;" | labelEn
+! style="font-weight: bold;" | labelTransl
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | universal
+! style="font-weight: bold;" | keys
+! style="font-weight: bold;" | optionskey
+! style="font-weight: bold;" | valueEn
+! style="font-weight: bold;" | valueTransl
+! style="font-weight: bold;" | placeholderEn
+! style="font-weight: bold;" | placeholderTransl
+! style="font-weight: bold;" | endRec
+|-
+| access
+| 1
+| access
+| Access
+| 통행
+|  
+|  
+| access,foot,motor_vehicle,bicycle,horse
+|  
+|  
+|  
+| Unknown
+| 알 수 없음
+| last
+|-
+| access_simple
+| 1
+| combo
+| Access
+| 통행
+|  
+|  
+| access
+|  
+|  
+|  
+| yes
+| 예
+| last
+|-
+| access_toilets
+| 1
+| combo
+| Access
+| 접근
+|  
+|  
+| access
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| address
+| 1
+| address
+| Address
+| 주소
+| address
+| true
+| addr:housename,addr:housenumber,addr:street,addr:city,addr:postcode
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| admin_level
+| 1
+| number
+| Admin Level
+| 관리 수준
+|  
+|  
+| admin_level
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| aerialway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway/access
+| 1
+| combo
+| Access
+| 접근
+|  
+|  
+| aerialway:access
+| entry
+| Entry
+| 입구
+|  
+|  
+| last
+|-
+| aerialway/access
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| exit
+| Exit
+| 출구
+|  
+|  
+| last
+|-
+| aerialway/access
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| both
+| Both
+| 둘 다
+|  
+|  
+| last
+|-
+| aerialway/bubble
+| 1
+| check
+| Bubble
+|  
+|  
+|  
+| aerialway:bubble
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway/capacity
+| 1
+| number
+| Capacity (per hour)
+| 수용량 (시간당)
+|  
+|  
+| aerialway:capacity
+|  
+|  
+|  
+| 500, 2500, 5000...
+| 500, 2500, 5000...
+| last
+|-
+| aerialway/duration
+| 1
+| number
+| Duration (minutes)
+| 소요 시간 (분)
+|  
+|  
+| aerialway:duration
+|  
+|  
+|  
+| 1, 2, 3...
+| 1, 2, 3...
+| last
+|-
+| aerialway/heating
+| 1
+| check
+| Heated
+|  
+|  
+|  
+| aerialway:heating
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway/occupancy
+| 1
+| number
+| Occupancy
+| 무게
+|  
+|  
+| aerialway:occupancy
+|  
+|  
+|  
+| 2, 4, 8...
+| 2, 4, 8...
+| last
+|-
+| aerialway/summer/access
+| 1
+| combo
+| Access (summer)
+| 접근 (여름)
+|  
+|  
+| aerialway:summer:access
+| entry
+| Entry
+| 입구
+|  
+|  
+| last
+|-
+| aerialway/summer/access
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| exit
+| Exit
+| 출구
+|  
+|  
+| last
+|-
+| aerialway/summer/access
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| both
+| Both
+| 둘 다
+|  
+|  
+| last
+|-
+| aeroway
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| aeroway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| amenity
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| amenity
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| artist
+| 1
+| text
+| Artist
+| 예술가
+|  
+|  
+| artist_name
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| artwork_type
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| artwork_type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| atm
+| 1
+| check
+| ATM
+| ATM
+|  
+|  
+| atm
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| backrest
+| 1
+| check
+| Backrest
+| 등받이
+|  
+|  
+| backrest
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| barrier
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| barrier
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| bench
+| 1
+| check
+| Bench
+|  
+|  
+|  
+| bench
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| bicycle_parking
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| bicycle_parking
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| boundary
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| boundary
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| building
+| 1
+| typeCombo
+| Building
+| 건물
+|  
+|  
+| building
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| building_area
+| 1
+| defaultcheck
+| Building
+| 건물
+|  
+|  
+| building
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| capacity
+| 1
+| number
+| Capacity
+| 수용량
+|  
+|  
+| capacity
+|  
+|  
+|  
+| 50, 100, 200...
+| 50, 100, 200...
+| last
+|-
+| cardinal_direction
+| 1
+| combo
+| Direction
+| 방향
+|  
+|  
+| direction
+| N
+| North
+| 북
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| E
+| East
+| 동
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| S
+| South
+| 남
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| W
+| West
+| 서
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| NE
+| Northeast
+| 북동
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| SE
+| Southeast
+| 남동
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| SW
+| Southwest
+| 남서
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 8
+| combo
+|  
+|  
+|  
+|  
+|  
+| NW
+| Northwest
+| 북서
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 9
+| combo
+|  
+|  
+|  
+|  
+|  
+| NNE
+| North-northeast
+| 북북동
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 10
+| combo
+|  
+|  
+|  
+|  
+|  
+| ENE
+| East-northeast
+| 동북동
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 11
+| combo
+|  
+|  
+|  
+|  
+|  
+| ESE
+| East-southeast
+| 동남동
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 12
+| combo
+|  
+|  
+|  
+|  
+|  
+| SSE
+| South-southeast
+| 남남동
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 13
+| combo
+|  
+|  
+|  
+|  
+|  
+| SSW
+| South-southwest
+| 남남서
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 14
+| combo
+|  
+|  
+|  
+|  
+|  
+| WSW
+| West-southwest
+| 서남서
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 15
+| combo
+|  
+|  
+|  
+|  
+|  
+| WNW
+| West-northwest
+| 서북서
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 16
+| combo
+|  
+|  
+|  
+|  
+|  
+| NNW
+| North-northwest
+| 북북서
+|  
+|  
+| last
+|-
+| clock_direction
+| 1
+| combo
+| Direction
+| 방향
+|  
+|  
+| direction
+| clockwise
+| Clockwise
+| 시계 방향
+|  
+|  
+| last
+|-
+| clock_direction
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| anticlockwise
+| Counterclockwise
+| 시계 반대 방향
+|  
+|  
+| last
+|-
+| collection_times
+| 1
+| text
+| Collection Times
+| 모은 시간
+|  
+|  
+| collection_times
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| construction
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| construction
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| country
+| 1
+| combo
+| Country
+| 국가
+|  
+|  
+| country
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| covered
+| 1
+| check
+| Covered
+| 덮어짐
+|  
+|  
+| covered
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| craft
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| craft
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| crop
+| 1
+| combo
+| Crop
+| 잘림
+|  
+|  
+| crop
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| crossing
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| crossing
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| cuisine
+| 1
+| combo
+| Cuisine
+| 요리 종류
+|  
+|  
+| cuisine
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| delivery
+| 1
+| check
+| Delivery
+|  
+|  
+|  
+| delivery
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| denomination
+| 1
+| combo
+| Denomination
+| 교단
+|  
+|  
+| denomination
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| denotation
+| 1
+| combo
+| Denotation
+| 명시
+|  
+|  
+| denotation
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| description
+| 1
+| textarea
+| Description
+| 설명
+|  
+|  
+| description
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| electrified
+| 1
+| combo
+| Electrification
+|  
+|  
+|  
+| electrified
+| yes
+| Contact Line
+| 예 (지정되지 않음)
+| Contact Line, Electrified Rail...
+|  
+| last
+|-
+| electrified
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| Electrified Rail
+| 아니오
+|  
+|  
+| last
+|-
+| electrified
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| yes
+| Yes (unspecified)
+| 
+|  
+|  
+| last
+|-
+| electrified
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No
+| 
+|  
+|  
+| last
+|-
+| elevation
+| 1
+| number
+| Elevation
+| 고도
+| elevation
+| true
+| ele
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| emergency
+| 1
+| check
+| Emergency
+| 긴급 의료
+|  
+|  
+| emergency
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| entrance
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| entrance
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| except
+| 1
+| combo
+| Exceptions
+|  
+|  
+|  
+| except
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fax
+| 1
+| tel
+| Fax
+| 팩스
+|  
+|  
+| fax
+|  
+|  
+|  
+| +31 42 123 4567
+| +31 42 123 4567
+| last
+|-
+| fee
+| 1
+| check
+| Fee
+| 요금
+|  
+|  
+| fee
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| fire_hydrant:type
+| wall
+| Pillar/Aboveground
+| 벽
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| pond
+| Underground
+| 호수
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| wall
+| Wall
+| 
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| pond
+| Pond
+| 
+|  
+|  
+| last
+|-
+| fixme
+| 1
+| textarea
+| Fix Me
+| 고치기
+|  
+|  
+| fixme
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel
+| 1
+| combo
+| Fuel
+| 주유소
+|  
+|  
+| fuel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/biodiesel
+| 1
+| check
+| Sells Biodiesel
+| 바이오디젤 판매
+|  
+|  
+| fuel:biodiesel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/diesel
+| 1
+| check
+| Sells Diesel
+| 디젤 판매
+|  
+|  
+| fuel:diesel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/e10
+| 1
+| check
+| Sells E10
+| E10 판매
+|  
+|  
+| fuel:e10
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/e85
+| 1
+| check
+| Sells E85
+| E85 판매
+|  
+|  
+| fuel:e85
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/lpg
+| 1
+| check
+| Sells Propane
+| 프로판 판매; LPG
+|  
+|  
+| fuel:lpg
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_100
+| 1
+| check
+| Sells Racing Gasoline
+| 경주용 휘발유 판매
+|  
+|  
+| fuel:octane_100
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_91
+| 1
+| check
+| Sells Regular Gasoline
+| 보통 휘발유 판매
+|  
+|  
+| fuel:octane_91
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_95
+| 1
+| check
+| Sells Midgrade Gasoline
+| 중급 휘발유 판매
+|  
+|  
+| fuel:octane_95
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_98
+| 1
+| check
+| Sells Premium Gasoline
+| 고급 휘발유 판매
+|  
+|  
+| fuel:octane_98
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| gauge
+| 1
+| combo
+| Gauge
+| 게이지
+|  
+|  
+| gauge
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| generator/method
+| 1
+| combo
+| Method
+| 방식
+|  
+|  
+| generator:method
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| generator/source
+| 1
+| combo
+| Source
+| 참조 정보
+|  
+|  
+| generator:source
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| generator/type
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| generator:type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| golf_hole
+| 1
+| text
+| Reference
+| 참고
+|  
+|  
+| ref
+|  
+|  
+|  
+| Hole number (1-18)
+| 홀 수 (1-18)
+| last
+|-
+| handicap
+| 1
+| number
+| Handicap
+| 장애
+|  
+|  
+| handicap
+|  
+|  
+|  
+| 1-18
+| 1-18
+| last
+|-
+| highway
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| highway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| historic
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| historic
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| hoops
+| 1
+| number
+| Hoops
+| 후프
+|  
+|  
+| hoops
+|  
+|  
+|  
+| 1, 2, 4...
+| 1, 2, 4...
+| last
+|-
+| iata
+| 1
+| text
+| IATA
+| IATA
+|  
+|  
+| iata
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| icao
+| 1
+| text
+| ICAO
+| ICAO
+|  
+|  
+| icao
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| incline
+| 1
+| combo
+| Incline
+| 경사
+|  
+|  
+| incline
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| information
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| information
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| internet_access
+| 1
+| combo
+| Internet Access
+| 인터넷 액세스
+|  
+|  
+| internet_access
+| yes
+| Yes
+| 예
+|  
+|  
+| last
+|-
+| internet_access
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No
+| 아니오
+|  
+|  
+| last
+|-
+| internet_access
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| wlan
+| Wifi
+| 와이파이
+|  
+|  
+| last
+|-
+| internet_access
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| wired
+| Wired
+| 유선
+|  
+|  
+| last
+|-
+| internet_access
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| terminal
+| Terminal
+| 단말기
+|  
+|  
+| last
+|-
+| lamp_type
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| lamp_type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| landuse
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| landuse
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| lanes
+| 1
+| number
+| Lanes
+| 차선 수
+|  
+|  
+| lanes
+|  
+|  
+|  
+| 1, 2, 3...
+| 1, 2, 3...
+| last
+|-
+| layer
+| 1
+| combo
+| Layer
+| 레이어
+|  
+|  
+| layer
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| leisure
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| leisure
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| length
+| 1
+| number
+| Length (Meters)
+| 길이 (미터)
+|  
+|  
+| length
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| levels
+| 1
+| number
+| Levels
+| 층
+|  
+|  
+| building:levels
+|  
+|  
+|  
+| 2, 4, 6...
+| 2, 4, 6...
+| last
+|-
+| lit
+| 1
+| check
+| Lit
+| 조명
+|  
+|  
+| lit
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| location
+| 1
+| combo
+| Location
+| 위치
+|  
+|  
+| location
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| man_made
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| man_made
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| maxspeed
+| 1
+| maxspeed
+| Speed Limit
+| 제한 속도
+|  
+|  
+| maxspeed
+|  
+|  
+|  
+| 40, 50, 60...
+| 40, 50, 60...
+| last
+|-
+| mtb/scale
+| 1
+| combo
+| Mountain Biking Difficulty
+| 산악 자전거 어려움
+|  
+|  
+| mtb:scale
+| 0
+| 0: Solid gravel/packed earth, no obstacles, wide curves
+| 
+| 0, 1, 2, 3...
+| 0, 1, 2, 3...
+| last
+|-
+| mtb/scale
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| 1
+| 1: Some loose surface, small obstacles, wide curves
+| 
+|  
+|  
+| last
+|-
+| mtb/scale
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| 2
+| 2: Much loose surface, large obstacles, easy hairpins
+| 
+|  
+|  
+| last
+|-
+| mtb/scale
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| 3
+| 3: Slippery surface, large obstacles, tight hairpins
+| 
+|  
+|  
+| last
+|-
+| mtb/scale
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| 4
+| 4: Loose surface or boulders, dangerous hairpins
+| 
+|  
+|  
+| last
+|-
+| mtb/scale
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| 5
+| 5: Maximum difficulty, boulder fields, landslides
+| 
+|  
+|  
+| last
+|-
+| mtb/scale
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| 6
+| 6: Not rideable except by the very best mountain bikers
+| 
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 1
+| combo
+| IMBA Trail Difficulty
+| IMBA 트레일 어려움
+|  
+|  
+| mtb:scale:imba
+| 0
+| Easiest (white circle)
+| 매우 쉬움 (하얀 동그라미)
+| Easy, Medium, Difficult...
+| 쉬움, 중간, 어려움...
+| last
+|-
+| mtb/scale/imba
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| 1
+| Easy (green circle)
+| 쉬움 (초록 동그라미)
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| 2
+| Medium (blue square)
+| 중간 (파란 네모)
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| 3
+| Difficult (black diamond)
+| 어려움 (검은 마름모)
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| 4
+| Extremely Difficult (double black diamond)
+| 매우 어려움 (두 검은 마름모)
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 1
+| combo
+| Mountain Biking Uphill Difficulty
+| 산악 자전거 오르막 난이도
+|  
+|  
+| mtb:scale:uphill
+| 0
+| 0: Avg. incline <10%, gravel/packed earth, no obstacles
+| 
+| 0, 1, 2, 3...
+| 0, 1, 2, 3...
+| last
+|-
+| mtb/scale/uphill
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| 1
+| 1: Avg. incline <15%, gravel/packed earth, few small objects
+| 
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| 2
+| 2: Avg. incline <20%, stable surface, fistsize rocks/roots
+| 
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| 3
+| 3: Avg. incline <25%, variable surface, fistsize rocks/branches
+| 
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| 4
+| 4: Avg. incline <30%, poor condition, big rocks/branches
+| 
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| 5
+| 5: Very steep, bike generally needs to be pushed or carried
+| 
+|  
+|  
+| last
+|-
+| name
+| 1
+| localized
+| Name
+| 이름
+|  
+|  
+| name
+|  
+|  
+|  
+| Common name (if any)
+| 일반적인 이름 (있으면)
+| last
+|-
+| natural
+| 1
+| typeCombo
+| Natural
+| 자연
+|  
+|  
+| natural
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| network
+| 1
+| text
+| Network
+| 네트워크
+|  
+|  
+| network
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| note
+| 1
+| textarea
+| Note
+| 참고
+| note
+| true
+| note
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| office
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| office
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| oneway
+| 1
+| check
+| One Way
+| 일방통행
+|  
+|  
+| oneway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| oneway_yes
+| 1
+| check
+| One Way
+| 일방통행
+|  
+|  
+| oneway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| opening_hours
+| 1
+| text
+| Hours
+| 이용할 수 있는 시간
+|  
+|  
+| opening_hours
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| operator
+| 1
+| text
+| Operator
+| 운영자
+|  
+|  
+| operator
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| par
+| 1
+| number
+| Par
+| 당
+|  
+|  
+| par
+|  
+|  
+|  
+| 3, 4, 5...
+| 3, 4, 5...
+| last
+|-
+| park_ride
+| 1
+| check
+| Park and Ride
+| 파크 앤드 라이드
+|  
+|  
+| park_ride
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| parking
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| parking
+| surface
+| Surface
+| 노면
+|  
+|  
+| last
+|-
+| parking
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| multi-storey
+| Multilevel
+| 
+|  
+|  
+| last
+|-
+| parking
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| underground
+| Underground
+| 
+|  
+|  
+| last
+|-
+| parking
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| sheds
+| Sheds
+| 
+|  
+|  
+| last
+|-
+| parking
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| carports
+| Carports
+| 
+|  
+|  
+| last
+|-
+| parking
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| garage_boxes
+| Garage Boxes
+| 
+|  
+|  
+| last
+|-
+| parking
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| lane
+| Roadside Lane
+| 
+|  
+|  
+| last
+|-
+| phone
+| 1
+| tel
+| Phone
+| 전화
+| telephone
+| true
+| phone
+|  
+|  
+|  
+| +31 42 123 4567
+| +31 42 123 4567
+| last
+|-
+| piste/difficulty
+| 1
+| combo
+| Difficulty
+| 어려움
+|  
+|  
+| piste:difficulty
+| novice
+| Novice (instructional)
+| 새내기 (교육용)
+| Easy, Intermediate, Advanced...
+| 초급, 중급, 고급...
+| last
+|-
+| piste/difficulty
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| easy
+| Easy (green circle)
+| 초급 (초록 동그라미)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| intermediate
+| Intermediate (blue square)
+| 중급 (파란 네모)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| advanced
+| Advanced (black diamond)
+| 고급 (검은 마름모)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| expert
+| Expert (double black diamond)
+| 숙련자 (두 검은 마름모)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| freeride
+| Freeride (off-piste)
+| 프리라이드 (off-piste)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| extreme
+| Extreme (climbing equipment required)
+| 
+|  
+|  
+| last
+|-
+| piste/grooming
+| 1
+| combo
+| Grooming
+|  
+|  
+|  
+| piste:grooming
+| skating
+| Classic
+| 스케이팅
+|  
+|  
+| last
+|-
+| piste/grooming
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| mogul
+| Mogul
+| 
+|  
+|  
+| last
+|-
+| piste/grooming
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| backcountry
+| Backcountry
+| 
+|  
+|  
+| last
+|-
+| piste/grooming
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| classic+skating
+| Classic and Skating
+| 
+|  
+|  
+| last
+|-
+| piste/grooming
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| scooter
+| Scooter/Snowmobile
+| 
+|  
+|  
+| last
+|-
+| piste/grooming
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| skating
+| Skating
+| 
+|  
+|  
+| last
+|-
+| piste/type
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| piste:type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| place
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| place
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| population
+| 1
+| text
+| Population
+|  
+|  
+|  
+| population
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| power
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| power
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| railway
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| railway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/cans
+| 1
+| check
+| Accepts Cans
+|  
+|  
+|  
+| recycling:cans
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/clothes
+| 1
+| check
+| Accepts Clothes
+|  
+|  
+|  
+| recycling:clothes
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/glass
+| 1
+| check
+| Accepts Glass
+|  
+|  
+|  
+| recycling:glass
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/paper
+| 1
+| check
+| Accepts Paper
+|  
+|  
+|  
+| recycling:paper
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| ref
+| 1
+| text
+| Reference
+| 참고
+|  
+|  
+| ref
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| relation
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| religion
+| 1
+| combo
+| Religion
+| 종교
+|  
+|  
+| religion
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| restriction
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| restriction
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| restrictions
+| 1
+| restrictions
+| Turn Restrictions
+| 회전 제한
+| restrictions
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| route
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| route
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| route_master
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| route_master
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sac_scale
+| 1
+| combo
+| Hiking Difficulty
+| 하이킹 어려움
+|  
+|  
+| sac_scale
+| hiking
+| T1: Hiking
+| T1: 하이킹
+| Mountain Hiking, Alpine Hiking...
+| 등산, 알파인 하이킹...
+| last
+|-
+| sac_scale
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| mountain_hiking
+| T2: Mountain Hiking
+| T2: 등산
+|  
+|  
+| last
+|-
+| sac_scale
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| demanding_mountain_hiking
+| T3: Demanding Mountain Hiking
+| T3: 까다로운 등산
+|  
+|  
+| last
+|-
+| sac_scale
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| alpine_hiking
+| T4: Alpine Hiking
+| T4: 알파인 하이킹
+|  
+|  
+| last
+|-
+| sac_scale
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| demanding_alpine_hiking
+| T5: Demanding Alpine Hiking
+| T5: 까다로운 알파인 하이킹
+|  
+|  
+| last
+|-
+| sac_scale
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| difficult_alpine_hiking
+| T6: Difficult Alpine Hiking
+| T6: 어려운 알파인 하이킹
+|  
+|  
+| last
+|-
+| seasonal
+| 1
+| check
+| Seasonal
+|  
+|  
+|  
+| seasonal
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| service
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| service
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| service/bicycle/chaintool
+| 1
+| check
+| Chain Tool
+|  
+|  
+|  
+| service:bicycle:chaintool
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| service/bicycle/pump
+| 1
+| check
+| Air Pump
+|  
+|  
+|  
+| service:bicycle:pump
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| shelter
+| 1
+| check
+| Shelter
+| 피난처
+|  
+|  
+| shelter
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| shelter_type
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| shelter_type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| shop
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| shop
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sloped_curb
+| 1
+| combo
+| Sloped Curb
+|  
+|  
+|  
+| sloped_curb
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| smoking
+| 1
+| combo
+| Smoking
+| 흡연
+|  
+|  
+| smoking
+| no
+| No smoking anywhere
+| 이디서든 금연
+| No, Separated, Yes...
+| 아니오, 분리됨, 예...
+| last
+|-
+| smoking
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| separated
+| In smoking areas, not physically isolated
+| 흡연 구역이나, 격리되지 않음
+|  
+|  
+| last
+|-
+| smoking
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| isolated
+| In smoking areas, physically isolated
+| 흡연 구역이고, 격리됨
+|  
+|  
+| last
+|-
+| smoking
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| outside
+| Allowed outside
+| 밖에서 허용
+|  
+|  
+| last
+|-
+| smoking
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| yes
+| Allowed everywhere
+| 어디서나 허용
+|  
+|  
+| last
+|-
+| smoking
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| dedicated
+| Dedicated to smokers (e.g. smokers' club)
+| 흡연자 전용 (예 흡연자 클럽)
+|  
+|  
+| last
+|-
+| smoothness
+| 1
+| combo
+| Smoothness
+|  
+|  
+|  
+| smoothness
+| excellent
+| Thin Rollers: rollerblade, skateboard
+| 
+| Thin Rollers, Wheels, Off-Road...
+|  
+| last
+|-
+| smoothness
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| good
+| Thin Wheels: racing bike
+| 
+|  
+|  
+| last
+|-
+| smoothness
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| intermediate
+| Wheels: city bike, wheelchair, scooter
+| 
+|  
+|  
+| last
+|-
+| smoothness
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| bad
+| Robust Wheels: trekking bike, car, rickshaw
+| 
+|  
+|  
+| last
+|-
+| smoothness
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| very_bad
+| High Clearance: light duty off-road vehicle
+| 
+|  
+|  
+| last
+|-
+| smoothness
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| horrible
+| Off-Road: heavy duty off-road vehicle
+| 
+|  
+|  
+| last
+|-
+| smoothness
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| very_horrible
+| Specialized off-road: tractor, ATV
+| 
+|  
+|  
+| last
+|-
+| smoothness
+| 8
+| combo
+|  
+|  
+|  
+|  
+|  
+| impassible
+| Impassible / No wheeled vehicle
+| 
+|  
+|  
+| last
+|-
+| social_facility_for
+| 1
+| radio
+| People served
+|  
+|  
+|  
+| social_facility:for
+|  
+|  
+|  
+| Homeless, Disabled, Child, etc
+|  
+| last
+|-
+| source
+| 1
+| text
+| Source
+| 참조 정보
+| source
+| true
+| source
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sport
+| 1
+| combo
+| Sport
+| 스포츠
+|  
+|  
+| sport
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sport_ice
+| 1
+| combo
+| Sport
+| 스포츠
+|  
+|  
+| sport
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sport_racing
+| 1
+| combo
+| Sport
+| 스포츠
+|  
+|  
+| sport
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| structure
+| 1
+| radio
+| Structure
+| 구조물
+|  
+|  
+| bridge,tunnel,embankment,cutting,ford
+|  
+|  
+|  
+| Unknown
+| 알 수 없음
+| last
+|-
+| studio_type
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| substation
+| 1
+| typeCombo
+| Type
+|  
+|  
+|  
+| substation
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| supervised
+| 1
+| check
+| Supervised
+| 감독 장소
+|  
+|  
+| supervised
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| surface
+| 1
+| combo
+| Surface
+| 노면
+|  
+|  
+| surface
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| tactile_paving
+| 1
+| check
+| Tactile Paving
+|  
+|  
+|  
+| tactile_paving
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| takeaway
+| 1
+| combo
+| Takeaway
+|  
+|  
+|  
+| takeaway
+| yes
+| Yes
+| 
+| Yes, No, Takeaway Only...
+|  
+| last
+|-
+| takeaway
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No
+| 
+|  
+|  
+| last
+|-
+| takeaway
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| only
+| Takeaway Only
+| 
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 1
+| combo
+| Disposal
+| 처분
+|  
+|  
+| toilets:disposal
+| flush
+| Flush
+| 
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| pitlatrine
+| Pit/Latrine
+| 
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| chemical
+| Chemical
+| 
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| bucket
+| Bucket
+| 
+|  
+|  
+| last
+|-
+| tourism
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| tourism
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| towertype
+| 1
+| combo
+| Tower type
+| 탑 유형
+|  
+|  
+| tower:type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| tracktype
+| 1
+| combo
+| Track Type
+| 트랙 유형
+|  
+|  
+| tracktype
+| grade1
+| Solid: paved or heavily compacted hardcore surface
+| 
+| Solid, Mostly Solid, Soft...
+|  
+| last
+|-
+| tracktype
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade2
+| Mostly Solid: gravel/rock with some soft material mixed in
+| 
+|  
+|  
+| last
+|-
+| tracktype
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade3
+| Even mixture of hard and soft materials
+| 
+|  
+|  
+| last
+|-
+| tracktype
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade4
+| Mostly Soft: soil/sand/grass with some hard material mixed in
+| 
+|  
+|  
+| last
+|-
+| tracktype
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade5
+| Soft: soil/sand/grass
+| 
+|  
+|  
+| last
+|-
+| trail_visibility
+| 1
+| combo
+| Trail Visibility
+| 도로의 가시성
+|  
+|  
+| trail_visibility
+| excellent
+| Excellent: unambiguous path or markers everywhere
+| 
+| Excellent, Good, Bad...
+|  
+| last
+|-
+| trail_visibility
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| good
+| Good: markers visible, sometimes require searching
+| 
+|  
+|  
+| last
+|-
+| trail_visibility
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| intermediate
+| Intermediate: few markers, path mostly visible
+| 
+|  
+|  
+| last
+|-
+| trail_visibility
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| bad
+| Bad: no markers, path sometimes invisible/pathless
+| 
+|  
+|  
+| last
+|-
+| trail_visibility
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| horrible
+| Horrible: often pathless, some orientation skills required
+| 
+|  
+|  
+| last
+|-
+| trail_visibility
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No: pathless, excellent orientation skills required
+| 
+|  
+|  
+| last
+|-
+| tree_type
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| trees
+| 1
+| combo
+| Trees
+| 나무
+|  
+|  
+| trees
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| tunnel
+| 1
+| combo
+| Tunnel
+| 터널
+|  
+|  
+| tunnel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| vending
+| 1
+| combo
+| Type of Goods
+| 상품 종류
+|  
+|  
+| vending
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| water
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| water
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| waterway
+| 1
+| typeCombo
+| Type
+| 유형
+|  
+|  
+| waterway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| website
+| 1
+| url
+| Website
+| 웹사이트
+| website
+| true
+| website
+|  
+|  
+|  
+| http://example.com/
+| http://example.com/
+| last
+|-
+| wetland
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| wetland
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| wheelchair
+| 1
+| radio
+| Wheelchair Access
+| 휠체어 접근
+| wheelchair
+| true
+| wheelchair
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| width
+| 1
+| number
+| Width (Meters)
+| 폭 (미터)
+|  
+|  
+| width
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| wikipedia
+| 1
+| wikipedia
+| Wikipedia
+| 위키백과
+| wikipedia
+| true
+| wikipedia
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| wood
+| 1
+| combo
+| Type
+| 유형
+|  
+|  
+| wood
+|  
+|  
+|  
+|  
+|  
+| last
+|}

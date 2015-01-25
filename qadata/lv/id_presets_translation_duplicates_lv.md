@@ -1,0 +1,13 @@
+|nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|Grāvis|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
+|Grāvis|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
+|Koks|Tree|natural/tree| |park|natural=tree| | | | | | |point|vertex| |
+|Koks|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
+|Lielveikals|Department Store|shop/department_store| |shop|shop=department_store| | | | |area| |point| | |
+|Lielveikals|Supermarket|shop/supermarket| |grocery|shop=supermarket| | | | |area| |point| | |
+|Taka|Path|highway/path| |highway-path|highway=path| | | | | |line| | | |
+|Taka|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
+|Veikals|Boutique|shop/boutique| |shop|shop=boutique| | | | |area| |point| | |
+|Veikals|Convenience Store|shop/convenience| |shop|shop=convenience| | | | |area| |point| | |
+|Veikals|Shop|shop| |shop|shop=*| | | | |area| |point| | |

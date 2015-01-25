@@ -1,0 +1,529 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| Artesanato
+| Craft
+| craft
+|  
+| marker-stroked
+| craft=*
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Artesanato
+| Handicraft
+| craft/handicraft
+|  
+| art-gallery
+| craft=handicraft
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Banca de Revistas
+| News Kiosk
+| shop/kiosk
+|  
+| shop
+| shop=kiosk
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Banca de Revistas
+| Newspaper/Magazine Shop
+| shop/newsagent
+|  
+| shop
+| shop=newsagent
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Cabana
+| Hut
+| building/hut
+|  
+|  
+| building=hut
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Cabana
+| Shed
+| building/shed
+|  
+| building
+| building=shed
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Doceria
+| Candy Store
+| shop/confectionery
+|  
+| shop
+| shop=confectionery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Doceria
+| Candle Shop
+| shop/candles
+|  
+| shop
+| shop=candles
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Escritório
+| Company Office
+| office/company
+|  
+| commercial
+| office=company
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Escritório
+| Office
+| office
+|  
+| commercial
+| office=*
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Financeira
+| Money Lender
+| shop/money_lender
+|  
+| bank
+| shop=money_lender
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Financeira
+| Consignment/Thrift Store
+| shop/second_hand
+|  
+| shop
+| shop=second_hand
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Hotel
+| Hotel
+| tourism/hotel
+|  
+| lodging
+| tourism=hotel
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Hotel
+| Hotel Building
+| building/hotel
+|  
+| building
+| building=hotel
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Igreja
+| Church
+| amenity/place_of_worship/christian
+|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Igreja
+| Church
+| building/church
+|  
+| place-of-worship
+| building=church
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Limite Administrativo
+| Administrative Boundary
+| type/boundary/administrative
+|  
+| boundary
+| type=boundary
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Limite Administrativo
+| Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Loja de Instrumentos Musicais
+| Musical Instrument Store
+| shop/musical_instrument
+|  
+| music
+| shop=musical_instrument
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Loja de Instrumentos Musicais
+| Music Store
+| shop/music
+|  
+| music
+| shop=music
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Médico
+| Physician
+| office/physician
+|  
+| commercial
+| office=physician
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Médico
+| Doctor
+| amenity/doctor
+|  
+| hospital
+| amenity=doctors
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Relojoeiro
+| Watchmaker
+| craft/watchmaker
+|  
+| circle-stroked
+| craft=watchmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Relojoeiro
+| Clockmaker
+| craft/clockmaker
+|  
+| circle-stroked
+| craft=clockmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Rota de Balsa
+| Ferry Route
+| route/ferry
+|  
+| ferry
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Rota de Balsa
+| Ferry Route
+| type/route/ferry
+|  
+| route-ferry
+| type=route
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Travessia de Pedestres
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Travessia de Pedestres
+| Crossing
+| highway/crossing
+|  
+|  
+| highway=crossing
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Travessia de Pedestres
+| Crosswalk
+| footway/crosswalk
+|  
+|  
+| highway=footway
+| footway=crossing
+| crossing=zebra
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Travessia de Pedestres
+| Crossing
+| footway/crossing
+|  
+|  
+| highway=footway
+| footway=crossing
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Vala
+| Ditch
+| barrier/ditch
+|  
+|  
+| barrier=ditch
+|  
+|  
+|  
+|  
+| area
+| line
+|  
+|  
+|  
+|-
+| Vala
+| Ditch
+| waterway/ditch
+|  
+| waterway-ditch
+| waterway=ditch
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|}

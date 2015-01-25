@@ -1,0 +1,18 @@
+|nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|Autobusna stanica|Bus Stop|highway/bus_stop| |bus|highway=bus_stop| | | | | | |point|vertex| |
+|Autobusna stanica|Bus Station|amenity/bus_station| |bus|amenity=bus_station| | | | |area| |point| | |
+|Brodska linija|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
+|Brodska linija|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
+|Crkva|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
+|Crkva|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|Fakultetsko zemljište|University Grounds|amenity/university| |college|amenity=university| | | | |area| |point| | |
+|Fakultetsko zemljište|College Grounds|amenity/college| |college|amenity=college| | | | |area| |point| | |
+|Groblje|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
+|Groblje|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Odmorište|Service Area|highway/services| | |highway=services| | | | |area| |point|vertex| |
+|Odmorište|Rest Area|highway/rest_area| | |highway=rest_area| | | | |area| |point|vertex| |
+|Travnjak|Grass|landuse/grass| | |landuse=grass| | | | |area| |point| | |
+|Travnjak|Grassland|natural/grassland| | |natural=grassland| | | | |area| |point| | |
+|Zgrada fakulteta|University Building|building/university| |building|building=university| | | | |area| |point| | |
+|Zgrada fakulteta|College Building|building/college| |building|building=college| | | | |area| |point| | |

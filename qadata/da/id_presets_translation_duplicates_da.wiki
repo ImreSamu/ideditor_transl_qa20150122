@@ -1,0 +1,753 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| Dam
+| Dam
+| waterway/dam
+|  
+| dam
+| waterway=dam
+|  
+|  
+|  
+|  
+| area
+| line
+| point
+| vertex
+|  
+|-
+| Dam
+| Pond
+| natural/water/pond
+|  
+| water
+| natural=water
+| water=pond
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| Ej brugt jernbanespor
+| Disused Railway
+| railway/disused
+|  
+| railway-disused
+| railway=disused
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Ej brugt jernbanespor
+| Abandoned Railway
+| railway/abandoned
+|  
+| railway-abandoned
+| railway=abandoned
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Elledning
+| Minor Power Line
+| power/minor_line
+|  
+| power-line
+| power=minor_line
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Elledning
+| Power Line
+| power/line
+|  
+| power-line
+| power=line
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Færgerute
+| Ferry Route
+| type/route/ferry
+|  
+| route-ferry
+| type=route
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Færgerute
+| Ferry Route
+| route/ferry
+|  
+| ferry
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Fodgængerovergang
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Fodgængerovergang
+| Crosswalk
+| footway/crosswalk
+|  
+|  
+| highway=footway
+| footway=crossing
+| crossing=zebra
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Garager
+| Garages
+| landuse/garages
+|  
+|  
+| landuse=garages
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| Garager
+| Garages
+| building/garages
+|  
+| warehouse
+| building=garages
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Grøft
+| Ditch
+| waterway/ditch
+|  
+| waterway-ditch
+| waterway=ditch
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Grøft
+| Ditch
+| barrier/ditch
+|  
+|  
+| barrier=ditch
+|  
+|  
+|  
+|  
+| area
+| line
+|  
+|  
+|  
+|-
+| Hytte
+| Cabin
+| building/cabin
+|  
+| building
+| building=cabin
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Hytte
+| Hut
+| building/hut
+|  
+|  
+| building=hut
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Indkøbscenter
+| Commercial Building
+| building/commercial
+|  
+| commercial
+| building=commercial
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Indkøbscenter
+| Mall
+| shop/mall
+|  
+| shop
+| shop=mall
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Kirke
+| Church
+| building/church
+|  
+| place-of-worship
+| building=church
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Kirke
+| Church
+| amenity/place_of_worship/christian
+|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Kirkegård
+| Graveyard
+| amenity/grave_yard
+|  
+| cemetery
+| amenity=grave_yard
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Kirkegård
+| Churchyard
+| landuse/churchyard
+|  
+|  
+| landuse=churchyard
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| Kryds
+| Crossing
+| footway/crossing
+|  
+|  
+| highway=footway
+| footway=crossing
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Kryds
+| Crossing
+| highway/crossing
+|  
+|  
+| highway=crossing
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Læge
+| Doctor
+| amenity/doctor
+|  
+| hospital
+| amenity=doctors
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Læge
+| Physician
+| office/physician
+|  
+| commercial
+| office=physician
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Lokalitet
+| Place
+| place
+|  
+|  
+| place=*
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Lokalitet
+| Locality
+| place/locality
+|  
+| marker
+| place=locality
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Skrædder
+| Dressmaker
+| craft/dressmaker
+|  
+| clothing-store
+| craft=dressmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Skrædder
+| Tailor
+| shop/tailor
+|  
+| clothing-store
+| shop=tailor
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Slikbutik
+| Confectionery
+| craft/confectionery
+|  
+| bakery
+| craft=confectionery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Slikbutik
+| Candy Store
+| shop/confectionery
+|  
+| shop
+| shop=confectionery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Tæppelægger
+| Carpet Layer
+| craft/carpet_layer
+|  
+| square
+| craft=carpet_layer
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Tæppelægger
+| Carpenter
+| craft/carpenter
+|  
+| logging
+| craft=carpenter
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Universitetsbygning
+| University Building
+| building/university
+|  
+| building
+| building=university
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Universitetsbygning
+| College Building
+| building/college
+|  
+| building
+| building=college
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Urmager
+| Clockmaker
+| craft/clockmaker
+|  
+| circle-stroked
+| craft=clockmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Urmager
+| Watchmaker
+| craft/watchmaker
+|  
+| circle-stroked
+| craft=watchmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Vandgrav
+| Water Hazard
+| golf/water_hazard
+|  
+| golf
+| golf=water_hazard
+| natural=water
+|  
+|  
+|  
+| area
+| line
+|  
+|  
+|  
+|-
+| Vandgrav
+| Lateral Water Hazard
+| golf/lateral_water_hazard
+|  
+| golf
+| golf=lateral_water_hazard
+| natural=water
+|  
+|  
+|  
+| area
+| line
+|  
+|  
+|  
+|-
+| Vandrerute
+| Foot Route
+| type/route/foot
+|  
+| route-foot
+| type=route
+| route=foot
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Vandrerute
+| Hiking Route
+| type/route/hiking
+|  
+| route-foot
+| type=route
+| route=hiking
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Vinforhandler
+| Liquor Store
+| shop/alcohol
+|  
+| alcohol-shop
+| shop=alcohol
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Vinforhandler
+| Beverage Store
+| shop/beverages
+|  
+| shop
+| shop=beverages
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Vingård
+| Vineyard
+| landuse/vineyard
+|  
+|  
+| landuse=vineyard
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Vingård
+| Winery
+| craft/winery
+|  
+| alcohol-shop
+| craft=winery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|}

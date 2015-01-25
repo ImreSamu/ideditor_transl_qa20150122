@@ -1,0 +1,39 @@
+|nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|Banc|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
+|Banc|Bank|amenity/bank| |bank|amenity=bank| | | | |area| |point| | |
+|Bosc|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
+|Bosc|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|Botiga de cosmètics|Cosmetics Store|shop/cosmetics| |shop|shop=cosmetics| | | | |area| |point| | |
+|Botiga de cosmètics|Beauty Shop|shop/beauty| |shop|shop=beauty| | | | |area| |point| | |
+|Botiga de roba|Fashion Store|shop/fashion| |shop|shop=fashion| | | | |area| |point| | |
+|Botiga de roba|Clothing Store|shop/clothes| |clothing-store|shop=clothes| | | | |area| |point| | |
+|Bugaderia|Laundry|shop/laundry| |laundry|shop=laundry| | | | |area| |point| | |
+|Bugaderia|Dry Cleaner|shop/dry_cleaning| |shop|shop=dry_cleaning| | | | |area| |point| | |
+|Cabana|Cabin|building/cabin| |building|building=cabin| | | | |area| |point| | |
+|Cabana|Hut|building/hut| | |building=hut| | | | |area| |point| | |
+|Capella|Wayside Shrine|historic/wayside_shrine| | |historic=wayside_shrine| | | | |area| |point|vertex| |
+|Capella|Chapel|building/chapel| |place-of-worship|building=chapel| | | | |area| |point| | |
+|Cementiri|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
+|Cementiri|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Església|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|Església|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
+|Farmàcia|Medical Supply Store|shop/medical_supply| |shop|shop=medical_supply| | | | |area| |point| | |
+|Farmàcia|Chemist|shop/chemist| |chemist|shop=chemist| | | | |area| |point| | |
+|Farmàcia|Pharmacy|amenity/pharmacy| |pharmacy|amenity=pharmacy| | | | |area| |point| | |
+|Font|Spring|natural/spring| | |natural=spring| | | | | | |point|vertex| |
+|Font|Fountain|amenity/fountain| | |amenity=fountain| | | | |area| |point| | |
+|Garatges|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
+|Garatges|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
+|Límit administratiu|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
+|Límit administratiu|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
+|Llauner|Plumber|craft/plumber| |marker-stroked|craft=plumber| | | | |area| |point| | |
+|Llauner|Tinsmith|craft/tinsmith| |marker-stroked|craft=tinsmith| | | | |area| |point| | |
+|Pas de vianants|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|Pas de vianants|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
+|Pas de vianants|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
+|Pas de vianants|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
+|Ruta de ferri|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
+|Ruta de ferri|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
+|Sastreria|Tailor|shop/tailor| |clothing-store|shop=tailor| | | | |area| |point| | |
+|Sastreria|Dressmaker|craft/dressmaker| |clothing-store|craft=dressmaker| | | | |area| |point| | |

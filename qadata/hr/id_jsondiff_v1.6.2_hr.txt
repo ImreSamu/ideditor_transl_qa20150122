@@ -1,0 +1,136 @@
+ {
+   help: {
+-    gps: "# GNSS\n\nPojam GNSS obuhvaća sve \"Globalne Navigacijske Satelitske Sustave\", to su: američki Navstar GPS, ruski GLONASS, europski GALILEO i kineski BEIDOU. Suvremeni uređaji često koriste signale više sustava istovremeno za određivanje pozicije. GNSS podaci su najpouzdaniji izvor podataka za OpenStreetMap. Ovaj\nuređivač podržava lokalne tragove - `.gpx` datoteteke koje se nalaze na tvom računalu.\nTakav oblik GNSS traga možeš prikupiti s raznim aplikacijama za pametne\ntelefone kao i sa drugim GNSS/GPS uređajima.\n\nZa više informacija o postupku izmjere pomoću GNSS satelita, pročitaj članak\n[\"Mjerenje GPS-om\"](http://learnosm.org/en/beginner/using-gps/).\n\nKako bi koristio/la GPX tragove za kartiranje, povuci i ispusti GPX datoteku\nna uređivač karte. Ako se datoteka ispravno učita, biti će dodana na kartu\nkao linija svjetlo zelene boje. Klikni na izbornik \"Postavke pozadine\" s\ndesne strane za uključivanje, isključivanje ili povećanje na taj novi GPX sloj.\n\nGPX trag nije direktno postavljen na OpenStreetMap, samo je prikazan na\nkarti. Da bi ga iskoristio/la na najbolji način, preko njega crtaj na\nkarti koristeći ga kao vodilju za dodavanje novih značajki. Trag možeš također\n[postaviti na OpenStreetMap](http://www.openstreetmap.org/trace/create)\nkako bi ga i drugi korisnici mogli koristiti.\n"
+   }
+   presets: {
+     fields: {
++      craft: {
++        label: "Vrsta"
++      }
++      delivery: {
++        label: "Dostava"
++      }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Trgovina slatkišima"
+-      }
++      amenity/bbq: {
++        name: "Roštilj"
++      }
++      amenity/bicycle_repair_station: {
++        name: "Bicikl servis"
++      }
++      amenity/bureau_de_change: {
++        name: "Mjenjačnica"
++      }
++      amenity/bus_station: {
++        name: "Autobusna stanica"
++      }
++      amenity/charging_station: {
++        name: "Punionica"
++      }
++      amenity/college: {
++        name: "Fakultetsko zemljište"
++      }
++      amenity/compressed_air: {
++        name: "Komprimirani zrak"
++      }
++      amenity/kindergarten: {
++        name: "Dvorište vrtića"
++      }
++      amenity/nightclub: {
++        name: "Noćni klub"
++      }
++      amenity/parking_entrance: {
++        name: "Parking garaža Ulaz/Izlaz"
++      }
++      amenity/public_bookcase: {
++        name: "Javna knjižnica"
++      }
++      amenity/social_facility/homeless_shelter: {
++        name: "Sklonište za beskućnike"
++      }
++      amenity/studio: {
++        name: "Studio"
++      }
++      amenity/university: {
++        name: "Fakultetsko zemljište"
++      }
++      building/college: {
++        name: "Zgrada fakulteta"
++      }
++      building/construction: {
++        name: "Zgrada u izgradnji"
++      }
++      building/dormitory: {
++        name: "Studentski dom"
++      }
++      building/kindergarten: {
++        name: "Zgrada vrtića"
++      }
++      building/public: {
++        name: "Javna građevina"
++      }
++      craft/bookbinder: {
++        name: "Knjigovezac"
++      }
++      craft/caterer: {
++        name: "Dostavljač"
++      }
++      craft/confectionery: {
++        name: "Slastičarnica"
++      }
++      craft/handicraft: {
++        name: "Ručni rad"
++      }
++      craft/metal_construction: {
++        name: "Željezar"
++      }
++      craft/photographic_laboratory: {
++        name: "Fotografska radionica"
++      }
++      craft/plasterer: {
++        name: "Fasader"
++      }
++      craft/rigger: {
++        name: "Monter"
++      }
++      craft/saddler: {
++        name: "Sedlar"
++      }
++      craft/sailmaker: {
++        name: "Jedrar"
++      }
++      craft/scaffolder: {
++        name: "Građevinska skela"
++      }
++      craft/tiler: {
++        name: "Keramičar"
++      }
++      craft/tinsmith: {
++        name: "Kotlar / Kazandžija"
++      }
++      craft/upholsterer: {
++        name: "Tapetar"
++      }
++      craft/window_construction: {
++        name: "Izrada prozora"
++      }
++      craft/winery: {
++        name: "Vinarija"
++      }
++      embankment: {
++        name: "Nasip"
++      }
+       building/train_station: {
+-        name: "Željeznička stanica"
++        name: "Željeznički kolodvor"
+       }
+       highway/turning_circle: {
+-        name: "Kružni tok"
++        name: "Površina na kraju ceste za polukružno okretanje"
+       }
+     }
+   }
+ }

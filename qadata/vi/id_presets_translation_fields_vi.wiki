@@ -1,0 +1,3781 @@
+{| class="wikitable"
+! style="font-weight: bold;" | presetFieldsKey
+! style="font-weight: bold;" | r
+! style="font-weight: bold;" | type
+! style="font-weight: bold;" | labelEn
+! style="font-weight: bold;" | labelTransl
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | universal
+! style="font-weight: bold;" | keys
+! style="font-weight: bold;" | optionskey
+! style="font-weight: bold;" | valueEn
+! style="font-weight: bold;" | valueTransl
+! style="font-weight: bold;" | placeholderEn
+! style="font-weight: bold;" | placeholderTransl
+! style="font-weight: bold;" | endRec
+|-
+| access
+| 1
+| access
+| Access
+| Quyền Truy cập
+|  
+|  
+| access,foot,motor_vehicle,bicycle,horse
+|  
+|  
+|  
+| Unknown
+| Không rõ
+| last
+|-
+| access_simple
+| 1
+| combo
+| Access
+| Quyền Truy cập
+|  
+|  
+| access
+|  
+|  
+|  
+| yes
+| có
+| last
+|-
+| access_toilets
+| 1
+| combo
+| Access
+| Quyền Truy cập
+|  
+|  
+| access
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| address
+| 1
+| address
+| Address
+| Địa chỉ
+| address
+| true
+| addr:housename,addr:housenumber,addr:street,addr:city,addr:postcode
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| admin_level
+| 1
+| number
+| Admin Level
+| Cấp Hành chính
+|  
+|  
+| admin_level
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| aerialway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway/access
+| 1
+| combo
+| Access
+| Quyền Truy cập
+|  
+|  
+| aerialway:access
+| entry
+| Entry
+| Vào
+|  
+|  
+| last
+|-
+| aerialway/access
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| exit
+| Exit
+| Ra
+|  
+|  
+| last
+|-
+| aerialway/access
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| both
+| Both
+| Ra vào
+|  
+|  
+| last
+|-
+| aerialway/bubble
+| 1
+| check
+| Bubble
+| Mái vòm
+|  
+|  
+| aerialway:bubble
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway/capacity
+| 1
+| number
+| Capacity (per hour)
+| Số khách (Mỗi giờ)
+|  
+|  
+| aerialway:capacity
+|  
+|  
+|  
+| 500, 2500, 5000...
+| 500, 2500, 5000…
+| last
+|-
+| aerialway/duration
+| 1
+| number
+| Duration (minutes)
+| Mất Thời gian (Phút)
+|  
+|  
+| aerialway:duration
+|  
+|  
+|  
+| 1, 2, 3...
+| 1, 2, 3…
+| last
+|-
+| aerialway/heating
+| 1
+| check
+| Heated
+| Máy sưởi
+|  
+|  
+| aerialway:heating
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway/occupancy
+| 1
+| number
+| Occupancy
+| Số khách
+|  
+|  
+| aerialway:occupancy
+|  
+|  
+|  
+| 2, 4, 8...
+| 2, 4, 8…
+| last
+|-
+| aerialway/summer/access
+| 1
+| combo
+| Access (summer)
+| Quyền Truy cập (Mùa hè)
+|  
+|  
+| aerialway:summer:access
+| entry
+| Entry
+| Vào
+|  
+|  
+| last
+|-
+| aerialway/summer/access
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| exit
+| Exit
+| Ra
+|  
+|  
+| last
+|-
+| aerialway/summer/access
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| both
+| Both
+| Ra vào
+|  
+|  
+| last
+|-
+| aeroway
+| 1
+| typeCombo
+| Type
+| Loại
+|  
+|  
+| aeroway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| amenity
+| 1
+| typeCombo
+| Type
+| Loại
+|  
+|  
+| amenity
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| artist
+| 1
+| text
+| Artist
+| Nghệ sĩ
+|  
+|  
+| artist_name
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| artwork_type
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| artwork_type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| atm
+| 1
+| check
+| ATM
+| Máy Rút tiền
+|  
+|  
+| atm
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| backrest
+| 1
+| check
+| Backrest
+| Dựa Lưng
+|  
+|  
+| backrest
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| barrier
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| barrier
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| bench
+| 1
+| check
+| Bench
+| Ghế
+|  
+|  
+| bench
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| bicycle_parking
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| bicycle_parking
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| boundary
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| boundary
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| building
+| 1
+| typeCombo
+| Building
+| Tòa nhà
+|  
+|  
+| building
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| building_area
+| 1
+| defaultcheck
+| Building
+| Tòa nhà
+|  
+|  
+| building
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| capacity
+| 1
+| number
+| Capacity
+| Sức chứa
+|  
+|  
+| capacity
+|  
+|  
+|  
+| 50, 100, 200...
+| 50, 100, 200…
+| last
+|-
+| cardinal_direction
+| 1
+| combo
+| Direction
+| Chiều
+|  
+|  
+| direction
+| N
+| North
+| Bắc
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| E
+| East
+| Đông
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| S
+| South
+| Nam
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| W
+| West
+| Tây
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| NE
+| Northeast
+| Đông Bắc
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| SE
+| Southeast
+| Đông Nam
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| SW
+| Southwest
+| Tây Nam
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 8
+| combo
+|  
+|  
+|  
+|  
+|  
+| NW
+| Northwest
+| Tây Bắc
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 9
+| combo
+|  
+|  
+|  
+|  
+|  
+| NNE
+| North-northeast
+| Bắc Đông Bắc
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 10
+| combo
+|  
+|  
+|  
+|  
+|  
+| ENE
+| East-northeast
+| Đông Đông Bắc
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 11
+| combo
+|  
+|  
+|  
+|  
+|  
+| ESE
+| East-southeast
+| Đông Đông Nam
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 12
+| combo
+|  
+|  
+|  
+|  
+|  
+| SSE
+| South-southeast
+| Nam Đông Nam
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 13
+| combo
+|  
+|  
+|  
+|  
+|  
+| SSW
+| South-southwest
+| Nam Tây Nam
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 14
+| combo
+|  
+|  
+|  
+|  
+|  
+| WSW
+| West-southwest
+| Tây Tây Nam
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 15
+| combo
+|  
+|  
+|  
+|  
+|  
+| WNW
+| West-northwest
+| Tây Tây Bắc
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 16
+| combo
+|  
+|  
+|  
+|  
+|  
+| NNW
+| North-northwest
+| Bắc Tây Bắc
+|  
+|  
+| last
+|-
+| clock_direction
+| 1
+| combo
+| Direction
+| Chiều
+|  
+|  
+| direction
+| clockwise
+| Clockwise
+| Theo Chiều kim Đồng hồ
+|  
+|  
+| last
+|-
+| clock_direction
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| anticlockwise
+| Counterclockwise
+| Ngược Chiều kim Đồng hồ
+|  
+|  
+| last
+|-
+| collection_times
+| 1
+| text
+| Collection Times
+| Giờ Lấy thư
+|  
+|  
+| collection_times
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| construction
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| construction
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| country
+| 1
+| combo
+| Country
+| Quốc gia
+|  
+|  
+| country
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| covered
+| 1
+| check
+| Covered
+| Có Mái Che
+|  
+|  
+| covered
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| craft
+| 1
+| typeCombo
+| Type
+| Loại
+|  
+|  
+| craft
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| crop
+| 1
+| combo
+| Crop
+| Loại cây
+|  
+|  
+| crop
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| crossing
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| crossing
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| cuisine
+| 1
+| combo
+| Cuisine
+| Ẩm thực
+|  
+|  
+| cuisine
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| delivery
+| 1
+| check
+| Delivery
+| Giao hàng
+|  
+|  
+| delivery
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| denomination
+| 1
+| combo
+| Denomination
+| Giáo phái
+|  
+|  
+| denomination
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| denotation
+| 1
+| combo
+| Denotation
+| Tầm Quan trọng
+|  
+|  
+| denotation
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| description
+| 1
+| textarea
+| Description
+| Miêu tả
+|  
+|  
+| description
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| electrified
+| 1
+| combo
+| Electrification
+| Điện khí hóa
+|  
+|  
+| electrified
+| contact_line
+| Contact Line
+| Dây điện Bên trên
+| Contact Line, Electrified Rail...
+| Dây điện Bên trên, Đường ray Điện…
+| last
+|-
+| electrified
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| rail
+| Electrified Rail
+| Đường ray Điện
+|  
+|  
+| last
+|-
+| electrified
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| yes
+| Yes (unspecified)
+| Có (không xác định)
+|  
+|  
+| last
+|-
+| electrified
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No
+| Không có
+|  
+|  
+| last
+|-
+| elevation
+| 1
+| number
+| Elevation
+| Cao độ
+| elevation
+| true
+| ele
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| emergency
+| 1
+| check
+| Emergency
+| Khẩn cấp
+|  
+|  
+| emergency
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| entrance
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| entrance
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| except
+| 1
+| combo
+| Exceptions
+| Ngoại lệ
+|  
+|  
+| except
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fax
+| 1
+| tel
+| Fax
+| Số Fax
+|  
+|  
+| fax
+|  
+|  
+|  
+| +31 42 123 4567
+| +84 1 234 5678
+| last
+|-
+| fee
+| 1
+| check
+| Fee
+| Phí
+|  
+|  
+| fee
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| fire_hydrant:type
+| pillar
+| Pillar/Aboveground
+| Cột
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| underground
+| Underground
+| Dưới đất
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| wall
+| Wall
+| Tường
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| pond
+| Pond
+| Ao
+|  
+|  
+| last
+|-
+| fixme
+| 1
+| textarea
+| Fix Me
+| Cần Sửa chữa
+|  
+|  
+| fixme
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel
+| 1
+| combo
+| Fuel
+| Nhiên liệu
+|  
+|  
+| fuel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/biodiesel
+| 1
+| check
+| Sells Biodiesel
+| Bán Diesel Sinh học
+|  
+|  
+| fuel:biodiesel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/diesel
+| 1
+| check
+| Sells Diesel
+| Bán Diesel
+|  
+|  
+| fuel:diesel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/e10
+| 1
+| check
+| Sells E10
+| Bán E10
+|  
+|  
+| fuel:e10
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/e85
+| 1
+| check
+| Sells E85
+| Bán E85
+|  
+|  
+| fuel:e85
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/lpg
+| 1
+| check
+| Sells Propane
+| Bán Prôpan
+|  
+|  
+| fuel:lpg
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_100
+| 1
+| check
+| Sells Racing Gasoline
+| Bán Xăng Xe đua
+|  
+|  
+| fuel:octane_100
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_91
+| 1
+| check
+| Sells Regular Gasoline
+| Bán Xăng Bình thường
+|  
+|  
+| fuel:octane_91
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_95
+| 1
+| check
+| Sells Midgrade Gasoline
+| Bán Xăng Trung hạng
+|  
+|  
+| fuel:octane_95
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_98
+| 1
+| check
+| Sells Premium Gasoline
+| Bán Xăng Thượng hạng
+|  
+|  
+| fuel:octane_98
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| gauge
+| 1
+| combo
+| Gauge
+| Khổ
+|  
+|  
+| gauge
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| generator/method
+| 1
+| combo
+| Method
+| Phương pháp
+|  
+|  
+| generator:method
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| generator/source
+| 1
+| combo
+| Source
+| Nguồn
+|  
+|  
+| generator:source
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| generator/type
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| generator:type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| golf_hole
+| 1
+| text
+| Reference
+| Số
+|  
+|  
+| ref
+|  
+|  
+|  
+| Hole number (1-18)
+| Số lỗ (1–18)
+| last
+|-
+| handicap
+| 1
+| number
+| Handicap
+| Điểm chấp
+|  
+|  
+| handicap
+|  
+|  
+|  
+| 1-18
+| 1–18
+| last
+|-
+| highway
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| highway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| historic
+| 1
+| typeCombo
+| Type
+| Loại
+|  
+|  
+| historic
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| hoops
+| 1
+| number
+| Hoops
+| Số Vòng
+|  
+|  
+| hoops
+|  
+|  
+|  
+| 1, 2, 4...
+| 1, 2, 4…
+| last
+|-
+| iata
+| 1
+| text
+| IATA
+| IATA
+|  
+|  
+| iata
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| icao
+| 1
+| text
+| ICAO
+| ICAO
+|  
+|  
+| icao
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| incline
+| 1
+| combo
+| Incline
+| Nghiêng
+|  
+|  
+| incline
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| information
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| information
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| internet_access
+| 1
+| combo
+| Internet Access
+| Truy cập Internet
+|  
+|  
+| internet_access
+| yes
+| Yes
+| Có
+|  
+|  
+| last
+|-
+| internet_access
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No
+| Không có
+|  
+|  
+| last
+|-
+| internet_access
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| wlan
+| Wifi
+| Wi-Fi
+|  
+|  
+| last
+|-
+| internet_access
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| wired
+| Wired
+| Qua dây điện
+|  
+|  
+| last
+|-
+| internet_access
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| terminal
+| Terminal
+| Máy tính công cộng
+|  
+|  
+| last
+|-
+| lamp_type
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| lamp_type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| landuse
+| 1
+| typeCombo
+| Type
+| Mục đích
+|  
+|  
+| landuse
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| lanes
+| 1
+| number
+| Lanes
+| Số Làn
+|  
+|  
+| lanes
+|  
+|  
+|  
+| 1, 2, 3...
+| 1, 2, 3…
+| last
+|-
+| layer
+| 1
+| combo
+| Layer
+| Lớp
+|  
+|  
+| layer
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| leisure
+| 1
+| typeCombo
+| Type
+| Loại
+|  
+|  
+| leisure
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| length
+| 1
+| number
+| Length (Meters)
+| Chiều dài (Mét)
+|  
+|  
+| length
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| levels
+| 1
+| number
+| Levels
+| Số Tầng
+|  
+|  
+| building:levels
+|  
+|  
+|  
+| 2, 4, 6...
+| 2, 4, 6…
+| last
+|-
+| lit
+| 1
+| check
+| Lit
+| Có Đèn Sáng
+|  
+|  
+| lit
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| location
+| 1
+| combo
+| Location
+| Vị trí
+|  
+|  
+| location
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| man_made
+| 1
+| typeCombo
+| Type
+| Loại
+|  
+|  
+| man_made
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| maxspeed
+| 1
+| maxspeed
+| Speed Limit
+| Tốc độ Tối đa
+|  
+|  
+| maxspeed
+|  
+|  
+|  
+| 40, 50, 60...
+| 40, 50, 60…
+| last
+|-
+| mtb/scale
+| 1
+| combo
+| Mountain Biking Difficulty
+| Độ hiểm trở Đạp xe Leo núi
+|  
+|  
+| mtb:scale
+| 0
+| 0: Solid gravel/packed earth, no obstacles, wide curves
+| 0: Sỏi/đất chắc, không có trở ngại, uốn từ từ
+| 0, 1, 2, 3...
+| 0, 1, 2, 3…
+| last
+|-
+| mtb/scale
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| 1
+| 1: Some loose surface, small obstacles, wide curves
+| 1: Mặt có một tí phần không chặt, trở ngại nhỏ, uốn từ từ
+|  
+|  
+| last
+|-
+| mtb/scale
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| 2
+| 2: Much loose surface, large obstacles, easy hairpins
+| 2: Mặt có nhiều phần không chặt, trở ngại lớn, chữ chi dễ dàng
+|  
+|  
+| last
+|-
+| mtb/scale
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| 3
+| 3: Slippery surface, large obstacles, tight hairpins
+| 3. Mặt trơn, trở ngại lớn, chữ chi đột ngột
+|  
+|  
+| last
+|-
+| mtb/scale
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| 4
+| 4: Loose surface or boulders, dangerous hairpins
+| 4. Mặt không chặt hoặc hòn đá, chữ chi nguy hiểm
+|  
+|  
+| last
+|-
+| mtb/scale
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| 5
+| 5: Maximum difficulty, boulder fields, landslides
+| 5. Cực hiểm trở, sân đầy hòn đá, lở đất
+|  
+|  
+| last
+|-
+| mtb/scale
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| 6
+| 6: Not rideable except by the very best mountain bikers
+| 6. Không thể đạp xe trừ những người lão luyện nhất
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 1
+| combo
+| IMBA Trail Difficulty
+| Độ hiểm trở Đường mòn IMBA
+|  
+|  
+| mtb:scale:imba
+| 0
+| Easiest (white circle)
+| Dễ nhất (hình tròn màu trắng)
+| Easy, Medium, Difficult...
+| Dễ, Trung bình, Khó…
+| last
+|-
+| mtb/scale/imba
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| 1
+| Easy (green circle)
+| Dễ (hình tròn màu xanh lục)
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| 2
+| Medium (blue square)
+| Trung bình (hình vuông màu xanh lam)
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| 3
+| Difficult (black diamond)
+| Khó (hình thoi màu đen)
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| 4
+| Extremely Difficult (double black diamond)
+| Cực Khó (2 hình thoi màu đen)
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 1
+| combo
+| Mountain Biking Uphill Difficulty
+| Độ hiểm trở Đạp xe Leo lên núi
+|  
+|  
+| mtb:scale:uphill
+| 0
+| 0: Avg. incline <10%, gravel/packed earth, no obstacles
+| 0: Độ dốc trung bình <10%, sỏi/đất chắc, không có trở ngại
+| 0, 1, 2, 3...
+| 0, 1, 2, 3…
+| last
+|-
+| mtb/scale/uphill
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| 1
+| 1: Avg. incline <15%, gravel/packed earth, few small objects
+| 1: Độ dốc trung bình <15%, sỏi/đất chắc, vài thứ nhỏ
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| 2
+| 2: Avg. incline <20%, stable surface, fistsize rocks/roots
+| 2: Độ dốc trung bình <20%, mặt vững, đá/rễ bằng cỡ tay
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| 3
+| 3: Avg. incline <25%, variable surface, fistsize rocks/branches
+| 3: Độ dốc trung bình <25%, mặt thay đổi, đá/rễ bằng cỡ tay
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| 4
+| 4: Avg. incline <30%, poor condition, big rocks/branches
+| 4: Độ dốc trung bình <30%, phẩm chất kém, đá/rễ lớn
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| 5
+| 5: Very steep, bike generally needs to be pushed or carried
+| 5: Rất dốc, thường phải đẩy hoặc vác xe đạp
+|  
+|  
+| last
+|-
+| name
+| 1
+| localized
+| Name
+| Tên
+|  
+|  
+| name
+|  
+|  
+|  
+| Common name (if any)
+| Tên phổ biến (nếu có)
+| last
+|-
+| natural
+| 1
+| typeCombo
+| Natural
+| Thiên nhiên
+|  
+|  
+| natural
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| network
+| 1
+| text
+| Network
+| Hệ thống
+|  
+|  
+| network
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| note
+| 1
+| textarea
+| Note
+| Chú thích
+| note
+| true
+| note
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| office
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| office
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| oneway
+| 1
+| check
+| One Way
+| Một chiều
+|  
+|  
+| oneway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| oneway_yes
+| 1
+| check
+| One Way
+| Một chiều
+|  
+|  
+| oneway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| opening_hours
+| 1
+| text
+| Hours
+| Giờ Mở cửa
+|  
+|  
+| opening_hours
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| operator
+| 1
+| text
+| Operator
+| Cơ quan Chủ quản
+|  
+|  
+| operator
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| par
+| 1
+| number
+| Par
+| Điểm chuẩn
+|  
+|  
+| par
+|  
+|  
+|  
+| 3, 4, 5...
+| 3, 4, 5…
+| last
+|-
+| park_ride
+| 1
+| check
+| Park and Ride
+| Trung chuyển
+|  
+|  
+| park_ride
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| parking
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| parking
+| surface
+| Surface
+| Ngoài trời
+|  
+|  
+| last
+|-
+| parking
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| multi-storey
+| Multilevel
+| Cao tầng
+|  
+|  
+| last
+|-
+| parking
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| underground
+| Underground
+| Ngầm
+|  
+|  
+| last
+|-
+| parking
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| sheds
+| Sheds
+| Lán
+|  
+|  
+| last
+|-
+| parking
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| carports
+| Carports
+| Nhà xe
+|  
+|  
+| last
+|-
+| parking
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| garage_boxes
+| Garage Boxes
+| Ga ra
+|  
+|  
+| last
+|-
+| parking
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| lane
+| Roadside Lane
+| Làn đường
+|  
+|  
+| last
+|-
+| phone
+| 1
+| tel
+| Phone
+| Số Điện thoại
+| telephone
+| true
+| phone
+|  
+|  
+|  
+| +31 42 123 4567
+| +84 1 234 5678
+| last
+|-
+| piste/difficulty
+| 1
+| combo
+| Difficulty
+| Độ Hiểm trở
+|  
+|  
+| piste:difficulty
+| novice
+| Novice (instructional)
+| Tập
+| Easy, Intermediate, Advanced...
+| Dễ, Trung bình, Nâng cao…
+| last
+|-
+| piste/difficulty
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| easy
+| Easy (green circle)
+| Dễ (Mỹ: tròn lục; Âu: xanh lục; Nhật: lục)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| intermediate
+| Intermediate (blue square)
+| Trung bình (Mỹ: vuông lam; Âu: đỏ; Nhật: đỏ)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| advanced
+| Advanced (black diamond)
+| Nâng cao (Mỹ: thoi đen; Âu: đen; Nhật: đen)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| expert
+| Expert (double black diamond)
+| Lão luyện (Mỹ: 2 thoi đen; Âu: cam)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| freeride
+| Freeride (off-piste)
+| Tự do (xa đường; Âu: vàng)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| extreme
+| Extreme (climbing equipment required)
+| Cực độ (cần thiết bị leo núi)
+|  
+|  
+| last
+|-
+| piste/grooming
+| 1
+| combo
+| Grooming
+| Kiểu Ủi Tuyết
+|  
+|  
+| piste:grooming
+| classic
+| Classic
+| Cổ điển
+|  
+|  
+| last
+|-
+| piste/grooming
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| mogul
+| Mogul
+| Mogul
+|  
+|  
+| last
+|-
+| piste/grooming
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| backcountry
+| Backcountry
+| Hẻo lánh
+|  
+|  
+| last
+|-
+| piste/grooming
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| classic+skating
+| Classic and Skating
+| Cổ điển và Trượt băng
+|  
+|  
+| last
+|-
+| piste/grooming
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| scooter
+| Scooter/Snowmobile
+| Xe máy Trượt tuyết
+|  
+|  
+| last
+|-
+| piste/grooming
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| skating
+| Skating
+| Trượt băng
+|  
+|  
+| last
+|-
+| piste/type
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| piste:type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| place
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| place
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| population
+| 1
+| text
+| Population
+| Dân số
+|  
+|  
+| population
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| power
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| power
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| railway
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| railway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/cans
+| 1
+| check
+| Accepts Cans
+| Nhận Đồ Hộp
+|  
+|  
+| recycling:cans
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/clothes
+| 1
+| check
+| Accepts Clothes
+| Nhận Quần áo
+|  
+|  
+| recycling:clothes
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/glass
+| 1
+| check
+| Accepts Glass
+| Nhận Đồ Thủy tinh
+|  
+|  
+| recycling:glass
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/paper
+| 1
+| check
+| Accepts Paper
+| Nhận Tờ giấy
+|  
+|  
+| recycling:paper
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| ref
+| 1
+| text
+| Reference
+| Số
+|  
+|  
+| ref
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| relation
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| religion
+| 1
+| combo
+| Religion
+| Tôn giáo
+|  
+|  
+| religion
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| restriction
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| restriction
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| restrictions
+| 1
+| restrictions
+| Turn Restrictions
+| Hạn chế rẽ
+| restrictions
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| route
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| route
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| route_master
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| route_master
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sac_scale
+| 1
+| combo
+| Hiking Difficulty
+| Độ hiểm trở Đi bộ Đường dài
+|  
+|  
+| sac_scale
+| hiking
+| T1: Hiking
+| T1: Đi bộ Đường dài
+| Mountain Hiking, Alpine Hiking...
+| Đi bộ Đường dài Núi, Đi bộ Đường dài Anpơ…
+| last
+|-
+| sac_scale
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| mountain_hiking
+| T2: Mountain Hiking
+| T2: Đi bộ Đường dài Núi
+|  
+|  
+| last
+|-
+| sac_scale
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| demanding_mountain_hiking
+| T3: Demanding Mountain Hiking
+| T3: Đi bộ Đường dài Núi Rán sức
+|  
+|  
+| last
+|-
+| sac_scale
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| alpine_hiking
+| T4: Alpine Hiking
+| T4: Đi bộ Đường dài Anpơ
+|  
+|  
+| last
+|-
+| sac_scale
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| demanding_alpine_hiking
+| T5: Demanding Alpine Hiking
+| T5: Đi bộ Đường dài Anpơ Rán sức
+|  
+|  
+| last
+|-
+| sac_scale
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| difficult_alpine_hiking
+| T6: Difficult Alpine Hiking
+| T6: Đi bộ Đường dài Anpơ Khó
+|  
+|  
+| last
+|-
+| seasonal
+| 1
+| check
+| Seasonal
+| Tùy Mùa
+|  
+|  
+| seasonal
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| service
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| service
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| service/bicycle/chaintool
+| 1
+| check
+| Chain Tool
+| Dụng cụ Cắt Xích
+|  
+|  
+| service:bicycle:chaintool
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| service/bicycle/pump
+| 1
+| check
+| Air Pump
+| Bơm
+|  
+|  
+| service:bicycle:pump
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| shelter
+| 1
+| check
+| Shelter
+| Chỗ che
+|  
+|  
+| shelter
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| shelter_type
+| 1
+| combo
+| Type
+| Kiểu
+|  
+|  
+| shelter_type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| shop
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| shop
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sloped_curb
+| 1
+| combo
+| Sloped Curb
+| Lề đường Dốc
+|  
+|  
+| sloped_curb
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| smoking
+| 1
+| combo
+| Smoking
+| Hút thuốc
+|  
+|  
+| smoking
+| no
+| No smoking anywhere
+| Hoàn toàn cấm hút thuốc
+| No, Separated, Yes...
+| Cấm, Nơi dành riêng, Cho phép…
+| last
+|-
+| smoking
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| separated
+| In smoking areas, not physically isolated
+| Ở nơi hút thuốc không có tường
+|  
+|  
+| last
+|-
+| smoking
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| isolated
+| In smoking areas, physically isolated
+| Ở nơi hút thuốc có tường
+|  
+|  
+| last
+|-
+| smoking
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| outside
+| Allowed outside
+| Cho phép ở ngoài trời
+|  
+|  
+| last
+|-
+| smoking
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| yes
+| Allowed everywhere
+| Cho phép ở bất cứ nơi nào
+|  
+|  
+| last
+|-
+| smoking
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| dedicated
+| Dedicated to smokers (e.g. smokers' club)
+| Dành riêng cho người hút thuốc (ví dụ quán hút thuốc)
+|  
+|  
+| last
+|-
+| smoothness
+| 1
+| combo
+| Smoothness
+| Độ nhẵn
+|  
+|  
+| smoothness
+| excellent
+| Thin Rollers: rollerblade, skateboard
+| Bánh xe Trượt: Giày patanh, ván trượt
+| Thin Rollers, Wheels, Off-Road...
+| Bánh xe Trượt, Bánh xe, Xa đường…
+| last
+|-
+| smoothness
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| good
+| Thin Wheels: racing bike
+| Bánh xe Mỏng: Xe đạp đua
+|  
+|  
+| last
+|-
+| smoothness
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| intermediate
+| Wheels: city bike, wheelchair, scooter
+| Bánh xe: Xe đạp lai, xe lăn, vét pa
+|  
+|  
+| last
+|-
+| smoothness
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| bad
+| Robust Wheels: trekking bike, car, rickshaw
+| Bánh xe Bền: Xe hơi, xích lô, xe đạp dã ngoại
+|  
+|  
+| last
+|-
+| smoothness
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| very_bad
+| High Clearance: light duty off-road vehicle
+| Gầm Cao: Xe xa đường nhẹ
+|  
+|  
+| last
+|-
+| smoothness
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| horrible
+| Off-Road: heavy duty off-road vehicle
+| Xa đường: Xe xa đường nặng
+|  
+|  
+| last
+|-
+| smoothness
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| very_horrible
+| Specialized off-road: tractor, ATV
+| Xa đường Chuyên dụng: Máy kéo, ATV
+|  
+|  
+| last
+|-
+| smoothness
+| 8
+| combo
+|  
+|  
+|  
+|  
+|  
+| impassible
+| Impassible / No wheeled vehicle
+| Không thể qua được bằng bánh xe
+|  
+|  
+| last
+|-
+| social_facility_for
+| 1
+| radio
+| People served
+| Dân được phục vụ
+|  
+|  
+| social_facility:for
+|  
+|  
+|  
+| Homeless, Disabled, Child, etc
+| Vô gia cư, Khuyết tật, Trẻ em, v.v.
+| last
+|-
+| source
+| 1
+| text
+| Source
+| Nguồn
+| source
+| true
+| source
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sport
+| 1
+| combo
+| Sport
+| Môn Thể thao
+|  
+|  
+| sport
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sport_ice
+| 1
+| combo
+| Sport
+| Môn Thể thao
+|  
+|  
+| sport
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sport_racing
+| 1
+| combo
+| Sport
+| Môn Thể thao
+|  
+|  
+| sport
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| structure
+| 1
+| radio
+| Structure
+| Cấu trúc
+|  
+|  
+| bridge,tunnel,embankment,cutting,ford
+|  
+|  
+|  
+| Unknown
+| Không rõ
+| last
+|-
+| studio_type
+| 1
+| combo
+| Type
+| Loại
+|  
+|  
+| type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| substation
+| 1
+| typeCombo
+| Type
+| Kiểu
+|  
+|  
+| substation
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| supervised
+| 1
+| check
+| Supervised
+| Canh gác
+|  
+|  
+| supervised
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| surface
+| 1
+| combo
+| Surface
+| Mặt
+|  
+|  
+| surface
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| tactile_paving
+| 1
+| check
+| Tactile Paving
+| Gạch dành cho Người Khiếm thị
+|  
+|  
+| tactile_paving
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| takeaway
+| 1
+| combo
+| Takeaway
+| Mang về
+|  
+|  
+| takeaway
+| yes
+| Yes
+| Có
+| Yes, No, Takeaway Only...
+| Có, Không có, Chỉ có Mang về…
+| last
+|-
+| takeaway
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No
+| Không có
+|  
+|  
+| last
+|-
+| takeaway
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| only
+| Takeaway Only
+| Chỉ có Mang về
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 1
+| combo
+| Disposal
+| Phương pháp thải
+|  
+|  
+| toilets:disposal
+| flush
+| Flush
+| Bấm
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| pitlatrine
+| Pit/Latrine
+| Mương
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| chemical
+| Chemical
+| Hóa chất
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| bucket
+| Bucket
+| Thùng
+|  
+|  
+| last
+|-
+| tourism
+| 1
+| typeCombo
+| Type
+| Loại
+|  
+|  
+| tourism
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| towertype
+| 1
+| combo
+| Tower type
+| Kiểu Tháp
+|  
+|  
+| tower:type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| tracktype
+| 1
+| combo
+| Track Type
+| Loại Đường mòn
+|  
+|  
+| tracktype
+| grade1
+| Solid: paved or heavily compacted hardcore surface
+| Rất Chắc: Mặt lát hoặc bằng cốt liệu chắc
+| Solid, Mostly Solid, Soft...
+| Rất chắc, Khá Chắc, Mềm…
+| last
+|-
+| tracktype
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade2
+| Mostly Solid: gravel/rock with some soft material mixed in
+| Khá Chắc: Sỏi đá pha một tí nguyên liệu mềm
+|  
+|  
+| last
+|-
+| tracktype
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade3
+| Even mixture of hard and soft materials
+| Pha trộn đều các nguyên liệu cứng mềm
+|  
+|  
+| last
+|-
+| tracktype
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade4
+| Mostly Soft: soil/sand/grass with some hard material mixed in
+| Khá Mềm: Đất/cát/cỏ pha một tí nguyên liệu cứng
+|  
+|  
+| last
+|-
+| tracktype
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade5
+| Soft: soil/sand/grass
+| Rất Mềm: Đất/cát/cỏ
+|  
+|  
+| last
+|-
+| trail_visibility
+| 1
+| combo
+| Trail Visibility
+| Tầm nhìn trên Đường mòn
+|  
+|  
+| trail_visibility
+| excellent
+| Excellent: unambiguous path or markers everywhere
+| Tốt: Lối đi rõ ràng hoặc có cắm bảng từng quãng một
+| Excellent, Good, Bad...
+| Tốt, Khá, Trung bình…
+| last
+|-
+| trail_visibility
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| good
+| Good: markers visible, sometimes require searching
+| Khá: Có bảng thấy được nhưng đôi khi cần phải mò mẫm
+|  
+|  
+| last
+|-
+| trail_visibility
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| intermediate
+| Intermediate: few markers, path mostly visible
+| Trung bình: Ít bảng, lối đi thấy được phần lớn
+|  
+|  
+| last
+|-
+| trail_visibility
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| bad
+| Bad: no markers, path sometimes invisible/pathless
+| Kém: Không có cắm bảng, đôi khi không thấy được lối đi hoặc không có lối đi
+|  
+|  
+| last
+|-
+| trail_visibility
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| horrible
+| Horrible: often pathless, some orientation skills required
+| Tồi: Nhiều khi không có lối đi, cần biết dò đường một chút
+|  
+|  
+| last
+|-
+| trail_visibility
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No: pathless, excellent orientation skills required
+| Không có lối đi, rất cần biết dò đường
+|  
+|  
+| last
+|-
+| tree_type
+| 1
+| combo
+| Type
+| Loại
+|  
+|  
+| type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| trees
+| 1
+| combo
+| Trees
+| Loại cây
+|  
+|  
+| trees
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| tunnel
+| 1
+| combo
+| Tunnel
+| Đường hầm
+|  
+|  
+| tunnel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| vending
+| 1
+| combo
+| Type of Goods
+| Loại Hàng hóa
+|  
+|  
+| vending
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| water
+| 1
+| combo
+| Type
+| Loại
+|  
+|  
+| water
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| waterway
+| 1
+| typeCombo
+| Type
+| Loại
+|  
+|  
+| waterway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| website
+| 1
+| url
+| Website
+| Trang Web
+| website
+| true
+| website
+|  
+|  
+|  
+| http://example.com/
+| http://example.com/
+| last
+|-
+| wetland
+| 1
+| combo
+| Type
+| Loại
+|  
+|  
+| wetland
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| wheelchair
+| 1
+| radio
+| Wheelchair Access
+| Đi Xe lăn Được
+| wheelchair
+| true
+| wheelchair
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| width
+| 1
+| number
+| Width (Meters)
+| Chiều ngang (Mét)
+|  
+|  
+| width
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| wikipedia
+| 1
+| wikipedia
+| Wikipedia
+| Wikipedia
+| wikipedia
+| true
+| wikipedia
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| wood
+| 1
+| combo
+| Type
+| Loại
+|  
+|  
+| wood
+|  
+|  
+|  
+|  
+|  
+| last
+|}

@@ -1,0 +1,41 @@
+ {
++  tooltip_keyhint: "Scurtătură:"
++  geocoder: {
++    no_results_worldwide: "Nu s-a găsit nici un rezultat"
++  }
++  feature: {
++    points: {
++      description: "Puncte"
++      tooltip: "Puncte de interes"
++    }
++    buildings: {
++      description: "Clădiri"
++    }
++  }
+   operations: {
+     continue: {
++      title: "Continuă"
+     }
+   }
+   translate: {
++    localized_translation_language: "Alege limba"
+   }
+   inspector: {
++    view_on_osm: "Vezi pe openstreetmap.org"
++    remove: "Şterge"
++    search: "Caută"
+   }
+   success: {
++    view_on_osm: "Vezi pe OSM"
++    twitter: "Distribuie pe Twitter"
++    google: "Distribuie pe Google+"
+   }
+   intro: {
+     lines: {
++      road: "**Selectează drumul din listă**"
+     }
+     startediting: {
++      title: "Începe editarea"
+     }
+   }
+ }

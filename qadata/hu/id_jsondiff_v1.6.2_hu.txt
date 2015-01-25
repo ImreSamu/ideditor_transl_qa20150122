@@ -1,0 +1,795 @@
+ {
++  feature_info: {
++    hidden_warning: "{count} rejtett elem"
++    hidden_details: "Ezek az elemek jelenleg rejtettek: {details}"
++  }
++  map_data: {
++    title: "Térképadatok"
++    description: "Térképadatok"
++    data_layers: "Adatrétegek"
++    fill_area: "Területek kitöltése"
++    map_features: "Térképelemek"
++    autohidden: "Ezek az elemek automatikusan el lettek rejtve, mert túl sok jelenne meg a képernyőn. Ránagyíthat a szerkesztésükhöz."
++  }
++  feature: {
++    points: {
++      description: "Pontok"
++      tooltip: "Érdekes pontok"
++    }
++    major_roads: {
++      description: "Főutak"
++      tooltip: "Autópályák, utcák, stb."
++    }
++    minor_roads: {
++      description: "Alsóbbrendű utak"
++      tooltip: "Szervizutak, parkolók útjai, keskeny utak, stb."
++    }
++    paths: {
++      description: "Gyalogutak"
++      tooltip: "Járdák, gyalogutak, kerékpárutak, stb."
++    }
++    buildings: {
++      description: "Épületek"
++      tooltip: "Épületek, menhelyek, garázsok, stb."
++    }
++    landuse: {
++      description: "Területi elemek"
++      tooltip: "Erdők, mezőgazdasági területek, parkok, lakott területek, kereskedelmi területek, stb."
++    }
++    boundaries: {
++      description: "Határok"
++      tooltip: "Közigazgatási határok"
++    }
++    water: {
++      description: "Vízi elemek"
++      tooltip: "Folyók, tavak, tavacskák, medencék, stb."
++    }
++    rail: {
++      description: "Vasúti elemek"
++      tooltip: "Vasutak"
++    }
++    power: {
++      description: "Elektromos elemek"
++      tooltip: "Távvezetékek, erőművek, alállomások, stb."
++    }
++    past_future: {
++      description: "Múlt/Jövő"
++      tooltip: "Tervezett, építés alatt, elhagyott, elbontott, stb."
++    }
++    others: {
++      description: "Egyebek"
++      tooltip: "Minden más"
++    }
++  }
++  area_fill: {
++    wireframe: {
++      description: "Nincs kitöltés (drótváz)"
++      tooltip: "A drótváz mód engedélyezése megkönnyíti a háttérképek láthatóságát."
++    }
++    partial: {
++      description: "Részleges kitöltés"
++      tooltip: "A területek csak a belső szélek közelében lesznek kitöltve. (Kezdő térképészeknek javasolt)"
++    }
++    full: {
++      description: "Teljes kitöltés"
++      tooltip: "A területek teljesen kitöltve jelennek meg."
++    }
++  }
+   operations: {
++    restriction: {
++      help: {
++        select: "Kattintson egy útszakasz kiválasztásához."
++        toggle: "Kattintson a kanyarodási tiltások átállításához."
++        toggle_on: "Kattintson egy „{restriction}” korlátozás hozzáadásához."
++        toggle_off: "Kattintson a(z) „{restriction}” korlátozás eltávolításához."
++      }
++      annotation: {
++        create: "Kanyarodási tiltás hozzáadva"
++        delete: "Kanyarodási tiltás törölve"
++      }
++    }
+     circularize: {
++      connected_to_hidden: "Nem lehet kör alakúvá tenni, mert egy rejtett elemhez csatlakozik."
+-      not_closed: "Nem lehet köralakúvá tenni, mert nem hurok."
++      not_closed: "Nem lehet kör alakúvá tenni, mert nem hurok."
+-      too_large: "Nem lehet körré igazítani, mert nem látszik az egész alakzat."
++      too_large: "Nem lehet kör alakúvá tenni, mert nem látszik az egész alakzat."
+     }
+     orthogonalize: {
++      connected_to_hidden: "Nem lehet négyszögesíteni, mert egy rejtett elemhez csatlakozik."
+     }
+     straighten: {
++      connected_to_hidden: "Ezt a vonalat nem lehet kiegyenesíteni, mert egy rejtett elemhez csatlakozik."
+     }
+     delete: {
++      connected_to_hidden: "Nem törölhető, mert egy rejtett elemhez csatlakozik."
+     }
+     disconnect: {
++      connected_to_hidden: "Nem kapcsolható szét, mert egy rejtett elemhez csatlakozik."
+     }
+     move: {
++      too_large: "Nem lehet áthelyezni, mert nem látszik az egész alakzat."
++      connected_to_hidden: "Nem helyezhető át, mert egy rejtett elemhez csatlakozik."
+     }
+     rotate: {
++      too_large: "Nem lehet forgatni, mert nem látszik az egész alakzat."
++      connected_to_hidden: "Nem lehet forgatni, mert egy rejtett elemhez csatlakozik."
+     }
+     split: {
++      connected_to_hidden: "Nem lehet felosztani, mert egy rejtett elemhez csatlakozik."
+     }
+   }
+   commit: {
++    changes: "{count} módosítás"
+   }
+   inspector: {
++    add_fields: "Mező hozzáadása:"
+   }
+   save: {
++    unknown_error_details: "Győződjön meg arról, hogy csatlakozik-e az internethez."
+   }
+   validations: {
++    untagged_point_tooltip: "Jelölje ki azt az elemtípust, amely leírja, hogy mi ez a pont."
++    untagged_line_tooltip: "Jelölje ki azt az elemtípust, amely leírja, hogy mi ez a vonal."
++    untagged_area_tooltip: "Jelölje ki azt az elemtípust, amely leírja, hogy mi ez a terület."
+   }
+   help: {
++    relations: "# Kapcsolatok\n\nA kapcsolat az OpenStreetMap egyik speciális típusú eleme, amely más\nelemeket csoportosít egymáshoz. Például a kapcsolatok két gyakori típusa\naz *útkapcsolatok*, amely egy adott autópályához vagy autóúthoz tartozó\nút szakaszait csoportosítja, és a *multipoligonok*, amelyek egy komplex\nterületet (több darabból állót vagy lyukat tartalmazót - akárcsak egy\nfánk) meghatározó vonalakat csoportosítanak egymáshoz.\n\nAz elemek csoportját a kapcsolatban *tagoknak* hívják. Az oldalsávon\nláthatja, hogy mely kapcsolatok az elem tagjai, és egy kapcsolatra\nkattintva kijelölheti azt. Ha egy kapcsolat ki van jelölve, akkor láthatóvá\nválik annak összes tagja az oldalsávon felsorolva és a térképen kiemelve.\n\nA legtöbb rész esetében az iD automatikusan gondoskodik a kapcsolatok\nkarbantartásáról, miközben ön szerkeszt. A legfontosabb dolog, amit tudnia\nkell, hogy ha törli egy út szakaszát, hogy pontosabban újrarajzolja, akkor\nmeg kell győződnie arról, hogy az új szakasz ugyanannak a kapcsolatnak a\ntagja, mint az eredeti.\n\n## Kapcsolatok szerkesztése\n\nHa kapcsolatokat szeretne szerkeszteni, itt találja az alapokat.\n\nEgy kapcsolathoz való elem hozzáadásához jelölje ki az elemet, kattintson\na „+” gombra az oldalsáv „Összes kapcsolat” szakaszában, és válassza ki\nvagy gépelje be a kapcsolat nevét.\n\nEgy új kapcsolat létrehozásához válassza ki az első elemet, amely a tagja\nlesz annak, kattintson a „+” gombra az „Összes kapcsolat” szakaszban, és\nválassza az „Új kapcsolat…” menüpontot.\n\nEgy elem kapcsolatból való eltávolításához jelölje ki az elemet, és\nkattintson a kuka gombra azon kapcsolat mellett, amelyből el szeretné\ntávolítani.\n\nLétrehozhat lyukakkal rendelkező multipoligonokat az „Egyesítés” eszköz\nhasználatával. Rajzoljon két területet (belső és külső), tartsa nyomva a\nShift billentyűt, és kattintson egyesével rájuk mindkettő kijelöléséhez,\nmajd kattintson az „Egyesítés” (+) gombra.\n"
+-    gps: "# GPS\n\nA GPS adatok az OpenStreetMap legmegbízhatóbb adatforrásai. Ez a\nszerkesztőprogram támogatja a helyi nyomvonalak - `.gpx` fájlok betöltését \na számítógépről. Ilyen GPS nyomvonalakat számos okostelefonnal és kézi \nGPS-szel tudsz rögzíteni.\n\nGPS-es felmérés végzéséhez segítséget találsz [ezen az oldalon](http://learnosm.org/en/beginner/using-gps/).\n\nA GPX nyomvonal használatához húzd rá a GPX fájlt a szerkesztőprogramra.\nBetöltés után meg fog jelenni a térképen egy világoszöld vonalként.\nKattints a bal oldali menüben a 'Háttérbeállítás' gombra a nyomvonal \nmegjelenítéséhez, elrejtéséhez és a GPX rétegre közelítéshez.\n\nA GPX nyomvonal nem lesz közvetlenül feltöltve az OpenStreetMapre. \nA használathoz legjobb, ha úgy rajzolsz a térképen, hogy segítségként \nhasználod az új elemek felviteléhez, de [fel is töltheted](http://www.openstreetmap.org/trace/create),\nhogy használhassák mások is.\n"
++    gps: "# GPS\n\nA GPS adatok az OpenStreetMap adatainak legmegbízhatóbb forrásai. Ez a\nszerkesztő támogatja a helyi nyomvonalakat - a helyi számítógépen lévő\n„.gpx” fájlokat. Az ilyen fajta GPS nyomvonalakat begyűjtheti számos\nokostelefon alkalmazással, valamint személyes GPS hardverrel.\n\nHa információt szeretne arról, hogy hogyan végezhet GPS felmérést, olvassa\nel [felmérés GPS eszközzel](http://learnosm.org/en/beginner/using-gps/) tájékoztatót.\n\nA GPX nyomvonal térképezéshez való használatához fogja meg és ejtse a GPX\nfájlt a térképszerkesztőre. Ha sikerült felismerni, akkor világos lila\nvonallal lesz hozzáadva a térképhez. Kattintson a jobb oldalon lévő\n„Térképadatok” menüre ennek az új GPX-alapú rétegnek az engedélyezéshez,\nletiltáshoz vagy a nagyításhoz.\n\nA GPX nyomvonal nem kerül közvetlenül feltöltésre az OpenStreetMap\nadatbázisba - a használatának legjobb módja a térképre rajzolás. Használja\nútmutatóként új elemek hozzáadásához, és [töltse fel az OpenStreetMap](http://www.openstreetmap.org/trace/create)\nadatbázisába, hogy más felhasználók is használhassák.\n"
+   }
+   intro: {
+     areas: {
++      add: "A területek az elemek határainak megjelenítésére használhatók, úgymint tavak, épületek és lakott területek. Azon elemek részletesebb térképezéshez is használhatók, amelyeket normál esetben pontokként jelölne. **Kattintson a Terület gombra egy új terület hozzáadásához.**"
+     }
+   }
+   presets: {
+     fields: {
++      bench: {
++        label: "Pad"
++      }
++      crop: {
++        label: "Termés"
++      }
++      fuel/octane_100: {
++        label: "Verseny benzint árul  min 100 oktánnal"
++      }
++      fuel/octane_95: {
++        label: "95-ös oktánszámú szuperbenzint árul"
++      }
++      gauge: {
++        label: "Nyomtáv"
++      }
++      golf_hole: {
++        label: "Golf lyuk azonosító"
++        placeholder: "Golf lyuk száma (1-18)"
++      }
++      sac_scale: {
++        label: "Túraútvonal nehézsége"
++        placeholder: "Túraút, Magashegyi túraút..."
++        options: {
++          hiking: "T1: Jól kiépített túraút"
++          mountain_hiking: "T2: Magashegyi túraút"
++          demanding_mountain_hiking: "T3: Magashegyi túraút kitett vagy biztosított szakaszokkal"
++          alpine_hiking: "T4: Kitett magashegyi túraút, csak tapasztaltaknak"
++          demanding_alpine_hiking: "T5: Kitett magashegyi túraút hegymászó szakaszokkal, csak tapasztaltaknak"
++          difficult_alpine_hiking: "T6: Hegymászó technikát igénylő kitett magashegyi túraút, csak nagyon tapasztaltaknak"
++        }
++      }
++      service/bicycle/chaintool: {
++        options: {
++          yes: "Igen"
++          no: "Nem"
++        }
++      }
++      service/bicycle/pump: {
++        label: "Levegő pumpa"
++        options: {
++          yes: "Igen"
++          no: "Nem"
++        }
++      }
++      sloped_curb: {
++        label: "Kerekített szélű járda"
++      }
++      smoothness: {
++        label: "Felület egyenletessége"
++        placeholder: "Gördeszkás, Kerekes, Terepjárós"
++        options: {
++          excellent: "Kiváló : Görkorcsolyázni és gördeszkázni lehet rajta"
++          good: "Jó: vékony kerékkel, versenymotorral járható"
++          intermediate: "Közepes: városi kerékpárral, kerekesszékkel, robogóval járható"
++          bad: "Rossz: vastagabb kerékkel, terepbiciklivel, autóval, riksával járható"
++          very_bad: "Nagyon rossz:  Könnyű terepjárós út"
++          horrible: "Borzalmas: Off-Road - nagy teherbírású terepjáróval járható"
++          very_horrible: "Extrém borzalmas: Traktor ajánlott."
++          impassible: "Lehetetlen kerekes járművel közlekedni"
++        }
++      }
++      social_facility_for: {
++        label: "Szociálisan rászorultak"
++        placeholder: "Hajléktalanok,Sérültek, Gyermekek, stb."
++      }
++      substation: {
++        label: "Típus"
++      }
++      tactile_paving: {
++        label: "Taktilis útburkolati jel - Vakok és gyengénlátók számára"
++      }
++      takeaway: {
++        label: "Ételek elvitelre "
++        placeholder: "Igen, nem, csak elvitel "
++        options: {
++          yes: "Igen"
++          no: "Nem"
++          only: "Csak elvitel"
++        }
++      }
++      tracktype: {
++        label: "Úttípus"
++        placeholder: "Szilárd, Vegyes, Laza, ..."
++        options: {
++          grade1: "Szilárd: burkolt vagy tömör felületű makadámút"
++          grade2: "Főképp szilárd: murvával/kővel tömörített földút"
++          grade3: "Vegyes: Köves földút"
++          grade4: "Nagyrészt laza: föld-, homok- vagy füves út némi kővel"
++          grade5: "Laza: föld-, homok- vagy füves út"
++        }
++      }
+       address: {
+         placeholders: {
++          suburb: "Külváros"
++          subdistrict: "Városrész"
++          province: "Tartomány"
+         }
+       }
+       aerialway/access: {
+         options: {
++          both: "Mindkettő"
+         }
+       }
+       aerialway/summer/access: {
+         options: {
++          both: "Mindkettő"
+         }
+       }
+       electrified: {
++        placeholder: "Felső-vezetékes, sínes áramfelvétel, ..."
+         options: {
++          contact_line: "Felsővezeték"
+-          rail: "Villamosított vasútvonal"
++          rail: " Sínes  áramfelvétel -  metroban  "
+         }
+       }
+       fire_hydrant/type: {
+         options: {
++          pillar: "Felszini tűzcsap"
++          pond: "Tó víznyerő csapja"
+-          underground: "Aluljáró"
++          underground: "Föld alatti tűzcsap"
+-          wall: "Fal"
++          wall: "Fali tűzcsap"
+         }
+       }
+       handicap: {
++        label: "Hátrány"
+       }
+       hoops: {
++        label: "Kosárpalánk"
+       }
+       mtb/scale: {
++        options: {
++          0: "0: Szilárd kavicsos / döngölt földes, akadálymentes, széles kanyarok"
++          1: "1: Kevésbé szilárd felület, kisebb akadályokkal, széles kanyarok"
++          2: "2: Laza talaj, nagyobb akadályok, könnyű hajtűkanyarok"
++          3: "3: Csúszós felület, nagy akadályok, éles hajtűkanyarok"
++          4: "4: Nagyon laza vagy sziklás rész, veszélyes hajtűkanyarok"
++          5: "5: Maximális nehézség, földcsuszamlások"
++          6: "6: Járhatatlan, kivéve a legjobb mounten bicikliseknek."
++        }
+       }
+       mtb/scale/uphill: {
++        label: "Mountainbike emelkedős nehézség"
++        options: {
++          0: "0: átlagos emelkedés < 10 % , szilárd, akadálymentes"
++          1: "1: átlagos emelkedés < 15%, szilárd,  kisebb akadályokkal"
++          2: "2: átlagos emelkedés < 20%, stabil felület, öklömnyi kövekkel, gyökerekkel"
++          3: "3: átlagos emelkedés < 25%, változó felszín, öklömnyi kövekkel, gyökerekkel"
++          4: "4: átlagos emelkedés < 30%, rossz felszín, nagy sziklás/ágas"
++          5: "5: extrém meredek, a biciklit tolni vagy cipelni kell."
++        }
+       }
+       par: {
++        label: "Golf pálya par száma"
+       }
+       parking: {
+         options: {
++          sheds: "Fedett  parkoló"
++          carports: "Fedett - de nyitott oldalú parkoló"
++          garage_boxes: "Garázs parkoló"
+-          surface: "Felület"
++          surface: "Kültéri - felszini parkoló"
+-          multi-storey: "Többszintű"
++          multi-storey: "Többszintű parkoló - parkolóház"
+-          underground: "Aluljáró"
++          underground: "Földalatti parkoló"
+-          lane: "Útmenti sáv"
++          lane: "Útmenti sávos parkoló"
+         }
+       }
+       piste/difficulty: {
+         options: {
++          novice: "Kezdő"
++          freeride: "Pályán kívüli (off-piste)"
++          extreme: "Extrém (hegymászófelszerelés szükséges)"
+         }
+       }
+       piste/grooming: {
+         options: {
++          mogul: "Buckasízés - mogul"
++          backcountry: "Sziklás - szakadékos - fás - backcountry"
++          classic+skating: "Klasszikus és Skating sífutópálya"
++          scooter: "Motoros szánozos pálya-  Scooter/Snowmobile"
++          skating: "Skating sífutó pálya "
+         }
+       }
+       piste/type: {
+         options: {
++          downhill: "Lesiklás"
++          nordic: "Nordic"
++          skitour: "Sítúra"
++          sled: "Szánkó - Sled"
++          hike: "Kirándulós, Nordikus pálya ( Hike )"
++          sleigh: "Nem önjáró szánkós ( Sleigh )"
++          ice_skate: "Jégkorcsolya"
++          snow_park: "Hópark"
+-          playground: "Játszótér"
++          playground: "Hó és sí játszótér "
+         }
+       }
+       toilets/disposal: {
+-        label: "Kezelés"
++        label: "WC Kezelés"
+         options: {
++          flush: "Vízöblitéses"
++          pitlatrine: "Emésztőgödrös"
++          bucket: "Konténeres üritésű"
+-          chemical: "Vegyi anyag"
++          chemical: "Vegyi anyagos semlegesítésű"
+         }
+       }
+       trail_visibility: {
++        placeholder: "Kiváló, jó, rossz ..."
++        options: {
++          excellent: "Kiváló: egyértelmű utak és jelzők mindenhol"
++          good: "Jó: jelzők láthatóak, néha keresni kell őket"
++          intermediate: "Közepes: néhány jelző, az útvonal többnyire látható"
++          bad: "Rossz: nincsenek jelzők, az útvonal néha láthatatlan / úttalan"
++          horrible: "Borzalmas: gyakran úttalan, tájékozódási képességek szükségesek"
++          no: "Nincs:  úttalan, kitünő tájékozódási képességek szükségesek"
++        }
+       }
+     }
+     presets: {
+-      landuse/farmland: {
+-        name: "Mezőgazdaság"
+-        terms: "Mezőgazdasági terület"
+-      }
++      amenity/bicycle_repair_station: {
++        name: "Kerékpárjavító állomás"
++      }
++      amenity/college: {
++        name: "Főiskolai épület"
++      }
++      amenity/community_centre: {
++        name: "Művelődési ház"
++      }
++      building/detached: {
++        name: "Különálló ház"
++      }
++      building/retail: {
++        name: "Kiskereskedelmi épület"
++        terms: "boltépület"
++      }
++      building/stable: {
++        name: "Istálló épület"
++        terms: "Istálló"
++      }
++      building/static_caravan: {
++        name: "Rögzített Lakókocsi"
++      }
++      craft: {
++        name: "Valamilyen mester ember műhelye "
++        terms: "kézműves, iparos, iparművész"
++      }
++      craft/carpet_layer: {
++        name: "Padlószőnyeg lerakó műhely"
++        terms: "szőnyegpadló, padlóburkolat"
++      }
++      craft/confectionery: {
++        name: "cukrász műhely"
++        terms: "Édesség gyártás,csokoládé és a csokoládékészítmény gyártása, rágógumi gyártása, tortakészítő"
++      }
++      craft/glaziery: {
++        name: "Üvegkészítő műhely"
++        terms: "üvegjátékok,kristálypalack,Öblösüveggyártás"
++      }
++      craft/handicraft: {
++        name: "Kézműves - iparművész  műhely "
++        terms: "kisiparos"
++      }
++      craft/hvac: {
++        name: "Épületgépész - fűtés,szellőzés,légkondicionálás szerelő"
++        terms: " Fűtés, szellőzés, légkondicionálás"
++      }
++      craft/metal_construction: {
++        name: "Fémszerkezet készítő műhely"
++        terms: "Huzaltermék gyártása,  Kötőelem, csavar gyártása, Acél tárolóeszköz gyártása,  Szerszámgyártás, Fémmegmunkálás"
++      }
++      craft/plasterer: {
++        name: "Vakoló műhely"
++        terms: "kőműves"
++      }
++      craft/pottery: {
++        name: "Fazekasműhely"
++        terms: "kerámia,agyag,kőedény,cserép"
++      }
++      craft/rigger: {
++        name: "Árboc és vitorlakészítő műhely"
++      }
++      craft/saddler: {
++        name: "Nyeregkészítő és szíjgyártó műhely"
++        terms: "Lószerszám"
++      }
++      craft/sailmaker: {
++        name: "Vitorlakészítő műhely"
++        terms: "Hajóvitorla, hajóvászon"
++      }
++      craft/sawmill: {
++        name: "Fűrésztelep"
++        terms: "Fűrészmalom"
++      }
++      craft/scaffolder: {
++        name: "Állványozó műhely"
++        terms: "ács-állványozó"
++      }
++      craft/stonemason: {
++        name: "Kőfaragó műhely"
++      }
++      craft/tiler: {
++        name: "Csempéző, burkoló és járólapozó műhely"
++      }
++      craft/tinsmith: {
++        name: "Bádogos - épületbádogos műhely"
++        terms: "Üstfoltozó, vizesbádogos"
++      }
++      craft/upholsterer: {
++        name: "Kárpitozás - kárpitozott bútor"
++        terms: "Bútor felújító,Antik bútor javító"
++      }
++      craft/window_construction: {
++        name: "Nyílászáró és ablak készítő asztalos műhely"
++        terms: "ajtó és ablak készítés"
++      }
++      footway/crosswalk: {
++        name: "Zebra - gyalogátkelőhely"
++      }
++      ford: {
++        name: "Gázló"
++      }
++      golf/bunker: {
++        name: "Sand trap - homokcsapda - bunker"
++        terms: "homokakadály,bunker"
++      }
++      golf/fairway: {
++        name: "Fairway-sima pázsitos rész"
++        terms: "Fairway-sima pázsitos rész"
++      }
++      golf/green: {
++        name: "Putting green - lyuk körüli sima rész"
++        terms: "Putting green - lyuk körüli rész"
++      }
++      golf/lateral_water_hazard: {
++        name: "Lateral Water Hazard - Oldalsó vízakadály "
++        terms: "Lateral Water Hazard - Oldalsó vízakadály "
++      }
++      golf/rough: {
++        name: "Rough -  vágatlan fűves rész"
++        terms: "Rough -  vágatlan fűves rész"
++      }
++      golf/tee: {
++        name: "Tee box - Elütőhely"
++        terms: "Tee box - Elütőhely"
++      }
++      golf/water_hazard: {
++        name: "Water hazard - vízakadály"
++        terms: "Water hazard - vízakadály - sárga karóval"
++      }
++      highway/crosswalk: {
++        name: "Zebra - gyalogátkelőhely"
++        terms: "gyalogos utátjáró"
++      }
++      highway/services: {
++        name: "Autós pihenőhely"
++      }
++      landuse/churchyard: {
++        name: "Temető"
++      }
++      landuse/landfill: {
++        name: "Hulladéklerakó terület"
++        terms: "Szemétlerakó"
++      }
++      leisure/ice_rink: {
++        name: "Jégpálya"
++        terms: "Jégkorongpálya"
++      }
++      leisure/track: {
++        name: "Versenypálya  ( nem motoros sportoknak )"
++        terms: "Kerékpárpálya, Futópálya"
++      }
++      man_made/water_well: {
++        name: "Kút"
++        terms: "Kút"
++      }
++      place/suburb: {
++        name: "Településrész - városrész"
++      }
++      power/substation: {
++        name: "Alállomás neve"
++        terms: "Elektromos alállomás"
++      }
++      traffic_calming/bump: {
++        name: "Sebességcsökkentő borda - fekvőrendőr"
++        terms: "Forgalomcsillapító küszöb, Sebességcsökkentő borda"
++      }
++      traffic_calming/hump: {
++        name: "Sebességcsökkentő hosszú küszöb (2-4m)"
++        terms: "Lapos és hosszú fekvőrendőr"
++      }
++      traffic_calming/rumble_strip: {
++        name: "Figyelmeztető rázó és hangot produkáló csík"
++        terms: "Zenélő út csíkja"
++      }
++      traffic_calming/table: {
++        name: "Megemelt szintű gyalogátjáró"
++        terms: "Magasított gyalogátjáró"
++      }
++      type/restriction/only_straight_on: {
++        name: "Tilos kanyarodni"
++        terms: "Tilos kanyarodni"
++      }
+       aerialway/cable_car: {
+-        name: "Sikló"
++        name: "Kabinos felvonó"
+-        terms: "kötélvillamos"
++        terms: "Nagykabinos lift"
+       }
+       amenity/charging_station: {
+-        name: "elektronikus töltőállomás,elmű töltőoszlop,e-mobility állomás,áram töltő,akkumlátor töltő,elektromos autó,"
++        name: "töltőállomás"
+-        terms: "töltőállomás"
++        terms: "elektronikus töltőállomás,elmű töltőoszlop,e-mobility állomás,áram töltő,akkumulátor töltő,elektromos autó,"
+       }
+       amenity/parking_entrance: {
++        name: "Parkológarázs be-kijárat"
+       }
+       amenity/place_of_worship/buddhist: {
+-        name: "Buddhista templom"
++        name: "Buddhista szentély"
+-        terms: "buddhista templom, tan kapuja buddhista egyház,\nbuddhista misszió arya maitreya mandala,karma kagyüpa buddhista közösség, magyarországi chanbuddhista egyház, gyémánt út buddhista közösség"
++        terms: "buddhista templom, tan kapuja buddhista egyház, buddhista misszió arya maitreya mandala,karma kagyüpa buddhista közösség, magyarországi chanbuddhista egyház, gyémánt út buddhista közösség"
+       }
+       amenity/social_facility: {
+-        name: "szociális szolgáltatás"
++        name: "Szociális szolgáltatás"
+       }
+       amenity/social_facility/food_bank: {
+-        name: " Élelmiszerbank "
++        name: "Élelmiszerbank "
+-        terms: "élelmiszer-adomány elosztó, Élelmiszersegély begyűjtő és elosztó"
++        terms: "Élelmiszer-adomány elosztó, Élelmiszersegély begyűjtő és elosztó"
+       }
+       amenity/social_facility/group_home: {
+-        terms: "idősek szociális gondozója"
++        terms: "Idősek szociális gondozója"
+       }
+       amenity/swimming_pool: {
+-        name: "Úszómedence"
++        name: "Uszoda"
+       }
+       barrier/lift_gate: {
++        terms: "Sorompó"
+       }
+       boundary/administrative: {
++        terms: "Közigazgatási határ"
+       }
+       building/entrance: {
++        name: "Épület be-kijárat"
+       }
+       building/hut: {
+-        name: "Kunyhó"
++        name: "Kalyiba"
+       }
+       building/shed: {
+-        terms: "Kunyhó, Fészer, Pajta"
++        terms: "Kunyhó, Fészer, Pajta,csűr,raktár,viskó"
+       }
+       building/train_station: {
+-        name: "Vasútállomás"
++        name: "Vasúti felvételi épület"
+       }
+       craft/carpenter: {
+-        name: "Asztalos"
++        name: "Asztalos - ács"
+-        terms: "Asztalos, Ács"
++        terms: "Tetőfedő"
+       }
+       craft/gardener: {
+-        terms: "Kertész"
++        terms: "melegházi termelő, bolgárkertész"
+       }
+       craft/jeweler: {
+-        terms: "Ékszerész, Ékszeres"
++        terms: "ékszerkészítő,ötvös"
+       }
+       golf/hole: {
+-        terms: "golflyuk"
++        terms: "Golflyuk"
+       }
+       highway/footway: {
+-        name: "Járda"
++        name: "Gyalogút"
+       }
+       highway/motorway_junction: {
++        terms: "autópálya lehajtó, autópálya felhajtó, elágazás, leágazás"
+-        name: "Autópálya Le/felhajtó / Kijárat"
++        name: "Autópálya csomópont / kijárat"
+       }
+       highway/motorway_link: {
++        terms: "autópálya lehajtó, autópálya leágazás"
+       }
+       landuse/forest: {
+-        name: "Erdő"
++        name: "Telepített Erdő"
+-        terms: "Erdő"
++        terms: "Erdő,akácos,erdősített terület"
+       }
+       landuse/grass: {
+-        name: "Fű"
++        name: "Füves terület"
+-        terms: "Füves terület"
++        terms: "Fű"
+       }
+       landuse/industrial: {
+-        name: "Iparterület"
++        name: "Iparterület - Ipari park"
+       }
+       landuse/military: {
+-        name: "Katonai"
++        name: "Katonai terület"
+       }
+       landuse/orchard: {
+-        name: "Gyümölcsös"
++        name: "Gyümölcsös terület"
+-        terms: "Gyümölcsös"
++        terms: "Gyümölcsöskert"
+       }
+       landuse/quarry: {
++        terms: "Nyilt kőbánya"
+-        name: "Kőfejtő"
++        name: "Kőfejtő terület"
+       }
+       landuse/retail: {
++        terms: "Kereskedelmi terület"
+-        name: "Kereskedelem"
++        name: "Kereskedelmi övezet"
+       }
+       leisure/golf_course: {
+-        terms: "Golfpály"
++        terms: "Golfpálya"
+       }
+       leisure/swimming_pool: {
+-        terms: "Úszómedence"
++        terms: "Úszómedence, uszoda"
+       }
+       military/airfield: {
+-        name: "Replülőtér"
++        name: "Katonai Repülőtér"
+       }
+       military/barracks: {
++        terms: "Laktanya"
+-        name: "Barakk"
++        name: "Katonai barakk"
+       }
+       military/bunker: {
+-        name: "Bunker"
++        name: "Katonai bunker"
+       }
+       natural/glacier: {
++        terms: "Gleccser"
+       }
+       natural/peak: {
++        terms: "Hegycsúcs,Hegytető"
+       }
+       natural/spring: {
++        terms: "Forrás"
+       }
+       natural/wood: {
+-        name: "Erdő"
++        name: "Természetes erdő"
+-        terms: "Erdő"
++        terms: "erdő, őserdő,liget,fás terület"
+       }
+       office/educational_institution: {
+-        name: "Foglalkoztatási hivatal"
++        name: "Oktatási hivatal"
+       }
+       office/employment_agency: {
+-        name: "Foglalkoztatási hivatal"
++        name: "Munkaügyi központ"
+       }
+       office/estate_agent: {
++        terms: "Ingatlaniroda"
+       }
+       office/physician: {
+-        name: "Orvos"
++        name: "Orvosi rendelő"
+       }
+       office/travel_agent: {
+-        name: "Utazási iroda"
++        name: "Utazásszervező iroda"
+       }
+       public_transport/platform: {
++        terms: "Peron"
+       }
+       shop/bathroom_furnishing: {
+-        name: " Fürdőszoba-felszerelés és -fürdőszobabútor bolt"
++        name: " Fürdőszobabútor bolt"
+       }
+       shop/copyshop: {
+-        name: "Fénymásoló "
++        name: "Fénymásolás "
+-        terms: "Önkiszolgáló nyomtatás és fénymásolás, Copyguru, Copy Generál, Fénymásolás - nyomtatás- diplomakötés- spirálozás"
++        terms: "Önkiszolgáló nyomtatás és fénymásolás, Copyguru, Copy Generál, Fénymásolás - nyomtatás- diplomakötés- spirálozás,Nyomtató, Nyomtatás"
+       }
+       shop/erotic: {
+-        terms: "vibrátor-ok - erotikus ruhák  - szex kiegészítők boltja, Szexshop , \nSzexáruház, intim bolt, erotikus segédeszközök boltja"
++        terms: "vibrátorok - erotikus ruhák  - szex kiegészítők boltja, Szexshop, Szexáruház, intim bolt, erotikus segédeszközök boltja"
+       }
+       shop/fishmonger: {
++        terms: "halárus, halaskofa,halkereskedő, halas"
+-        name: "Halárus"
++        name: "halaskofa"
+       }
+       shop/furnace: {
+-        terms: "Gázkazán - radiátor  konvektor és fűtésszerelési bolt,\nFűtéstechnika radiátor  szerelvény és kazánbolt,gáz,fűtés"
++        terms: "Gázkazán - radiátor  konvektor és fűtésszerelési bolt, Fűtéstechnika radiátor  szerelvény és kazánbolt,gáz,fűtés"
+       }
+       shop/jewelry: {
+-        name: "Ékszerész"
++        name: "Ékszerbolt"
+-        terms: "arany, ezüst, gyémánt, briliáns,  ékszer,bijou,bizsu,fülbevaló,nyakék,karkötő,divatékszer,jegygyűrű,gyűrű"
++        terms: "ékszerüzlet,arany, ezüst, gyémánt, briliáns,  ékszer,bijou,bizsu,fülbevaló,nyakék,karkötő,divatékszer,jegygyűrű,gyűrű"
+       }
+       shop/outdoor: {
+-        terms: "Hegymászó felszerelés bolt,  Outdoor sportbolt, \nVilágjárók Boltja, \nBakancs - sátor - túracipő - hátizsák és hálózsák bolt"
++        terms: "Hegymászó felszerelés bolt,  Outdoor sportbolt, Világjárók Boltja, Bakancs - sátor - túracipő - hátizsák és hálózsák bolt"
+       }
+       shop/pet: {
+-        terms: "Kisállat kereskedés, Kisállat és  állateledelt árusító bolt, \nÁllateledel, "
++        terms: "Kisállat kereskedés, Kisállat és  állateledelt árusító bolt, Állateledel, "
+       }
+       shop/seafood: {
+-        terms: "Tengeri halak boltja,  Halkereskedés, Tengeri halak és finomságok boltja, Halak - rákok - kagylók és más tengeri jószágok boltja"
++        terms: "Tengeri halak boltja,  Halkereskedés, Tengeri halak és finomságok boltja, Halak - rákok - kagylók és más tengeri jószágok boltja,halárus, halaskofa,halkereskedő, halas"
+       }
+       waterway/dam: {
++        terms: "Gát"
+       }
+       waterway/ditch: {
+-        name: "Árok"
++        name: "Vizesárok"
+       }
+     }
+   }
+ }

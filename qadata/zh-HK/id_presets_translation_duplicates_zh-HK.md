@@ -1,0 +1,10 @@
+|nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|溝|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
+|溝|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
+|航綫|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
+|航綫|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
+|路口|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
+|路口|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|飛機場|Airport|aeroway/aerodrome| |airport|aeroway=aerodrome| | | | |area| |point| | |
+|飛機場|Airfield|military/airfield| |airfield|military=airfield| | | | |area| |point|vertex| |

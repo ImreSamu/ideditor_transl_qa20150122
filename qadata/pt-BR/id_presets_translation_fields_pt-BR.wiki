@@ -1,0 +1,3781 @@
+{| class="wikitable"
+! style="font-weight: bold;" | presetFieldsKey
+! style="font-weight: bold;" | r
+! style="font-weight: bold;" | type
+! style="font-weight: bold;" | labelEn
+! style="font-weight: bold;" | labelTransl
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | universal
+! style="font-weight: bold;" | keys
+! style="font-weight: bold;" | optionskey
+! style="font-weight: bold;" | valueEn
+! style="font-weight: bold;" | valueTransl
+! style="font-weight: bold;" | placeholderEn
+! style="font-weight: bold;" | placeholderTransl
+! style="font-weight: bold;" | endRec
+|-
+| access
+| 1
+| access
+| Access
+| Acesso
+|  
+|  
+| access,foot,motor_vehicle,bicycle,horse
+|  
+|  
+|  
+| Unknown
+| Desconhecido
+| last
+|-
+| access_simple
+| 1
+| combo
+| Access
+| Acesso
+|  
+|  
+| access
+|  
+|  
+|  
+| yes
+| sim
+| last
+|-
+| access_toilets
+| 1
+| combo
+| Access
+| Acesso
+|  
+|  
+| access
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| address
+| 1
+| address
+| Address
+| Endereço
+| address
+| true
+| addr:housename,addr:housenumber,addr:street,addr:city,addr:postcode
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| admin_level
+| 1
+| number
+| Admin Level
+| Nível Administrativo
+|  
+|  
+| admin_level
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| aerialway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway/access
+| 1
+| combo
+| Access
+| Acesso
+|  
+|  
+| aerialway:access
+| entry
+| Entry
+| Entrada
+|  
+|  
+| last
+|-
+| aerialway/access
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| exit
+| Exit
+| Saída
+|  
+|  
+| last
+|-
+| aerialway/access
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| both
+| Both
+| Ambos
+|  
+|  
+| last
+|-
+| aerialway/bubble
+| 1
+| check
+| Bubble
+| Bolha
+|  
+|  
+| aerialway:bubble
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway/capacity
+| 1
+| number
+| Capacity (per hour)
+| Capacidade (por hora)
+|  
+|  
+| aerialway:capacity
+|  
+|  
+|  
+| 500, 2500, 5000...
+| 500, 2500, 5000...
+| last
+|-
+| aerialway/duration
+| 1
+| number
+| Duration (minutes)
+| Duração (minutos)
+|  
+|  
+| aerialway:duration
+|  
+|  
+|  
+| 1, 2, 3...
+| 1, 2, 3...
+| last
+|-
+| aerialway/heating
+| 1
+| check
+| Heated
+| Aquecido
+|  
+|  
+| aerialway:heating
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| aerialway/occupancy
+| 1
+| number
+| Occupancy
+| Ocupação
+|  
+|  
+| aerialway:occupancy
+|  
+|  
+|  
+| 2, 4, 8...
+| 2, 4, 8...
+| last
+|-
+| aerialway/summer/access
+| 1
+| combo
+| Access (summer)
+| Acesso (verão)
+|  
+|  
+| aerialway:summer:access
+| entry
+| Entry
+| Entrada
+|  
+|  
+| last
+|-
+| aerialway/summer/access
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| exit
+| Exit
+| Saída
+|  
+|  
+| last
+|-
+| aerialway/summer/access
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| both
+| Both
+| Ambos
+|  
+|  
+| last
+|-
+| aeroway
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| aeroway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| amenity
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| amenity
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| artist
+| 1
+| text
+| Artist
+| Artista
+|  
+|  
+| artist_name
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| artwork_type
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| artwork_type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| atm
+| 1
+| check
+| ATM
+| Caixa Eletrônico
+|  
+|  
+| atm
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| backrest
+| 1
+| check
+| Backrest
+| Encosto
+|  
+|  
+| backrest
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| barrier
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| barrier
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| bench
+| 1
+| check
+| Bench
+| Assento
+|  
+|  
+| bench
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| bicycle_parking
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| bicycle_parking
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| boundary
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| boundary
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| building
+| 1
+| typeCombo
+| Building
+| Edifício
+|  
+|  
+| building
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| building_area
+| 1
+| defaultcheck
+| Building
+| Edifício
+|  
+|  
+| building
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| capacity
+| 1
+| number
+| Capacity
+| Capacidade
+|  
+|  
+| capacity
+|  
+|  
+|  
+| 50, 100, 200...
+| 50, 100, 200...
+| last
+|-
+| cardinal_direction
+| 1
+| combo
+| Direction
+| Direção
+|  
+|  
+| direction
+| N
+| North
+| Norte
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| E
+| East
+| Leste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| S
+| South
+| Sul
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| W
+| West
+| Oeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| NE
+| Northeast
+| Nordeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| SE
+| Southeast
+| Sudeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| SW
+| Southwest
+| Sudoeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 8
+| combo
+|  
+|  
+|  
+|  
+|  
+| NW
+| Northwest
+| Noroeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 9
+| combo
+|  
+|  
+|  
+|  
+|  
+| NNE
+| North-northeast
+| Nor-nordeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 10
+| combo
+|  
+|  
+|  
+|  
+|  
+| ENE
+| East-northeast
+| És-nordeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 11
+| combo
+|  
+|  
+|  
+|  
+|  
+| ESE
+| East-southeast
+| És-sudeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 12
+| combo
+|  
+|  
+|  
+|  
+|  
+| SSE
+| South-southeast
+| Su-sudeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 13
+| combo
+|  
+|  
+|  
+|  
+|  
+| SSW
+| South-southwest
+| Su-sudoeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 14
+| combo
+|  
+|  
+|  
+|  
+|  
+| WSW
+| West-southwest
+| Oés-sudoeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 15
+| combo
+|  
+|  
+|  
+|  
+|  
+| WNW
+| West-northwest
+| Oés-noroeste
+|  
+|  
+| last
+|-
+| cardinal_direction
+| 16
+| combo
+|  
+|  
+|  
+|  
+|  
+| NNW
+| North-northwest
+| Nor-noroeste
+|  
+|  
+| last
+|-
+| clock_direction
+| 1
+| combo
+| Direction
+| Direção
+|  
+|  
+| direction
+| clockwise
+| Clockwise
+| Sentido Horário
+|  
+|  
+| last
+|-
+| clock_direction
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| anticlockwise
+| Counterclockwise
+| Sentido Anti-horário
+|  
+|  
+| last
+|-
+| collection_times
+| 1
+| text
+| Collection Times
+| Horários de Coleta
+|  
+|  
+| collection_times
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| construction
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| construction
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| country
+| 1
+| combo
+| Country
+| País
+|  
+|  
+| country
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| covered
+| 1
+| check
+| Covered
+| Coberto
+|  
+|  
+| covered
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| craft
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| craft
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| crop
+| 1
+| combo
+| Crop
+| Cultivo
+|  
+|  
+| crop
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| crossing
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| crossing
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| cuisine
+| 1
+| combo
+| Cuisine
+| Culinária
+|  
+|  
+| cuisine
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| delivery
+| 1
+| check
+| Delivery
+|  
+|  
+|  
+| delivery
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| denomination
+| 1
+| combo
+| Denomination
+| Denominação
+|  
+|  
+| denomination
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| denotation
+| 1
+| combo
+| Denotation
+| Denotação
+|  
+|  
+| denotation
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| description
+| 1
+| textarea
+| Description
+| Descrição
+|  
+|  
+| description
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| electrified
+| 1
+| combo
+| Electrification
+| Eletrificação
+|  
+|  
+| electrified
+| contact_line
+| Contact Line
+| Linha de contato
+| Contact Line, Electrified Rail...
+| Linha de contato, trilho eletrificado...
+| last
+|-
+| electrified
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| rail
+| Electrified Rail
+| Trilho eletrificado
+|  
+|  
+| last
+|-
+| electrified
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| yes
+| Yes (unspecified)
+| Sim (indefinido)
+|  
+|  
+| last
+|-
+| electrified
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No
+| Não
+|  
+|  
+| last
+|-
+| elevation
+| 1
+| number
+| Elevation
+| Altitude
+| elevation
+| true
+| ele
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| emergency
+| 1
+| check
+| Emergency
+| Emergência
+|  
+|  
+| emergency
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| entrance
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| entrance
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| except
+| 1
+| combo
+| Exceptions
+| Exceções
+|  
+|  
+| except
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fax
+| 1
+| tel
+| Fax
+| Fax
+|  
+|  
+| fax
+|  
+|  
+|  
+| +31 42 123 4567
+| +55 11 0982 1098
+| last
+|-
+| fee
+| 1
+| check
+| Fee
+| Taxa
+|  
+|  
+| fee
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| fire_hydrant:type
+| pillar
+| Pillar/Aboveground
+| Pilar/Sobre o solo
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| underground
+| Underground
+| Subterrâneo
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| wall
+| Wall
+| Muro
+|  
+|  
+| last
+|-
+| fire_hydrant/type
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| pond
+| Pond
+| Lagoa
+|  
+|  
+| last
+|-
+| fixme
+| 1
+| textarea
+| Fix Me
+| Corrija-me
+|  
+|  
+| fixme
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel
+| 1
+| combo
+| Fuel
+| Combustível
+|  
+|  
+| fuel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/biodiesel
+| 1
+| check
+| Sells Biodiesel
+| Vende Biodiesel
+|  
+|  
+| fuel:biodiesel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/diesel
+| 1
+| check
+| Sells Diesel
+| Vende Diesel
+|  
+|  
+| fuel:diesel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/e10
+| 1
+| check
+| Sells E10
+| Vende Gasolina E10 10% Álcool
+|  
+|  
+| fuel:e10
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/e85
+| 1
+| check
+| Sells E85
+| Vende Combustível E85 85 Álcool/15 Gasolina
+|  
+|  
+| fuel:e85
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/lpg
+| 1
+| check
+| Sells Propane
+| Vende Propano
+|  
+|  
+| fuel:lpg
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_100
+| 1
+| check
+| Sells Racing Gasoline
+| Vende Gasolina de Competição
+|  
+|  
+| fuel:octane_100
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_91
+| 1
+| check
+| Sells Regular Gasoline
+| Vende Gasolina Comum
+|  
+|  
+| fuel:octane_91
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_95
+| 1
+| check
+| Sells Midgrade Gasoline
+| Vende Gasolina Aditivada
+|  
+|  
+| fuel:octane_95
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| fuel/octane_98
+| 1
+| check
+| Sells Premium Gasoline
+| Vende Gasolina Premium
+|  
+|  
+| fuel:octane_98
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| gauge
+| 1
+| combo
+| Gauge
+| Bitola
+|  
+|  
+| gauge
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| generator/method
+| 1
+| combo
+| Method
+| Método
+|  
+|  
+| generator:method
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| generator/source
+| 1
+| combo
+| Source
+| Fonte
+|  
+|  
+| generator:source
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| generator/type
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| generator:type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| golf_hole
+| 1
+| text
+| Reference
+| Nº do buraco
+|  
+|  
+| ref
+|  
+|  
+|  
+| Hole number (1-18)
+| Número do buraco (1-18)
+| last
+|-
+| handicap
+| 1
+| number
+| Handicap
+| Acessível a deficientes
+|  
+|  
+| handicap
+|  
+|  
+|  
+| 1-18
+| 1-18
+| last
+|-
+| highway
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| highway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| historic
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| historic
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| hoops
+| 1
+| number
+| Hoops
+| Aros de Tabela
+|  
+|  
+| hoops
+|  
+|  
+|  
+| 1, 2, 4...
+| 1, 2, 4...
+| last
+|-
+| iata
+| 1
+| text
+| IATA
+| Código IATA
+|  
+|  
+| iata
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| icao
+| 1
+| text
+| ICAO
+| Código ICAO
+|  
+|  
+| icao
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| incline
+| 1
+| combo
+| Incline
+| Declividade
+|  
+|  
+| incline
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| information
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| information
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| internet_access
+| 1
+| combo
+| Internet Access
+| Acesso à Internet
+|  
+|  
+| internet_access
+| yes
+| Yes
+| Sim
+|  
+|  
+| last
+|-
+| internet_access
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No
+| Não
+|  
+|  
+| last
+|-
+| internet_access
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| wlan
+| Wifi
+| Sem Fio
+|  
+|  
+| last
+|-
+| internet_access
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| wired
+| Wired
+| Cabeada
+|  
+|  
+| last
+|-
+| internet_access
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| terminal
+| Terminal
+| Terminal de Acesso
+|  
+|  
+| last
+|-
+| lamp_type
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| lamp_type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| landuse
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| landuse
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| lanes
+| 1
+| number
+| Lanes
+| Faixas
+|  
+|  
+| lanes
+|  
+|  
+|  
+| 1, 2, 3...
+| 1, 2, 3...
+| last
+|-
+| layer
+| 1
+| combo
+| Layer
+| Camada
+|  
+|  
+| layer
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| leisure
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| leisure
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| length
+| 1
+| number
+| Length (Meters)
+| Comprimento (Metros)
+|  
+|  
+| length
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| levels
+| 1
+| number
+| Levels
+| Número de andares
+|  
+|  
+| building:levels
+|  
+|  
+|  
+| 2, 4, 6...
+| 2, 4, 6...
+| last
+|-
+| lit
+| 1
+| check
+| Lit
+| Iluminado
+|  
+|  
+| lit
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| location
+| 1
+| combo
+| Location
+| Local
+|  
+|  
+| location
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| man_made
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| man_made
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| maxspeed
+| 1
+| maxspeed
+| Speed Limit
+| Limite de Velocidade
+|  
+|  
+| maxspeed
+|  
+|  
+|  
+| 40, 50, 60...
+| 40, 50, 60...
+| last
+|-
+| mtb/scale
+| 1
+| combo
+| Mountain Biking Difficulty
+| Dificuldade para Mountain Biking
+|  
+|  
+| mtb:scale
+| 0
+| 0: Solid gravel/packed earth, no obstacles, wide curves
+| 0: Pedregulho sólido / terra batida, sem obstáculos, curvas amplas
+| 0, 1, 2, 3...
+| 0, 1, 2, 3...
+| last
+|-
+| mtb/scale
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| 1
+| 1: Some loose surface, small obstacles, wide curves
+| 1: Alguma terra solta, pequenos obstáculos, curvas amplas
+|  
+|  
+| last
+|-
+| mtb/scale
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| 2
+| 2: Much loose surface, large obstacles, easy hairpins
+| 2: Muita terra solta, grandes obstáculos, curvas fechas fáceis
+|  
+|  
+| last
+|-
+| mtb/scale
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| 3
+| 3: Slippery surface, large obstacles, tight hairpins
+| 3: Superfície escorregadia, grandes obstáculos, curvas fechadas apertadas
+|  
+|  
+| last
+|-
+| mtb/scale
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| 4
+| 4: Loose surface or boulders, dangerous hairpins
+| 4: Terra solta ou seixos, curva fechada perigosa
+|  
+|  
+| last
+|-
+| mtb/scale
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| 5
+| 5: Maximum difficulty, boulder fields, landslides
+| 5: Dificuldade máxima, pedreira, deslizamentos de terra
+|  
+|  
+| last
+|-
+| mtb/scale
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| 6
+| 6: Not rideable except by the very best mountain bikers
+| 6: Não é transitável exceto pelos melhores mountain bikers
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 1
+| combo
+| IMBA Trail Difficulty
+| Trilha de baixa dificuldade
+|  
+|  
+| mtb:scale:imba
+| 0
+| Easiest (white circle)
+| Mais fácil (cículo branco)
+| Easy, Medium, Difficult...
+| Fácil, Médio, Difícil...
+| last
+|-
+| mtb/scale/imba
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| 1
+| Easy (green circle)
+| Fácil (círculo verde)
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| 2
+| Medium (blue square)
+| Médio (quadrado azul)
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| 3
+| Difficult (black diamond)
+| Difícil (diamante negro)
+|  
+|  
+| last
+|-
+| mtb/scale/imba
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| 4
+| Extremely Difficult (double black diamond)
+| Extremamente Difícil (duplo diamante negro)
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 1
+| combo
+| Mountain Biking Uphill Difficulty
+| Dificuldade do aclive do Mountain Biking
+|  
+|  
+| mtb:scale:uphill
+| 0
+| 0: Avg. incline <10%, gravel/packed earth, no obstacles
+| 0: Inclinação média <10%, pedregulho/terra batida, sem obstáculos
+| 0, 1, 2, 3...
+| 0, 1, 2, 3...
+| last
+|-
+| mtb/scale/uphill
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| 1
+| 1: Avg. incline <15%, gravel/packed earth, few small objects
+| 1: Inclinação média <15%, pedregulho/terra batida, poucos objetos pequenos
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| 2
+| 2: Avg. incline <20%, stable surface, fistsize rocks/roots
+| 2: Inclinação média <20%, superfície estável, pedras/raízes do tamanho do punho
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| 3
+| 3: Avg. incline <25%, variable surface, fistsize rocks/branches
+| 3: Inclinação média <25%, superfície variável,  pedras/galhos do tamanho do punho
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| 4
+| 4: Avg. incline <30%, poor condition, big rocks/branches
+| 4: Inclinação média <30%, condição insatisfatória, pedras/galhos grandes
+|  
+|  
+| last
+|-
+| mtb/scale/uphill
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| 5
+| 5: Very steep, bike generally needs to be pushed or carried
+| 5: Muito íngreme, geralmente a bicicleta precisa ser empurrada ou carregada
+|  
+|  
+| last
+|-
+| name
+| 1
+| localized
+| Name
+| Nome
+|  
+|  
+| name
+|  
+|  
+|  
+| Common name (if any)
+| Nome comum (se houver)
+| last
+|-
+| natural
+| 1
+| typeCombo
+| Natural
+| Natural
+|  
+|  
+| natural
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| network
+| 1
+| text
+| Network
+| Rede
+|  
+|  
+| network
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| note
+| 1
+| textarea
+| Note
+| Nota
+| note
+| true
+| note
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| office
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| office
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| oneway
+| 1
+| check
+| One Way
+| Mão Única
+|  
+|  
+| oneway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| oneway_yes
+| 1
+| check
+| One Way
+| Mão Única
+|  
+|  
+| oneway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| opening_hours
+| 1
+| text
+| Hours
+| Horário de funcionamento
+|  
+|  
+| opening_hours
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| operator
+| 1
+| text
+| Operator
+| Operador
+|  
+|  
+| operator
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| par
+| 1
+| number
+| Par
+| Par
+|  
+|  
+| par
+|  
+|  
+|  
+| 3, 4, 5...
+| 3, 4, 5...
+| last
+|-
+| park_ride
+| 1
+| check
+| Park and Ride
+| Estacionamento de Intercâmbio
+|  
+|  
+| park_ride
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| parking
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| parking
+| surface
+| Surface
+| Superfície
+|  
+|  
+| last
+|-
+| parking
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| multi-storey
+| Multilevel
+| Vários níveis
+|  
+|  
+| last
+|-
+| parking
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| underground
+| Underground
+| Subterrâneo
+|  
+|  
+| last
+|-
+| parking
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| sheds
+| Sheds
+| Cabanas
+|  
+|  
+| last
+|-
+| parking
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| carports
+| Carports
+| Abrigo de carros
+|  
+|  
+| last
+|-
+| parking
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| garage_boxes
+| Garage Boxes
+| Vagas de estacionamento
+|  
+|  
+| last
+|-
+| parking
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| lane
+| Roadside Lane
+| Faixa de acostamento
+|  
+|  
+| last
+|-
+| phone
+| 1
+| tel
+| Phone
+| Telefone
+| telephone
+| true
+| phone
+|  
+|  
+|  
+| +31 42 123 4567
+| +55 11 0982 1098
+| last
+|-
+| piste/difficulty
+| 1
+| combo
+| Difficulty
+| Dificuldade
+|  
+|  
+| piste:difficulty
+| novice
+| Novice (instructional)
+| Principiante (educativo)
+| Easy, Intermediate, Advanced...
+| Fácil, Intermediário, Avançado...
+| last
+|-
+| piste/difficulty
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| easy
+| Easy (green circle)
+| Fácil (círculo verde)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| intermediate
+| Intermediate (blue square)
+| Intermediário (quadrado azul)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| advanced
+| Advanced (black diamond)
+| Avançado (diamante preto)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| expert
+| Expert (double black diamond)
+| Especialista (duplo diamante preto)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| freeride
+| Freeride (off-piste)
+| Trajeto livre (fora da pista)
+|  
+|  
+| last
+|-
+| piste/difficulty
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| extreme
+| Extreme (climbing equipment required)
+| Extremo (necessário equipamento de escalada)
+|  
+|  
+| last
+|-
+| piste/grooming
+| 1
+| combo
+| Grooming
+| Tosa de Animais
+|  
+|  
+| piste:grooming
+| classic
+| Classic
+| Clássico
+|  
+|  
+| last
+|-
+| piste/grooming
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| mogul
+| Mogul
+| Mongol
+|  
+|  
+| last
+|-
+| piste/grooming
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| backcountry
+| Backcountry
+| Sertão
+|  
+|  
+| last
+|-
+| piste/grooming
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| classic+skating
+| Classic and Skating
+| Clássico e Patinação
+|  
+|  
+| last
+|-
+| piste/grooming
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| scooter
+| Scooter/Snowmobile
+| Lambreta/Moto de neve
+|  
+|  
+| last
+|-
+| piste/grooming
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| skating
+| Skating
+| Patinação
+|  
+|  
+| last
+|-
+| piste/type
+| 1
+| typeCombo
+| Type
+| Modelo
+|  
+|  
+| piste:type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| place
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| place
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| population
+| 1
+| text
+| Population
+| População
+|  
+|  
+| population
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| power
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| power
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| railway
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| railway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/cans
+| 1
+| check
+| Accepts Cans
+| Aceita Latinhas
+|  
+|  
+| recycling:cans
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/clothes
+| 1
+| check
+| Accepts Clothes
+| Aceita Roupas
+|  
+|  
+| recycling:clothes
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/glass
+| 1
+| check
+| Accepts Glass
+| Aceita Vidro
+|  
+|  
+| recycling:glass
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| recycling/paper
+| 1
+| check
+| Accepts Paper
+| Aceita Papel
+|  
+|  
+| recycling:paper
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| ref
+| 1
+| text
+| Reference
+| Código de referência
+|  
+|  
+| ref
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| relation
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| religion
+| 1
+| combo
+| Religion
+| Religião
+|  
+|  
+| religion
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| restriction
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| restriction
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| restrictions
+| 1
+| restrictions
+| Turn Restrictions
+| Restrições de curva
+| restrictions
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| route
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| route
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| route_master
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| route_master
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sac_scale
+| 1
+| combo
+| Hiking Difficulty
+| Dificuldade da caminhada
+|  
+|  
+| sac_scale
+| hiking
+| T1: Hiking
+| T1: Caminhada
+| Mountain Hiking, Alpine Hiking...
+| Caminhada na montanha, caminhada alpina
+| last
+|-
+| sac_scale
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| mountain_hiking
+| T2: Mountain Hiking
+| T2: Caminhada na montanha
+|  
+|  
+| last
+|-
+| sac_scale
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| demanding_mountain_hiking
+| T3: Demanding Mountain Hiking
+| T3: Requer caminhada na montanha
+|  
+|  
+| last
+|-
+| sac_scale
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| alpine_hiking
+| T4: Alpine Hiking
+| T4: Caminhada alpina
+|  
+|  
+| last
+|-
+| sac_scale
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| demanding_alpine_hiking
+| T5: Demanding Alpine Hiking
+| T5: Requer caminhada alpina
+|  
+|  
+| last
+|-
+| sac_scale
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| difficult_alpine_hiking
+| T6: Difficult Alpine Hiking
+| T6: Dificuldade de caminhada alpina
+|  
+|  
+| last
+|-
+| seasonal
+| 1
+| check
+| Seasonal
+| Sazonal
+|  
+|  
+| seasonal
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| service
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| service
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| service/bicycle/chaintool
+| 1
+| check
+| Chain Tool
+|  
+|  
+|  
+| service:bicycle:chaintool
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| service/bicycle/pump
+| 1
+| check
+| Air Pump
+|  
+|  
+|  
+| service:bicycle:pump
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| shelter
+| 1
+| check
+| Shelter
+| Abrigo contra Intempéries
+|  
+|  
+| shelter
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| shelter_type
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| shelter_type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| shop
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| shop
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sloped_curb
+| 1
+| combo
+| Sloped Curb
+| Rampa no Meio-fio
+|  
+|  
+| sloped_curb
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| smoking
+| 1
+| combo
+| Smoking
+| Fumantes
+|  
+|  
+| smoking
+| no
+| No smoking anywhere
+| Não fume em qualquer lugar
+| No, Separated, Yes...
+| Não, Separado, Yes...
+| last
+|-
+| smoking
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| separated
+| In smoking areas, not physically isolated
+| Em áreas de fumantes, não fisicamente isoladas
+|  
+|  
+| last
+|-
+| smoking
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| isolated
+| In smoking areas, physically isolated
+| Em áreas de fumantes, fisicamente isoladas
+|  
+|  
+| last
+|-
+| smoking
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| outside
+| Allowed outside
+| Permitido do lado de fora
+|  
+|  
+| last
+|-
+| smoking
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| yes
+| Allowed everywhere
+| Permitido em toda parte
+|  
+|  
+| last
+|-
+| smoking
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| dedicated
+| Dedicated to smokers (e.g. smokers' club)
+| Dedicado a fumantes (por exemplo, clube de fumantes)
+|  
+|  
+| last
+|-
+| smoothness
+| 1
+| combo
+| Smoothness
+| Maciez
+|  
+|  
+| smoothness
+| excellent
+| Thin Rollers: rollerblade, skateboard
+| Cilindros estreitos: patins urbano, prancha de skate 
+| Thin Rollers, Wheels, Off-Road...
+| Cilindros estreitos, rodas, fora de estrada
+| last
+|-
+| smoothness
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| good
+| Thin Wheels: racing bike
+| Rodas estreintas: bicicleta de corridas
+|  
+|  
+| last
+|-
+| smoothness
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| intermediate
+| Wheels: city bike, wheelchair, scooter
+| Rodas: bicicleta urbana, cadeira de rodas, lambreta
+|  
+|  
+| last
+|-
+| smoothness
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| bad
+| Robust Wheels: trekking bike, car, rickshaw
+| Rodas resistentes: trekking bike, carro, riquixá
+|  
+|  
+| last
+|-
+| smoothness
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| very_bad
+| High Clearance: light duty off-road vehicle
+| Alta desobstrução: veículo fora de estrada para serviço leve
+|  
+|  
+| last
+|-
+| smoothness
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| horrible
+| Off-Road: heavy duty off-road vehicle
+| Fora de estrada:  veículo fora de estrada para serviço pesado.
+|  
+|  
+| last
+|-
+| smoothness
+| 7
+| combo
+|  
+|  
+|  
+|  
+|  
+| very_horrible
+| Specialized off-road: tractor, ATV
+| Especializado em fora de estrada: trator, quadriciclo
+|  
+|  
+| last
+|-
+| smoothness
+| 8
+| combo
+|  
+|  
+|  
+|  
+|  
+| impassible
+| Impassible / No wheeled vehicle
+| Indiferente / Não para veículos sobre rodas
+|  
+|  
+| last
+|-
+| social_facility_for
+| 1
+| radio
+| People served
+| Pessoas atendidas
+|  
+|  
+| social_facility:for
+|  
+|  
+|  
+| Homeless, Disabled, Child, etc
+| Moradores de rua, deficientes, crianças, etc
+| last
+|-
+| source
+| 1
+| text
+| Source
+| Fonte
+| source
+| true
+| source
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sport
+| 1
+| combo
+| Sport
+| Esporte
+|  
+|  
+| sport
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sport_ice
+| 1
+| combo
+| Sport
+| Esporte
+|  
+|  
+| sport
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| sport_racing
+| 1
+| combo
+| Sport
+| Esporte
+|  
+|  
+| sport
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| structure
+| 1
+| radio
+| Structure
+| Estrutura
+|  
+|  
+| bridge,tunnel,embankment,cutting,ford
+|  
+|  
+|  
+| Unknown
+| Desconhecido
+| last
+|-
+| studio_type
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| substation
+| 1
+| typeCombo
+| Type
+|  
+|  
+|  
+| substation
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| supervised
+| 1
+| check
+| Supervised
+| Supervisionado
+|  
+|  
+| supervised
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| surface
+| 1
+| combo
+| Surface
+| Superfície
+|  
+|  
+| surface
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| tactile_paving
+| 1
+| check
+| Tactile Paving
+| Piso Tátil
+|  
+|  
+| tactile_paving
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| takeaway
+| 1
+| combo
+| Takeaway
+|  
+|  
+|  
+| takeaway
+| yes
+| Yes
+| 
+| Yes, No, Takeaway Only...
+|  
+| last
+|-
+| takeaway
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No
+| 
+|  
+|  
+| last
+|-
+| takeaway
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| only
+| Takeaway Only
+| 
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 1
+| combo
+| Disposal
+| Descarte
+|  
+|  
+| toilets:disposal
+| flush
+| Flush
+| Descarga
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| pitlatrine
+| Pit/Latrine
+| Fossa/Latrina
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| chemical
+| Chemical
+| Químico
+|  
+|  
+| last
+|-
+| toilets/disposal
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| bucket
+| Bucket
+| Balde
+|  
+|  
+| last
+|-
+| tourism
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| tourism
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| towertype
+| 1
+| combo
+| Tower type
+| Tipo de Torre
+|  
+|  
+| tower:type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| tracktype
+| 1
+| combo
+| Track Type
+| Tipo de trilha
+|  
+|  
+| tracktype
+| grade1
+| Solid: paved or heavily compacted hardcore surface
+| Sólido: Pavimentado ou superfície de pedra britada fortemente compactada
+| Solid, Mostly Solid, Soft...
+| Sólido, Na maioria das vezes sólido, Macio...
+| last
+|-
+| tracktype
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade2
+| Mostly Solid: gravel/rock with some soft material mixed in
+| Na maioria das vezes sólido: Cascalho/rocha com algum material macio mesclado.
+|  
+|  
+| last
+|-
+| tracktype
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade3
+| Even mixture of hard and soft materials
+| Mistura em parte iguais de materiais duros e macios
+|  
+|  
+| last
+|-
+| tracktype
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade4
+| Mostly Soft: soil/sand/grass with some hard material mixed in
+| Na maioria das vezes macio: terra/areia/grama com algum material duro mesclado.
+|  
+|  
+| last
+|-
+| tracktype
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| grade5
+| Soft: soil/sand/grass
+| Macio: terra/areia/grama
+|  
+|  
+| last
+|-
+| trail_visibility
+| 1
+| combo
+| Trail Visibility
+| Visibilidade da Trilha
+|  
+|  
+| trail_visibility
+| excellent
+| Excellent: unambiguous path or markers everywhere
+| Excelente: caminho claro ou sinais em toda a parte
+| Excellent, Good, Bad...
+| Excelente, Bom, Ruim...
+| last
+|-
+| trail_visibility
+| 2
+| combo
+|  
+|  
+|  
+|  
+|  
+| good
+| Good: markers visible, sometimes require searching
+| Bom: sinais visíveis, algumas vezes requer uma busca
+|  
+|  
+| last
+|-
+| trail_visibility
+| 3
+| combo
+|  
+|  
+|  
+|  
+|  
+| intermediate
+| Intermediate: few markers, path mostly visible
+| Intermediário: poucos sinais, caminho visível na maioria das vezes
+|  
+|  
+| last
+|-
+| trail_visibility
+| 4
+| combo
+|  
+|  
+|  
+|  
+|  
+| bad
+| Bad: no markers, path sometimes invisible/pathless
+| Ruim: sem sinais, o caminho algumas vezes não é visível ou não existe
+|  
+|  
+| last
+|-
+| trail_visibility
+| 5
+| combo
+|  
+|  
+|  
+|  
+|  
+| horrible
+| Horrible: often pathless, some orientation skills required
+| Horrível: frequentemente sem caminho, algumas habilidades em localização são necessárias
+|  
+|  
+| last
+|-
+| trail_visibility
+| 6
+| combo
+|  
+|  
+|  
+|  
+|  
+| no
+| No: pathless, excellent orientation skills required
+| Não: sem caminho, são necessárias excelentes habilidades em localização
+|  
+|  
+| last
+|-
+| tree_type
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| type
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| trees
+| 1
+| combo
+| Trees
+| Árvores
+|  
+|  
+| trees
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| tunnel
+| 1
+| combo
+| Tunnel
+| Túnel
+|  
+|  
+| tunnel
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| vending
+| 1
+| combo
+| Type of Goods
+| Tipo de Produtos
+|  
+|  
+| vending
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| water
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| water
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| waterway
+| 1
+| typeCombo
+| Type
+| Tipo
+|  
+|  
+| waterway
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| website
+| 1
+| url
+| Website
+| Página da Internet
+| website
+| true
+| website
+|  
+|  
+|  
+| http://example.com/
+| http://exemplo.com.br/
+| last
+|-
+| wetland
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| wetland
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| wheelchair
+| 1
+| radio
+| Wheelchair Access
+| Acesso a Cadeirantes
+| wheelchair
+| true
+| wheelchair
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| width
+| 1
+| number
+| Width (Meters)
+| Largura (Metros)
+|  
+|  
+| width
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| wikipedia
+| 1
+| wikipedia
+| Wikipedia
+| Wikipédia
+| wikipedia
+| true
+| wikipedia
+|  
+|  
+|  
+|  
+|  
+| last
+|-
+| wood
+| 1
+| combo
+| Type
+| Tipo
+|  
+|  
+| wood
+|  
+|  
+|  
+|  
+|  
+| last
+|}

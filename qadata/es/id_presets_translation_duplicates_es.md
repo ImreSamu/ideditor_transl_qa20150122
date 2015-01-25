@@ -1,0 +1,36 @@
+|nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|Artesanía|Handicraft|craft/handicraft| |art-gallery|craft=handicraft| | | | |area| |point| | |
+|Artesanía|Craft|craft| |marker-stroked|craft=*| | | | |area| |point| | |
+|Banco|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
+|Banco|Bank|amenity/bank| |bank|amenity=bank| | | | |area| |point| | |
+|Canal|Fairway|golf/fairway| |golf|golf=fairway|landuse=grass| | | |area| | | | |
+|Canal|Canal|waterway/canal| |waterway-canal|waterway=canal| | | | | |line| | | |
+|Ciudad|Town|place/town| |town|place=town| | | | |area| |point| | |
+|Ciudad|City|place/city| |city|place=city| | | | |area| |point| | |
+|Confitería|Confectionery|craft/confectionery| |bakery|craft=confectionery| | | | |area| |point| | |
+|Confitería|Candy Store|shop/confectionery| |shop|shop=confectionery| | | | |area| |point| | |
+|Cruce peatonal|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
+|Cruce peatonal|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
+|Farmacia|Medical Supply Store|shop/medical_supply| |shop|shop=medical_supply| | | | |area| |point| | |
+|Farmacia|Pharmacy|amenity/pharmacy| |pharmacy|amenity=pharmacy| | | | |area| |point| | |
+|Garajes|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
+|Garajes|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
+|Granja|Farm|landuse/farmland| |farm|landuse=farmland| | | | |area| |point| | |
+|Granja|Farmyard|landuse/farmyard| |farm|landuse=farmyard| | | | |area| |point| | |
+|Iglesia|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
+|Iglesia|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|Médico|Physician|office/physician| |commercial|office=physician| | | | |area| |point|vertex| |
+|Médico|Doctor|amenity/doctor| |hospital|amenity=doctors| | | | |area| |point| | |
+|Paso de peatones|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|Paso de peatones|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
+|Presa|Weir|waterway/weir| |dam|waterway=weir| | | | | |line| |vertex| |
+|Presa|Dam|waterway/dam| |dam|waterway=dam| | | | |area|line|point|vertex| |
+|Refugio|Hut|building/hut| | |building=hut| | | | |area| |point| | |
+|Refugio|Shelter|amenity/shelter| | |amenity=shelter| | | | |area| |point|vertex| |
+|Relojero|Watchmaker|craft/watchmaker| |circle-stroked|craft=watchmaker| | | | |area| |point| | |
+|Relojero|Clockmaker|craft/clockmaker| |circle-stroked|craft=clockmaker| | | | |area| |point| | |
+|Ruta de ferry|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
+|Ruta de ferry|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
+|Teleférico|Cable Car|aerialway/cable_car| | |aerialway=cable_car| | | | | |line| | | |
+|Teleférico|Aerialway|aerialway| | |aerialway=*| | | | | |line|point|vertex| |

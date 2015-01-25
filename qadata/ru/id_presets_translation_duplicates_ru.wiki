@@ -1,0 +1,433 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| Административная граница
+| Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Административная граница
+| Administrative Boundary
+| type/boundary/administrative
+|  
+| boundary
+| type=boundary
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Бункер
+| Sand Trap
+| golf/bunker
+|  
+| golf
+| golf=bunker
+| natural=sand
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| Бункер
+| Bunker
+| military/bunker
+|  
+|  
+| military=bunker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Винный магазин
+| Wine Shop
+| shop/wine
+|  
+| alcohol-shop
+| shop=wine
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Винный магазин
+| Liquor Store
+| shop/alcohol
+|  
+| alcohol-shop
+| shop=alcohol
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Изготовление ключей
+| Key Cutter
+| craft/key_cutter
+|  
+| marker-stroked
+| craft=key_cutter
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Изготовление ключей
+| Locksmith
+| shop/locksmith
+|  
+| shop
+| shop=locksmith
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Кондитерская
+| Confectionery
+| craft/confectionery
+|  
+| bakery
+| craft=confectionery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Кондитерская
+| Candy Store
+| shop/confectionery
+|  
+| shop
+| shop=confectionery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Легкоатлетический стадион
+| Racetrack (non-Motorsport)
+| leisure/track
+|  
+| highway-road
+| leisure=track
+|  
+|  
+|  
+|  
+|  
+| line
+| point
+|  
+|  
+|-
+| Легкоатлетический стадион
+| Running Track
+| leisure/running_track
+|  
+| pitch
+| leisure=track
+| sport=running
+|  
+|  
+|  
+|  
+| line
+| point
+|  
+|  
+|-
+| Лес / деревья
+| Forest
+| landuse/forest
+|  
+| park2
+| landuse=forest
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Лес / деревья
+| Wood
+| natural/wood
+|  
+| park2
+| natural=wood
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Мастерская часовщика
+| Clockmaker
+| craft/clockmaker
+|  
+| circle-stroked
+| craft=clockmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Мастерская часовщика
+| Watchmaker
+| craft/watchmaker
+|  
+| circle-stroked
+| craft=watchmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Паромный маршрут
+| Ferry Route
+| type/route/ferry
+|  
+| route-ferry
+| type=route
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Паромный маршрут
+| Ferry Route
+| route/ferry
+|  
+| ferry
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Пешеходный переход
+| Crossing
+| highway/crossing
+|  
+|  
+| highway=crossing
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Пешеходный переход
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Пешеходный переход
+| Crossing
+| footway/crossing
+|  
+|  
+| highway=footway
+| footway=crossing
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Пешеходный переход
+| Crosswalk
+| footway/crosswalk
+|  
+|  
+| highway=footway
+| footway=crossing
+| crossing=zebra
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Портной
+| Tailor
+| shop/tailor
+|  
+| clothing-store
+| shop=tailor
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Портной
+| Dressmaker
+| craft/dressmaker
+|  
+| clothing-store
+| craft=dressmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Точка
+| Point
+| point
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| point
+|  
+|  
+|-
+| Точка
+| Other
+| vertex
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|}

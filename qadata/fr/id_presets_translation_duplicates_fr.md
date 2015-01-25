@@ -1,0 +1,43 @@
+|nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|Artisanat|Craft|craft| |marker-stroked|craft=*| | | | |area| |point| | |
+|Artisanat|Handicraft|craft/handicraft| |art-gallery|craft=handicraft| | | | |area| |point| | |
+|Bunker|Bunker|military/bunker| | |military=bunker| | | | |area| |point|vertex| |
+|Bunker|Sand Trap|golf/bunker| |golf|golf=bunker|natural=sand| | | |area| | | | |
+|Cimetière|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
+|Cimetière|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Confiserie|Candy Store|shop/confectionery| |shop|shop=confectionery| | | | |area| |point| | |
+|Confiserie|Confectionery|craft/confectionery| |bakery|craft=confectionery| | | | |area| |point| | |
+|Fossé|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
+|Fossé|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
+|Frontière administrative|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
+|Frontière administrative|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
+|Garage|Garage|building/garage| |warehouse|building=garage| | | | |area| |point| | |
+|Garage|Car Repair Shop|shop/car_repair| |car|shop=car_repair| | | | |area| |point| | |
+|Garages|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
+|Garages|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
+|Hôtel|Hotel Building|building/hotel| |building|building=hotel| | | | |area| |point| | |
+|Hôtel|Hotel|tourism/hotel| |lodging|tourism=hotel| | | | |area| |point| | |
+|Horloger|Clockmaker|craft/clockmaker| |circle-stroked|craft=clockmaker| | | | |area| |point| | |
+|Horloger|Watchmaker|craft/watchmaker| |circle-stroked|craft=watchmaker| | | | |area| |point| | |
+|Médecin|Physician|office/physician| |commercial|office=physician| | | | |area| |point|vertex| |
+|Médecin|Doctor|amenity/doctor| |hospital|amenity=doctors| | | | |area| |point| | |
+|Passage piéton|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|Passage piéton|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
+|Passage piéton|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
+|Pharmacie|Pharmacy|amenity/pharmacy| |pharmacy|amenity=pharmacy| | | | |area| |point| | |
+|Pharmacie|Chemist|shop/chemist| |chemist|shop=chemist| | | | |area| |point| | |
+|Poteau|Bollard|barrier/bollard| | |barrier=bollard| | | | | |line|point|vertex| |
+|Poteau|Power Pole|power/pole| | |power=pole| | | | | | | |vertex| |
+|Prêteur sur gages|Pawn Shop|shop/pawnbroker| |shop|shop=pawnbroker| | | | |area| |point| | |
+|Prêteur sur gages|Money Lender|shop/money_lender| |bank|shop=money_lender| | | | |area| |point| | |
+|Prairie|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
+|Prairie|Grassland|natural/grassland| | |natural=grassland| | | | |area| |point| | |
+|Route|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
+|Route|Route|type/route| |route|type=route| | | | | | | | |relation|
+|Trajet de ferry|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
+|Trajet de ferry|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
+|Voie ferrée désaffectée|Disused Railway|railway/disused| |railway-disused|railway=disused| | | | | |line| | | |
+|Voie ferrée désaffectée|Abandoned Railway|railway/abandoned| |railway-abandoned|railway=abandoned| | | | | |line| | | |
+|Église|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|Église|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |

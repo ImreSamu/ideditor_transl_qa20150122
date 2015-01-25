@@ -1,0 +1,10 @@
+ {
+   presets: {
+     presets: {
+-      craft/confectionary: {
+-        name: "Confitería"
+-        terms: "Pastelería, Bollería"
+-      }
+     }
+   }
+ }

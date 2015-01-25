@@ -1,0 +1,427 @@
+{| class="wikitable"
+! style="font-weight: bold;" | lcode
+! style="font-weight: bold;" | lname
+! style="font-weight: bold;" | percentFullTranslations
+! style="font-weight: bold;" | percentFullTranslationsWTerms
+! style="font-weight: bold;" | missingTranslationsWoutTerms
+|-
+| af
+| Afrikaans
+| 35.32%
+| 46.49%
+| 678
+|-
+| ar-AA
+| Arabic
+| 4.94%
+| 7.18%
+| 1176
+|-
+| ar
+| Arabic
+| 56.16%
+| 54.46%
+| 577
+|-
+| ast
+| Asturian
+| 50.3%
+| 64.09%
+| 455
+|-
+| bg-BG
+| Bulgarian
+| 36.19%
+| 52.64%
+| 600
+|-
+| bn
+| Bengali
+| 30.98%
+| 45.07%
+| 696
+|-
+| bs
+| Bosnian
+| 63.75%
+| 63.85%
+| 458
+|-
+| ca
+| Catalan
+| 83.72%
+| 100%
+| 0
+|-
+| cs
+| Czech
+| 100%
+| 100%
+| 0
+|-
+| da
+| Danish
+| 100%
+| 100%
+| 0
+|-
+| de-DE
+| German
+| 0%
+| 0%
+| 1267
+|-
+| de
+| German
+| 100%
+| 100%
+| 0
+|-
+| el
+| Greek
+| 57.03%
+| 61.72%
+| 485
+|-
+| en-DE
+| English
+| 0%
+| 0%
+| 1267
+|-
+| en-GB
+| English
+| 8.36%
+| 11.84%
+| 1117
+|-
+| en
+| English
+| 100.11%
+| 100.16%
+| -2
+|-
+| eo
+| Esperanto
+| 5.64%
+| 8.21%
+| 1163
+|-
+| es
+| Spanish
+| 100%
+| 100%
+| 0
+|-
+| et
+| Estonian
+| 28.32%
+| 41.2%
+| 745
+|-
+| fa
+| Persian
+| 53.99%
+| 69.61%
+| 385
+|-
+| fi
+| Finnish
+| 65.55%
+| 83.74%
+| 206
+|-
+| fil
+| 
+| 14%
+| 20.36%
+| 1009
+|-
+| fr
+| French
+| 100%
+| 100%
+| 0
+|-
+| gan
+| Gan
+| 0%
+| 0%
+| 1267
+|-
+| gl
+| Galician
+| 40.37%
+| 56.75%
+| 548
+|-
+| hi-IN
+| Hindi
+| 0%
+| 0%
+| 1267
+|-
+| hr
+| Croatian
+| 67.77%
+| 78.85%
+| 268
+|-
+| hu
+| Hungarian
+| 93.81%
+| 99.05%
+| 12
+|-
+| hy
+| Armenian
+| 2.17%
+| 3.16%
+| 1227
+|-
+| id
+| Indonesian
+| 48.67%
+| 67.56%
+| 411
+|-
+| is
+| Icelandic
+| 43.62%
+| 62.35%
+| 477
+|-
+| it
+| Italian
+| 90.5%
+| 94.16%
+| 74
+|-
+| ja
+| Japanese
+| 90.23%
+| 90.37%
+| 122
+|-
+| km-KH
+| Khmer
+| 0%
+| 0%
+| 1267
+|-
+| km
+| Khmer
+| 0%
+| 0%
+| 1267
+|-
+| kn
+| Kannada
+| 18.23%
+| 26.52%
+| 931
+|-
+| ko-KR
+| Korean
+| 5.32%
+| 7.73%
+| 1169
+|-
+| ko
+| Korean
+| 55.72%
+| 77.82%
+| 281
+|-
+| lt
+| Lithuanian
+| 62.02%
+| 84.06%
+| 202
+|-
+| lv
+| Latvian
+| 24.36%
+| 35.44%
+| 818
+|-
+| nl
+| Dutch
+| 75.75%
+| 93.84%
+| 78
+|-
+| nn
+| Norwegian (Nynorsk)
+| 0%
+| 0%
+| 1267
+|-
+| no
+| Norwegian (Bokmål)
+| 28.27%
+| 41.12%
+| 746
+|-
+| pl
+| Polish
+| 74.55%
+| 84.85%
+| 192
+|-
+| pt-BR
+| Portuguese
+| 98.21%
+| 98.11%
+| 24
+|-
+| pt
+| Portuguese
+| 100%
+| 100%
+| 0
+|-
+| ro-RO
+| Romanian
+| 12.59%
+| 18.31%
+| 1035
+|-
+| ru-RU
+| Russian
+| 0%
+| 0%
+| 1267
+|-
+| ru
+| Russian
+| 97.88%
+| 97.55%
+| 31
+|-
+| sc
+| Sardinian
+| 0.22%
+| 0.32%
+| 1263
+|-
+| si
+| Sinhalese
+| 1.03%
+| 1.5%
+| 1248
+|-
+| sk
+| Slovak
+| 91.1%
+| 93.21%
+| 86
+|-
+| sl
+| Slovenian
+| 88.17%
+| 89.19%
+| 137
+|-
+| sq-AL
+| Albanian
+| 0%
+| 0%
+| 1267
+|-
+| sq
+| Albanian
+| 0%
+| 0%
+| 1267
+|-
+| sr-RS
+| Serbian
+| 0%
+| 0%
+| 1267
+|-
+| sr
+| Serbian
+| 50.14%
+| 72.85%
+| 344
+|-
+| sv
+| Swedish
+| 100%
+| 100%
+| 0
+|-
+| ta
+| Tamil
+| 13.84%
+| 20.13%
+| 1012
+|-
+| te
+| Telugu
+| 15.84%
+| 22.42%
+| 983
+|-
+| tl
+| Tagalog
+| 16.82%
+| 24.47%
+| 957
+|-
+| tr
+| Turkish
+| 40.15%
+| 58.33%
+| 528
+|-
+| uk
+| Ukrainian
+| 100%
+| 100%
+| 0
+|-
+| vi
+| Vietnamese
+| 100%
+| 100%
+| 0
+|-
+| yue
+| 
+| 62.78%
+| 62.12%
+| 480
+|-
+| zh-CN.GB2312
+| Chinese
+| 0%
+| 0%
+| 1267
+|-
+| zh-CN
+| Chinese
+| 82.26%
+| 87.53%
+| 158
+|-
+| zh-HK
+| Chinese
+| 60.93%
+| 59.98%
+| 507
+|-
+| zh-TW
+| Chinese
+| 97.83%
+| 97%
+| 38
+|-
+| zh
+| Chinese
+| 33.37%
+| 48.54%
+| 652
+|}

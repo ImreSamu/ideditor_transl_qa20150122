@@ -1,0 +1,10 @@
+|nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|কবরখানা|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
+|কবরখানা|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|ক্রসিং|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
+|ক্রসিং|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|প্রশাসনিক সীমানা|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
+|প্রশাসনিক সীমানা|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
+|সাইকেল-এর রাস্তা|Cycle Path|highway/cycleway| |highway-cycleway|highway=cycleway| | | | | |line| | | |
+|সাইকেল-এর রাস্তা|Cycle Route|type/route/bicycle| |route-bicycle|type=route|route=bicycle| | | | | | | |relation|

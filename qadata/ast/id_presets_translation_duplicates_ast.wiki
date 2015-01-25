@@ -1,0 +1,369 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| Barrera
+| Lift Gate
+| barrier/lift_gate
+|  
+|  
+| barrier=lift_gate
+|  
+|  
+|  
+|  
+|  
+|  
+| point
+| vertex
+|  
+|-
+| Barrera
+| Barrier
+| barrier
+|  
+|  
+| barrier=*
+|  
+|  
+|  
+|  
+| area
+| line
+| point
+| vertex
+|  
+|-
+| Capiella
+| Chapel
+| building/chapel
+|  
+| place-of-worship
+| building=chapel
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Capiella
+| Wayside Shrine
+| historic/wayside_shrine
+|  
+|  
+| historic=wayside_shrine
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Comercial
+| Retail
+| landuse/retail
+|  
+| shop
+| landuse=retail
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Comercial
+| Commercial
+| landuse/commercial
+|  
+| commercial
+| landuse=commercial
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Edificiu comercial
+| Commercial Building
+| building/commercial
+|  
+| commercial
+| building=commercial
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Edificiu comercial
+| Retail Building
+| building/retail
+|  
+| building
+| building=retail
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Fotografía
+| Photography Store
+| shop/photo
+|  
+| camera
+| shop=photo
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Fotografía
+| Photographer
+| craft/photographer
+|  
+| camera
+| craft=photographer
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Ilesia
+| Church
+| building/church
+|  
+| place-of-worship
+| building=church
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Ilesia
+| Church
+| amenity/place_of_worship/christian
+|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Llende alministrativa
+| Administrative Boundary
+| type/boundary/administrative
+|  
+| boundary
+| type=boundary
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Llende alministrativa
+| Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Pasu de peatones
+| Crossing
+| highway/crossing
+|  
+|  
+| highway=crossing
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Pasu de peatones
+| Crossing
+| footway/crossing
+|  
+|  
+| highway=footway
+| footway=crossing
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Riega
+| Ditch
+| barrier/ditch
+|  
+|  
+| barrier=ditch
+|  
+|  
+|  
+|  
+| area
+| line
+|  
+|  
+|  
+|-
+| Riega
+| Ditch
+| waterway/ditch
+|  
+| waterway-ditch
+| waterway=ditch
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Ruta de ferry
+| Ferry Route
+| route/ferry
+|  
+| ferry
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Ruta de ferry
+| Ferry Route
+| type/route/ferry
+|  
+| route-ferry
+| type=route
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Vivienda aisllada
+| Isolated Dwelling
+| place/isolated_dwelling
+|  
+|  
+| place=isolated_dwelling
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Vivienda aisllada
+| Detached Home
+| building/detached
+|  
+| building
+| building=detached
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|}

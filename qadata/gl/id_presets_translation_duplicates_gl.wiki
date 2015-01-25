@@ -1,0 +1,305 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| Banco
+| Bank
+| amenity/bank
+|  
+| bank
+| amenity=bank
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Banco
+| Bench
+| amenity/bench
+|  
+|  
+| amenity=bench
+|  
+|  
+|  
+|  
+|  
+| line
+| point
+| vertex
+|  
+|-
+| Cemiterio
+| Graveyard
+| amenity/grave_yard
+|  
+| cemetery
+| amenity=grave_yard
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Cemiterio
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Cidade
+| Town
+| place/town
+|  
+| town
+| place=town
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Cidade
+| City
+| place/city
+|  
+| city
+| place=city
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Cuneta
+| Ditch
+| waterway/ditch
+|  
+| waterway-ditch
+| waterway=ditch
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Cuneta
+| Drain
+| waterway/drain
+|  
+| waterway-stream
+| waterway=drain
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Igrexa
+| Church
+| building/church
+|  
+| place-of-worship
+| building=church
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Igrexa
+| Church
+| amenity/place_of_worship/christian
+|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Límite administrativo
+| Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Límite administrativo
+| Administrative Boundary
+| type/boundary/administrative
+|  
+| boundary
+| type=boundary
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Lugar
+| Place
+| place
+|  
+|  
+| place=*
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Lugar
+| Locality
+| place/locality
+|  
+| marker
+| place=locality
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Monumento
+| Monument
+| historic/monument
+|  
+| monument
+| historic=monument
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Monumento
+| Memorial
+| historic/memorial
+|  
+| monument
+| historic=memorial
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Presa
+| Dam
+| waterway/dam
+|  
+| dam
+| waterway=dam
+|  
+|  
+|  
+|  
+| area
+| line
+| point
+| vertex
+|  
+|-
+| Presa
+| Weir
+| waterway/weir
+|  
+| dam
+| waterway=weir
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+| vertex
+|  
+|}

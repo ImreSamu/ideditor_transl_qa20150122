@@ -1,0 +1,32 @@
+|nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|Јарак|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
+|Јарак|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
+|Административна граница|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
+|Административна граница|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
+|Бициклистичка стаза|Cycle Path|highway/cycleway| |highway-cycleway|highway=cycleway| | | | | |line| | | |
+|Бициклистичка стаза|Cycle Route|type/route/bicycle| |route-bicycle|type=route|route=bicycle| | | | | | | |relation|
+|Варош|Borough|place/suburb| |triangle-stroked|place=suburb| | | | |area| |point| | |
+|Варош|Town|place/town| |town|place=town| | | | |area| |point| | |
+|Извор|Water|natural/water| |water|natural=water| | | | |area| | | | |
+|Извор|Spring|natural/spring| | |natural=spring| | | | | | |point|vertex| |
+|Линија трајекта|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
+|Линија трајекта|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
+|Магистрални пут|Trunk Road|highway/trunk| |highway-trunk|highway=trunk| | | | | |line| | | |
+|Магистрални пут|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |
+|Пешачка стаза|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
+|Пешачка стаза|Foot Route|type/route/foot| |route-foot|type=route|route=foot| | | | | | | |relation|
+|Пешачки прелаз|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
+|Пешачки прелаз|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
+|Платформа|Apron|aeroway/apron| |airport|aeroway=apron| | | | |area| | | | |
+|Платформа|Platform|public_transport/platform| | |public_transport=platform| | | | |area|line|point|vertex| |
+|Прелаз|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|Прелаз|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
+|Путања|Route|type/route| |route|type=route| | | | | | | | |relation|
+|Путања|Line|line| | | | | | | | |line| | | |
+|Узлетиште|Airfield|military/airfield| |airfield|military=airfield| | | | |area| |point|vertex| |
+|Узлетиште|Runway|aeroway/runway| | |aeroway=runway| | | | |area|line| | | |
+|Црква|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
+|Црква|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|Шума|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
+|Шума|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |

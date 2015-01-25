@@ -1,0 +1,207 @@
+ {
++  map_data: {
++    title: "地图数据"
++    description: "地图数据"
++    data_layers: "数据图层"
++  }
++  mapillary: {
++    tooltip: "Mapillary的街道照片"
++    title: "照片叠加层(Mapillary)"
++    view_on_mapillary: "在Mapillary上查看这张图片"
++  }
+   commit: {
++    changes: "{count} 个更改"
+   }
+   save: {
++    unknown_error_details: "请确保你连接到互联网。"
+   }
+   help: {
+-    gps: "# GPS\n\nGPS 数据是 OpenStreetMap 中最可信的信息。本编辑器\n支持你电脑中的本地路线数据 - `.gpx`。你可以通过某些\n智能手机中的应用程序或个人 GPS 设备收集此类型的 GPS \n路线数据。\n\n关于如何进行 GPS 测量的信息请参阅[使用 GPS 测量信息](http://learnosm.org/en/beginner/using-gps/)。\n\n要使用 GPX 路线绘制地图，拖动 GPX 文件至地图编辑器中。\n如果被识别到了，会变成亮绿色的线。点击右侧的“背景设置”\n菜单来开启、关闭、或者缩放这个新的GPX图层。\n\nGPX 路线数据不会被直接上传到 OpenStreetMap 中。使用\n它的最好的方式是以它为参照绘制出你需要添加的特征。你可\n以可以[上传到 OpenStreetMap ](http://www.openstreetmap.org/trace/create)\n以便其他用处。\n"
+   }
+   intro: {
+     areas: {
++      add: "区域被用来表示图征的界限，像是湖、建筑物或住宅区。也就是说可以让原本只是个兴趣点的图征呈现更多细节。 **按下区域的按钮新增区域**"
+     }
+   }
+   presets: {
+     fields: {
++      bench: {
++        label: "长凳"
++      }
++      craft: {
++        label: "种类"
++      }
++      sloped_curb: {
++        label: "斜路缘"
++      }
++      smoothness: {
++        label: "平顺度"
++        placeholder: "轴承，轮胎，越野"
++        options: {
++          excellent: "轴承：溜冰，滑板"
++          good: "细轮：竞速自行车"
++          intermediate: "轮胎：通勤脚踏车，轮椅，滑板车"
++          bad: "强化轮胎：休旅自行车，汽车，人力车"
++          very_bad: "轻量化：低负重越野车辆"
++          horrible: "越野：高负重越野车辆"
++          very_horrible: "越野专用：拖拉机，全地形越野车"
++          impassible: "不可能/无轮车辆"
++        }
++      }
++      sport_racing: {
++        label: "运动"
++      }
++      tactile_paving: {
++        label: "人行道视障引导设施"
++      }
++      tracktype: {
++        label: "产业道路种类"
++        placeholder: "坚硬地面，硬物铺面，软铺面"
++        options: {
++          grade1: "刚性铺面：铺面为柏油，水泥或由刚性材质密实组成"
++          grade2: "近刚性铺面：砾石与石块混合柔性材质"
++          grade3: "混合刚性与柔性材质"
++          grade4: "近柔性铺面：土壤，砂土与草地混合其他刚性材质"
++          grade5: "柔性铺面：只有土壤，砂土与草地"
++        }
++      }
+       cardinal_direction: {
+         options: {
++          ENE: "东北偏东"
++          ESE: "东南偏东"
++          SSE: "东南偏南"
++          SSW: "西南偏南"
++          WSW: "西南偏西"
++          WNW: "西北偏西"
++          NNW: "西北偏北"
+         }
+       }
+       mtb/scale: {
++        options: {
++          0: "0：坚实的硕石土路，没有障碍物，大湾曲"
++          1: "1：铺面部分松散，有小的障碍物，大弯曲"
++          2: "2：大都是松散的铺面，有的障碍物，容易通过的发夹弯"
++          3: "3：铺面光滑，有大的障碍物"
++          4: "4：路面松散或是充满石头，有危险的发夹弯"
++          5: "5：骑乘等级最困难，路面充满石头，或者是路面坍方"
++          6: "6：除非是技巧极好的越野车手，否则并不适合骑乘"
++        }
+       }
+       mtb/scale/imba: {
++        label: "国际登山车协会路径难度"
+         options: {
+-          0: "最简单的(白色圆圈)"
++          0: "最简单(白圈)"
++          1: "容易(绿圈)"
++          2: "中等(蓝方块)"
++          3: "困难(黑色钻石型)"
++          4: "极端困难(双重黑色钻石型)"
+         }
+       }
+       mtb/scale/uphill: {
++        options: {
++          0: "0：平均坡度小于10％时，有碎石/夯实的地面，没有障碍物"
++          1: "1：平均坡度小于15％，有碎石/夯实的地面，有些许障碍物"
++          2: "2：平均坡度小于20，坚实的地面，拳头大的石头/树根"
++          3: "3：平均坡度25％，多变的平面，拳头大的石头/树墙"
++          4: "4：平均坡度小于30％时，很糟的路面状况，大石头/树墙"
++          5: "5：很陡，单车得牵行或扛车"
++        }
+       }
+       parking: {
+         options: {
++          garage_boxes: "车库盒"
+         }
+       }
+       piste/difficulty: {
++        placeholder: "容易，中阶，进阶"
+         options: {
++          novice: "新手(教学)"
++          easy: "容易(绿圈)"
++          intermediate: "中阶(蓝方块)"
++          expert: "专家(双重黑色钻石型)"
++          freeride: "自由滑行(场地外)"
++          extreme: "极端困难(需要攀登工具)"
+-          advanced: "高级(黑钻)"
++          advanced: "进阶(黑色钻石型)"
+         }
+       }
+       piste/grooming: {
++        label: "雪道类型"
+         options: {
++          classic: "经典"
++          mogul: "蒙古人"
++          backcountry: "偏远地区"
++          classic+skating: "经典和滑行"
++          scooter: "滑行艇/雪车"
+         }
+       }
+       piste/type: {
+         options: {
++          nordic: "北欧人"
++          skitour: "滑雪旅行"
++          sled: "雪橇"
++          hike: "徒步旅行"
++          sleigh: "简易雪橇"
++          snow_park: "滑雪场"
+-          ice_skate: "滑冰"
++          ice_skate: "冰刀"
+-          playground: "操场"
++          playground: "练习场"
+         }
+       }
+       sac_scale: {
++        options: {
++          hiking: "T1：徒步旅行"
++          mountain_hiking: "T2：登山旅行"
++          demanding_mountain_hiking: "T3：进阶登山旅行"
++          alpine_hiking: "T4：高山旅行"
++          demanding_alpine_hiking: "T5：进阶高山旅行"
++          difficult_alpine_hiking: "T6：艰困高山旅行"
++        }
+-        placeholder: "高山远足"
++        placeholder: "登山旅行，越岭行走..."
+       }
+       social_facility_for: {
++        label: "服务对象"
+       }
+       structure: {
+         options: {
++          ford: "浅滩"
+         }
+       }
+       surface: {
+-        label: "表面"
++        label: "路面铺设"
+       }
+       toilets/disposal: {
++        options: {
++          flush: "冲水式"
++          pitlatrine: "旱厕/翼坑"
++          chemical: "化工"
++          bucket: "尿筒"
++        }
+       }
+       trail_visibility: {
++        placeholder: "良好，尚可，稍差..."
++        options: {
++          excellent: "良好：路径明显或标示充分"
++          good: "尚可：有标示但可能不明显"
++          intermediate: "略差：标示稀少，路径大致可见"
++          bad: "差劲：没有标示，路径有时候消失"
++          horrible: "可怕：路径常消失，需要部分定向能力"
++          no: "无：没有路径，需具备完整的定向能力"
++        }
+       }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "糖果店"
+-      }
+-      landuse/farmland: {
+-        name: "农田"
+-        terms: "耕地,田地,饲养场"
+-      }
+     }
+   }
+ }

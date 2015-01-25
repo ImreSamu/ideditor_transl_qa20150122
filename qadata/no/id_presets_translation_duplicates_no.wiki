@@ -1,0 +1,145 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| Fergerute
+| Ferry Route
+| route/ferry
+|  
+| ferry
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Fergerute
+| Ferry Route
+| type/route/ferry
+|  
+| route-ferry
+| type=route
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Kirkegård
+| Graveyard
+| amenity/grave_yard
+|  
+| cemetery
+| amenity=grave_yard
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Kirkegård
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Skog
+| Forest
+| landuse/forest
+|  
+| park2
+| landuse=forest
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Skog
+| Wood
+| natural/wood
+|  
+| park2
+| natural=wood
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Tettsted
+| Town
+| place/town
+|  
+| town
+| place=town
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Tettsted
+| Village
+| place/village
+|  
+| village
+| place=village
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|}

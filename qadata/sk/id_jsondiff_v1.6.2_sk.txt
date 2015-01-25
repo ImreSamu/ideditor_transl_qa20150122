@@ -1,0 +1,191 @@
+ {
++  feature_info: {
++    hidden_warning: "{count} skrytých objektov"
++    hidden_details: "Tieto objekty sú skryté: {details}"
++  }
++  map_data: {
++    title: "Mapové údaje"
++    description: "Mapové údaje"
++    data_layers: "Dátové vrstvy"
++    fill_area: "Výplň plôch"
++    map_features: "Mapové objekty"
++    autohidden: "Tieto objekty boli automaticky skryté, pretože by ich bolo zobrazených príliš veľa. Pre ich editáciu, priblížte mapu."
++  }
++  feature: {
++    points: {
++      description: "Body"
++      tooltip: "Body záujmu"
++    }
++    major_roads: {
++      description: "Hlavné cesty"
++      tooltip: "Diaľnice, ulice, atď."
++    }
++    minor_roads: {
++      description: "Vedľajšie cesty"
++      tooltip: "Servisné cesty, parkovacie uličky, lesná cesta, atď."
++    }
++    paths: {
++      description: "Cestičky"
++      tooltip: "Chodníky, cestičky pre pešich, cyklocesty, atď."
++    }
++    buildings: {
++      description: "Budovy"
++      tooltip: "Budovy, prístrešky, garáže, atď."
++    }
++    landuse: {
++      description: "Využitie územia"
++      tooltip: "Lesy, farmy, parky, obytné územie, firemné plochy, atď."
++    }
++    boundaries: {
++      description: "Hranice"
++      tooltip: "Administratívne hranice"
++    }
++    water: {
++      description: "Vodné objekty"
++      tooltip: "Rieky, jazerá, rybníky, nádrže, atď."
++    }
++    rail: {
++      description: "Železničné objekty"
++      tooltip: "Železnice"
++    }
++    power: {
++      description: "Elektrické objety"
++      tooltip: "Elektrické vedenia, elektrárne, transformátory, atď."
++    }
++    past_future: {
++      description: "Bývalý/Budúci objekt"
++      tooltip: "Navrhovaný, vo výstavbe, opustený, zbúraný, atď."
++    }
++    others: {
++      description: "Iné objekty"
++      tooltip: "Všetko ostané"
++    }
++  }
++  area_fill: {
++    wireframe: {
++      description: "Bez výplne (obrys)"
++      tooltip: "Aktivovanie obrysového módu umožní lepšie vidieť družicové snímky na pozadí."
++    }
++    partial: {
++      description: "Čiastočná výplň"
++      tooltip: "Plochy sú vykresné s výplňou iba okolo vnútornych okrajoch. (Odporúčané pre začínajúcich užívateľov)"
++    }
++    full: {
++      description: "Plná výplň"
++      tooltip: "Plochy su vykreslené plne vyplnené."
++    }
++  }
+   operations: {
+     circularize: {
++      connected_to_hidden: "Tento objekt nemožno usporiadať do kruhu, pretože je spojený so skrytým objektom."
+     }
+     orthogonalize: {
++      connected_to_hidden: "Tento objekt nemožno usporiadať do pravého uhla, pretože je spojený so skrytým objektom."
+     }
+     straighten: {
++      connected_to_hidden: "Túto čiaru nemožno vyrovnať, pretože je spojená so skrytým objektom."
+     }
+     delete: {
++      connected_to_hidden: "Tento objekt nemožno vymazať, pretože je spojený so skrytým objektom."
+     }
+     disconnect: {
++      connected_to_hidden: "Tento objekt nemožno oddeliť, pretože je spojený so skrytým objektom."
+     }
+     move: {
++      connected_to_hidden: "Tento objekt nemôže byť presunutý, pretože je spojený so skrytým objektom."
+     }
+     rotate: {
++      connected_to_hidden: "Tento objekt nemôže byť otočený, pretože je spojený so skrytým objektom."
+     }
+     split: {
++      connected_to_hidden: "Tento objekt nemôžno rozdeliť, pretože je spojený so skrytým objektom."
+     }
+   }
+   commit: {
++    changes: "{count} Zmien"
+   }
+   inspector: {
++    add_fields: "Pridaj pole:"
+   }
+   save: {
++    unknown_error_details: "Uistite sa prosím, že ste pripojený k internetu."
+   }
+   help: {
+-    gps: "# GPS\nGPS údaje sú najviac dôveryhodný zdroj dát pre OpenStreetMap. Tento editor podporuje stopy z lokálnych \".gpx\" súborov na vašom počítači. Tento typ GPS stôp môžete zachytiť pomocou rôznych aplikácií pre múdre telefóny ako aj GPS prístrojmi.\n\nPre informácie, ako robiť GPS prieskum, si prečítajte [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nAby ste použili GPX trasu pre mapovanie, pretiahnite a pustite GPX súbor na mapový editor. Po rozpoznaní, bude pridaný na mapu ako jasná zelená čiara. Kliknite na ponuku \"Nastavenia pozadia\" na ľavej strane pre zapnutie, vypnutie alebo priblíženie na túto novú GPX vrstvu.\n\nGPX trasa nie je priamo nahraná na OpenStreetMap. Najlepší spôsob ako ju využiť je, použiť ju ako predlohu pre zakreslovanie nových objektov a potom ju [nahrať na OpenStreetMap](http://www.openstreetmap.org/trace/create) pre ďalších uživateľov.\n \n"
++    gps: "# GPS\nGPS údaje sú najviac dôveryhodný zdroj dát pre OpenStreetMap. Tento editor podporuje stopy z lokálnych \".gpx\" súborov na vašom počítači. Tento typ GPS stôp môžete zachytiť pomocou rôznych aplikácií pre múdre telefóny ako aj GPS prístrojmi.\n\nPre informácie, ako robiť GPS prieskum, si prečítajte [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nAby ste použili GPX trasu pre mapovanie, pretiahnite a pustite GPX súbor na mapový editor. Po rozpoznaní, bude pridaný na mapu ako jasná fialová čiara. Kliknite na ponuku \"Mapové údaje\" na ľavej strane pre zapnutie, vypnutie alebo priblíženie na túto novú GPX vrstvu.\n\nGPX trasa nie je priamo nahraná na OpenStreetMap. Najlepší spôsob ako ju využiť je, použiť ju ako predlohu pre zakreslovanie nových objektov a potom ju [nahrať na OpenStreetMap](http://www.openstreetmap.org/trace/create) pre ďalších uživateľov.\n \n"
+   }
+   presets: {
+     fields: {
++      bench: {
++        label: "Lavička"
++      }
++      delivery: {
++        label: "Zásobovnie"
++      }
++      service/bicycle/chaintool: {
++        label: "Oprava reťaze"
++        options: {
++          undefined: "Pravdepodobne nie"
++          yes: "Áno"
++          no: "Nie"
++        }
++      }
++      service/bicycle/pump: {
++        label: "Vzduchová pumpa"
++        options: {
++          undefined: "Pravdepodobne nie"
++          yes: "Áno"
++          no: "Nie"
++        }
++      }
++      smoothness: {
++        label: "Rovnosť vozovky"
++        placeholder: "Malé kolieska, kolesá, off-road..."
++      }
++      substation: {
++        label: "Typ"
++      }
++      takeaway: {
++        label: "Jedlo so sebou"
++        placeholder: "Áno, Nie, Iba so sebou..."
++        options: {
++          yes: "Áno"
++          no: "Nie"
++          only: "Iba so sebou"
++        }
++      }
+       electrified: {
++        placeholder: "Troleje, elektrifikované koľaje..."
+         options: {
++          contact_line: "Troleje"
++          rail: "Elektrifikované koľaje"
+         }
+       }
+       name: {
+-        placeholder: "Vlastné meno objektu (iba ak existuje)"
++        placeholder: "Vlastné meno objektu (nepovinné)"
+       }
+       piste/type: {
+         options: {
++          skitour: "Bežkovanie do kopca"
++          sled: "Sánky"
++          hike: "Pešie túry"
++          sleigh: "Záprah"
++          ice_skate: "Korčuľovanie"
++          snow_park: "Snežný park"
++          playground: "Ihrisko"
+         }
+       }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Cukrárstvo"
+-        terms: "cukrarstvo,cukrovinky"
+-      }
+-      landuse/farmland: {
+-        name: "Farma"
+-        terms: "druzstvo,družstvo,chov,výbeh,vybeh,pole,roľa,rola"
+-      }
+     }
+   }
+ }

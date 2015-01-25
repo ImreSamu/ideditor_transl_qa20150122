@@ -1,0 +1,145 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| Füves terület
+| Grass
+| landuse/grass
+|  
+|  
+| landuse=grass
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Füves terület
+| Grassland
+| natural/grassland
+|  
+|  
+| natural=grassland
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Temető
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Temető
+| Churchyard
+| landuse/churchyard
+|  
+|  
+| landuse=churchyard
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| Vasút
+| Railway
+| railway
+|  
+|  
+| railway=*
+|  
+|  
+|  
+|  
+| area
+| line
+| point
+| vertex
+|  
+|-
+| Vasút
+| Rail
+| railway/rail
+|  
+| railway-rail
+| railway=rail
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Zebra - gyalogátkelőhely
+| Crosswalk
+| footway/crosswalk
+|  
+|  
+| highway=footway
+| footway=crossing
+| crossing=zebra
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Zebra - gyalogátkelőhely
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|}

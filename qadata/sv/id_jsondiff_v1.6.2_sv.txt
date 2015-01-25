@@ -1,0 +1,233 @@
+ {
++  feature_info: {
++    hidden_warning: "{count} dolda objekt"
++    hidden_details: "Detta objekt är dolt för tillfället: {details}"
++  }
++  map_data: {
++    title: "Kartdata"
++    description: "Kartdata"
++    data_layers: "Datalager"
++    fill_area: "Fyllda områden"
++    map_features: "Kartobjekt"
++    autohidden: "Dessa objekt har dolts automatiskt då för mycket annars skulle ha visats på skärmen. Du kan zooma in för att redigera dem. "
++  }
++  feature: {
++    points: {
++      description: "Punkter"
++      tooltip: "Intressanta platser"
++    }
++    major_roads: {
++      description: "Större vägar"
++      tooltip: "Landsväg, gata m.m."
++    }
++    minor_roads: {
++      description: "Mindre vägar"
++      tooltip: "Servicevägar, parkeringsvägar, bruksväg m.m."
++    }
++    paths: {
++      description: "Stigar"
++      tooltip: "Trottoarer, gångvägar, cykelvägar m.m."
++    }
++    buildings: {
++      description: "Byggnader"
++      tooltip: "Byggnader, skydd, garage, m-m-"
++    }
++    landuse: {
++      description: "Markanvändning"
++      tooltip: "Skogar, åkermark, parker, bostadsområden, shoppingområden m.m."
++    }
++    boundaries: {
++      description: "Gränser"
++      tooltip: "Administrativa gränser"
++    }
++    water: {
++      description: "Vattenobjekt"
++      tooltip: "Floder, sjöar, dammar m.m."
++    }
++    rail: {
++      description: "Rälsobjekt"
++      tooltip: "Järnvägar"
++    }
++    power: {
++      description: "Kraftobjekt"
++      tooltip: "Kraftledningar, kraftverk, fördelningsstation m.m."
++    }
++    past_future: {
++      description: "Då- och framtid"
++      tooltip: "Föreslaget, under uppbyggnad, övergivet, rivet m.m."
++    }
++    others: {
++      description: "Annat"
++      tooltip: "Allt annat"
++    }
++  }
++  area_fill: {
++    wireframe: {
++      description: "Ingen ifyllnad (trådram)"
++      tooltip: "Genom att använda trådram blir det enklare att se bakomliggande flygbild."
++    }
++    partial: {
++      description: "Delvist fylld"
++      tooltip: "Områden ritas med fyllnad enbart längst insidan av kanterna. (Rekommenderas för nybörjare)"
++    }
++    full: {
++      description: "Full ifyllnad"
++      tooltip: "Områden är ritade fullt ifyllda."
++    }
++  }
+   operations: {
+     circularize: {
++      connected_to_hidden: "Detta kan inte göras runt då det är kopplat till ett dolt objekt."
+     }
+     orthogonalize: {
++      connected_to_hidden: "Detta kan inte rätas upp då det är kopplat till ett dolt objekt."
+     }
+     straighten: {
++      connected_to_hidden: "Denna linje kan inte rätas ut då den är kopplad till ett dolt objekt."
+     }
+     delete: {
++      connected_to_hidden: "Detta kan inte tas bort då det är kopplat till ett dolt objekt."
+     }
+     disconnect: {
++      connected_to_hidden: "Detta kan inte brytas av då det är anslutet till ett dolt objekt."
+     }
+     move: {
++      connected_to_hidden: "Detta kan inte flyttas då det är anslutet till ett dolt objekt."
+     }
+     rotate: {
++      connected_to_hidden: "Detta kan inte roteras då det är anslutet till ett dolt objekt."
+     }
+     split: {
++      connected_to_hidden: "Detta kan inte delas då det är anslutet till ett dolt objekt."
+     }
+   }
+   commit: {
++    changes: "{count} ändringar"
+   }
+   inspector: {
++    add_fields: "Lägg till fällt:"
+   }
+   save: {
++    unknown_error_details: "Kontrollera att du är ansluten till Internet."
+   }
+   help: {
+-    gps: "# GPS \n\nGPS-data är den mest pålitliga källan för uppgifter till OpenStreetMap. Denna redigerare \nstödjer lokala spår – ”.GPX”-filer på din lokala dator. Du kan skapa \ndenna typ av GPS-spår med ett flertal smartphone-appar samt med\npersonlig GPS-hårdvara. \n\nFör information om hur man skapar en GPS-spårning, läs \n[Kartläggning med en GPS](http://learnosm.org/en/beginner/using-gps/). \n\nFör att använda ett GPX-spår för kartläggning, dra och släpp GPX-filen på \nkartredigeraren. Om den känns igen kommer den att läggas till på kartan som en klargrön \nlinje. Klicka på menyn \"Bakgrundsinställningar\" på höger sida för att aktivera, \navaktivera eller zooma till detta nya GPX-drivna lager. \n\nGPX spår överförs inte direkt till OpenStreetMap - det bästa sättet att \nanvända dem är att rita på kartan, använda den som en guide för de nya objekt som \ndu lägger till, och också [ladda upp dem till OpenStreetMap](http://www.openstreetmap.org/trace/create) \nför att användas av andra.\n"
++    gps: "# GPS\n\nGPS-data är den mest tillförlitliga källan för data till OpenStreetMap. Denna redigeraren stöder lokala spår - .gpx-filer på din lokala dator. Du kan samla in denna typ av GPS-spår med ett antal olika appar till din smartphone eller en GPS-enhet.\n\nFör information om du du gör en GPS-uppmätning, läs [Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nFör att använda ett GPX-spår för att kartlägga, dra och släpp GPX-filen på kartredigeraren. Om det accepteras kommer det att läggas till på kartan som en ljuslila linje. Klicka på menyn Kartdata till höger för att aktivera, avaktivera eller zooma in till detta nya GPX-skapade lager.\n\nGPX-spåret laddas inte direkt upp till OpenStreetMap - bästa sätet att använda det är att rita på kartan och använda det som en guide för att lägga till ny information, men också för att [ladda upp det till OpenStreetMap] (http://www.openstreetmap.org/trace/create) så att andra kan använda det. \n"
+   }
+   presets: {
+     categories: {
+       category-restriction: {
+-        name: "Restriktioner"
++        name: "Restriktion"
+       }
+     }
+     fields: {
++      bench: {
++        label: "Bänk"
++      }
++      delivery: {
++        label: "Hemleverans"
++      }
++      service/bicycle/chaintool: {
++        label: "Kedjebrytare"
++        options: {
++          undefined: "Förväntas vara Nej"
++          yes: "Ja"
++          no: "Nej"
++        }
++      }
++      service/bicycle/pump: {
++        label: "Cykelpump"
++        options: {
++          undefined: "Förväntas vara Nej"
++          yes: "Ja"
++          no: "Nej"
++        }
++      }
++      substation: {
++        label: "Typ"
++      }
++      takeaway: {
++        label: "Hämtmat"
++        placeholder: "Ja, nej, enbart hämtmat"
++        options: {
++          yes: "Ja"
++          no: "Nej"
++          only: "Enbart hämtmat"
++        }
++      }
+     }
+     presets: {
+-      craft/confectionary: {
+-        name: "Konditori"
+-        terms: "konfektyr, godis, godsaker, choklad, Konditori, kondis, sockerbageri, finbageri"
+-      }
++      amenity/bicycle_repair_station: {
++        name: "Station för cykelreparation "
++        terms: "Cykelreparation, kedjebrytare, cykelpump, tryckluft, pumpstation, cykel, "
++      }
++      amenity/community_centre: {
++        name: "Samlingslokal"
++        terms: "Samlingslokal, folkets hus, folkets park, festlokal, bygdegård, Hembygdsgård, Sockenstuga, bystuga, Byalag, byförening, festlokal"
++      }
++      amenity/grit_bin: {
++        name: "Sandkista"
++        terms: "Sandlåda, sandkista, sandbehållare, halkbekämpning, halka"
++      }
++      amenity/public_bookcase: {
++        name: "Offentlig bokhylla"
++        terms: "Offentlig bokhylla, publik bokhylla, begagnade böcker, låneböcker, bokdelning"
++      }
++      amenity/register_office: {
++        name: "Registreringsbyrå"
++        terms: "Registreringsbyrå, borgerlig vigsel, stadshus,  registrerade enhet, inskrivningskontor, registreringskontor, Folkbokföring, Skattemyndigheten, mantalslängder"
++      }
++      craft/confectionery: {
++        name: "Konditori"
++        terms: "Fik, Kafé"
++      }
++      junction: {
++        name: "Korsning"
++        terms: "korsning, vägkorsningar, övergångsställe, järnvägskorsning, rondell, cirkulationsplats, trafiksignal, stoppskylt, stoppsignal, vägkors, trafikplats, trafikkorsning, gatukorsning"
++      }
++      landuse/garages: {
++        name: "garage"
++        terms: "garage, bilstall, bilskjul, carport, varmgarage, kallgarage, bilplatser"
++      }
++      leisure/nature_reserve: {
++        name: "Naturreservat"
++        terms: "naturreservat, nationalpark, naturpark, naturområde, reservat, naturskyddsområde"
++      }
++      natural/cave_entrance: {
++        name: "Grottingång"
++        terms: "Grottingång, grotta, grottsystem, bergrum, berghåla, grottöppning, bergsöppning, grotthål"
++      }
++      power/substation: {
++        name: "Fördelningsstation"
++        terms: "Transformator, elomvandling, elskåp, fördelningsstation, stadsnätstation, elfördelning"
++      }
++      traffic_calming/bump: {
++        name: "Fartbula (kort gupp)"
++        terms: "Fartbula, bula, fartgupp, farthinder, gupp, vägbula, bump"
++      }
++      traffic_calming/hump: {
++        name: "Normalt fartgupp"
++        terms: "Cirkulärt gupp, GP-gupp, Wattska guppet, Wattgupp, standardgupp, normalt fartgupp, puckel, fartpuckel, gupp, farthinder, fartgupp"
++      }
++      traffic_calming/rumble_strip: {
++        name: "Bullerräfflor"
++        terms: "Bullerräfflor, Pennsylvaniaräfflor"
++      }
++      traffic_calming/table: {
++        name: "Platågupp"
++        terms: "Platågupp, gupp, farthinder, fartgupp"
++      }
+       landuse/farmland: {
+-        name: "Åker"
++        name: "Gård"
+-        terms: "Åker, åkerjord, åkerfält, fält, gärde, teg, åkerlapp, inäga, odling, odlingsfält, lantbruk"
++        terms: "gård, jordbruk, lantgård, farm, bondgård, lantbruk, lantegendom, gårdsplan"
+       }
+     }
+   }
+ }

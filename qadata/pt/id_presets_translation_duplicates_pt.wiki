@@ -1,0 +1,369 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| Confeitaria
+| Candy Store
+| shop/confectionery
+|  
+| shop
+| shop=confectionery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Confeitaria
+| Confectionery
+| craft/confectionery
+|  
+| bakery
+| craft=confectionery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Escritório
+| Office
+| office
+|  
+| commercial
+| office=*
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Escritório
+| Commercial Building
+| building/commercial
+|  
+| commercial
+| building=commercial
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Fronteira Administrativa
+| Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Fronteira Administrativa
+| Administrative Boundary
+| type/boundary/administrative
+|  
+| boundary
+| type=boundary
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Garagens
+| Garages
+| building/garages
+|  
+| warehouse
+| building=garages
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Garagens
+| Garages
+| landuse/garages
+|  
+|  
+| landuse=garages
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| Igreja
+| Church
+| building/church
+|  
+| place-of-worship
+| building=church
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Igreja
+| Church
+| amenity/place_of_worship/christian
+|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Médico
+| Doctor
+| amenity/doctor
+|  
+| hospital
+| amenity=doctors
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Médico
+| Physician
+| office/physician
+|  
+| commercial
+| office=physician
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Passadeira
+| Crossing
+| highway/crossing
+|  
+|  
+| highway=crossing
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Passadeira
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Passadeira
+| Crossing
+| footway/crossing
+|  
+|  
+| highway=footway
+| footway=crossing
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Passadeira
+| Crosswalk
+| footway/crosswalk
+|  
+|  
+| highway=footway
+| footway=crossing
+| crossing=zebra
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Relojoeiro
+| Clockmaker
+| craft/clockmaker
+|  
+| circle-stroked
+| craft=clockmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Relojoeiro
+| Watchmaker
+| craft/watchmaker
+|  
+| circle-stroked
+| craft=watchmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Rota de Barca / Ferry
+| Ferry Route
+| route/ferry
+|  
+| ferry
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Rota de Barca / Ferry
+| Ferry Route
+| type/route/ferry
+|  
+| route-ferry
+| type=route
+| route=ferry
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Telesqui
+| Platter Lift
+| aerialway/platter
+|  
+|  
+| aerialway=platter
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Telesqui
+| Aerialway
+| aerialway
+|  
+|  
+| aerialway=*
+|  
+|  
+|  
+|  
+|  
+| line
+| point
+| vertex
+|  
+|}

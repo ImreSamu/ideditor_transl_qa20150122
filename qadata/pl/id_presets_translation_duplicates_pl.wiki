@@ -1,0 +1,561 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| Budynek uczelni
+| University Building
+| building/university
+|  
+| building
+| building=university
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Budynek uczelni
+| College Building
+| building/college
+|  
+| building
+| building=college
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Chata
+| Cabin
+| building/cabin
+|  
+| building
+| building=cabin
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Chata
+| Hut
+| building/hut
+|  
+|  
+| building=hut
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Cmentarz
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Cmentarz
+| Graveyard
+| amenity/grave_yard
+|  
+| cemetery
+| amenity=grave_yard
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Dekarz
+| Roofer
+| craft/roofer
+|  
+| marker-stroked
+| craft=roofer
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Dekarz
+| Tiler
+| craft/tiler
+|  
+| marker-stroked
+| craft=tiler
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Garaże
+| Garages
+| building/garages
+|  
+| warehouse
+| building=garages
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Garaże
+| Garages
+| landuse/garages
+|  
+|  
+| landuse=garages
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| Granica administracyjna
+| Administrative Boundary
+| type/boundary/administrative
+|  
+| boundary
+| type=boundary
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Granica administracyjna
+| Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Kościół
+| Church
+| building/church
+|  
+| place-of-worship
+| building=church
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Kościół
+| Church
+| amenity/place_of_worship/christian
+|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Krawiec
+| Tailor
+| shop/tailor
+|  
+| clothing-store
+| shop=tailor
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Krawiec
+| Dressmaker
+| craft/dressmaker
+|  
+| clothing-store
+| craft=dressmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Lotnisko
+| Airport
+| aeroway/aerodrome
+|  
+| airport
+| aeroway=aerodrome
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Lotnisko
+| Airfield
+| military/airfield
+|  
+| airfield
+| military=airfield
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Miasto
+| Town
+| place/town
+|  
+| town
+| place=town
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Miasto
+| City
+| place/city
+|  
+| city
+| place=city
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Nieużywany tor
+| Abandoned Railway
+| railway/abandoned
+|  
+| railway-abandoned
+| railway=abandoned
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Nieużywany tor
+| Disused Railway
+| railway/disused
+|  
+| railway-disused
+| railway=disused
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Przejście dla pieszych
+| Crosswalk
+| footway/crosswalk
+|  
+|  
+| highway=footway
+| footway=crossing
+| crossing=zebra
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Przejście dla pieszych
+| Crossing
+| highway/crossing
+|  
+|  
+| highway=crossing
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Przejście dla pieszych
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Przejście dla pieszych
+| Crossing
+| footway/crossing
+|  
+|  
+| highway=footway
+| footway=crossing
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Rów
+| Ditch
+| barrier/ditch
+|  
+|  
+| barrier=ditch
+|  
+|  
+|  
+|  
+| area
+| line
+|  
+|  
+|  
+|-
+| Rów
+| Ditch
+| waterway/ditch
+|  
+| waterway-ditch
+| waterway=ditch
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Winnica
+| Vineyard
+| landuse/vineyard
+|  
+|  
+| landuse=vineyard
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Winnica
+| Winery
+| craft/winery
+|  
+| alcohol-shop
+| craft=winery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Zegarmistrz
+| Watchmaker
+| craft/watchmaker
+|  
+| circle-stroked
+| craft=watchmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Zegarmistrz
+| Clockmaker
+| craft/clockmaker
+|  
+| circle-stroked
+| craft=clockmaker
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Łąka
+| Grassland
+| natural/grassland
+|  
+|  
+| natural=grassland
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Łąka
+| Meadow
+| landuse/meadow
+|  
+|  
+| landuse=meadow
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|}

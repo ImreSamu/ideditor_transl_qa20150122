@@ -1,0 +1,253 @@
+|presetFieldsKey|r|type|labelEn|labelTransl|icon|universal|keys|optionskey|valueEn|valueTransl|placeholderEn|placeholderTransl|endRec|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|access|1|access|Access|Access| | |access,foot,motor_vehicle,bicycle,horse| | | |Unknown|Unknown|last|
+|access_simple|1|combo|Access|Access| | |access| | | |yes|yes|last|
+|access_toilets|1|combo|Access|Access| | |access| | | | | |last|
+|address|1|address|Address|Address|address|true|addr:housename,addr:housenumber,addr:street,addr:city,addr:postcode| | | | | |last|
+|admin_level|1|number|Admin Level|Admin Level| | |admin_level| | | | | |last|
+|aerialway|1|typeCombo|Type|Type| | |aerialway| | | | | |last|
+|aerialway/access|1|combo|Access|Access| | |aerialway:access|entry|Entry|Entry| | |last|
+|aerialway/access|2|combo| | | | | |exit|Exit|Exit| | |last|
+|aerialway/access|3|combo| | | | | |both|Both|Both| | |last|
+|aerialway/bubble|1|check|Bubble|Bubble| | |aerialway:bubble| | | | | |last|
+|aerialway/capacity|1|number|Capacity (per hour)|Capacity (per hour)| | |aerialway:capacity| | | |500, 2500, 5000...|500, 2500, 5000...|last|
+|aerialway/duration|1|number|Duration (minutes)|Duration (minutes)| | |aerialway:duration| | | |1, 2, 3...|1, 2, 3...|last|
+|aerialway/heating|1|check|Heated|Heated| | |aerialway:heating| | | | | |last|
+|aerialway/occupancy|1|number|Occupancy|Occupancy| | |aerialway:occupancy| | | |2, 4, 8...|2, 4, 8...|last|
+|aerialway/summer/access|1|combo|Access (summer)|Access (summer)| | |aerialway:summer:access|entry|Entry|Entry| | |last|
+|aerialway/summer/access|2|combo| | | | | |exit|Exit|Exit| | |last|
+|aerialway/summer/access|3|combo| | | | | |both|Both|Both| | |last|
+|aeroway|1|typeCombo|Type|Type| | |aeroway| | | | | |last|
+|amenity|1|typeCombo|Type|Type| | |amenity| | | | | |last|
+|artist|1|text|Artist|Artist| | |artist_name| | | | | |last|
+|artwork_type|1|combo|Type|Type| | |artwork_type| | | | | |last|
+|atm|1|check|ATM|ATM| | |atm| | | | | |last|
+|backrest|1|check|Backrest|Backrest| | |backrest| | | | | |last|
+|barrier|1|typeCombo|Type|Type| | |barrier| | | | | |last|
+|bench|1|check|Bench|Bench| | |bench| | | | | |last|
+|bicycle_parking|1|combo|Type|Type| | |bicycle_parking| | | | | |last|
+|boundary|1|combo|Type|Type| | |boundary| | | | | |last|
+|building|1|typeCombo|Building|Building| | |building| | | | | |last|
+|building_area|1|defaultcheck|Building|Building| | |building| | | | | |last|
+|capacity|1|number|Capacity|Capacity| | |capacity| | | |50, 100, 200...|50, 100, 200...|last|
+|cardinal_direction|1|combo|Direction|Direction| | |direction|N|North|North| | |last|
+|cardinal_direction|2|combo| | | | | |E|East|East| | |last|
+|cardinal_direction|3|combo| | | | | |S|South|South| | |last|
+|cardinal_direction|4|combo| | | | | |W|West|West| | |last|
+|cardinal_direction|5|combo| | | | | |NE|Northeast|Northeast| | |last|
+|cardinal_direction|6|combo| | | | | |SE|Southeast|Southeast| | |last|
+|cardinal_direction|7|combo| | | | | |SW|Southwest|Southwest| | |last|
+|cardinal_direction|8|combo| | | | | |NW|Northwest|Northwest| | |last|
+|cardinal_direction|9|combo| | | | | |NNE|North-northeast|North-northeast| | |last|
+|cardinal_direction|10|combo| | | | | |ENE|East-northeast|East-northeast| | |last|
+|cardinal_direction|11|combo| | | | | |ESE|East-southeast|East-southeast| | |last|
+|cardinal_direction|12|combo| | | | | |SSE|South-southeast|South-southeast| | |last|
+|cardinal_direction|13|combo| | | | | |SSW|South-southwest|South-southwest| | |last|
+|cardinal_direction|14|combo| | | | | |WSW|West-southwest|West-southwest| | |last|
+|cardinal_direction|15|combo| | | | | |WNW|West-northwest|West-northwest| | |last|
+|cardinal_direction|16|combo| | | | | |NNW|North-northwest|North-northwest| | |last|
+|clock_direction|1|combo|Direction|Direction| | |direction|clockwise|Clockwise|Clockwise| | |last|
+|clock_direction|2|combo| | | | | |anticlockwise|Counterclockwise|Counterclockwise| | |last|
+|collection_times|1|text|Collection Times|Collection Times| | |collection_times| | | | | |last|
+|construction|1|combo|Type|Type| | |construction| | | | | |last|
+|country|1|combo|Country|Country| | |country| | | | | |last|
+|covered|1|check|Covered|Covered| | |covered| | | | | |last|
+|craft|1|typeCombo|Type|Type| | |craft| | | | | |last|
+|crop|1|combo|Crop|Crop| | |crop| | | | | |last|
+|crossing|1|combo|Type|Type| | |crossing| | | | | |last|
+|cuisine|1|combo|Cuisine|Cuisine| | |cuisine| | | | | |last|
+|delivery|1|check|Delivery|Delivery| | |delivery| | | | | |last|
+|denomination|1|combo|Denomination|Denomination| | |denomination| | | | | |last|
+|denotation|1|combo|Denotation|Denotation| | |denotation| | | | | |last|
+|description|1|textarea|Description|Description| | |description| | | | | |last|
+|electrified|1|combo|Electrification|Electrification| | |electrified|contact_line|Contact Line|Contact Line|Contact Line, Electrified Rail...|Contact Line, Electrified Rail...|last|
+|electrified|2|combo| | | | | |rail|Electrified Rail|Electrified Rail| | |last|
+|electrified|3|combo| | | | | |yes|Yes (unspecified)|Yes (unspecified)| | |last|
+|electrified|4|combo| | | | | |no|No|No| | |last|
+|elevation|1|number|Elevation|Elevation|elevation|true|ele| | | | | |last|
+|emergency|1|check|Emergency|Emergency| | |emergency| | | | | |last|
+|entrance|1|typeCombo|Type|Type| | |entrance| | | | | |last|
+|except|1|combo|Exceptions|Exceptions| | |except| | | | | |last|
+|fax|1|tel|Fax|Fax| | |fax| | | |+31 42 123 4567|+31 42 123 4567|last|
+|fee|1|check|Fee|Fee| | |fee| | | | | |last|
+|fire_hydrant/type|1|combo|Type|Type| | |fire_hydrant:type|pillar|Pillar/Aboveground|Pillar/Aboveground| | |last|
+|fire_hydrant/type|2|combo| | | | | |underground|Underground|Underground| | |last|
+|fire_hydrant/type|3|combo| | | | | |wall|Wall|Wall| | |last|
+|fire_hydrant/type|4|combo| | | | | |pond|Pond|Pond| | |last|
+|fixme|1|textarea|Fix Me|Fix Me| | |fixme| | | | | |last|
+|fuel|1|combo|Fuel|Fuel| | |fuel| | | | | |last|
+|fuel/biodiesel|1|check|Sells Biodiesel|Sells Biodiesel| | |fuel:biodiesel| | | | | |last|
+|fuel/diesel|1|check|Sells Diesel|Sells Diesel| | |fuel:diesel| | | | | |last|
+|fuel/e10|1|check|Sells E10|Sells E10| | |fuel:e10| | | | | |last|
+|fuel/e85|1|check|Sells E85|Sells E85| | |fuel:e85| | | | | |last|
+|fuel/lpg|1|check|Sells Propane|Sells Propane| | |fuel:lpg| | | | | |last|
+|fuel/octane_100|1|check|Sells Racing Gasoline|Sells Racing Gasoline| | |fuel:octane_100| | | | | |last|
+|fuel/octane_91|1|check|Sells Regular Gasoline|Sells Regular Gasoline| | |fuel:octane_91| | | | | |last|
+|fuel/octane_95|1|check|Sells Midgrade Gasoline|Sells Midgrade Gasoline| | |fuel:octane_95| | | | | |last|
+|fuel/octane_98|1|check|Sells Premium Gasoline|Sells Premium Gasoline| | |fuel:octane_98| | | | | |last|
+|gauge|1|combo|Gauge|Gauge| | |gauge| | | | | |last|
+|generator/method|1|combo|Method|Method| | |generator:method| | | | | |last|
+|generator/source|1|combo|Source|Source| | |generator:source| | | | | |last|
+|generator/type|1|combo|Type|Type| | |generator:type| | | | | |last|
+|golf_hole|1|text|Reference|Reference| | |ref| | | |Hole number (1-18)|Hole number (1-18)|last|
+|handicap|1|number|Handicap|Handicap| | |handicap| | | |1-18|1-18|last|
+|highway|1|typeCombo|Type|Type| | |highway| | | | | |last|
+|historic|1|typeCombo|Type|Type| | |historic| | | | | |last|
+|hoops|1|number|Hoops|Hoops| | |hoops| | | |1, 2, 4...|1, 2, 4...|last|
+|iata|1|text|IATA|IATA| | |iata| | | | | |last|
+|icao|1|text|ICAO|ICAO| | |icao| | | | | |last|
+|incline|1|combo|Incline|Incline| | |incline| | | | | |last|
+|information|1|typeCombo|Type|Type| | |information| | | | | |last|
+|internet_access|1|combo|Internet Access|Internet Access| | |internet_access|yes|Yes|Yes| | |last|
+|internet_access|2|combo| | | | | |no|No|No| | |last|
+|internet_access|3|combo| | | | | |wlan|Wifi|Wifi| | |last|
+|internet_access|4|combo| | | | | |wired|Wired|Wired| | |last|
+|internet_access|5|combo| | | | | |terminal|Terminal|Terminal| | |last|
+|lamp_type|1|combo|Type|Type| | |lamp_type| | | | | |last|
+|landuse|1|typeCombo|Type|Type| | |landuse| | | | | |last|
+|lanes|1|number|Lanes|Lanes| | |lanes| | | |1, 2, 3...|1, 2, 3...|last|
+|layer|1|combo|Layer|Layer| | |layer| | | | | |last|
+|leisure|1|typeCombo|Type|Type| | |leisure| | | | | |last|
+|length|1|number|Length (Meters)|Length (Meters)| | |length| | | | | |last|
+|levels|1|number|Levels|Levels| | |building:levels| | | |2, 4, 6...|2, 4, 6...|last|
+|lit|1|check|Lit|Lit| | |lit| | | | | |last|
+|location|1|combo|Location|Location| | |location| | | | | |last|
+|man_made|1|typeCombo|Type|Type| | |man_made| | | | | |last|
+|maxspeed|1|maxspeed|Speed Limit|Speed Limit| | |maxspeed| | | |40, 50, 60...|40, 50, 60...|last|
+|mtb/scale|1|combo|Mountain Biking Difficulty|Mountain Biking Difficulty| | |mtb:scale|0|0: Solid gravel/packed earth, no obstacles, wide curves|0: Solid gravel/packed earth, no obstacles, wide curves|0, 1, 2, 3...|0, 1, 2, 3...|last|
+|mtb/scale|2|combo| | | | | |1|1: Some loose surface, small obstacles, wide curves|1: Some loose surface, small obstacles, wide curves| | |last|
+|mtb/scale|3|combo| | | | | |2|2: Much loose surface, large obstacles, easy hairpins|2: Much loose surface, large obstacles, easy hairpins| | |last|
+|mtb/scale|4|combo| | | | | |3|3: Slippery surface, large obstacles, tight hairpins|3: Slippery surface, large obstacles, tight hairpins| | |last|
+|mtb/scale|5|combo| | | | | |4|4: Loose surface or boulders, dangerous hairpins|4: Loose surface or boulders, dangerous hairpins| | |last|
+|mtb/scale|6|combo| | | | | |5|5: Maximum difficulty, boulder fields, landslides|5: Maximum difficulty, boulder fields, landslides| | |last|
+|mtb/scale|7|combo| | | | | |6|6: Not rideable except by the very best mountain bikers|6: Not rideable except by the very best mountain bikers| | |last|
+|mtb/scale/imba|1|combo|IMBA Trail Difficulty|IMBA Trail Difficulty| | |mtb:scale:imba|0|Easiest (white circle)|Easiest (white circle)|Easy, Medium, Difficult...|Easy, Medium, Difficult...|last|
+|mtb/scale/imba|2|combo| | | | | |1|Easy (green circle)|Easy (green circle)| | |last|
+|mtb/scale/imba|3|combo| | | | | |2|Medium (blue square)|Medium (blue square)| | |last|
+|mtb/scale/imba|4|combo| | | | | |3|Difficult (black diamond)|Difficult (black diamond)| | |last|
+|mtb/scale/imba|5|combo| | | | | |4|Extremely Difficult (double black diamond)|Extremely Difficult (double black diamond)| | |last|
+|mtb/scale/uphill|1|combo|Mountain Biking Uphill Difficulty|Mountain Biking Uphill Difficulty| | |mtb:scale:uphill|0|0: Avg. incline <10%, gravel/packed earth, no obstacles|0: Avg. incline <10%, gravel/packed earth, no obstacles|0, 1, 2, 3...|0, 1, 2, 3...|last|
+|mtb/scale/uphill|2|combo| | | | | |1|1: Avg. incline <15%, gravel/packed earth, few small objects|1: Avg. incline <15%, gravel/packed earth, few small objects| | |last|
+|mtb/scale/uphill|3|combo| | | | | |2|2: Avg. incline <20%, stable surface, fistsize rocks/roots|2: Avg. incline <20%, stable surface, fistsize rocks/roots| | |last|
+|mtb/scale/uphill|4|combo| | | | | |3|3: Avg. incline <25%, variable surface, fistsize rocks/branches|3: Avg. incline <25%, variable surface, fistsize rocks/branches| | |last|
+|mtb/scale/uphill|5|combo| | | | | |4|4: Avg. incline <30%, poor condition, big rocks/branches|4: Avg. incline <30%, poor condition, big rocks/branches| | |last|
+|mtb/scale/uphill|6|combo| | | | | |5|5: Very steep, bike generally needs to be pushed or carried|5: Very steep, bike generally needs to be pushed or carried| | |last|
+|name|1|localized|Name|Name| | |name| | | |Common name (if any)|Common name (if any)|last|
+|natural|1|typeCombo|Natural|Natural| | |natural| | | | | |last|
+|network|1|text|Network|Network| | |network| | | | | |last|
+|note|1|textarea|Note|Note|note|true|note| | | | | |last|
+|office|1|typeCombo|Type|Type| | |office| | | | | |last|
+|oneway|1|check|One Way|One Way| | |oneway| | | | | |last|
+|oneway_yes|1|check|One Way|One Way| | |oneway| | | | | |last|
+|opening_hours|1|text|Hours|Hours| | |opening_hours| | | | | |last|
+|operator|1|text|Operator|Operator| | |operator| | | | | |last|
+|par|1|number|Par|Par| | |par| | | |3, 4, 5...|3, 4, 5...|last|
+|park_ride|1|check|Park and Ride|Park and Ride| | |park_ride| | | | | |last|
+|parking|1|combo|Type|Type| | |parking|surface|Surface|Surface| | |last|
+|parking|2|combo| | | | | |multi-storey|Multilevel|Multilevel| | |last|
+|parking|3|combo| | | | | |underground|Underground|Underground| | |last|
+|parking|4|combo| | | | | |sheds|Sheds|Sheds| | |last|
+|parking|5|combo| | | | | |carports|Carports|Carports| | |last|
+|parking|6|combo| | | | | |garage_boxes|Garage Boxes|Garage Boxes| | |last|
+|parking|7|combo| | | | | |lane|Roadside Lane|Roadside Lane| | |last|
+|phone|1|tel|Phone|Phone|telephone|true|phone| | | |+31 42 123 4567|+31 42 123 4567|last|
+|piste/difficulty|1|combo|Difficulty|Difficulty| | |piste:difficulty|novice|Novice (instructional)|Novice (instructional)|Easy, Intermediate, Advanced...|Easy, Intermediate, Advanced...|last|
+|piste/difficulty|2|combo| | | | | |easy|Easy (green circle)|Easy (green circle)| | |last|
+|piste/difficulty|3|combo| | | | | |intermediate|Intermediate (blue square)|Intermediate (blue square)| | |last|
+|piste/difficulty|4|combo| | | | | |advanced|Advanced (black diamond)|Advanced (black diamond)| | |last|
+|piste/difficulty|5|combo| | | | | |expert|Expert (double black diamond)|Expert (double black diamond)| | |last|
+|piste/difficulty|6|combo| | | | | |freeride|Freeride (off-piste)|Freeride (off-piste)| | |last|
+|piste/difficulty|7|combo| | | | | |extreme|Extreme (climbing equipment required)|Extreme (climbing equipment required)| | |last|
+|piste/grooming|1|combo|Grooming|Grooming| | |piste:grooming|classic|Classic|Classic| | |last|
+|piste/grooming|2|combo| | | | | |mogul|Mogul|Mogul| | |last|
+|piste/grooming|3|combo| | | | | |backcountry|Backcountry|Backcountry| | |last|
+|piste/grooming|4|combo| | | | | |classic+skating|Classic and Skating|Classic and Skating| | |last|
+|piste/grooming|5|combo| | | | | |scooter|Scooter/Snowmobile|Scooter/Snowmobile| | |last|
+|piste/grooming|6|combo| | | | | |skating|Skating|Skating| | |last|
+|piste/type|1|typeCombo|Type|Type| | |piste:type| | | | | |last|
+|place|1|typeCombo|Type|Type| | |place| | | | | |last|
+|population|1|text|Population|Population| | |population| | | | | |last|
+|power|1|typeCombo|Type|Type| | |power| | | | | |last|
+|railway|1|typeCombo|Type|Type| | |railway| | | | | |last|
+|recycling/cans|1|check|Accepts Cans|Accepts Cans| | |recycling:cans| | | | | |last|
+|recycling/clothes|1|check|Accepts Clothes|Accepts Clothes| | |recycling:clothes| | | | | |last|
+|recycling/glass|1|check|Accepts Glass|Accepts Glass| | |recycling:glass| | | | | |last|
+|recycling/paper|1|check|Accepts Paper|Accepts Paper| | |recycling:paper| | | | | |last|
+|ref|1|text|Reference|Reference| | |ref| | | | | |last|
+|relation|1|combo|Type|Type| | |type| | | | | |last|
+|religion|1|combo|Religion|Religion| | |religion| | | | | |last|
+|restriction|1|combo|Type|Type| | |restriction| | | | | |last|
+|restrictions|1|restrictions|Turn Restrictions|Turn Restrictions|restrictions| | | | | | | |last|
+|route|1|combo|Type|Type| | |route| | | | | |last|
+|route_master|1|combo|Type|Type| | |route_master| | | | | |last|
+|sac_scale|1|combo|Hiking Difficulty|Hiking Difficulty| | |sac_scale|hiking|T1: Hiking|T1: Hiking|Mountain Hiking, Alpine Hiking...|Mountain Hiking, Alpine Hiking...|last|
+|sac_scale|2|combo| | | | | |mountain_hiking|T2: Mountain Hiking|T2: Mountain Hiking| | |last|
+|sac_scale|3|combo| | | | | |demanding_mountain_hiking|T3: Demanding Mountain Hiking|T3: Demanding Mountain Hiking| | |last|
+|sac_scale|4|combo| | | | | |alpine_hiking|T4: Alpine Hiking|T4: Alpine Hiking| | |last|
+|sac_scale|5|combo| | | | | |demanding_alpine_hiking|T5: Demanding Alpine Hiking|T5: Demanding Alpine Hiking| | |last|
+|sac_scale|6|combo| | | | | |difficult_alpine_hiking|T6: Difficult Alpine Hiking|T6: Difficult Alpine Hiking| | |last|
+|seasonal|1|check|Seasonal|Seasonal| | |seasonal| | | | | |last|
+|service|1|combo|Type|Type| | |service| | | | | |last|
+|service/bicycle/chaintool|1|check|Chain Tool|Chain Tool| | |service:bicycle:chaintool| | | | | |last|
+|service/bicycle/pump|1|check|Air Pump|Air Pump| | |service:bicycle:pump| | | | | |last|
+|shelter|1|check|Shelter|Shelter| | |shelter| | | | | |last|
+|shelter_type|1|combo|Type|Type| | |shelter_type| | | | | |last|
+|shop|1|typeCombo|Type|Type| | |shop| | | | | |last|
+|sloped_curb|1|combo|Sloped Curb|Sloped Curb| | |sloped_curb| | | | | |last|
+|smoking|1|combo|Smoking|Smoking| | |smoking|no|No smoking anywhere|No smoking anywhere|No, Separated, Yes...|No, Separated, Yes...|last|
+|smoking|2|combo| | | | | |separated|In smoking areas, not physically isolated|In smoking areas, not physically isolated| | |last|
+|smoking|3|combo| | | | | |isolated|In smoking areas, physically isolated|In smoking areas, physically isolated| | |last|
+|smoking|4|combo| | | | | |outside|Allowed outside|Allowed outside| | |last|
+|smoking|5|combo| | | | | |yes|Allowed everywhere|Allowed everywhere| | |last|
+|smoking|6|combo| | | | | |dedicated|Dedicated to smokers (e.g. smokers' club)|Dedicated to smokers (e.g. smokers' club)| | |last|
+|smoothness|1|combo|Smoothness|Smoothness| | |smoothness|excellent|Thin Rollers: rollerblade, skateboard|Thin Rollers: rollerblade, skateboard|Thin Rollers, Wheels, Off-Road...|Thin Rollers, Wheels, Off-Road...|last|
+|smoothness|2|combo| | | | | |good|Thin Wheels: racing bike|Thin Wheels: racing bike| | |last|
+|smoothness|3|combo| | | | | |intermediate|Wheels: city bike, wheelchair, scooter|Wheels: city bike, wheelchair, scooter| | |last|
+|smoothness|4|combo| | | | | |bad|Robust Wheels: trekking bike, car, rickshaw|Robust Wheels: trekking bike, car, rickshaw| | |last|
+|smoothness|5|combo| | | | | |very_bad|High Clearance: light duty off-road vehicle|High Clearance: light duty off-road vehicle| | |last|
+|smoothness|6|combo| | | | | |horrible|Off-Road: heavy duty off-road vehicle|Off-Road: heavy duty off-road vehicle| | |last|
+|smoothness|7|combo| | | | | |very_horrible|Specialized off-road: tractor, ATV|Specialized off-road: tractor, ATV| | |last|
+|smoothness|8|combo| | | | | |impassible|Impassible / No wheeled vehicle|Impassible / No wheeled vehicle| | |last|
+|social_facility_for|1|radio|People served|People served| | |social_facility:for| | | |Homeless, Disabled, Child, etc|Homeless, Disabled, Child, etc|last|
+|source|1|text|Source|Source|source|true|source| | | | | |last|
+|sport|1|combo|Sport|Sport| | |sport| | | | | |last|
+|sport_ice|1|combo|Sport|Sport| | |sport| | | | | |last|
+|sport_racing|1|combo|Sport|Sport| | |sport| | | | | |last|
+|structure|1|radio|Structure|Structure| | |bridge,tunnel,embankment,cutting,ford| | | |Unknown|Unknown|last|
+|studio_type|1|combo|Type|Type| | |type| | | | | |last|
+|substation|1|typeCombo|Type|Type| | |substation| | | | | |last|
+|supervised|1|check|Supervised|Supervised| | |supervised| | | | | |last|
+|surface|1|combo|Surface|Surface| | |surface| | | | | |last|
+|tactile_paving|1|check|Tactile Paving|Tactile Paving| | |tactile_paving| | | | | |last|
+|takeaway|1|combo|Takeaway|Takeaway| | |takeaway|yes|Yes|Yes|Yes, No, Takeaway Only...|Yes, No, Takeaway Only...|last|
+|takeaway|2|combo| | | | | |no|No|No| | |last|
+|takeaway|3|combo| | | | | |only|Takeaway Only|Takeaway Only| | |last|
+|toilets/disposal|1|combo|Disposal|Disposal| | |toilets:disposal|flush|Flush|Flush| | |last|
+|toilets/disposal|2|combo| | | | | |pitlatrine|Pit/Latrine|Pit/Latrine| | |last|
+|toilets/disposal|3|combo| | | | | |chemical|Chemical|Chemical| | |last|
+|toilets/disposal|4|combo| | | | | |bucket|Bucket|Bucket| | |last|
+|tourism|1|typeCombo|Type|Type| | |tourism| | | | | |last|
+|towertype|1|combo|Tower type|Tower type| | |tower:type| | | | | |last|
+|tracktype|1|combo|Track Type|Track Type| | |tracktype|grade1|Solid: paved or heavily compacted hardcore surface|Solid: paved or heavily compacted hardcore surface|Solid, Mostly Solid, Soft...|Solid, Mostly Solid, Soft...|last|
+|tracktype|2|combo| | | | | |grade2|Mostly Solid: gravel/rock with some soft material mixed in|Mostly Solid: gravel/rock with some soft material mixed in| | |last|
+|tracktype|3|combo| | | | | |grade3|Even mixture of hard and soft materials|Even mixture of hard and soft materials| | |last|
+|tracktype|4|combo| | | | | |grade4|Mostly Soft: soil/sand/grass with some hard material mixed in|Mostly Soft: soil/sand/grass with some hard material mixed in| | |last|
+|tracktype|5|combo| | | | | |grade5|Soft: soil/sand/grass|Soft: soil/sand/grass| | |last|
+|trail_visibility|1|combo|Trail Visibility|Trail Visibility| | |trail_visibility|excellent|Excellent: unambiguous path or markers everywhere|Excellent: unambiguous path or markers everywhere|Excellent, Good, Bad...|Excellent, Good, Bad...|last|
+|trail_visibility|2|combo| | | | | |good|Good: markers visible, sometimes require searching|Good: markers visible, sometimes require searching| | |last|
+|trail_visibility|3|combo| | | | | |intermediate|Intermediate: few markers, path mostly visible|Intermediate: few markers, path mostly visible| | |last|
+|trail_visibility|4|combo| | | | | |bad|Bad: no markers, path sometimes invisible/pathless|Bad: no markers, path sometimes invisible/pathless| | |last|
+|trail_visibility|5|combo| | | | | |horrible|Horrible: often pathless, some orientation skills required|Horrible: often pathless, some orientation skills required| | |last|
+|trail_visibility|6|combo| | | | | |no|No: pathless, excellent orientation skills required|No: pathless, excellent orientation skills required| | |last|
+|tree_type|1|combo|Type|Type| | |type| | | | | |last|
+|trees|1|combo|Trees|Trees| | |trees| | | | | |last|
+|tunnel|1|combo|Tunnel|Tunnel| | |tunnel| | | | | |last|
+|vending|1|combo|Type of Goods|Type of Goods| | |vending| | | | | |last|
+|water|1|combo|Type|Type| | |water| | | | | |last|
+|waterway|1|typeCombo|Type|Type| | |waterway| | | | | |last|
+|website|1|url|Website|Website|website|true|website| | | |http://example.com/|http://example.com/|last|
+|wetland|1|combo|Type|Type| | |wetland| | | | | |last|
+|wheelchair|1|radio|Wheelchair Access|Wheelchair Access|wheelchair|true|wheelchair| | | | | |last|
+|width|1|number|Width (Meters)|Width (Meters)| | |width| | | | | |last|
+|wikipedia|1|wikipedia|Wikipedia|Wikipedia|wikipedia|true|wikipedia| | | | | |last|
+|wood|1|combo|Type|Type| | |wood| | | | | |last|

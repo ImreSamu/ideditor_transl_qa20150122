@@ -1,0 +1,145 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| কবরখানা
+| Graveyard
+| amenity/grave_yard
+|  
+| cemetery
+| amenity=grave_yard
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| কবরখানা
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| ক্রসিং
+| Crossing
+| footway/crossing
+|  
+|  
+| highway=footway
+| footway=crossing
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| ক্রসিং
+| Crossing
+| highway/crossing
+|  
+|  
+| highway=crossing
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| প্রশাসনিক সীমানা
+| Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| প্রশাসনিক সীমানা
+| Administrative Boundary
+| type/boundary/administrative
+|  
+| boundary
+| type=boundary
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| সাইকেল-এর রাস্তা
+| Cycle Path
+| highway/cycleway
+|  
+| highway-cycleway
+| highway=cycleway
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| সাইকেল-এর রাস্তা
+| Cycle Route
+| type/route/bicycle
+|  
+| route-bicycle
+| type=route
+| route=bicycle
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|}

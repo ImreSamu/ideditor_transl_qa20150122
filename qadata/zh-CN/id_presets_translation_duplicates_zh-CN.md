@@ -1,0 +1,35 @@
+|nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+|人行横道|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
+|人行横道|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
+|人行道|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
+|人行道|Sidewalk|footway/sidewalk| | |highway=footway|footway=sidewalk| | | | |line| | | |
+|体育场|Sport Pitch|leisure/pitch| |pitch|leisure=pitch| | | | |area| |point| | |
+|体育场|Stadium|leisure/stadium| |pitch|leisure=stadium| | | | |area| |point| | |
+|公交车站|Bus Stop|highway/bus_stop| |bus|highway=bus_stop| | | | | | |point|vertex| |
+|公交车站|Bus Station|amenity/bus_station| |bus|amenity=bus_station| | | | |area| |point| | |
+|墓地|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
+|墓地|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|墓地|Churchyard|landuse/churchyard| | |landuse=churchyard| | | | |area| | | | |
+|建筑物|Building|building| |building|building=*| | | | |area| | | | |
+|建筑物|Construction|landuse/construction| | |landuse=construction| | | | |area| |point| | |
+|教堂|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|教堂|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
+|村庄|Village|place/village| |village|place=village| | | | |area| |point| | |
+|村庄|Hamlet|place/hamlet| |triangle-stroked|place=hamlet| | | | |area| |point| | |
+|沟|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
+|沟|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
+|码头|Pier|man_made/pier| | |man_made=pier| | | | |area|line| | | |
+|码头|Marina|leisure/marina| |harbor|leisure=marina| | | | |area| |point|vertex| |
+|站台|Platform|public_transport/platform| | |public_transport=platform| | | | |area|line|point|vertex| |
+|站台|Railway Platform|railway/platform| | |railway=platform| | | | |area|line|point|vertex| |
+|纪念碑|Monument|historic/monument| |monument|historic=monument| | | | |area| |point|vertex| |
+|纪念碑|Memorial|historic/memorial| |monument|historic=memorial| | | | |area| |point|vertex| |
+|缆车|Funicular|railway/funicular| |railway-rail|railway=funicular| | | | | |line| | | |
+|缆车|Cable Car|aerialway/cable_car| | |aerialway=cable_car| | | | | |line| | | |
+|草地|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
+|草地|Grass|landuse/grass| | |landuse=grass| | | | |area| |point| | |
+|路口|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|路口|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
+|车库|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
+|车库|Garage|building/garage| |warehouse|building=garage| | | | |area| |point| | |

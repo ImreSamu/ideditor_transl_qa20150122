@@ -1,0 +1,49 @@
+{| class="wikitable"
+! style="font-weight: bold;" | nameTransl
+! style="font-weight: bold;" | nameEn
+! style="font-weight: bold;" | presetKey
+! style="font-weight: bold;" | searchable
+! style="font-weight: bold;" | icon
+! style="font-weight: bold;" | tags0
+! style="font-weight: bold;" | tags1
+! style="font-weight: bold;" | tags2
+! style="font-weight: bold;" | tags3
+! style="font-weight: bold;" | tags4
+! style="font-weight: bold;" | geometryArea
+! style="font-weight: bold;" | geometryLine
+! style="font-weight: bold;" | geometryPoint
+! style="font-weight: bold;" | geometryVertex
+! style="font-weight: bold;" | geometryRelation
+|-
+| కాలువ
+| Canal
+| waterway/canal
+|  
+| waterway-canal
+| waterway=canal
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| కాలువ
+| Stream
+| waterway/stream
+|  
+| waterway-stream
+| waterway=stream
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|}

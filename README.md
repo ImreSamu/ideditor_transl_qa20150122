@@ -1,4 +1,5 @@
-# ideditor_transl_qa20150122
+# ideditor_translation_test_reports
+
 iD Editor translations QA reports 
 
 This repo contains some basic prototype reports  helping [OpenStreetMap iD Editor](https://github.com/openstreetmap/iD) translators.
@@ -8,22 +9,23 @@ This is the alpha release
 quick tip:
 *  download this repo ;  see -> "Download ZIP"
 *  unzip 
-*  go  ./qadata_20150122/  and select your languages code.
+*  go  ./qadata/  and select your languages code.
 *  open the id_presets_translation_**.xlsx with  Excel or LibreOffice Calc
 *  examine sheets and analyse data with spreadsheet functions. ( Filter, see context ... )
 
 #Roadmap
 
 * testing reports
-* document node js program code - and release .
-* find some hosting website - and automate the process
+* document node js program code;  and release as open source
+* find some hosting website and automate the process ( refresh every hour )
 * ...
+
 
 
 
 # Example report files : 
 
-directory ./qadata_20150122/de/   ( de = German language  )
+directory ./qadata/de/   ( de = German language  )
 
 ##  id_jsondiff_v1.6.2_de.txt	   
    json diff file  "iD v1.6.2" and "latest transifex" (2015.01.2?)
