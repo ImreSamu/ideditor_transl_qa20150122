@@ -1,9 +1,0 @@
- {
-   presets: {
-     presets: {
--      landuse/farmland: {
--        name: "Terra de cultivo"
--      }
-     }
-   }
- }
