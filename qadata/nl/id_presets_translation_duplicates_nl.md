@@ -1,37 +1,37 @@
 |nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-|Bank|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
 |Bank|Bank|amenity/bank| |bank|amenity=bank| | | | |area| |point| | |
-|Begraafplaats|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Bank|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
 |Begraafplaats|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|Bestuurlijke grens|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
+|Begraafplaats|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |Bestuurlijke grens|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
-|Bruingoedwinkel|Electronics Store|shop/electronics| |shop|shop=electronics| | | | |area| |point| | |
-|Bruingoedwinkel|Hifi Store|shop/hifi| |shop|shop=hifi| | | | |area| |point| | |
+|Bestuurlijke grens|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
+|Bunker|Sand Trap|golf/bunker| |golf|golf=bunker|natural=sand| | | |area| | | | |
+|Bunker|Bunker|military/bunker| | |military=bunker| | | | |area| |point|vertex| |
 |Café|Pub|amenity/pub| |beer|amenity=pub| | | | |area| |point| | |
 |Café|Bar|amenity/bar| |bar|amenity=bar| | | | |area| |point| | |
 |Garages|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
 |Garages|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |In onbruik geraakte spoorbaan|Disused Railway|railway/disused| |railway-disused|railway=disused| | | | | |line| | | |
 |In onbruik geraakte spoorbaan|Abandoned Railway|railway/abandoned| |railway-abandoned|railway=abandoned| | | | | |line| | | |
-|Kerk|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |Kerk|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|Kerk|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |Lijn|Route Master|type/route_master| |route-master|type=route_master| | | | | | | | |relation|
 |Lijn|Line|line| | | | | | | | |line| | | |
-|Loodgieter|Tinsmith|craft/tinsmith| |marker-stroked|craft=tinsmith| | | | |area| |point| | |
 |Loodgieter|Plumber|craft/plumber| |marker-stroked|craft=plumber| | | | |area| |point| | |
+|Loodgieter|Tinsmith|craft/tinsmith| |marker-stroked|craft=tinsmith| | | | |area| |point| | |
 |Perron|Railway Platform|railway/platform| | |railway=platform| | | | |area|line|point|vertex| |
 |Perron|Platform|public_transport/platform| | |public_transport=platform| | | | |area|line|point|vertex| |
 |Plaats|Place|place| | |place=*| | | | |area| |point|vertex| |
 |Plaats|Town|place/town| |town|place=town| | | | |area| |point| | |
-|Sloot, greppel of gracht|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |Sloot, greppel of gracht|Drain|waterway/drain| |waterway-stream|waterway=drain| | | | | |line| | | |
-|Veerboottraject|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
+|Sloot, greppel of gracht|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |Veerboottraject|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
-|Vliegveld|Airfield|military/airfield| |airfield|military=airfield| | | | |area| |point|vertex| |
+|Veerboottraject|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |Vliegveld|Aeroway|aeroway| |airport|aeroway=*| | | | |area|line|point|vertex| |
-|Voetpad|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
+|Vliegveld|Airfield|military/airfield| |airfield|military=airfield| | | | |area| |point|vertex| |
 |Voetpad|Sidewalk|footway/sidewalk| | |highway=footway|footway=sidewalk| | | | |line| | | |
+|Voetpad|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
 |Zebrapad|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |Zebrapad|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
 |Zebrapad|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |

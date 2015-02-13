@@ -1355,14 +1355,14 @@
 |  
 | Bicycle Repair Station
 | Bicycle Repair Station
+| Fietsherstelpunt
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | bike
-|  
-| 0
+| fietsonderhoud, onderhoud, banden, fietsbanden, fietspomp, fietsherstelstation, fietsenmaker
+| 92
 |  
 | bicycle
 |  
@@ -1541,8 +1541,8 @@
 |  
 |  
 | coffee,tea
-| Cafetaria, tea-room, tea room, koffiehuis, koffie, thee, vieruurtje, cake, taart
-| 80
+| cafetaria, tea-room, tearoom, tea room, koffiehuis, koffie, thee, vieruurtje, cake, taart
+| 89
 |  
 | cafe
 |  
@@ -1985,14 +1985,14 @@
 |  
 | Community Center
 | Community Center
+| Buurthuis
+| 9
 |  
-| 0
 |  
 |  
-| notTranslated
 | event,hall
-|  
-| 0
+| feestzaal, parochiezaal, gemeenschapshuis
+| 41
 |  
 | town-hall
 |  
@@ -2660,11 +2660,11 @@
 |  
 | Preschool/Kindergarten Grounds
 | Preschool/Kindergarten Grounds
+| Gebied van Crèche/Kleuterschool
+| 31
 |  
-| 0
 |  
 |  
-| notTranslated
 | kindergarden,pre-school
 |  
 | 0
@@ -3251,8 +3251,8 @@
 |  
 |  
 | letter,post
-| Brievenbus
-| 10
+| postbus
+| 7
 |  
 | post
 |  
@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -5363,7 +5363,7 @@
 | Bunker
 | 6
 |  
-|  
+| duplicate
 |  
 | 
 | bunker, oorlog, leger, verdedigingswerk, beton, bombardement, beschieting, kazemat, schuilkelder
@@ -6215,11 +6215,11 @@
 |  
 | Preschool/Kindergarten Building
 | Preschool/Kindergarten Building
+| Gebouw van Crèche/Kleuterschool
+| 31
 |  
-| 0
 |  
 |  
-| notTranslated
 | kindergarden,pre-school
 |  
 | 0
@@ -6671,8 +6671,8 @@
 |  
 |  
 | 
-|  
-| 0
+| station, NMBS, NS, spoorwegstation
+| 34
 |  
 | building
 |  
@@ -7340,14 +7340,14 @@
 |  
 | Dressmaker
 | Dressmaker
+| Kleermaker voornamelijk voor vrouwen
+| 36
 |  
-| 0
 |  
 |  
-| notTranslated
 | seamstress
-|  
-| 0
+| kleermaker, kleedjes, jurken, maatwerk, kleren, kledij
+| 54
 |  
 | clothing-store
 |  
@@ -7841,8 +7841,8 @@
 |  
 |  
 | 
-| opticien, brillenwinkel, brillenwinkel, lenzen, bril, zonnebril, oogarts
-| 72
+| brillenwinkel, brillenwinkel, lenzen, bril, zonnebril, oogarts
+| 62
 |  
 | marker-stroked
 |  
@@ -8606,8 +8606,8 @@
 |  
 |  
 | clothes,suit
-|  
-| 0
+| maatwerk, kleren, kledij, kostuum
+| 33
 |  
 | clothing-store
 |  
@@ -9320,14 +9320,14 @@
 |  
 | Sand Trap
 | Sand Trap
+| Bunker
+| 6
 |  
-| 0
+| duplicate
 |  
-|  
-| notTranslated
 | hazard,bunker
-|  
-| 0
+| zand, golf
+| 10
 |  
 | golf
 |  
@@ -9365,14 +9365,14 @@
 |  
 | Fairway
 | Fairway
+| Fairway
+| 7
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| golf
+| 4
 |  
 | golf
 |  
@@ -9410,14 +9410,14 @@
 |  
 | Putting Green
 | Putting Green
+| Putting Green
+| 13
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| golf
+| 4
 |  
 | golf
 |  
@@ -9455,14 +9455,14 @@
 |  
 | Golf Hole
 | Golf Hole
+| Golf Hole
+| 9
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| gat, doel
+| 9
 |  
 | golf
 |  
@@ -9500,14 +9500,14 @@
 |  
 | Lateral Water Hazard
 | Lateral Water Hazard
+| Zijdelingse Waterpartij
+| 23
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| golf
+| 4
 |  
 | golf
 |  
@@ -9545,14 +9545,14 @@
 |  
 | Rough
 | Rough
+| Rough
+| 5
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| golf
+| 4
 |  
 | golf
 |  
@@ -9590,14 +9590,14 @@
 |  
 | Tee Box
 | Tee Box
+| Tee-Box
+| 7
 |  
-| 0
 |  
 |  
-| notTranslated
 | teeing ground
-|  
-| 0
+| golf
+| 4
 |  
 | golf
 |  
@@ -9635,14 +9635,14 @@
 |  
 | Water Hazard
 | Water Hazard
+| Waterpartij
+| 11
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| golf
+| 4
 |  
 | golf
 |  
@@ -10490,14 +10490,14 @@
 |  
 | Rest Area
 | Rest Area
+| Eenvoudige Stopplaats aan Autoweg met Niet Zo Veel Faciliteiten
+| 63
 |  
-| 0
 |  
 |  
-| notTranslated
 | rest stop
-| verzorgingsplaats, autoweg, autosnelweg, snelweg, aire, servicestation, picknick
-| 80
+| aire, verzorgingsplaats, autoweg, autosnelweg, snelweg, autostrade, servicestation, picknick, tankstation, wegrestaurant, rustplaats, parkeerplaats, parking, afrit
+| 163
 |  
 |  
 |  
@@ -10940,14 +10940,14 @@
 |  
 | Service Area
 | Service Area
+| Stopplaats aan Autoweg met Veel Faciliteiten
+| 44
 |  
-| 0
 |  
 |  
-| notTranslated
 | services,travel plaza,service station
-| verzorgingsplaats, autoweg, autosnelweg, snelweg, aire, servicestation, picknick
-| 80
+| aire, verzorgingsplaats, autoweg, autosnelweg, snelweg, autostrade, servicestation, picknick, tankstation, wegrestaurant, rustplaats, parkeerplaats, parking, afrit
+| 163
 |  
 |  
 |  
@@ -11075,14 +11075,14 @@
 |  
 | Street Lamp
 | Street Lamp
-| Straatverlichting
-| 17
+| Straatlantaarn
+| 14
 |  
 |  
 |  
 | streetlight,street light,lamp,light,gaslight
-|  
-| 0
+| straatverlichting, straatlamp, lantaarnpaal
+| 43
 |  
 |  
 |  
@@ -11126,8 +11126,8 @@
 |  
 |  
 | 
-|  
-| 0
+| aire, wegrestaurant, autostrade, autosnelweg, rustplaats, parkeerplaats, parking
+| 80
 |  
 | highway-tertiary
 |  
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,13 +12153,13 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| Kantoren
-| 8
+| Commercial Area
+| Commercial Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
 |  
 | 0
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,10 +12243,10 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
-| Landbouwgrond (niet gebruiken)
-| 30
+| Farmland
+| Farmland
+| Landbouwgrond
+| 13
 |  
 |  
 |  
@@ -12288,16 +12288,16 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
 | Landbouwgrond
 | 13
 |  
 |  
 |  
-| farmland
-| boerderij, hoeve, landbouw, veld, akker, weide
-| 46
+| 
+| akker, veld, agricultuur, boerderij
+| 35
 |  
 | farm
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,13 +12513,13 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
-| Industriegebied
-| 15
+| Industrial Area
+| Industrial Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
 |  
 | 0
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,13 +12648,13 @@
 | landuse
 | military
 |  
-| Military
-| Military
-| Militair Domein
-| 15
+| Military Area
+| Military Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
 |  
 | 0
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,13 +12783,13 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
-| Woongebied
-| 10
+| Residential Area
+| Residential Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
 |  
 | 0
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,13 +12828,13 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
-| Detailhandel
-| 12
+| Retail Area
+| Retail Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
 |  
 | 0
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12920,8 +12920,8 @@
 |  
 | Leisure
 | Leisure
-| Vrijetijd
-| 9
+| Vrije tijd
+| 10
 |  
 |  
 |  
@@ -13280,11 +13280,11 @@
 |  
 | Nature Reserve
 | Nature Reserve
+| Natuurreservaat
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | protected,wildlife
 |  
 | 0
@@ -13820,14 +13820,14 @@
 |  
 | Running Track
 | Running Track
+| Looppiste
+| 9
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| atletiekbaan, stadion, stadium, hardlopen, hordenloop
+| 53
 |  
 | pitch
 |  
@@ -14045,14 +14045,14 @@
 |  
 | Racetrack (non-Motorsport)
 | Racetrack (non-Motorsport)
+| Racepiste (niet voor Gemotoriseerde Voertuigen)
+| 47
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| atletiekbaan, stadion, stadium, hardlopen, hordenloop, fietsen, parcours
+| 72
 |  
 | highway-road
 |  
@@ -14903,7 +14903,7 @@
 | Bunker
 | 6
 |  
-|  
+| duplicate
 |  
 | 
 | bunker
@@ -15125,14 +15125,14 @@
 |  
 | Cave Entrance
 | Cave Entrance
+| Ingang van Grot
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| spelonk
+| 7
 |  
 |  
 |  
@@ -16295,11 +16295,11 @@
 |  
 | Financial Office
 | Financial Office
+| Financieel Kantoor
+| 18
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -16430,14 +16430,14 @@
 |  
 | IT Office
 | IT Office
+| Kantoor van computerspecialist
+| 30
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| computer, elektronica, hardware, software, IT, ICT
+| 50
 |  
 | commercial
 |  
@@ -16475,14 +16475,14 @@
 |  
 | Law Office
 | Law Office
+| Advocatenkantoor
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| advocatenbureau, wetsgeleerden
+| 30
 |  
 | commercial
 |  
@@ -17105,8 +17105,8 @@
 |  
 | Isolated Dwelling
 | Isolated Dwelling
-| Alleenstaande bebouwing
-| 23
+| Alleenstaande Woning
+| 20
 |  
 |  
 |  
@@ -17195,11 +17195,11 @@
 |  
 | Neighborhood
 | Neighborhood
+| Buurt
+| 5
 |  
-| 0
 |  
 |  
-| notTranslated
 | neighbourhood
 |  
 | 0
@@ -17645,8 +17645,8 @@
 |  
 | Substation
 | Substation
-| Klein onderstation
-| 18
+| [verouderd] Klein onderstation
+| 30
 |  
 |  
 |  
@@ -17690,14 +17690,14 @@
 |  
 | Substation
 | Substation
+| Transformatiestation
+| 20
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| stroom, elektriciteit, energievoorzieningen, transformator, distributie, transformatiecabine, laagspanning, hoogspanning, voltage, spanning
+| 139
 |  
 |  
 |  
@@ -18725,14 +18725,14 @@
 |  
 | Anime Shop
 | Anime Shop
+| Animewinkel
+| 11
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| cosplay, manga, japans, strip
+| 29
 |  
 | shop
 |  
@@ -18770,14 +18770,14 @@
 |  
 | Antiques Shop
 | Antiques Shop
+| Antiquair
+| 9
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| antiek, winkel
+| 14
 |  
 | shop
 |  
@@ -18815,14 +18815,14 @@
 |  
 | Art Gallery
 | Art Gallery
+| Kunstgalerie
+| 12
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| galerij, kunstgalerij, galerie, tentoonstelling, exposé
+| 55
 |  
 | art-gallery
 |  
@@ -18860,14 +18860,14 @@
 |  
 | Baby Goods Store
 | Baby Goods Store
+| Babyartikelenwinkel
+| 19
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| kledij, fopspeen, tut, knuffels
+| 31
 |  
 | shop
 |  
@@ -18905,14 +18905,14 @@
 |  
 | Bag/Luggage Store
 | Bag/Luggage Store
+| Zak-/Reiskofferwinkel
+| 21
 |  
-| 0
 |  
 |  
-| notTranslated
 | handbag,purse
-|  
-| 0
+| zakken, bagage, koffer
+| 22
 |  
 | shop
 |  
@@ -18995,11 +18995,11 @@
 |  
 | Bathroom Furnishing Store
 | Bathroom Furnishing Store
+| Badkamermeubelwinkel
+| 20
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -19085,11 +19085,11 @@
 |  
 | Bedding/Mattress Store
 | Bedding/Mattress Store
+| Bed-/Matrassenwinkel
+| 20
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -19940,11 +19940,11 @@
 |  
 | Copy Store
 | Copy Store
+| Copyshop
+| 8
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -19985,14 +19985,14 @@
 |  
 | Cosmetics Store
 | Cosmetics Store
+| Cosmeticawinkel
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| parfumerie
+| 10
 |  
 | shop
 |  
@@ -20030,11 +20030,11 @@
 |  
 | Arts and Crafts Store
 | Arts and Crafts Store
+| Schilder- en Tekengereedschapswinkel
+| 36
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -20075,11 +20075,11 @@
 |  
 | Curtain Store
 | Curtain Store
+| Gordijnenwinkel
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | drape*,window
 |  
 | 0
@@ -20120,11 +20120,11 @@
 |  
 | Dairy Store
 | Dairy Store
+| Zuivelwinkel
+| 12
 |  
-| 0
 |  
 |  
-| notTranslated
 | milk,egg,cheese
 |  
 | 0
@@ -20300,14 +20300,14 @@
 |  
 | Dry Cleaner
 | Dry Cleaner
+| Stomerij
+| 8
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| droogkuis, nieuwkuis
+| 20
 |  
 | shop
 |  
@@ -20345,14 +20345,14 @@
 |  
 | Electronics Store
 | Electronics Store
-| Bruingoedwinkel
-| 15
+| Huishoudtoestellen-/Witgoedwinkel
+| 33
 |  
-| duplicate
+|  
 |  
 | appliance,audio,computer,tv
-|  
-| 0
+| huishoudelektro, witgoed, elektro, electro, wasmachine, keuken, vaatwasmachine, afwasmachine
+| 92
 |  
 | shop
 |  
@@ -20390,14 +20390,14 @@
 |  
 | Erotic Store
 | Erotic Store
+| Seksshop
+| 8
 |  
-| 0
 |  
 |  
-| notTranslated
 | sex,porn
-|  
-| 0
+| erotiek, sex shop
+| 17
 |  
 | shop
 |  
@@ -20435,14 +20435,14 @@
 |  
 | Fabric Store
 | Fabric Store
+| Stofwinkel
+| 10
 |  
-| 0
 |  
 |  
-| notTranslated
 | sew
-|  
-| 0
+| kledij, naaien
+| 14
 |  
 | shop
 |  
@@ -20525,14 +20525,14 @@
 |  
 | Fashion Store
 | Fashion Store
+| Modewinkel
+| 10
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| kledij, kleding
+| 15
 |  
 | shop
 |  
@@ -20660,14 +20660,14 @@
 |  
 | Framing Shop
 | Framing Shop
+| Kaderwinkel
+| 11
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| schilderijen, kunst, kadrering
+| 30
 |  
 | shop
 |  
@@ -20750,14 +20750,14 @@
 |  
 | Furnace Store
 | Furnace Store
+| Verwarmingswinkel
+| 17
 |  
-| 0
 |  
 |  
-| notTranslated
 | oven,stove
-|  
-| 0
+| CV, centrale verwarming
+| 23
 |  
 | shop
 |  
@@ -21065,14 +21065,14 @@
 |  
 | Hearing Aids Store
 | Hearing Aids Store
+| Hoorapparatenwinkel
+| 19
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| doof, slechthorend, oor, oren, hoorhulp
+| 39
 |  
 | shop
 |  
@@ -21110,14 +21110,14 @@
 |  
 | Herbalist
 | Herbalist
+| Herbalist
+| 9
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| homeopathie
+| 11
 |  
 | shop
 |  
@@ -21155,14 +21155,14 @@
 |  
 | Hifi Store
 | Hifi Store
-| Bruingoedwinkel
-| 15
+| Hifi-/Bruingoedwinkel
+| 21
 |  
-| duplicate
+|  
 |  
 | stereo,video
-|  
-| 0
+| audio, bruingoed, hifi, stereoinstallatie
+| 41
 |  
 | shop
 |  
@@ -21194,18 +21194,18 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
+| Houseware Store
+| Houseware Store
 |  
 | 0
 |  
 |  
 | notTranslated
-| home
+| home,household
 |  
 | 0
 |  
@@ -21214,7 +21214,7 @@
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  
@@ -21380,11 +21380,11 @@
 |  
 | Kitchen Design Store
 | Kitchen Design Store
+| Keukenontwerpwinkel
+| 19
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -21470,14 +21470,14 @@
 |  
 | Leather Store
 | Leather Store
+| Lederwinkel
+| 11
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| handtassen, leerwinkel, schoenen
+| 32
 |  
 | shop
 |  
@@ -21650,14 +21650,14 @@
 |  
 | Massage Shop
 | Massage Shop
+| Massagewinkel
+| 13
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| olie
+| 4
 |  
 | shop
 |  
@@ -21785,14 +21785,14 @@
 |  
 | Money Lender
 | Money Lender
+| Particuliere Gelduitleendienst
+| 30
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| pandhuis, lommerd, lombard, kredietinstelling, lenen, geld, bank van lening
+| 75
 |  
 | bank
 |  
@@ -21965,14 +21965,14 @@
 |  
 | Newspaper/Magazine Shop
 | Newspaper/Magazine Shop
+| Kranten-/Tijdschriftwinkel
+| 26
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| nieuws, kranten, tijdschriften, magazines
+| 41
 |  
 | shop
 |  
@@ -22016,8 +22016,8 @@
 |  
 |  
 | eye,glasses
-|  
-| 0
+| brillenwinkel, brillenwinkel, lenzen, bril, zonnebril, oogarts
+| 62
 |  
 | shop
 |  
@@ -22055,11 +22055,11 @@
 |  
 | Organic Goods Store
 | Organic Goods Store
+| Winkel met Organische Goederen [verouderde tag, gebruik in de plaats het echte type winkel en de tag organic=yes]
+| 113
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -22100,14 +22100,14 @@
 |  
 | Outdoors Store
 | Outdoors Store
+| Winkel voor Benodigdheden voor Buitenactiviteiten
+| 49
 |  
-| 0
 |  
 |  
-| notTranslated
 | camping,climbing,hiking
-|  
-| 0
+| trekking, fietsen, hike, gps, kamperen, tent
+| 44
 |  
 | shop
 |  
@@ -22190,14 +22190,14 @@
 |  
 | Pawn Shop
 | Pawn Shop
+| Bank van lening
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| pandhuis, lommerd, lombard, kredietinstelling, lenen, geld
+| 58
 |  
 | shop
 |  
@@ -22370,14 +22370,14 @@
 |  
 | Radio/Electronic Component Store
 | Radio/Electronic Component Store
+| Winkel voor Radio- en Elektronische Componenten
+| 47
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| radiotechniek, satelliet-TV
+| 27
 |  
 | shop
 |  
@@ -22460,14 +22460,14 @@
 |  
 | Scuba Diving Shop
 | Scuba Diving Shop
+| Duikwinkel
+| 10
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| diepzeeduiken, duiken, duiksport, scuba
+| 39
 |  
 | swimming
 |  
@@ -22550,14 +22550,14 @@
 |  
 | Consignment/Thrift Store
 | Consignment/Thrift Store
+| Tweedehandswinkel
+| 17
 |  
-| 0
 |  
 |  
-| notTranslated
 | secondhand,second hand,resale,thrift,used
-|  
-| 0
+| hergebruik, doorverkoop
+| 23
 |  
 | shop
 |  
@@ -22775,14 +22775,14 @@
 |  
 | Tailor
 | Tailor
+| Kleermaker
+| 10
 |  
-| 0
 |  
 |  
-| notTranslated
 | clothes,suit
-|  
-| 0
+| maatwerk, kleren, kledij, kostuum
+| 33
 |  
 | clothing-store
 |  
@@ -22820,11 +22820,11 @@
 |  
 | Tattoo Parlor
 | Tattoo Parlor
+| Tattoozetter
+| 12
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -22910,14 +22910,14 @@
 |  
 | Ticket Seller
 | Ticket Seller
+| Ticketverkoop
+| 13
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| toegangskaartjes, ticketjes
+| 27
 |  
 | shop
 |  
@@ -23180,14 +23180,14 @@
 |  
 | Vacuum Cleaner Store
 | Vacuum Cleaner Store
+| Stofzuigerwinkel
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| huishouden, schoonmaken, poetsen, stofzuigen, electro, elektro
+| 62
 |  
 | shop
 |  
@@ -23360,11 +23360,11 @@
 |  
 | Watersport/Swim Shop
 | Watersport/Swim Shop
+| Watersport-/Zwemwinkel
+| 22
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -23861,8 +23861,8 @@
 |  
 |  
 | B&B,Bed and Breakfast
-|  
-| 0
+| bed and breakfast, bed & breakfast, hotel
+| 41
 |  
 | lodging
 |  
@@ -25436,8 +25436,8 @@
 |  
 |  
 | 
-|  
-| 0
+| spoor, NMBS, NS
+| 15
 |  
 | route-train
 |  

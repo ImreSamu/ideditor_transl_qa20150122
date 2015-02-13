@@ -460,6 +460,7 @@
       "description__en": "Delete object permanently.",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "این ویژگی قابل حذف نیست زیرا کاملا دانلود نشده.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "حذف"
     },
@@ -1494,6 +1495,30 @@
         "label__transl": "مقیاس",
         "type": "combo"
       },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "options": {
+          "female__en": "Female",
+          "male__en": "Male",
+          "unisex__en": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
+      },
       "generator/method": {
         "key": "generator:method",
         "label": "Method",
@@ -2298,7 +2323,7 @@
           "excellent__en": "Thin Rollers: rollerblade, skateboard",
           "good__en": "Thin Wheels: racing bike",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
-          "impassible__en": "Impassible / No wheeled vehicle",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
           "very_horrible__en": "Specialized off-road: tractor, ATV"
@@ -2311,7 +2336,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -20631,7 +20656,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -24085,7 +24111,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24100,7 +24125,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24119,8 +24143,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24153,13 +24175,11 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "تجاری",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
         "tags": {
           "landuse": "commercial"
         },
@@ -24173,7 +24193,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24195,9 +24214,8 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "مزرعه",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "searchable": false,
         "tags": {
           "landuse": "farm"
@@ -24211,26 +24229,23 @@
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland"
+        "terms__en": ""
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24250,7 +24265,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24280,7 +24294,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24295,13 +24308,11 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "صنعتی",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
         "tags": {
           "landuse": "industrial"
         },
@@ -24326,7 +24337,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24343,9 +24353,8 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "نظامی",
+        "name": "Military Area",
+        "name__en": "Military Area",
         "tags": {
           "landuse": "military"
         },
@@ -24358,7 +24367,6 @@
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24374,7 +24382,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24389,13 +24396,11 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "مسکونی",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
         "tags": {
           "landuse": "residential"
         },
@@ -24405,13 +24410,11 @@
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "خرده فروشی",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
         "tags": {
           "landuse": "retail"
         },
@@ -24419,7 +24422,6 @@
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -34873,7 +34875,7 @@
         ],
         "terms__en": "stereo,video"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -34885,15 +34887,16 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household"
       },
       "shop/interior_decoration": {
         "fields": [

@@ -107,8 +107,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | Confiserie
@@ -523,7 +523,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-

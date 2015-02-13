@@ -80,6 +80,22 @@
 |  
 |-
 | Chodník
+| Sidewalk
+| footway/sidewalk
+|  
+|  
+| highway=footway
+| footway=sidewalk
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Chodník
 | Foot Path
 | highway/footway
 |  
@@ -95,19 +111,35 @@
 |  
 |  
 |-
-| Chodník
-| Sidewalk
-| footway/sidewalk
+| Garáže
+| Garages
+| landuse/garages
 |  
 |  
-| highway=footway
-| footway=sidewalk
+| landuse=garages
 |  
 |  
 |  
 |  
-| line
+| area
 |  
+|  
+|  
+|  
+|-
+| Garáže
+| Garages
+| building/garages
+|  
+| warehouse
+| building=garages
+|  
+|  
+|  
+|  
+| area
+|  
+| point
 |  
 |  
 |-
@@ -145,6 +177,22 @@
 |-
 | Kostol
 | Church
+| building/church
+|  
+| place-of-worship
+| building=church
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Kostol
+| Church
 | amenity/place_of_worship/christian
 |  
 | religious-christian
@@ -159,12 +207,12 @@
 |  
 |  
 |-
-| Kostol
-| Church
-| building/church
+| Krajčírstvo
+| Dressmaker
+| craft/dressmaker
 |  
-| place-of-worship
-| building=church
+| clothing-store
+| craft=dressmaker
 |  
 |  
 |  
@@ -172,6 +220,54 @@
 | area
 |  
 | point
+|  
+|  
+|-
+| Krajčírstvo
+| Tailor
+| shop/tailor
+|  
+| clothing-store
+| shop=tailor
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Obytná zóna
+| Residential Area
+| landuse/residential
+|  
+| building
+| landuse=residential
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| Obytná zóna
+| Living Street
+| highway/living_street
+|  
+| highway-living-street
+| highway=living_street
+|  
+|  
+|  
+|  
+|  
+| line
+|  
 |  
 |  
 |-

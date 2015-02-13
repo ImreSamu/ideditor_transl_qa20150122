@@ -5,5 +5,22 @@
 -        label: "Вид"
 -      }
      }
+     presets: {
+-      landuse/commercial: {
+-        name: "Търговия"
+-      }
+-      landuse/farm: {
+-        name: "Селско стопанство"
+-      }
+-      landuse/industrial: {
+-        name: "Индустрия"
+-      }
+-      landuse/residential: {
+-        name: "Жилищна територия"
+-      }
+-      landuse/retail: {
+-        name: "Търговия"
+-      }
+     }
    }
  }

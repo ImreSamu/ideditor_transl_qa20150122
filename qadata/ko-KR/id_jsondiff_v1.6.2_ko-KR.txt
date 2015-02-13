@@ -5,5 +5,16 @@
 -        label: "종류"
 -      }
      }
+     presets: {
+-      landuse/commercial: {
+-        name: "상업"
+-      }
+-      landuse/farm: {
+-        name: "경작 및 재배에 사용되는 농지"
+-      }
+-      landuse/industrial: {
+-        name: "공업"
+-      }
+     }
    }
  }

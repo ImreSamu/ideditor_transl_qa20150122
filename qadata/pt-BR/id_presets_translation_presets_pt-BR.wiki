@@ -1355,14 +1355,14 @@
 |  
 | Bicycle Repair Station
 | Bicycle Repair Station
+| Estação de conserto de bicicletas
+| 33
 |  
-| 0
 |  
 |  
-| notTranslated
 | bike
-|  
-| 0
+| Oficina de bicicleta, Conserto de bicicleta, Estação de reparo de bicicletas, Reparo de bicicletas
+| 98
 |  
 | bicycle
 |  
@@ -1940,14 +1940,14 @@
 |  
 | College Grounds
 | College Grounds
-| Área da faculdade
-| 17
+| Escola técnica
+| 14
 |  
 |  
 |  
 | university
-| Faculdade, Universidade, Ensino superior, Graduação
-| 51
+| Colégio técnico, Ensino profissionalizante, Educação profissional
+| 65
 |  
 | college
 |  
@@ -2570,14 +2570,14 @@
 |  
 | Grit Bin
 | Grit Bin
+| Caixa de sal
+| 12
 |  
-| 0
 |  
 |  
-| notTranslated
 | salt,sand
-|  
-| 0
+| Grit bin
+| 8
 |  
 |  
 |  
@@ -3380,14 +3380,14 @@
 |  
 | Public Bookcase
 | Public Bookcase
+| Estante pública
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | library,bookcrossing
-|  
-| 0
+| Biblioteca pública
+| 18
 |  
 | library
 |  
@@ -3515,14 +3515,14 @@
 |  
 | Register Office
 | Register Office
+| Cartório
+| 8
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| Ofício de notas, Cartório de notas, Serventia extrajudicial
+| 59
 |  
 | town-hall
 |  
@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -5585,14 +5585,14 @@
 |  
 | College Building
 | College Building
-| Edifício da faculdade
-| 21
+| Edifício de escola técnica
+| 26
 |  
 |  
 |  
 | university
-| Faculdade, Universidade, Ensino superior, Graduação, Laboratório
-| 64
+| Colégio técnico, Ensino profissionalizante, Educação profissional
+| 65
 |  
 | building
 |  
@@ -5903,7 +5903,7 @@
 | Garagens
 | 8
 |  
-|  
+| duplicate
 |  
 | 
 | Garagens
@@ -11885,14 +11885,14 @@
 |  
 | Junction
 | Junction
+| Entroncamento
+| 13
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| Encruzilhada, junção
+| 20
 |  
 |  
 |  
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,16 +12153,16 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| Comercial
-| 9
+| Commercial Area
+| Commercial Area
+| Área comercial
+| 14
 |  
 |  
 |  
 | 
-| Comercial
-| 9
+| Comércio, comercial
+| 19
 |  
 | commercial
 |  
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,16 +12243,16 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
-| Lavoura
+| Farmland
+| Farmland
+| Fazenda
 | 7
 |  
 |  
 |  
 | 
-| Fazenda
-| 7
+| Campo agrícola, agricultura, campanha, quinta, agrícola, rural, terra arável
+| 76
 |  
 | farm
 |  
@@ -12288,16 +12288,16 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
+| Fazenda
+| 7
 |  
-| 0
 |  
 |  
-| notTranslated
-| farmland
-|  
-| 0
+| 
+| Campo agrícola, agricultura, campanha, quinta, agrícola, rural, terra arável
+| 76
 |  
 | farm
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12425,14 +12425,14 @@
 |  
 | Garages
 | Garages
+| Garagens
+| 8
 |  
-| 0
+| duplicate
 |  
-|  
-| notTranslated
 | 
-|  
-| 0
+| Garagem, estacionamento, estacionamentos
+| 40
 |  
 |  
 |  
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,16 +12513,16 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
-| Industrial
-| 10
+| Industrial Area
+| Industrial Area
+| Área industrial
+| 15
 |  
 |  
 |  
 | 
-| Industrial
-| 10
+| Indústria, Parque industrial, Fábrica, Fábricas
+| 47
 |  
 | industrial
 |  
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,16 +12648,16 @@
 | landuse
 | military
 |  
-| Military
-| Military
-| Militar
-| 7
+| Military Area
+| Military Area
+| Área militar
+| 12
 |  
 |  
 |  
 | 
-| Militar
-| 7
+| Zona militar, militar
+| 21
 |  
 |  
 |  
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,16 +12783,16 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
-| Residencial
-| 11
+| Residential Area
+| Residential Area
+| Área residencial
+| 16
 |  
 |  
 |  
 | 
-| Residencial
-| 11
+| Residencial, residências
+| 24
 |  
 | building
 |  
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,16 +12828,16 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
+| Retail Area
+| Retail Area
 | Varejo
 | 6
 |  
 |  
 |  
 | 
-| Varejo, comércio
-| 16
+| Comércio, varejistas, comercial
+| 31
 |  
 | shop
 |  
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -13280,14 +13280,14 @@
 |  
 | Nature Reserve
 | Nature Reserve
+| Reserva natural
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | protected,wildlife
-|  
-| 0
+| Reserva florestal, floresta
+| 27
 |  
 | park
 |  
@@ -15125,14 +15125,14 @@
 |  
 | Cave Entrance
 | Cave Entrance
+| Entrada de caverna
+| 18
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| Entrada de gruta, abertura de caverna, abertura de gruta, caverna, gruta, entrada de toca, toca
+| 95
 |  
 |  
 |  
@@ -21194,27 +21194,27 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
+| Houseware Store
+| Houseware Store
+| Loja de utensílios domésticos
+| 29
 |  
-| 0
 |  
 |  
-| notTranslated
-| home
-|  
-| 0
+| home,household
+| Loja de utensílios, Loja de acessórios para casa
+| 48
 |  
 | shop
 |  
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  

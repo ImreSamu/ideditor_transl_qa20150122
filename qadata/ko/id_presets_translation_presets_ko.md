@@ -80,17 +80,17 @@
 |amenity/register_office|amenity|register_office| |Register Office|Register Office| |0| | |notTranslated|| |0| |town-hall| |address,building_area,opening_hours,operator| | |amenity=register_office| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/restaurant|amenity|restaurant| |Restaurant|Restaurant|음식점|3| | | |bar,breakfast,cafe,café,canteen,coffee,dine,dining,dinner,drive-in,eat,grill,lunch,table| |0| |restaurant| |cuisine,address,building_area,opening_hours,capacity,takeaway,delivery,smoking| | |amenity=restaurant| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/school|amenity|school| |School Grounds|School Grounds|학교 운동장|6| | | |academy,elementary school,middle school,high school| |0| |school| |operator,address| | |amenity=school| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|amenity/shelter|amenity|shelter| |Shelter|Shelter|피난처|3| | | |lean-to,gazebo,picnic| |0| | | |shelter_type| | |amenity=shelter| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
+|amenity/shelter|amenity|shelter| |Shelter|Shelter|대피소|3| | | |lean-to,gazebo,picnic| |0| | | |shelter_type| | |amenity=shelter| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |amenity/social_facility|amenity|social_facility| |Social Facility|Social Facility| |0| | |notTranslated|| |0| | | |operator,address,building_area,opening_hours,wheelchair,social_facility_for| | |amenity=social_facility| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/social_facility/food_bank|amenity|social_facility|food_bank|Food Bank|Food Bank|푸드 뱅크|5| | | || |0| | | |operator,address,building_area,opening_hours,social_facility_for| | |amenity=social_facility|social_facility=food_bank| | | |2| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/social_facility/group_home|amenity|social_facility|group_home|Elderly Group Home|Elderly Group Home| |0| | |notTranslated|old,senior,living| |0| | | |operator,address,building_area,opening_hours,wheelchair,social_facility_for| | |amenity=social_facility|social_facility=group_home|social_facility:for=senior| | |3| | | | | |0| | | | | |0|area| |point| | |last|
-|amenity/social_facility/homeless_shelter|amenity|social_facility|homeless_shelter|Homeless Shelter|Homeless Shelter| |0| | |notTranslated|houseless,unhoused,displaced| |0| | | |operator,address,building_area,opening_hours,wheelchair,social_facility_for| | |amenity=social_facility|social_facility=shelter|social_facility:for=homeless| | |3| | | | | |0| | | | | |0|area| |point| | |last|
+|amenity/social_facility/homeless_shelter|amenity|social_facility|homeless_shelter|Homeless Shelter|Homeless Shelter|이재민 대피소|7| | | |houseless,unhoused,displaced| |0| | | |operator,address,building_area,opening_hours,wheelchair,social_facility_for| | |amenity=social_facility|social_facility=shelter|social_facility:for=homeless| | |3| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/studio|amenity|studio| |Studio|Studio|스튜디오|4| | | |recording,radio,television| |0| |music| |studio_type,address,building_area| | |amenity=studio| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/swimming_pool|amenity|swimming_pool| |Swimming Pool|Swimming Pool|수영장|3| | | || |0| |swimming| | |false| |amenity=swimming_pool| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |amenity/taxi|amenity|taxi| |Taxi Stand|Taxi Stand|택시 승차장|6| | | |cab|택시 정류장,택시 타는 곳|14| |car| |operator,capacity| | |amenity=taxi| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |amenity/telephone|amenity|telephone| |Telephone|Telephone|전화|2| | | |phone| |0| |telephone| | | | |amenity=telephone| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
 |amenity/theatre|amenity|theatre| |Theater|Theater|극장|2| | | |theatre,performance,play,musical| |0| |theatre| |operator,address,building_area| | |amenity=theatre| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|amenity/toilets|amenity|toilets| |Toilets|Toilets|화장실|3| | | |bathroom,restroom,outhouse,privy,head,lavatory,latrine,water closet,WC,W.C.| |0| |toilets| |toilets/disposal,operator,building_area,access_toilets| | |amenity=toilets| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
+|amenity/toilets|amenity|toilets| |Toilets|Toilets|화장실|3| | | |bathroom,restroom,outhouse,privy,head,lavatory,latrine,water closet,WC,W.C.| |0| |toilets| |toilets/disposal,operator,building_area,access_toilets,gender| | |amenity=toilets| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |amenity/townhall|amenity|townhall| |Town Hall|Town Hall|마을 회관|5| | | |village,city,government,courthouse,municipal| |0| |town-hall| |operator,address,building_area| | |amenity=townhall| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/university|amenity|university| |University Grounds|University Grounds|대학교 부지|6| | | |college| |0| |college| |operator,address| | |amenity=university| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/vending_machine|amenity|vending_machine| |Vending Machine|Vending Machine|자동 판매기|6| | | |snack,soda,ticket| |0| | | |vending,operator| | |amenity=vending_machine| | | | |1| | | | | |0| | | | | |0| | |point| | |last|
@@ -123,21 +123,21 @@
 |building/cathedral|building|cathedral| |Cathedral|Cathedral| |0| | |notTranslated|| |0| |place-of-worship| |address,levels| | |building=cathedral| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/chapel|building|chapel| |Chapel|Chapel| |0| | |notTranslated|| |0| |place-of-worship| |address,levels| | |building=chapel| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/church|building|church| |Church|Church| |0| | |notTranslated|| |0| |place-of-worship| |address,levels| | |building=church| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|building/college|building|college| |College Building|College Building| |0| | |notTranslated|university| |0| |building| |address,levels| | |building=college| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|building/college|building|college| |College Building|College Building|대학 건물|5| | | |university| |0| |building| |address,levels| | |building=college| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/commercial|building|commercial| |Commercial Building|Commercial Building|상업 건물|5| | | || |0| |commercial| |address,levels,smoking| | |building=commercial| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|building/construction|building|construction| |Building Under Construction|Building Under Construction| |0| | |notTranslated|| |0| |building| |address,levels| | |building=construction| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|building/construction|building|construction| |Building Under Construction|Building Under Construction|공사 중인 건물|8| | | || |0| |building| |address,levels| | |building=construction| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/detached|building|detached| |Detached Home|Detached Home| |0| | |notTranslated|| |0| |building| |address,levels| | |building=detached| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/dormitory|building|dormitory| |Dormitory|Dormitory| |0| | |notTranslated|| |0| |building| |address,levels,smoking| | |building=dormitory| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/entrance|building|entrance| |Entrance/Exit|Entrance/Exit|입구/출구|5| | | || |0| |entrance| | |false| |building=entrance| | | | |1| | | | | |0| | | | | |0| | | |vertex| |last|
-|building/garage|building|garage| |Garage|Garage|차고|2| | | || |0| |warehouse| |capacity| | |building=garage| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|building/garages|building|garages| |Garages|Garages| |0| | |notTranslated|| |0| |warehouse| |capacity| | |building=garages| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|building/garage|building|garage| |Garage|Garage|차고|2| |duplicate| || |0| |warehouse| |capacity| | |building=garage| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|building/garages|building|garages| |Garages|Garages|차고|2| |duplicate| || |0| |warehouse| |capacity| | |building=garages| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/greenhouse|building|greenhouse| |Greenhouse|Greenhouse| |0| | |notTranslated|| |0| |building| |address,levels| | |building=greenhouse| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/hospital|building|hospital| |Hospital Building|Hospital Building|병원 건물|5| | | || |0| |building| |address,levels| | |building=hospital| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/hotel|building|hotel| |Hotel Building|Hotel Building|호텔 건물|5| | | || |0| |building| |address,levels,smoking| | |building=hotel| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/house|building|house| |House|House|주택|2| | | || |0| |building| |address,levels| | |building=house| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/hut|building|hut| |Hut|Hut|오두막|3| | | || |0| | | | | | |building=hut| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/industrial|building|industrial| |Industrial Building|Industrial Building|산업 건물|5| | | || |0| |industrial| |address,levels| | |building=industrial| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|building/kindergarten|building|kindergarten| |Preschool/Kindergarten Building|Preschool/Kindergarten Building| |0| | |notTranslated|kindergarden,pre-school| |0| |building| |address,levels| | |building=kindergarten| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|building/kindergarten|building|kindergarten| |Preschool/Kindergarten Building|Preschool/Kindergarten Building|유치원 건물|6| | | |kindergarden,pre-school| |0| |building| |address,levels| | |building=kindergarten| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/public|building|public| |Public Building|Public Building|공공 건물|5| | | || |0| |building| |address,levels,smoking| | |building=public| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/residential|building|residential| |Residential Building|Residential Building|주거 건물|5| | | || |0| |building| |address,levels| | |building=residential| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/retail|building|retail| |Retail Building|Retail Building|소매 건물|5| | | || |0| |building| |address,levels,smoking| | |building=retail| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -148,7 +148,7 @@
 |building/static_caravan|building|static_caravan| |Static Mobile Home|Static Mobile Home| |0| | |notTranslated|| |0| |building| |address,levels| | |building=static_caravan| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/terrace|building|terrace| |Row Houses|Row Houses| |0| | |notTranslated|| |0| |building| |address,levels| | |building=terrace| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/train_station|building|train_station| |Train Station|Train Station|기차역|3| | | || |0| |building| |address,levels|false| |building=train_station| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
-|building/university|building|university| |University Building|University Building| |0| | |notTranslated|college| |0| |building| |address,levels| | |building=university| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|building/university|building|university| |University Building|University Building|대학교 건물|6| | | |college| |0| |building| |address,levels| | |building=university| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/warehouse|building|warehouse| |Warehouse|Warehouse| |0| | |notTranslated|| |0| |building| |address,levels| | |building=warehouse| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |craft|craft| | |Craft|Craft| |0| | |notTranslated|| |0| |marker-stroked| |craft,operator,address,building_area,opening_hours| | |craft=*| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |craft/basket_maker|craft|basket_maker| |Basket Maker|Basket Maker| |0| | |notTranslated|| |0| |art-gallery| |operator,address,building_area,opening_hours| | |craft=basket_maker| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -204,7 +204,7 @@
 |entrance|entrance| | |Entrance/Exit|Entrance/Exit|입구/출구|5| | | || |0| |entrance| |entrance,access_simple,address| | |entrance=*| | | | |1| | | | | |0| | | | | |0| | | |vertex| |last|
 |footway/crossing|footway|crossing| |Crossing|Crossing|횡단보도|4| | | || |0| | | |crossing,access,surface,sloped_curb,tactile_paving| | |highway=footway|footway=crossing| | | |2| | | | | |0| | | | | |0| |line| | | |last|
 |footway/crosswalk|footway|crosswalk| |Crosswalk|Crosswalk|횡단 보도|5| |duplicate| |zebra crossing| |0| | | |crossing,access,surface,sloped_curb,tactile_paving| | |highway=footway|footway=crossing|crossing=zebra| | |3| | | | | |0| | | | | |0| |line| | | |last|
-|footway/sidewalk|footway|sidewalk| |Sidewalk|Sidewalk|보도|2| |duplicate| || |0| | | |surface,lit,width,structure,access| | |highway=footway|footway=sidewalk| | | |2| | | | | |0| | | | | |0| |line| | | |last|
+|footway/sidewalk|footway|sidewalk| |Sidewalk|Sidewalk|인도|2| | | || |0| | | |surface,lit,width,structure,access| | |highway=footway|footway=sidewalk| | | |2| | | | | |0| | | | | |0| |line| | | |last|
 |ford|ford| | |Ford|Ford|여울|2| | | || |0| | | | | | |ford=yes| | | | |1| | | | | |0| | | | | |0| | | |vertex| |last|
 |golf/bunker|golf|bunker| |Sand Trap|Sand Trap|샌드 트랩|5| | | |hazard,bunker|모래 함정|5| |golf| | | | |golf=bunker|natural=sand| | | |2| | | | | |0| | | | | |0|area| | | | |last|
 |golf/fairway|golf|fairway| |Fairway|Fairway|페어웨이|4| | | || |0| |golf| | | | |golf=fairway|landuse=grass| | | |2| | | | | |0| | | | | |0|area| | | | |last|
@@ -220,7 +220,7 @@
 |highway/crossing|highway|crossing| |Crossing|Crossing|교차|2| | | || |0| | | |crossing,sloped_curb,tactile_paving| | |highway=crossing| | | | |1| | | | | |0| | | | | |0| | | |vertex| |last|
 |highway/crosswalk|highway|crosswalk| |Crosswalk|Crosswalk|횡단 보도|5| |duplicate| |zebra crossing| |0| | | |crossing,sloped_curb,tactile_paving| | |highway=crossing|crossing=zebra| | | |2| | | | | |0| | | | | |0| | | |vertex| |last|
 |highway/cycleway|highway|cycleway| |Cycle Path|Cycle Path|자전거로|4| | | |bike| |0| |highway-cycleway| |surface,lit,width,oneway,structure,access| | |highway=cycleway| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
-|highway/footway|highway|footway| |Foot Path|Foot Path|보도|2| |duplicate| |hike,hiking,trackway,trail,walk| |0| |highway-footway| |surface,lit,width,structure,access| | |highway=footway| | | | |1| | | | | |0| | | | | |0|area|line| | | |last|
+|highway/footway|highway|footway| |Foot Path|Foot Path|보도|2| | | |hike,hiking,trackway,trail,walk| |0| |highway-footway| |surface,lit,width,structure,access| | |highway=footway| | | | |1| | | | | |0| | | | | |0|area|line| | | |last|
 |highway/living_street|highway|living_street| |Living Street|Living Street|주택가|3| | | || |0| |highway-living-street| |oneway,maxspeed,structure,access,surface| | |highway=living_street| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |highway/mini_roundabout|highway|mini_roundabout| |Mini-Roundabout|Mini-Roundabout|작은 회전교차로|8| | | || |0| | | |clock_direction| | |highway=mini_roundabout| | | | |1| | | | | |0| | | | | |0| | | |vertex| |last|
 |highway/motorway|highway|motorway| |Motorway|Motorway|고속도로|4| |duplicate| || |0| |highway-motorway| |oneway_yes,maxspeed,structure,access,lanes,surface,ref| | |highway=motorway| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
@@ -242,10 +242,10 @@
 |highway/service/driveway|highway|service|driveway|Driveway|Driveway|사설 차도|5| | | || |0| |highway-service| |oneway,access,surface| | |highway=service|service=driveway| | | |2| | | | | |0| | | | | |0| |line| | | |last|
 |highway/service/emergency_access|highway|service|emergency_access|Emergency Access|Emergency Access|긴급 접근|5| | | || |0| |highway-service| |oneway,access,surface| | |highway=service|service=emergency_access| | | |2| | | | | |0| | | | | |0| |line| | | |last|
 |highway/service/parking_aisle|highway|service|parking_aisle|Parking Aisle|Parking Aisle|주차장 통로|6| | | || |0| |highway-service| |oneway,access,surface| | |highway=service|service=parking_aisle| | | |2| | | | | |0| | | | | |0| |line| | | |last|
-|highway/services|highway|services| |Service Area|Service Area| |0| | |notTranslated|services,travel plaza,service station| |0| | | | | | |highway=services| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
+|highway/services|highway|services| |Service Area|Service Area|서비스 지역|6| | | |services,travel plaza,service station| |0| | | | | | |highway=services| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |highway/steps|highway|steps| |Steps|Steps|계단|2| | | |stairs,staircase| |0| |highway-steps| |surface,lit,width,access| | |highway=steps| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |highway/stop|highway|stop| |Stop Sign|Stop Sign|멈춤 신호|5| | | |stop sign|정지 신호|5| | | | | | |highway=stop| | | | |1| | | | | |0| | | | | |0| | | |vertex| |last|
-|highway/street_lamp|highway|street_lamp| |Street Lamp|Street Lamp| |0| | |notTranslated|streetlight,street light,lamp,light,gaslight| |0| | | |lamp_type,ref| | |highway=street_lamp| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
+|highway/street_lamp|highway|street_lamp| |Street Lamp|Street Lamp|가로등|3| | | |streetlight,street light,lamp,light,gaslight| |0| | | |lamp_type,ref| | |highway=street_lamp| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
 |highway/tertiary|highway|tertiary| |Tertiary Road|Tertiary Road|3차 도로|5| | | || |0| |highway-tertiary| |oneway,maxspeed,structure,access,lanes,surface,ref| | |highway=tertiary| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |highway/tertiary_link|highway|tertiary_link| |Tertiary Link|Tertiary Link|3차 연결도|6| | | |ramp,on ramp,off ramp| |0| |highway-tertiary-link| |oneway,maxspeed,structure,access,surface,ref| | |highway=tertiary_link| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |highway/track|highway|track| |Track|Track|트랙|2| | | |woods road,fire road| |0| |highway-track| |surface,width,structure,access,incline,tracktype,smoothness,mtb/scale,mtb/scale/uphill,mtb/scale/imba| | |highway=track| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
@@ -265,27 +265,27 @@
 |historic/wayside_shrine|historic|wayside_shrine| |Wayside Shrine|Wayside Shrine|길가의 신사|6| | | || |0| | | | | | |historic=wayside_shrine| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |junction|junction| | |Junction|Junction| |0| | |notTranslated|| |0| | | | | | |junction=yes| | | | |1| | | | | |0| | | | | |0|area| | |vertex| |last|
 |landuse|landuse| | |Landuse|Landuse|토지 이용|5| | | || |0| | | |landuse| | |landuse=*| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
-|landuse/allotments|landuse|allotments| |Allotments|Allotments|텃밭|2| | | || |0| | | | | | |landuse=allotments| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/basin|landuse|basin| |Basin|Basin|분지|2| | | || |0| | | | | | |landuse=basin| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/cemetery|landuse|cemetery| |Cemetery|Cemetery|묘지|2| |duplicate| || |0| |cemetery| |religion,denomination| | |landuse=cemetery| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
+|landuse/allotments|landuse|allotments| |Allotments|Allotments|텃밭|2| | | || |0| | | | | | |landuse=allotments| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/basin|landuse|basin| |Basin|Basin|웅덩이|3| | | ||분지|2| | | | | | |landuse=basin| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/cemetery|landuse|cemetery| |Cemetery|Cemetery|묘지|2| |duplicate| || |0| |cemetery| |religion,denomination| | |landuse=cemetery| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |landuse/churchyard|landuse|churchyard| |Churchyard|Churchyard| |0| | |notTranslated|| |0| | | |religion,denomination| | |landuse=churchyard| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
-|landuse/commercial|landuse|commercial| |Commercial|Commercial|상업|2| | | || |0| |commercial| | | | |landuse=commercial| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/construction|landuse|construction| |Construction|Construction|공사중|3| | | || |0| | | |construction,operator| | |landuse=construction| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/farm|landuse|farm| |Farm|Farm|농장|2| | | || |0| |farm| |crop|false| |landuse=farm| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/farmland|landuse|farmland| |Farm|Farm| |0| | |notTranslated|farmland| |0| |farm| |crop| | |landuse=farmland| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/farmyard|landuse|farmyard| |Farmyard|Farmyard|농지|2| | | || |0| |farm| |crop| | |landuse=farmyard| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/forest|landuse|forest| |Forest|Forest|숲|1| | | |tree| |0| |park2| |leaf_type,leaf_cycle| | |landuse=forest| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/garages|landuse|garages| |Garages|Garages| |0| | |notTranslated|| |0| | | | | | |landuse=garages| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
-|landuse/grass|landuse|grass| |Grass|Grass|잔디|2| | | || |0| | | | | | |landuse=grass| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/industrial|landuse|industrial| |Industrial|Industrial|산업|2| | | || |0| |industrial| | | | |landuse=industrial| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|landuse/commercial|landuse|commercial| |Commercial Area|Commercial Area|상업 지역|5| | | || |0| |commercial| | | | |landuse=commercial| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/construction|landuse|construction| |Construction|Construction|공사중|3| | | || |0| | | |construction,operator| | |landuse=construction| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/farm|landuse|farm| |Farmland|Farmland|농토|2| | | || |0| |farm| |crop|false| |landuse=farm| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|landuse/farmland|landuse|farmland| |Farmland|Farmland|농토|2| | | || |0| |farm| |crop| | |landuse=farmland| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/farmyard|landuse|farmyard| |Farmyard|Farmyard|농지|2| | | || |0| |farm| |crop| | |landuse=farmyard| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/forest|landuse|forest| |Forest|Forest|숲|1| | | |tree| |0| |park2| |leaf_type,leaf_cycle| | |landuse=forest| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/garages|landuse|garages| |Garages|Garages|차고|2| |duplicate| || |0| | | | | | |landuse=garages| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/grass|landuse|grass| |Grass|Grass|잔디|2| | | || |0| | | | | | |landuse=grass| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/industrial|landuse|industrial| |Industrial Area|Industrial Area|산업 지역|5| | | || |0| |industrial| | | | |landuse=industrial| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |landuse/landfill|landuse|landfill| |Landfill|Landfill|매립지|3| | | |dump| |0| | | | | | |landuse=landfill| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
-|landuse/meadow|landuse|meadow| |Meadow|Meadow|목초지|3| | | || |0| | | | | | |landuse=meadow| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/military|landuse|military| |Military|Military|군사지|3| |duplicate| || |0| | | | | | |landuse=military| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
-|landuse/orchard|landuse|orchard| |Orchard|Orchard|과수원|3| | | || |0| |park2| |trees| | |landuse=orchard| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/quarry|landuse|quarry| |Quarry|Quarry|채석장|3| | | || |0| | | | | | |landuse=quarry| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/residential|landuse|residential| |Residential|Residential|주거|2| | | || |0| |building| | | | |landuse=residential| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/retail|landuse|retail| |Retail|Retail|소매점|3| | | || |0| |shop| | | | |landuse=retail| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/vineyard|landuse|vineyard| |Vineyard|Vineyard|포도밭|3| | | || |0| | | | | | |landuse=vineyard| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|landuse/meadow|landuse|meadow| |Meadow|Meadow|목초지|3| | | || |0| | | | | | |landuse=meadow| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/military|landuse|military| |Military Area|Military Area|군사 지역|5| | | || |0| | | | | | |landuse=military| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/orchard|landuse|orchard| |Orchard|Orchard|과수원|3| | | || |0| |park2| |trees| | |landuse=orchard| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/quarry|landuse|quarry| |Quarry|Quarry|채석장|3| | | || |0| | | | | | |landuse=quarry| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/residential|landuse|residential| |Residential Area|Residential Area|주거 지역|5| | | || |0| |building| | | | |landuse=residential| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/retail|landuse|retail| |Retail Area|Retail Area|소매점 지역|6| | | || |0| |shop| | | | |landuse=retail| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/vineyard|landuse|vineyard| |Vineyard|Vineyard|포도밭|3| | | || |0| | | | | | |landuse=vineyard| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |leisure|leisure| | |Leisure|Leisure|여가|2| | | || |0| | | |leisure| | |leisure=*| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |leisure/common|leisure|common| |Common|Common|일반|2| | | |open space|공통|2| | | | | | |leisure=common| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |leisure/dog_park|leisure|dog_park| |Dog Park|Dog Park|개 공원|4|SpaceStart| | || |0| |dog-park| | | | |leisure=dog_park| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -306,7 +306,7 @@
 |leisure/pitch/tennis|leisure|pitch|tennis|Tennis Court|Tennis Court|테니스장|4| | | || |0| |tennis| |surface,lit| | |leisure=pitch|sport=tennis| | | |2| | | | | |0| | | | | |0|area| |point| | |last|
 |leisure/pitch/volleyball|leisure|pitch|volleyball|Volleyball Court|Volleyball Court|배구장|3| | | || |0| |pitch| |surface,lit| | |leisure=pitch|sport=volleyball| | | |2| | | | | |0| | | | | |0|area| |point| | |last|
 |leisure/playground|leisure|playground| |Playground|Playground|놀이터|3| | | |jungle gym,play area| |0| |playground| | | | |leisure=playground| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|leisure/running_track|leisure|running_track| |Running Track|Running Track| |0| | |notTranslated|| |0| |pitch| |surface,sport_racing,lit,width,lanes| | |leisure=track|sport=running| | | |2| | | | | |0| | | | | |0| |line|point| | |last|
+|leisure/running_track|leisure|running_track| |Running Track|Running Track|육상 트랙|5| | | || |0| |pitch| |surface,sport_racing,lit,width,lanes| | |leisure=track|sport=running| | | |2| | | | | |0| | | | | |0| |line|point| | |last|
 |leisure/slipway|leisure|slipway| |Slipway|Slipway|슬립 웨이|5| | | |boat launch,boat ramp| |0| | | | | | |leisure=slipway| | | | |1| | | | | |0| | | | | |0| |line|point| | |last|
 |leisure/sports_center|leisure|sports_center| |Sports Center / Gym|Sports Center / Gym|스포츠 센터 / 체육관|12| | | |gym| |0| |pitch| |sport,address,building_area,opening_hours| | |leisure=sports_centre| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |leisure/stadium|leisure|stadium| |Stadium|Stadium|경기장|3| | | || |0| |pitch| |sport,address| | |leisure=stadium| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -331,7 +331,7 @@
 |military/airfield|military|airfield| |Airfield|Airfield|비행장|3| | | || |0| |airfield| | | | |military=airfield| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |military/barracks|military|barracks| |Barracks|Barracks|막사|2| | | || |0| | | | | | |military=barracks| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |military/bunker|military|bunker| |Bunker|Bunker|벙커|2| | | || |0| | | | | | |military=bunker| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
-|military/range|military|range| |Military Range|Military Range|군사지|3| |duplicate| ||군사 지역|5| | | | | | |military=range| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
+|military/range|military|range| |Military Range|Military Range|군사 범위|5| | | || |0| | | | | | |military=range| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |natural|natural| | |Natural|Natural|자연|2| | | || |0| | | |natural| | |natural=*| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |natural/bay|natural|bay| |Bay|Bay|만|1| | | || |0| | | | | | |natural=bay| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |natural/beach|natural|beach| |Beach|Beach|해변|2| | | || |0| | | |surface| | |natural=beach| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -348,8 +348,8 @@
 |natural/spring|natural|spring| |Spring|Spring|온천|2| | | || |0| | | | | | |natural=spring| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
 |natural/tree|natural|tree| |Tree|Tree|나무|2| | | || |0| |park| |leaf_type,leaf_cycle,denotation| | |natural=tree| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
 |natural/water|natural|water| |Water|Water|물|1| | | || |0| |water| |water| | |natural=water| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
-|natural/water/lake|natural|water|lake|Lake|Lake|호수|2| |duplicate| |lakelet,loch,mere| |0| |water| | | | |natural=water|water=lake| | | |2| | | | | |0| | | | | |0|area| | | | |last|
-|natural/water/pond|natural|water|pond|Pond|Pond|호수|2| |duplicate| |lakelet,millpond,tarn,pool,mere| |0| |water| | | | |natural=water|water=pond| | | |2| | | | | |0| | | | | |0|area| | | | |last|
+|natural/water/lake|natural|water|lake|Lake|Lake|호수|2| | | |lakelet,loch,mere| |0| |water| | | | |natural=water|water=lake| | | |2| | | | | |0| | | | | |0|area| | | | |last|
+|natural/water/pond|natural|water|pond|Pond|Pond|연못|2| | | |lakelet,millpond,tarn,pool,mere| |0| |water| | | | |natural=water|water=pond| | | |2| | | | | |0| | | | | |0|area| | | | |last|
 |natural/water/reservoir|natural|water|reservoir|Reservoir|Reservoir|저수지|3| | | || |0| |water| | | | |natural=water|water=reservoir| | | |2| | | | | |0| | | | | |0|area| | | | |last|
 |natural/wetland|natural|wetland| |Wetland|Wetland|습지|2| | | || |0| |wetland| |wetland| | |natural=wetland| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |natural/wood|natural|wood| |Wood|Wood|산림|2| | | |tree| |0| |park2| |leaf_type,leaf_cycle| | |natural=wood| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -374,7 +374,7 @@
 |office/telecommunication|office|telecommunication| |Telecom Office|Telecom Office|통신 사무실|6| | | ||통신 사무소,통신 지사,전화국|16| |commercial| |address,building_area,opening_hours| | |office=telecommunication| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |office/therapist|office|therapist| |Therapist|Therapist|치료원|3| | | || |0| |commercial| |address,building_area,opening_hours| | |office=therapist| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |office/travel_agent|office|travel_agent| |Travel Agency|Travel Agency|여행사|3| | | || |0| |suitcase| |address,building_area,opening_hours|false| |office=travel_agent| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
-|piste|piste| | |Piste/Ski Trail|Piste/Ski Trail| |0| | |notTranslated|ski,sled,sleigh,snowboard,nordic,downhill,snowmobile| |0| |skiing| |piste/type,piste/difficulty,piste/grooming,oneway,lit| | |piste:type=*| | | | |1| | | | | |0| | | | | |0|area|line|point| | |last|
+|piste|piste| | |Piste/Ski Trail|Piste/Ski Trail|활강/스키 트레일|9| | | |ski,sled,sleigh,snowboard,nordic,downhill,snowmobile| |0| |skiing| |piste/type,piste/difficulty,piste/grooming,oneway,lit| | |piste:type=*| | | | |1| | | | | |0| | | | | |0|area|line|point| | |last|
 |place|place| | |Place|Place|장소|2| | | || |0| | | |place| | |place=*| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |place/city|place|city| |City|City|도시|2| | | || |0| |city| |population| | |place=city| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |place/hamlet|place|hamlet| |Hamlet|Hamlet|작은 마을|5| | | || |0| |triangle-stroked| |population| | |place=hamlet| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -389,10 +389,10 @@
 |power|power| | |Power|Power|전력|2| | | || |0| | | |power| | |power=*| | | | |1| | | | | |0| | | | | |0|area|line|point|vertex| |last|
 |power/generator|power|generator| |Power Generator|Power Generator|발전소|3| | | || |0| | | |operator,generator/source,generator/method,generator/type| | |power=generator| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |power/line|power|line| |Power Line|Power Line|송전선|3| | | || |0| |power-line| | | | |power=line| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
-|power/minor_line|power|minor_line| |Minor Power Line|Minor Power Line|작은 송전선|6| | | || |0| |power-line| | | | |power=minor_line| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
+|power/minor_line|power|minor_line| |Minor Power Line|Minor Power Line|보조 송전선|6| | | || |0| |power-line| | | | |power=minor_line| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |power/pole|power|pole| |Power Pole|Power Pole|전봇대|3| | | || |0| | | | | | |power=pole| | | | |1| | | | | |0| | | | | |0| | | |vertex| |last|
 |power/sub_station|power|sub_station| |Substation|Substation|변전소|3| | | || |0| | | |substation,operator,building|false| |power=sub_station| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|power/substation|power|substation| |Substation|Substation| |0| | |notTranslated|| |0| | | |substation,operator,building| | |power=substation| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|power/substation|power|substation| |Substation|Substation|변전소|3| | | || |0| | | |substation,operator,building| | |power=substation| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |power/tower|power|tower| |High-Voltage Tower|High-Voltage Tower|송전탑|3| | | || |0| | | | | | |power=tower| | | | |1| | | | | |0| | | | | |0| | | |vertex| |last|
 |power/transformer|power|transformer| |Transformer|Transformer|변압 시설|5| | | || |0| | | | | | |power=transformer| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |public_transport/platform|public_transport|platform| |Platform|Platform|플랫폼|3| | | || |0| | | |ref,operator,network,shelter| | |public_transport=platform| | | | |1| | | | | |0| | | | | |0|area|line|point|vertex| |last|
@@ -404,9 +404,9 @@
 |railway/halt|railway|halt| |Railway Halt|Railway Halt|철도 정거장|6| | | |break,interrupt,rest,wait,interruption| |0| |rail| | | | |railway=halt| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
 |railway/level_crossing|railway|level_crossing| |Level Crossing|Level Crossing|건널목|3| | | |crossing,railroad crossing,railway crossing,grade crossing,road through railroad,train crossing| |0| |cross| | | | |railway=level_crossing| | | | |1| | | | | |0| | | | | |0| | | |vertex| |last|
 |railway/monorail|railway|monorail| |Monorail|Monorail|모노레일|4| | | || |0| |railway-monorail| |structure,electrified| | |railway=monorail| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
-|railway/narrow_gauge|railway|narrow_gauge| |Narrow Gauge Rail|Narrow Gauge Rail| |0| | |notTranslated|narrow gauge railway,narrow gauge railroad| |0| |railway-rail| |structure,gauge,electrified| | |railway=narrow_gauge| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
+|railway/narrow_gauge|railway|narrow_gauge| |Narrow Gauge Rail|Narrow Gauge Rail|협궤 철로|5| | | |narrow gauge railway,narrow gauge railroad| |0| |railway-rail| |structure,gauge,electrified| | |railway=narrow_gauge| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |railway/platform|railway|platform| |Railway Platform|Railway Platform|철도 플랫폼|6| | | || |0| | | | | | |railway=platform| | | | |1| | | | | |0| | | | | |0|area|line|point|vertex| |last|
-|railway/rail|railway|rail| |Rail|Rail|선로|2| | | || |0| |railway-rail| |structure,gauge,electrified| | |railway=rail| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
+|railway/rail|railway|rail| |Rail|Rail|철로|2| | | || |0| |railway-rail| |structure,gauge,electrified| | |railway=rail| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |railway/station|railway|station| |Railway Station|Railway Station|철도역|3| | | |train station,station| |0| |rail| |operator,address,building_area| | |railway=station| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |railway/subway|railway|subway| |Subway|Subway|지하철|3| | | || |0| |railway-subway| |structure,gauge,electrified| | |railway=subway| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |railway/subway_entrance|railway|subway_entrance| |Subway Entrance|Subway Entrance|지하철 입구|6| | | || |0| |rail-metro| | | | |railway=subway_entrance| | | | |1| | | | | |0| | | | | |0| | |point| | |last|
@@ -470,7 +470,7 @@
 |shop/hearing_aids|shop|hearing_aids| |Hearing Aids Store|Hearing Aids Store| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=hearing_aids| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/herbalist|shop|herbalist| |Herbalist|Herbalist| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=herbalist| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/hifi|shop|hifi| |Hifi Store|Hifi Store|고급 오디오 상점|9| | | |stereo,video| |0| |shop| |operator,address,building_area,opening_hours| | |shop=hifi| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|shop/household|shop|household| |Household Store|Household Store| |0| | |notTranslated|home| |0| |shop| |operator,address,building_area,opening_hours| | |shop=household| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|shop/houseware|shop|houseware| |Houseware Store|Houseware Store| |0| | |notTranslated|home,household| |0| |shop| |operator,address,building_area,opening_hours| | |shop=houseware| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/interior_decoration|shop|interior_decoration| |Interior Decoration Store|Interior Decoration Store| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=interior_decoration| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/jewelry|shop|jewelry| |Jeweler|Jeweler|보석 상점|5| | | |diamond,gem,ring| |0| |shop| |operator,address,building_area,opening_hours| | |shop=jewelry| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/kiosk|shop|kiosk| |News Kiosk|News Kiosk| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=kiosk| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -574,7 +574,7 @@
 |waterway/ditch|waterway|ditch| |Ditch|Ditch|구거|2| |duplicate| || |0| |waterway-ditch| |tunnel| | |waterway=ditch| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |waterway/drain|waterway|drain| |Drain|Drain|배수로|3| | | || |0| |waterway-stream| |tunnel| | |waterway=drain| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |waterway/river|waterway|river| |River|River|강|1| | | |beck,branch,brook,course,creek,estuary,rill,rivulet,run,runnel,stream,tributary,watercourse| |0| |waterway-river| |tunnel,width| | |waterway=river| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
-|waterway/riverbank|waterway|riverbank| |Riverbank|Riverbank|강가|2| | | || |0| |water| | | | |waterway=riverbank| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|waterway/riverbank|waterway|riverbank| |Riverbank|Riverbank|강둑|2| | | || |0| |water| | | | |waterway=riverbank| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |waterway/stream|waterway|stream| |Stream|Stream|개울|2| | | |beck,branch,brook,burn,course,creek,current,drift,flood,flow,freshet,race,rill,rindle,rivulet,run,runnel,rush,spate,spritz,surge,tide,torrent,tributary,watercourse| |0| |waterway-stream| |tunnel,width| | |waterway=stream| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |waterway/weir|waterway|weir| |Weir|Weir|어량|2| | | || |0| |dam| | | | |waterway=weir| | | | |1| | | | | |0| | | | | |0| |line| |vertex| |last|
 |amenity/fuel/76|amenity|fuel|76|76| | |0| | | | | |0| |fuel|true|operator,address,building_area,opening_hours| | |name=76|amenity=fuel| | | |2| | | | | |0| | | | | |0|area| |point| | |last|

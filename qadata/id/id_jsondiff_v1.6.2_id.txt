@@ -27,8 +27,23 @@
 -      }
      }
      presets: {
+-      landuse/commercial: {
+-        name: "Komersil"
+-      }
+-      landuse/farm: {
+-        name: "Ternak"
+-      }
 -      landuse/farmland: {
 -        name: "Lahan Pertanian"
+-      }
+-      landuse/industrial: {
+-        name: "Industri"
+-      }
+-      landuse/military: {
+-        name: "Militer"
+-      }
+-      landuse/residential: {
+-        name: "Pemukiman"
 -      }
        highway/motorway: {
 -        name: "Jalur Motor"

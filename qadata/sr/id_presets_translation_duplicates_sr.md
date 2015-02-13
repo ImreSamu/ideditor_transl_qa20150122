@@ -29,4 +29,4 @@
 |Црква|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |Црква|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |Шума|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
-|Шума|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|Шума|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |

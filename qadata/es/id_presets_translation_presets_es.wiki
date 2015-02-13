@@ -95,14 +95,14 @@
 |  
 | Aerialway
 | Aerialway
-| Teleférico
-| 10
+| Transporte por cable
+| 20
 |  
-| duplicate
+|  
 |  
 | ski lift,funifor,funitel
-| aerovía, teleférico, telecabina, funicular, transbordador, telesilla, telesquí
-| 78
+| aerovía, teleférico, telecabina, funicular, transbordador, telesilla, telesquí, aéreo
+| 85
 |  
 |  
 |  
@@ -143,7 +143,7 @@
 | Teleférico
 | 10
 |  
-| duplicate
+|  
 |  
 | tramway,ropeway
 | transbordador, funicular, telecabina, telesilla, telesquí, teleférico
@@ -1355,14 +1355,14 @@
 |  
 | Bicycle Repair Station
 | Bicycle Repair Station
-| Estación de Reparación de Bicicletas
+| Estación de reparación de bicicletas
 | 36
 |  
 |  
 |  
 | bike
-| Bicicletería, Taller de Reparación de Bicicletas
-| 48
+| bicicletería pública, reparación de bicicletas pública, bicicleta
+| 65
 |  
 | bicycle
 |  
@@ -2165,14 +2165,14 @@
 |  
 | Doctor
 | Doctor
-| Médico
+| Doctor
 | 6
 |  
-| duplicate
+|  
 |  
 | medic*
-| médico, doctor, facultativo, medicina, curador
-| 46
+| médico, médica, doctor, curador, curandero
+| 42
 |  
 | hospital
 |  
@@ -2570,14 +2570,14 @@
 |  
 | Grit Bin
 | Grit Bin
-| Depósito de Arena
+| Depósito de grava
 | 17
 |  
 |  
 |  
 | salt,sand
-| Depósito de Sal
-| 15
+| depósito, contenedor, grava, gravilla, arena, arenilla
+| 54
 |  
 |  
 |  
@@ -2933,7 +2933,7 @@
 | Farmacia
 | 8
 |  
-| duplicate
+|  
 |  
 | drug,medicine
 | farmacia,botica, laboratorio, apoteca, herbolario
@@ -2978,11 +2978,11 @@
 | Lugar de culto
 | 14
 |  
-|  
+| duplicate
 |  
 | abbey,basilica,bethel,cathedral,chancel,chantry,chapel,church,fold,house of God,house of prayer,house of worship,minster,mission,mosque,oratory,parish,sacellum,sanctuary,shrine,synagogue,tabernacle,temple
-| templo, basílica, capilla, colegiata, parroquia, santuario, ermita, oratorio, iglesia, catedral, sinagoga, mezquita, pagoda, morabito, rábida, aljama, religión
-| 159
+| culto, oración, adoración, religión
+| 35
 |  
 | place-of-worship
 |  
@@ -3065,14 +3065,14 @@
 | christian
 | Church
 | Church
-| Iglesia
-| 7
+| Lugar de culto
+| 14
 |  
 | duplicate
 |  
 | christian,abbey,basilica,bethel,cathedral,chancel,chantry,chapel,fold,house of God,house of prayer,house of worship,minster,mission,oratory,parish,sacellum,sanctuary,shrine,tabernacle,temple
-| templo, basílica, capilla, colegiata, parroquia, santuario, ermita, oratorio, iglesia, catedral, oratorio, religión
-| 115
+| templo, capilla, parroquia, santuario, ermita, oratorio, iglesia, oratorio
+| 74
 |  
 | religious-christian
 |  
@@ -3380,14 +3380,14 @@
 |  
 | Public Bookcase
 | Public Bookcase
-| Biblioteca Pública
+| Biblioteca pública
 | 18
 |  
 |  
 |  
 | library,bookcrossing
-| Biblioteca
-| 10
+| biblioteca, estante, libro, público, libre, abierta
+| 51
 |  
 | library
 |  
@@ -3521,8 +3521,8 @@
 |  
 |  
 | 
-| oficina de registro, registro civil, notaria, notaria civil, notaria pública, nacimiento, matrimonio, defunción, ceremonia de unión
-| 131
+| oficina de registro, registro civil, notaria, notaria civil, notaria pública, nacimiento, matrimonio, defunción, ceremonia de unión, oficina
+| 140
 |  
 | town-hall
 |  
@@ -3653,7 +3653,7 @@
 | Refugio
 | 7
 |  
-| duplicate
+|  
 |  
 | lean-to,gazebo,picnic
 | albergue, abrigo, amparo, asilo, cobertizo, garita, refugio
@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -5456,8 +5456,8 @@
 |  
 |  
 | 
-| iglesia, lugar de culto, templo, basílica, parroquia, santuario, oratorio, iglesia, basílica
-| 92
+| basílica, iglesia, catedral
+| 27
 |  
 | place-of-worship
 |  
@@ -5543,11 +5543,11 @@
 | Iglesia
 | 7
 |  
-| duplicate
+|  
 |  
 | 
-| templo, basílica, capilla, colegiata, parroquia, santuario, ermita, oratorio,iglesia, basílica, catedral
-| 104
+| templo, capilla, colegiata, parroquia, santuario, ermita, oratorio, iglesia
+| 75
 |  
 | place-of-worship
 |  
@@ -6125,14 +6125,14 @@
 |  
 | Hut
 | Hut
-| Refugio
-| 7
+| Choza
+| 5
 |  
-| duplicate
+|  
 |  
 | 
-| refugio,abrigo,vivac,choza
-| 26
+| refugio, abrigo, vivac, choza, cabaña
+| 37
 |  
 |  
 |  
@@ -7256,8 +7256,8 @@
 | duplicate
 |  
 | 
-| relojero, joyero, reloj
-| 23
+| relojero, reloj, relojería
+| 26
 |  
 | circle-stroked
 |  
@@ -7661,8 +7661,8 @@
 |  
 |  
 | 
-| joyero, relojería, relojero, platería, orfebrería, orfebre
-| 58
+| joyero, platería, orfebrería, orfebre
+| 37
 |  
 | marker-stroked
 |  
@@ -8786,8 +8786,8 @@
 | duplicate
 |  
 | 
-| Relojero
-| 8
+| relojero, reloj, pulsera, reloj de pulsera
+| 42
 |  
 | circle-stroked
 |  
@@ -9185,8 +9185,8 @@
 |  
 | Crosswalk
 | Crosswalk
-| Cruce peatonal
-| 14
+| Paso de peatones
+| 16
 |  
 | duplicate
 |  
@@ -9860,14 +9860,14 @@
 |  
 | Crosswalk
 | Crosswalk
-| Cruce peatonal
-| 14
+| Paso de peatones
+| 16
 |  
 | duplicate
 |  
 | zebra crossing
-| cruce, travesía, paso, cruzamiento, pasaje, vado, paseo, traviesa, paso de peatones
-| 83
+| cruce, paso, peatón, peatonal, cebra, paso peatonal, cruce peatonal, paso de peatones, paso de cebra
+| 100
 |  
 |  
 |  
@@ -11891,8 +11891,8 @@
 |  
 |  
 | 
-| cruce, intersección, empalme, intersección vial
-| 47
+| cruce, intersección, empalme, nudo, unión, intersección vial, crucero
+| 69
 |  
 |  
 |  
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,16 +12153,16 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| Comercial
-| 9
+| Commercial Area
+| Commercial Area
+| Área Comercial
+| 14
 |  
-|  
+| duplicate
 |  
 | 
-| Comercial, tiendas, compras
-| 27
+| Zona Comercial
+| 14
 |  
 | commercial
 |  
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,16 +12243,16 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
 | Tierras de cultivo
 | 18
 |  
 |  
 |  
 | 
-| Granja, cultivo, finca, campo
-| 29
+| Tierras agrícolas, Tierras de labranza
+| 38
 |  
 | farm
 |  
@@ -12288,16 +12288,16 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
-| Granja
-| 6
+| Farmland
+| Farmland
+| Tierras de cultivo
+| 18
 |  
-| duplicate
 |  
-| farmland
-| granja, rancho, estancia, hacienda, casa de campo
-| 49
+|  
+| 
+| Tierras agrícolas, Tierras de labranza
+| 38
 |  
 | farm
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12335,14 +12335,14 @@
 |  
 | Farmyard
 | Farmyard
-| Granja
-| 6
+| Edificio de granja
+| 18
 |  
-| duplicate
+|  
 |  
 | 
-| Edificios de la granja
-| 22
+| corral, redil, edificio granja
+| 30
 |  
 | farm
 |  
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,16 +12513,16 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
-| Industrial
-| 10
+| Industrial Area
+| Industrial Area
+| Área Industrial
+| 15
 |  
 |  
 |  
 | 
-| Industrial, polígono
-| 20
+| Zona Industrial
+| 15
 |  
 | industrial
 |  
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,16 +12648,16 @@
 | landuse
 | military
 |  
-| Military
-| Military
-| Militar
-| 7
+| Military Area
+| Military Area
+| Área Militar
+| 12
 |  
 |  
 |  
 | 
-| militar, ejercito, fuerzas armadas, defensa, cuartel, milicia
-| 61
+| Zona Militar
+| 12
 |  
 |  
 |  
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,16 +12783,16 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
-| Residencial
-| 11
+| Residential Area
+| Residential Area
+| Área Residencial
+| 16
 |  
 |  
 |  
 | 
-| zona, residencial, urbano, suelo
-| 32
+| Barrio Residencial
+| 18
 |  
 | building
 |  
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,16 +12828,16 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
-| Venta al por menor
-| 18
+| Retail Area
+| Retail Area
+| Área Comercial
+| 14
 |  
-|  
+| duplicate
 |  
 | 
-| negocio, venta, comercio, tienda, despacho, colmado, al por menor
-| 65
+| Zona Comercial
+| 14
 |  
 | shop
 |  
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -13280,14 +13280,14 @@
 |  
 | Nature Reserve
 | Nature Reserve
-| Reserva Natural
+| Reserva natural
 | 15
 |  
 |  
 |  
 | protected,wildlife
-| Reserva
-| 7
+| reserva natural, reserva ecológica, área protegida, conservación, preservación, natural
+| 87
 |  
 | park
 |  
@@ -16613,11 +16613,11 @@
 | Médico
 | 6
 |  
-| duplicate
+|  
 |  
 | 
-| Doctor, facultativo
-| 19
+| médico, médica, curador, curandero
+| 34
 |  
 | commercial
 |  
@@ -16973,7 +16973,7 @@
 | Ciudad
 | 6
 |  
-| duplicate
+|  
 |  
 | 
 | urbe, capital, metrópoli, ciudad, núcleo urbano, localidad, villa
@@ -17285,7 +17285,7 @@
 |  
 | Town
 | Town
-| Ciudad
+| Pueblo
 | 6
 |  
 | duplicate
@@ -17333,7 +17333,7 @@
 | Pueblo
 | 6
 |  
-|  
+| duplicate
 |  
 | 
 | localidad, población, aldea, pueblo, villa, ciudad, lugar, sitio, parroquia
@@ -20345,14 +20345,14 @@
 |  
 | Electronics Store
 | Electronics Store
-| Tienda de electrodomésticos
-| 27
+| Tienda de electrónica
+| 21
 |  
 |  
 |  
 | appliance,audio,computer,tv
-| electrónica, electrodoméstico, aparato, televisión, sonido, tienda, electrotécnica
-| 82
+| electrónica, electrodoméstico, aparatos, equipos, línea blanca, tienda, almacén, negocio
+| 88
 |  
 | shop
 |  
@@ -20390,14 +20390,14 @@
 |  
 | Erotic Store
 | Erotic Store
-| Tienda Erótica
+| Tienda erótica
 | 14
 |  
 |  
 |  
 | sex,porn
-| Tienda erótica, tienda de productos eróticos, sex shop
-| 54
+| erótica, sexo, sexual, sex shop, tienda, almacén, negocio
+| 57
 |  
 | shop
 |  
@@ -20435,14 +20435,14 @@
 |  
 | Fabric Store
 | Fabric Store
-| Tienda Textil
+| Tienda textil
 | 13
 |  
 |  
 |  
 | sew
-| Tienda de telas, textilería
-| 27
+| tela, tejido, género, textilería, tienda, almacén, negocio
+| 58
 |  
 | shop
 |  
@@ -20525,14 +20525,14 @@
 |  
 | Fashion Store
 | Fashion Store
-| Tienda de Moda
+| Tienda de moda
 | 14
 |  
 |  
 |  
 | 
-| moda
-| 4
+| moda, marca, fashion, ropa, tienda, almacén, negocio
+| 52
 |  
 | shop
 |  
@@ -20756,8 +20756,8 @@
 |  
 |  
 | oven,stove
-| horno
-| 5
+| horno, caldera, tienda, almacén, negocio
+| 40
 |  
 | shop
 |  
@@ -20801,8 +20801,8 @@
 |  
 |  
 | chair,sofa,table
-| mueble, mobiliario, utensilio, armario, mesa, silla, tienda, decoración, cocina
-| 79
+| mueble, mobiliario, utensilio, armario, mesa, silla, decoración, cocina, tienda, almacén, negocio
+| 97
 |  
 | shop
 |  
@@ -21026,8 +21026,8 @@
 |  
 |  
 | 
-| Ferreteria
-| 10
+| ferretería, tienda, almacén, negocio
+| 36
 |  
 | shop
 |  
@@ -21065,14 +21065,14 @@
 |  
 | Hearing Aids Store
 | Hearing Aids Store
-| Tienda de Audífonos
+| Tienda de audífonos
 | 19
 |  
 |  
 |  
 | 
-| audífono, aparato del oído, aparato para sordos
-| 47
+| audífono, audio, oído, sordo, aparato, equipo, tienda, almacén, negocio
+| 71
 |  
 | shop
 |  
@@ -21161,8 +21161,8 @@
 |  
 |  
 | stereo,video
-| sonido, hifi, alta fidelidad, electrónica, altavoces, amplificadores
-| 68
+| sonido, hifi, alta fidelidad, electrónica, altavoz, amplificador, tienda, almacén, negocio
+| 90
 |  
 | shop
 |  
@@ -21194,27 +21194,27 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
+| Houseware Store
+| Houseware Store
+| Tienda de Artículos para el Hogar 
+| 34
 |  
-| 0
 |  
 |  
-| notTranslated
-| home
-|  
-| 0
+| home,household
+| Tienda de Electrodomésticos
+| 27
 |  
 | shop
 |  
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  
@@ -21245,14 +21245,14 @@
 |  
 | Interior Decoration Store
 | Interior Decoration Store
-| Tienda de Decoración de Interiores
+| Tienda de decoración de interiores
 | 34
 |  
 |  
 |  
 | 
-| decoración de interiores
-| 24
+| interior, diseño, decoración, sala de estar, salón, dormitorio, cuarto, tienda, almacén, negocio
+| 96
 |  
 | shop
 |  
@@ -21296,8 +21296,8 @@
 |  
 |  
 | diamond,gem,ring
-| joyería, joyero, relojería, argentería, orfebrería, orfebre, platero, relojero
-| 78
+| joyería, joyero, argentería, orfebrería, orfebre, platero
+| 57
 |  
 | shop
 |  
@@ -21380,14 +21380,14 @@
 |  
 | Kitchen Design Store
 | Kitchen Design Store
-| Tienda de Diseño de Cocinas
+| Tienda de diseño de cocinas
 | 27
 |  
 |  
 |  
 | 
-| Diseño de la cocina, diseño de cocina
-| 37
+| cocina, diseño, tienda, almacén, negocio
+| 40
 |  
 | shop
 |  
@@ -21470,14 +21470,14 @@
 |  
 | Leather Store
 | Leather Store
-| Tienda de pieles
-| 16
+| Tienda de cuero
+| 15
 |  
 |  
 |  
 | 
-| cuero, piel, gamuza
-| 19
+| cuero, piel, gamuza, tienda, almacén, negocio
+| 45
 |  
 | shop
 |  
@@ -21695,14 +21695,14 @@
 |  
 | Medical Supply Store
 | Medical Supply Store
-| Farmacia
-| 8
-|  
-| duplicate
-|  
-| 
 | Tienda de suplementos médicos
 | 29
+|  
+|  
+|  
+| 
+| suplemento, medicina, medicamento, farmacia, droguería, tienda, almacén, negocio
+| 80
 |  
 | shop
 |  
@@ -21746,8 +21746,8 @@
 |  
 |  
 | 
-| teléfono, smartphone, tienda, electrónica, comunicación, móvil, llamada
-| 71
+| teléfono, celular, móvil, smartphone, comunicación, telecomunicación, tienda, almacén, negocio
+| 94
 |  
 | mobilephone
 |  
@@ -21881,8 +21881,8 @@
 |  
 |  
 | CD,vinyl
-| música, melodía, tienda, disco, dvd, vinilo, lp, sonido, discografía, cantante, banda, grupo, rock, soul, pop, reggea, heavy, metal, rap, blues, clásica, cumbia, salsa
-| 167
+| música, audio, discos, discográfica, tienda, almacén, negocio
+| 61
 |  
 | music
 |  
@@ -21920,14 +21920,14 @@
 |  
 | Musical Instrument Store
 | Musical Instrument Store
-| Tienda de Instrumentos Musicales
+| Tienda de instrumentos musicales
 | 32
 |  
 |  
 |  
 | 
-| Tienda de instrumentos musicales
-| 32
+| música, audio, sonido, aparato, equipo, instrumento, tienda, almacén, negocio
+| 77
 |  
 | music
 |  
@@ -22055,14 +22055,14 @@
 |  
 | Organic Goods Store
 | Organic Goods Store
-| Tienda de Productos Orgánicos
+| Tienda de productos orgánicos
 | 29
 |  
 |  
 |  
 | 
-| Tienda de productos orgáncos
-| 28
+| orgánico, ecológico, natural, productos, vegetales, tienda, almacén, negocio
+| 76
 |  
 | shop
 |  
@@ -22106,8 +22106,8 @@
 |  
 |  
 | camping,climbing,hiking
-| al aire libre, fuera de casa
-| 28
+| al aire libre, fuera de casa, exterior, excursión, campamento, tienda, almacén, negocio
+| 87
 |  
 | shop
 |  
@@ -22151,8 +22151,8 @@
 |  
 |  
 | 
-| Pinturería
-| 10
+| pintura, colores, solventes, tienda, almacén, negocio
+| 53
 |  
 | water
 |  
@@ -22241,8 +22241,8 @@
 |  
 |  
 | cat,dog,fish
-| tienda, mascotas, perros, canina, felina, perruquería, gatos
-| 60
+| mascota, animal, tienda, almacén, negocio
+| 41
 |  
 | dog-park
 |  
@@ -22286,7 +22286,7 @@
 |  
 |  
 | camera,film
-| fotografía, tienda , establecimiento, fotógrafo, cámara, retratista, revelado
+| fotografía, fotógrafo, cámara, retratista, revelado, tienda, almacén, negocio
 | 77
 |  
 | camera
@@ -22331,8 +22331,8 @@
 |  
 |  
 | 
-| Tienda de fuegos artificiales
-| 29
+| fuegos artificiales, pirotecnia, tienda, almacén, negocio
+| 57
 |  
 | shop
 |  
@@ -22370,14 +22370,14 @@
 |  
 | Radio/Electronic Component Store
 | Radio/Electronic Component Store
-| Tienda de componentes electrónicos
-| 34
+| Tienda de componentes radio electrónicos
+| 40
 |  
 |  
 |  
 | 
-| Tienda de componentes electrónicos, tienda de electrónica
-| 57
+| electrónica, radio, componentes, equipo, aparato, instrumento, tienda, almacén, negocio
+| 87
 |  
 | shop
 |  
@@ -22415,14 +22415,14 @@
 |  
 | Religious Store
 | Religious Store
-| Tienda Religiosa
+| Tienda religiosa
 | 16
 |  
 |  
 |  
 | 
-| Tienda de productos religiosos, tienda religiosa
-| 48
+| religión, religioso, santerio, santos, tienda, almacén, negocio
+| 63
 |  
 | shop
 |  
@@ -22550,14 +22550,14 @@
 |  
 | Consignment/Thrift Store
 | Consignment/Thrift Store
-| Tienda de Envío / Ahorro
-| 24
+| Tienda de envío/ahorro
+| 22
 |  
 |  
 |  
 | secondhand,second hand,resale,thrift,used
-| Envío, Ahorro
-| 13
+| dinero, envío, remesa, ahorro, depósito, tienda, almacén, negocio
+| 65
 |  
 | shop
 |  
@@ -22601,8 +22601,8 @@
 |  
 |  
 | 
-| zapatería, calzado, tienda, zapato, zapatilla, escarpín, bota, sandalia, alpargata, pantufla, babucha, borceguí, almadreña, zueco, chancla, chanclo, madreña, chinela, coturno, alborga
-| 183
+| zapato, zapatilla, calzado, sandalia, chancla, alpargata, zapatería, tienda, almacén, negocio
+| 93
 |  
 | shop
 |  
@@ -22646,8 +22646,8 @@
 |  
 |  
 | 
-| Artículos Deportivos
-| 20
+| deporte, deportivo, tienda, almacén, negocio
+| 44
 |  
 | shop
 |  
@@ -22691,8 +22691,8 @@
 |  
 |  
 | card,paper
-| Papelería
-| 9
+| papel, papelería, escritorio, oficina, tienda, almacén, negocio
+| 63
 |  
 | shop
 |  
@@ -22871,8 +22871,8 @@
 |  
 |  
 | 
-| Tienda de té, casa de té, té
-| 28
+| te, infusión, tienda, almacén, negocio
+| 38
 |  
 | cafe
 |  
@@ -23006,8 +23006,8 @@
 |  
 |  
 | 
-| juguetería,juguetes
-| 19
+| juguetes, juego, juguetería, tienda, almacén, negocio
+| 53
 |  
 | shop
 |  
@@ -23096,8 +23096,8 @@
 |  
 |  
 | 
-| Taller de neumáticos, Recambio de ruedas
-| 40
+| neumático, llanta, goma, tienda, almacén, negocio
+| 49
 |  
 | shop
 |  
@@ -23180,14 +23180,14 @@
 |  
 | Vacuum Cleaner Store
 | Vacuum Cleaner Store
-| Tienda de Aspiradoras
+| Tienda de aspiradoras
 | 21
 |  
 |  
 |  
 | 
-| aspiradora, limpiadora vacuo
-| 28
+| aspiradora, limpiadora, limpieza, tienda, almacén, negocio
+| 58
 |  
 | shop
 |  
@@ -23231,8 +23231,8 @@
 |  
 |  
 | 
-| tienda, variedades, bazar, cadena 100, conveniencia
-| 51
+| variedad, diversidad, bazar, tienda, almacén, negocio
+| 53
 |  
 | shop
 |  
@@ -23276,8 +23276,8 @@
 |  
 |  
 | DVD
-| tienda, alquiler, renta, tienda de vídeos, videoclub, alquiler de vídeos, renta de vídeos
-| 89
+| vídeo, película, cine, videoclub, alquiler, renta, tienda, almacén, negocio
+| 75
 |  
 | shop
 |  
@@ -23315,14 +23315,14 @@
 |  
 | Video Game Store
 | Video Game Store
-| Tienda de Videojuegos
-| 21
+| Tienda de video juegos
+| 22
 |  
 |  
 |  
 | 
-| Tienda de vídeo juegos
-| 22
+| video juego, juegos electrónicos, tienda, almacén, negocio
+| 58
 |  
 | shop
 |  
@@ -23456,8 +23456,8 @@
 |  
 |  
 | 
-| Persianería
-| 11
+| ventana, persiana, tienda, almacén, negocio
+| 43
 |  
 | shop
 |  
@@ -25700,14 +25700,14 @@
 |  
 | Dam
 | Dam
-| Presa
-| 5
+| Represa
+| 7
 |  
-| duplicate
+|  
 |  
 | 
-| Presa, Dique
-| 12
+| represa
+| 7
 |  
 | dam
 |  
@@ -25973,11 +25973,11 @@
 | Presa
 | 5
 |  
-| duplicate
+|  
 |  
 | 
-| presa, azud, dique, represa
-| 27
+| presa, azud, dique
+| 18
 |  
 | dam
 |  

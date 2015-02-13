@@ -216,7 +216,9 @@
     "back_tooltip__transl": "Cambiar tipo de elemento",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "No",
+      "yes__en": "Yes",
+      "yes__transl": "Si"
     },
     "choose__en": "Select feature type",
     "choose__transl": "Selecciona tipo de elemento",
@@ -515,6 +517,7 @@
       "description__transl": "Objeto eliminado permanentemente.",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "Está característica no puede ser borrada porque no se ha descargado completa.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Eliminar"
     },
@@ -1246,6 +1249,7 @@
         "key": "brand",
         "label": "Brand",
         "label__en": "Brand",
+        "label__transl": "Marca",
         "type": "text"
       },
       "building": {
@@ -1622,6 +1626,35 @@
         "label__transl": "Gálibo",
         "type": "combo"
       },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "label__transl": "Género",
+        "options": {
+          "female__en": "Female",
+          "female__transl": "Femenino",
+          "male__en": "Male",
+          "male__transl": "Masculino",
+          "unisex__en": "Unisex",
+          "unisex__transl": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "placeholder__transl": "Desconocido",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
+      },
       "generator/method": {
         "key": "generator:method",
         "label": "Method",
@@ -1778,12 +1811,18 @@
         "key": "leaf_cycle",
         "label": "Leaf Cycle",
         "label__en": "Leaf Cycle",
+        "label__transl": "Ciclo hoja",
         "options": {
           "deciduous__en": "Deciduous",
+          "deciduous__transl": "Caduco",
           "evergreen__en": "Evergreen",
+          "evergreen__transl": "Perenne",
           "mixed__en": "Mixed",
+          "mixed__transl": "Mixta",
           "semi_deciduous__en": "Semi-Deciduous",
-          "semi_evergreen__en": "Semi-Evergreen"
+          "semi_deciduous__transl": "Semi-caduco",
+          "semi_evergreen__en": "Semi-Evergreen",
+          "semi_evergreen__transl": "Semi-perenne"
         },
         "strings": {
           "options": {
@@ -1800,11 +1839,16 @@
         "key": "leaf_type",
         "label": "Leaf Type",
         "label__en": "Leaf Type",
+        "label__transl": "Tipo hoja",
         "options": {
           "broadleaved__en": "Broadleaved",
+          "broadleaved__transl": "Hoja ancha",
           "leafless__en": "Leafless",
+          "leafless__transl": "Sin hojas",
           "mixed__en": "Mixed",
-          "needleleaved__en": "Needleleaved"
+          "mixed__transl": "Mixta",
+          "needleleaved__en": "Needleleaved",
+          "needleleaved__transl": "Hoja angosta"
         },
         "strings": {
           "options": {
@@ -2417,7 +2461,7 @@
           "undefined__en": "Assumed to be No",
           "undefined__transl": "Se asume que es No",
           "yes__en": "Yes",
-          "yes__transl": "Sí"
+          "yes__transl": "Si"
         },
         "strings": {
           "options": {
@@ -2437,7 +2481,7 @@
           "no__en": "No",
           "no__transl": "No",
           "undefined__en": "Assumed to be No",
-          "undefined__transl": "Se asume que es Sí",
+          "undefined__transl": "Se asume que es Si",
           "yes__en": "Yes",
           "yes__transl": "Sí"
         },
@@ -2526,8 +2570,8 @@
           "good__transl": "Ruedas finas: bicicletas de competición",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
           "horrible__transl": "Todoterreno: vehículo todoterreno de trabajo pesado",
-          "impassible__en": "Impassible / No wheeled vehicle",
-          "impassible__transl": "Impracticable / No apto para vehículos de ruedas",
+          "impassable__en": "Impassable / No wheeled vehicle",
+          "impassable__transl": "Impasable / Ningún vehículo con ruedas",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "intermediate__transl": "Ruedas: bicicleta urbana, silla de ruedas, ciclomotor",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
@@ -2544,7 +2588,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -2947,7 +2991,7 @@
         ],
         "name": "Aerialway",
         "name__en": "Aerialway",
-        "name__transl": "Teleférico",
+        "name__transl": "Transporte por cable",
         "tags": {
           "aerialway": "*"
         },
@@ -2957,7 +3001,7 @@
           "funitel"
         ],
         "terms__en": "ski lift,funifor,funitel",
-        "terms__transl": "aerovía, teleférico, telecabina, funicular, transbordador, telesilla, telesquí"
+        "terms__transl": "aerovía, teleférico, telecabina, funicular, transbordador, telesilla, telesquí, aéreo"
       },
       "aerialway/cable_car": {
         "fields": [
@@ -8598,7 +8642,7 @@
         "icon": "bicycle",
         "name": "Bicycle Repair Station",
         "name__en": "Bicycle Repair Station",
-        "name__transl": "Estación de Reparación de Bicicletas",
+        "name__transl": "Estación de reparación de bicicletas",
         "tags": {
           "amenity": "bicycle_repair_station"
         },
@@ -8606,7 +8650,7 @@
           "bike"
         ],
         "terms__en": "bike",
-        "terms__transl": "Bicicletería, Taller de Reparación de Bicicletas"
+        "terms__transl": "bicicletería pública, reparación de bicicletas pública, bicicleta"
       },
       "amenity/boat_rental": {
         "fields": [
@@ -9690,7 +9734,7 @@
         "icon": "hospital",
         "name": "Doctor",
         "name__en": "Doctor",
-        "name__transl": "Médico",
+        "name__transl": "Doctor",
         "tags": {
           "amenity": "doctors"
         },
@@ -9698,7 +9742,7 @@
           "medic*"
         ],
         "terms__en": "medic*",
-        "terms__transl": "médico, doctor, facultativo, medicina, curador"
+        "terms__transl": "médico, médica, doctor, curador, curandero"
       },
       "amenity/dojo": {
         "fields": [
@@ -14912,7 +14956,7 @@
         ],
         "name": "Grit Bin",
         "name__en": "Grit Bin",
-        "name__transl": "Depósito de Arena",
+        "name__transl": "Depósito de grava",
         "tags": {
           "amenity": "grit_bin"
         },
@@ -14921,7 +14965,7 @@
           "sand"
         ],
         "terms__en": "salt,sand",
-        "terms__transl": "Depósito de Sal"
+        "terms__transl": "depósito, contenedor, grava, gravilla, arena, arenilla"
       },
       "amenity/hospital": {
         "fields": [
@@ -16574,7 +16618,7 @@
           "temple"
         ],
         "terms__en": "abbey,basilica,bethel,cathedral,chancel,chantry,chapel,church,fold,house of God,house of prayer,house of worship,minster,mission,mosque,oratory,parish,sacellum,sanctuary,shrine,synagogue,tabernacle,temple",
-        "terms__transl": "templo, basílica, capilla, colegiata, parroquia, santuario, ermita, oratorio, iglesia, catedral, sinagoga, mezquita, pagoda, morabito, rábida, aljama, religión"
+        "terms__transl": "culto, oración, adoración, religión"
       },
       "amenity/place_of_worship/buddhist": {
         "fields": [
@@ -16619,7 +16663,7 @@
         "icon": "religious-christian",
         "name": "Church",
         "name__en": "Church",
-        "name__transl": "Iglesia",
+        "name__transl": "Lugar de culto",
         "tags": {
           "amenity": "place_of_worship",
           "religion": "christian"
@@ -16648,7 +16692,7 @@
           "temple"
         ],
         "terms__en": "christian,abbey,basilica,bethel,cathedral,chancel,chantry,chapel,fold,house of God,house of prayer,house of worship,minster,mission,oratory,parish,sacellum,sanctuary,shrine,tabernacle,temple",
-        "terms__transl": "templo, basílica, capilla, colegiata, parroquia, santuario, ermita, oratorio, iglesia, catedral, oratorio, religión"
+        "terms__transl": "templo, capilla, parroquia, santuario, ermita, oratorio, iglesia, oratorio"
       },
       "amenity/place_of_worship/jewish": {
         "fields": [
@@ -17674,7 +17718,7 @@
         "icon": "library",
         "name": "Public Bookcase",
         "name__en": "Public Bookcase",
-        "name__transl": "Biblioteca Pública",
+        "name__transl": "Biblioteca pública",
         "tags": {
           "amenity": "public_bookcase"
         },
@@ -17683,7 +17727,7 @@
           "bookcrossing"
         ],
         "terms__en": "library,bookcrossing",
-        "terms__transl": "Biblioteca"
+        "terms__transl": "biblioteca, estante, libro, público, libre, abierta"
       },
       "amenity/ranger_station": {
         "fields": [
@@ -17765,7 +17809,7 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "oficina de registro, registro civil, notaria, notaria civil, notaria pública, nacimiento, matrimonio, defunción, ceremonia de unión"
+        "terms__transl": "oficina de registro, registro civil, notaria, notaria civil, notaria pública, nacimiento, matrimonio, defunción, ceremonia de unión, oficina"
       },
       "amenity/restaurant": {
         "fields": [
@@ -20952,7 +20996,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -21509,7 +21554,7 @@
           "building": "cathedral"
         },
         "terms__en": "",
-        "terms__transl": "iglesia, lugar de culto, templo, basílica, parroquia, santuario, oratorio, iglesia, basílica"
+        "terms__transl": "basílica, iglesia, catedral"
       },
       "building/chapel": {
         "fields": [
@@ -21547,7 +21592,7 @@
           "building": "church"
         },
         "terms__en": "",
-        "terms__transl": "templo, basílica, capilla, colegiata, parroquia, santuario, ermita, oratorio,iglesia, basílica, catedral"
+        "terms__transl": "templo, capilla, colegiata, parroquia, santuario, ermita, oratorio, iglesia"
       },
       "building/college": {
         "fields": [
@@ -21784,12 +21829,12 @@
         ],
         "name": "Hut",
         "name__en": "Hut",
-        "name__transl": "Refugio",
+        "name__transl": "Choza",
         "tags": {
           "building": "hut"
         },
         "terms__en": "",
-        "terms__transl": "refugio,abrigo,vivac,choza"
+        "terms__transl": "refugio, abrigo, vivac, choza, cabaña"
       },
       "building/industrial": {
         "fields": [
@@ -22316,7 +22361,7 @@
           "craft": "clockmaker"
         },
         "terms__en": "",
-        "terms__transl": "relojero, joyero, reloj"
+        "terms__transl": "relojero, reloj, relojería"
       },
       "craft/confectionery": {
         "fields": [
@@ -22531,7 +22576,7 @@
           "craft": "jeweler"
         },
         "terms__en": "",
-        "terms__transl": "joyero, relojería, relojero, platería, orfebrería, orfebre"
+        "terms__transl": "joyero, platería, orfebrería, orfebre"
       },
       "craft/key_cutter": {
         "fields": [
@@ -23081,7 +23126,7 @@
           "craft": "watchmaker"
         },
         "terms__en": "",
-        "terms__transl": "Relojero"
+        "terms__transl": "relojero, reloj, pulsera, reloj de pulsera"
       },
       "craft/window_construction": {
         "fields": [
@@ -23257,7 +23302,7 @@
         ],
         "name": "Crosswalk",
         "name__en": "Crosswalk",
-        "name__transl": "Cruce peatonal",
+        "name__transl": "Paso de peatones",
         "tags": {
           "crossing": "zebra",
           "footway": "crossing",
@@ -23538,7 +23583,7 @@
         ],
         "name": "Crosswalk",
         "name__en": "Crosswalk",
-        "name__transl": "Cruce peatonal",
+        "name__transl": "Paso de peatones",
         "tags": {
           "crossing": "zebra",
           "highway": "crossing"
@@ -23547,7 +23592,7 @@
           "zebra crossing"
         ],
         "terms__en": "zebra crossing",
-        "terms__transl": "cruce, travesía, paso, cruzamiento, pasaje, vado, paseo, traviesa, paso de peatones"
+        "terms__transl": "cruce, paso, peatón, peatonal, cebra, paso peatonal, cruce peatonal, paso de peatones, paso de cebra"
       },
       "highway/cycleway": {
         "fields": [
@@ -24514,7 +24559,7 @@
           "junction": "yes"
         },
         "terms__en": "",
-        "terms__transl": "cruce, intersección, empalme, intersección vial"
+        "terms__transl": "cruce, intersección, empalme, nudo, unión, intersección vial, crucero"
       },
       "landuse": {
         "fields": [
@@ -24536,7 +24581,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24552,7 +24596,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24572,8 +24615,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24609,20 +24650,19 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "Comercial",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
+        "name__transl": "Área Comercial",
         "tags": {
           "landuse": "commercial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Comercial, tiendas, compras"
+        "terms__transl": "Zona Comercial"
       },
       "landuse/construction": {
         "fields": [
@@ -24630,7 +24670,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24653,8 +24692,8 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "name__transl": "Tierras de cultivo",
         "searchable": false,
         "tags": {
@@ -24663,48 +24702,45 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Granja, cultivo, finca, campo"
+        "terms__transl": "Tierras agrícolas, Tierras de labranza"
       },
       "landuse/farmland": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Granja",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Tierras de cultivo",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland",
-        "terms__transl": "granja, rancho, estancia, hacienda, casa de campo"
+        "terms__en": "",
+        "terms__transl": "Tierras agrícolas, Tierras de labranza"
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
         "name": "Farmyard",
         "name__en": "Farmyard",
-        "name__transl": "Granja",
+        "name__transl": "Edificio de granja",
         "tags": {
           "landuse": "farmyard"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Edificios de la granja"
+        "terms__transl": "corral, redil, edificio granja"
       },
       "landuse/forest": {
         "fields": [
@@ -24712,7 +24748,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24745,7 +24780,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24761,20 +24795,19 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Industrial",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
+        "name__transl": "Área Industrial",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Industrial, polígono"
+        "terms__transl": "Zona Industrial"
       },
       "landuse/landfill": {
         "geometry": [
@@ -24794,7 +24827,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24812,23 +24844,22 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "Militar",
+        "name": "Military Area",
+        "name__en": "Military Area",
+        "name__transl": "Área Militar",
         "tags": {
           "landuse": "military"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "militar, ejercito, fuerzas armadas, defensa, cuartel, milicia"
+        "terms__transl": "Zona Militar"
       },
       "landuse/orchard": {
         "fields": [
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24845,7 +24876,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24861,39 +24891,36 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "Residencial",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
+        "name__transl": "Área Residencial",
         "tags": {
           "landuse": "residential"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "zona, residencial, urbano, suelo"
+        "terms__transl": "Barrio Residencial"
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "Venta al por menor",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
+        "name__transl": "Área Comercial",
         "tags": {
           "landuse": "retail"
         },
         "terms__en": "",
-        "terms__transl": "negocio, venta, comercio, tienda, despacho, colmado, al por menor"
+        "terms__transl": "Zona Comercial"
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -25071,7 +25098,7 @@
         "icon": "park",
         "name": "Nature Reserve",
         "name__en": "Nature Reserve",
-        "name__transl": "Reserva Natural",
+        "name__transl": "Reserva natural",
         "tags": {
           "leisure": "nature_reserve"
         },
@@ -25080,7 +25107,7 @@
           "wildlife"
         ],
         "terms__en": "protected,wildlife",
-        "terms__transl": "Reserva"
+        "terms__transl": "reserva natural, reserva ecológica, área protegida, conservación, preservación, natural"
       },
       "leisure/park": {
         "geometry": [
@@ -26550,7 +26577,7 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Doctor, facultativo"
+        "terms__transl": "médico, médica, curador, curandero"
       },
       "office/political_party": {
         "fields": [
@@ -26864,7 +26891,7 @@
         "icon": "town",
         "name": "Town",
         "name__en": "Town",
-        "name__transl": "Ciudad",
+        "name__transl": "Pueblo",
         "tags": {
           "place": "town"
         },
@@ -34528,7 +34555,7 @@
         "icon": "shop",
         "name": "Electronics Store",
         "name__en": "Electronics Store",
-        "name__transl": "Tienda de electrodomésticos",
+        "name__transl": "Tienda de electrónica",
         "tags": {
           "shop": "electronics"
         },
@@ -34539,7 +34566,7 @@
           "tv"
         ],
         "terms__en": "appliance,audio,computer,tv",
-        "terms__transl": "electrónica, electrodoméstico, aparato, televisión, sonido, tienda, electrotécnica"
+        "terms__transl": "electrónica, electrodoméstico, aparatos, equipos, línea blanca, tienda, almacén, negocio"
       },
       "shop/electronics/Best Buy": {
         "fields": [
@@ -34802,7 +34829,7 @@
         "icon": "shop",
         "name": "Erotic Store",
         "name__en": "Erotic Store",
-        "name__transl": "Tienda Erótica",
+        "name__transl": "Tienda erótica",
         "tags": {
           "shop": "erotic"
         },
@@ -34811,7 +34838,7 @@
           "porn"
         ],
         "terms__en": "sex,porn",
-        "terms__transl": "Tienda erótica, tienda de productos eróticos, sex shop"
+        "terms__transl": "erótica, sexo, sexual, sex shop, tienda, almacén, negocio"
       },
       "shop/fabric": {
         "fields": [
@@ -34827,7 +34854,7 @@
         "icon": "shop",
         "name": "Fabric Store",
         "name__en": "Fabric Store",
-        "name__transl": "Tienda Textil",
+        "name__transl": "Tienda textil",
         "tags": {
           "shop": "fabric"
         },
@@ -34835,7 +34862,7 @@
           "sew"
         ],
         "terms__en": "sew",
-        "terms__transl": "Tienda de telas, textilería"
+        "terms__transl": "tela, tejido, género, textilería, tienda, almacén, negocio"
       },
       "shop/farm": {
         "fields": [
@@ -34876,12 +34903,12 @@
         "icon": "shop",
         "name": "Fashion Store",
         "name__en": "Fashion Store",
-        "name__transl": "Tienda de Moda",
+        "name__transl": "Tienda de moda",
         "tags": {
           "shop": "fashion"
         },
         "terms__en": "",
-        "terms__transl": "moda"
+        "terms__transl": "moda, marca, fashion, ropa, tienda, almacén, negocio"
       },
       "shop/fishmonger": {
         "fields": [
@@ -34999,7 +35026,7 @@
           "stove"
         ],
         "terms__en": "oven,stove",
-        "terms__transl": "horno"
+        "terms__transl": "horno, caldera, tienda, almacén, negocio"
       },
       "shop/furniture": {
         "fields": [
@@ -35025,7 +35052,7 @@
           "table"
         ],
         "terms__en": "chair,sofa,table",
-        "terms__transl": "mueble, mobiliario, utensilio, armario, mesa, silla, tienda, decoración, cocina"
+        "terms__transl": "mueble, mobiliario, utensilio, armario, mesa, silla, decoración, cocina, tienda, almacén, negocio"
       },
       "shop/furniture/But": {
         "fields": [
@@ -35463,7 +35490,7 @@
           "shop": "hardware"
         },
         "terms__en": "",
-        "terms__transl": "Ferreteria"
+        "terms__transl": "ferretería, tienda, almacén, negocio"
       },
       "shop/hardware/1000 мелочей": {
         "fields": [
@@ -35517,12 +35544,12 @@
         "icon": "shop",
         "name": "Hearing Aids Store",
         "name__en": "Hearing Aids Store",
-        "name__transl": "Tienda de Audífonos",
+        "name__transl": "Tienda de audífonos",
         "tags": {
           "shop": "hearing_aids"
         },
         "terms__en": "",
-        "terms__transl": "audífono, aparato del oído, aparato para sordos"
+        "terms__transl": "audífono, audio, oído, sordo, aparato, equipo, tienda, almacén, negocio"
       },
       "shop/herbalist": {
         "fields": [
@@ -35568,9 +35595,9 @@
           "video"
         ],
         "terms__en": "stereo,video",
-        "terms__transl": "sonido, hifi, alta fidelidad, electrónica, altavoces, amplificadores"
+        "terms__transl": "sonido, hifi, alta fidelidad, electrónica, altavoz, amplificador, tienda, almacén, negocio"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -35582,15 +35609,18 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
+        "name__transl": "Tienda de Artículos para el Hogar ",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household",
+        "terms__transl": "Tienda de Electrodomésticos"
       },
       "shop/interior_decoration": {
         "fields": [
@@ -35606,12 +35636,12 @@
         "icon": "shop",
         "name": "Interior Decoration Store",
         "name__en": "Interior Decoration Store",
-        "name__transl": "Tienda de Decoración de Interiores",
+        "name__transl": "Tienda de decoración de interiores",
         "tags": {
           "shop": "interior_decoration"
         },
         "terms__en": "",
-        "terms__transl": "decoración de interiores"
+        "terms__transl": "interior, diseño, decoración, sala de estar, salón, dormitorio, cuarto, tienda, almacén, negocio"
       },
       "shop/jewelry": {
         "fields": [
@@ -35637,7 +35667,7 @@
           "ring"
         ],
         "terms__en": "diamond,gem,ring",
-        "terms__transl": "joyería, joyero, relojería, argentería, orfebrería, orfebre, platero, relojero"
+        "terms__transl": "joyería, joyero, argentería, orfebrería, orfebre, platero"
       },
       "shop/jewelry/Bijou Brigitte": {
         "fields": [
@@ -35731,12 +35761,12 @@
         "icon": "shop",
         "name": "Kitchen Design Store",
         "name__en": "Kitchen Design Store",
-        "name__transl": "Tienda de Diseño de Cocinas",
+        "name__transl": "Tienda de diseño de cocinas",
         "tags": {
           "shop": "kitchen"
         },
         "terms__en": "",
-        "terms__transl": "Diseño de la cocina, diseño de cocina"
+        "terms__transl": "cocina, diseño, tienda, almacén, negocio"
       },
       "shop/laundry": {
         "fields": [
@@ -35773,12 +35803,12 @@
         "icon": "shop",
         "name": "Leather Store",
         "name__en": "Leather Store",
-        "name__transl": "Tienda de pieles",
+        "name__transl": "Tienda de cuero",
         "tags": {
           "shop": "leather"
         },
         "terms__en": "",
-        "terms__transl": "cuero, piel, gamuza"
+        "terms__transl": "cuero, piel, gamuza, tienda, almacén, negocio"
       },
       "shop/locksmith": {
         "fields": [
@@ -35882,12 +35912,12 @@
         "icon": "shop",
         "name": "Medical Supply Store",
         "name__en": "Medical Supply Store",
-        "name__transl": "Farmacia",
+        "name__transl": "Tienda de suplementos médicos",
         "tags": {
           "shop": "medical_supply"
         },
         "terms__en": "",
-        "terms__transl": "Tienda de suplementos médicos"
+        "terms__transl": "suplemento, medicina, medicamento, farmacia, droguería, tienda, almacén, negocio"
       },
       "shop/mobile_phone": {
         "fields": [
@@ -35908,7 +35938,7 @@
           "shop": "mobile_phone"
         },
         "terms__en": "",
-        "terms__transl": "teléfono, smartphone, tienda, electrónica, comunicación, móvil, llamada"
+        "terms__transl": "teléfono, celular, móvil, smartphone, comunicación, telecomunicación, tienda, almacén, negocio"
       },
       "shop/mobile_phone/AT&T": {
         "fields": [
@@ -36393,7 +36423,7 @@
           "vinyl"
         ],
         "terms__en": "CD,vinyl",
-        "terms__transl": "música, melodía, tienda, disco, dvd, vinilo, lp, sonido, discografía, cantante, banda, grupo, rock, soul, pop, reggea, heavy, metal, rap, blues, clásica, cumbia, salsa"
+        "terms__transl": "música, audio, discos, discográfica, tienda, almacén, negocio"
       },
       "shop/musical_instrument": {
         "fields": [
@@ -36409,12 +36439,12 @@
         "icon": "music",
         "name": "Musical Instrument Store",
         "name__en": "Musical Instrument Store",
-        "name__transl": "Tienda de Instrumentos Musicales",
+        "name__transl": "Tienda de instrumentos musicales",
         "tags": {
           "shop": "musical_instrument"
         },
         "terms__en": "",
-        "terms__transl": "Tienda de instrumentos musicales"
+        "terms__transl": "música, audio, sonido, aparato, equipo, instrumento, tienda, almacén, negocio"
       },
       "shop/newsagent": {
         "fields": [
@@ -36647,13 +36677,13 @@
         "icon": "shop",
         "name": "Organic Goods Store",
         "name__en": "Organic Goods Store",
-        "name__transl": "Tienda de Productos Orgánicos",
+        "name__transl": "Tienda de productos orgánicos",
         "tags": {
           "organic": "only",
           "shop": "supermarket"
         },
         "terms__en": "",
-        "terms__transl": "Tienda de productos orgáncos"
+        "terms__transl": "orgánico, ecológico, natural, productos, vegetales, tienda, almacén, negocio"
       },
       "shop/outdoor": {
         "fields": [
@@ -36679,7 +36709,7 @@
           "hiking"
         ],
         "terms__en": "camping,climbing,hiking",
-        "terms__transl": "al aire libre, fuera de casa"
+        "terms__transl": "al aire libre, fuera de casa, exterior, excursión, campamento, tienda, almacén, negocio"
       },
       "shop/paint": {
         "fields": [
@@ -36700,7 +36730,7 @@
           "shop": "paint"
         },
         "terms__en": "",
-        "terms__transl": "Pinturería"
+        "terms__transl": "pintura, colores, solventes, tienda, almacén, negocio"
       },
       "shop/pawnbroker": {
         "fields": [
@@ -36747,7 +36777,7 @@
           "fish"
         ],
         "terms__en": "cat,dog,fish",
-        "terms__transl": "tienda, mascotas, perros, canina, felina, perruquería, gatos"
+        "terms__transl": "mascota, animal, tienda, almacén, negocio"
       },
       "shop/pet/Das Futterhaus": {
         "fields": [
@@ -36886,7 +36916,7 @@
           "film"
         ],
         "terms__en": "camera,film",
-        "terms__transl": "fotografía, tienda , establecimiento, fotógrafo, cámara, retratista, revelado"
+        "terms__transl": "fotografía, fotógrafo, cámara, retratista, revelado, tienda, almacén, negocio"
       },
       "shop/pyrotechnics": {
         "fields": [
@@ -36907,7 +36937,7 @@
           "shop": "pyrotechnics"
         },
         "terms__en": "",
-        "terms__transl": "Tienda de fuegos artificiales"
+        "terms__transl": "fuegos artificiales, pirotecnia, tienda, almacén, negocio"
       },
       "shop/radiotechnics": {
         "fields": [
@@ -36923,12 +36953,12 @@
         "icon": "shop",
         "name": "Radio/Electronic Component Store",
         "name__en": "Radio/Electronic Component Store",
-        "name__transl": "Tienda de componentes electrónicos",
+        "name__transl": "Tienda de componentes radio electrónicos",
         "tags": {
           "shop": "radiotechnics"
         },
         "terms__en": "",
-        "terms__transl": "Tienda de componentes electrónicos, tienda de electrónica"
+        "terms__transl": "electrónica, radio, componentes, equipo, aparato, instrumento, tienda, almacén, negocio"
       },
       "shop/religion": {
         "fields": [
@@ -36946,12 +36976,12 @@
         "icon": "shop",
         "name": "Religious Store",
         "name__en": "Religious Store",
-        "name__transl": "Tienda Religiosa",
+        "name__transl": "Tienda religiosa",
         "tags": {
           "shop": "religion"
         },
         "terms__en": "",
-        "terms__transl": "Tienda de productos religiosos, tienda religiosa"
+        "terms__transl": "religión, religioso, santerio, santos, tienda, almacén, negocio"
       },
       "shop/scuba_diving": {
         "fields": [
@@ -37012,7 +37042,7 @@
         "icon": "shop",
         "name": "Consignment/Thrift Store",
         "name__en": "Consignment/Thrift Store",
-        "name__transl": "Tienda de Envío / Ahorro",
+        "name__transl": "Tienda de envío/ahorro",
         "tags": {
           "shop": "second_hand"
         },
@@ -37024,7 +37054,7 @@
           "used"
         ],
         "terms__en": "secondhand,second hand,resale,thrift,used",
-        "terms__transl": "Envío, Ahorro"
+        "terms__transl": "dinero, envío, remesa, ahorro, depósito, tienda, almacén, negocio"
       },
       "shop/shoes": {
         "fields": [
@@ -37045,7 +37075,7 @@
           "shop": "shoes"
         },
         "terms__en": "",
-        "terms__transl": "zapatería, calzado, tienda, zapato, zapatilla, escarpín, bota, sandalia, alpargata, pantufla, babucha, borceguí, almadreña, zueco, chancla, chanclo, madreña, chinela, coturno, alborga"
+        "terms__transl": "zapato, zapatilla, calzado, sandalia, chancla, alpargata, zapatería, tienda, almacén, negocio"
       },
       "shop/shoes/Bata": {
         "fields": [
@@ -37370,7 +37400,7 @@
           "shop": "sports"
         },
         "terms__en": "",
-        "terms__transl": "Artículos Deportivos"
+        "terms__transl": "deporte, deportivo, tienda, almacén, negocio"
       },
       "shop/sports/Decathlon": {
         "fields": [
@@ -37528,7 +37558,7 @@
           "paper"
         ],
         "terms__en": "card,paper",
-        "terms__transl": "Papelería"
+        "terms__transl": "papel, papelería, escritorio, oficina, tienda, almacén, negocio"
       },
       "shop/stationery/McPaper": {
         "fields": [
@@ -42105,7 +42135,7 @@
           "shop": "tea"
         },
         "terms__en": "",
-        "terms__transl": "Tienda de té, casa de té, té"
+        "terms__transl": "te, infusión, tienda, almacén, negocio"
       },
       "shop/ticket": {
         "fields": [
@@ -42168,7 +42198,7 @@
           "shop": "toys"
         },
         "terms__en": "",
-        "terms__transl": "juguetería,juguetes"
+        "terms__transl": "juguetes, juego, juguetería, tienda, almacén, negocio"
       },
       "shop/toys/Intertoys": {
         "fields": [
@@ -42343,7 +42373,7 @@
           "shop": "tyres"
         },
         "terms__en": "",
-        "terms__transl": "Taller de neumáticos, Recambio de ruedas"
+        "terms__transl": "neumático, llanta, goma, tienda, almacén, negocio"
       },
       "shop/vacant": {
         "fields": [
@@ -42379,12 +42409,12 @@
         "icon": "shop",
         "name": "Vacuum Cleaner Store",
         "name__en": "Vacuum Cleaner Store",
-        "name__transl": "Tienda de Aspiradoras",
+        "name__transl": "Tienda de aspiradoras",
         "tags": {
           "shop": "vacuum_cleaner"
         },
         "terms__en": "",
-        "terms__transl": "aspiradora, limpiadora vacuo"
+        "terms__transl": "aspiradora, limpiadora, limpieza, tienda, almacén, negocio"
       },
       "shop/variety_store": {
         "fields": [
@@ -42405,7 +42435,7 @@
           "shop": "variety_store"
         },
         "terms__en": "",
-        "terms__transl": "tienda, variedades, bazar, cadena 100, conveniencia"
+        "terms__transl": "variedad, diversidad, bazar, tienda, almacén, negocio"
       },
       "shop/variety_store/Dollar Tree": {
         "fields": [
@@ -42505,7 +42535,7 @@
           "DVD"
         ],
         "terms__en": "DVD",
-        "terms__transl": "tienda, alquiler, renta, tienda de vídeos, videoclub, alquiler de vídeos, renta de vídeos"
+        "terms__transl": "vídeo, película, cine, videoclub, alquiler, renta, tienda, almacén, negocio"
       },
       "shop/video/Blockbuster": {
         "fields": [
@@ -42559,12 +42589,12 @@
         "icon": "shop",
         "name": "Video Game Store",
         "name__en": "Video Game Store",
-        "name__transl": "Tienda de Videojuegos",
+        "name__transl": "Tienda de video juegos",
         "tags": {
           "shop": "video_games"
         },
         "terms__en": "",
-        "terms__transl": "Tienda de vídeo juegos"
+        "terms__transl": "video juego, juegos electrónicos, tienda, almacén, negocio"
       },
       "shop/water_sports": {
         "fields": [
@@ -42633,7 +42663,7 @@
           "shop": "window_blind"
         },
         "terms__en": "",
-        "terms__transl": "Persianería"
+        "terms__transl": "ventana, persiana, tienda, almacén, negocio"
       },
       "shop/wine": {
         "fields": [
@@ -43598,12 +43628,12 @@
         "icon": "dam",
         "name": "Dam",
         "name__en": "Dam",
-        "name__transl": "Presa",
+        "name__transl": "Represa",
         "tags": {
           "waterway": "dam"
         },
         "terms__en": "",
-        "terms__transl": "Presa, Dique"
+        "terms__transl": "represa"
       },
       "waterway/ditch": {
         "fields": [
@@ -43744,7 +43774,7 @@
           "waterway": "weir"
         },
         "terms__en": "",
-        "terms__transl": "presa, azud, dique, represa"
+        "terms__transl": "presa, azud, dique"
       }
     }
   },

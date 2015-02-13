@@ -8,5 +8,22 @@
 -        label: "Type"
 -      }
      }
+     presets: {
+-      landuse/commercial: {
+-        name: "Kommersielt"
+-      }
+-      landuse/farm: {
+-        name: "Gård"
+-      }
+-      landuse/industrial: {
+-        name: "Industrielt"
+-      }
+-      landuse/residential: {
+-        name: "Boligområde"
+-      }
+-      landuse/retail: {
+-        name: "Handel"
+-      }
+     }
    }
  }

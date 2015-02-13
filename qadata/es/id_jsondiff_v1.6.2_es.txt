@@ -105,6 +105,10 @@
 +    changes: "{count} Cambios"
    }
    inspector: {
++    check: {
++      yes: "Si"
++      no: "No"
++    }
 +    add_fields: "Añadir campo:"
    }
    restore: {
@@ -167,21 +171,52 @@
 +      bench: {
 +        label: "Banco"
 +      }
++      brand: {
++        label: "Marca"
++      }
 +      delivery: {
 +        label: "Entrega"
++      }
++      gender: {
++        label: "Género"
++        placeholder: "Desconocido"
++        options: {
++          male: "Masculino"
++          female: "Femenino"
++          unisex: "Unisex"
++        }
++      }
++      leaf_cycle: {
++        label: "Ciclo hoja"
++        options: {
++          evergreen: "Perenne"
++          deciduous: "Caduco"
++          semi_evergreen: "Semi-perenne"
++          semi_deciduous: "Semi-caduco"
++          mixed: "Mixta"
++        }
++      }
++      leaf_type: {
++        label: "Tipo hoja"
++        options: {
++          broadleaved: "Hoja ancha"
++          needleleaved: "Hoja angosta"
++          mixed: "Mixta"
++          leafless: "Sin hojas"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        label: "Tronchacadenas"
 +        options: {
 +          undefined: "Se asume que es No"
-+          yes: "Sí"
++          yes: "Si"
 +          no: "No"
 +        }
 +      }
 +      service/bicycle/pump: {
 +        label: "Bomba de aire"
 +        options: {
-+          undefined: "Se asume que es Sí"
++          undefined: "Se asume que es Si"
 +          yes: "Sí"
 +          no: "No"
 +        }
@@ -200,6 +235,8 @@
 +      }
        smoothness: {
          options: {
+-          impassible: "Impracticable / No apto para vehículos de ruedas"
++          impassable: "Impasable / Ningún vehículo con ruedas"
 -          bad: "Ruedas robustas: bicicleta de montaña, vehículo, carreta"
 +          bad: "Ruedas robustas: bicicleta de montaña, automóvil, carreta"
          }
@@ -211,24 +248,24 @@
 -        terms: "golosinas, chucherías, caramelos"
 -      }
 +      amenity/bicycle_repair_station: {
-+        name: "Estación de Reparación de Bicicletas"
-+        terms: "Bicicletería, Taller de Reparación de Bicicletas"
++        name: "Estación de reparación de bicicletas"
++        terms: "bicicletería pública, reparación de bicicletas pública, bicicleta"
 +      }
 +      amenity/community_centre: {
 +        name: "Centro Comunitario"
 +        terms: "Centro de la Comunidad, Centro Comunitario"
 +      }
 +      amenity/grit_bin: {
-+        name: "Depósito de Arena"
-+        terms: "Depósito de Sal"
++        name: "Depósito de grava"
++        terms: "depósito, contenedor, grava, gravilla, arena, arenilla"
 +      }
 +      amenity/public_bookcase: {
-+        name: "Biblioteca Pública"
-+        terms: "Biblioteca"
++        name: "Biblioteca pública"
++        terms: "biblioteca, estante, libro, público, libre, abierta"
 +      }
 +      amenity/register_office: {
 +        name: "Oficina de registro"
-+        terms: "oficina de registro, registro civil, notaria, notaria civil, notaria pública, nacimiento, matrimonio, defunción, ceremonia de unión"
++        terms: "oficina de registro, registro civil, notaria, notaria civil, notaria pública, nacimiento, matrimonio, defunción, ceremonia de unión, oficina"
 +      }
 +      craft/confectionery: {
 +        name: "Confitería"
@@ -236,15 +273,15 @@
 +      }
 +      junction: {
 +        name: "Cruce"
-+        terms: "cruce, intersección, empalme, intersección vial"
++        terms: "cruce, intersección, empalme, nudo, unión, intersección vial, crucero"
 +      }
 +      landuse/garages: {
 +        name: "Garajes"
 +        terms: "automóvil, vehículo, carro, garaje, cochera"
 +      }
 +      leisure/nature_reserve: {
-+        name: "Reserva Natural"
-+        terms: "Reserva"
++        name: "Reserva natural"
++        terms: "reserva natural, reserva ecológica, área protegida, conservación, preservación, natural"
 +      }
 +      natural/cave_entrance: {
 +        name: "Entrada de la cueva"
@@ -253,6 +290,10 @@
 +      power/substation: {
 +        name: "Subestación"
 +        terms: "Subestación"
++      }
++      shop/houseware: {
++        name: "Tienda de Artículos para el Hogar "
++        terms: "Tienda de Electrodomésticos"
 +      }
 +      traffic_calming/bump: {
 +        name: "Badén"
@@ -270,6 +311,12 @@
 +        name: "Paso de peatones elevado"
 +        terms: "cruce, paso, peatón, peatonal, cebra, paso peatonal, cruce peatonal, paso de peatones, paso de cebra, reducción velocidad"
 +      }
+       aerialway: {
+-        name: "Teleférico"
++        name: "Transporte por cable"
+-        terms: "aerovía, teleférico, telecabina, funicular, transbordador, telesilla, telesquí"
++        terms: "aerovía, teleférico, telecabina, funicular, transbordador, telesilla, telesquí, aéreo"
+       }
        aerialway/cable_car: {
 -        terms: "transbordador, funicular, telecabina, telesilla, telesquí"
 +        terms: "transbordador, funicular, telecabina, telesilla, telesquí, teleférico"
@@ -296,9 +343,39 @@
 -        terms: "guardería, guardería infantil"
 +        terms: "bebés, niños, niñas, infantil, guardería, cuidado, guardería infantil, cuidado infantil"
        }
+       amenity/doctor: {
+-        name: "Médico"
++        name: "Doctor"
+-        terms: "médico, doctor, facultativo, medicina, curador"
++        terms: "médico, médica, doctor, curador, curandero"
+       }
        amenity/parking: {
 -        terms: "aparcamiento, parking, aparcadero, estacionamiento, garaje"
 +        terms: "coche, carro, auto, automóvil, vehículo, aparcamiento, parking, aparcadero, estacionamiento, garaje, parqueadero, parqueo"
+       }
+       amenity/place_of_worship: {
+-        terms: "templo, basílica, capilla, colegiata, parroquia, santuario, ermita, oratorio, iglesia, catedral, sinagoga, mezquita, pagoda, morabito, rábida, aljama, religión"
++        terms: "culto, oración, adoración, religión"
+       }
+       amenity/place_of_worship/christian: {
+-        name: "Iglesia"
++        name: "Lugar de culto"
+-        terms: "templo, basílica, capilla, colegiata, parroquia, santuario, ermita, oratorio, iglesia, catedral, oratorio, religión"
++        terms: "templo, capilla, parroquia, santuario, ermita, oratorio, iglesia, oratorio"
+       }
+       building/cathedral: {
+-        terms: "iglesia, lugar de culto, templo, basílica, parroquia, santuario, oratorio, iglesia, basílica"
++        terms: "basílica, iglesia, catedral"
+       }
+       building/church: {
+-        terms: "templo, basílica, capilla, colegiata, parroquia, santuario, ermita, oratorio,iglesia, basílica, catedral"
++        terms: "templo, capilla, colegiata, parroquia, santuario, ermita, oratorio, iglesia"
+       }
+       building/hut: {
+-        name: "Refugio"
++        name: "Choza"
+-        terms: "refugio,abrigo,vivac,choza"
++        terms: "refugio, abrigo, vivac, choza, cabaña"
        }
        craft/carpenter: {
 -        terms: "carpintero, ebanistería, ebanista, madera, madedero"
@@ -308,16 +385,38 @@
 -        terms: "alfombra, moqueta, tapiz"
 +        terms: "alfombra, moqueta, tapiz, tapicero"
        }
+       craft/clockmaker: {
+-        terms: "relojero, joyero, reloj"
++        terms: "relojero, reloj, relojería"
+       }
+       craft/jeweler: {
+-        terms: "joyero, relojería, relojero, platería, orfebrería, orfebre"
++        terms: "joyero, platería, orfebrería, orfebre"
+       }
+       craft/watchmaker: {
+-        terms: "Relojero"
++        terms: "relojero, reloj, pulsera, reloj de pulsera"
+       }
        footway/crossing: {
 -        name: "Cruce peatonal"
 +        name: "Paso de peatones"
 -        terms: "cruce, travesía, paso, cruzamiento, pasaje, vado, paseo, traviesa, paso de peatones, paso de cebra"
 +        terms: "cruce, paso, peatón, peatonal, cebra, paso peatonal, cruce peatonal, paso de peatones, paso de cebra"
        }
+       footway/crosswalk: {
+-        name: "Cruce peatonal"
++        name: "Paso de peatones"
+       }
        highway/crossing: {
 -        name: "Cruce"
 +        name: "Paso de peatones"
 -        terms: "cruce peatonal, paso peatonal, franja peatonal, paso de cebra, paso de peatones, paso semafórico, peatón, ciudadano"
++        terms: "cruce, paso, peatón, peatonal, cebra, paso peatonal, cruce peatonal, paso de peatones, paso de cebra"
+       }
+       highway/crosswalk: {
+-        name: "Cruce peatonal"
++        name: "Paso de peatones"
+-        terms: "cruce, travesía, paso, cruzamiento, pasaje, vado, paseo, traviesa, paso de peatones"
 +        terms: "cruce, paso, peatón, peatonal, cebra, paso peatonal, cruce peatonal, paso de peatones, paso de cebra"
        }
        highway/street_lamp: {
@@ -326,11 +425,59 @@
 -        terms: "lámpara de calle, lámpara de la calle, iluminación, alumbrado"
 +        terms: "farola, iluminación, alumbrado, alumbrado público, farol, lámpara, fanal"
        }
+       landuse/commercial: {
+-        name: "Comercial"
++        name: "Área Comercial"
+-        terms: "Comercial, tiendas, compras"
++        terms: "Zona Comercial"
+       }
+       landuse/farm: {
+-        terms: "Granja, cultivo, finca, campo"
++        terms: "Tierras agrícolas, Tierras de labranza"
+       }
        landuse/farmland: {
 -        name: "Tierra de labranza"
-+        name: "Granja"
++        name: "Tierras de cultivo"
 -        terms: "granja, tierra de cultivo"
-+        terms: "granja, rancho, estancia, hacienda, casa de campo"
++        terms: "Tierras agrícolas, Tierras de labranza"
+       }
+       landuse/farmyard: {
+-        name: "Granja"
++        name: "Edificio de granja"
+-        terms: "Edificios de la granja"
++        terms: "corral, redil, edificio granja"
+       }
+       landuse/industrial: {
+-        name: "Industrial"
++        name: "Área Industrial"
+-        terms: "Industrial, polígono"
++        terms: "Zona Industrial"
+       }
+       landuse/military: {
+-        name: "Militar"
++        name: "Área Militar"
+-        terms: "militar, ejercito, fuerzas armadas, defensa, cuartel, milicia"
++        terms: "Zona Militar"
+       }
+       landuse/residential: {
+-        name: "Residencial"
++        name: "Área Residencial"
+-        terms: "zona, residencial, urbano, suelo"
++        terms: "Barrio Residencial"
+       }
+       landuse/retail: {
+-        name: "Venta al por menor"
++        name: "Área Comercial"
+-        terms: "negocio, venta, comercio, tienda, despacho, colmado, al por menor"
++        terms: "Zona Comercial"
+       }
+       office/physician: {
+-        terms: "Doctor, facultativo"
++        terms: "médico, médica, curador, curandero"
+       }
+       place/town: {
+-        name: "Ciudad"
++        name: "Pueblo"
        }
        railway/level_crossing: {
 -        terms: "paso a nivel, cruce a nivel, ferrocarril, tren"
@@ -445,6 +592,196 @@
        shop/doityourself: {
 -        terms: "bricolaje, ferretería, tienda"
 +        terms: "bricolaje, ferretería, por ti mismo, tienda, almacén, negocio"
+       }
+       shop/electronics: {
+-        name: "Tienda de electrodomésticos"
++        name: "Tienda de electrónica"
+-        terms: "electrónica, electrodoméstico, aparato, televisión, sonido, tienda, electrotécnica"
++        terms: "electrónica, electrodoméstico, aparatos, equipos, línea blanca, tienda, almacén, negocio"
+       }
+       shop/erotic: {
+-        name: "Tienda Erótica"
++        name: "Tienda erótica"
+-        terms: "Tienda erótica, tienda de productos eróticos, sex shop"
++        terms: "erótica, sexo, sexual, sex shop, tienda, almacén, negocio"
+       }
+       shop/fabric: {
+-        name: "Tienda Textil"
++        name: "Tienda textil"
+-        terms: "Tienda de telas, textilería"
++        terms: "tela, tejido, género, textilería, tienda, almacén, negocio"
+       }
+       shop/fashion: {
+-        name: "Tienda de Moda"
++        name: "Tienda de moda"
+-        terms: "moda"
++        terms: "moda, marca, fashion, ropa, tienda, almacén, negocio"
+       }
+       shop/furnace: {
+-        terms: "horno"
++        terms: "horno, caldera, tienda, almacén, negocio"
+       }
+       shop/furniture: {
+-        terms: "mueble, mobiliario, utensilio, armario, mesa, silla, tienda, decoración, cocina"
++        terms: "mueble, mobiliario, utensilio, armario, mesa, silla, decoración, cocina, tienda, almacén, negocio"
+       }
+       shop/hardware: {
+-        terms: "Ferreteria"
++        terms: "ferretería, tienda, almacén, negocio"
+       }
+       shop/hearing_aids: {
+-        name: "Tienda de Audífonos"
++        name: "Tienda de audífonos"
+-        terms: "audífono, aparato del oído, aparato para sordos"
++        terms: "audífono, audio, oído, sordo, aparato, equipo, tienda, almacén, negocio"
+       }
+       shop/hifi: {
+-        terms: "sonido, hifi, alta fidelidad, electrónica, altavoces, amplificadores"
++        terms: "sonido, hifi, alta fidelidad, electrónica, altavoz, amplificador, tienda, almacén, negocio"
+       }
+       shop/interior_decoration: {
+-        name: "Tienda de Decoración de Interiores"
++        name: "Tienda de decoración de interiores"
+-        terms: "decoración de interiores"
++        terms: "interior, diseño, decoración, sala de estar, salón, dormitorio, cuarto, tienda, almacén, negocio"
+       }
+       shop/jewelry: {
+-        terms: "joyería, joyero, relojería, argentería, orfebrería, orfebre, platero, relojero"
++        terms: "joyería, joyero, argentería, orfebrería, orfebre, platero"
+       }
+       shop/kitchen: {
+-        name: "Tienda de Diseño de Cocinas"
++        name: "Tienda de diseño de cocinas"
+-        terms: "Diseño de la cocina, diseño de cocina"
++        terms: "cocina, diseño, tienda, almacén, negocio"
+       }
+       shop/leather: {
+-        name: "Tienda de pieles"
++        name: "Tienda de cuero"
+-        terms: "cuero, piel, gamuza"
++        terms: "cuero, piel, gamuza, tienda, almacén, negocio"
+       }
+       shop/medical_supply: {
+-        name: "Farmacia"
++        name: "Tienda de suplementos médicos"
+-        terms: "Tienda de suplementos médicos"
++        terms: "suplemento, medicina, medicamento, farmacia, droguería, tienda, almacén, negocio"
+       }
+       shop/mobile_phone: {
+-        terms: "teléfono, smartphone, tienda, electrónica, comunicación, móvil, llamada"
++        terms: "teléfono, celular, móvil, smartphone, comunicación, telecomunicación, tienda, almacén, negocio"
+       }
+       shop/music: {
+-        terms: "música, melodía, tienda, disco, dvd, vinilo, lp, sonido, discografía, cantante, banda, grupo, rock, soul, pop, reggea, heavy, metal, rap, blues, clásica, cumbia, salsa"
++        terms: "música, audio, discos, discográfica, tienda, almacén, negocio"
+       }
+       shop/musical_instrument: {
+-        name: "Tienda de Instrumentos Musicales"
++        name: "Tienda de instrumentos musicales"
+-        terms: "Tienda de instrumentos musicales"
++        terms: "música, audio, sonido, aparato, equipo, instrumento, tienda, almacén, negocio"
+       }
+       shop/organic: {
+-        name: "Tienda de Productos Orgánicos"
++        name: "Tienda de productos orgánicos"
+-        terms: "Tienda de productos orgáncos"
++        terms: "orgánico, ecológico, natural, productos, vegetales, tienda, almacén, negocio"
+       }
+       shop/outdoor: {
+-        terms: "al aire libre, fuera de casa"
++        terms: "al aire libre, fuera de casa, exterior, excursión, campamento, tienda, almacén, negocio"
+       }
+       shop/paint: {
+-        terms: "Pinturería"
++        terms: "pintura, colores, solventes, tienda, almacén, negocio"
+       }
+       shop/pet: {
+-        terms: "tienda, mascotas, perros, canina, felina, perruquería, gatos"
++        terms: "mascota, animal, tienda, almacén, negocio"
+       }
+       shop/photo: {
+-        terms: "fotografía, tienda , establecimiento, fotógrafo, cámara, retratista, revelado"
++        terms: "fotografía, fotógrafo, cámara, retratista, revelado, tienda, almacén, negocio"
+       }
+       shop/pyrotechnics: {
+-        terms: "Tienda de fuegos artificiales"
++        terms: "fuegos artificiales, pirotecnia, tienda, almacén, negocio"
+       }
+       shop/radiotechnics: {
+-        name: "Tienda de componentes electrónicos"
++        name: "Tienda de componentes radio electrónicos"
+-        terms: "Tienda de componentes electrónicos, tienda de electrónica"
++        terms: "electrónica, radio, componentes, equipo, aparato, instrumento, tienda, almacén, negocio"
+       }
+       shop/religion: {
+-        name: "Tienda Religiosa"
++        name: "Tienda religiosa"
+-        terms: "Tienda de productos religiosos, tienda religiosa"
++        terms: "religión, religioso, santerio, santos, tienda, almacén, negocio"
+       }
+       shop/second_hand: {
+-        name: "Tienda de Envío / Ahorro"
++        name: "Tienda de envío/ahorro"
+-        terms: "Envío, Ahorro"
++        terms: "dinero, envío, remesa, ahorro, depósito, tienda, almacén, negocio"
+       }
+       shop/shoes: {
+-        terms: "zapatería, calzado, tienda, zapato, zapatilla, escarpín, bota, sandalia, alpargata, pantufla, babucha, borceguí, almadreña, zueco, chancla, chanclo, madreña, chinela, coturno, alborga"
++        terms: "zapato, zapatilla, calzado, sandalia, chancla, alpargata, zapatería, tienda, almacén, negocio"
+       }
+       shop/sports: {
+-        terms: "Artículos Deportivos"
++        terms: "deporte, deportivo, tienda, almacén, negocio"
+       }
+       shop/stationery: {
+-        terms: "Papelería"
++        terms: "papel, papelería, escritorio, oficina, tienda, almacén, negocio"
+       }
+       shop/tea: {
+-        terms: "Tienda de té, casa de té, té"
++        terms: "te, infusión, tienda, almacén, negocio"
+       }
+       shop/toys: {
+-        terms: "juguetería,juguetes"
++        terms: "juguetes, juego, juguetería, tienda, almacén, negocio"
+       }
+       shop/tyres: {
+-        terms: "Taller de neumáticos, Recambio de ruedas"
++        terms: "neumático, llanta, goma, tienda, almacén, negocio"
+       }
+       shop/vacuum_cleaner: {
+-        name: "Tienda de Aspiradoras"
++        name: "Tienda de aspiradoras"
+-        terms: "aspiradora, limpiadora vacuo"
++        terms: "aspiradora, limpiadora, limpieza, tienda, almacén, negocio"
+       }
+       shop/variety_store: {
+-        terms: "tienda, variedades, bazar, cadena 100, conveniencia"
++        terms: "variedad, diversidad, bazar, tienda, almacén, negocio"
+       }
+       shop/video: {
+-        terms: "tienda, alquiler, renta, tienda de vídeos, videoclub, alquiler de vídeos, renta de vídeos"
++        terms: "vídeo, película, cine, videoclub, alquiler, renta, tienda, almacén, negocio"
+       }
+       shop/video_games: {
+-        name: "Tienda de Videojuegos"
++        name: "Tienda de video juegos"
+-        terms: "Tienda de vídeo juegos"
++        terms: "video juego, juegos electrónicos, tienda, almacén, negocio"
+       }
+       shop/window_blind: {
+-        terms: "Persianería"
++        terms: "ventana, persiana, tienda, almacén, negocio"
+       }
+       waterway/dam: {
+-        name: "Presa"
++        name: "Represa"
+-        terms: "Presa, Dique"
++        terms: "represa"
+       }
+       waterway/weir: {
+-        terms: "presa, azud, dique, represa"
++        terms: "presa, azud, dique"
        }
      }
    }

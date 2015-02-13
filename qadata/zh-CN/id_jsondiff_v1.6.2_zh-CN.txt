@@ -51,7 +51,6 @@
 +          very_bad: "轻量化：低负重越野车辆"
 +          horrible: "越野：高负重越野车辆"
 +          very_horrible: "越野专用：拖拉机，全地形越野车"
-+          impassible: "不可能/无轮车辆"
 +        }
 +      }
 +      sport_racing: {
@@ -204,9 +203,33 @@
 -      craft/confectionary: {
 -        name: "糖果店"
 -      }
+-      landuse/commercial: {
+-        name: "商业区"
+-        terms: "商业区"
+-      }
+-      landuse/farm: {
+-        name: "农场"
+-        terms: "农场"
+-      }
 -      landuse/farmland: {
 -        name: "农田"
 -        terms: "耕地,田地,饲养场"
+-      }
+-      landuse/industrial: {
+-        name: "工业区"
+-        terms: "工业区"
+-      }
+-      landuse/military: {
+-        name: "军事"
+-        terms: "军事,军队,军事区"
+-      }
+-      landuse/residential: {
+-        name: "住宅区"
+-        terms: "住宅区"
+-      }
+-      landuse/retail: {
+-        name: "零售"
+-        terms: "零售"
 -      }
      }
    }

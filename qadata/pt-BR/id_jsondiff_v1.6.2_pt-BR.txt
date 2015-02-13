@@ -115,6 +115,10 @@
 +    changes: "{count} mudanças"
    }
    inspector: {
++    check: {
++      yes: "Sim"
++      no: "Não"
++    }
 +    add_fields: "Adicionar campo:"
 -    choose: "Selecione o tipo de objeto"
 +    choose: "Selecione o tipo de elemento"
@@ -196,25 +200,130 @@
 +      bench: {
 +        label: "Assento"
 +      }
++      brand: {
++        label: "Marca"
++      }
++      delivery: {
++        label: "Entrega em domicílio"
++      }
++      gender: {
++        label: "Gênero"
++        placeholder: "Desconhecido"
++        options: {
++          male: "Masculino"
++          female: "Feminino"
++          unisex: "Unissex"
++        }
++      }
++      leaf_cycle: {
++        label: "Ciclo de Folhagem"
++        options: {
++          evergreen: "Perenifólia"
++          deciduous: "Caducifólia"
++          semi_evergreen: "Semi-perenifólia"
++          semi_deciduous: "Semi-caducifólia"
++          mixed: "Mista"
++        }
++      }
++      leaf_type: {
++        label: "Tipo de Folha"
++        options: {
++          broadleaved: "Latifoliada"
++          needleleaved: "Acicufoliada"
++          mixed: "Mista"
++          leafless: "Sem folhas"
++        }
++      }
++      service/bicycle/chaintool: {
++        label: "Ferramenta de corrente"
++        options: {
++          undefined: "Assumindo ser Não"
++          yes: "Sim"
++          no: "Não"
++        }
++      }
++      service/bicycle/pump: {
++        label: "Bomba de ar"
++        options: {
++          undefined: "Assumindo ser Não"
++          yes: "Sim"
++          no: "Não"
++        }
++      }
++      substation: {
++        label: "Tipo"
++      }
++      takeaway: {
++        label: "Para viagem"
++        placeholder: "Sim, Não, Somente para viagem..."
++        options: {
++          yes: "Sim"
++          no: "Não"
++          only: "Somente para viagem"
++        }
++      }
+       smoothness: {
+         options: {
+-          impassible: "Indiferente / Não para veículos sobre rodas"
+         }
+       }
      }
      presets: {
 -      craft/confectionary: {
 -        name: "Confeitaria"
 -        terms: "Confeitaria, Doceria, Doçaria"
 -      }
--      landuse/farmland: {
--        name: "Agricultura"
--        terms: "agricultura, campo, roça"
--      }
++      amenity/bicycle_repair_station: {
++        name: "Estação de conserto de bicicletas"
++        terms: "Oficina de bicicleta, Conserto de bicicleta, Estação de reparo de bicicletas, Reparo de bicicletas"
++      }
++      amenity/grit_bin: {
++        name: "Caixa de sal"
++        terms: "Grit bin"
++      }
++      amenity/public_bookcase: {
++        name: "Estante pública"
++        terms: "Biblioteca pública"
++      }
++      amenity/register_office: {
++        name: "Cartório"
++        terms: "Ofício de notas, Cartório de notas, Serventia extrajudicial"
++      }
 +      craft/confectionery: {
 +        name: "Confeitaria"
 +        terms: "confeitaria"
++      }
++      junction: {
++        name: "Entroncamento"
++        terms: "Encruzilhada, junção"
++      }
++      landuse/garages: {
++        name: "Garagens"
++        terms: "Garagem, estacionamento, estacionamentos"
++      }
++      leisure/nature_reserve: {
++        name: "Reserva natural"
++        terms: "Reserva florestal, floresta"
++      }
++      natural/cave_entrance: {
++        name: "Entrada de caverna"
++        terms: "Entrada de gruta, abertura de caverna, abertura de gruta, caverna, gruta, entrada de toca, toca"
++      }
++      shop/houseware: {
++        name: "Loja de utensílios domésticos"
++        terms: "Loja de utensílios, Loja de acessórios para casa"
 +      }
        amenity/bar: {
 -        name: "Bar"
 +        name: "Drinqueria"
 -        terms: "Bar, Boteco"
 +        terms: "Drinqueria, Drinkeria"
+       }
+       amenity/college: {
+-        name: "Área da faculdade"
++        name: "Escola técnica"
+-        terms: "Faculdade, Universidade, Ensino superior, Graduação"
++        terms: "Colégio técnico, Ensino profissionalizante, Educação profissional"
        }
        amenity/community_centre: {
 -        name: "Salão de festas e eventos"
@@ -229,6 +338,12 @@
        amenity/telephone: {
 -        terms: "Telefone"
 +        terms: "Telefone, Orelhão"
+       }
+       building/college: {
+-        name: "Edifício da faculdade"
++        name: "Edifício de escola técnica"
+-        terms: "Faculdade, Universidade, Ensino superior, Graduação, Laboratório"
++        terms: "Colégio técnico, Ensino profissionalizante, Educação profissional"
        }
        building/retail: {
 -        name: "Edifício Comercial"
@@ -249,9 +364,49 @@
 -        name: "Lampião de rua."
 +        name: "Lampião de rua"
        }
+       landuse/commercial: {
+-        name: "Comercial"
++        name: "Área comercial"
+-        terms: "Comercial"
++        terms: "Comércio, comercial"
+       }
+       landuse/farm: {
+-        name: "Lavoura"
++        name: "Fazenda"
+-        terms: "Fazenda"
++        terms: "Campo agrícola, agricultura, campanha, quinta, agrícola, rural, terra arável"
+       }
+       landuse/farmland: {
+-        name: "Agricultura"
++        name: "Fazenda"
+-        terms: "agricultura, campo, roça"
++        terms: "Campo agrícola, agricultura, campanha, quinta, agrícola, rural, terra arável"
+       }
        landuse/forest: {
 -        terms: "Floresta"
 +        terms: "Floresta plantada, Silvicultura, Reflorestamento, Área reflorestada"
+       }
+       landuse/industrial: {
+-        name: "Industrial"
++        name: "Área industrial"
+-        terms: "Industrial"
++        terms: "Indústria, Parque industrial, Fábrica, Fábricas"
+       }
+       landuse/military: {
+-        name: "Militar"
++        name: "Área militar"
+-        terms: "Militar"
++        terms: "Zona militar, militar"
+       }
+       landuse/residential: {
+-        name: "Residencial"
++        name: "Área residencial"
+-        terms: "Residencial"
++        terms: "Residencial, residências"
+       }
+       landuse/retail: {
+-        terms: "Varejo, comércio"
++        terms: "Comércio, varejistas, comercial"
        }
        leisure/playground: {
 -        terms: "Parquinho, Parque Infantil"

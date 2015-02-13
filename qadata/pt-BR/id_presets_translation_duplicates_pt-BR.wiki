@@ -176,6 +176,22 @@
 |  
 |-
 | Financeira
+| Consignment/Thrift Store
+| shop/second_hand
+|  
+| shop
+| shop=second_hand
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Financeira
 | Money Lender
 | shop/money_lender
 |  
@@ -191,12 +207,12 @@
 |  
 |  
 |-
-| Financeira
-| Consignment/Thrift Store
-| shop/second_hand
+| Garagens
+| Garages
+| building/garages
 |  
-| shop
-| shop=second_hand
+| warehouse
+| building=garages
 |  
 |  
 |  
@@ -204,6 +220,22 @@
 | area
 |  
 | point
+|  
+|  
+|-
+| Garagens
+| Garages
+| landuse/garages
+|  
+|  
+| landuse=garages
+|  
+|  
+|  
+|  
+| area
+|  
+|  
 |  
 |  
 |-

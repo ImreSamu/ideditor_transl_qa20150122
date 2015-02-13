@@ -16,6 +16,22 @@
 ! style="font-weight: bold;" | geometryRelation
 |-
 | Bank
+| Bank
+| amenity/bank
+|  
+| bank
+| amenity=bank
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Bank
 | Bench
 | amenity/bench
 |  
@@ -31,12 +47,12 @@
 | vertex
 |  
 |-
-| Bank
-| Bank
-| amenity/bank
+| Begraafplaats
+| Graveyard
+| amenity/grave_yard
 |  
-| bank
-| amenity=bank
+| cemetery
+| amenity=grave_yard
 |  
 |  
 |  
@@ -59,23 +75,23 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
-| Begraafplaats
-| Graveyard
-| amenity/grave_yard
-|  
-| cemetery
-| amenity=grave_yard
+| Bestuurlijke grens
+| Administrative Boundary
+| boundary/administrative
 |  
 |  
+| boundary=administrative
 |  
 |  
-| area
 |  
-| point
+|  
+|  
+| line
+|  
 |  
 |  
 |-
@@ -95,28 +111,28 @@
 |  
 | relation
 |-
-| Bestuurlijke grens
-| Administrative Boundary
-| boundary/administrative
+| Bunker
+| Sand Trap
+| golf/bunker
+|  
+| golf
+| golf=bunker
+| natural=sand
 |  
 |  
-| boundary=administrative
 |  
+| area
 |  
-|  
-|  
-|  
-| line
 |  
 |  
 |  
 |-
-| Bruingoedwinkel
-| Electronics Store
-| shop/electronics
+| Bunker
+| Bunker
+| military/bunker
 |  
-| shop
-| shop=electronics
+|  
+| military=bunker
 |  
 |  
 |  
@@ -124,23 +140,7 @@
 | area
 |  
 | point
-|  
-|  
-|-
-| Bruingoedwinkel
-| Hifi Store
-| shop/hifi
-|  
-| shop
-| shop=hifi
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
+| vertex
 |  
 |-
 | Café
@@ -241,11 +241,11 @@
 |-
 | Kerk
 | Church
-| building/church
+| amenity/place_of_worship/christian
 |  
-| place-of-worship
-| building=church
-|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
 |  
 |  
 |  
@@ -257,11 +257,11 @@
 |-
 | Kerk
 | Church
-| amenity/place_of_worship/christian
+| building/church
 |  
-| religious-christian
-| amenity=place_of_worship
-| religion=christian
+| place-of-worship
+| building=church
+|  
 |  
 |  
 |  
@@ -304,11 +304,11 @@
 |  
 |-
 | Loodgieter
-| Tinsmith
-| craft/tinsmith
+| Plumber
+| craft/plumber
 |  
 | marker-stroked
-| craft=tinsmith
+| craft=plumber
 |  
 |  
 |  
@@ -320,11 +320,11 @@
 |  
 |-
 | Loodgieter
-| Plumber
-| craft/plumber
+| Tinsmith
+| craft/tinsmith
 |  
 | marker-stroked
-| craft=plumber
+| craft=tinsmith
 |  
 |  
 |  
@@ -400,22 +400,6 @@
 |  
 |-
 | Sloot, greppel of gracht
-| Ditch
-| waterway/ditch
-|  
-| waterway-ditch
-| waterway=ditch
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| Sloot, greppel of gracht
 | Drain
 | waterway/drain
 |  
@@ -431,12 +415,12 @@
 |  
 |  
 |-
-| Veerboottraject
-| Ferry Route
-| route/ferry
+| Sloot, greppel of gracht
+| Ditch
+| waterway/ditch
 |  
-| ferry
-| route=ferry
+| waterway-ditch
+| waterway=ditch
 |  
 |  
 |  
@@ -463,20 +447,20 @@
 |  
 | relation
 |-
-| Vliegveld
-| Airfield
-| military/airfield
+| Veerboottraject
+| Ferry Route
+| route/ferry
 |  
-| airfield
-| military=airfield
-|  
-|  
+| ferry
+| route=ferry
 |  
 |  
-| area
 |  
-| point
-| vertex
+|  
+|  
+| line
+|  
+|  
 |  
 |-
 | Vliegveld
@@ -495,20 +479,20 @@
 | vertex
 |  
 |-
-| Voetpad
-| Foot Path
-| highway/footway
+| Vliegveld
+| Airfield
+| military/airfield
 |  
-| highway-footway
-| highway=footway
+| airfield
+| military=airfield
 |  
 |  
 |  
 |  
 | area
-| line
 |  
-|  
+| point
+| vertex
 |  
 |-
 | Voetpad
@@ -522,6 +506,22 @@
 |  
 |  
 |  
+| line
+|  
+|  
+|  
+|-
+| Voetpad
+| Foot Path
+| highway/footway
+|  
+| highway-footway
+| highway=footway
+|  
+|  
+|  
+|  
+| area
 | line
 |  
 |  

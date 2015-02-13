@@ -1061,7 +1061,7 @@
 |  
 |  
 | +31 42 123 4567
-|  
+| +31 42 123 4567
 | last
 |-
 | fee
@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+|  
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Nekonata
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -1391,7 +1406,7 @@
 |  
 |  
 | 1-18
-|  
+| 1-18
 | last
 |-
 | highway
@@ -1539,7 +1554,7 @@
 |  
 | wlan
 | Wifi
-| 
+| Wi-Fi
 |  
 |  
 | last
@@ -3277,8 +3292,8 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
+| impassable
+| Impassable / No wheeled vehicle
 | 
 |  
 |  

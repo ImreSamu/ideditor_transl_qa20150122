@@ -216,7 +216,9 @@
     "back_tooltip__transl": "Змінити об’єкт",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "Ні",
+      "yes__en": "Yes",
+      "yes__transl": "Так"
     },
     "choose__en": "Select feature type",
     "choose__transl": "Виберіть тип об’єкта",
@@ -515,6 +517,7 @@
       "description__transl": "Вилучити об'єкт назавжди.",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "Цей об’єкт неможливо вилучити, бо він не повністю завантажений.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Вилучити"
     },
@@ -1246,6 +1249,7 @@
         "key": "brand",
         "label": "Brand",
         "label__en": "Brand",
+        "label__transl": "Марка",
         "type": "text"
       },
       "building": {
@@ -1622,6 +1626,35 @@
         "label__transl": "Колія",
         "type": "combo"
       },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "label__transl": "Стать",
+        "options": {
+          "female__en": "Female",
+          "female__transl": "Жіноча",
+          "male__en": "Male",
+          "male__transl": "Чоловіча",
+          "unisex__en": "Unisex",
+          "unisex__transl": "Унісекс"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "placeholder__transl": "Невідомо",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
+      },
       "generator/method": {
         "key": "generator:method",
         "label": "Method",
@@ -1778,12 +1811,18 @@
         "key": "leaf_cycle",
         "label": "Leaf Cycle",
         "label__en": "Leaf Cycle",
+        "label__transl": "Сезонність",
         "options": {
           "deciduous__en": "Deciduous",
+          "deciduous__transl": "Листяний",
           "evergreen__en": "Evergreen",
+          "evergreen__transl": "Вічнозелений",
           "mixed__en": "Mixed",
+          "mixed__transl": "Змішаний",
           "semi_deciduous__en": "Semi-Deciduous",
-          "semi_evergreen__en": "Semi-Evergreen"
+          "semi_deciduous__transl": "Напів-лістяний",
+          "semi_evergreen__en": "Semi-Evergreen",
+          "semi_evergreen__transl": "Напів-вичнозелений"
         },
         "strings": {
           "options": {
@@ -1800,11 +1839,16 @@
         "key": "leaf_type",
         "label": "Leaf Type",
         "label__en": "Leaf Type",
+        "label__transl": "Тип лісття",
         "options": {
           "broadleaved__en": "Broadleaved",
+          "broadleaved__transl": "Широколисті",
           "leafless__en": "Leafless",
+          "leafless__transl": "Без лисття",
           "mixed__en": "Mixed",
-          "needleleaved__en": "Needleleaved"
+          "mixed__transl": "Змішана",
+          "needleleaved__en": "Needleleaved",
+          "needleleaved__transl": "Хвоя"
         },
         "strings": {
           "options": {
@@ -2526,8 +2570,7 @@
           "good__transl": "Вузькі колеса: гоночні велосипеди",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
           "horrible__transl": "Позашляховики: повноцінні позашляховики",
-          "impassible__en": "Impassible / No wheeled vehicle",
-          "impassible__transl": "Неможливо для будь-якої колісної техніки",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "intermediate__transl": "Колеса: дорожні велосипеди, візки, самокати",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
@@ -2544,7 +2587,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -20952,7 +20995,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -24536,7 +24580,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24552,7 +24595,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24572,8 +24614,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24609,12 +24649,11 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
         "name__transl": "Діловий район",
         "tags": {
           "landuse": "commercial"
@@ -24622,7 +24661,7 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Commercial, lskjdbq hfqjy, діловий район"
+        "terms__transl": "офис, бізнес, торгівля, ринок, магазин"
       },
       "landuse/construction": {
         "fields": [
@@ -24630,7 +24669,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24653,9 +24691,9 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Ферма",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Сільськогосподарські угіддя",
         "searchable": false,
         "tags": {
           "landuse": "farm"
@@ -24663,35 +24701,32 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Farm, athvf, ферма"
+        "terms__transl": "поле, левада, пасовище, врожай"
       },
       "landuse/farmland": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Поля",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Сільськогосподарські угіддя",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland",
-        "terms__transl": "поля, угіддя, сільське, господарство"
+        "terms__en": "",
+        "terms__transl": "поле, левада, пасовище, врожай"
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24712,7 +24747,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24745,7 +24779,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24761,20 +24794,19 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Промзона",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
+        "name__transl": "Промислова зона",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Industrial, ghjvpjyf, промзона"
+        "terms__transl": "завод, фабрика, промисловість, виробництво, робоа, підприємство"
       },
       "landuse/landfill": {
         "geometry": [
@@ -24794,7 +24826,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24812,23 +24843,22 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "Військова частина",
+        "name": "Military Area",
+        "name__en": "Military Area",
+        "name__transl": "Військова зона",
         "tags": {
           "landuse": "military"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "полігон, частина, бій, дії, зброя, війська"
+        "terms__transl": "віська, територія, полігон, тренування, зброя, небезпека"
       },
       "landuse/orchard": {
         "fields": [
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24845,7 +24875,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24861,12 +24890,11 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
         "name__transl": "Житлова зона",
         "tags": {
           "landuse": "residential"
@@ -24874,26 +24902,24 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Residential, bnkjdf pjyf, житлова зона"
+        "terms__transl": "житло, помешкання, будинок, маєток, садиба, город"
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "Роздрібна торгівля",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
+        "name__transl": "Торговельний квартал",
         "tags": {
           "landuse": "retail"
         },
         "terms__en": "",
-        "terms__transl": "Retail, hjplhsyf njhusdkz, роздрібна торгівля"
+        "terms__transl": "магазин, супермаркет, центр, торговий, мегастор, розпродаж, знижки"
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -35570,7 +35596,7 @@
         "terms__en": "stereo,video",
         "terms__transl": "Hifi Store,flesj jgfhfnehf, аудіо апаратура"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -35582,15 +35608,18 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
+        "name__transl": "Господарські товари",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household",
+        "terms__transl": "господарство, прибирання, побутова, хімія, товар, гігієна"
       },
       "shop/interior_decoration": {
         "fields": [

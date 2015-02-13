@@ -18,23 +18,23 @@
 +    }
 +    major_roads: {
 +      description: "Hoofdwegen"
-+      tooltip: "Autowegen, Straten enz..."
++      tooltip: "Autowegen, Straten ..."
 +    }
 +    minor_roads: {
 +      description: "Kleine wegen"
-+      tooltip: "Toegangswegen, Rijbanen in Parkings, Veldwegen enz..."
++      tooltip: "Toegangswegen, Rijbanen in Parkings, Veldwegen ..."
 +    }
 +    paths: {
 +      description: "Paden"
-+      tooltip: "Trottoirs, Paden voor Voetgangers of Fietsers enz..."
++      tooltip: "Trottoirs, Paden voor Voetgangers of Fietsers ..."
 +    }
 +    buildings: {
 +      description: "Gebouwen"
-+      tooltip: "Gebouwen, Afdaken, Garages enz..."
++      tooltip: "Gebouwen, Afdaken, Garages ..."
 +    }
 +    landuse: {
 +      description: "Landindeling"
-+      tooltip: "Wouden, Landbouwgronden, Parken, Woongebieden, Winkelzones enz..."
++      tooltip: "Wouden, Landbouwgronden, Parken, Woongebieden, Winkelzones ..."
 +    }
 +    boundaries: {
 +      description: "Grenzen"
@@ -42,7 +42,7 @@
 +    }
 +    water: {
 +      description: "Water"
-+      tooltip: "Rivieren, Meren, Vijvers, Reservoirs enz..."
++      tooltip: "Rivieren, Meren, Vijvers, Reservoirs ..."
 +    }
 +    rail: {
 +      description: "Sporen"
@@ -50,11 +50,11 @@
 +    }
 +    power: {
 +      description: "Energie"
-+      tooltip: "Elektriciteitskabels, Energiecentrales, Transformatorstations enz..."
++      tooltip: "Elektriciteitskabels, Energiecentrales, Transformatorstations ..."
 +    }
 +    past_future: {
 +      description: "Verleden/Toekomst"
-+      tooltip: "Voorgesteld, Onder Constructie, Verwaarloosd, Afgebroken enz..."
++      tooltip: "Voorgesteld, Onder Constructie, Verwaarloosd, Afgebroken ..."
 +    }
 +    others: {
 +      description: "Andere"
@@ -76,47 +76,151 @@
 +    }
 +  }
    modes: {
+     add_line: {
+-      description: "Voeg rijkswegen, straten, voetpaden, kanalen of andere lijnen toe aan de kaart."
++      description: "Voeg snelwegen, straten, voetpaden, kanalen of andere lijnen toe aan de kaart."
+     }
      browse: {
 -      title: "Navigatie"
 +      title: "Blader"
+-      description: "Verschuif en zoom in op de kaart."
++      description: "Verschuif de kaart en zoom in of uit."
+     }
+     draw_line: {
+-      tail: "Klik om meer knooppunten aan de lijn toe te voegen. Klik op een andere lijn om de lijnen te verbinden en dubbelklik om de lijn af te sluiten."
++      tail: "Klik om meer knooppunten aan de lijn toe te voegen. Klik op een andere lijn om er een verbinding te maken en dubbelklik om de lijn af te sluiten."
      }
    }
    operations: {
+     continue: {
+-      multiple: "Je kan doorgaan met verschillende lijnen. Om een lijn te kiezen, druk de Shift knop in en klik op de lijn om deze te selecteren."
++      multiple: "Je kan doorgaan met verschillende lijnen. Om een lijn te kiezen, druk je de Shift-knop in en klik je op de lijn om deze te selecteren."
+     }
      circularize: {
-+      connected_to_hidden: "Dit kan niet rond worden gemaakt omdat het verbonden is met een verborgen object."
++      connected_to_hidden: "Dit kan niet rond gemaakt worden omdat het verbonden is met een verborgen object."
+       annotation: {
+-        line: "Maak een lijn rond."
++        line: "Lijn rond gemaakt."
+-        area: "Maak een vlak rond."
++        area: "Vlak rond gemaakt."
+       }
+-      not_closed: "Dit kan niet rond worden gemaakt omdat het geen lus is."
++      not_closed: "Dit kan niet rond gemaakt worden omdat het geen lus is."
+-      too_large: "Dit kan niet rond worden gemaakt omdat slechts een te klein deel ervan momenteel zichtbaar is."
++      too_large: "Dit kan niet rond gemaakt worden omdat slechts een te klein deel ervan momenteel zichtbaar is."
      }
      orthogonalize: {
 +      connected_to_hidden: "Dit kan niet vierkant gemaakt worden omdat het verbonden is met een verborgen object."
+       annotation: {
+-        line: "Hoeken van een lijn zijn haaks gemaakt."
++        line: "Hoeken van een lijn haaks gemaakt."
+-        area: "Hoeken van een vlak zijn haaks gemaakt."
++        area: "Hoeken van een vlak haaks gemaakt."
+       }
      }
      straighten: {
 +      connected_to_hidden: "Deze lijn kan niet recht worden gemaakt omdat ze is verbonden met een verborgen object."
      }
      delete: {
-+      connected_to_hidden: "Dit kan niet worden verwijderd omdat het is verbonden met een verborgen object."
++      connected_to_hidden: "Dit kan niet verwijderd worden omdat het verbonden is met een verborgen object."
+-      incomplete_relation: "Dit object kan niet worden verwijderd, omdat het niet volledig is gedownload."
++      incomplete_relation: "Dit object kan niet verwijderd worden omdat het niet volledig is gedownload."
+     }
+     delete_member: {
+-      annotation: "Een element van een relatie is verwijderd."
++      annotation: "Een element is uit een relatie verwijderd."
      }
      disconnect: {
-+      connected_to_hidden: "Dit kan niet worden losgemaakt omdat het is verbonden met een verborgen object."
++      connected_to_hidden: "Dit kan niet losgemaakt worden omdat het verbonden is met een verborgen object."
+-      description: "Maak deze wegen van elkaar los."
++      description: "Maak deze lijnen/vlakken van elkaar los."
+-      annotation: "Wegen losgemaakt."
++      annotation: "Lijnen/vlakken losgemaakt."
+     }
+     merge: {
+-      not_adjacent: "Deze lijnen kunnen niet worden samengevoegd omdat ze niet zijn verbonden."
++      not_adjacent: "Deze lijnen kunnen niet samengevoegd worden omdat ze niet zijn verbonden."
+-      restriction: "De lijnen kunnen niet worden samengevoegd, omdat ten minste een onderdeel uitmaakt van een \"{relation}\" relatie."
++      restriction: "De lijnen kunnen niet samengevoegd worden, omdat minstens één ervan onderdeel uitmaakt van een \"{relation}\"-relatie."
      }
      move: {
-+      connected_to_hidden: "Dit kan niet worden verplaatst omdat het is verbonden met een verborgen object."
++      connected_to_hidden: "Dit kan niet verplaatst worden omdat het verbonden is met een verborgen object."
      }
      rotate: {
-+      connected_to_hidden: "Dit kan niet worden geroteerd omdat het is verbonden met een verborgen object."
++      connected_to_hidden: "Dit kan niet gedraaid worden omdat het verbonden is met een verborgen object."
+-      title: "Roteer"
++      title: "Draaien"
+-      description: "Roteer dit object rond zijn middelpunt."
++      description: "Draai dit object rond zijn middelpunt."
+       annotation: {
+-        line: "Lijn geroteerd."
++        line: "Lijn gedraaid."
+-        area: "Vlak geroteerd."
++        area: "Vlak gedraaid."
+       }
+-      too_large: "Dit kan niet geroteerd worden omdat slechts een klein deel ervan momenteel zichtbaar is."
++      too_large: "Dit kan niet gedraaid worden omdat slechts een klein deel ervan momenteel zichtbaar is."
      }
      split: {
-+      connected_to_hidden: "Dit kan niet worden gesplitst omdat het is verbonden met een verborgen object."
++      connected_to_hidden: "Dit kan niet gesplitst worden omdat het verbonden is met een verborgen object."
+       description: {
+-        line: "Deze lijn op dit knooppunt gesplitst."
++        line: "Splits deze lijn op dit knooppunt."
+-        area: "De grens van dit gebied in tweeën gesplitst."
++        area: "Splits de grens van dit gebied in tweeën."
+-        multiple: "De lijnen/grenzen van het vlak op dit knooppunt in tweeën gesplitst."
++        multiple: "Splits de lijnen/grenzen van het vlak op dit knooppunt in tweeën."
+       }
        annotation: {
 -        line: "Lijn opgesplitst."
-+        line: "Splits een lijn."
++        line: "Lijn gesplitst."
+-        area: "Grens van een vlak opgesplitst."
++        area: "Grens van een vlak gesplitst."
+-        multiple: "{n} lijnen/grenzen van vlakken opgesplitst."
++        multiple: "{n} lijnen/grenzen van vlakken gesplitst."
        }
+-      not_eligible: "lijnen kunnen niet op hun begin op eindpunt worden gesplitst."
++      not_eligible: "Lijnen kunnen niet op hun begin- of eindpunt worden gesplitst."
      }
    }
+   redo: {
+-    tooltip: "Herhalen: {action}"
++    tooltip: "Opnieuw doen: {action}"
+-    nothing: "Niets om opnieuw uit te voeren."
++    nothing: "Niets om opnieuw te doen."
+   }
+-  tooltip_keyhint: "Sneltoetscombinatie:"
++  tooltip_keyhint: "Sneltoets:"
+-  browser_notice: "Deze editor wordt door Firefox, Chrome, Safari, Opera en Internet Explorer (versie 9 en hoger) ondersteund. Download een nieuwere versie van je browser of gebruik Potlatch 2 om de kaart aan te passen."
++  browser_notice: "Deze editor werkt in Firefox, Chrome, Safari, Opera en Internet Explorer 9 en hoger. Download een nieuwere versie van je browser of gebruik Potlatch 2 om de kaart aan te passen."
+-  logout: "Afmelden"
++  logout: "afmelden"
+-  loading_auth: "Verbinden met OpenStreetMap..."
++  loading_auth: "Verbinden met OpenStreetMap ..."
+-  report_a_bug: "Meld een softwareprobleem"
++  report_a_bug: "softwareprobleem melden"
    status: {
+-    error: "Het is niet mogelijk om met de API te verbinden."
++    error: "Kon niet met de API verbinden."
 -    offline: "De API is niet online. Probeer later opnieuw."
-+    offline: "De API is niet online. Probeer het later opnieuw."
++    offline: "De API is niet bereikbaar. Probeer het later opnieuw."
+-    readonly: "De API is \"read only\". Wacht om je aanpassingen op te slaan."
++    readonly: "De API staat nu in alleen-lezen-modus. Je zal moeten wachten om je aanpassingen op te slaan."
    }
    commit: {
 +    changes: "{count} Veranderingen"
+-    title: "Aanpassingen opslaan"
++    title: "Aanpassingen Opslaan"
+-    message_label: "Bevestig notitie"
++    message_label: "Beschrijf wat je gedaan hebt"
+   }
+   geocoder: {
+-    search: "Zoek wereldwijd…"
++    search: "Zoek wereldwijd ..."
+   }
+   geolocate: {
+-    title: "Toon mijn locatie"
++    title: "Toon Mijn Locatie"
    }
    inspector: {
 +    check: {
@@ -124,14 +228,50 @@
 +      no: "Nee"
 +    }
 +    add_fields: "Veld toevoegen:"
+-    show_more: "Toon meer"
++    show_more: "Toon Meer"
+-    new_relation: "Nieuwe relatie…"
++    new_relation: "Nieuwe relatie ..."
+-    results: "{n} results for {search}"
++    results: "{n} resultaten voor {search}"
+-    back_tooltip: "Wijzig het object"
++    back_tooltip: "Wijzig object"
+-    edit: "Wijzig het object"
++    edit: "Object bewerken"
+-    node: "Punt"
++    node: "Knooppunt"
    }
    background: {
 -    percent_brightness: "{opacity}% doorzichtigheid"
 +    percent_brightness: "{opacity}% ondoorzichtigheid"
    }
+   save: {
+-    help: "Sla de aanpassingen bij OpenStreetMap op om deze voor andere gebruikers zichtbaar te maken"
++    help: "Sla de aanpassingen bij OpenStreetMap op om deze voor andere gebruikers zichtbaar te maken."
+-    error: "Bij het opslaan is een fout opgetreden"
++    error: "Er is een fout opgetreden bij het opslaan"
+   }
+   gpx: {
+-    drag_drop: "Sleep een .gpx bestand op de pagina of klik op de knop rechts om te bladeren"
++    drag_drop: "Sleep een .gpx-bestand op de pagina of klik op de knop rechts om te bladeren"
+-    zoom: "Zoom de GPX-route"
++    zoom: "GPX-route in beeld brengen"
+-    browse: "Blader naar een .gpx bestand"
++    browse: "Blader naar een .gpx-bestand"
+   }
    help: {
+-    editing_saving: "# Bewerken & Opslaan\n\nDeze editor is ontworpen om voornamelijk online te gebruiken, en je via de website hebt er toegang toe op dit moment.\n\n### Objecten selecteren\n\nOm objecten in een kaart te selecteren, zoals een weg of interessant punt, moet je op de kaart erop kikken. Het geselecteerde object zal dan oplichten, er zal een paneel met details geopend worden en een menu zal getoond worden dat je met dit object kan doen.\n\nHoud de 'Shift'-toets vast om meerdere objecten te kunnen selecteren. Klik daarna of op objecten die je wil selecteren of op de kaart wil verslepen of teken een rechthoek. Dit laatste zal een alle punten die erin vallen selecteren.\n\n### Opslaan van bewerkingen\n\nAls je wijzigingen maakt aan bestaande wegen, gebouwen en andere plaatsen worden deze eerst lokaal opgeslagen totdat je ze op de server opslaat. Maak je geen zorgen als je een fout maakt - je kan wijzigingen altijd ongedaan maken door op de undo-knop te klikken en ze weer herstellen door op de redo-knop te klikken.\n\nKlik op 'Opslaan' om een groep van bewerkingen op te slaan. - bijvoorbeeld als je een gebied of dorp hebt afgerond en je aan een ander gebied wil beginnen. Je krijgt de mogelijkheid om te herzien wat je hebt aangepast en de editor geeft je suggesties voor verbeteringen en waarschuwingen als er iets mis lijkt te zijn.\n\nAls alles er goed uit ziet kun je kort commentaar toevoegen die de wijziging die je hebt gemaakt beschrijft en klik daarna nogmaals op 'Opslaan' om de wijzigingen op te sturen aan [OpenStreetMap.org](http://www.openstreetmap.org/), waar ze zichtbaar zijn voor alle gebruikers en voor anderen om op voort te bouwen of uit te verbeteren.\n\nAls je in een sessie niet al je bewerkingen door kan voeren kun je het bewerkwindow open laten en later terugkomen (in dezelfde browser op dezelfde computer) en de bewerkapplicatie zal je aanbieden je werk weer terug te zetten.\n"
++    editing_saving: "# Bewerken & Opslaan\n\nDeze editor is ontworpen om voornamelijk online te gebruiken, en je gebruikt het via een website op dit moment.\n\n### Objecten Selecteren\n\nOm objecten in een kaart te selecteren, zoals een weg of interessant punt, moet je op de kaart erop kikken. Het geselecteerde object zal dan oplichten, er zal een paneel met details geopend worden en een menu zal getoond worden met dingen die je met dit object kan doen.\n\nOm meerdere objecten te kunnen selecteren, hou je de 'Shift'-toets ingedrukt terwijl je de objecten aanklikt, of terwijl je een rechthoek tekent op de kaart. Dat zal een kader tonen waarbinnen alle objecten geselecteerd worden.\n\n### Bewerkingen Opslaan\n\nAls je wijzigingen maakt, zoals het bewerken van wegen, gebouwen en andere plaatsen, worden deze eerst lokaal bijgehouden totdat je ze op de server opslaat. Maak je geen zorgen als je een fout maakt - je kan wijzigingen altijd ongedaan maken door op de 'Ongedaan maken'-knop te klikken en ze weer herstellen door op de 'Opnieuw doen'-knop te klikken.\n\nKlik op 'Opslaan' om een groep van bewerkingen op te slaan - bijvoorbeeld als je een gebied of dorp hebt afgerond en je aan een ander gebied wil beginnen. Je krijgt de mogelijkheid om te herzien wat je hebt aangepast en de editor geeft je suggesties voor verbeteringen en waarschuwingen als er iets mis lijkt te zijn.\n\nAls alles er goed uit ziet kun je kort commentaar toevoegen, dat de wijziging die je hebt gemaakt beschrijft. Klik daarna nogmaals op 'Opslaan' om de wijzigingen op te sturen naar [OpenStreetMap.org](http://www.openstreetmap.org/), waar ze zichtbaar zijn voor alle gebruikers en voor anderen om op voort te bouwen of te verbeteren.\n\nAls je in een sessie niet al je bewerkingen door kan voeren kun je het venster van de editor sluiten en later terugkomen (in dezelfde browser op dezelfde computer) en de bewerkapplicatie zal je aanbieden je werk te herstellen.\n"
+-    roads: "# Wegen\n\nJe kan met deze editor wegen maken, verbeteren en verwijderen. Wegen zijn er in\nallerlei soorten en maten: landweggetjes, snelwegen, paadjes, fietspaden en veel\nmeer - ieder stukje dat vaak wordt gebruikt kan in kaart worden gebracht.\n\n### Selecteren\n\nKlik op een weg om deze te selecteren. De omtrek verschijnt samen met een klein\nmenu op de kaart en een schermpje met informatie over de weg.\n\n### Aanpassen\n\nVaak kom je wegen tegen, die niet precies over het beeldmateriaal of de GPS-route\nerachter lopen. Je kan deze wegen aanpassen, zodat ze op de juiste plek komen te\nliggen.\n\nKlik eerst op de weg die je wil aanpassen. Deze zal dan oplichten en er verschijnen\npuntjes langs de lijn die je kan verslepen naar een betere plek. Als je nieuwe\npuntjes wil toevoegen voor meer detaillering, dubbelklik op een weggedeelte\nzonder een knooppunt en er wordt een nieuwe ingevoegd.\n\nAls een weg in het echt is verbonden met een andere weg, maar op de kaart niet, dan versleep\nje een van de puntjes op de andere weg om ze te verbinden. Dat wegen met elkaar\nzijn verbonden is belangrijk voor de kaart en essentieel om een routebeschrijving\nte kunnen maken.\n\nJe kan bovendien het 'Verplaats'-gereedschap aanklikken of de 'V'-snelkoppeling om\nde gehele weg in een keer te verplaatsen en opnieuw aanklikken om deze verplaatsing\nop te slaan.\n\n### Verwijderen\n\nAls een weg helemaal verkeerd is - je ziet dat het niet op het satellietbeeld te zien is\nen je hebt idealiter ter plaatse gecontroleerd, dat de weg er niet is - dan kan je het\nverwijderen, zodat het van de kaart verdwijnt. Wees voorzichtig met het verwijderen\nvan objecten - zoals bij iedere aanpassing is het resultaat voor iedereen zichtbaar en\nsatellietbeelden zijn vaak verouderd, dus de weg zou gewoon nieuw kunnen zijn aangelegd.\n\nJe kan een weg verwijderen door er op te klikken om het te selecteren, waarna je op het\nprullenbakicoon drukt of de 'Verwijderen'-toets.\n\n### Aanmaken\n\nHeb je ergens een weg gevonden die nog niet op de kaart staat? Klik op het 'Lijn'-\ngereedschap in de linkerbovenhoek van de editor of druk op de snelkoppeling '2' om\neen lijn te tekenen.\n\nKlik op het begin van de weg op de kaart en begin te tekenen. Als de weg zich vertakt\nvan de bestaande weg, begin dan op de plek waar ze elkaar kruisen.\n\nKlik dan de punten langs de weg, zodat deze het juiste tracé volgt, volgens het\nsatellietbeeld of de GPS-route. Als de weg die je aan het tekenen bent een andere weg\nkruist, verbind deze dan door op het kruispunt te klikken. Als je klaar met tekenen bent,\ndubbelklik of druk op 'Return' of 'Enter' op je toetsenbord.\n"
++    roads: "# Wegen\n\nJe kan met deze editor wegen maken, verbeteren en verwijderen. Wegen zijn er in allerlei soorten en maten: landweggetjes, snelwegen, paadjes, fietspaden en veel meer - ieder stukje dat vaak wordt gebruikt kan in kaart worden gebracht.\n\n### Selecteren\n\nKlik op een weg om deze te selecteren. De omtrek verschijnt samen met een klein menu op de kaart en een schermpje met informatie over de weg.\n\n### Aanpassen\n\nVaak kom je wegen tegen, die niet precies over het beeldmateriaal of de GPS-route erachter lopen. Je kan deze wegen aanpassen, zodat ze op de juiste plek komen te liggen.\n\nKlik eerst op de weg die je wil aanpassen. Deze zal dan oplichten en er verschijnen puntjes langs de lijn die je kan verslepen naar een betere plek. Als je nieuwe puntjes wil toevoegen voor meer detaillering, dubbelklik op een weggedeelte zonder een knooppunt en er wordt een nieuwe ingevoegd.\n\nAls een weg in het echt is verbonden met een andere weg, maar op de kaart niet, dan versleep je een van de puntjes op de andere weg om ze te verbinden. Dat wegen met elkaar zijn verbonden is belangrijk voor de kaart en essentieel om een routebeschrijving te kunnen maken.\n\nJe kan bovendien het 'Verplaats'-gereedschap aanklikken of de 'V'-snelkoppeling om de gehele weg in een keer te verplaatsen en opnieuw aanklikken om deze verplaatsing op te slaan.\n\n### Verwijderen\n\nAls een weg helemaal verkeerd is – je ziet dat het niet op het satellietbeeld te zien is en je hebt idealiter ter plaatse gecontroleerd dat de weg er niet is – dan kan je hem verwijderen, zodat hij van de kaart verdwijnt. Wees voorzichtig met het verwijderen van objecten – zoals bij iedere aanpassing is het resultaat voor iedereen zichtbaar en satellietbeelden zijn vaak verouderd, dus de weg zou gewoon nieuw aangelegd kunnen zijn.\n\nJe kan een weg verwijderen door er op te klikken om het te selecteren, waarna je op het prullenbakicoon drukt of de 'Verwijderen'-toets.\n\n### Aanmaken\n\nHeb je ergens een weg gevonden die nog niet op de kaart staat? Klik op het 'Lijn'-gereedschap in de linkerbovenhoek van de editor of druk op de sneltoets '2' om een lijn te tekenen.\n\nKlik op het begin van de weg op de kaart en begin te tekenen. Als de weg zich vertakt van de bestaande weg, begin dan op de plek waar ze elkaar kruisen.\n\nKlik dan de punten langs de weg, zodat deze het juiste tracé volgt, volgens het satellietbeeld of de GPS-route. Als de weg die je aan het tekenen bent een andere weg kruist, verbind deze dan door op het kruispunt te klikken. Als je klaar met tekenen bent, dubbelklik of druk op 'Return' of 'Enter' op je toetsenbord.\n"
 -    gps: "# GPS\n\nGPS-gegevens vormen voor OpenStreetMap de meest betrouwbare bron voor gegevens. Deze editor\nondersteunt lokale routes - '.gpx'-bestanden op je lokale computer. Je kan dit soort\nGPS-routes vastleggen met allerlei smartphoneapplicaties of\nmet je eigen GPS-apparatuur.\n\nVoor meer informatie over het doen van een GPS-veldwerk, lees\n[Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/)\n\nOm een GPS-route te gebruiken om te karteren, sleep een '.gpx.'-bestand in de editor.\nAls het wordt herkend, wordt het aan de kaart toegevoegd als een heldergroene\nlijn. Klik op het menu 'Achtergrondinstellingen' aan de linkerkant om deze nieuwe kaartlaag\naan te zetten, uit te zetten of ernaar toe te zoomen.\n\nDe GPS-route wordt niet meteen naar OpenStreetMap verstuurd - de beste manier om\nhet te gebruiken is als een sjabloon voor de nieuwe objecten die\nje toevoegt, en de route dan ook [te uploaden naar OpenStreetMap](http://www.openstreetmap.org/trace/create)\nzodat andere gebruikers hem ook kunnen gebruiken.\n"
-+    gps: "# GPS\n\nGPS-data is de databron die het meest wordt vertrouwd voor OpenStreetMap. Dit bewerkingsprogramma ondersteunt lokale GPS-paden - '.gpx'-bestanden op je eigen computer. Je kan dit soort paden opnemen met een aantal smartphone-apps of met aparte GPS-toestellen.\n\nVoor meer informatie over hoe je onderzoek kan doen met GPS, kan je hier terecht op [Surveying with a GPS (Engels)](http://learnosm.org/en/beginner/using-gps/) of [Sur le terrain avec un GPS (Frans)](http://learnosm.org/fr/beginner/using-gps/).\n\nOm een GPX-pad te gebruiken bij het karteren, sleep je het GPX-bestand op het kaartbewerkingsprogramma. Als het wordt herkend, zal het op de kaart worden getoond als een helderpaarse lijn. Open het menu 'Kaartgegevens' aan de rechterkant om deze nieuwe GPX-laag aan of uit te zetten of te zoomen.\n\nHet GPX-pad wordt niet rechtstreeks als een weg geüpload naar OpenStreetMap. De beste manier om het te gebruiken is als een hulpmiddel om op de kaart tekenen. Je wordt aangemoedigd het ook te [uploaden naar OpenStreetMap](http://www.openstreetmap.org/trace/create) zodat anderen het op dezelfde manier kunnen gebruiken.\n"
++    gps: "# GPS\n\nGPS-data is de databron die het meest wordt vertrouwd voor OpenStreetMap. Dit bewerkingsprogramma ondersteunt lokale GPS-paden – '.gpx'-bestanden op je eigen computer. Je kan dit soort paden opnemen met een aantal smartphone-apps of met aparte GPS-toestellen.\n\nVoor meer informatie over hoe je onderzoek kan doen met GPS, kan je terecht op [Surveying with a GPS (Engels)](http://learnosm.org/en/beginner/using-gps/) of [Sur le terrain avec un GPS (Frans)](http://learnosm.org/fr/beginner/using-gps/). \n\nOm een GPX-pad te gebruiken bij het karteren, sleep je het GPX-bestand op het kaartbewerkingsprogramma. Als het wordt herkend, zal het op de kaart worden getoond als een helderpaarse lijn. Open het menu 'Kaartgegevens' aan de rechterkant om deze nieuwe GPX-laag aan of uit te zetten of te zoomen.\n\nHet GPX-pad wordt niet rechtstreeks als een weg geüpload naar OpenStreetMap. De beste manier om het te gebruiken is als een hulpmiddel om op de kaart tekenen. Je wordt aangemoedigd het ook te [uploaden naar OpenStreetMap](http://www.openstreetmap.org/trace/create) zodat anderen het op dezelfde manier kunnen gebruiken.\n"
+-    imagery: "# Beeldmateriaal\n\nLuchtfoto's vormen een belangrijke bron voor het karteren. Een combinatie van luchtfoto's, satellietbeelden en vrij-beschikbare bronnen is beschikbaar in de editor onder het menu 'Achtergrondinstellingen' aan de linkerzijde.\n\nStandaard wordt een [Bing Maps](http://www.bing.com/maps/)-satellietbeeld in de editor getoond, maar als je de kaart verschaalt of verplaatst naar andere gebieden, worden nieuwe bronnen getoond. Sommige landen, zoals de Verenigde Staten, Frankrijk en Denemarken hebben beeldmateriaal van zeer hoge kwaliteit in sommige gebieden.\n\nSoms is het beeldmateriaal ten opzichte van de kaart verschoven door een fout van de leverancier van het beeldmateriaal. Als je ziet dat een heleboel wegen zijn verschoven ten opzichte van de achtergrond, ga deze dan niet meteen allemaal verplaatsen zodat de ligging overeenkomt met de achtergrond. In plaats daarvan kan je het beeldmateriaal aanpassen, zodat de ligging overeenkomt met de bestaande gegevens door op de knop 'Verbeter de ligging' te klikken onderaan de 'Achtergrondinstellingen'.\n"
++    imagery: "# Beeldmateriaal\n\nLuchtfoto's vormen een belangrijke bron bij het maken van de kaart. Een combinatie van luchtfoto's, satellietbeelden en vrij-beschikbare bronnen is beschikbaar in de editor onder het menu 'Achtergrondinstellingen' aan de linkerzijde.\n\nStandaard wordt een [Bing Maps](http://www.bing.com/maps/)-satellietbeeld in de editor getoond, maar als je de kaart verschaalt of verplaatst naar andere gebieden, worden nieuwe bronnen getoond. Sommige landen, zoals de Verenigde Staten, Frankrijk en Denemarken hebben beeldmateriaal van zeer hoge kwaliteit in sommige gebieden.\n\nSoms is het beeldmateriaal ten opzichte van de kaart verschoven door een fout van de leverancier van het beeldmateriaal. Als je ziet dat een heleboel wegen zijn verschoven ten opzichte van de achtergrond, ga deze dan niet meteen allemaal verplaatsen zodat de ligging overeenkomt met de achtergrond. In plaats daarvan kan je het beeldmateriaal aanpassen, zodat de ligging overeenkomt met de bestaande gegevens door op de knop 'Verbeter de ligging' te klikken onderaan de 'Achtergrondinstellingen'.\n"
+-    buildings: "# Gebouwen\n\nOpenStreetMap is 's werelds grootste gebouwendatabase. Jij kan deze\ndatabase maken en verbeteren.\n\n### Selecteren\n\nJe kan een gebouw selecteren door op de omtrek te klikken. Dit doet het\ngebouw oplichten en opent een klein menu en een scherm met meer\n informatie over het gebouw.\n\n### Aanpassen\n\nSoms staan gebouwen niet op de juiste plaats of hebben ze onjuiste tags.\n\nOm een heel gebouw te verplaatsen, selecteer het en klik dan op het knop 'Verplaats'.\nBeweeg je muis om het gebouw te verplaatsen en klik als het op de goede plek staat.\n\nOm de vorm van een gebouw te verbeteren klik en versleep je de punten die samen\nde omtrek vormen naar de juiste plek.\n\n### Toevoegen\n\nEen van de onduidelijkheden over het toevoegen van gebouwen is dat in\nOpenStreetMap de gebouwen als vlakken en als punten kunnen worden vastgelegd.\nDe vuistregel is dat _gebouwen zoveel mogelijk als een vlak_ worden ingetekend en\ndat bedrijven, woningen en voorzieningen die in die gebouwen zijn gevestigd als\npunt worden ingetekend binnen de omtrek.\n\nBegin om een gebouw als een vlak in te tekenen door op de knop 'Vlak' te klikken\nin de linkerbovenhoek van het scherm en beëindig het tekenen door de 'Return'-toets\nin te drukken of door op het eerst getekende punt te klikken om de omtrek te sluiten.\n\n### Verwijderen\n\nAls een gebouw helemaal verkeerd is - je kan zien dat het niet in het satellietbeeld\nzichtbaar is en idealiter heb je ter plekke geconstateerd dat het niet bestaat - dan\nkan je het verwijderen. Wees voorzichtig bij het verwijderen van objecten - zoals\nalle andere aanpassingen, is het resultaat voor iedereen zichtbaar en satellietbeelden\nzijn vaak verouderd, dus het gebouw kan simpelweg onlangs zijn gebouwd.\n\nJe kan een gebouw verwijderen door erop te klikken om het te selecteren en dan\nop het prullenbakicoon te klikken of op de 'Verwijderen'-toets te drukken.\n"
++    buildings: "# Gebouwen\n\nOpenStreetMap is 's werelds grootste gebouwendatabase. Jij kan deze\ndatabase maken en verbeteren.\n\n### Selecteren\n\nJe kan een gebouw selecteren door op de omtrek te klikken. Dit doet het\ngebouw oplichten en opent een klein menu en een scherm met meer informatie over het gebouw.\n\n### Aanpassen\n\nSoms staan gebouwen niet op de juiste plaats of hebben ze onjuiste tags.\n\nOm een heel gebouw te verplaatsen, selecteer het en klik dan op de knop 'Verplaatsen'. Beweeg je muis om het gebouw te verplaatsen en klik als het op de goede plek staat.\n\nOm de vorm van een gebouw te verbeteren klik en versleep je de punten die samen de omtrek vormen naar de juiste plek.\n\n### Toevoegen\n\nEen van de onduidelijkheden over het toevoegen van gebouwen is dat in\nOpenStreetMap de gebouwen als vlakken en als punten kunnen worden vastgelegd. De vuistregel is dat _gebouwen zoveel mogelijk als een vlak_ worden ingetekend en dat bedrijven, woningen en voorzieningen die in die gebouwen zijn gevestigd ofwel ook op het vlak worden getagd of als punt worden ingetekend binnen de omtrek.\n\nBegin om een gebouw als een vlak in te tekenen door op de knop 'Vlak' te klikken in de linkerbovenhoek van het scherm en beëindig het tekenen door de 'Return'-toets in te drukken of door op het eerst getekende punt te klikken om de omtrek te sluiten.\n\n### Verwijderen\n\nAls een gebouw helemaal verkeerd is – je kan zien dat het niet in het satellietbeeld zichtbaar is en idealiter heb je ter plekke geconstateerd dat het niet bestaat – dan kan je het verwijderen. Wees voorzichtig bij het verwijderen van objecten – zoals alle andere aanpassingen, is het resultaat voor iedereen zichtbaar en satellietbeelden zijn vaak verouderd, dus het gebouw kan simpelweg onlangs zijn gebouwd.\n\nJe kan een gebouw verwijderen door erop te klikken om het te selecteren en dan op de prullenbakicoon te klikken of op de 'Verwijderen'-toets te drukken.\n"
+-    relations: "# Relaties\n\nEen relatie is een speciaal type object in OpenStreetMap dat andere objecten\ngroepeert. Twee vaak voorkomende type relaties zijn bijvoorbeeld de *routerelatie*,\ndie delen van een weg die tot eenzelfde snelweg behoren groepeert, en\n*multipolygonen*, die verschillende lijnen groeperen die samen een complex vlak\ndefiniëren (een van verschillende delen met gaten erin, zoals bij een donut).\n\nDe groep van elementen in een relatie heten *leden*. In de zijbalk kan je zien van\nwelke relaties een element lid is, en daar op een relatie klikken om die te\nselecteren. Wanneer de relatie is geselecteerd, kan je al haar leden in een lijst in de zijbalk zien, en worden ze gehighlight op de kaart.\n\niD zal meestal relaties automatisch voor je in orde houden terwijl je bewerkt. Het belangrijkste waar je moet aan denken is dat als je een deel van een weg verwijdert om het nauwkeuriger opnieuw te tekenen, het nieuwe stuk weg lid moet zijn van dezelfde relaties als het oude.\n\n## Relaties bewerken\n\nAls je relaties wilt bewerken, zijn hier de basisvaardigheden.\n\nOm een object aan een relatie toe te voegen, selecteer het object, klik op de \"+\"-knop in het\n\"Alle relaties\"-gedeelte van de zijbalk en selecteer of typ de naam van de relatie.\n\nOm een nieuwe relatie te maken, selecteer je het eerste object dat er deel van uit moet maken,\nklik je op de \"+\"-knop in het \"Alle relaties\"-gedeelte en kies je \"Nieuwe relatie...\"\n\nOm een object van een relatie te verwijderen, selecteer je dat object en klik je op de\nvuilnisbakknop naast de relatie waaruit je het object wil verwijderen.\n\nJe kan multipolygonen met gaten maken door het \"Samenvoegen\"-gereedschap te gebruken. Teken twee vlakken (de binnenkant en de buitenkant), hou de Shift-toets ingedrukt en klik achtereenvolgens op hen allemaal om ze te selecteren. Klik dan op de \"Samenvoegen\"-knop (+).\n"
++    relations: "# Relaties\n\nEen relatie is een speciaal type object in OpenStreetMap dat andere objecten groepeert. Twee vaakvoorkomende types relaties zijn bijvoorbeeld de *routerelatie*, die delen van een weg die tot eenzelfde snelweg behoren groepeert, en *multipolygonen*, die verschillende lijnen groeperen die samen een complex vlak definiëren (een van verschillende delen met gaten erin, zoals bij een donut).\n\nDe groep van elementen in een relatie heten *leden*. In de zijbalk kan je zien van welke relaties een element lid is, en daar op een relatie klikken om die te selecteren. Wanneer de relatie is geselecteerd, kan je al haar leden in een lijst in de zijbalk zien, en worden ze gehighlight op de kaart.\n\niD zal meestal relaties automatisch voor je in orde houden terwijl je bewerkt. Het belangrijkste waar je moet aan denken is dat als je een deel van een weg verwijdert om het nauwkeuriger opnieuw te tekenen, het nieuwe stuk weg lid moet zijn van dezelfde relaties als het oude.\n\n## Relaties Bewerken\n\nAls je relaties wilt bewerken, zijn hier de basisvaardigheden.\n\nOm een object aan een relatie toe te voegen, selecteer het object, klik op de \"+\"-knop in het \"Alle relaties\"-gedeelte van de zijbalk en selecteer of typ de naam van de relatie.\n\nOm een nieuwe relatie te maken, selecteer je het eerste object dat er deel van uit moet maken, klik je op de \"+\"-knop in het \"Alle relaties\"-gedeelte en kies je \"Nieuwe relatie ...\"\n\nOm een object van een relatie te verwijderen, selecteer je dat object en klik je op de vuilnisbakknop naast de relatie waaruit je het object wil verwijderen.\n\nJe kan multipolygonen met gaten maken door het \"Samenvoegen\"-gereedschap te gebruken. Teken twee vlakken (de binnenkant en de buitenkant), hou de Shift-toets ingedrukt en klik achtereenvolgens op hen allemaal om ze te selecteren. Klik dan op de \"Samenvoegen\"-knop (+).\n"
    }
    presets: {
      fields: {
@@ -155,6 +295,15 @@
 +      }
 +      fuel/octane_95: {
 +        label: "Verkoopt Standaard Brandstof"
++      }
++      gender: {
++        label: "Geslacht"
++        placeholder: "Onbekend"
++        options: {
++          male: "Mannelijk"
++          female: "Vrouwelijk"
++          unisex: "Unisex"
++        }
 +      }
 +      leaf_cycle: {
 +        label: "Bladercyclus"
@@ -187,13 +336,14 @@
 +        }
 +      }
 +      piste/grooming: {
++        label: "Manier van sneeuw-grooming"
 +        options: {
 +          classic: "Klassiek"
-+          mogul: "Mogul"
-+          backcountry: "Binnenland"
-+          classic+skating: "Klassiek en Rolschaatsen"
++          mogul: "Buckel"
++          backcountry: "Freeride"
++          classic+skating: "Klassiek en Schaatsen"
 +          scooter: "Scooter/Sneeuwscooter"
-+          skating: "Rolschaatsen"
++          skating: "Schaatsen"
 +        }
 +      }
 +      recycling/cans: {
@@ -224,6 +374,7 @@
 +        label: "Seizoensgebonden"
 +      }
 +      service/bicycle/chaintool: {
++        label: "Kettinggereedschap"
 +        options: {
 +          undefined: "Aangenomen dat het Nee is"
 +          yes: "Ja"
@@ -231,6 +382,7 @@
 +        }
 +      }
 +      service/bicycle/pump: {
++        label: "Fietspomp"
 +        options: {
 +          undefined: "Aangenomen dat het Nee is"
 +          yes: "Ja"
@@ -251,7 +403,7 @@
 +          very_bad: "Grote Bodemvrijheid: lichte offroadvoertuigen"
 +          horrible: "Offroad: zware offroadvoertuigen"
 +          very_horrible: "Gespecialiseerde offroad: tractor, quad"
-+          impassible: "Ondoordringbaar / Geen voertuig op wielen"
++          impassable: "Ontoegankelijk / Geen voertuig op wielen"
 +        }
 +      }
 +      substation: {
@@ -326,6 +478,9 @@
 +          5: "5: Erg stijl, fiets wordt meestal geduwd of gedragen"
 +        }
        }
+       par: {
++        label: "Par"
+       }
        parking: {
          options: {
 +          multi-storey: "Parkeergebouw met meerdere verdiepingen"
@@ -338,9 +493,12 @@
          options: {
 +          novice: "Beginner (educatief)"
 +          intermediate: "Gemiddeld (blauw vierkant)"
-+          advanced: "Gevorderd (zwarte diamand)"
-+          expert: "Expert (dubbele zwarte diamand)"
++          advanced: "Gevorderd (zwarte ruit)"
++          expert: "Expert (dubbele zwarte ruit)"
++          freeride: "Freeride (niet op piste)"
 +          extreme: "Extreem (klimuitrusting vereist)"
+-          easy: "makkelijk (groene rondje)"
++          easy: "Makkelijk (groen rondje)"
          }
        }
        piste/type: {
@@ -349,9 +507,11 @@
 +          nordic: "Nordic"
 +          skitour: "Skitour"
 +          hike: "Wandelen"
-+          sleigh: "Sleeën"
-+          ice_skate: "Ijsschaatsen"
++          sleigh: "Slee getrokken door dieren"
++          ice_skate: "IJsschaatsen"
 +          snow_park: "Sneeuwpark"
+-          sled: "Slee"
++          sled: "Kleine slee"
          }
        }
        toilets/disposal: {
@@ -375,6 +535,21 @@
 -        name: "Snoep"
 -        terms: "snoep, zoetwaar, zoetigheid, zoet"
 -      }
+-      landuse/commercial: {
+-        name: "Kantoren"
+-      }
+-      landuse/industrial: {
+-        name: "Industriegebied"
+-      }
+-      landuse/military: {
+-        name: "Militair Domein"
+-      }
+-      landuse/residential: {
+-        name: "Woongebied"
+-      }
+-      landuse/retail: {
+-        name: "Detailhandel"
+-      }
 +      aerialway: {
 +        name: "Vliegroute"
 +        terms: "Vliegroute, Vluchtroute, Luchtbaan"
@@ -388,6 +563,10 @@
 +      }
 +      aerialway/magic_carpet: {
 +        name: "Tapijtlift"
++      }
++      amenity/bicycle_repair_station: {
++        name: "Fietsherstelpunt"
++        terms: "fietsonderhoud, onderhoud, banden, fietsbanden, fietspomp, fietsherstelstation, fietsenmaker"
 +      }
 +      amenity/bureau_de_change: {
 +        name: "Wisselkantoor"
@@ -403,6 +582,13 @@
 +      amenity/college: {
 +        name: "Campus van Beroepsschool"
 +        terms: "bso, buo, buso, vmbo, speciaal onderwijs, bijzonder onderwijs, onderwijs, middelbaar, secundair onderwijs"
++      }
++      amenity/community_centre: {
++        name: "Buurthuis"
++        terms: "feestzaal, parochiezaal, gemeenschapshuis"
++      }
++      amenity/kindergarten: {
++        name: "Gebied van Crèche/Kleuterschool"
 +      }
 +      amenity/public_bookcase: {
 +        name: "Openbare Boekenkast"
@@ -422,6 +608,9 @@
 +        name: "Gebouw van Beroepsschool"
 +        terms: "bso, buo, buso, vmbo, speciaal onderwijs, bijzonder onderwijs, onderwijs, middelbaar, secundair onderwijs"
 +      }
++      building/kindergarten: {
++        name: "Gebouw van Crèche/Kleuterschool"
++      }
 +      craft: {
 +        name: "Vakmanschap"
 +        terms: "stiel, kunde, handwerk"
@@ -431,6 +620,10 @@
 +      }
 +      craft/confectionery: {
 +        name: "Snoepmakerij"
++      }
++      craft/dressmaker: {
++        name: "Kleermaker voornamelijk voor vrouwen"
++        terms: "kleermaker, kleedjes, jurken, maatwerk, kleren, kledij"
 +      }
 +      craft/photographic_laboratory: {
 +        name: "Foto-ontwikkellabo"
@@ -448,6 +641,38 @@
 +        name: "Voorde (doorwaadbare plaats)"
 +        terms: "drecht, dracht, trecht, tricht, waden, doorwaadbaar"
 +      }
++      golf/bunker: {
++        name: "Bunker"
++        terms: "zand, golf"
++      }
++      golf/fairway: {
++        name: "Fairway"
++        terms: "golf"
++      }
++      golf/green: {
++        name: "Putting Green"
++        terms: "golf"
++      }
++      golf/hole: {
++        name: "Golf Hole"
++        terms: "gat, doel"
++      }
++      golf/lateral_water_hazard: {
++        name: "Zijdelingse Waterpartij"
++        terms: "golf"
++      }
++      golf/rough: {
++        name: "Rough"
++        terms: "golf"
++      }
++      golf/tee: {
++        name: "Tee-Box"
++        terms: "golf"
++      }
++      golf/water_hazard: {
++        name: "Waterpartij"
++        terms: "golf"
++      }
 +      highway/crosswalk: {
 +        name: "Zebrapad"
 +        terms: "oversteekplaats, voetgangers, voetpad"
@@ -456,7 +681,8 @@
 +        name: "Raceparcours voor Gemotoriseerde Voertuigen"
 +      }
 +      highway/street_lamp: {
-+        name: "Straatverlichting"
++        name: "Straatlantaarn"
++        terms: "straatverlichting, straatlamp, lantaarnpaal"
 +      }
 +      junction: {
 +        name: "Kruispunt"
@@ -466,9 +692,68 @@
 +        name: "Garages"
 +        terms: "garages, auto"
 +      }
++      leisure/nature_reserve: {
++        name: "Natuurreservaat"
++      }
++      leisure/running_track: {
++        name: "Looppiste"
++        terms: "atletiekbaan, stadion, stadium, hardlopen, hordenloop"
++      }
++      leisure/track: {
++        name: "Racepiste (niet voor Gemotoriseerde Voertuigen)"
++        terms: "atletiekbaan, stadion, stadium, hardlopen, hordenloop, fietsen, parcours"
++      }
++      natural/cave_entrance: {
++        name: "Ingang van Grot"
++        terms: "spelonk"
++      }
++      office/financial: {
++        name: "Financieel Kantoor"
++      }
++      office/it: {
++        name: "Kantoor van computerspecialist"
++        terms: "computer, elektronica, hardware, software, IT, ICT"
++      }
++      office/lawyer: {
++        name: "Advocatenkantoor"
++        terms: "advocatenbureau, wetsgeleerden"
++      }
++      place/neighbourhood: {
++        name: "Buurt"
++      }
 +      power/minor_line: {
 +        name: "Kleine Elektriciteitsleiding"
 +        terms: "stroomkabel, kabel, laagspanningskabel, laagspanningsleiding, elektriciteitsnet, elektriciteitskabel"
++      }
++      power/substation: {
++        name: "Transformatiestation"
++        terms: "stroom, elektriciteit, energievoorzieningen, transformator, distributie, transformatiecabine, laagspanning, hoogspanning, voltage, spanning"
++      }
++      shop/anime: {
++        name: "Animewinkel"
++        terms: "cosplay, manga, japans, strip"
++      }
++      shop/antiques: {
++        name: "Antiquair"
++        terms: "antiek, winkel"
++      }
++      shop/art: {
++        name: "Kunstgalerie"
++        terms: "galerij, kunstgalerij, galerie, tentoonstelling, exposé"
++      }
++      shop/baby_goods: {
++        name: "Babyartikelenwinkel"
++        terms: "kledij, fopspeen, tut, knuffels"
++      }
++      shop/bag: {
++        name: "Zak-/Reiskofferwinkel"
++        terms: "zakken, bagage, koffer"
++      }
++      shop/bathroom_furnishing: {
++        name: "Badkamermeubelwinkel"
++      }
++      shop/bed: {
++        name: "Bed-/Matrassenwinkel"
 +      }
 +      shop/books: {
 +        name: "Boekwinkel"
@@ -491,23 +776,131 @@
 +      shop/confectionery: {
 +        name: "Snoepwinkel"
 +      }
++      shop/copyshop: {
++        name: "Copyshop"
++      }
++      shop/cosmetics: {
++        name: "Cosmeticawinkel"
++        terms: "parfumerie"
++      }
++      shop/craft: {
++        name: "Schilder- en Tekengereedschapswinkel"
++      }
++      shop/curtain: {
++        name: "Gordijnenwinkel"
++      }
++      shop/dairy: {
++        name: "Zuivelwinkel"
++      }
++      shop/dry_cleaning: {
++        name: "Stomerij"
++        terms: "droogkuis, nieuwkuis"
++      }
++      shop/erotic: {
++        name: "Seksshop"
++        terms: "erotiek, sex shop"
++      }
++      shop/fabric: {
++        name: "Stofwinkel"
++        terms: "kledij, naaien"
++      }
++      shop/fashion: {
++        name: "Modewinkel"
++        terms: "kledij, kleding"
++      }
++      shop/frame: {
++        name: "Kaderwinkel"
++        terms: "schilderijen, kunst, kadrering"
++      }
++      shop/furnace: {
++        name: "Verwarmingswinkel"
++        terms: "CV, centrale verwarming"
++      }
++      shop/hearing_aids: {
++        name: "Hoorapparatenwinkel"
++        terms: "doof, slechthorend, oor, oren, hoorhulp"
++      }
++      shop/herbalist: {
++        name: "Herbalist"
++        terms: "homeopathie"
++      }
 +      shop/kiosk: {
 +        name: "Krantenkiosk"
++      }
++      shop/kitchen: {
++        name: "Keukenontwerpwinkel"
++      }
++      shop/leather: {
++        name: "Lederwinkel"
++        terms: "handtassen, leerwinkel, schoenen"
++      }
++      shop/massage: {
++        name: "Massagewinkel"
++        terms: "olie"
++      }
++      shop/money_lender: {
++        name: "Particuliere Gelduitleendienst"
++        terms: "pandhuis, lommerd, lombard, kredietinstelling, lenen, geld, bank van lening"
 +      }
 +      shop/musical_instrument: {
 +        name: "Muziekinstrumentenwinkel"
 +        terms: "musiceren, muziekschool, pianowinkel, gitaarwinkel, vioolwinkel, partituren, pianokruk"
 +      }
++      shop/newsagent: {
++        name: "Kranten-/Tijdschriftwinkel"
++        terms: "nieuws, kranten, tijdschriften, magazines"
++      }
++      shop/organic: {
++        name: "Winkel met Organische Goederen [verouderde tag, gebruik in de plaats het echte type winkel en de tag organic=yes]"
++      }
++      shop/outdoor: {
++        name: "Winkel voor Benodigdheden voor Buitenactiviteiten"
++        terms: "trekking, fietsen, hike, gps, kamperen, tent"
++      }
 +      shop/paint: {
 +        name: "Verfwinkel"
++      }
++      shop/pawnbroker: {
++        name: "Bank van lening"
++        terms: "pandhuis, lommerd, lombard, kredietinstelling, lenen, geld"
 +      }
 +      shop/pyrotechnics: {
 +        name: "Vuurwerkwinkel"
 +        terms: "vuurpijlen, buskruit, nieuwjaar"
 +      }
++      shop/radiotechnics: {
++        name: "Winkel voor Radio- en Elektronische Componenten"
++        terms: "radiotechniek, satelliet-TV"
++      }
 +      shop/religion: {
 +        name: "Religieuze Winkel"
 +        terms: "liturgisch centrum, kerk, godsdienstwinkel, kruisbeelden, souvenirwinkel"
++      }
++      shop/scuba_diving: {
++        name: "Duikwinkel"
++        terms: "diepzeeduiken, duiken, duiksport, scuba"
++      }
++      shop/second_hand: {
++        name: "Tweedehandswinkel"
++        terms: "hergebruik, doorverkoop"
++      }
++      shop/tailor: {
++        name: "Kleermaker"
++        terms: "maatwerk, kleren, kledij, kostuum"
++      }
++      shop/tattoo: {
++        name: "Tattoozetter"
++      }
++      shop/ticket: {
++        name: "Ticketverkoop"
++        terms: "toegangskaartjes, ticketjes"
++      }
++      shop/vacuum_cleaner: {
++        name: "Stofzuigerwinkel"
++        terms: "huishouden, schoonmaken, poetsen, stofzuigen, electro, elektro"
++      }
++      shop/water_sports: {
++        name: "Watersport-/Zwemwinkel"
 +      }
 +      shop/window_blind: {
 +        name: "Jaloeziewinkel"
@@ -531,6 +924,14 @@
 +      }
        amenity/bbq: {
 +        terms: "Barbecue, Grill, Steengrill, BBQ, spit"
+       }
+       amenity/cafe: {
+-        terms: "Cafetaria, tea-room, tea room, koffiehuis, koffie, thee, vieruurtje, cake, taart"
++        terms: "cafetaria, tea-room, tearoom, tea room, koffiehuis, koffie, thee, vieruurtje, cake, taart"
+       }
+       amenity/post_box: {
+-        terms: "Brievenbus"
++        terms: "postbus"
        }
        amenity/school: {
 +        terms: "school, onderwijs, secundair onderwijs, lager onderwijs, basisschool, middelbaar, voortgezet onderwijs"
@@ -559,6 +960,9 @@
        building/school: {
 +        terms: "school, onderwijs, secundair onderwijs, lager onderwijs, basisschool, middelbaar, voortgezet onderwijs"
        }
+       building/train_station: {
++        terms: "station, NMBS, NS, spoorwegstation"
+       }
        building/university: {
 +        terms: "universiteit, hogeschool, onderwijs, hoger onderwijs"
 -        name: "Universiteitsgebouw"
@@ -567,22 +971,49 @@
        building/warehouse: {
 +        terms: "magazijn, opslagplaats"
        }
+       craft/optician: {
+-        terms: "opticien, brillenwinkel, brillenwinkel, lenzen, bril, zonnebril, oogarts"
++        terms: "brillenwinkel, brillenwinkel, lenzen, bril, zonnebril, oogarts"
+       }
+       craft/tailor: {
++        terms: "maatwerk, kleren, kledij, kostuum"
+       }
        craft/window_construction: {
 +        name: "Raam- en deurkadermaker"
        }
+       highway/rest_area: {
++        name: "Eenvoudige Stopplaats aan Autoweg met Niet Zo Veel Faciliteiten"
+-        terms: "verzorgingsplaats, autoweg, autosnelweg, snelweg, aire, servicestation, picknick"
++        terms: "aire, verzorgingsplaats, autoweg, autosnelweg, snelweg, autostrade, servicestation, picknick, tankstation, wegrestaurant, rustplaats, parkeerplaats, parking, afrit"
+       }
+       highway/services: {
++        name: "Stopplaats aan Autoweg met Veel Faciliteiten"
+-        terms: "verzorgingsplaats, autoweg, autosnelweg, snelweg, aire, servicestation, picknick"
++        terms: "aire, verzorgingsplaats, autoweg, autosnelweg, snelweg, autostrade, servicestation, picknick, tankstation, wegrestaurant, rustplaats, parkeerplaats, parking, afrit"
+       }
+       highway/tertiary: {
++        terms: "aire, wegrestaurant, autostrade, autosnelweg, rustplaats, parkeerplaats, parking"
+       }
        landuse/farm: {
--        name: "Landbouwgrond"
-+        name: "Landbouwgrond (niet gebruiken)"
++        terms: " "
        }
        landuse/farmland: {
 -        terms: "akker, veld, landbouwgebied, landbouwgrond"
-+        terms: "boerderij, hoeve, landbouw, veld, akker, weide"
++        terms: "akker, veld, agricultuur, boerderij"
        }
        landuse/farmyard: {
 +        terms: "boerderij, hoeve, landbouw, hofstee"
        }
        landuse/landfill: {
 +        terms: "stortplaats, vuilnisbelt"
+       }
+       leisure: {
+-        name: "Vrijetijd"
++        name: "Vrije tijd"
+       }
+       place/isolated_dwelling: {
+-        name: "Alleenstaande bebouwing"
++        name: "Alleenstaande Woning"
        }
        power: {
 +        terms: "stroom, elektriciteit, energievoorzieningen"
@@ -597,6 +1028,29 @@
        }
        power/pole: {
 +        terms: "stroom, laagspanning, laagspanningsleiding, elektriciteitsnet, elektriciteitskabel"
+       }
+       power/sub_station: {
+-        name: "Klein onderstation"
++        name: "[verouderd] Klein onderstation"
+       }
+       shop/electronics: {
++        terms: "huishoudelektro, witgoed, elektro, electro, wasmachine, keuken, vaatwasmachine, afwasmachine"
+-        name: "Bruingoedwinkel"
++        name: "Huishoudtoestellen-/Witgoedwinkel"
+       }
+       shop/hifi: {
++        terms: "audio, bruingoed, hifi, stereoinstallatie"
+-        name: "Bruingoedwinkel"
++        name: "Hifi-/Bruingoedwinkel"
+       }
+       shop/optician: {
++        terms: "brillenwinkel, brillenwinkel, lenzen, bril, zonnebril, oogarts"
+       }
+       tourism/guest_house: {
++        terms: "bed and breakfast, bed & breakfast, hotel"
+       }
+       type/route/train: {
++        terms: "spoor, NMBS, NS"
        }
      }
    }

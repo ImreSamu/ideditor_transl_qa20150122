@@ -5,5 +5,27 @@
 -        label: "Tipe"
 -      }
      }
+     presets: {
+-      landuse/commercial: {
+-        name: "Kommersieel"
+-        terms: "kommersieel, handeldrywend, "
+-      }
+-      landuse/farm: {
+-        name: "Plaas"
+-        terms: "Plaas"
+-      }
+-      landuse/industrial: {
+-        name: "Industrieel"
+-        terms: "industrieel, nyweraar"
+-      }
+-      landuse/residential: {
+-        name: "Residensieel"
+-        terms: "residensieel, huisadres, woonhuis"
+-      }
+-      landuse/retail: {
+-        name: "Kleinhandel"
+-        terms: "kleinhandel, kleinhandelsaak"
+-      }
+     }
    }
  }

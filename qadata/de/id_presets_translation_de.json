@@ -216,7 +216,9 @@
     "back_tooltip__transl": "Objekt ändern",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "Nein",
+      "yes__en": "Yes",
+      "yes__transl": "Ja"
     },
     "choose__en": "Select feature type",
     "choose__transl": "Objekttyp auswählen",
@@ -515,6 +517,7 @@
       "description__transl": "Objekt löschen.",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "Dieses Objekt kann nicht gelöscht werden, da es nicht vollständig heruntergeladen wurde.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Löschen"
     },
@@ -1246,6 +1249,7 @@
         "key": "brand",
         "label": "Brand",
         "label__en": "Brand",
+        "label__transl": "Marke",
         "type": "text"
       },
       "building": {
@@ -1622,6 +1626,35 @@
         "label__transl": "Spurbreite",
         "type": "combo"
       },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "label__transl": "Geschlecht",
+        "options": {
+          "female__en": "Female",
+          "female__transl": "Weiblich",
+          "male__en": "Male",
+          "male__transl": "Männlich",
+          "unisex__en": "Unisex",
+          "unisex__transl": "Geschlechtsneutral"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "placeholder__transl": "Unbekannt",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
+      },
       "generator/method": {
         "key": "generator:method",
         "label": "Method",
@@ -1778,12 +1811,18 @@
         "key": "leaf_cycle",
         "label": "Leaf Cycle",
         "label__en": "Leaf Cycle",
+        "label__transl": "Blätterzyklus",
         "options": {
           "deciduous__en": "Deciduous",
+          "deciduous__transl": "Sommergrün",
           "evergreen__en": "Evergreen",
+          "evergreen__transl": "Immergrün",
           "mixed__en": "Mixed",
+          "mixed__transl": "Gemischt",
           "semi_deciduous__en": "Semi-Deciduous",
-          "semi_evergreen__en": "Semi-Evergreen"
+          "semi_deciduous__transl": "Halbimmergrün",
+          "semi_evergreen__en": "Semi-Evergreen",
+          "semi_evergreen__transl": "Halbimmergrün"
         },
         "strings": {
           "options": {
@@ -1800,11 +1839,16 @@
         "key": "leaf_type",
         "label": "Leaf Type",
         "label__en": "Leaf Type",
+        "label__transl": "Blatttyp",
         "options": {
           "broadleaved__en": "Broadleaved",
+          "broadleaved__transl": "Breitblättrig",
           "leafless__en": "Leafless",
+          "leafless__transl": "Blattlos",
           "mixed__en": "Mixed",
-          "needleleaved__en": "Needleleaved"
+          "mixed__transl": "Gemischt",
+          "needleleaved__en": "Needleleaved",
+          "needleleaved__transl": "Nadelblätter"
         },
         "strings": {
           "options": {
@@ -2526,8 +2570,8 @@
           "good__transl": "Schmale Reifen: Rennrad",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
           "horrible__transl": "Off-Road: Schweres Off-Road-Fahrzeug",
-          "impassible__en": "Impassible / No wheeled vehicle",
-          "impassible__transl": "Unpassierbar / keine Reifen-Fahrzeuge",
+          "impassable__en": "Impassable / No wheeled vehicle",
+          "impassable__transl": "Unpassierbar / Keine Fahrzeuge mit Rädern",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "intermediate__transl": "Räder: Citybike, Rollstuhl, Roller",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
@@ -2544,7 +2588,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -20952,7 +20996,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -24536,7 +24581,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24552,7 +24596,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24572,8 +24615,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24609,12 +24650,11 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
         "name__transl": "Gewerbegebiet",
         "tags": {
           "landuse": "commercial"
@@ -24622,7 +24662,7 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Gewerbezone,Gewerbegebiet,gewerblich genutzte Gebäude,Business Park,Büros"
+        "terms__transl": "Gewerbegebiet, Gewerbefläche"
       },
       "landuse/construction": {
         "fields": [
@@ -24630,7 +24670,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24653,9 +24692,9 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": " Landwirtschaftliche Fläche",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Ackerland",
         "searchable": false,
         "tags": {
           "landuse": "farm"
@@ -24663,35 +24702,32 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Acker, Feld, Plantage, Tierhaltung"
+        "terms__transl": "Ackerland, Landwirtschaftsflächen, Ackerboden"
       },
       "landuse/farmland": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Bauernhof",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Ackerland",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland",
-        "terms__transl": "Bauernhof, Bauernhaus, Farm"
+        "terms__en": "",
+        "terms__transl": "Ackerland, Landwirtschaftsflächen, Ackerboden"
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24712,7 +24748,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24745,7 +24780,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24761,20 +24795,19 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Industrie",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
+        "name__transl": "Industriegebiet",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Industriegebiet, Gewerbegebiet"
+        "terms__transl": "Industriegebiet, Industriegelände, Industriegegend"
       },
       "landuse/landfill": {
         "geometry": [
@@ -24794,7 +24827,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24812,23 +24844,22 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "Militär",
+        "name": "Military Area",
+        "name__en": "Military Area",
+        "name__transl": "Militärgelände",
         "tags": {
           "landuse": "military"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Militär, Armee, Landesverteidigung"
+        "terms__transl": "Militärgelände, Militärgebiet"
       },
       "landuse/orchard": {
         "fields": [
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24845,7 +24876,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24861,12 +24891,11 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
         "name__transl": "Wohngebiet",
         "tags": {
           "landuse": "residential"
@@ -24874,26 +24903,24 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Wohngebiet"
+        "terms__transl": "Wohngebiet, Wohnanlage, Wohngegend, Wohnregion"
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "Geschäfte",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
+        "name__transl": "Fachmarktzentrum",
         "tags": {
           "landuse": "retail"
         },
         "terms__en": "",
-        "terms__transl": "Geschäfte,Einzelhandel,Einzelhandelsgeschäfte,Einkaufszentrum,Einkaufszone"
+        "terms__transl": "Fachmarktzentrum, Einkaufszentrum"
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -35570,7 +35597,7 @@
         "terms__en": "stereo,video",
         "terms__transl": "Hifi Geschäft"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -35582,15 +35609,18 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
+        "name__transl": "Haushaltswarengeschäft",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household",
+        "terms__transl": "Haushaltswarengeschäft, Haushaltswarenladen"
       },
       "shop/interior_decoration": {
         "fields": [

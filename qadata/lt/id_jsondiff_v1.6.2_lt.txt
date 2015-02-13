@@ -105,6 +105,10 @@
 +    changes: "{count} Pakeitimai"
    }
    inspector: {
++    check: {
++      yes: "Taip"
++      no: "Ne"
++    }
 +    add_fields: "Pridėti lauką:"
    }
    background: {
@@ -138,11 +142,44 @@
 +      bench: {
 +        label: "Suolas"
 +      }
++      brand: {
++        label: "Markė"
++      }
 +      crop: {
 +        label: "Pasėliai"
 +      }
 +      delivery: {
 +        label: "Pristatymas"
++      }
++      emergency: {
++        label: "Avarinis"
++      }
++      gender: {
++        label: "Lytis"
++        placeholder: "Nežinoma"
++        options: {
++          male: "Vyras"
++          female: "Moteris"
++        }
++      }
++      leaf_cycle: {
++        label: "Lapų ciklas"
++        options: {
++          evergreen: "Amžinai žaliuojantis"
++          deciduous: "Nukrintantis"
++          semi_evergreen: "Pusiau-amžinai žaliuojantis"
++          semi_deciduous: "Pusiau-nukrentantis"
++          mixed: "Mišrus"
++        }
++      }
++      leaf_type: {
++        label: "Lapų tipas"
++        options: {
++          broadleaved: "Plačialapiai"
++          needleleaved: "Spygliuočiai"
++          mixed: "Mišrūs"
++          leafless: "Belapiai"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        options: {
@@ -152,14 +189,25 @@
 +        }
 +      }
 +      service/bicycle/pump: {
++        label: "Oro pompa"
 +        options: {
 +          undefined: "Manoma, kad Ne"
 +          yes: "Taip"
 +          no: "Ne"
 +        }
 +      }
++      social_facility_for: {
++        label: "Aptarnaujama žmonių"
++        placeholder: "Benamiai, neįgalūs, vaikai ir pan."
++      }
 +      substation: {
 +        label: "Tipas"
++      }
++      supervised: {
++        label: "Prižiūrimas"
++      }
++      tactile_paving: {
++        label: "Apčiuopiama danga"
 +      }
 +      takeaway: {
 +        label: "Išsinešimui"
@@ -172,32 +220,80 @@
 +      }
 +      tracktype: {
 +        label: "Kelio tipas"
++        placeholder: "Tvirtas, daugiausia tvirtas, minkštas..."
 +      }
+       access: {
+         types: {
++          access: "Bendra"
+         }
+       }
        golf_hole: {
 +        placeholder: "Duobutės numeris (1-18)"
        }
-       smoothness: {
+       mtb/scale/imba: {
++        label: "IMBA maršruto sudėtingumas"
+       }
+       mtb/scale/uphill: {
++        label: "Kalnų dviračių sudėtingumas"
+       }
+       parking: {
+         options: {
++          sheds: "Pašiūrės"
+         }
+       }
+       piste/difficulty: {
++        placeholder: "Lengvas, vidutinis, sudėtingas..."
 +        options: {
-+          impassible: "Nepravažiuojama / jokiam ratuotam transportui"
++          novice: "Naujokams (instrukcijos)"
++          easy: "Lengvas (žalias žiedas)"
++          intermediate: "Vidutinis (mėlynas kvadratas)"
++          advanced: "Sudėtingas (juodas deimantas)"
++          expert: "Eksperto (dvigubas juodas deimantas)"
++          extreme: "Ekstremalus (būtina kopimo įranga)"
 +        }
+       }
+       piste/grooming: {
+         options: {
++          skating: "Čiuožimas"
+         }
+       }
+       piste/type: {
+         options: {
++          snow_park: "Sniego parkas"
+         }
        }
        structure: {
 +        label: "Struktūra"
+         options: {
++          ford: "Brasta"
+         }
+       }
+       trail_visibility: {
++        options: {
++          excellent: "Puiku: nedviprasmiškas kelias arba žymės visur"
++          good: "Gerai: žymės matomos, kartais reikia paieškoti"
++          intermediate: "Vidutiniškai: šiek tiek žymų, kelias daugiausia matomas"
++          bad: "Blogai: nėra žymų, kelio kartais nėra ar jis nesimato"
++          horrible: "Tragiškai: dažnų atkarpų nėra, reikia orientavimosi sugebėjimų"
++          no: "Nėra: nėra kelio, reikia puikių orientavimosi sugebėjimų"
++        }
        }
      }
      presets: {
 -      craft/confectionary: {
 -        name: "Konditerija"
 -      }
--      landuse/farmland: {
--        name: "Dirbamos žemės"
--      }
 +      aerialway: {
 +        name: "Oro transporto kelias"
 +        terms: "pakilimo takas,lėktuvų privažiavimas"
 +      }
++      aerialway/gondola: {
++        name: "Gondola"
++        terms: "Gondola"
++      }
 +      amenity/bicycle_repair_station: {
 +        name: "Dviračių remonto stotis"
++        terms: "dviračių remontas"
 +      }
 +      amenity/community_centre: {
 +        name: "Bendruomenės centras"
@@ -207,12 +303,112 @@
 +        name: "Smėlio dėžė"
 +        terms: "Smėlio dėžė"
 +      }
++      amenity/social_facility/homeless_shelter: {
++        name: "Benamių prieglauda"
++        terms: "prieglauda,benamių prieglauda"
++      }
++      barrier/block: {
++        name: "Blokas"
++        terms: "blokas,akmuo"
++      }
++      barrier/cycle_barrier: {
++        name: "Dviračių barjeras"
++        terms: "dviračių barjeras"
++      }
++      barrier/hedge: {
++        name: "Gyvatvorė"
++        terms: "gyvatvorė"
++      }
++      barrier/stile: {
++        name: "Perlipa"
++        terms: "perlipa"
++      }
++      craft/confectionery: {
++        name: "Konditerija"
++        terms: "konditerija,saldumynai"
++      }
++      craft/hvac: {
++        name: "HVAC"
++        terms: "hvac"
++      }
++      craft/locksmith: {
++        name: "Šaltkalvis"
++        terms: "šaltkalvis"
++      }
++      ford: {
++        name: "Brasta"
++        terms: "brasta"
++      }
++      historic/boundary_stone: {
++        name: "Riboženklis akmuo"
++        terms: "riboženklis,akmuo"
++      }
++      junction: {
++        name: "Jungtis"
++        terms: "jungtis,sankryža"
++      }
++      landuse/garages: {
++        name: "Garažai"
++        terms: "garažai"
++      }
++      leisure/nature_reserve: {
++        name: "Draustinis"
++        terms: "gamtos rezervatas,rezervatas,draustinis"
++      }
++      man_made/cutline: {
++        name: "Proskyna"
++        terms: "proskyna"
++      }
++      military/airfield: {
++        name: "Aerodromas"
++        terms: "aerodromas"
++      }
++      natural/cave_entrance: {
++        name: "Įėjimas į olą"
++        terms: "įėjimas į olą"
++      }
++      office/accountant: {
++        name: "Buhalteris"
++        terms: "buhalteris"
++      }
++      power/substation: {
++        name: "Pastotė"
++        terms: "pastotė"
++      }
++      railway/halt: {
++        name: "Geležinkelio stotelė"
++        terms: "geležinkelio stotelė"
++      }
++      railway/narrow_gauge: {
++        name: "Siaurukas"
++        terms: "siaurukas"
++      }
++      railway/platform: {
++        name: "Geležinkelio platforma"
++        terms: "platforma,geležinkelio platforma"
++      }
++      shop/leather: {
++        name: "Odos dirbinių parduotuvė"
++        terms: "oda,odos dirbiniai,odos dirbinių parduotuvė"
++      }
 +      type/restriction/no_straight_on: {
 +        name: "Tik ne tiesiai"
 +        terms: "Tik ne tiesiai"
 +      }
+       aeroway/aerodrome: {
++        terms: "Oro uostas"
+       }
+       aeroway/gate: {
++        terms: "oro uosto vartai,vartai"
+       }
        aeroway/hangar: {
 +        terms: "Angaras"
+       }
+       aeroway/helipad: {
++        terms: "sraigtasparnuo aikštelė,sraigtasparnio nusileidimo aikštelė,malūnsparnio aikštelė"
+       }
+       aeroway/runway: {
++        terms: "pakilimo takas"
        }
        aeroway/terminal: {
 +        terms: "Oro uostas,Terminalas"
@@ -232,8 +428,32 @@
        amenity/bench: {
 +        terms: "Suoliukas,Suolas"
        }
+       amenity/bicycle_parking: {
++        terms: "dviračių stovas,dviračių stovėjimas,dviračių stovėjimo aikštelė"
+       }
+       amenity/bicycle_rental: {
++        terms: "dviračių nuoma"
+       }
+       amenity/boat_rental: {
++        terms: "laivų nuoma,valčių nuoma"
+       }
+       amenity/bureau_de_change: {
++        terms: "keitykla,valiutos keitykla"
+       }
+       amenity/bus_station: {
++        terms: "stotis,autobusų stotis"
+       }
        amenity/cafe: {
 +        terms: "Kavinė"
+       }
+       amenity/car_rental: {
++        terms: "nuoma,mašinų nuoma,automobilių nuoma"
+       }
+       amenity/car_wash: {
++        terms: "plovykla,mašinų plovykla,automobilių plovykla"
+       }
+       amenity/charging_station: {
++        terms: "įkrovimo stotelė,įkrovimo stotis"
        }
        amenity/cinema: {
 +        terms: "Kinas,Kinoteatras"
@@ -244,8 +464,14 @@
        amenity/clock: {
 +        terms: "Laikrodis"
        }
+       amenity/compressed_air: {
++        terms: "suspaustas oras"
+       }
        amenity/courthouse: {
 +        terms: "Teismas,Teismo rūmai"
+       }
+       amenity/doctor: {
++        terms: "daktaras,gydytojas,medikas"
        }
        amenity/drinking_water: {
 +        terms: "Vanduo,Geriamas vanduo"
@@ -253,14 +479,703 @@
        amenity/embassy: {
 +        terms: "Ambasada,Atstovybė"
        }
+       amenity/fast_food: {
++        terms: "greitas maistas"
+       }
        amenity/fire_station: {
 +        terms: "Gaisrinė,Priešgaisrinė tarnyba"
        }
        amenity/fountain: {
 +        terms: "Fontanas"
        }
+       amenity/fuel: {
++        terms: "dujų stotis"
+       }
        amenity/grave_yard: {
 +        terms: "Kapinės,Kapai"
+       }
+       amenity/library: {
++        terms: "biblioteka,skaitykla"
+       }
+       amenity/nightclub: {
++        terms: "klubas,naktinis klubas"
+       }
+       amenity/parking: {
++        terms: "aikštelė,stovėjimo aikštelė"
+       }
+       amenity/pharmacy: {
++        terms: "vaistinė"
+       }
+       amenity/place_of_worship: {
++        terms: "maldos namai"
+       }
+       amenity/place_of_worship/buddhist: {
++        terms: "budistų šventykla,šventykla"
+       }
+       amenity/place_of_worship/christian: {
++        terms: "bažnyčia"
+       }
+       amenity/place_of_worship/jewish: {
++        terms: "sinagoga"
+       }
+       amenity/place_of_worship/muslim: {
++        terms: "mečetė"
+       }
+       amenity/police: {
++        terms: "policija"
+       }
+       amenity/post_box: {
++        terms: "paštadėžė,pašto dėžė"
+       }
+       amenity/post_office: {
++        terms: "paštas,pašto skyrius"
+       }
+       amenity/pub: {
++        terms: "baras,aludė"
+       }
+       amenity/restaurant: {
++        terms: "rastoranas"
+       }
+       amenity/shelter: {
++        terms: "pastogė"
+       }
+       amenity/social_facility/food_bank: {
++        terms: "maisto bankas"
+       }
+       amenity/studio: {
++        terms: "studija"
+       }
+       amenity/swimming_pool: {
++        terms: "baseinas,plaukimo baseinas"
+       }
+       amenity/taxi: {
++        terms: "taksi aikštelė"
+       }
+       amenity/telephone: {
++        terms: "telefonas"
+       }
+       amenity/theatre: {
++        terms: "teatras"
+       }
+       amenity/toilets: {
++        terms: "tualetas,išvietė"
+       }
+       amenity/townhall: {
++        terms: "rotušė"
+       }
+       amenity/university: {
++        terms: "universiteto teritorija"
+       }
+       amenity/veterinary: {
++        terms: "veterinaras"
+       }
+       amenity/waste_basket: {
++        terms: "šiukšliadėžė"
+       }
+       area: {
++        terms: "plotas"
+       }
+       barrier: {
++        terms: "barieras,kliūtis"
+       }
+       barrier/city_wall: {
++        terms: "siena,miesto siena"
+       }
+       barrier/ditch: {
++        terms: "griovys"
+       }
+       barrier/entrance: {
++        terms: "įėjimas"
+       }
+       barrier/fence: {
++        terms: "tvora"
+       }
+       barrier/gate: {
++        terms: "vartai"
+       }
+       barrier/lift_gate: {
++        terms: "pakeliami vartai"
+       }
+       barrier/wall: {
++        terms: "siena"
+       }
+       boundary/administrative: {
++        terms: "riba,administracinė riba,siena"
+       }
+       building/apartments: {
++        terms: "apartamentai"
+       }
+       building/cathedral: {
++        terms: "katedra"
+       }
+       building/chapel: {
++        terms: "koplyčia"
+       }
+       building/church: {
++        terms: "bažnyčia"
+       }
+       building/college: {
++        terms: "koledžas"
+       }
+       building/construction: {
++        terms: "statomas pastatas, statybos"
+       }
+       building/dormitory: {
++        terms: "bendrabutis"
+       }
+       building/entrance: {
++        terms: "įėjimas/išėjimas"
+       }
+       building/garage: {
++        terms: "garažas"
+       }
+       building/garages: {
++        terms: "garažai"
+       }
+       building/greenhouse: {
++        terms: "šiltnamis"
+       }
+       building/hospital: {
++        terms: "ligoninės pastatas,ligoninė"
+       }
+       building/hotel: {
++        terms: "viešbučio pastatas,viešbutis"
+       }
+       building/house: {
++        terms: "namas"
+       }
+       building/public: {
++        terms: "visuomeninis pastatas"
+       }
+       building/retail: {
++        terms: "prekybos pastatas,prekybvietė"
+       }
+       building/roof: {
++        terms: "stogas"
+       }
+       building/school: {
++        terms: "mokyklos pastatas,mokykla"
+       }
+       building/shed: {
++        terms: "pašiūrė"
+       }
+       building/stable: {
++        terms: "arklidės"
+       }
+       building/train_station: {
++        terms: "geležinkleio stotis"
+       }
+       building/university: {
++        terms: "universiteto pastatas,universitetas"
+       }
+       building/warehouse: {
++        terms: "sandėlys"
+       }
+       craft/beekeeper: {
++        terms: "bitininkas"
+       }
+       craft/blacksmith: {
++        terms: "kalvis"
+       }
+       craft/boatbuilder: {
++        terms: "laivadirbys,laivų statykla"
+       }
+       craft/bookbinder: {
++        terms: "knygryšys"
+       }
+       craft/carpenter: {
++        terms: "stalius"
+       }
+       craft/clockmaker: {
++        terms: "laikrodininkas"
+       }
+       craft/dressmaker: {
++        terms: "siuvėjas"
+       }
+       craft/electrician: {
++        terms: "elektrikas"
+       }
+       craft/jeweler: {
++        terms: "juvelyras"
+       }
+       craft/photographer: {
++        terms: "fotografas"
+       }
+       craft/plumber: {
++        terms: "santechnikas"
+       }
+       craft/roofer: {
++        terms: "stogdengys"
+       }
+       craft/sawmill: {
++        terms: "lentpjūvė"
+       }
+       craft/sculpter: {
++        terms: "skulptorius"
+       }
+       craft/stonemason: {
++        terms: "mūrininkas"
+       }
+       craft/sweep: {
++        terms: "kaminkrėtys"
+       }
+       craft/tailor: {
++        terms: "siuvėjas"
+       }
+       craft/watchmaker: {
++        terms: "laikrodininkas"
+       }
+       craft/winery: {
++        terms: "vyninė"
+       }
+       emergency/phone: {
++        terms: "avarinis telefonas"
+       }
+       entrance: {
++        terms: "įėjimas,išėjimas"
+       }
+       footway/crossing: {
++        terms: "sankryža,perėja"
+       }
+       footway/sidewalk: {
++        terms: "šaligatvis"
+       }
+       golf/hole: {
++        terms: "duobutė,golfo duobutė"
+       }
+       highway: {
++        terms: "kelias,greitkelis,gatvė,takas"
+       }
+       highway/bridleway: {
++        terms: "jodinėjimo takas,arklių takas"
+       }
+       highway/bus_stop: {
++        terms: "stotelė,autobusų stotelė,troleibusų stotelė"
+       }
+       highway/crossing: {
++        terms: "perėja,pervaža"
+       }
+       highway/crosswalk: {
++        terms: "perėja"
+       }
+       highway/cycleway: {
++        terms: "dviračių takas"
+       }
+       highway/footway: {
++        terms: "pėsčiųjų takas"
+       }
+       highway/living_street: {
++        terms: "gyvenamoji zona,gyvenamoji gatvė"
+       }
+       highway/mini_roundabout: {
++        terms: "mini-žiedas,žiedas"
+       }
+       highway/motorway: {
++        terms: "greitkelis,automagistralė"
+       }
+       highway/path: {
++        terms: "takas"
+       }
+       highway/pedestrian: {
++        terms: "pėsčiųjų"
+       }
+       highway/rest_area: {
++        terms: "poilsio zona"
+       }
+       highway/road: {
++        terms: "nežinomas kelias"
+       }
+       highway/service: {
++        terms: "aptarnavimo kelias,privažiavimas"
+       }
+       highway/service/drive-through: {
++        terms: "pravažiavimas"
+       }
+       highway/service/emergency_access: {
++        terms: "avarinis priėjimas,avarinis privažiavimas"
+       }
+       highway/services: {
++        terms: "aptarnavimo zona,aptarnavimo plotas"
+       }
+       highway/steps: {
++        terms: "laiptai"
+       }
+       highway/stop: {
++        terms: "stop ženklas"
+       }
+       highway/street_lamp: {
++        terms: "lempa,žibintas,gatvės žibintas"
+       }
+       highway/track: {
++        terms: "kelias"
+       }
+       highway/traffic_signals: {
++        terms: "šviesoforas"
+       }
+       highway/unclassified: {
++        terms: "neklasifikuotas kelias"
+       }
+       historic: {
++        terms: "istorinė vieta"
+       }
+       historic/archaeological_site: {
++        terms: "archeologinė vieta"
+       }
+       historic/castle: {
++        terms: "pilis,tvirtovė"
+       }
+       historic/memorial: {
++        terms: "paminklas"
+       }
+       historic/monument: {
++        terms: "monumentas,paminklas"
+       }
+       historic/ruins: {
++        terms: "griuvėsiai "
+       }
+       historic/wayside_cross: {
++        terms: "pakelės kryžius"
+       }
+       historic/wayside_shrine: {
++        terms: "pakelės šventykla,rūpintojėlis,koplytstulpis"
+       }
+       landuse: {
++        terms: "žemėnauda"
+       }
+       landuse/allotments: {
++        terms: "sodai,kolektyviniai sodai"
+       }
+       landuse/basin: {
++        terms: "prūdas,kūdra,baseinas"
+       }
+       landuse/cemetery: {
++        terms: "kapinės"
+       }
+       landuse/commercial: {
++        terms: "komercinė zona,komercinė,komercija"
+-        name: "Reklama"
++        name: "Komercinė zona"
+       }
+       landuse/construction: {
++        terms: "statybos"
+       }
+       landuse/farm: {
++        terms: "dirbama žemė,žemdirbystė"
+-        name: "Ūkis"
++        name: "Dirbama žemė"
+       }
+       landuse/farmland: {
++        terms: "dirbama žemė,žemdirbystė"
+-        name: "Dirbamos žemės"
++        name: "Dirbama žemė"
+       }
+       landuse/farmyard: {
++        terms: "ūkio sodyba,ferma"
+       }
+       landuse/forest: {
++        terms: "miškas"
+       }
+       landuse/grass: {
++        terms: "žolė"
+       }
+       landuse/industrial: {
++        terms: "pramoninė zona,pramonė"
+-        name: "Pramoninė"
++        name: "Pramoninė zona"
+       }
+       landuse/landfill: {
++        terms: "sąvartynas"
+       }
+       landuse/meadow: {
++        terms: "pieva,ganykla"
+       }
+       landuse/military: {
++        terms: "karinė zona,poligonas,kareivinės"
+-        name: "Karinė"
++        name: "Karinė zona"
+       }
+       landuse/orchard: {
++        terms: "sodas,vaisių sodas"
+       }
+       landuse/quarry: {
++        terms: "karjeras"
+       }
+       landuse/residential: {
++        terms: "gyvenamoji zona,miegamoji zona"
+-        name: "Gyvenamosios vietos"
++        name: "Gyvenamoji zona"
+       }
+       landuse/retail: {
++        terms: "geležinkelio zona,gelžkelio zona"
+-        name: "Prekyba"
++        name: "Gelžkelio zona"
+       }
+       landuse/vineyard: {
++        terms: "vynuogynas"
+       }
+       leisure: {
++        terms: "laisvalaikis"
+       }
+       leisure/dog_park: {
++        terms: "šunparkis,šunų parkas"
+       }
+       leisure/garden: {
++        terms: "sodas"
+       }
+       leisure/marina: {
++        terms: "jachtklubas"
+       }
+       leisure/park: {
++        terms: "parkas"
+       }
+       leisure/picnic_table: {
++        terms: "poilsio stalas"
+       }
+       leisure/pitch/american_football: {
++        terms: "amerikietiško futbolo aikštė"
+       }
+       leisure/pitch/soccer: {
++        terms: "futbolo aikštė"
+       }
+       leisure/pitch/tennis: {
++        terms: "teniso kortai"
+       }
+       leisure/playground: {
++        terms: "žaidimų aikštelė"
+       }
+       leisure/running_track: {
++        terms: "bėgimo takelis"
+       }
+       leisure/stadium: {
++        terms: "stadionas"
+       }
+       leisure/swimming_pool: {
++        terms: "baseinas,maudymosi baseinas"
+       }
+       man_made: {
++        terms: "Žmogaus sukurtas"
+       }
+       man_made/lighthouse: {
++        terms: "švyturys"
+       }
+       man_made/observation: {
++        terms: "stebėjimo bokštas"
+       }
+       man_made/survey_point: {
++        terms: "stebėjimo taškas"
+       }
+       man_made/tower: {
++        terms: "bokštas"
+       }
+       man_made/wastewater_plant: {
++        terms: "vandens valymo įrenginiai"
+       }
+       man_made/water_tower: {
++        terms: "vandens bokštas"
+       }
+       military/range: {
++        terms: "šaudykla,poligonas"
+       }
+       natural/bay: {
++        terms: "įlanka"
+       }
+       natural/beach: {
++        terms: "maudykla,paplūdimys"
+       }
+       natural/coastline: {
++        terms: "krantas"
+       }
+       natural/glacier: {
++        terms: "ledynas"
+       }
+       natural/peak: {
++        terms: "viršūnė,viršukalnė"
+       }
+       natural/scrub: {
++        terms: "krūmai"
+       }
+       natural/spring: {
++        terms: "šaltinis"
+       }
+       natural/tree: {
++        terms: "medis"
+       }
+       natural/water: {
++        terms: "vanduo"
+       }
+       natural/water/lake: {
++        terms: "ežeras"
+       }
+       natural/water/pond: {
++        terms: "prūdas,kūdra"
+       }
+       natural/water/reservoir: {
++        terms: "tvenkinys,rezervuaras"
+       }
+       natural/wood: {
++        terms: "medžiai"
+       }
+       office: {
++        terms: "kontora"
+       }
+       office/architect: {
++        terms: "architektas"
+       }
+       office/insurance: {
++        terms: "draudimas,draudimo kontora"
+       }
+       office/it: {
++        terms: "it kontora,informacinės technologijos"
+       }
+       office/newspaper: {
++        terms: "laikraštis"
+       }
+       office/political_party: {
++        terms: "politinė partija"
+       }
+       office/research: {
++        terms: "tyrimų kontora"
+       }
+       office/travel_agent: {
++        terms: "kelionių agentūra"
+       }
+       place: {
++        terms: "gyvenvietė,vietovė"
+       }
+       place/city: {
++        terms: "didmiestis"
+       }
+       place/hamlet: {
++        terms: "viensėdis"
+       }
+       place/island: {
++        terms: "sala"
+       }
+       place/locality: {
++        terms: "vietovė"
+       }
+       place/town: {
++        terms: "miestas"
+       }
+       place/village: {
++        terms: "kaimas"
+       }
+       point: {
++        terms: "taškas"
+       }
+       power: {
++        terms: "įtampa,elektra"
+       }
+       power/generator: {
++        terms: "generatorius,elektros generatorius"
+       }
+       power/line: {
++        terms: "elektros linija"
+       }
+       power/pole: {
++        terms: "stulpas,elektros stulpas"
+       }
+       power/sub_station: {
++        terms: "pastotė"
+       }
+       power/tower: {
++        terms: "aukštos įtampos stulpas"
+       }
+       power/transformer: {
++        terms: "transformatorius"
+       }
+       public_transport/platform: {
++        terms: "platforma"
+       }
+       railway: {
++        terms: "gelžkelis,geležinkelis,bėgiai"
+       }
+       railway/abandoned: {
++        terms: "apleistas gelžkelis,nebenaudojamas gelžkelis"
+       }
+       railway/disused: {
++        terms: "nenaudojamas geležinkelis,nenaudojami bėgiai"
+       }
+       railway/rail: {
++        terms: "geležinkelis,gelžkelis"
+       }
+       railway/station: {
++        terms: "stotis,geležinkelio stotis"
+       }
+       railway/subway: {
++        terms: "metro"
+       }
+       railway/subway_entrance: {
++        terms: "įėjimas į metro"
+       }
+       railway/tram: {
++        terms: "tramvajus"
+       }
+       relation: {
++        terms: "ryšys"
+       }
+       route/ferry: {
++        terms: "kelto maršrutas"
+       }
+       shop: {
++        terms: "parduotuvė"
+       }
+       shop/alcohol: {
++        terms: "alkoholio parduotuvė"
+       }
+       shop/antiques: {
++        terms: "antikvariatas"
+       }
+       shop/art: {
++        terms: "meno galerija,galerija"
+       }
+       shop/bakery: {
++        terms: "kepykla"
+       }
+       shop/beauty: {
++        terms: "grožio salonas"
+       }
+       shop/beverages: {
++        terms: "gėrimų parduotuvė"
+       }
+       shop/bicycle: {
++        terms: "dviračių parduotuvė"
+       }
+       shop/books: {
++        terms: "knygynas,knygų parduotuvė"
+       }
+       shop/boutique: {
++        terms: "butikas"
+       }
+       shop/butcher: {
++        terms: "mėsininkas"
+       }
+       shop/car: {
++        terms: "autosalonas"
+       }
+       shop/car_parts: {
++        terms: "automobilių dalys"
+       }
+       shop/carpet: {
++        terms: "kilimai,kilimų parduotuvė"
+       }
+       shop/cheese: {
++        terms: "sūrio parduotuvė"
+       }
+       shop/chocolate: {
++        terms: "šokolado parduotuvė"
+       }
+       shop/clothes: {
++        terms: "drabužių parduotuvė"
+       }
+       shop/jewelry: {
++        terms: "juvelyras"
+       }
+       shop/mall: {
++        terms: "prekybos centras"
+       }
+       shop/music: {
++        terms: "muzikos prekės,muzikos prekių parduotuvė"
        }
        shop/supermarket: {
 +        terms: "Prekybos centras"

@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+| Giới tính
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Không rõ
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -3277,8 +3292,8 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
+| impassable
+| Impassable / No wheeled vehicle
 | Không thể qua được bằng bánh xe
 |  
 |  

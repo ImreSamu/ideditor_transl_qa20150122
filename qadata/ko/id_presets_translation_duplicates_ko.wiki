@@ -16,22 +16,6 @@
 ! style="font-weight: bold;" | geometryRelation
 |-
 | 고속도로
-| Highway
-| highway
-|  
-|  
-| highway=*
-|  
-|  
-|  
-|  
-| area
-| line
-| point
-| vertex
-|  
-|-
-| 고속도로
 | Motorway
 | highway/motorway
 |  
@@ -45,6 +29,22 @@
 | line
 |  
 |  
+|  
+|-
+| 고속도로
+| Highway
+| highway
+|  
+|  
+| highway=*
+|  
+|  
+|  
+|  
+| area
+| line
+| point
+| vertex
 |  
 |-
 | 구거
@@ -75,38 +75,6 @@
 |  
 | area
 | line
-|  
-|  
-|  
-|-
-| 군사지
-| Military Range
-| military/range
-|  
-|  
-| military=range
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
-| 군사지
-| Military
-| landuse/military
-|  
-|  
-| landuse=military
-|  
-|  
-|  
-|  
-| area
-|  
 |  
 |  
 |  
@@ -144,6 +112,22 @@
 |  
 |-
 | 묘지
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| 묘지
 | Graveyard
 | amenity/grave_yard
 |  
@@ -157,22 +141,6 @@
 |  
 | point
 |  
-|  
-|-
-| 묘지
-| Cemetery
-| landuse/cemetery
-|  
-| cemetery
-| landuse=cemetery
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
 |  
 |-
 | 버스 정류장
@@ -207,35 +175,19 @@
 | vertex
 |  
 |-
-| 보도
-| Foot Path
-| highway/footway
+| 지역
+| Locality
+| place/locality
 |  
-| highway-footway
-| highway=footway
+| marker
+| place=locality
 |  
 |  
 |  
 |  
 | area
-| line
 |  
-|  
-|  
-|-
-| 보도
-| Sidewalk
-| footway/sidewalk
-|  
-|  
-| highway=footway
-| footway=sidewalk
-|  
-|  
-|  
-|  
-| line
-|  
+| point
 |  
 |  
 |-
@@ -255,12 +207,44 @@
 |  
 |  
 |-
-| 지역
-| Locality
-| place/locality
+| 차고
+| Garage
+| building/garage
 |  
-| marker
-| place=locality
+| warehouse
+| building=garage
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| 차고
+| Garages
+| landuse/garages
+|  
+|  
+| landuse=garages
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| 차고
+| Garages
+| building/garages
+|  
+| warehouse
+| building=garages
 |  
 |  
 |  
@@ -334,38 +318,6 @@
 |  
 |  
 | relation
-|-
-| 호수
-| Lake
-| natural/water/lake
-|  
-| water
-| natural=water
-| water=lake
-|  
-|  
-|  
-| area
-|  
-|  
-|  
-|  
-|-
-| 호수
-| Pond
-| natural/water/pond
-|  
-| water
-| natural=water
-| water=pond
-|  
-|  
-|  
-| area
-|  
-|  
-|  
-|  
 |-
 | 횡단 보도
 | Crosswalk

@@ -5,7 +5,7 @@
 |Bunker|Bunker|military/bunker| | |military=bunker| | | | |area| |point|vertex| |
 |Bunker|Sand Trap|golf/bunker| |golf|golf=bunker|natural=sand| | | |area| | | | |
 |Cimetière|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|Cimetière|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Cimetière|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |Confiserie|Candy Store|shop/confectionery| |shop|shop=confectionery| | | | |area| |point| | |
 |Confiserie|Confectionery|craft/confectionery| |bakery|craft=confectionery| | | | |area| |point| | |
 |Fossé|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
@@ -31,7 +31,7 @@
 |Poteau|Power Pole|power/pole| | |power=pole| | | | | | | |vertex| |
 |Prêteur sur gages|Pawn Shop|shop/pawnbroker| |shop|shop=pawnbroker| | | | |area| |point| | |
 |Prêteur sur gages|Money Lender|shop/money_lender| |bank|shop=money_lender| | | | |area| |point| | |
-|Prairie|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
+|Prairie|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| | | | |
 |Prairie|Grassland|natural/grassland| | |natural=grassland| | | | |area| |point| | |
 |Route|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |Route|Route|type/route| |route|type=route| | | | | | | | |relation|

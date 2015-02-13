@@ -17,22 +17,6 @@
 |-
 | Administrative Grenze
 | Administrative Boundary
-| boundary/administrative
-|  
-|  
-| boundary=administrative
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| Administrative Grenze
-| Administrative Boundary
 | type/boundary/administrative
 |  
 | boundary
@@ -47,20 +31,20 @@
 |  
 | relation
 |-
-| Bahnsteig
-| Railway Platform
-| railway/platform
+| Administrative Grenze
+| Administrative Boundary
+| boundary/administrative
 |  
 |  
-| railway=platform
+| boundary=administrative
 |  
 |  
 |  
 |  
-| area
+|  
 | line
-| point
-| vertex
+|  
+|  
 |  
 |-
 | Bahnsteig
@@ -79,28 +63,28 @@
 | vertex
 |  
 |-
-| Bauernhof
-| Farmyard
-| landuse/farmyard
+| Bahnsteig
+| Railway Platform
+| railway/platform
 |  
-| farm
-| landuse=farmyard
+|  
+| railway=platform
 |  
 |  
 |  
 |  
 | area
-|  
+| line
 | point
-|  
+| vertex
 |  
 |-
-| Bauernhof
-| Farm
-| landuse/farmland
+| Boutique
+| Boutique
+| shop/boutique
 |  
-| farm
-| landuse=farmland
+| shop
+| shop=boutique
 |  
 |  
 |  
@@ -117,22 +101,6 @@
 |  
 | shop
 | shop=fabric
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Boutique
-| Boutique
-| shop/boutique
-|  
-| shop
-| shop=boutique
 |  
 |  
 |  
@@ -241,22 +209,6 @@
 |-
 | Fährenroute
 | Ferry Route
-| type/route/ferry
-|  
-| route-ferry
-| type=route
-| route=ferry
-|  
-|  
-|  
-|  
-|  
-|  
-|  
-| relation
-|-
-| Fährenroute
-| Ferry Route
 | route/ferry
 |  
 | ferry
@@ -271,21 +223,21 @@
 |  
 |  
 |-
-| Friedhof
-| Cemetery
-| landuse/cemetery
+| Fährenroute
+| Ferry Route
+| type/route/ferry
 |  
-| cemetery
-| landuse=cemetery
+| route-ferry
+| type=route
+| route=ferry
 |  
 |  
 |  
 |  
-| area
 |  
-| point
-| vertex
 |  
+|  
+| relation
 |-
 | Friedhof
 | Graveyard
@@ -303,12 +255,12 @@
 |  
 |  
 |-
-| Garagen
-| Garages
-| landuse/garages
+| Friedhof
+| Cemetery
+| landuse/cemetery
 |  
-|  
-| landuse=garages
+| cemetery
+| landuse=cemetery
 |  
 |  
 |  
@@ -332,6 +284,22 @@
 | area
 |  
 | point
+|  
+|  
+|-
+| Garagen
+| Garages
+| landuse/garages
+|  
+|  
+| landuse=garages
+|  
+|  
+|  
+|  
+| area
+|  
+|  
 |  
 |  
 |-
@@ -369,22 +337,6 @@
 |-
 | Graben
 | Ditch
-| waterway/ditch
-|  
-| waterway-ditch
-| waterway=ditch
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| Graben
-| Ditch
 | barrier/ditch
 |  
 |  
@@ -399,19 +351,19 @@
 |  
 |  
 |-
-| Hütte
-| Cabin
-| building/cabin
+| Graben
+| Ditch
+| waterway/ditch
 |  
-| building
-| building=cabin
-|  
-|  
+| waterway-ditch
+| waterway=ditch
 |  
 |  
-| area
 |  
-| point
+|  
+|  
+| line
+|  
 |  
 |  
 |-
@@ -431,21 +383,21 @@
 |  
 |  
 |-
-| Kehrtwendeverbot
-| No U-turn
-| type/restriction/no_u_turn
+| Hütte
+| Cabin
+| building/cabin
 |  
-| restriction-no-u-turn
-| type=restriction
-| restriction=no_u_turn
-|  
+| building
+| building=cabin
 |  
 |  
 |  
 |  
+| area
+|  
+| point
 |  
 |  
-| relation
 |-
 | Kehrtwendeverbot
 | No Turns
@@ -463,13 +415,29 @@
 |  
 | relation
 |-
+| Kehrtwendeverbot
+| No U-turn
+| type/restriction/no_u_turn
+|  
+| restriction-no-u-turn
+| type=restriction
+| restriction=no_u_turn
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
 | Kirche
 | Church
-| building/church
+| amenity/place_of_worship/christian
 |  
-| place-of-worship
-| building=church
-|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
 |  
 |  
 |  
@@ -481,11 +449,11 @@
 |-
 | Kirche
 | Church
-| amenity/place_of_worship/christian
+| building/church
 |  
-| religious-christian
-| amenity=place_of_worship
-| religion=christian
+| place-of-worship
+| building=church
+|  
 |  
 |  
 |  
@@ -560,22 +528,6 @@
 |  
 |-
 | Uhrmacher
-| Watchmaker
-| craft/watchmaker
-|  
-| circle-stroked
-| craft=watchmaker
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Uhrmacher
 | Clockmaker
 | craft/clockmaker
 |  
@@ -591,12 +543,12 @@
 |  
 |  
 |-
-| Wald
-| Forest
-| landuse/forest
+| Uhrmacher
+| Watchmaker
+| craft/watchmaker
 |  
-| park2
-| landuse=forest
+| circle-stroked
+| craft=watchmaker
 |  
 |  
 |  
@@ -623,20 +575,20 @@
 |  
 |  
 |-
-| Zebrastreifen
-| Crosswalk
-| highway/crosswalk
+| Wald
+| Forest
+| landuse/forest
 |  
-|  
-| highway=crossing
-| crossing=zebra
-|  
-|  
+| park2
+| landuse=forest
 |  
 |  
 |  
 |  
-| vertex
+| area
+|  
+|  
+|  
 |  
 |-
 | Zebrastreifen
@@ -653,5 +605,21 @@
 | line
 |  
 |  
+|  
+|-
+| Zebrastreifen
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
 |  
 |}

@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,16 +12153,16 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| Zona comercial
-| 14
+| Commercial Area
+| Commercial Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
-| Comercial,Botiga
-| 16
+|  
+| 0
 |  
 | commercial
 |  
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,16 +12243,16 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
-| Granja
-| 6
+| Farmland
+| Farmland
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
-| Granja
-| 6
+|  
+| 0
 |  
 | farm
 |  
@@ -12288,14 +12288,14 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
-| Granja
-| 6
+| Farmland
+| Farmland
+|  
+| 0
 |  
 |  
-|  
-| farmland
+| notTranslated
+| 
 |  
 | 0
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,16 +12513,16 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
-| Zona industrial
-| 15
+| Industrial Area
+| Industrial Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
-| Indústria, Industrial,Fàbrica
-| 29
+|  
+| 0
 |  
 | industrial
 |  
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,13 +12648,13 @@
 | landuse
 | military
 |  
-| Military
-| Military
-| Zona militar
-| 12
+| Military Area
+| Military Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
 |  
 | 0
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,16 +12783,16 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
-| Zona residencial
-| 16
+| Residential Area
+| Residential Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
-| Residencial,Cases
-| 17
+|  
+| 0
 |  
 | building
 |  
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,16 +12828,16 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
-| Comerç minorista
-| 16
+| Retail Area
+| Retail Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
-| Venda al detall,Botiga,Minoristes
-| 33
+|  
+| 0
 |  
 | shop
 |  
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -21194,18 +21194,18 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
-| Botiga de la llar
-| 17
+| Houseware Store
+| Houseware Store
+|  
+| 0
 |  
 |  
-|  
-| home
+| notTranslated
+| home,household
 |  
 | 0
 |  
@@ -21214,7 +21214,7 @@
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  

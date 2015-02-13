@@ -216,7 +216,9 @@
     "back_tooltip__transl": "Zmeň typ objektu",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "Nie",
+      "yes__en": "Yes",
+      "yes__transl": "Áno"
     },
     "choose__en": "Select feature type",
     "choose__transl": "Zvoľte typ objektu",
@@ -515,6 +517,7 @@
       "description__transl": "Vymazať objekt navždy.",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "Tento objekt nemožno vymazať, pretože nebol úplne stiahnutý.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Vymaž"
     },
@@ -1246,6 +1249,7 @@
         "key": "brand",
         "label": "Brand",
         "label__en": "Brand",
+        "label__transl": "Značka",
         "type": "text"
       },
       "building": {
@@ -1622,6 +1626,35 @@
         "label__transl": "Rozchod",
         "type": "combo"
       },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "label__transl": "Pohlavie",
+        "options": {
+          "female__en": "Female",
+          "female__transl": "Ženy",
+          "male__en": "Male",
+          "male__transl": "Muži",
+          "unisex__en": "Unisex",
+          "unisex__transl": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "placeholder__transl": "Neznáme",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
+      },
       "generator/method": {
         "key": "generator:method",
         "label": "Method",
@@ -1778,12 +1811,18 @@
         "key": "leaf_cycle",
         "label": "Leaf Cycle",
         "label__en": "Leaf Cycle",
+        "label__transl": "Opadavosť",
         "options": {
           "deciduous__en": "Deciduous",
+          "deciduous__transl": "Opadavý",
           "evergreen__en": "Evergreen",
+          "evergreen__transl": "Neopadavý",
           "mixed__en": "Mixed",
+          "mixed__transl": "Zmiešaný",
           "semi_deciduous__en": "Semi-Deciduous",
-          "semi_evergreen__en": "Semi-Evergreen"
+          "semi_deciduous__transl": "Krátkoopadavé",
+          "semi_evergreen__en": "Semi-Evergreen",
+          "semi_evergreen__transl": "Poloopadavý"
         },
         "strings": {
           "options": {
@@ -1800,11 +1839,16 @@
         "key": "leaf_type",
         "label": "Leaf Type",
         "label__en": "Leaf Type",
+        "label__transl": "Typ listov",
         "options": {
           "broadleaved__en": "Broadleaved",
+          "broadleaved__transl": "Širokolisté",
           "leafless__en": "Leafless",
+          "leafless__transl": "Bezlisté",
           "mixed__en": "Mixed",
-          "needleleaved__en": "Needleleaved"
+          "mixed__transl": "Zmiešané",
+          "needleleaved__en": "Needleleaved",
+          "needleleaved__transl": "Ihličnaté"
         },
         "strings": {
           "options": {
@@ -2519,13 +2563,20 @@
         "label__transl": "Rovnosť vozovky",
         "options": {
           "bad__en": "Robust Wheels: trekking bike, car, rickshaw",
+          "bad__transl": "Pevné kolesá: trekový bicykel, auto, rikša",
           "excellent__en": "Thin Rollers: rollerblade, skateboard",
+          "excellent__transl": "Malé kolieska: kolieskové korčule, skateboard",
           "good__en": "Thin Wheels: racing bike",
+          "good__transl": "Tenké kolesá: závodný bicykel",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
-          "impassible__en": "Impassible / No wheeled vehicle",
+          "horrible__transl": "Off-road: výkonné off-road vozidlo",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
+          "intermediate__transl": "Kolesá: mestský bicykel, invalidný vozík, skúter",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
-          "very_horrible__en": "Specialized off-road: tractor, ATV"
+          "very_bad__transl": "Zvýšený podvozok: ľahké off-road vozidlo",
+          "very_horrible__en": "Specialized off-road: tractor, ATV",
+          "very_horrible__transl": "Špecializovaný off-road: traktor, štvorkolka"
         },
         "placeholder": "Thin Rollers, Wheels, Off-Road...",
         "placeholder__en": "Thin Rollers, Wheels, Off-Road...",
@@ -2536,7 +2587,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -8590,13 +8641,15 @@
         "icon": "bicycle",
         "name": "Bicycle Repair Station",
         "name__en": "Bicycle Repair Station",
+        "name__transl": "Stojan pre opravu bicyklov",
         "tags": {
           "amenity": "bicycle_repair_station"
         },
         "terms": [
           "bike"
         ],
-        "terms__en": "bike"
+        "terms__en": "bike",
+        "terms__transl": "stojan,oprava,bicykle,bicykel,reťaz,retaz,pumpa,hustilka,vzduch,koleso,kolesá,kolesa"
       },
       "amenity/boat_rental": {
         "fields": [
@@ -9597,6 +9650,7 @@
         "icon": "town-hall",
         "name": "Community Center",
         "name__en": "Community Center",
+        "name__transl": "Komunitné centrum",
         "tags": {
           "amenity": "community_centre"
         },
@@ -9604,7 +9658,8 @@
           "event",
           "hall"
         ],
-        "terms__en": "event,hall"
+        "terms__en": "event,hall",
+        "terms__transl": "komunitne centrum,centrum voľného času,centrum volneho casu,cvc,cvč,krúžky,kruzky,vzdelavanie,vzdelávanie,výchova,vychova"
       },
       "amenity/compressed_air": {
         "geometry": [
@@ -14900,6 +14955,7 @@
         ],
         "name": "Grit Bin",
         "name__en": "Grit Bin",
+        "name__transl": "Nádoba s posypom",
         "tags": {
           "amenity": "grit_bin"
         },
@@ -14907,7 +14963,8 @@
           "salt",
           "sand"
         ],
-        "terms__en": "salt,sand"
+        "terms__en": "salt,sand",
+        "terms__transl": "nadoba s posypom,posyp,strk,štrk,posypový materiál,posypovy material"
       },
       "amenity/hospital": {
         "fields": [
@@ -17660,6 +17717,7 @@
         "icon": "library",
         "name": "Public Bookcase",
         "name__en": "Public Bookcase",
+        "name__transl": "Verejná knihovnička",
         "tags": {
           "amenity": "public_bookcase"
         },
@@ -17667,7 +17725,8 @@
           "library",
           "bookcrossing"
         ],
-        "terms__en": "library,bookcrossing"
+        "terms__en": "library,bookcrossing",
+        "terms__transl": "verejna knihovnicka,policka na knihy,polička na knihy,verejná požičovňa kníh,verejna pozicovna knih"
       },
       "amenity/ranger_station": {
         "fields": [
@@ -17742,12 +17801,14 @@
         "icon": "town-hall",
         "name": "Register Office",
         "name__en": "Register Office",
+        "name__transl": "Matričný úrad",
         "tags": {
           "amenity": "register_office"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "matricny urad,matrika"
       },
       "amenity/restaurant": {
         "fields": [
@@ -20777,6 +20838,7 @@
         ],
         "name": "Elderly Group Home",
         "name__en": "Elderly Group Home",
+        "name__transl": "Domov dôchodcov",
         "tags": {
           "amenity": "social_facility",
           "social_facility": "group_home",
@@ -20787,7 +20849,8 @@
           "senior",
           "living"
         ],
-        "terms__en": "old,senior,living"
+        "terms__en": "old,senior,living",
+        "terms__transl": "domov dochodcov"
       },
       "amenity/social_facility/homeless_shelter": {
         "fields": [
@@ -20932,7 +20995,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -22312,6 +22376,7 @@
         "icon": "bakery",
         "name": "Confectionery",
         "name__en": "Confectionery",
+        "name__transl": "Výroba cukroviniek",
         "tags": {
           "craft": "confectionery"
         },
@@ -22319,7 +22384,8 @@
           "sweets",
           "candy"
         ],
-        "terms__en": "sweets,candy"
+        "terms__en": "sweets,candy",
+        "terms__transl": "vyroba cukroviniek,cukrovinky,sladkosti"
       },
       "craft/dressmaker": {
         "fields": [
@@ -23099,10 +23165,12 @@
         "icon": "alcohol-shop",
         "name": "Winery",
         "name__en": "Winery",
+        "name__transl": "Výroba vín",
         "tags": {
           "craft": "winery"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "vyroba vin,vino,víno,vína,vina,vinaren,vináreň,vinica,vínna pivnica,vinna pivnica,pivnica"
       },
       "embankment": {
         "geometry": [
@@ -23650,10 +23718,12 @@
         ],
         "name": "Motorway Junction / Exit",
         "name__en": "Motorway Junction / Exit",
+        "name__transl": "Dialničná križovatka / výjazd",
         "tags": {
           "highway": "motorway_junction"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "dialnicna krizovatka,vyjazd,exit"
       },
       "highway/motorway_link": {
         "fields": [
@@ -23809,6 +23879,7 @@
         "icon": "highway-unclassified",
         "name": "Motor Raceway",
         "name__en": "Motor Raceway",
+        "name__transl": "Pretekárska strať",
         "tags": {
           "highway": "raceway"
         },
@@ -23817,7 +23888,8 @@
           "race*",
           "nascar"
         ],
-        "terms__en": "auto*,race*,nascar"
+        "terms__en": "auto*,race*,nascar",
+        "terms__transl": "pretekarska trat,nascar,formula,enduro"
       },
       "highway/residential": {
         "fields": [
@@ -24481,10 +24553,12 @@
         ],
         "name": "Junction",
         "name__en": "Junction",
+        "name__transl": "Križovatka",
         "tags": {
           "junction": "yes"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "krizovatka"
       },
       "landuse": {
         "fields": [
@@ -24506,7 +24580,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24522,7 +24595,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24542,8 +24614,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24579,20 +24649,19 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "Obchodné",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
+        "name__transl": "Komerčná zóna",
         "tags": {
           "landuse": "commercial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "obchodne,komercia,komercne,komerčné"
+        "terms__transl": "komercna zona,business park,kancelárie,kancelarie,plocha"
       },
       "landuse/construction": {
         "fields": [
@@ -24600,7 +24669,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24623,8 +24691,8 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "name__transl": "Pestovateľská plocha",
         "searchable": false,
         "tags": {
@@ -24640,26 +24708,25 @@
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Pestovateľská plocha",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland"
+        "terms__en": "",
+        "terms__transl": "pole,farma,dobytok,polia,záhrady,zahrady,pestovatelska plocha"
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24672,7 +24739,7 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "pole,farma,dobytok,polia,záhrady,zahrady,pestovatelska plocha"
+        "terms__transl": "Družstvo,druztvo,jrd,jzd,kravín,kravin,statok,gazdovstvo"
       },
       "landuse/forest": {
         "fields": [
@@ -24680,7 +24747,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24702,16 +24768,17 @@
         ],
         "name": "Garages",
         "name__en": "Garages",
+        "name__transl": "Garáže",
         "tags": {
           "landuse": "garages"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "garaze,parkovanie,kryte parkovanie,kryté parkovanie"
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24727,20 +24794,19 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Priemyselné",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
+        "name__transl": "Priemyselná zóna",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "priemyselne,vyroba,industrialne,industriálne"
+        "terms__transl": "priemyselna plocha,továreň,tovaren,závod,zavod,priemyselna zona"
       },
       "landuse/landfill": {
         "geometry": [
@@ -24760,7 +24826,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24778,23 +24843,22 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "Armádne",
+        "name": "Military Area",
+        "name__en": "Military Area",
+        "name__transl": "Vojenský obvod",
         "tags": {
           "landuse": "military"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "armadne, armada"
+        "terms__transl": "vojensky obvod,vojenské cvičisko,vojenske cvicisko,tankodrom,armádna zóna,zrmadna zona"
       },
       "landuse/orchard": {
         "fields": [
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24811,7 +24875,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24827,39 +24890,36 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "Obytné",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
+        "name__transl": "Obytná zóna",
         "tags": {
           "landuse": "residential"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "obytne,domy"
+        "terms__transl": "obytna oblast,mesto,dedina,rezidencna oblast,rezidenčná oblast,obytna zona"
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "Maloobchod",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
+        "name__transl": "Maloobchodná zóna",
         "tags": {
           "landuse": "retail"
         },
         "terms__en": "",
-        "terms__transl": "obchod,maloobchodny,maloobchodný"
+        "terms__transl": "maloobchodna zona,maloobchod,predajna,predajňa,predaj,obchod,obchodná zóna"
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -25037,6 +25097,7 @@
         "icon": "park",
         "name": "Nature Reserve",
         "name__en": "Nature Reserve",
+        "name__transl": "Prírodná rezervácia",
         "tags": {
           "leisure": "nature_reserve"
         },
@@ -25044,7 +25105,8 @@
           "protected",
           "wildlife"
         ],
-        "terms__en": "protected,wildlife"
+        "terms__en": "protected,wildlife",
+        "terms__transl": "prirodna rezervacia,park,chko,narodný park,narodny park"
       },
       "leisure/park": {
         "geometry": [
@@ -25310,11 +25372,13 @@
         "icon": "pitch",
         "name": "Running Track",
         "name__en": "Running Track",
+        "name__transl": "Bežecká trať",
         "tags": {
           "leisure": "track",
           "sport": "running"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "bezecka trat"
       },
       "leisure/slipway": {
         "geometry": [
@@ -25348,13 +25412,15 @@
         "icon": "pitch",
         "name": "Sports Center / Gym",
         "name__en": "Sports Center / Gym",
+        "name__transl": "Športové centrum",
         "tags": {
           "leisure": "sports_centre"
         },
         "terms": [
           "gym"
         ],
-        "terms__en": "gym"
+        "terms__en": "gym",
+        "terms__transl": "sportove centrum,fitko,fitness centrum,posilňovňa,posilnovna,posilovna,polovňa"
       },
       "leisure/stadium": {
         "fields": [
@@ -25411,10 +25477,12 @@
         "icon": "highway-road",
         "name": "Racetrack (non-Motorsport)",
         "name__en": "Racetrack (non-Motorsport)",
+        "name__transl": "Pretekárska dráha (nemotoristická)",
         "tags": {
           "leisure": "track"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pretekarska draha (nemotoristicka),zavodná dráha,zavodna draha"
       },
       "line": {
         "geometry": [
@@ -25656,10 +25724,12 @@
         ],
         "name": "Water Well",
         "name__en": "Water Well",
+        "name__transl": "Studňa",
         "tags": {
           "man_made": "water_well"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "studna,voda"
       },
       "man_made/water_works": {
         "fields": [
@@ -25813,12 +25883,14 @@
         ],
         "name": "Cave Entrance",
         "name__en": "Cave Entrance",
+        "name__transl": "Vstup do jaskyne",
         "tags": {
           "natural": "cave_entrance"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "jaskyňa,jaskyna"
       },
       "natural/cliff": {
         "geometry": [
@@ -26969,10 +27041,12 @@
         ],
         "name": "Substation",
         "name__en": "Substation",
+        "name__transl": "Elektrická rozvodňa",
         "tags": {
           "power": "substation"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "elektricka rozvodna,transformator,transformátor"
       },
       "power/tower": {
         "geometry": [
@@ -27656,10 +27730,12 @@
         "icon": "shop",
         "name": "Anime Shop",
         "name__en": "Anime Shop",
+        "name__transl": "Obchod s anime",
         "tags": {
           "shop": "anime"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "anime"
       },
       "shop/antiques": {
         "fields": [
@@ -27675,10 +27751,12 @@
         "icon": "shop",
         "name": "Antiques Shop",
         "name__en": "Antiques Shop",
+        "name__transl": "Obchod so tarožitnosťami",
         "tags": {
           "shop": "antiques"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod so starozitnostami,starozitnosti,starožitnosti,starý nábytok,stary nabytok"
       },
       "shop/art": {
         "fields": [
@@ -27694,10 +27772,12 @@
         "icon": "art-gallery",
         "name": "Art Gallery",
         "name__en": "Art Gallery",
+        "name__transl": "Obchod s umením",
         "tags": {
           "shop": "art"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s umenim,obrazy,umelecké diela,umelecke diela"
       },
       "shop/baby_goods": {
         "fields": [
@@ -27713,10 +27793,12 @@
         "icon": "shop",
         "name": "Baby Goods Store",
         "name__en": "Baby Goods Store",
+        "name__transl": "Obchod s detskými potrebami",
         "tags": {
           "shop": "baby_goods"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s detskymi potrebami"
       },
       "shop/bag": {
         "fields": [
@@ -27732,6 +27814,7 @@
         "icon": "shop",
         "name": "Bag/Luggage Store",
         "name__en": "Bag/Luggage Store",
+        "name__transl": "Obchod s kuframi",
         "tags": {
           "shop": "bag"
         },
@@ -27739,7 +27822,8 @@
           "handbag",
           "purse"
         ],
-        "terms__en": "handbag,purse"
+        "terms__en": "handbag,purse",
+        "terms__transl": "kufre,kufor,batoh,batožina,batozina"
       },
       "shop/bakery": {
         "fields": [
@@ -28308,10 +28392,12 @@
         "icon": "shop",
         "name": "Bathroom Furnishing Store",
         "name__en": "Bathroom Furnishing Store",
+        "name__transl": "Obchod s kúpelňami",
         "tags": {
           "shop": "bathroom_furnishing"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s kuplenami,kupelka,kúpelka,kúpelňa,kupelna"
       },
       "shop/beauty": {
         "fields": [
@@ -28354,10 +28440,12 @@
         "icon": "lodging",
         "name": "Bedding/Mattress Store",
         "name__en": "Bedding/Mattress Store",
+        "name__transl": "Obchod s posteľami/matracmi",
         "tags": {
           "shop": "bed"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "matrac,matrace,posteľ,postel,postele,spálňa,spalna"
       },
       "shop/beverages": {
         "fields": [
@@ -28436,10 +28524,12 @@
         "icon": "shop",
         "name": "Book Store",
         "name__en": "Book Store",
+        "name__transl": "Kníhkupectvo",
         "tags": {
           "shop": "books"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "knihkupectvo,knihy,kniha,obchod s knihami"
       },
       "shop/books/Barnes & Noble": {
         "fields": [
@@ -28633,10 +28723,12 @@
         "icon": "shop",
         "name": "Candle Shop",
         "name__en": "Candle Shop",
+        "name__transl": "Obchod so svičkami",
         "tags": {
           "shop": "candles"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod so svieckami,sviecka,sviečka,sviečky,sviecky"
       },
       "shop/car": {
         "fields": [
@@ -29541,13 +29633,15 @@
         "icon": "shop",
         "name": "Carpet Store",
         "name__en": "Carpet Store",
+        "name__transl": "Obchod s kobercami",
         "tags": {
           "shop": "carpet"
         },
         "terms": [
           "rug"
         ],
-        "terms__en": "rug"
+        "terms__en": "rug",
+        "terms__transl": "koberec,koberce,pokrovec,rokožka,rohozka"
       },
       "shop/cheese": {
         "fields": [
@@ -29563,10 +29657,12 @@
         "icon": "shop",
         "name": "Cheese Store",
         "name__en": "Cheese Store",
+        "name__transl": "Obchod so syrmi",
         "tags": {
           "shop": "cheese"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "syr,syry,korbáčiki,korbaciky,oštiepok,ostiepok,oštiepky,ostiepky"
       },
       "shop/chemist": {
         "fields": [
@@ -29793,10 +29889,12 @@
         "icon": "shop",
         "name": "Chocolate Store",
         "name__en": "Chocolate Store",
+        "name__transl": "Obchod s čokoládou",
         "tags": {
           "shop": "chocolate"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s cokoladou,cokolada,čokoláda,pralinky"
       },
       "shop/clothes": {
         "fields": [
@@ -31298,10 +31396,12 @@
         "icon": "shop",
         "name": "Candy Store",
         "name__en": "Candy Store",
+        "name__transl": "Obchod so sladkosťami",
         "tags": {
           "shop": "confectionery"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod so sladkostami,sladkosti,cukrovinky"
       },
       "shop/convenience": {
         "fields": [
@@ -33358,10 +33458,12 @@
         "icon": "shop",
         "name": "Copy Store",
         "name__en": "Copy Store",
+        "name__transl": "Fotokopírovanie",
         "tags": {
           "shop": "copyshop"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "fotokopirovanie,fotokopírka,fotokopirka"
       },
       "shop/cosmetics": {
         "fields": [
@@ -33377,10 +33479,12 @@
         "icon": "shop",
         "name": "Cosmetics Store",
         "name__en": "Cosmetics Store",
+        "name__transl": "Obchod s kozmetikou",
         "tags": {
           "shop": "cosmetics"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "kozmetika,drogeria"
       },
       "shop/craft": {
         "fields": [
@@ -33396,10 +33500,12 @@
         "icon": "art-gallery",
         "name": "Arts and Crafts Store",
         "name__en": "Arts and Crafts Store",
+        "name__transl": "Obchod s umeleckými potrebami",
         "tags": {
           "shop": "craft"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "Obchod s umeleckymi potrebami,umelecké potreby,umelecke potreby"
       },
       "shop/curtain": {
         "fields": [
@@ -33415,6 +33521,7 @@
         "icon": "shop",
         "name": "Curtain Store",
         "name__en": "Curtain Store",
+        "name__transl": "Obchod so záclonami",
         "tags": {
           "shop": "curtain"
         },
@@ -33422,7 +33529,8 @@
           "drape*",
           "window"
         ],
-        "terms__en": "drape*,window"
+        "terms__en": "drape*,window",
+        "terms__transl": "obchod so zaclonami,záclony,zaclony,záclona,zaclona,záves,zaves,závesy,zavesy"
       },
       "shop/dairy": {
         "fields": [
@@ -33438,6 +33546,7 @@
         "icon": "shop",
         "name": "Dairy Store",
         "name__en": "Dairy Store",
+        "name__transl": "Obchod s mliečnymi výrobkami",
         "tags": {
           "shop": "dairy"
         },
@@ -33446,7 +33555,8 @@
           "egg",
           "cheese"
         ],
-        "terms__en": "milk,egg,cheese"
+        "terms__en": "milk,egg,cheese",
+        "terms__transl": "obchod s mliecnymi vyrobkami,mlieko,jogurt,jogurty,smotana,syr,syry"
       },
       "shop/deli": {
         "fields": [
@@ -34423,10 +34533,12 @@
         "icon": "shop",
         "name": "Dry Cleaner",
         "name__en": "Dry Cleaner",
+        "name__transl": "Čistiareň odevov",
         "tags": {
           "shop": "dry_cleaning"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "cistiaren odevov,suché čistenie,suche cistenie"
       },
       "shop/electronics": {
         "fields": [
@@ -34716,6 +34828,7 @@
         "icon": "shop",
         "name": "Erotic Store",
         "name__en": "Erotic Store",
+        "name__transl": "Ochod s erotickými potrebami",
         "tags": {
           "shop": "erotic"
         },
@@ -34723,7 +34836,8 @@
           "sex",
           "porn"
         ],
-        "terms__en": "sex,porn"
+        "terms__en": "sex,porn",
+        "terms__transl": "obchod s erotickymi potrebami,sexshop,sex shop"
       },
       "shop/fabric": {
         "fields": [
@@ -34739,13 +34853,15 @@
         "icon": "shop",
         "name": "Fabric Store",
         "name__en": "Fabric Store",
+        "name__transl": "Obchod s látkami",
         "tags": {
           "shop": "fabric"
         },
         "terms": [
           "sew"
         ],
-        "terms__en": "sew"
+        "terms__en": "sew",
+        "terms__transl": "obchod s latkami,textil"
       },
       "shop/farm": {
         "fields": [
@@ -34786,10 +34902,12 @@
         "icon": "shop",
         "name": "Fashion Store",
         "name__en": "Fashion Store",
+        "name__transl": "Obchod s módnymi doplnkami",
         "tags": {
           "shop": "fashion"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s modmymi doplnkami"
       },
       "shop/fishmonger": {
         "fields": [
@@ -34851,10 +34969,12 @@
         "icon": "shop",
         "name": "Framing Shop",
         "name__en": "Framing Shop",
+        "name__transl": "Obchod s rámami",
         "tags": {
           "shop": "frame"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s ramami,obrazy,rám,ram"
       },
       "shop/funeral_directors": {
         "fields": [
@@ -34896,6 +35016,7 @@
         "icon": "shop",
         "name": "Furnace Store",
         "name__en": "Furnace Store",
+        "name__transl": "Obchod so kotlami",
         "tags": {
           "shop": "furnace"
         },
@@ -34903,7 +35024,8 @@
           "oven",
           "stove"
         ],
-        "terms__en": "oven,stove"
+        "terms__en": "oven,stove",
+        "terms__transl": "pec,kotol"
       },
       "shop/furniture": {
         "fields": [
@@ -35421,10 +35543,12 @@
         "icon": "shop",
         "name": "Hearing Aids Store",
         "name__en": "Hearing Aids Store",
+        "name__transl": "Obchod s načúvacími prístrojmi",
         "tags": {
           "shop": "hearing_aids"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s nacuvacimi pristrojmi,nacuvaci pristroj,načúvací prístroj"
       },
       "shop/herbalist": {
         "fields": [
@@ -35440,10 +35564,12 @@
         "icon": "shop",
         "name": "Herbalist",
         "name__en": "Herbalist",
+        "name__transl": "Bylinkárstvo",
         "tags": {
           "shop": "herbalist"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "bylinkarstvo,bylinky"
       },
       "shop/hifi": {
         "fields": [
@@ -35470,7 +35596,7 @@
         "terms__en": "stereo,video",
         "terms__transl": "Obchod so zvukovymi systemami,hifi,hi-fi,zvuk,ozvučenie,ozvucenie,obchod s ozvucenim,Obchod so zvukovými systémami"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -35482,15 +35608,18 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
+        "name__transl": "Domáce potreby",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household",
+        "terms__transl": "domace potreby,zeleziarstvo,železiarstvo"
       },
       "shop/interior_decoration": {
         "fields": [
@@ -35506,10 +35635,12 @@
         "icon": "shop",
         "name": "Interior Decoration Store",
         "name__en": "Interior Decoration Store",
+        "name__transl": "Obchod s bytovými dekoráciami",
         "tags": {
           "shop": "interior_decoration"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s bytovami dekoraciami,intriérové dekorácie,intrierove dekoracie"
       },
       "shop/jewelry": {
         "fields": [
@@ -35608,10 +35739,12 @@
         "icon": "shop",
         "name": "News Kiosk",
         "name__en": "News Kiosk",
+        "name__transl": "Novinový stánok",
         "tags": {
           "shop": "kiosk"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "novinovy stanok,noviny,casopisy,časopisy"
       },
       "shop/kitchen": {
         "fields": [
@@ -35627,10 +35760,12 @@
         "icon": "shop",
         "name": "Kitchen Design Store",
         "name__en": "Kitchen Design Store",
+        "name__transl": "Kuchynské štúdio",
         "tags": {
           "shop": "kitchen"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "kuchynske studio,kuchyna,uchyňa,kuchyne,kuchyňe,kuchynský kút,kuchynsky kut,kuchynské kúty,kuchynske kuty"
       },
       "shop/laundry": {
         "fields": [
@@ -35667,10 +35802,12 @@
         "icon": "shop",
         "name": "Leather Store",
         "name__en": "Leather Store",
+        "name__transl": "Obchod s kožennými výrobkami",
         "tags": {
           "shop": "leather"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s kozennymi vyrobkami,koza,koža"
       },
       "shop/locksmith": {
         "fields": [
@@ -35753,10 +35890,12 @@
         "icon": "shop",
         "name": "Massage Shop",
         "name__en": "Massage Shop",
+        "name__transl": "Masérstvo",
         "tags": {
           "shop": "massage"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "maserstvo,masáže,masaze,masáž,masaz"
       },
       "shop/medical_supply": {
         "fields": [
@@ -35772,10 +35911,12 @@
         "icon": "shop",
         "name": "Medical Supply Store",
         "name__en": "Medical Supply Store",
+        "name__transl": "Obchod so zdravotníckymi pomôckami",
         "tags": {
           "shop": "medical_supply"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod so zdravonickymi pomockami"
       },
       "shop/mobile_phone": {
         "fields": [
@@ -36211,10 +36352,12 @@
         "icon": "bank",
         "name": "Money Lender",
         "name__en": "Money Lender",
+        "name__transl": "Požičovňa peňazí",
         "tags": {
           "shop": "money_lender"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pozicovna penazi,peniaze,pôžicky,pozicky"
       },
       "shop/motorcycle": {
         "fields": [
@@ -36295,10 +36438,12 @@
         "icon": "music",
         "name": "Musical Instrument Store",
         "name__en": "Musical Instrument Store",
+        "name__transl": "Obchod s hudobnými nástrojmi",
         "tags": {
           "shop": "musical_instrument"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s hudobnymi nastrojmi, hudobne nastroje,hudobné nástroje"
       },
       "shop/newsagent": {
         "fields": [
@@ -36314,10 +36459,12 @@
         "icon": "shop",
         "name": "Newspaper/Magazine Shop",
         "name__en": "Newspaper/Magazine Shop",
+        "name__transl": "Obchod s novinami/časopismi",
         "tags": {
           "shop": "newsagent"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s novinami/casopismi,noviny,casopisy,časopisy"
       },
       "shop/optician": {
         "fields": [
@@ -36529,11 +36676,13 @@
         "icon": "shop",
         "name": "Organic Goods Store",
         "name__en": "Organic Goods Store",
+        "name__transl": "Obchod s eko potravinami",
         "tags": {
           "organic": "only",
           "shop": "supermarket"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "eko potraviny"
       },
       "shop/outdoor": {
         "fields": [
@@ -36549,6 +36698,7 @@
         "icon": "shop",
         "name": "Outdoors Store",
         "name__en": "Outdoors Store",
+        "name__transl": "Outdoorový obchod",
         "tags": {
           "shop": "outdoor"
         },
@@ -36557,7 +36707,8 @@
           "climbing",
           "hiking"
         ],
-        "terms__en": "camping,climbing,hiking"
+        "terms__en": "camping,climbing,hiking",
+        "terms__transl": "outdoorovy obchod,trekový obchod,trekovy ochod,outdoor"
       },
       "shop/paint": {
         "fields": [
@@ -36573,10 +36724,12 @@
         "icon": "water",
         "name": "Paint Store",
         "name__en": "Paint Store",
+        "name__transl": "Obchod s nátermi",
         "tags": {
           "shop": "paint"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s natermi,farby,laky,nátery,natery"
       },
       "shop/pawnbroker": {
         "fields": [
@@ -36592,10 +36745,12 @@
         "icon": "shop",
         "name": "Pawn Shop",
         "name__en": "Pawn Shop",
+        "name__transl": "Záložňa",
         "tags": {
           "shop": "pawnbroker"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "zalozna"
       },
       "shop/pet": {
         "fields": [
@@ -36776,10 +36931,12 @@
         "icon": "shop",
         "name": "Fireworks Store",
         "name__en": "Fireworks Store",
+        "name__transl": "Obchod s pyrotechnikov",
         "tags": {
           "shop": "pyrotechnics"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pyrotechnika,ohňostroj,ohnostroj,prskavky,rakety,delobuchy"
       },
       "shop/radiotechnics": {
         "fields": [
@@ -36795,10 +36952,12 @@
         "icon": "shop",
         "name": "Radio/Electronic Component Store",
         "name__en": "Radio/Electronic Component Store",
+        "name__transl": "Obchod s elektronikou",
         "tags": {
           "shop": "radiotechnics"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "elektronika"
       },
       "shop/religion": {
         "fields": [
@@ -36816,10 +36975,12 @@
         "icon": "shop",
         "name": "Religious Store",
         "name__en": "Religious Store",
+        "name__transl": "Obchod s náboženkými pomôckami",
         "tags": {
           "shop": "religion"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s nabozenskymi pomockami"
       },
       "shop/scuba_diving": {
         "fields": [
@@ -36835,10 +36996,12 @@
         "icon": "swimming",
         "name": "Scuba Diving Shop",
         "name__en": "Scuba Diving Shop",
+        "name__transl": "Obchod s potápačským vybavením",
         "tags": {
           "shop": "scuba_diving"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s potapacskym vybavemin,potapacske vybavenie,potapačské vybanie,"
       },
       "shop/seafood": {
         "fields": [
@@ -36878,6 +37041,7 @@
         "icon": "shop",
         "name": "Consignment/Thrift Store",
         "name__en": "Consignment/Thrift Store",
+        "name__transl": "Second hand",
         "tags": {
           "shop": "second_hand"
         },
@@ -36888,7 +37052,8 @@
           "thrift",
           "used"
         ],
-        "terms__en": "secondhand,second hand,resale,thrift,used"
+        "terms__en": "secondhand,second hand,resale,thrift,used",
+        "terms__transl": "z druhej ruky"
       },
       "shop/shoes": {
         "fields": [
@@ -41918,6 +42083,7 @@
         "icon": "clothing-store",
         "name": "Tailor",
         "name__en": "Tailor",
+        "name__transl": "Krajčírstvo",
         "tags": {
           "shop": "tailor"
         },
@@ -41925,7 +42091,8 @@
           "clothes",
           "suit"
         ],
-        "terms__en": "clothes,suit"
+        "terms__en": "clothes,suit",
+        "terms__transl": "krajcirstvo,krajcir,krajčir"
       },
       "shop/tattoo": {
         "fields": [
@@ -41941,10 +42108,12 @@
         "icon": "shop",
         "name": "Tattoo Parlor",
         "name__en": "Tattoo Parlor",
+        "name__transl": "Tetovací salón",
         "tags": {
           "shop": "tattoo"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "tetovaci salon,tetovania,tetovanie"
       },
       "shop/tea": {
         "fields": [
@@ -41960,10 +42129,12 @@
         "icon": "cafe",
         "name": "Tea Store",
         "name__en": "Tea Store",
+        "name__transl": "Obchod s čajom",
         "tags": {
           "shop": "tea"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod s cajom,cajovy obchod,čajový ochod"
       },
       "shop/ticket": {
         "fields": [
@@ -41979,10 +42150,12 @@
         "icon": "shop",
         "name": "Ticket Seller",
         "name__en": "Ticket Seller",
+        "name__transl": "Predajňa vstupeniek",
         "tags": {
           "shop": "ticket"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "predajna listkov,vstupenky,predajna vstupeniek,vstupenka,listok,lístok"
       },
       "shop/tobacco": {
         "fields": [
@@ -41998,10 +42171,12 @@
         "icon": "shop",
         "name": "Tobacco Shop",
         "name__en": "Tobacco Shop",
+        "name__transl": "Obchod s tabakom",
         "tags": {
           "shop": "tobacco"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "tabak,trafika"
       },
       "shop/toys": {
         "fields": [
@@ -42233,10 +42408,12 @@
         "icon": "shop",
         "name": "Vacuum Cleaner Store",
         "name__en": "Vacuum Cleaner Store",
+        "name__transl": "Obchod s vysavačmi",
         "tags": {
           "shop": "vacuum_cleaner"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "bchod s vysavacmi,vysavače,vysavace,vysavač,vysavac"
       },
       "shop/variety_store": {
         "fields": [
@@ -42411,10 +42588,12 @@
         "icon": "shop",
         "name": "Video Game Store",
         "name__en": "Video Game Store",
+        "name__transl": "Obchod s videohrami",
         "tags": {
           "shop": "video_games"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "videohry,počítačové hry,pocitacove hry"
       },
       "shop/water_sports": {
         "fields": [
@@ -42430,10 +42609,12 @@
         "icon": "shop",
         "name": "Watersport/Swim Shop",
         "name__en": "Watersport/Swim Shop",
+        "name__transl": "Ochod s plaveckým vybavením",
         "tags": {
           "shop": "water_sports"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "ochod s plaveckym vybavenim"
       },
       "shop/weapons": {
         "fields": [
@@ -42449,6 +42630,7 @@
         "icon": "shop",
         "name": "Weapon Shop",
         "name__en": "Weapon Shop",
+        "name__transl": "Ochod so zbraňami",
         "tags": {
           "shop": "weapons"
         },
@@ -42458,7 +42640,8 @@
           "knife",
           "knives"
         ],
-        "terms__en": "ammo,gun,knife,knives"
+        "terms__en": "ammo,gun,knife,knives",
+        "terms__transl": "obchod so zbranami,zbraňe,zbrane,nože,noze"
       },
       "shop/window_blind": {
         "fields": [
@@ -42474,10 +42657,12 @@
         "icon": "shop",
         "name": "Window Blind Store",
         "name__en": "Window Blind Store",
+        "name__transl": "Obchod so žalúziami",
         "tags": {
           "shop": "window_blind"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "obchod so zaluziami,zaluzie,žalúzie"
       },
       "shop/wine": {
         "fields": [
@@ -42867,13 +43052,15 @@
         ],
         "name": "Speed Bump",
         "name__en": "Speed Bump",
+        "name__transl": "Spomalovcí prah",
         "tags": {
           "traffic_calming": "bump"
         },
         "terms": [
           "speed hump"
         ],
-        "terms__en": "speed hump"
+        "terms__en": "speed hump",
+        "terms__transl": "spomalovaci prah,retardér,retarder"
       },
       "traffic_calming/hump": {
         "fields": [
@@ -42884,13 +43071,15 @@
         ],
         "name": "Speed Hump",
         "name__en": "Speed Hump",
+        "name__transl": "Spomalovací hrb",
         "tags": {
           "traffic_calming": "hump"
         },
         "terms": [
           "speed bump"
         ],
-        "terms__en": "speed bump"
+        "terms__en": "speed bump",
+        "terms__transl": "spomalovaci hrb"
       },
       "traffic_calming/rumble_strip": {
         "geometry": [
@@ -42898,6 +43087,7 @@
         ],
         "name": "Rumble Strip",
         "name__en": "Rumble Strip",
+        "name__transl": "Nízky spomaľovací prah",
         "tags": {
           "traffic_calming": "rumble_strip"
         },
@@ -42906,7 +43096,8 @@
           "audible lines",
           "growlers"
         ],
-        "terms__en": "sleeper lines,audible lines,growlers"
+        "terms__en": "sleeper lines,audible lines,growlers",
+        "terms__transl": "nizky spomalovaci prah"
       },
       "traffic_calming/table": {
         "fields": [
@@ -42917,6 +43108,7 @@
         ],
         "name": "Raised Pedestrian Crossing",
         "name__en": "Raised Pedestrian Crossing",
+        "name__transl": "Vyvýšený prechod pre chodcov",
         "tags": {
           "highway": "crossing",
           "traffic_calming": "table"
@@ -42925,7 +43117,8 @@
           "speed table",
           "flat top hump"
         ],
-        "terms__en": "speed table,flat top hump"
+        "terms__en": "speed table,flat top hump",
+        "terms__transl": "vyvyseny prechod pre chodcov"
       },
       "type/boundary": {
         "fields": [

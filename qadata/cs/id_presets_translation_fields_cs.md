@@ -87,6 +87,7 @@
 |fuel/octane_95|1|check|Sells Midgrade Gasoline|Benzín s okt. číslem 95| | |fuel:octane_95| | | | | |last|
 |fuel/octane_98|1|check|Sells Premium Gasoline|Benzín s okt. číslem 98| | |fuel:octane_98| | | | | |last|
 |gauge|1|combo|Gauge|Rozchod| | |gauge| | | | | |last|
+|gender|1|radio|Gender|Pohlaví| | |male,female,unisex| | | |Unknown|Neznámé|last|
 |generator/method|1|combo|Method|Princip| | |generator:method| | | | | |last|
 |generator/source|1|combo|Source|Zdroj| | |generator:source| | | | | |last|
 |generator/type|1|combo|Type|Typ| | |generator:type| | | | | |last|
@@ -217,7 +218,7 @@
 |smoothness|5|combo| | | | | |very_bad|High Clearance: light duty off-road vehicle|Vysoký podvozek: lehká terénní auta| | |last|
 |smoothness|6|combo| | | | | |horrible|Off-Road: heavy duty off-road vehicle|Terénní kola: off-road auta| | |last|
 |smoothness|7|combo| | | | | |very_horrible|Specialized off-road: tractor, ATV|Speciální terénní kola: traktory, čtyřkolky, tanky, MTB| | |last|
-|smoothness|8|combo| | | | | |impassible|Impassible / No wheeled vehicle|Nesjízdné pro žádná vozidla s koly| | |last|
+|smoothness|8|combo| | | | | |impassable|Impassable / No wheeled vehicle|Neprůjezdné žádným vozidlem| | |last|
 |social_facility_for|1|radio|People served|Zákazníci| | |social_facility:for| | | |Homeless, Disabled, Child, etc|Bezdomovec, Postižený ...|last|
 |source|1|text|Source|Zdroj|source|true|source| | | | | |last|
 |sport|1|combo|Sport|Sport| | |sport| | | | | |last|

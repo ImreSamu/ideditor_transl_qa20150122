@@ -5,7 +5,7 @@
 |Apteek|Chemist|shop/chemist| |chemist|shop=chemist| | | | |area| |point| | |
 |Apteek|Pharmacy|amenity/pharmacy| |pharmacy|amenity=pharmacy| | | | |area| |point| | |
 |Begrafplaas|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|Begrafplaas|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Begrafplaas|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |Dorpie|Village|place/village| |village|place=village| | | | |area| |point| | |
 |Dorpie|Hamlet|place/hamlet| |triangle-stroked|place=hamlet| | | | |area| |point| | |
 |Fontein|Fountain|amenity/fountain| | |amenity=fountain| | | | |area| |point| | |
@@ -18,5 +18,5 @@
 |Snelweg|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |Veerbootroete|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |Veerbootroete|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
-|Woud|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|Woud|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |Woud|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |

@@ -1,12 +1,131 @@
  {
++  feature_info: {
++    hidden_warning: "{count} skrivenih značajki"
++    hidden_details: "Ove značajke su trenutno skrivene: {details}"
++  }
++  map_data: {
++    title: "Podaci karte"
++    description: "Podaci karte"
++    data_layers: "Slojevi podataka"
++    fill_area: "Ispuni područja"
++    map_features: "Značajke karte"
++    autohidden: "Ove značajke su automatski skrivene jer ih je previše za prikaz na zaslonu. Možeš povećati prikaz za njihovo uređivanje."
++  }
++  feature: {
++    points: {
++      description: "Točke"
++      tooltip: "Interesne točke"
++    }
++    major_roads: {
++      description: "Glavne ceste"
++      tooltip: "Prometnice, ulice, itd."
++    }
++    minor_roads: {
++      description: "Sporedne ceste"
++      tooltip: "Pristupne ceste, parkirni prolazi, zemljani putovi, itd."
++    }
++    paths: {
++      description: "Staze"
++      tooltip: "Pločnici, pješačke staze, biciklističke staze, itd."
++    }
++    buildings: {
++      description: "Građevine"
++      tooltip: "Zgrade, skloništa, garaže, itd."
++    }
++    landuse: {
++      description: "Značajke korištenja zemljišta"
++      tooltip: "Šume, poljoprivredno zemlj., parkovi, građevinsko, poslovna zona, itd."
++    }
++    boundaries: {
++      description: "Granice"
++      tooltip: "Administrativne granice"
++    }
++    water: {
++      description: "Vodene značajke"
++      tooltip: "Rijeke, jezera, lokve, bazeni, itd."
++    }
++    rail: {
++      description: "Značajke željeznice"
++      tooltip: "Željezničke pruge"
++    }
++    power: {
++      description: "Elektroenergetske značajke"
++      tooltip: "Dalekovodi, elektrane, trafostanice, itd."
++    }
++    past_future: {
++      description: "Prošlost/Budućnost"
++      tooltip: "U planu, u izgradnji, napušteno, srušeno, itd."
++    }
++    others: {
++      description: "Ostali"
++      tooltip: "Sve ostalo"
++    }
++  }
++  area_fill: {
++    wireframe: {
++      description: "Bez ispune (žičani način)"
++      tooltip: "Omogućenjem žičanog načina jednostavnije je vidjeti pozadinske snimke."
++    }
++    partial: {
++      description: "Djelomična ispuna"
++      tooltip: "Područja su iscrtana s ispunom samo oko njihovih unutarnjih rubova. (Preporučeno za početnike)"
++    }
++    full: {
++      description: "Potpuno ispuni"
++      tooltip: "Područja su iscrtana potpuno ispunjena."
++    }
++  }
+   operations: {
+     circularize: {
++      connected_to_hidden: "Ovo se ne može zaokružiti jer je spojeno na skrivenu značajku."
+     }
+     orthogonalize: {
++      connected_to_hidden: "Ovo se ne može ukvadratičiti jer je spojeno na skrivenu značajku."
+     }
+     straighten: {
++      connected_to_hidden: "Ova linija se ne može ispraviti jer je spojena na skrivenu značajku."
+     }
+     delete: {
++      connected_to_hidden: "Ovo se ne može se obrisati jer je spojeno na skrivenu značajku."
+     }
+     disconnect: {
++      connected_to_hidden: "Ovo se ne može odvojiti jer je spojeno na skrivenu značajku."
+     }
+     move: {
++      connected_to_hidden: "Ovo se ne može premjestiti jer je spojeno na skrivenu značajku."
+     }
+     rotate: {
++      connected_to_hidden: " Ovo se ne može zakrenuti jer je spojeno na skrivenu značajku."
+     }
+     split: {
++      connected_to_hidden: "Ovo se ne može razdvojiti jer je spojeno na skrivenu značajku."
+     }
+   }
+   commit: {
++    changes: "{count} Promjena"
+   }
+   inspector: {
++    check: {
++      yes: "Da"
++      no: "Ne"
++    }
++    add_fields: "Dodaj polje:"
+   }
+   save: {
++    unknown_error_details: "Molim provjeri jesi li spojen na internet."
+   }
    help: {
 -    gps: "# GNSS\n\nPojam GNSS obuhvaća sve \"Globalne Navigacijske Satelitske Sustave\", to su: američki Navstar GPS, ruski GLONASS, europski GALILEO i kineski BEIDOU. Suvremeni uređaji često koriste signale više sustava istovremeno za određivanje pozicije. GNSS podaci su najpouzdaniji izvor podataka za OpenStreetMap. Ovaj\nuređivač podržava lokalne tragove - `.gpx` datoteteke koje se nalaze na tvom računalu.\nTakav oblik GNSS traga možeš prikupiti s raznim aplikacijama za pametne\ntelefone kao i sa drugim GNSS/GPS uređajima.\n\nZa više informacija o postupku izmjere pomoću GNSS satelita, pročitaj članak\n[\"Mjerenje GPS-om\"](http://learnosm.org/en/beginner/using-gps/).\n\nKako bi koristio/la GPX tragove za kartiranje, povuci i ispusti GPX datoteku\nna uređivač karte. Ako se datoteka ispravno učita, biti će dodana na kartu\nkao linija svjetlo zelene boje. Klikni na izbornik \"Postavke pozadine\" s\ndesne strane za uključivanje, isključivanje ili povećanje na taj novi GPX sloj.\n\nGPX trag nije direktno postavljen na OpenStreetMap, samo je prikazan na\nkarti. Da bi ga iskoristio/la na najbolji način, preko njega crtaj na\nkarti koristeći ga kao vodilju za dodavanje novih značajki. Trag možeš također\n[postaviti na OpenStreetMap](http://www.openstreetmap.org/trace/create)\nkako bi ga i drugi korisnici mogli koristiti.\n"
++    gps: "# GNSS \n\nGNSS podaci su najpouzdaniji izvor podataka za OpenStreetMap. Ovaj uređivač podržava lokalne tragove - `.gpx` datoteteke s tvog računala. Takav oblik GNSS traga možeš prikupiti s raznim aplikacijama za pametne telefone kao i s drugim GNSS/GPS uređajima.\n\nZa više informacija o postupku izmjere pomoću GNSS satelita, pročitaj članak [\"Mjerenje sa GPS-om\"](http://learnosm.org/en/beginner/using-gps/).\n\nKako bi koristio GPX tragove za kartiranje, povuci i ispusti GPX datoteku na uređivač karte. Ako se datoteka ispravno učita, biti će dodana na kartu kao linija svjetlo ljubičaste boje. Klikni na izbornik \"Podaci karte\" s desne strane za uključivanje, isključivanje ili povećanje na taj novi GPX sloj.\n\nGPX trag nije direktno postavljen na OpenStreetMap, samo je prikazan na karti. Da bi ga iskoristio/la na najbolji način, preko njega crtaj na karti koristeći ga kao vodilju za dodavanje novih značajki. Trag možeš također [postaviti na OpenStreetMap](http://www.openstreetmap.org/trace/create) kako bi ga i drugi\nkorisnici mogli koristiti.\n"
    }
    presets: {
      fields: {
 -      wood: {
 -        label: "Vrsta"
 -      }
++      bench: {
++        label: "Klupa"
++      }
 +      craft: {
 +        label: "Vrsta"
 +      }
@@ -17,6 +136,21 @@
      presets: {
 -      craft/confectionary: {
 -        name: "Trgovina slatkišima"
+-      }
+-      landuse/commercial: {
+-        name: "Poslovno"
+-      }
+-      landuse/farm: {
+-        name: "Poljoprivredno zemljište"
+-      }
+-      landuse/industrial: {
+-        name: "Industrijsko"
+-      }
+-      landuse/residential: {
+-        name: "Stambeno"
+-      }
+-      landuse/retail: {
+-        name: "Maloprodaja"
 -      }
 +      amenity/bbq: {
 +        name: "Roštilj"
@@ -126,6 +260,10 @@
 +      embankment: {
 +        name: "Nasip"
 +      }
+       boundary/administrative: {
+-        name: "Administrativne granice"
++        name: "Administrativna granica"
+       }
        building/train_station: {
 -        name: "Željeznička stanica"
 +        name: "Željeznički kolodvor"

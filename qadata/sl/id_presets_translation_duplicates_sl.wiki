@@ -235,8 +235,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | Prehod za pešce
@@ -411,7 +411,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-

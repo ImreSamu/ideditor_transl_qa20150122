@@ -114,8 +114,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | af
@@ -335,7 +335,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -658,7 +658,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -692,8 +692,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | ar
@@ -783,23 +783,6 @@
 |-
 | ast
 | Capiella
-| Chapel
-| building/chapel
-|  
-| place-of-worship
-| building=chapel
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| ast
-| Capiella
 | Wayside Shrine
 | historic/wayside_shrine
 |  
@@ -816,29 +799,12 @@
 |  
 |-
 | ast
-| Comercial
-| Retail
-| landuse/retail
+| Capiella
+| Chapel
+| building/chapel
 |  
-| shop
-| landuse=retail
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| ast
-| Comercial
-| Commercial
-| landuse/commercial
-|  
-| commercial
-| landuse=commercial
+| place-of-worship
+| building=chapel
 |  
 |  
 |  
@@ -885,11 +851,11 @@
 |-
 | ast
 | Fotografía
-| Photography Store
-| shop/photo
+| Photographer
+| craft/photographer
 |  
 | camera
-| shop=photo
+| craft=photographer
 |  
 |  
 |  
@@ -902,11 +868,11 @@
 |-
 | ast
 | Fotografía
-| Photographer
-| craft/photographer
+| Photography Store
+| shop/photo
 |  
 | camera
-| craft=photographer
+| shop=photo
 |  
 |  
 |  
@@ -954,6 +920,23 @@
 | ast
 | Llende alministrativa
 | Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| ast
+| Llende alministrativa
+| Administrative Boundary
 | type/boundary/administrative
 |  
 | boundary
@@ -969,13 +952,13 @@
 | relation
 |-
 | ast
-| Llende alministrativa
-| Administrative Boundary
-| boundary/administrative
+| Pasu de peatones
+| Crossing
+| footway/crossing
 |  
 |  
-| boundary=administrative
-|  
+| highway=footway
+| footway=crossing
 |  
 |  
 |  
@@ -1000,23 +983,6 @@
 |  
 |  
 | vertex
-|  
-|-
-| ast
-| Pasu de peatones
-| Crossing
-| footway/crossing
-|  
-|  
-| highway=footway
-| footway=crossing
-|  
-|  
-|  
-|  
-| line
-|  
-|  
 |  
 |-
 | ast
@@ -1089,6 +1055,23 @@
 |-
 | ast
 | Vivienda aisllada
+| Detached Home
+| building/detached
+|  
+| building
+| building=detached
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| ast
+| Vivienda aisllada
 | Isolated Dwelling
 | place/isolated_dwelling
 |  
@@ -1104,20 +1087,20 @@
 |  
 |  
 |-
-| ast
-| Vivienda aisllada
-| Detached Home
-| building/detached
-|  
-| building
-| building=detached
+| bg-BG
+| Административна граница
+| Administrative Boundary
+| boundary/administrative
 |  
 |  
+| boundary=administrative
 |  
 |  
-| area
 |  
-| point
+|  
+|  
+| line
+|  
 |  
 |  
 |-
@@ -1139,18 +1122,18 @@
 | relation
 |-
 | bg-BG
-| Административна граница
-| Administrative Boundary
-| boundary/administrative
+| Гора
+| Forest
+| landuse/forest
+|  
+| park2
+| landuse=forest
 |  
 |  
-| boundary=administrative
 |  
 |  
+| area
 |  
-|  
-|  
-| line
 |  
 |  
 |  
@@ -1162,23 +1145,6 @@
 |  
 | park2
 | natural=wood
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| bg-BG
-| Гора
-| Forest
-| landuse/forest
-|  
-| park2
-| landuse=forest
 |  
 |  
 |  
@@ -1258,40 +1224,6 @@
 | relation
 |-
 | bg-BG
-| Търговия
-| Retail
-| landuse/retail
-|  
-| shop
-| landuse=retail
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| bg-BG
-| Търговия
-| Commercial
-| landuse/commercial
-|  
-| commercial
-| landuse=commercial
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| bg-BG
 | Фериботна връзка
 | Ferry Route
 | route/ferry
@@ -1355,8 +1287,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | bn
@@ -1525,8 +1457,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | bs
@@ -1661,7 +1593,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -1729,7 +1661,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -1933,8 +1865,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | ca
@@ -2329,136 +2261,17 @@
 | relation
 |-
 | cs
-| Garáže
-| Garages
-| building/garages
+| Přechod typu zebra
+| Crosswalk
+| footway/crosswalk
 |  
-| warehouse
-| building=garages
 |  
+| highway=footway
+| footway=crossing
+| crossing=zebra
 |  
 |  
 |  
-| area
-|  
-| point
-|  
-|  
-|-
-| cs
-| Garáže
-| Garages
-| landuse/garages
-|  
-|  
-| landuse=garages
-|  
-|  
-|  
-|  
-| area
-|  
-|  
-|  
-|  
-|-
-| cs
-| Kostel
-| Church
-| amenity/place_of_worship/christian
-|  
-| religious-christian
-| amenity=place_of_worship
-| religion=christian
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| cs
-| Kostel
-| Church
-| building/church
-|  
-| place-of-worship
-| building=church
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| cs
-| Les
-| Wood
-| natural/wood
-|  
-| park2
-| natural=wood
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| cs
-| Les
-| Forest
-| landuse/forest
-|  
-| park2
-| landuse=forest
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| cs
-| Příkop
-| Ditch
-| waterway/ditch
-|  
-| waterway-ditch
-| waterway=ditch
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| cs
-| Příkop
-| Ditch
-| barrier/ditch
-|  
-|  
-| barrier=ditch
-|  
-|  
-|  
-|  
-| area
 | line
 |  
 |  
@@ -2482,29 +2295,12 @@
 |  
 |-
 | cs
-| Přechod typu zebra
-| Crosswalk
-| footway/crosswalk
-|  
-|  
-| highway=footway
-| footway=crossing
-| crossing=zebra
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| cs
 | Řemeslník
-| Handicraft
-| craft/handicraft
+| Craft
+| craft
 |  
-| art-gallery
-| craft=handicraft
+| marker-stroked
+| craft=*
 |  
 |  
 |  
@@ -2517,11 +2313,11 @@
 |-
 | cs
 | Řemeslník
-| Craft
-| craft
+| Handicraft
+| craft/handicraft
 |  
-| marker-stroked
-| craft=*
+| art-gallery
+| craft=handicraft
 |  
 |  
 |  
@@ -3293,7 +3089,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -3334,23 +3130,6 @@
 | de
 | Administrative Grenze
 | Administrative Boundary
-| boundary/administrative
-|  
-|  
-| boundary=administrative
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| de
-| Administrative Grenze
-| Administrative Boundary
 | type/boundary/administrative
 |  
 | boundary
@@ -3366,20 +3145,20 @@
 | relation
 |-
 | de
-| Bahnsteig
-| Railway Platform
-| railway/platform
+| Administrative Grenze
+| Administrative Boundary
+| boundary/administrative
 |  
 |  
-| railway=platform
+| boundary=administrative
 |  
 |  
 |  
 |  
-| area
+|  
 | line
-| point
-| vertex
+|  
+|  
 |  
 |-
 | de
@@ -3400,29 +3179,29 @@
 |  
 |-
 | de
-| Bauernhof
-| Farmyard
-| landuse/farmyard
+| Bahnsteig
+| Railway Platform
+| railway/platform
 |  
-| farm
-| landuse=farmyard
+|  
+| railway=platform
 |  
 |  
 |  
 |  
 | area
-|  
+| line
 | point
-|  
+| vertex
 |  
 |-
 | de
-| Bauernhof
-| Farm
-| landuse/farmland
+| Boutique
+| Boutique
+| shop/boutique
 |  
-| farm
-| landuse=farmland
+| shop
+| shop=boutique
 |  
 |  
 |  
@@ -3440,23 +3219,6 @@
 |  
 | shop
 | shop=fabric
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| de
-| Boutique
-| Boutique
-| shop/boutique
-|  
-| shop
-| shop=boutique
 |  
 |  
 |  
@@ -3572,23 +3334,6 @@
 | de
 | Fährenroute
 | Ferry Route
-| type/route/ferry
-|  
-| route-ferry
-| type=route
-| route=ferry
-|  
-|  
-|  
-|  
-|  
-|  
-|  
-| relation
-|-
-| de
-| Fährenroute
-| Ferry Route
 | route/ferry
 |  
 | ferry
@@ -3604,21 +3349,21 @@
 |  
 |-
 | de
-| Friedhof
-| Cemetery
-| landuse/cemetery
+| Fährenroute
+| Ferry Route
+| type/route/ferry
 |  
-| cemetery
-| landuse=cemetery
+| route-ferry
+| type=route
+| route=ferry
 |  
 |  
 |  
 |  
-| area
 |  
-| point
-| vertex
 |  
+|  
+| relation
 |-
 | de
 | Friedhof
@@ -3638,12 +3383,12 @@
 |  
 |-
 | de
-| Garagen
-| Garages
-| landuse/garages
+| Friedhof
+| Cemetery
+| landuse/cemetery
 |  
-|  
-| landuse=garages
+| cemetery
+| landuse=cemetery
 |  
 |  
 |  
@@ -3668,6 +3413,23 @@
 | area
 |  
 | point
+|  
+|  
+|-
+| de
+| Garagen
+| Garages
+| landuse/garages
+|  
+|  
+| landuse=garages
+|  
+|  
+|  
+|  
+| area
+|  
+|  
 |  
 |  
 |-
@@ -3708,23 +3470,6 @@
 | de
 | Graben
 | Ditch
-| waterway/ditch
-|  
-| waterway-ditch
-| waterway=ditch
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| de
-| Graben
-| Ditch
 | barrier/ditch
 |  
 |  
@@ -3740,19 +3485,19 @@
 |  
 |-
 | de
-| Hütte
-| Cabin
-| building/cabin
+| Graben
+| Ditch
+| waterway/ditch
 |  
-| building
-| building=cabin
-|  
-|  
+| waterway-ditch
+| waterway=ditch
 |  
 |  
-| area
 |  
-| point
+|  
+|  
+| line
+|  
 |  
 |  
 |-
@@ -3774,21 +3519,21 @@
 |  
 |-
 | de
-| Kehrtwendeverbot
-| No U-turn
-| type/restriction/no_u_turn
+| Hütte
+| Cabin
+| building/cabin
 |  
-| restriction-no-u-turn
-| type=restriction
-| restriction=no_u_turn
-|  
+| building
+| building=cabin
 |  
 |  
 |  
 |  
+| area
+|  
+| point
 |  
 |  
-| relation
 |-
 | de
 | Kehrtwendeverbot
@@ -3808,13 +3553,30 @@
 | relation
 |-
 | de
+| Kehrtwendeverbot
+| No U-turn
+| type/restriction/no_u_turn
+|  
+| restriction-no-u-turn
+| type=restriction
+| restriction=no_u_turn
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| de
 | Kirche
 | Church
-| building/church
+| amenity/place_of_worship/christian
 |  
-| place-of-worship
-| building=church
-|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
 |  
 |  
 |  
@@ -3827,11 +3589,11 @@
 | de
 | Kirche
 | Church
-| amenity/place_of_worship/christian
+| building/church
 |  
-| religious-christian
-| amenity=place_of_worship
-| religion=christian
+| place-of-worship
+| building=church
+|  
 |  
 |  
 |  
@@ -3911,23 +3673,6 @@
 |-
 | de
 | Uhrmacher
-| Watchmaker
-| craft/watchmaker
-|  
-| circle-stroked
-| craft=watchmaker
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| de
-| Uhrmacher
 | Clockmaker
 | craft/clockmaker
 |  
@@ -3944,12 +3689,12 @@
 |  
 |-
 | de
-| Wald
-| Forest
-| landuse/forest
+| Uhrmacher
+| Watchmaker
+| craft/watchmaker
 |  
-| park2
-| landuse=forest
+| circle-stroked
+| craft=watchmaker
 |  
 |  
 |  
@@ -3978,20 +3723,20 @@
 |  
 |-
 | de
-| Zebrastreifen
-| Crosswalk
-| highway/crosswalk
+| Wald
+| Forest
+| landuse/forest
 |  
-|  
-| highway=crossing
-| crossing=zebra
-|  
-|  
+| park2
+| landuse=forest
 |  
 |  
 |  
 |  
-| vertex
+| area
+|  
+|  
+|  
 |  
 |-
 | de
@@ -4009,6 +3754,23 @@
 | line
 |  
 |  
+|  
+|-
+| de
+| Zebrastreifen
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
 |  
 |-
 | el
@@ -4058,7 +3820,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -4228,8 +3990,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | el
@@ -4778,23 +4540,6 @@
 |-
 | es
 | Banco
-| Bench
-| amenity/bench
-|  
-|  
-| amenity=bench
-|  
-|  
-|  
-|  
-|  
-| line
-| point
-| vertex
-|  
-|-
-| es
-| Banco
 | Bank
 | amenity/bank
 |  
@@ -4811,20 +4556,20 @@
 |  
 |-
 | es
-| Canal
-| Fairway
-| golf/fairway
-|  
-| golf
-| golf=fairway
-| landuse=grass
+| Banco
+| Bench
+| amenity/bench
 |  
 |  
-|  
-| area
+| amenity=bench
 |  
 |  
 |  
+|  
+|  
+| line
+| point
+| vertex
 |  
 |-
 | es
@@ -4845,36 +4590,19 @@
 |  
 |-
 | es
-| Ciudad
-| Town
-| place/town
+| Canal
+| Fairway
+| golf/fairway
 |  
-| town
-| place=town
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| es
-| Ciudad
-| City
-| place/city
-|  
-| city
-| place=city
-|  
+| golf
+| golf=fairway
+| landuse=grass
 |  
 |  
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -4913,63 +4641,12 @@
 |  
 |-
 | es
-| Cruce peatonal
-| Crosswalk
-| footway/crosswalk
+| Garajes
+| Garages
+| building/garages
 |  
-|  
-| highway=footway
-| footway=crossing
-| crossing=zebra
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| es
-| Cruce peatonal
-| Crosswalk
-| highway/crosswalk
-|  
-|  
-| highway=crossing
-| crossing=zebra
-|  
-|  
-|  
-|  
-|  
-|  
-| vertex
-|  
-|-
-| es
-| Farmacia
-| Medical Supply Store
-| shop/medical_supply
-|  
-| shop
-| shop=medical_supply
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| es
-| Farmacia
-| Pharmacy
-| amenity/pharmacy
-|  
-| pharmacy
-| amenity=pharmacy
+| warehouse
+| building=garages
 |  
 |  
 |  
@@ -4998,63 +4675,12 @@
 |  
 |-
 | es
-| Garajes
-| Garages
-| building/garages
-|  
-| warehouse
-| building=garages
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| es
-| Granja
-| Farm
-| landuse/farmland
-|  
-| farm
-| landuse=farmland
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| es
-| Granja
-| Farmyard
-| landuse/farmyard
-|  
-| farm
-| landuse=farmyard
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| es
-| Iglesia
-| Church
-| building/church
+| Lugar de culto
+| Place of Worship
+| amenity/place_of_worship
 |  
 | place-of-worship
-| building=church
+| amenity=place_of_worship
 |  
 |  
 |  
@@ -5066,7 +4692,7 @@
 |  
 |-
 | es
-| Iglesia
+| Lugar de culto
 | Church
 | amenity/place_of_worship/christian
 |  
@@ -5083,36 +4709,19 @@
 |  
 |-
 | es
-| Médico
-| Physician
-| office/physician
-|  
-| commercial
-| office=physician
+| Paso de peatones
+| Crossing
+| footway/crossing
 |  
 |  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
-| es
-| Médico
-| Doctor
-| amenity/doctor
-|  
-| hospital
-| amenity=doctors
+| highway=footway
+| footway=crossing
 |  
 |  
 |  
 |  
-| area
+| line
 |  
-| point
 |  
 |  
 |-
@@ -5135,13 +4744,30 @@
 |-
 | es
 | Paso de peatones
-| Crossing
-| footway/crossing
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| es
+| Paso de peatones
+| Crosswalk
+| footway/crosswalk
 |  
 |  
 | highway=footway
 | footway=crossing
-|  
+| crossing=zebra
 |  
 |  
 |  
@@ -5151,46 +4777,12 @@
 |  
 |-
 | es
-| Presa
-| Weir
-| waterway/weir
+| Pueblo
+| Town
+| place/town
 |  
-| dam
-| waterway=weir
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-| vertex
-|  
-|-
-| es
-| Presa
-| Dam
-| waterway/dam
-|  
-| dam
-| waterway=dam
-|  
-|  
-|  
-|  
-| area
-| line
-| point
-| vertex
-|  
-|-
-| es
-| Refugio
-| Hut
-| building/hut
-|  
-|  
-| building=hut
+| town
+| place=town
 |  
 |  
 |  
@@ -5202,12 +4794,12 @@
 |  
 |-
 | es
-| Refugio
-| Shelter
-| amenity/shelter
+| Pueblo
+| Village
+| place/village
 |  
-|  
-| amenity=shelter
+| village
+| place=village
 |  
 |  
 |  
@@ -5215,7 +4807,7 @@
 | area
 |  
 | point
-| vertex
+|  
 |  
 |-
 | es
@@ -5287,37 +4879,37 @@
 | relation
 |-
 | es
-| Teleférico
-| Cable Car
-| aerialway/cable_car
+| Área Comercial
+| Commercial Area
+| landuse/commercial
+|  
+| commercial
+| landuse=commercial
 |  
 |  
-| aerialway=cable_car
 |  
 |  
+| area
 |  
-|  
-|  
-| line
 |  
 |  
 |  
 |-
 | es
-| Teleférico
-| Aerialway
-| aerialway
+| Área Comercial
+| Retail Area
+| landuse/retail
+|  
+| shop
+| landuse=retail
 |  
 |  
-| aerialway=*
+|  
+|  
+| area
 |  
 |  
 |  
-|  
-|  
-| line
-| point
-| vertex
 |  
 |-
 | et
@@ -5537,8 +5129,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | et
@@ -5865,40 +5457,6 @@
 |  
 |-
 | fi
-| Asuinalue
-| Neighborhood
-| place/neighbourhood
-|  
-| triangle-stroked
-| place=neighbourhood
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| fi
-| Asuinalue
-| Residential
-| landuse/residential
-|  
-| building
-| landuse=residential
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| fi
 | Hallinnollinen raja
 | Administrative Boundary
 | type/boundary/administrative
@@ -5934,11 +5492,11 @@
 |-
 | fi
 | Hautausmaa
-| Churchyard
-| landuse/churchyard
+| Cemetery
+| landuse/cemetery
 |  
-|  
-| landuse=churchyard
+| cemetery
+| landuse=cemetery
 |  
 |  
 |  
@@ -5968,34 +5526,17 @@
 |-
 | fi
 | Hautausmaa
-| Cemetery
-| landuse/cemetery
+| Churchyard
+| landuse/churchyard
 |  
-| cemetery
-| landuse=cemetery
+|  
+| landuse=churchyard
 |  
 |  
 |  
 |  
 | area
 |  
-| point
-| vertex
-|  
-|-
-| fi
-| Jalkakäytävä
-| Sidewalk
-| footway/sidewalk
-|  
-|  
-| highway=footway
-| footway=sidewalk
-|  
-|  
-|  
-|  
-| line
 |  
 |  
 |  
@@ -6018,17 +5559,17 @@
 |  
 |-
 | fi
-| Kiitorata
-| Runway
-| aeroway/runway
+| Jalkakäytävä
+| Sidewalk
+| footway/sidewalk
 |  
 |  
-| aeroway=runway
+| highway=footway
+| footway=sidewalk
 |  
 |  
 |  
 |  
-| area
 | line
 |  
 |  
@@ -6049,6 +5590,23 @@
 | line
 | point
 | vertex
+|  
+|-
+| fi
+| Kiitorata
+| Runway
+| aeroway/runway
+|  
+|  
+| aeroway=runway
+|  
+|  
+|  
+|  
+| area
+| line
+|  
+|  
 |  
 |-
 | fi
@@ -6255,23 +5813,6 @@
 |  
 |  
 |-
-| fil
-|  
-|  
-|  
-|  
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-| 
-|-
 | fr
 | Artisanat
 | Craft
@@ -6370,8 +5911,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | fr
@@ -6812,7 +6353,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -7050,8 +6591,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | gl
@@ -7310,6 +6851,40 @@
 | 
 |-
 | hr
+| Administrativna granica
+| Administrative Boundary
+| type/boundary/administrative
+|  
+| boundary
+| type=boundary
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| hr
+| Administrativna granica
+| Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| hr
 | Autobusna stanica
 | Bus Stop
 | highway/bus_stop
@@ -7447,6 +7022,23 @@
 |-
 | hr
 | Groblje
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| hr
+| Groblje
 | Graveyard
 | amenity/grave_yard
 |  
@@ -7463,12 +7055,12 @@
 |  
 |-
 | hr
-| Groblje
-| Cemetery
-| landuse/cemetery
+| Odmorište
+| Rest Area
+| highway/rest_area
 |  
-| cemetery
-| landuse=cemetery
+|  
+| highway=rest_area
 |  
 |  
 |  
@@ -7497,23 +7089,6 @@
 |  
 |-
 | hr
-| Odmorište
-| Rest Area
-| highway/rest_area
-|  
-|  
-| highway=rest_area
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
-| hr
 | Travnjak
 | Grass
 | landuse/grass
@@ -7526,7 +7101,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -7582,97 +7157,12 @@
 |  
 |-
 | hu
-| Füves terület
-| Grass
-| landuse/grass
+| Kerékpárút
+| Cycle Path
+| highway/cycleway
 |  
-|  
-| landuse=grass
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| hu
-| Füves terület
-| Grassland
-| natural/grassland
-|  
-|  
-| natural=grassland
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| hu
-| Temető
-| Cemetery
-| landuse/cemetery
-|  
-| cemetery
-| landuse=cemetery
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
-| hu
-| Temető
-| Churchyard
-| landuse/churchyard
-|  
-|  
-| landuse=churchyard
-|  
-|  
-|  
-|  
-| area
-|  
-|  
-|  
-|  
-|-
-| hu
-| Vasút
-| Railway
-| railway
-|  
-|  
-| railway=*
-|  
-|  
-|  
-|  
-| area
-| line
-| point
-| vertex
-|  
-|-
-| hu
-| Vasút
-| Rail
-| railway/rail
-|  
-| railway-rail
-| railway=rail
+| highway-cycleway
+| highway=cycleway
 |  
 |  
 |  
@@ -7680,6 +7170,91 @@
 |  
 | line
 |  
+|  
+|  
+|-
+| hu
+| Kerékpárút
+| Cycle Route
+| type/route/bicycle
+|  
+| route-bicycle
+| type=route
+| route=bicycle
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| hu
+| Kunyhó
+| Hut
+| building/hut
+|  
+|  
+| building=hut
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| hu
+| Kunyhó
+| Shed
+| building/shed
+|  
+| building
+| building=shed
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| hu
+| Szálloda
+| Hotel Building
+| building/hotel
+|  
+| building
+| building=hotel
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| hu
+| Szálloda
+| Hotel
+| tourism/hotel
+|  
+| lodging
+| tourism=hotel
+|  
+|  
+|  
+|  
+| area
+|  
+| point
 |  
 |  
 |-
@@ -7715,6 +7290,40 @@
 |  
 |  
 | vertex
+|  
+|-
+| hu
+| Újságos
+| Newspaper
+| office/newspaper
+|  
+| commercial
+| office=newspaper
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| hu
+| Újságos
+| Newspaper/Magazine Shop
+| shop/newsagent
+|  
+| shop
+| shop=newsagent
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
 |  
 |-
 | hy
@@ -7900,7 +7509,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -7985,8 +7594,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | id
@@ -8036,7 +7645,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -8291,7 +7900,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -8377,40 +7986,6 @@
 |  
 | line
 |  
-|  
-|  
-|-
-| is
-| Verslun
-| Retail
-| landuse/retail
-|  
-| shop
-| landuse=retail
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| is
-| Verslun
-| Shop
-| shop
-|  
-| shop
-| shop=*
-|  
-|  
-|  
-|  
-| area
-|  
-| point
 |  
 |  
 |-
@@ -8519,23 +8094,6 @@
 | it
 | Attraversamento pedonale
 | Crosswalk
-| highway/crosswalk
-|  
-|  
-| highway=crossing
-| crossing=zebra
-|  
-|  
-|  
-|  
-|  
-|  
-| vertex
-|  
-|-
-| it
-| Attraversamento pedonale
-| Crosswalk
 | footway/crosswalk
 |  
 |  
@@ -8551,20 +8109,20 @@
 |  
 |-
 | it
-| Bunker
-| Sand Trap
-| golf/bunker
-|  
-| golf
-| golf=bunker
-| natural=sand
+| Attraversamento pedonale
+| Crosswalk
+| highway/crosswalk
 |  
 |  
-|  
-| area
+| highway=crossing
+| crossing=zebra
 |  
 |  
 |  
+|  
+|  
+|  
+| vertex
 |  
 |-
 | it
@@ -8585,19 +8143,19 @@
 |  
 |-
 | it
-| Capanno
-| Shed
-| building/shed
+| Bunker
+| Sand Trap
+| golf/bunker
 |  
-| building
-| building=shed
-|  
+| golf
+| golf=bunker
+| natural=sand
 |  
 |  
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -8619,12 +8177,12 @@
 |  
 |-
 | it
-| Chiesa
-| Church
-| building/church
+| Capanno
+| Shed
+| building/shed
 |  
-| place-of-worship
-| building=church
+| building
+| building=shed
 |  
 |  
 |  
@@ -8653,12 +8211,12 @@
 |  
 |-
 | it
-| Cimitero
-| Cemetery
-| landuse/cemetery
+| Chiesa
+| Church
+| building/church
 |  
-| cemetery
-| landuse=cemetery
+| place-of-worship
+| building=church
 |  
 |  
 |  
@@ -8666,7 +8224,7 @@
 | area
 |  
 | point
-| vertex
+|  
 |  
 |-
 | it
@@ -8683,6 +8241,23 @@
 | area
 |  
 | point
+|  
+|  
+|-
+| it
+| Cimitero
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+|  
 |  
 |  
 |-
@@ -8818,23 +8393,6 @@
 |  
 | area
 |  
-| point
-|  
-|  
-|-
-| it
-| Fossato
-| Ditch
-| waterway/ditch
-|  
-| waterway-ditch
-| waterway=ditch
-|  
-|  
-|  
-|  
-|  
-| line
 |  
 |  
 |  
@@ -8857,12 +8415,29 @@
 |  
 |-
 | it
+| Fossato
+| Ditch
+| waterway/ditch
+|  
+| waterway-ditch
+| waterway=ditch
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| it
 | Fotografo
-| Photography Store
-| shop/photo
+| Photographer
+| craft/photographer
 |  
 | camera
-| shop=photo
+| craft=photographer
 |  
 |  
 |  
@@ -8875,11 +8450,11 @@
 |-
 | it
 | Fotografo
-| Photographer
-| craft/photographer
+| Photography Store
+| shop/photo
 |  
 | camera
-| craft=photographer
+| shop=photo
 |  
 |  
 |  
@@ -8977,23 +8552,6 @@
 |-
 | it
 | Linea elettrica
-| Power Line
-| power/line
-|  
-| power-line
-| power=line
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| it
-| Linea elettrica
 | Power Route
 | type/route/power
 |  
@@ -9008,6 +8566,23 @@
 |  
 |  
 | relation
+|-
+| it
+| Linea elettrica
+| Power Line
+| power/line
+|  
+| power-line
+| power=line
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
 |-
 | it
 | Negozio
@@ -9040,40 +8615,6 @@
 | area
 |  
 | point
-|  
-|  
-|-
-| it
-| Residenziale
-| Residential
-| landuse/residential
-|  
-| building
-| landuse=residential
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| it
-| Residenziale
-| Residential Road
-| highway/residential
-|  
-| highway-residential
-| highway=residential
-|  
-|  
-|  
-|  
-|  
-| line
-|  
 |  
 |  
 |-
@@ -9147,11 +8688,11 @@
 |-
 | it
 | Supermercato
-| Supermarket
-| shop/supermarket
+| Department Store
+| shop/department_store
 |  
-| grocery
-| shop=supermarket
+| shop
+| shop=department_store
 |  
 |  
 |  
@@ -9164,11 +8705,11 @@
 |-
 | it
 | Supermercato
-| Department Store
-| shop/department_store
+| Supermarket
+| shop/supermarket
 |  
-| shop
-| shop=department_store
+| grocery
+| shop=supermarket
 |  
 |  
 |  
@@ -9589,23 +9130,6 @@
 |-
 | ko
 | 고속도로
-| Highway
-| highway
-|  
-|  
-| highway=*
-|  
-|  
-|  
-|  
-| area
-| line
-| point
-| vertex
-|  
-|-
-| ko
-| 고속도로
 | Motorway
 | highway/motorway
 |  
@@ -9619,6 +9143,23 @@
 | line
 |  
 |  
+|  
+|-
+| ko
+| 고속도로
+| Highway
+| highway
+|  
+|  
+| highway=*
+|  
+|  
+|  
+|  
+| area
+| line
+| point
+| vertex
 |  
 |-
 | ko
@@ -9651,40 +9192,6 @@
 |  
 | area
 | line
-|  
-|  
-|  
-|-
-| ko
-| 군사지
-| Military Range
-| military/range
-|  
-|  
-| military=range
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
-| ko
-| 군사지
-| Military
-| landuse/military
-|  
-|  
-| landuse=military
-|  
-|  
-|  
-|  
-| area
-|  
 |  
 |  
 |  
@@ -9725,6 +9232,23 @@
 |-
 | ko
 | 묘지
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| ko
+| 묘지
 | Graveyard
 | amenity/grave_yard
 |  
@@ -9738,23 +9262,6 @@
 |  
 | point
 |  
-|  
-|-
-| ko
-| 묘지
-| Cemetery
-| landuse/cemetery
-|  
-| cemetery
-| landuse=cemetery
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
 |  
 |-
 | ko
@@ -9792,36 +9299,19 @@
 |  
 |-
 | ko
-| 보도
-| Foot Path
-| highway/footway
+| 지역
+| Locality
+| place/locality
 |  
-| highway-footway
-| highway=footway
+| marker
+| place=locality
 |  
 |  
 |  
 |  
 | area
-| line
 |  
-|  
-|  
-|-
-| ko
-| 보도
-| Sidewalk
-| footway/sidewalk
-|  
-|  
-| highway=footway
-| footway=sidewalk
-|  
-|  
-|  
-|  
-| line
-|  
+| point
 |  
 |  
 |-
@@ -9843,12 +9333,46 @@
 |  
 |-
 | ko
-| 지역
-| Locality
-| place/locality
+| 차고
+| Garage
+| building/garage
 |  
-| marker
-| place=locality
+| warehouse
+| building=garage
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| ko
+| 차고
+| Garages
+| landuse/garages
+|  
+|  
+| landuse=garages
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| ko
+| 차고
+| Garages
+| building/garages
+|  
+| warehouse
+| building=garages
 |  
 |  
 |  
@@ -9928,40 +9452,6 @@
 | relation
 |-
 | ko
-| 호수
-| Lake
-| natural/water/lake
-|  
-| water
-| natural=water
-| water=lake
-|  
-|  
-|  
-| area
-|  
-|  
-|  
-|  
-|-
-| ko
-| 호수
-| Pond
-| natural/water/pond
-|  
-| water
-| natural=water
-| water=pond
-|  
-|  
-|  
-| area
-|  
-|  
-|  
-|  
-|-
-| ko
 | 횡단 보도
 | Crosswalk
 | footway/crosswalk
@@ -10032,6 +9522,23 @@
 | lt
 | Bažnyčia
 | Church
+| building/church
+|  
+| place-of-worship
+| building=church
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| lt
+| Bažnyčia
+| Church
 | amenity/place_of_worship/christian
 |  
 | religious-christian
@@ -10047,12 +9554,12 @@
 |  
 |-
 | lt
-| Bažnyčia
-| Church
-| building/church
+| Garažai
+| Garages
+| building/garages
 |  
-| place-of-worship
-| building=church
+| warehouse
+| building=garages
 |  
 |  
 |  
@@ -10060,6 +9567,23 @@
 | area
 |  
 | point
+|  
+|  
+|-
+| lt
+| Garažai
+| Garages
+| landuse/garages
+|  
+|  
+| landuse=garages
+|  
+|  
+|  
+|  
+| area
+|  
+|  
 |  
 |  
 |-
@@ -10133,6 +9657,23 @@
 |-
 | lt
 | Kapinės
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| lt
+| Kapinės
 | Graveyard
 | amenity/grave_yard
 |  
@@ -10146,23 +9687,6 @@
 |  
 | point
 |  
-|  
-|-
-| lt
-| Kapinės
-| Cemetery
-| landuse/cemetery
-|  
-| cemetery
-| landuse=cemetery
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
 |  
 |-
 | lt
@@ -10304,23 +9828,6 @@
 | lt
 | Pėsčiųjų perėja
 | Crosswalk
-| highway/crosswalk
-|  
-|  
-| highway=crossing
-| crossing=zebra
-|  
-|  
-|  
-|  
-|  
-|  
-| vertex
-|  
-|-
-| lt
-| Pėsčiųjų perėja
-| Crosswalk
 | footway/crosswalk
 |  
 |  
@@ -10333,6 +9840,23 @@
 | line
 |  
 |  
+|  
+|-
+| lt
+| Pėsčiųjų perėja
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
 |  
 |-
 | lt
@@ -10399,17 +9923,17 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
 | lt
 | Prekybos centras
-| Mall
-| shop/mall
+| Supermarket
+| shop/supermarket
 |  
-| shop
-| shop=mall
+| grocery
+| shop=supermarket
 |  
 |  
 |  
@@ -10422,11 +9946,11 @@
 |-
 | lt
 | Prekybos centras
-| Supermarket
-| shop/supermarket
+| Mall
+| shop/mall
 |  
-| grocery
-| shop=supermarket
+| shop
+| shop=mall
 |  
 |  
 |  
@@ -10586,7 +10110,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -10898,6 +10422,23 @@
 |-
 | nl
 | Bank
+| Bank
+| amenity/bank
+|  
+| bank
+| amenity=bank
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| nl
+| Bank
 | Bench
 | amenity/bench
 |  
@@ -10914,12 +10455,12 @@
 |  
 |-
 | nl
-| Bank
-| Bank
-| amenity/bank
+| Begraafplaats
+| Graveyard
+| amenity/grave_yard
 |  
-| bank
-| amenity=bank
+| cemetery
+| amenity=grave_yard
 |  
 |  
 |  
@@ -10943,24 +10484,24 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | nl
-| Begraafplaats
-| Graveyard
-| amenity/grave_yard
-|  
-| cemetery
-| amenity=grave_yard
+| Bestuurlijke grens
+| Administrative Boundary
+| boundary/administrative
 |  
 |  
+| boundary=administrative
 |  
 |  
-| area
 |  
-| point
+|  
+|  
+| line
+|  
 |  
 |  
 |-
@@ -10982,29 +10523,29 @@
 | relation
 |-
 | nl
-| Bestuurlijke grens
-| Administrative Boundary
-| boundary/administrative
+| Bunker
+| Sand Trap
+| golf/bunker
+|  
+| golf
+| golf=bunker
+| natural=sand
 |  
 |  
-| boundary=administrative
 |  
+| area
 |  
-|  
-|  
-|  
-| line
 |  
 |  
 |  
 |-
 | nl
-| Bruingoedwinkel
-| Electronics Store
-| shop/electronics
+| Bunker
+| Bunker
+| military/bunker
 |  
-| shop
-| shop=electronics
+|  
+| military=bunker
 |  
 |  
 |  
@@ -11012,24 +10553,7 @@
 | area
 |  
 | point
-|  
-|  
-|-
-| nl
-| Bruingoedwinkel
-| Hifi Store
-| shop/hifi
-|  
-| shop
-| shop=hifi
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
+| vertex
 |  
 |-
 | nl
@@ -11137,11 +10661,11 @@
 | nl
 | Kerk
 | Church
-| building/church
+| amenity/place_of_worship/christian
 |  
-| place-of-worship
-| building=church
-|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
 |  
 |  
 |  
@@ -11154,11 +10678,11 @@
 | nl
 | Kerk
 | Church
-| amenity/place_of_worship/christian
+| building/church
 |  
-| religious-christian
-| amenity=place_of_worship
-| religion=christian
+| place-of-worship
+| building=church
+|  
 |  
 |  
 |  
@@ -11204,11 +10728,11 @@
 |-
 | nl
 | Loodgieter
-| Tinsmith
-| craft/tinsmith
+| Plumber
+| craft/plumber
 |  
 | marker-stroked
-| craft=tinsmith
+| craft=plumber
 |  
 |  
 |  
@@ -11221,11 +10745,11 @@
 |-
 | nl
 | Loodgieter
-| Plumber
-| craft/plumber
+| Tinsmith
+| craft/tinsmith
 |  
 | marker-stroked
-| craft=plumber
+| craft=tinsmith
 |  
 |  
 |  
@@ -11306,23 +10830,6 @@
 |-
 | nl
 | Sloot, greppel of gracht
-| Ditch
-| waterway/ditch
-|  
-| waterway-ditch
-| waterway=ditch
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| nl
-| Sloot, greppel of gracht
 | Drain
 | waterway/drain
 |  
@@ -11339,12 +10846,12 @@
 |  
 |-
 | nl
-| Veerboottraject
-| Ferry Route
-| route/ferry
+| Sloot, greppel of gracht
+| Ditch
+| waterway/ditch
 |  
-| ferry
-| route=ferry
+| waterway-ditch
+| waterway=ditch
 |  
 |  
 |  
@@ -11373,20 +10880,20 @@
 | relation
 |-
 | nl
-| Vliegveld
-| Airfield
-| military/airfield
+| Veerboottraject
+| Ferry Route
+| route/ferry
 |  
-| airfield
-| military=airfield
-|  
-|  
+| ferry
+| route=ferry
 |  
 |  
-| area
 |  
-| point
-| vertex
+|  
+|  
+| line
+|  
+|  
 |  
 |-
 | nl
@@ -11407,20 +10914,20 @@
 |  
 |-
 | nl
-| Voetpad
-| Foot Path
-| highway/footway
+| Vliegveld
+| Airfield
+| military/airfield
 |  
-| highway-footway
-| highway=footway
+| airfield
+| military=airfield
 |  
 |  
 |  
 |  
 | area
-| line
 |  
-|  
+| point
+| vertex
 |  
 |-
 | nl
@@ -11435,6 +10942,23 @@
 |  
 |  
 |  
+| line
+|  
+|  
+|  
+|-
+| nl
+| Voetpad
+| Foot Path
+| highway/footway
+|  
+| highway-footway
+| highway=footway
+|  
+|  
+|  
+|  
+| area
 | line
 |  
 |  
@@ -11572,8 +11096,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | no
@@ -11589,7 +11113,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -11725,8 +11249,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | pl
@@ -12133,7 +11657,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -12218,7 +11742,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -12394,6 +11918,23 @@
 |-
 | pt-BR
 | Financeira
+| Consignment/Thrift Store
+| shop/second_hand
+|  
+| shop
+| shop=second_hand
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| pt-BR
+| Financeira
 | Money Lender
 | shop/money_lender
 |  
@@ -12410,12 +11951,12 @@
 |  
 |-
 | pt-BR
-| Financeira
-| Consignment/Thrift Store
-| shop/second_hand
+| Garagens
+| Garages
+| building/garages
 |  
-| shop
-| shop=second_hand
+| warehouse
+| building=garages
 |  
 |  
 |  
@@ -12423,6 +11964,23 @@
 | area
 |  
 | point
+|  
+|  
+|-
+| pt-BR
+| Garagens
+| Garages
+| landuse/garages
+|  
+|  
+| landuse=garages
+|  
+|  
+|  
+|  
+| area
+|  
+|  
 |  
 |  
 |-
@@ -13391,7 +12949,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -13720,6 +13278,23 @@
 |-
 | sk
 | Chodník
+| Sidewalk
+| footway/sidewalk
+|  
+|  
+| highway=footway
+| footway=sidewalk
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| sk
+| Chodník
 | Foot Path
 | highway/footway
 |  
@@ -13736,19 +13311,36 @@
 |  
 |-
 | sk
-| Chodník
-| Sidewalk
-| footway/sidewalk
+| Garáže
+| Garages
+| landuse/garages
 |  
 |  
-| highway=footway
-| footway=sidewalk
+| landuse=garages
 |  
 |  
 |  
 |  
-| line
+| area
 |  
+|  
+|  
+|  
+|-
+| sk
+| Garáže
+| Garages
+| building/garages
+|  
+| warehouse
+| building=garages
+|  
+|  
+|  
+|  
+| area
+|  
+| point
 |  
 |  
 |-
@@ -13789,6 +13381,23 @@
 | sk
 | Kostol
 | Church
+| building/church
+|  
+| place-of-worship
+| building=church
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| sk
+| Kostol
+| Church
 | amenity/place_of_worship/christian
 |  
 | religious-christian
@@ -13804,12 +13413,12 @@
 |  
 |-
 | sk
-| Kostol
-| Church
-| building/church
+| Krajčírstvo
+| Dressmaker
+| craft/dressmaker
 |  
-| place-of-worship
-| building=church
+| clothing-store
+| craft=dressmaker
 |  
 |  
 |  
@@ -13817,6 +13426,57 @@
 | area
 |  
 | point
+|  
+|  
+|-
+| sk
+| Krajčírstvo
+| Tailor
+| shop/tailor
+|  
+| clothing-store
+| shop=tailor
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| sk
+| Obytná zóna
+| Residential Area
+| landuse/residential
+|  
+| building
+| landuse=residential
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| sk
+| Obytná zóna
+| Living Street
+| highway/living_street
+|  
+| highway-living-street
+| highway=living_street
+|  
+|  
+|  
+|  
+|  
+| line
+|  
 |  
 |  
 |-
@@ -14190,8 +13850,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | sl
@@ -14377,7 +14037,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -14955,7 +14615,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -15686,8 +15346,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | tr
@@ -15720,7 +15380,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -15947,23 +15607,6 @@
 |-
 | uk
 | Бутік
-| Fashion Store
-| shop/fashion
-|  
-| shop
-| shop=fashion
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| uk
-| Бутік
 | Boutique
 | shop/boutique
 |  
@@ -15980,12 +15623,29 @@
 |  
 |-
 | uk
+| Бутік
+| Fashion Store
+| shop/fashion
+|  
+| shop
+| shop=fashion
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| uk
 | Водяна пастка
-| Water Hazard
-| golf/water_hazard
+| Lateral Water Hazard
+| golf/lateral_water_hazard
 |  
 | golf
-| golf=water_hazard
+| golf=lateral_water_hazard
 | natural=water
 |  
 |  
@@ -15998,11 +15658,11 @@
 |-
 | uk
 | Водяна пастка
-| Lateral Water Hazard
-| golf/lateral_water_hazard
+| Water Hazard
+| golf/water_hazard
 |  
 | golf
-| golf=lateral_water_hazard
+| golf=water_hazard
 | natural=water
 |  
 |  
@@ -16082,6 +15742,40 @@
 |  
 |-
 | uk
+| Господарські товари
+| Hardware Store
+| shop/hardware
+|  
+| shop
+| shop=hardware
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| uk
+| Господарські товари
+| Houseware Store
+| shop/houseware
+|  
+| shop
+| shop=houseware
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| uk
 | Готель
 | Hotel Building
 | building/hotel
@@ -16117,7 +15811,7 @@
 |-
 | uk
 | Житлова зона
-| Residential
+| Residential Area
 | landuse/residential
 |  
 | building
@@ -16128,7 +15822,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -16139,6 +15833,23 @@
 |  
 | highway-living-street
 | highway=living_street
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| uk
+| Канава
+| Ditch
+| waterway/ditch
+|  
+| waterway-ditch
+| waterway=ditch
 |  
 |  
 |  
@@ -16167,29 +15878,12 @@
 |  
 |-
 | uk
-| Канава
-| Ditch
-| waterway/ditch
-|  
-| waterway-ditch
-| waterway=ditch
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| uk
 | Кравець
-| Tailor
-| shop/tailor
+| Dressmaker
+| craft/dressmaker
 |  
 | clothing-store
-| shop=tailor
+| craft=dressmaker
 |  
 |  
 |  
@@ -16202,11 +15896,11 @@
 |-
 | uk
 | Кравець
-| Dressmaker
-| craft/dressmaker
+| Tailor
+| shop/tailor
 |  
 | clothing-store
-| craft=dressmaker
+| shop=tailor
 |  
 |  
 |  
@@ -16253,23 +15947,6 @@
 |-
 | uk
 | Лікар
-| Physician
-| office/physician
-|  
-| commercial
-| office=physician
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
-| uk
-| Лікар
 | Doctor
 | amenity/doctor
 |  
@@ -16283,6 +15960,23 @@
 |  
 | point
 |  
+|  
+|-
+| uk
+| Лікар
+| Physician
+| office/physician
+|  
+| commercial
+| office=physician
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
 |  
 |-
 | uk
@@ -16321,6 +16015,23 @@
 |-
 | uk
 | Місце для пікніка
+| Picnic Site
+| tourism/picnic_site
+|  
+| park
+| tourism=picnic_site
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| uk
+| Місце для пікніка
 | Picnic Table
 | leisure/picnic_table
 |  
@@ -16337,12 +16048,12 @@
 |  
 |-
 | uk
-| Місце для пікніка
-| Picnic Site
-| tourism/picnic_site
+| Місцевість
+| Place
+| place
 |  
-| park
-| tourism=picnic_site
+|  
+| place=*
 |  
 |  
 |  
@@ -16368,23 +16079,6 @@
 |  
 | point
 |  
-|  
-|-
-| uk
-| Місцевість
-| Place
-| place
-|  
-|  
-| place=*
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
 |  
 |-
 | uk
@@ -16423,23 +16117,6 @@
 |-
 | uk
 | Пішохідний перехід
-| Crosswalk
-| footway/crosswalk
-|  
-|  
-| highway=footway
-| footway=crossing
-| crossing=zebra
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| uk
-| Пішохідний перехід
 | Crossing
 | highway/crossing
 |  
@@ -16456,36 +16133,36 @@
 |  
 |-
 | uk
-| Роздрібна торгівля
-| Retail Building
-| building/retail
-|  
-| building
-| building=retail
+| Пішохідний перехід
+| Crosswalk
+| footway/crosswalk
 |  
 |  
+| highway=footway
+| footway=crossing
+| crossing=zebra
 |  
 |  
-| area
 |  
-| point
+| line
+|  
 |  
 |  
 |-
 | uk
-| Роздрібна торгівля
-| Retail
-| landuse/retail
+| Сад
+| Orchard
+| landuse/orchard
 |  
-| shop
-| landuse=retail
+| park2
+| landuse=orchard
 |  
 |  
 |  
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -16504,23 +16181,6 @@
 |  
 | point
 | vertex
-|  
-|-
-| uk
-| Сад
-| Orchard
-| landuse/orchard
-|  
-| park2
-| landuse=orchard
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
 |  
 |-
 | uk
@@ -16661,6 +16321,23 @@
 |-
 | vi
 | Ga ra
+| Garage
+| building/garage
+|  
+| warehouse
+| building=garage
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| vi
+| Ga ra
 | Garages
 | landuse/garages
 |  
@@ -16677,19 +16354,19 @@
 |  
 |-
 | vi
-| Ga ra
-| Garage
-| building/garage
-|  
-| warehouse
-| building=garage
+| Lối Băng qua Đường
+| Crossing
+| footway/crossing
 |  
 |  
+| highway=footway
+| footway=crossing
 |  
 |  
-| area
 |  
-| point
+|  
+| line
+|  
 |  
 |  
 |-
@@ -16712,23 +16389,6 @@
 |-
 | vi
 | Lối Băng qua Đường
-| Crosswalk
-| highway/crosswalk
-|  
-|  
-| highway=crossing
-| crossing=zebra
-|  
-|  
-|  
-|  
-|  
-|  
-| vertex
-|  
-|-
-| vi
-| Lối Băng qua Đường
 | Crossing
 | highway/crossing
 |  
@@ -16746,19 +16406,19 @@
 |-
 | vi
 | Lối Băng qua Đường
-| Crossing
-| footway/crossing
+| Crosswalk
+| highway/crosswalk
 |  
 |  
-| highway=footway
-| footway=crossing
+| highway=crossing
+| crossing=zebra
 |  
 |  
 |  
 |  
-| line
 |  
 |  
+| vertex
 |  
 |-
 | vi
@@ -16796,37 +16456,20 @@
 |  
 |-
 | vi
-| Nhà ga
-| Railway Station
-| railway/station
+| Nhà thờ
+| Church
+| amenity/place_of_worship/christian
 |  
-| rail
-| railway=station
-|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
 |  
 |  
 |  
 | area
 |  
 | point
-| vertex
 |  
-|-
-| vi
-| Nhà ga
-| Railway Platform
-| railway/platform
-|  
-|  
-| railway=platform
-|  
-|  
-|  
-|  
-| area
-| line
-| point
-| vertex
 |  
 |-
 | vi
@@ -16837,23 +16480,6 @@
 | place-of-worship
 | building=church
 |  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| vi
-| Nhà thờ
-| Church
-| amenity/place_of_worship/christian
-|  
-| religious-christian
-| amenity=place_of_worship
-| religion=christian
 |  
 |  
 |  
@@ -16898,57 +16524,6 @@
 |  
 |-
 | vi
-| Sân bay
-| Airport
-| aeroway/aerodrome
-|  
-| airport
-| aeroway=aerodrome
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| vi
-| Sân bay
-| Airfield
-| military/airfield
-|  
-| airfield
-| military=airfield
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
-| vi
-| Tiệm Kẹo
-| Candy Store
-| shop/confectionery
-|  
-| shop
-| shop=confectionery
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| vi
 | Tiệm Kẹo
 | Confectionery
 | craft/confectionery
@@ -16966,12 +16541,12 @@
 |  
 |-
 | vi
-| Tiệm Mỹ phẩm
-| Beauty Shop
-| shop/beauty
+| Tiệm Kẹo
+| Candy Store
+| shop/confectionery
 |  
 | shop
-| shop=beauty
+| shop=confectionery
 |  
 |  
 |  
@@ -17000,12 +16575,12 @@
 |  
 |-
 | vi
-| Tiệm Thời trang
-| Boutique
-| shop/boutique
+| Tiệm Mỹ phẩm
+| Beauty Shop
+| shop/beauty
 |  
 | shop
-| shop=boutique
+| shop=beauty
 |  
 |  
 |  
@@ -17034,12 +16609,12 @@
 |  
 |-
 | vi
-| Tiệm Trang trí Nội thất
-| Kitchen Design Store
-| shop/kitchen
+| Tiệm Thời trang
+| Boutique
+| shop/boutique
 |  
 | shop
-| shop=kitchen
+| shop=boutique
 |  
 |  
 |  
@@ -17057,6 +16632,23 @@
 |  
 | shop
 | shop=interior_decoration
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| vi
+| Tiệm Trang trí Nội thất
+| Kitchen Design Store
+| shop/kitchen
+|  
+| shop
+| shop=kitchen
 |  
 |  
 |  
@@ -17148,7 +16740,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -17488,8 +17080,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | zh-CN
@@ -17539,7 +17131,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -17794,7 +17386,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -17811,7 +17403,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -18559,8 +18151,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | zh
@@ -18627,7 +18219,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-

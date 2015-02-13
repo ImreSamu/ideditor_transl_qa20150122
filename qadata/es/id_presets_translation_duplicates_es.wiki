@@ -48,22 +48,6 @@
 |  
 |-
 | Banco
-| Bench
-| amenity/bench
-|  
-|  
-| amenity=bench
-|  
-|  
-|  
-|  
-|  
-| line
-| point
-| vertex
-|  
-|-
-| Banco
 | Bank
 | amenity/bank
 |  
@@ -79,20 +63,20 @@
 |  
 |  
 |-
-| Canal
-| Fairway
-| golf/fairway
-|  
-| golf
-| golf=fairway
-| landuse=grass
+| Banco
+| Bench
+| amenity/bench
 |  
 |  
-|  
-| area
+| amenity=bench
 |  
 |  
 |  
+|  
+|  
+| line
+| point
+| vertex
 |  
 |-
 | Canal
@@ -111,35 +95,19 @@
 |  
 |  
 |-
-| Ciudad
-| Town
-| place/town
+| Canal
+| Fairway
+| golf/fairway
 |  
-| town
-| place=town
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Ciudad
-| City
-| place/city
-|  
-| city
-| place=city
-|  
+| golf
+| golf=fairway
+| landuse=grass
 |  
 |  
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -175,60 +143,12 @@
 |  
 |  
 |-
-| Cruce peatonal
-| Crosswalk
-| footway/crosswalk
+| Garajes
+| Garages
+| building/garages
 |  
-|  
-| highway=footway
-| footway=crossing
-| crossing=zebra
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| Cruce peatonal
-| Crosswalk
-| highway/crosswalk
-|  
-|  
-| highway=crossing
-| crossing=zebra
-|  
-|  
-|  
-|  
-|  
-|  
-| vertex
-|  
-|-
-| Farmacia
-| Medical Supply Store
-| shop/medical_supply
-|  
-| shop
-| shop=medical_supply
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Farmacia
-| Pharmacy
-| amenity/pharmacy
-|  
-| pharmacy
-| amenity=pharmacy
+| warehouse
+| building=garages
 |  
 |  
 |  
@@ -255,60 +175,12 @@
 |  
 |  
 |-
-| Garajes
-| Garages
-| building/garages
-|  
-| warehouse
-| building=garages
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Granja
-| Farm
-| landuse/farmland
-|  
-| farm
-| landuse=farmland
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Granja
-| Farmyard
-| landuse/farmyard
-|  
-| farm
-| landuse=farmyard
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Iglesia
-| Church
-| building/church
+| Lugar de culto
+| Place of Worship
+| amenity/place_of_worship
 |  
 | place-of-worship
-| building=church
+| amenity=place_of_worship
 |  
 |  
 |  
@@ -319,7 +191,7 @@
 |  
 |  
 |-
-| Iglesia
+| Lugar de culto
 | Church
 | amenity/place_of_worship/christian
 |  
@@ -335,35 +207,19 @@
 |  
 |  
 |-
-| Médico
-| Physician
-| office/physician
-|  
-| commercial
-| office=physician
+| Paso de peatones
+| Crossing
+| footway/crossing
 |  
 |  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
-| Médico
-| Doctor
-| amenity/doctor
-|  
-| hospital
-| amenity=doctors
+| highway=footway
+| footway=crossing
 |  
 |  
 |  
 |  
-| area
+| line
 |  
-| point
 |  
 |  
 |-
@@ -384,13 +240,29 @@
 |  
 |-
 | Paso de peatones
-| Crossing
-| footway/crossing
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
+|  
+|-
+| Paso de peatones
+| Crosswalk
+| footway/crosswalk
 |  
 |  
 | highway=footway
 | footway=crossing
-|  
+| crossing=zebra
 |  
 |  
 |  
@@ -399,44 +271,12 @@
 |  
 |  
 |-
-| Presa
-| Weir
-| waterway/weir
+| Pueblo
+| Town
+| place/town
 |  
-| dam
-| waterway=weir
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-| vertex
-|  
-|-
-| Presa
-| Dam
-| waterway/dam
-|  
-| dam
-| waterway=dam
-|  
-|  
-|  
-|  
-| area
-| line
-| point
-| vertex
-|  
-|-
-| Refugio
-| Hut
-| building/hut
-|  
-|  
-| building=hut
+| town
+| place=town
 |  
 |  
 |  
@@ -447,12 +287,12 @@
 |  
 |  
 |-
-| Refugio
-| Shelter
-| amenity/shelter
+| Pueblo
+| Village
+| place/village
 |  
-|  
-| amenity=shelter
+| village
+| place=village
 |  
 |  
 |  
@@ -460,7 +300,7 @@
 | area
 |  
 | point
-| vertex
+|  
 |  
 |-
 | Relojero
@@ -527,35 +367,35 @@
 |  
 | relation
 |-
-| Teleférico
-| Cable Car
-| aerialway/cable_car
+| Área Comercial
+| Commercial Area
+| landuse/commercial
+|  
+| commercial
+| landuse=commercial
 |  
 |  
-| aerialway=cable_car
 |  
 |  
+| area
 |  
-|  
-|  
-| line
 |  
 |  
 |  
 |-
-| Teleférico
-| Aerialway
-| aerialway
+| Área Comercial
+| Retail Area
+| landuse/retail
+|  
+| shop
+| landuse=retail
 |  
 |  
-| aerialway=*
+|  
+|  
+| area
 |  
 |  
 |  
-|  
-|  
-| line
-| point
-| vertex
 |  
 |}

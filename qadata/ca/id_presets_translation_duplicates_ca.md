@@ -3,7 +3,7 @@
 |Banc|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
 |Banc|Bank|amenity/bank| |bank|amenity=bank| | | | |area| |point| | |
 |Bosc|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
-|Bosc|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|Bosc|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |Botiga de cosmètics|Cosmetics Store|shop/cosmetics| |shop|shop=cosmetics| | | | |area| |point| | |
 |Botiga de cosmètics|Beauty Shop|shop/beauty| |shop|shop=beauty| | | | |area| |point| | |
 |Botiga de roba|Fashion Store|shop/fashion| |shop|shop=fashion| | | | |area| |point| | |
@@ -15,7 +15,7 @@
 |Capella|Wayside Shrine|historic/wayside_shrine| | |historic=wayside_shrine| | | | |area| |point|vertex| |
 |Capella|Chapel|building/chapel| |place-of-worship|building=chapel| | | | |area| |point| | |
 |Cementiri|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|Cementiri|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Cementiri|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |Església|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |Església|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |Farmàcia|Medical Supply Store|shop/medical_supply| |shop|shop=medical_supply| | | | |area| |point| | |

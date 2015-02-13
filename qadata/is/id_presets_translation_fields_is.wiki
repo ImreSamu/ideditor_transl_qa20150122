@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+|  
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+|  
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -3277,8 +3292,8 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
+| impassable
+| Impassable / No wheeled vehicle
 | 
 |  
 |  

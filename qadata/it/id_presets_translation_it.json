@@ -216,7 +216,9 @@
     "back_tooltip__transl": "Cambia elemento",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "No",
+      "yes__en": "Yes",
+      "yes__transl": "Sì"
     },
     "choose__en": "Select feature type",
     "choose__transl": "Seleziona il tipo di caratteristica",
@@ -515,6 +517,7 @@
       "description__transl": "Cancella l'oggetto irreversibilmente.",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "Questo elemento non può essere cancellato perché non è stato completamente scaricato.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Cancella"
     },
@@ -1246,6 +1249,7 @@
         "key": "brand",
         "label": "Brand",
         "label__en": "Brand",
+        "label__transl": "Brand",
         "type": "text"
       },
       "building": {
@@ -1622,6 +1626,35 @@
         "label__transl": "Scartamento",
         "type": "combo"
       },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "label__transl": "Genere",
+        "options": {
+          "female__en": "Female",
+          "female__transl": "Femminile",
+          "male__en": "Male",
+          "male__transl": "Maschile",
+          "unisex__en": "Unisex",
+          "unisex__transl": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "placeholder__transl": "Sconosciuto",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
+      },
       "generator/method": {
         "key": "generator:method",
         "label": "Method",
@@ -1778,12 +1811,18 @@
         "key": "leaf_cycle",
         "label": "Leaf Cycle",
         "label__en": "Leaf Cycle",
+        "label__transl": "Fogliame",
         "options": {
           "deciduous__en": "Deciduous",
+          "deciduous__transl": "Deciduo",
           "evergreen__en": "Evergreen",
+          "evergreen__transl": "Sempreverde",
           "mixed__en": "Mixed",
+          "mixed__transl": "Misto",
           "semi_deciduous__en": "Semi-Deciduous",
-          "semi_evergreen__en": "Semi-Evergreen"
+          "semi_deciduous__transl": "Semi-deciduo",
+          "semi_evergreen__en": "Semi-Evergreen",
+          "semi_evergreen__transl": "Semi-sempreverde"
         },
         "strings": {
           "options": {
@@ -1800,11 +1839,16 @@
         "key": "leaf_type",
         "label": "Leaf Type",
         "label__en": "Leaf Type",
+        "label__transl": "Tipo di foglia",
         "options": {
           "broadleaved__en": "Broadleaved",
+          "broadleaved__transl": "Latifoglia",
           "leafless__en": "Leafless",
+          "leafless__transl": "Senza foglie",
           "mixed__en": "Mixed",
-          "needleleaved__en": "Needleleaved"
+          "mixed__transl": "Misto",
+          "needleleaved__en": "Needleleaved",
+          "needleleaved__transl": "Aghifoglia"
         },
         "strings": {
           "options": {
@@ -2526,8 +2570,8 @@
           "good__transl": "Ruote sottili: biciclette da corsa e simili",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
           "horrible__transl": "Fuoristrada: veicoli fuoristrada pesanti e simili. ",
-          "impassible__en": "Impassible / No wheeled vehicle",
-          "impassible__transl": "Nessun veicolo ruotato",
+          "impassable__en": "Impassable / No wheeled vehicle",
+          "impassable__transl": "Nessun veicolo ruotato",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "intermediate__transl": "Ruote: biciclette da città, sedie a rotelle, scooter e simili",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
@@ -2544,7 +2588,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -20943,7 +20987,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -24472,7 +24517,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24488,7 +24532,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24508,8 +24551,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24545,20 +24586,19 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "Commerciale",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
+        "name__transl": "Area commerciale",
         "tags": {
           "landuse": "commercial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Commerciale"
+        "terms__transl": "centro commerciale,area commerciale,commerciale,commercio"
       },
       "landuse/construction": {
         "fields": [
@@ -24566,7 +24606,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24589,9 +24628,9 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Agricolo",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Terreno agricolo",
         "searchable": false,
         "tags": {
           "landuse": "farm"
@@ -24599,27 +24638,25 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Fattoria"
+        "terms__transl": "fattoria"
       },
       "landuse/farmland": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "name__transl": "Terreno agricolo",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland",
+        "terms__en": "",
         "terms__transl": "fattoria,campi,campo,agricoltura,agricolo,contadino"
       },
       "landuse/farmyard": {
@@ -24627,7 +24664,6 @@
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24648,7 +24684,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24681,7 +24716,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24697,20 +24731,19 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Industriale",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
+        "name__transl": "Area industriale",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Industriale"
+        "terms__transl": "zona industriale,zona artigianale,industria,artigianato"
       },
       "landuse/landfill": {
         "geometry": [
@@ -24730,7 +24763,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24748,9 +24780,9 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "Militare",
+        "name": "Military Area",
+        "name__en": "Military Area",
+        "name__transl": "Area militare",
         "tags": {
           "landuse": "military"
         },
@@ -24764,7 +24796,6 @@
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24781,7 +24812,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24797,30 +24827,28 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "Residenziale",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
+        "name__transl": "Area residenziale",
         "tags": {
           "landuse": "residential"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Residenziale"
+        "terms__transl": "residenziale,zona residenziale,case,abitazioni,alloggi"
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "Negozio di vendita al dettaglio",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
+        "name__transl": "Area di vendita al dettaglio",
         "tags": {
           "landuse": "retail"
         },
@@ -24829,7 +24857,6 @@
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -35457,7 +35484,7 @@
         "terms__en": "stereo,video",
         "terms__transl": "Negozio Hi-Fi"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -35469,15 +35496,18 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
+        "name__transl": "Casalinghi",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household",
+        "terms__transl": "casalinghi,negozio di casalinghi,pentole"
       },
       "shop/interior_decoration": {
         "fields": [

@@ -423,7 +423,7 @@
 | 1
 | text
 | Brand
-|  
+| Marque
 |  
 |  
 | brand
@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+| Genre
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Inconnu
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -1569,7 +1584,7 @@
 |  
 | terminal
 | Terminal
-| Ordinateur
+| Terminal
 |  
 |  
 | last
@@ -1638,13 +1653,13 @@
 | 1
 | combo
 | Leaf Cycle
-|  
+| Phénologie des feuilles
 |  
 |  
 | leaf_cycle
 | evergreen
 | Evergreen
-| 
+| Sempervirent
 |  
 |  
 | last
@@ -1659,7 +1674,7 @@
 |  
 | deciduous
 | Deciduous
-| 
+| Caduc
 |  
 |  
 | last
@@ -1674,7 +1689,7 @@
 |  
 | semi_evergreen
 | Semi-Evergreen
-| 
+| Semi-Sempervirent
 |  
 |  
 | last
@@ -1689,7 +1704,7 @@
 |  
 | semi_deciduous
 | Semi-Deciduous
-| 
+| Semi-Caduc
 |  
 |  
 | last
@@ -1704,7 +1719,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Mélangé
 |  
 |  
 | last
@@ -1713,13 +1728,13 @@
 | 1
 | combo
 | Leaf Type
-|  
+| Type de feuille
 |  
 |  
 | leaf_type
 | broadleaved
 | Broadleaved
-| 
+| Feuillus
 |  
 |  
 | last
@@ -1734,7 +1749,7 @@
 |  
 | needleleaved
 | Needleleaved
-| 
+| Arbres à aiguilles
 |  
 |  
 | last
@@ -1749,7 +1764,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Mélangé
 |  
 |  
 | last
@@ -1764,7 +1779,7 @@
 |  
 | leafless
 | Leafless
-| 
+| Sans feuilles
 |  
 |  
 | last
@@ -3277,9 +3292,9 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
-| Impossible / Pas de véhicule avec des roues
+| impassable
+| Impassable / No wheeled vehicle
+| Infranchissable / Pas de véhicules à roues
 |  
 |  
 | last

@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+| Geslacht
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Onbekend
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -2283,7 +2298,7 @@
 | 1
 | number
 | Par
-|  
+| Par
 |  
 |  
 | par
@@ -2454,7 +2469,7 @@
 |  
 | easy
 | Easy (green circle)
-| makkelijk (groene rondje)
+| Makkelijk (groen rondje)
 |  
 |  
 | last
@@ -2484,7 +2499,7 @@
 |  
 | advanced
 | Advanced (black diamond)
-| Gevorderd (zwarte diamand)
+| Gevorderd (zwarte ruit)
 |  
 |  
 | last
@@ -2499,7 +2514,7 @@
 |  
 | expert
 | Expert (double black diamond)
-| Expert (dubbele zwarte diamand)
+| Expert (dubbele zwarte ruit)
 |  
 |  
 | last
@@ -2512,9 +2527,9 @@
 |  
 |  
 |  
-| extreme
+| freeride
 | Freeride (off-piste)
-| Extreem (klimuitrusting vereist)
+| Freeride (niet op piste)
 |  
 |  
 | last
@@ -2529,7 +2544,7 @@
 |  
 | extreme
 | Extreme (climbing equipment required)
-| 
+| Extreem (klimuitrusting vereist)
 |  
 |  
 | last
@@ -2538,7 +2553,7 @@
 | 1
 | combo
 | Grooming
-|  
+| Manier van sneeuw-grooming
 |  
 |  
 | piste:grooming
@@ -2559,7 +2574,7 @@
 |  
 | mogul
 | Mogul
-| Mogul
+| Buckel
 |  
 |  
 | last
@@ -2574,7 +2589,7 @@
 |  
 | backcountry
 | Backcountry
-| Binnenland
+| Freeride
 |  
 |  
 | last
@@ -2589,7 +2604,7 @@
 |  
 | classic+skating
 | Classic and Skating
-| Klassiek en Rolschaatsen
+| Klassiek en Schaatsen
 |  
 |  
 | last
@@ -2619,7 +2634,7 @@
 |  
 | skating
 | Skating
-| Rolschaatsen
+| Schaatsen
 |  
 |  
 | last
@@ -2988,7 +3003,7 @@
 | 1
 | check
 | Chain Tool
-|  
+| Kettinggereedschap
 |  
 |  
 | service:bicycle:chaintool
@@ -3003,7 +3018,7 @@
 | 1
 | check
 | Air Pump
-|  
+| Fietspomp
 |  
 |  
 | service:bicycle:pump
@@ -3277,9 +3292,9 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
-| Ondoordringbaar / Geen voertuig op wielen
+| impassable
+| Impassable / No wheeled vehicle
+| Ontoegankelijk / Geen voertuig op wielen
 |  
 |  
 | last

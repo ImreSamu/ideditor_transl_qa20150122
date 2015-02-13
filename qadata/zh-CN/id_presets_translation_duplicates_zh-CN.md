@@ -9,10 +9,10 @@
 |公交车站|Bus Stop|highway/bus_stop| |bus|highway=bus_stop| | | | | | |point|vertex| |
 |公交车站|Bus Station|amenity/bus_station| |bus|amenity=bus_station| | | | |area| |point| | |
 |墓地|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|墓地|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|墓地|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |墓地|Churchyard|landuse/churchyard| | |landuse=churchyard| | | | |area| | | | |
 |建筑物|Building|building| |building|building=*| | | | |area| | | | |
-|建筑物|Construction|landuse/construction| | |landuse=construction| | | | |area| |point| | |
+|建筑物|Construction|landuse/construction| | |landuse=construction| | | | |area| | | | |
 |教堂|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |教堂|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |村庄|Village|place/village| |village|place=village| | | | |area| |point| | |
@@ -27,8 +27,8 @@
 |纪念碑|Memorial|historic/memorial| |monument|historic=memorial| | | | |area| |point|vertex| |
 |缆车|Funicular|railway/funicular| |railway-rail|railway=funicular| | | | | |line| | | |
 |缆车|Cable Car|aerialway/cable_car| | |aerialway=cable_car| | | | | |line| | | |
-|草地|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
-|草地|Grass|landuse/grass| | |landuse=grass| | | | |area| |point| | |
+|草地|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| | | | |
+|草地|Grass|landuse/grass| | |landuse=grass| | | | |area| | | | |
 |路口|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
 |路口|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
 |车库|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |

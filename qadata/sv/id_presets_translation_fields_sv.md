@@ -27,7 +27,7 @@
 |bench|1|check|Bench|Bänk| | |bench| | | | | |last|
 |bicycle_parking|1|combo|Type|Typ| | |bicycle_parking| | | | | |last|
 |boundary|1|combo|Type|Typ| | |boundary| | | | | |last|
-|brand|1|text|Brand| | | |brand| | | | | |last|
+|brand|1|text|Brand|Varumärke| | |brand| | | | | |last|
 |building|1|typeCombo|Building|Byggnad| | |building| | | | | |last|
 |building_area|1|defaultcheck|Building|Byggnad| | |building| | | | | |last|
 |capacity|1|number|Capacity|Kapacitet| | |capacity| | | |50, 100, 200...|50, 100, 200...|last|
@@ -87,6 +87,7 @@
 |fuel/octane_95|1|check|Sells Midgrade Gasoline|Säljer E95| | |fuel:octane_95| | | | | |last|
 |fuel/octane_98|1|check|Sells Premium Gasoline|Säljer E98| | |fuel:octane_98| | | | | |last|
 |gauge|1|combo|Gauge|Spårvidd| | |gauge| | | | | |last|
+|gender|1|radio|Gender|Kön| | |male,female,unisex| | | |Unknown|Okänt|last|
 |generator/method|1|combo|Method|Metod| | |generator:method| | | | | |last|
 |generator/source|1|combo|Source|Källa| | |generator:source| | | | | |last|
 |generator/type|1|combo|Type|Typ| | |generator:type| | | | | |last|
@@ -108,15 +109,15 @@
 |landuse|1|typeCombo|Type|Typ| | |landuse| | | | | |last|
 |lanes|1|number|Lanes|Filer| | |lanes| | | |1, 2, 3...|1, 2, 3...|last|
 |layer|1|combo|Layer|Lager| | |layer| | | | | |last|
-|leaf_cycle|1|combo|Leaf Cycle| | | |leaf_cycle|evergreen|Evergreen|| | |last|
-|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|| | |last|
-|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|| | |last|
-|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|| | |last|
-|leaf_cycle|5|combo| | | | | |mixed|Mixed|| | |last|
-|leaf_type|1|combo|Leaf Type| | | |leaf_type|broadleaved|Broadleaved|| | |last|
-|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|| | |last|
-|leaf_type|3|combo| | | | | |mixed|Mixed|| | |last|
-|leaf_type|4|combo| | | | | |leafless|Leafless|| | |last|
+|leaf_cycle|1|combo|Leaf Cycle|Lövcykel| | |leaf_cycle|evergreen|Evergreen|Vintergröna| | |last|
+|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|Lövfällande| | |last|
+|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|Delvist vintergröna| | |last|
+|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|Delvist lövfällande| | |last|
+|leaf_cycle|5|combo| | | | | |mixed|Mixed|Mixat| | |last|
+|leaf_type|1|combo|Leaf Type|Lövtyp| | |leaf_type|broadleaved|Broadleaved|Löv| | |last|
+|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|Barr| | |last|
+|leaf_type|3|combo| | | | | |mixed|Mixed|Blandat| | |last|
+|leaf_type|4|combo| | | | | |leafless|Leafless|Utan löv| | |last|
 |leisure|1|typeCombo|Type|Typ| | |leisure| | | | | |last|
 |length|1|number|Length (Meters)|Längd (meter)| | |length| | | | | |last|
 |levels|1|number|Levels|Våningar| | |building:levels| | | |2, 4, 6...|2, 4, 6...|last|
@@ -217,7 +218,7 @@
 |smoothness|5|combo| | | | | |very_bad|High Clearance: light duty off-road vehicle|Hög frigång: lätta terrängfordon| | |last|
 |smoothness|6|combo| | | | | |horrible|Off-Road: heavy duty off-road vehicle|Terräng: tunga terrängfordon| | |last|
 |smoothness|7|combo| | | | | |very_horrible|Specialized off-road: tractor, ATV|Specialiserade för terräng: traktor, fyrhjuling| | |last|
-|smoothness|8|combo| | | | | |impassible|Impassible / No wheeled vehicle|Ogenomträngliga / Ej hjulbaserade fordon| | |last|
+|smoothness|8|combo| | | | | |impassable|Impassable / No wheeled vehicle|Oframkomligt / Inga hjulfordon| | |last|
 |social_facility_for|1|radio|People served|Människohjälp| | |social_facility:for| | | |Homeless, Disabled, Child, etc|Hemlösa, funktionshindrade, barn, etc.|last|
 |source|1|text|Source|Källa|source|true|source| | | | | |last|
 |sport|1|combo|Sport|Sport| | |sport| | | | | |last|

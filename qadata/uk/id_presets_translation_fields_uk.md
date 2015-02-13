@@ -27,7 +27,7 @@
 |bench|1|check|Bench|Лавка| | |bench| | | | | |last|
 |bicycle_parking|1|combo|Type|Тип| | |bicycle_parking| | | | | |last|
 |boundary|1|combo|Type|Тип| | |boundary| | | | | |last|
-|brand|1|text|Brand| | | |brand| | | | | |last|
+|brand|1|text|Brand|Марка| | |brand| | | | | |last|
 |building|1|typeCombo|Building|Будинок| | |building| | | | | |last|
 |building_area|1|defaultcheck|Building|Будинок| | |building| | | | | |last|
 |capacity|1|number|Capacity|Міськість| | |capacity| | | |50, 100, 200...|50, 100, 200…|last|
@@ -87,6 +87,7 @@
 |fuel/octane_95|1|check|Sells Midgrade Gasoline|Покращений бензин| | |fuel:octane_95| | | | | |last|
 |fuel/octane_98|1|check|Sells Premium Gasoline|Преміум бензин| | |fuel:octane_98| | | | | |last|
 |gauge|1|combo|Gauge|Колія| | |gauge| | | | | |last|
+|gender|1|radio|Gender|Стать| | |male,female,unisex| | | |Unknown|Невідомо|last|
 |generator/method|1|combo|Method|Метод| | |generator:method| | | | | |last|
 |generator/source|1|combo|Source|Джерело| | |generator:source| | | | | |last|
 |generator/type|1|combo|Type|Тип| | |generator:type| | | | | |last|
@@ -108,15 +109,15 @@
 |landuse|1|typeCombo|Type|Тип| | |landuse| | | | | |last|
 |lanes|1|number|Lanes|Смуги| | |lanes| | | |1, 2, 3...|1, 2, 3…|last|
 |layer|1|combo|Layer|Шар| | |layer| | | | | |last|
-|leaf_cycle|1|combo|Leaf Cycle| | | |leaf_cycle|evergreen|Evergreen|| | |last|
-|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|| | |last|
-|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|| | |last|
-|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|| | |last|
-|leaf_cycle|5|combo| | | | | |mixed|Mixed|| | |last|
-|leaf_type|1|combo|Leaf Type| | | |leaf_type|broadleaved|Broadleaved|| | |last|
-|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|| | |last|
-|leaf_type|3|combo| | | | | |mixed|Mixed|| | |last|
-|leaf_type|4|combo| | | | | |leafless|Leafless|| | |last|
+|leaf_cycle|1|combo|Leaf Cycle|Сезонність| | |leaf_cycle|evergreen|Evergreen|Вічнозелений| | |last|
+|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|Листяний| | |last|
+|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|Напів-вичнозелений| | |last|
+|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|Напів-лістяний| | |last|
+|leaf_cycle|5|combo| | | | | |mixed|Mixed|Змішаний| | |last|
+|leaf_type|1|combo|Leaf Type|Тип лісття| | |leaf_type|broadleaved|Broadleaved|Широколисті| | |last|
+|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|Хвоя| | |last|
+|leaf_type|3|combo| | | | | |mixed|Mixed|Змішана| | |last|
+|leaf_type|4|combo| | | | | |leafless|Leafless|Без лисття| | |last|
 |leisure|1|typeCombo|Type|Тип| | |leisure| | | | | |last|
 |length|1|number|Length (Meters)|Довжина (метрів)| | |length| | | | | |last|
 |levels|1|number|Levels|Поверхи| | |building:levels| | | |2, 4, 6...|2, 4, 6…|last|
@@ -217,7 +218,7 @@
 |smoothness|5|combo| | | | | |very_bad|High Clearance: light duty off-road vehicle|Великий кліренс: автомобілі і малі позашляховики| | |last|
 |smoothness|6|combo| | | | | |horrible|Off-Road: heavy duty off-road vehicle|Позашляховики: повноцінні позашляховики| | |last|
 |smoothness|7|combo| | | | | |very_horrible|Specialized off-road: tractor, ATV|Спеціалізовані позашляховики: трактори, мотоусюдиходи, танки, тріалбайкі| | |last|
-|smoothness|8|combo| | | | | |impassible|Impassible / No wheeled vehicle|Неможливо для будь-якої колісної техніки| | |last|
+|smoothness|8|combo| | | | | |impassable|Impassable / No wheeled vehicle|| | |last|
 |social_facility_for|1|radio|People served|Кого обслуговує| | |social_facility:for| | | |Homeless, Disabled, Child, etc|Обслуговують бездомних, інвалідів, дітей і т.п.|last|
 |source|1|text|Source|Джерело|source|true|source| | | | | |last|
 |sport|1|combo|Sport|Спорт| | |sport| | | | | |last|

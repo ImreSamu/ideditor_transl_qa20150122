@@ -1,4 +1,64 @@
  {
++  map_data: {
++    title: "Harita Verisi"
++    description: "Harita Verisi"
++    data_layers: "Veri Katmanları"
++    fill_area: "Alanları Doldur"
++    map_features: "Harita Özellikleri"
++    autohidden: "Bu özellikler ekranda çok sayıda gösterilebileceği için otomatik olarak gizlendi. Düzenlemek için zum yapabilirsiniz."
++  }
++  feature: {
++    points: {
++      description: "Noktalar"
++    }
++    major_roads: {
++      tooltip: "Karayolu, Sokak, vb."
++    }
++    buildings: {
++      description: "Binalar"
++      tooltip: "Binalar, Barınaklar, Garajlar, vb."
++    }
++    landuse: {
++      description: "Arazi Özellikleri"
++      tooltip: "Ormanlar, Tarım arazisi, Parklar, Yerleşim, Ticari, vb."
++    }
++    boundaries: {
++      description: "Sınırlar"
++    }
++    water: {
++      tooltip: "Nehirler, Göller, Havuzlar, Havzalar, vb."
++    }
++    rail: {
++      description: "Demiryolu Özellikleri"
++      tooltip: "Demiryolları"
++    }
++    power: {
++      tooltip: "Enerji Nakil Hatları, Enerji Santralleri, Trafolar, vb."
++    }
++    others: {
++      tooltip: "Geriye Kalanlar"
++    }
++  }
++  area_fill: {
++    partial: {
++      description: "Kısmen Doldur"
++    }
++    full: {
++      description: "Tamamen Doldur"
++      tooltip: "Alanlar tamamen doldurulmuş olarak çizildi."
++    }
++  }
++  mapillary: {
++    view_on_mapillary: "Bu resmi Mapillary'de görüntüle"
++  }
+   save: {
++    unknown_error_details: "Lütfen internete bağlı olduğunuzdan emin olun."
+   }
+   intro: {
+     areas: {
++      place: "Alanı daha fazla nokta ekleyerek çiziniz. Başladığınız noktaya tıklayarak alan çizimini bitiriniz. **Test alanı için bir alan çiziniz.**"
+     }
+   }
    presets: {
      fields: {
 -      wood: {
@@ -6,8 +66,23 @@
 -      }
      }
      presets: {
+-      landuse/commercial: {
+-        name: "Ticari"
+-      }
+-      landuse/farm: {
+-        name: "Tarla"
+-      }
 -      landuse/farmland: {
 -        name: "Çiftlik"
+-      }
+-      landuse/industrial: {
+-        name: "Endüstri"
+-      }
+-      landuse/military: {
+-        name: "Çeril"
+-      }
+-      landuse/residential: {
+-        name: "Yerleşim"
 -      }
      }
    }

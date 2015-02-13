@@ -423,7 +423,7 @@
 | 1
 | text
 | Brand
-|  
+| Varumärke
 |  
 |  
 | brand
@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+| Kön
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Okänt
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -1638,13 +1653,13 @@
 | 1
 | combo
 | Leaf Cycle
-|  
+| Lövcykel
 |  
 |  
 | leaf_cycle
 | evergreen
 | Evergreen
-| 
+| Vintergröna
 |  
 |  
 | last
@@ -1659,7 +1674,7 @@
 |  
 | deciduous
 | Deciduous
-| 
+| Lövfällande
 |  
 |  
 | last
@@ -1674,7 +1689,7 @@
 |  
 | semi_evergreen
 | Semi-Evergreen
-| 
+| Delvist vintergröna
 |  
 |  
 | last
@@ -1689,7 +1704,7 @@
 |  
 | semi_deciduous
 | Semi-Deciduous
-| 
+| Delvist lövfällande
 |  
 |  
 | last
@@ -1704,7 +1719,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Mixat
 |  
 |  
 | last
@@ -1713,13 +1728,13 @@
 | 1
 | combo
 | Leaf Type
-|  
+| Lövtyp
 |  
 |  
 | leaf_type
 | broadleaved
 | Broadleaved
-| 
+| Löv
 |  
 |  
 | last
@@ -1734,7 +1749,7 @@
 |  
 | needleleaved
 | Needleleaved
-| 
+| Barr
 |  
 |  
 | last
@@ -1749,7 +1764,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Blandat
 |  
 |  
 | last
@@ -1764,7 +1779,7 @@
 |  
 | leafless
 | Leafless
-| 
+| Utan löv
 |  
 |  
 | last
@@ -3277,9 +3292,9 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
-| Ogenomträngliga / Ej hjulbaserade fordon
+| impassable
+| Impassable / No wheeled vehicle
+| Oframkomligt / Inga hjulfordon
 |  
 |  
 | last

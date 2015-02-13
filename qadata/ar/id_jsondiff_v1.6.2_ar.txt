@@ -1,11 +1,108 @@
  {
+   modes: {
+     add_area: {
+-      tail: "انقر على الخارطة للبدء في رسم منطقة، كحديقة, بجيرة أو مبنى."
++      tail: "انقر على الخارطة للبدء في رسم منطقة مثل حديقة أو بحيرة أو مبنى."
+     }
+     add_point: {
+-      description: "أضف مطاعم، نُصب تذكارية، مكاتب بريد أو نقاط اخرى إلى الخارطة."
++      description: "أضف مطاعم، نُصب تذكارية، مكاتب بريد أو نقاط أخري إلى الخارطة."
+     }
+   }
+   operations: {
+     continue: {
++      key: "A"
+     }
+     straighten: {
++      key: "S"
+     }
+     delete: {
++      description: "احذف الكائن نهائيا"
+     }
+     merge: {
++      not_eligible: "هذه المميزات لا يمكن دمجها"
++      incomplete_relation: "لا يمكن دمج هذه المميزات لأن واحد منها على الأقل لم يتم تحميله بالكامل."
+     }
+     split: {
+       annotation: {
++        area: "افصل حدود منطقة"
+       }
+     }
+   }
+   inspector: {
++    check: {
++      yes: "نعم"
++      no: "لا"
++    }
++    way: "مسار"
++    relation: "علاقة"
++    location: "مكان"
++    add_fields: "أضف حقل"
+   }
    presets: {
+     categories: {
++      category-golf: {
++        name: "جولف"
++      }
+     }
      fields: {
 -      tree_type: {
 -        label: "النوع"
 -      }
 -      wood: {
 -        label: "النوع"
+-      }
++      access_toilets: {
++        label: "الدخول"
++      }
++      aerialway: {
++        label: "نوع"
++      }
++      aerialway/access: {
++        label: "دخول"
++        options: {
++          entry: "مدخل"
++          exit: "مخرج"
++          both: "كلاهما"
++        }
++      }
++      aerialway/duration: {
++        label: "المدة (دقائق)"
++        placeholder: "1, 2, 3..."
++      }
+       access_simple: {
++        placeholder: "نعم"
+       }
+       address: {
+         placeholders: {
++          housename: "اسم المنزل"
++          housenumber: "123"
++          postcode: "الرمز البريدي"
++          state: "ولاية"
++          country: "دولة"
+         }
+       }
+     }
+     presets: {
+-      landuse/commercial: {
+-        name: "تجاري"
+-        terms: "تجاري"
+-      }
+-      landuse/farm: {
+-        name: "مزرعة"
+-        terms: "مزرعة"
+-      }
+-      landuse/industrial: {
+-        name: "صناعي"
+-        terms: "صناعي"
+-      }
+-      landuse/residential: {
+-        name: "سكني"
+-        terms: "سكتي"
+-      }
+-      landuse/retail: {
+-        name: "بيع بالتجزئة"
+-        terms: "بيع بالتجزئة ، بالقطاعي ، بالمفرق"
 -      }
      }
    }

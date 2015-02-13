@@ -87,6 +87,7 @@
 |fuel/octane_95|1|check|Sells Midgrade Gasoline|Sælger medium benzin| | |fuel:octane_95| | | | | |last|
 |fuel/octane_98|1|check|Sells Premium Gasoline|Sælger premium benzin| | |fuel:octane_98| | | | | |last|
 |gauge|1|combo|Gauge|Sporvidde| | |gauge| | | | | |last|
+|gender|1|radio|Gender|Køn| | |male,female,unisex| | | |Unknown|Ukendt|last|
 |generator/method|1|combo|Method|Metode| | |generator:method| | | | | |last|
 |generator/source|1|combo|Source|Kilde| | |generator:source| | | | | |last|
 |generator/type|1|combo|Type|Type| | |generator:type| | | | | |last|
@@ -217,7 +218,7 @@
 |smoothness|5|combo| | | | | |very_bad|High Clearance: light duty off-road vehicle|Høj frihøjde: lettere terrængående køretøj| | |last|
 |smoothness|6|combo| | | | | |horrible|Off-Road: heavy duty off-road vehicle|Off-Road: terrængående køretøj| | |last|
 |smoothness|7|combo| | | | | |very_horrible|Specialized off-road: tractor, ATV|Specialiseret off-road: traktor, ATV| | |last|
-|smoothness|8|combo| | | | | |impassible|Impassible / No wheeled vehicle|Ufremkommelige / Ingen køretøjer på hjem| | |last|
+|smoothness|8|combo| | | | | |impassable|Impassable / No wheeled vehicle|Ufremkommeligt /Intet køretøj på hjul| | |last|
 |social_facility_for|1|radio|People served|Serviceret folk| | |social_facility:for| | | |Homeless, Disabled, Child, etc|Hjemmeløse, Handicappede, Børn osv|last|
 |source|1|text|Source|Kilde|source|true|source| | | | | |last|
 |sport|1|combo|Sport|Sport| | |sport| | | | | |last|

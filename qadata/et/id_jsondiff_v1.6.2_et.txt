@@ -1,1 +1,18 @@
- undefined
+ {
+   presets: {
+     presets: {
+-      landuse/commercial: {
+-        name: "Ärimaa"
+-      }
+-      landuse/industrial: {
+-        name: "Tootmismaa"
+-      }
+-      landuse/residential: {
+-        name: "Elamumaa"
+-      }
+-      landuse/retail: {
+-        name: "Jaekaubandus"
+-      }
+     }
+   }
+ }

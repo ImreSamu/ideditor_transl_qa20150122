@@ -593,7 +593,7 @@
 | Sân bay
 | 7
 |  
-| duplicate
+|  
 |  
 | airplane,airport,aerodrome
 | máy bay, phi cơ, tàu bay, sân bay, phi trường, cảng hàng không, không cảng, may bay, phi co, tau bay, san bay, phi truong, cang hang khong, khong cang
@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -6668,7 +6668,7 @@
 | Nhà ga
 | 6
 |  
-| duplicate
+|  
 |  
 | 
 | nhà ga,nha ga
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,16 +12153,16 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| Thương mại
-| 10
+| Commercial Area
+| Commercial Area
+| Đất Thương mại
+| 14
 |  
 |  
 |  
 | 
-| thương mại, văn phòng, công ty, công ti, buôn bán, thuong mai, van phong, cong ty, cong ti, buon ban
-| 100
+| đất thương mại, khu vực thương mại, vùng thương mại, phố thương mại, văn phòng, công ty, công ti, đất buôn bán, khu vực buôn bán, vùng buôn bán, dat thuong mai, khu vuc thuong mai, vung thuong mai, pho thuong mai, van phong, cong ty, cong ti, dat buon ban, khu vuc buon ban, vung buon ban
+| 288
 |  
 | commercial
 |  
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,16 +12243,16 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
-| Trang trại
-| 10
+| Farmland
+| Farmland
+| Đất Nông nghiệp
+| 15
 |  
 |  
 |  
 | 
-| trang trại, nông trại, nông nghiệp, đồn điền, điền trang, sơn trang, cánh đồng, trang trai, nong trai, nong nghiep, don dien, dien trang, son trang, canh dong
-| 158
+| đất nông nghiệp, đất trang trại, đất nông trại, đồn điền, điền trang, sơn trang, cánh đồng, dat nong nghiep, dat trang trai, dat nong trai, don dien, dien trang, son trang, canh dong
+| 182
 |  
 | farm
 |  
@@ -12288,16 +12288,16 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
-| Trại
-| 4
+| Farmland
+| Farmland
+| Đất Nông nghiệp
+| 15
 |  
 |  
 |  
-| farmland
-| trại,nông nghiệp,trang trại,đồn điền,trai,nong nghiep,trang trại,don dien
-| 73
+| 
+| đất nông nghiệp, đất trang trại, đất nông trại, đồn điền, điền trang, sơn trang, cánh đồng, dat nong nghiep, dat trang trai, dat nong trai, don dien, dien trang, son trang, canh dong
+| 182
 |  
 | farm
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,16 +12513,16 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
-| Công nghiệp
-| 11
+| Industrial Area
+| Industrial Area
+| Đất Công nghiệp
+| 15
 |  
 |  
 |  
 | 
-| công nghiệp, nhà máy, xưởng, cong nghiep, nha may, xuong
-| 56
+| đất công nghiệp, khu vực công nghiệp, vùng công nghiệp nhà máy, xưởng, dat cong nghiep, khu vuc cong nghiep, vung cong nghiep, nha may, xuong
+| 141
 |  
 | industrial
 |  
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,16 +12648,16 @@
 | landuse
 | military
 |  
-| Military
-| Military
-| Quân đội
-| 8
+| Military Area
+| Military Area
+| Đất Quân đội
+| 12
 |  
 |  
 |  
 | 
-| quân đội, căn cứ quân đội, không quân, căn cứ không quân, hải quân, căn cứ hải quân, quân sự, lính, bộ đội, quan doi, can cu quan doi, khong quan, can cu khong quan, hai quan, can cu hai quan, quan su, linh, bo doi
-| 214
+| đất quân đội, căn cứ quân đội, khu vực quân đội, vùng quân đội, căn cứ không quân, đất không quân, căn cứ hải quân, đất hải quân, đất quân sự, khu vực quân sự, vùng quân sự, lính, bộ đội, dat quan doi, can cu quan doi, khu vuc quan doi, vung quan doi, can cu khong quan, dat khong quan, can cu hai quan, dat hai quan, dat quan su, khu vuc quan su, vung quan su, linh, bo doi
+| 374
 |  
 |  
 |  
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,16 +12783,16 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
-| Dân cư
-| 6
+| Residential Area
+| Residential Area
+| Đất Dân cư
+| 10
 |  
 |  
 |  
 | 
-| dân cư, nhà ở, dân sinh, hàng xóm, dan cu, nha o, dan sinh, hang xom
-| 68
+| đất dân cư, khu vực dân cư, vùng dân cư, khu vực nhà ở, vùng nhà ở, đất dân sinh, khu vực dân sinh, vùng dân sinh, hàng xóm, dat dan cu, khu vuc dan cu, vung dan cu, khu vuc nha o, vung nha o, dat dan sinh, khu vuc dan sinh, vung dan sinh, hang xom
+| 248
 |  
 | building
 |  
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,16 +12828,16 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
-| Bán lẻ
-| 6
+| Retail Area
+| Retail Area
+| Khu vực Bán lẻ
+| 14
 |  
 |  
 |  
 | 
-| bán lẻ, buôn bán, tiệm, cửa hàng, ban le, buon ban, tiem, cua hang
-| 66
+| khu vực bán lẻ, vùng bán lẻ, đất bán lẻ, khu vực buôn bán, vùng buôn bán, đất buôn bán, tiệm, cửa hàng, khu vuc ban le, vung ban le, dat ban le, khu vuc buon ban, vung buon ban, dat buon ban, tiem, cua hang
+| 206
 |  
 | shop
 |  
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -14810,14 +14810,14 @@
 |  
 | Airfield
 | Airfield
-| Sân bay
-| 7
+| Căn cứ Không quân
+| 17
 |  
-| duplicate
+|  
 |  
 | 
-| sân bay, phi trường, trường bay, san bay, phi truong, truong bay
-| 64
+| căn cứ không quân, sân bay, phi trường, trường bay, can cu khong quan, san bay, phi truong, truong bay
+| 102
 |  
 | airfield
 |  
@@ -18275,14 +18275,14 @@
 |  
 | Railway Platform
 | Railway Platform
-| Nhà ga
-| 6
+| Ke ga
+| 5
 |  
-| duplicate
+|  
 |  
 | 
-| ke ga
-| 5
+| ke ga, sân ga, san ga
+| 21
 |  
 |  
 |  
@@ -18368,7 +18368,7 @@
 | Nhà ga
 | 6
 |  
-| duplicate
+|  
 |  
 | train station,station
 | nhà ga, nha ga
@@ -21194,27 +21194,27 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
-| Gia dụng
-| 8
+| Houseware Store
+| Houseware Store
+| Tiệm Gia dụng
+| 13
 |  
 |  
 |  
-| home
-| tiệm gia dụng, cửa hàng gia dụng, tiệm bán đồ gia dụng, cửa hàng bán đồ gia dụng, tiệm bán đồ dùng gia đình, cửa hàng bán đồ dùng gia đình, tiem gia dung, cua hang gia dung, tiem ban do gia dung, cua hang ban do gia dung, tiem ban do dung gia dinh, cua hang ban do dung gia dinh
-| 278
+| home,household
+| tiệm gia dụng, tiệm đồ gia dụng, tiệm đồ dùng gia đình, cửa hàng gia dụng, cửa hàng đồ gia dụng, tiem gia dung, tiem do gia dung, tiem do dung gia dinh, cua hang gia dung, cua hang do gia dung
+| 192
 |  
 | shop
 |  
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  

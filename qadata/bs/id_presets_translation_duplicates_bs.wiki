@@ -75,8 +75,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | Jarak
@@ -203,7 +203,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |}

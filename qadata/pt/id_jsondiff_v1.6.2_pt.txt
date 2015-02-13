@@ -135,6 +135,15 @@
 +      delivery: {
 +        label: "Entrega"
 +      }
++      gender: {
++        label: "Género"
++        placeholder: "Desconhecido"
++        options: {
++          male: "Masculino"
++          female: "Feminino"
++          unisex: "Unisexo"
++        }
++      }
 +      leaf_cycle: {
 +        label: "Ciclo das Folhas"
 +        options: {
@@ -182,6 +191,12 @@
 +          only: "Apenas Take Away"
 +        }
 +      }
+       smoothness: {
+         options: {
+-          impassible: "Intransitável: Transito impossível a veículos com rodas"
++          impassable: "Intransitável / Veículos sem rodas"
+         }
+       }
      }
      presets: {
 -      craft/confectionary: {
@@ -232,9 +247,9 @@
 +        name: "Subestação"
 +        terms: "Substation, energia"
 +      }
-+      shop/household: {
-+        name: "Loja Caseira"
-+        terms: "Household Store"
++      shop/houseware: {
++        name: "Loja de Decoração e Bricolage"
++        terms: "Houseware Store"
 +      }
 +      traffic_calming/bump: {
 +        name: "Lomba Pequena"
@@ -255,6 +270,14 @@
        highway/pedestrian: {
 -        name: "Praça"
 +        name: "Praça / Rua Pedonal"
+       }
+       landuse/commercial: {
+-        name: "Zona de Escritórios"
++        name: "Zona de Escritórios "
+       }
+       landuse/farm: {
+-        terms: "Quinta, Campo Agricula"
++        terms: "Campo Agrícola, Agricultura"
        }
        landuse/farmland: {
 -        terms: "Farmland, Pasto"

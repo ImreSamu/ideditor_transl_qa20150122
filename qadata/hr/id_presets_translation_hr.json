@@ -2,15 +2,21 @@
   "area_fill": {
     "full": {
       "description__en": "Full Fill",
-      "tooltip__en": "Areas are drawn fully filled."
+      "description__transl": "Potpuno ispuni",
+      "tooltip__en": "Areas are drawn fully filled.",
+      "tooltip__transl": "Područja su iscrtana potpuno ispunjena."
     },
     "partial": {
       "description__en": "Partial Fill",
-      "tooltip__en": "Areas are drawn with fill only around their inner edges. (Recommended for beginner mappers)"
+      "description__transl": "Djelomična ispuna",
+      "tooltip__en": "Areas are drawn with fill only around their inner edges. (Recommended for beginner mappers)",
+      "tooltip__transl": "Područja su iscrtana s ispunom samo oko njihovih unutarnjih rubova. (Preporučeno za početnike)"
     },
     "wireframe": {
       "description__en": "No Fill (Wireframe)",
-      "tooltip__en": "Enabling wireframe mode makes it easy to see the background imagery."
+      "description__transl": "Bez ispune (žičani način)",
+      "tooltip__en": "Enabling wireframe mode makes it easy to see the background imagery.",
+      "tooltip__transl": "Omogućenjem žičanog načina jednostavnije je vidjeti pozadinske snimke."
     }
   },
   "background": {
@@ -41,6 +47,7 @@
     "cancel__en": "Cancel",
     "cancel__transl": "Otkaži",
     "changes__en": "{count} Changes",
+    "changes__transl": "{count} Promjena",
     "created__en": "Created",
     "created__transl": "Stvoreno",
     "deleted__en": "Deleted",
@@ -75,56 +82,82 @@
   "feature": {
     "boundaries": {
       "description__en": "Boundaries",
-      "tooltip__en": "Administrative Boundaries"
+      "description__transl": "Granice",
+      "tooltip__en": "Administrative Boundaries",
+      "tooltip__transl": "Administrativne granice"
     },
     "buildings": {
       "description__en": "Buildings",
-      "tooltip__en": "Buildings, Shelters, Garages, etc."
+      "description__transl": "Građevine",
+      "tooltip__en": "Buildings, Shelters, Garages, etc.",
+      "tooltip__transl": "Zgrade, skloništa, garaže, itd."
     },
     "landuse": {
       "description__en": "Landuse Features",
-      "tooltip__en": "Forests, Farmland, Parks, Residential, Commercial, etc."
+      "description__transl": "Značajke korištenja zemljišta",
+      "tooltip__en": "Forests, Farmland, Parks, Residential, Commercial, etc.",
+      "tooltip__transl": "Šume, poljoprivredno zemlj., parkovi, građevinsko, poslovna zona, itd."
     },
     "major_roads": {
       "description__en": "Major Roads",
-      "tooltip__en": "Highways, Streets, etc."
+      "description__transl": "Glavne ceste",
+      "tooltip__en": "Highways, Streets, etc.",
+      "tooltip__transl": "Prometnice, ulice, itd."
     },
     "minor_roads": {
       "description__en": "Minor Roads",
-      "tooltip__en": "Service Roads, Parking Aisles, Tracks, etc."
+      "description__transl": "Sporedne ceste",
+      "tooltip__en": "Service Roads, Parking Aisles, Tracks, etc.",
+      "tooltip__transl": "Pristupne ceste, parkirni prolazi, zemljani putovi, itd."
     },
     "others": {
       "description__en": "Others",
-      "tooltip__en": "Everything Else"
+      "description__transl": "Ostali",
+      "tooltip__en": "Everything Else",
+      "tooltip__transl": "Sve ostalo"
     },
     "past_future": {
       "description__en": "Past/Future",
-      "tooltip__en": "Proposed, Construction, Abandoned, Demolished, etc."
+      "description__transl": "Prošlost/Budućnost",
+      "tooltip__en": "Proposed, Construction, Abandoned, Demolished, etc.",
+      "tooltip__transl": "U planu, u izgradnji, napušteno, srušeno, itd."
     },
     "paths": {
       "description__en": "Paths",
-      "tooltip__en": "Sidewalks, Foot Paths, Cycle Paths, etc."
+      "description__transl": "Staze",
+      "tooltip__en": "Sidewalks, Foot Paths, Cycle Paths, etc.",
+      "tooltip__transl": "Pločnici, pješačke staze, biciklističke staze, itd."
     },
     "points": {
       "description__en": "Points",
-      "tooltip__en": "Points of Interest"
+      "description__transl": "Točke",
+      "tooltip__en": "Points of Interest",
+      "tooltip__transl": "Interesne točke"
     },
     "power": {
       "description__en": "Power Features",
-      "tooltip__en": "Power Lines, Power Plants, Substations, etc."
+      "description__transl": "Elektroenergetske značajke",
+      "tooltip__en": "Power Lines, Power Plants, Substations, etc.",
+      "tooltip__transl": "Dalekovodi, elektrane, trafostanice, itd."
     },
     "rail": {
       "description__en": "Rail Features",
-      "tooltip__en": "Railways"
+      "description__transl": "Značajke željeznice",
+      "tooltip__en": "Railways",
+      "tooltip__transl": "Željezničke pruge"
     },
     "water": {
       "description__en": "Water Features",
-      "tooltip__en": "Rivers, Lakes, Ponds, Basins, etc."
+      "description__transl": "Vodene značajke",
+      "tooltip__en": "Rivers, Lakes, Ponds, Basins, etc.",
+      "tooltip__transl": "Rijeke, jezera, lokve, bazeni, itd."
     }
   },
   "feature_info": {
     "hidden_details__en": "These features are currently hidden: {details}",
-    "hidden_warning__en": "{count} hidden features"
+    "hidden_details__transl": "Ove značajke su trenutno skrivene: {details}",
+    "hidden_warning__en": "{count} hidden features",
+    "hidden_warning__transl": "{count} skrivenih značajki"
   },
   "geocoder": {
     "no_results_visible__en": "No results in visible map area",
@@ -156,6 +189,7 @@
     "editing_saving__en": "# Editing & Saving\n\nThis editor is designed to work primarily online, and you're accessing\nit through a website right now.\n\n### Selecting Features\n\nTo select a map feature, like a road or point of interest, click\non it on the map. This will highlight the selected feature, open a panel with\ndetails about it, and show a menu of things you can do with the feature.\n\nTo select multiple features, hold down the 'Shift' key. Then either click\non the features you want to select, or drag on the map to draw a rectangle.\nThis will draw a box and select all the points within it.\n\n### Saving Edits\n\nWhen you make changes like editing roads, buildings, and places, these are\nstored locally until you save them to the server. Don't worry if you make\na mistake - you can undo changes by clicking the undo button, and redo\nchanges by clicking the redo button.\n\nClick 'Save' to finish a group of edits - for instance, if you've completed\nan area of town and would like to start on a new area. You'll have a chance\nto review what you've done, and the editor supplies helpful suggestions\nand warnings if something doesn't seem right about the changes.\n\nIf everything looks good, you can enter a short comment explaining the change\nyou made, and click 'Save' again to post the changes\nto [OpenStreetMap.org](http://www.openstreetmap.org/), where they are visible\nto all other users and available for others to build and improve upon.\n\nIf you can't finish your edits in one sitting, you can leave the editor\nwindow and come back (on the same browser and computer), and the\neditor application will offer to restore your work.\n",
     "editing_saving__transl": "# Uređivanje i spremanje promjena\n\nOvaj uređivač je primarno dizajniran za uređivanje na mreži i trenutačno ga\nkoristiš kroz internet preglednik kao web stranicu.\n\n### Odabir značajki\n\nZa odabir značajke karte, npr. ceste ili točke od interesa, klikni na nju na karti.\nPojaviti će se obrub oko značajke, otvoriti će se bočno okno koje prikazuje više\ndetalja o značajki i prikazati će se alatni izbornik sa mogućnostima koje možeš\nnapraviti na značajki.\n\nZa odabir nekoliko značajki istovremeno, drži tipku \"Shift\". Zatim ili klikni na\nznačajke koje želiš odabrati ili klikni i povuci za crtanje četverokuta. Time ćeš\nodabrati sve točke unutar četverokuta.\n\n### Spremanje uređivanja\n\nKada napraviš promjene na karti, npr. urediš ulice, zgrade i mjesta, one su\nspremljene lokalno sve dok ih ne spremiš na server. Nemoraš se briniti ukoliko\nnapraviš pogrešku - možeš poništiti promjene klikom na tipku \"Opovrgni\" i\nponoviti promjene klikom na tipku \"Ponovi\".\n\nKlikni na tipku \"Spremi\" da završiš grupu promjena - na primjer ako si završio/la\npodručje grada i želiš početi uređivati novo područje. Nakon što stisneš \"Spremi\"\nmoći ćeš pregledati sve promjene koje si napravio/la i uređivač će ti dati korisne\nprijedloge i upozorenja ako je nešto neuobičajeno među promjenama.\n\nAko je sve u redu, možeš ostaviti kratak komentar u kojem ćeš opisati napravljenu\npromjenu na karti. Ponovno klikni \"Spremi\" za postavljanje promjena na\n[OpenStreetMap.org](http://www.openstreetmap.org/), gdje će biti vidljive svim\ndrugim korisnicima i dostupne drugima za dopunu i nadogradnju.\n\nAko ne možeš završiti sve planirane promjene odjednom, možeš ugasiti prozor\nuređivača i kasnije se vratiti (na isti internet preglednik i isto računalo) i uređivač\nće ti ponuditi da nastaviš gdje si stao/la. \n",
     "gps__en": "# GPS\n\nGPS data is the most trusted source of data for OpenStreetMap. This editor\nsupports local traces - `.gpx` files on your local computer. You can collect\nthis kind of GPS trace with a number of smartphone applications as well as\npersonal GPS hardware.\n\nFor information on how to perform a GPS survey, read\n[Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nTo use a GPX track for mapping, drag and drop the GPX file onto the map\neditor. If it's recognized, it will be added to the map as a bright purple\nline. Click on the 'Map Data' menu on the right side to enable,\ndisable, or zoom to this new GPX-powered layer.\n\nThe GPX track isn't directly uploaded to OpenStreetMap - the best way to\nuse it is to draw on the map, using it as a guide for the new features that\nyou add, and also to [upload it to OpenStreetMap](http://www.openstreetmap.org/trace/create)\nfor other users to use.\n",
+    "gps__transl": "# GNSS \n\nGNSS podaci su najpouzdaniji izvor podataka za OpenStreetMap. Ovaj uređivač podržava lokalne tragove - `.gpx` datoteteke s tvog računala. Takav oblik GNSS traga možeš prikupiti s raznim aplikacijama za pametne telefone kao i s drugim GNSS/GPS uređajima.\n\nZa više informacija o postupku izmjere pomoću GNSS satelita, pročitaj članak [\"Mjerenje sa GPS-om\"](http://learnosm.org/en/beginner/using-gps/).\n\nKako bi koristio GPX tragove za kartiranje, povuci i ispusti GPX datoteku na uređivač karte. Ako se datoteka ispravno učita, biti će dodana na kartu kao linija svjetlo ljubičaste boje. Klikni na izbornik \"Podaci karte\" s desne strane za uključivanje, isključivanje ili povećanje na taj novi GPX sloj.\n\nGPX trag nije direktno postavljen na OpenStreetMap, samo je prikazan na karti. Da bi ga iskoristio/la na najbolji način, preko njega crtaj na karti koristeći ga kao vodilju za dodavanje novih značajki. Trag možeš također [postaviti na OpenStreetMap](http://www.openstreetmap.org/trace/create) kako bi ga i drugi\nkorisnici mogli koristiti.\n",
     "help__en": "# Help\n\nThis is an editor for [OpenStreetMap](http://www.openstreetmap.org/), the\nfree and editable map of the world. You can use it to add and update\ndata in your area, making an open-source and open-data map of the world\nbetter for everyone.\n\nEdits that you make on this map will be visible to everyone who uses\nOpenStreetMap. In order to make an edit, you'll need a\n[free OpenStreetMap account](https://www.openstreetmap.org/user/new).\n\nThe [iD editor](http://ideditor.com/) is a collaborative project with [source\ncode available on GitHub](https://github.com/openstreetmap/iD).\n",
     "help__transl": "# Pomoć\n\niD je program za uređivanje [OpenStreetMap](http://www.openstreetmap.org/), \nbesplatne karte svijeta. Možeš ga koristiti za dodavanje i obnavljanje podataka u \nsvom području, čime stvaraš bolju kartu svijeta slobodnih izvornika i podataka \ndostupnu svima.\n\nKorekcije koje napraviš na karti će biti vidljive svakome tko koristi\nOpenStreetMap. Da bi mogao/la uređivati kartu, trebaš [besplatni\nOpenStreetMap korisnički račun](https://www.openstreetmap.org/user/new).\n\n[iD editor](http://ideditor.com/) je suradnički projekt sa [izvornim kôdom dostupnim \nna GitHub-u](https://github.com/openstreetmap/iD).\n",
     "imagery__en": "# Imagery\n\nAerial imagery is an important resource for mapping. A combination of\nairplane flyovers, satellite views, and freely-compiled sources are available\nin the editor under the 'Background Settings' menu on the right.\n\nBy default a [Bing Maps](http://www.bing.com/maps/) satellite layer is\npresented in the editor, but as you pan and zoom the map to new geographical\nareas, new sources will become available. Some countries, like the United\nStates, France, and Denmark have very high-quality imagery available for some areas.\n\nImagery is sometimes offset from the map data because of a mistake on the\nimagery provider's side. If you see a lot of roads shifted from the background,\ndon't immediately move them all to match the background. Instead you can adjust\nthe imagery so that it matches the existing data by clicking 'Fix alignment' at\nthe bottom of the Background Settings UI.\n",
@@ -171,6 +205,7 @@
   },
   "inspector": {
     "add_fields__en": "Add field:",
+    "add_fields__transl": "Dodaj polje:",
     "all_members__en": "All members",
     "all_members__transl": "Svi članovi",
     "all_relations__en": "All relations",
@@ -181,7 +216,9 @@
     "back_tooltip__transl": "Promijeni svojstvo",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "Ne",
+      "yes__en": "Yes",
+      "yes__transl": "Da"
     },
     "choose__en": "Select feature type",
     "choose__transl": "Odaberi tip svojstva",
@@ -318,11 +355,17 @@
   "logout__transl": "odjava",
   "map_data": {
     "autohidden__en": "These features have been automatically hidden because too many would be shown on the screen.  You can zoom in to edit them.",
+    "autohidden__transl": "Ove značajke su automatski skrivene jer ih je previše za prikaz na zaslonu. Možeš povećati prikaz za njihovo uređivanje.",
     "data_layers__en": "Data Layers",
+    "data_layers__transl": "Slojevi podataka",
     "description__en": "Map Data",
+    "description__transl": "Podaci karte",
     "fill_area__en": "Fill Areas",
+    "fill_area__transl": "Ispuni područja",
     "map_features__en": "Map Features",
-    "title__en": "Map Data"
+    "map_features__transl": "Značajke karte",
+    "title__en": "Map Data",
+    "title__transl": "Podaci karte"
   },
   "mapillary": {
     "title__en": "Photo Overlay (Mapillary)",
@@ -407,6 +450,7 @@
         "line__transl": "Linija je zaokružena."
       },
       "connected_to_hidden__en": "This can't be made circular because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "Ovo se ne može zaokružiti jer je spojeno na skrivenu značajku.",
       "description": {
         "area__en": "Make this area circular.",
         "area__transl": "Zaokruži ovo područje.",
@@ -468,10 +512,12 @@
         "vertex__transl": "Točka puta je obrisana."
       },
       "connected_to_hidden__en": "This can't be deleted because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "Ovo se ne može se obrisati jer je spojeno na skrivenu značajku.",
       "description__en": "Delete object permanently.",
       "description__transl": "Trajno obriši objekt.",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "Ovo se svojstvo ne može se obrisati jer nije potpuno preuzeto.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Izbriši"
     },
@@ -483,6 +529,7 @@
       "annotation__en": "Disconnected lines/areas.",
       "annotation__transl": "Razdvoji linije/područja.",
       "connected_to_hidden__en": "This can't be disconnected because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "Ovo se ne može odvojiti jer je spojeno na skrivenu značajku.",
       "description__en": "Disconnect these lines/areas from each other.",
       "description__transl": "Međusobno razdvoji ove linije/područja.",
       "key__en": "D",
@@ -524,6 +571,7 @@
         "vertex__transl": "Točka je premještena na put."
       },
       "connected_to_hidden__en": "This can't be moved because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "Ovo se ne može premjestiti jer je spojeno na skrivenu značajku.",
       "description__en": "Move this to a different location.",
       "description__transl": "Premjesti ovo na drugu lokaciju.",
       "incomplete_relation__en": "This feature can't be moved because it hasn't been fully downloaded.",
@@ -543,6 +591,7 @@
         "line__transl": "Kutovi linije su pod pravim kutom."
       },
       "connected_to_hidden__en": "This can't be made square because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "Ovo se ne može ukvadratičiti jer je spojeno na skrivenu značajku.",
       "description": {
         "area__en": "Square the corners of this area.",
         "area__transl": "Stavi pod pravi kut ćoškove područja.",
@@ -594,6 +643,7 @@
         "line__transl": "Linija je rotirana."
       },
       "connected_to_hidden__en": "This can't be rotated because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": " Ovo se ne može zakrenuti jer je spojeno na skrivenu značajku.",
       "description__en": "Rotate this object around its center point.",
       "description__transl": "Rotiraj ovaj objekt oko njegove središnje točke.",
       "key__en": "R",
@@ -613,6 +663,7 @@
         "multiple__transl": "Razdvoji {n} granica linija/područja."
       },
       "connected_to_hidden__en": "This can't be split because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "Ovo se ne može razdvojiti jer je spojeno na skrivenu značajku.",
       "description": {
         "area__en": "Split the boundary of this area into two.",
         "area__transl": "Podijeli granicu ovog područja na dvije.",
@@ -642,6 +693,7 @@
       "annotation__en": "Straightened a line.",
       "annotation__transl": "Linija je izravnana.",
       "connected_to_hidden__en": "This line can't be straightened because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "Ova linija se ne može ispraviti jer je spojena na skrivenu značajku.",
       "description__en": "Straighten this line.",
       "description__transl": "Izravnaj ovu liniju.",
       "key__en": "S",
@@ -1176,6 +1228,7 @@
         "key": "bench",
         "label": "Bench",
         "label__en": "Bench",
+        "label__transl": "Klupa",
         "type": "check"
       },
       "bicycle_parking": {
@@ -1571,6 +1624,30 @@
         "label__en": "Gauge",
         "label__transl": "Širina kolosijeka",
         "type": "combo"
+      },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "options": {
+          "female__en": "Female",
+          "male__en": "Male",
+          "unisex__en": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
       },
       "generator/method": {
         "key": "generator:method",
@@ -2435,7 +2512,7 @@
           "excellent__en": "Thin Rollers: rollerblade, skateboard",
           "good__en": "Thin Wheels: racing bike",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
-          "impassible__en": "Impassible / No wheeled vehicle",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
           "very_horrible__en": "Specialized off-road: tractor, ATV"
@@ -2448,7 +2525,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -20778,7 +20855,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -21199,7 +21277,7 @@
         ],
         "name": "Administrative Boundary",
         "name__en": "Administrative Boundary",
-        "name__transl": "Administrativne granice",
+        "name__transl": "Administrativna granica",
         "tags": {
           "boundary": "administrative"
         },
@@ -24189,7 +24267,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24205,7 +24282,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24224,8 +24300,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24258,13 +24332,11 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "Poslovno",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
         "tags": {
           "landuse": "commercial"
         },
@@ -24278,7 +24350,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24300,9 +24371,8 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Poljoprivredno zemljište",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "searchable": false,
         "tags": {
           "landuse": "farm"
@@ -24316,26 +24386,23 @@
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland"
+        "terms__en": ""
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24355,7 +24422,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24386,7 +24452,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24401,13 +24466,11 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Industrijsko",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
         "tags": {
           "landuse": "industrial"
         },
@@ -24431,7 +24494,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24448,8 +24510,8 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
+        "name": "Military Area",
+        "name__en": "Military Area",
         "tags": {
           "landuse": "military"
         },
@@ -24462,7 +24524,6 @@
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24478,7 +24539,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24493,13 +24553,11 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "Stambeno",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
         "tags": {
           "landuse": "residential"
         },
@@ -24509,13 +24567,11 @@
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "Maloprodaja",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
         "tags": {
           "landuse": "retail"
         },
@@ -24523,7 +24579,6 @@
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -35064,7 +35119,7 @@
         "terms__en": "stereo,video",
         "terms__transl": "trgovina audio opreme"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -35076,15 +35131,16 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household"
       },
       "shop/interior_decoration": {
         "fields": [
@@ -43184,6 +43240,7 @@
     "title__en": "Save",
     "title__transl": "Spremi",
     "unknown_error_details__en": "Please ensure you are connected to the internet.",
+    "unknown_error_details__transl": "Molim provjeri jesi li spojen na internet.",
     "unsaved_changes__en": "You have unsaved changes",
     "unsaved_changes__transl": "Imaš nespremljenih promjena.",
     "uploading__en": "Uploading changes to OpenStreetMap.",

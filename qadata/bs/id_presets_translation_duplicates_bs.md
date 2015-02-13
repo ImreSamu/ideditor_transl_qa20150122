@@ -3,7 +3,7 @@
 |Admninistrativna granica|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
 |Admninistrativna granica|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
 |Groblje|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|Groblje|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Groblje|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |Jarak|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
 |Jarak|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |Prelaz|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
@@ -11,4 +11,4 @@
 |Trajektna ruta|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |Trajektna ruta|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |Šuma|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
-|Šuma|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|Šuma|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |

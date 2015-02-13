@@ -105,6 +105,10 @@
 +    changes: "{count} Zmien"
    }
    inspector: {
++    check: {
++      yes: "Áno"
++      no: "Nie"
++    }
 +    add_fields: "Pridaj pole:"
    }
    save: {
@@ -125,8 +129,39 @@
 +      bench: {
 +        label: "Lavička"
 +      }
++      brand: {
++        label: "Značka"
++      }
 +      delivery: {
 +        label: "Zásobovnie"
++      }
++      gender: {
++        label: "Pohlavie"
++        placeholder: "Neznáme"
++        options: {
++          male: "Muži"
++          female: "Ženy"
++          unisex: "Unisex"
++        }
++      }
++      leaf_cycle: {
++        label: "Opadavosť"
++        options: {
++          evergreen: "Neopadavý"
++          deciduous: "Opadavý"
++          semi_evergreen: "Poloopadavý"
++          semi_deciduous: "Krátkoopadavé"
++          mixed: "Zmiešaný"
++        }
++      }
++      leaf_type: {
++        label: "Typ listov"
++        options: {
++          broadleaved: "Širokolisté"
++          needleleaved: "Ihličnaté"
++          mixed: "Zmiešané"
++          leafless: "Bezlisté"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        label: "Oprava reťaze"
@@ -147,6 +182,15 @@
 +      smoothness: {
 +        label: "Rovnosť vozovky"
 +        placeholder: "Malé kolieska, kolesá, off-road..."
++        options: {
++          excellent: "Malé kolieska: kolieskové korčule, skateboard"
++          good: "Tenké kolesá: závodný bicykel"
++          intermediate: "Kolesá: mestský bicykel, invalidný vozík, skúter"
++          bad: "Pevné kolesá: trekový bicykel, auto, rikša"
++          very_bad: "Zvýšený podvozok: ľahké off-road vozidlo"
++          horrible: "Off-road: výkonné off-road vozidlo"
++          very_horrible: "Špecializovaný off-road: traktor, štvorkolka"
++        }
 +      }
 +      substation: {
 +        label: "Typ"
@@ -188,10 +232,358 @@
 -        name: "Cukrárstvo"
 -        terms: "cukrarstvo,cukrovinky"
 -      }
--      landuse/farmland: {
++      amenity/bicycle_repair_station: {
++        name: "Stojan pre opravu bicyklov"
++        terms: "stojan,oprava,bicykle,bicykel,reťaz,retaz,pumpa,hustilka,vzduch,koleso,kolesá,kolesa"
++      }
++      amenity/community_centre: {
++        name: "Komunitné centrum"
++        terms: "komunitne centrum,centrum voľného času,centrum volneho casu,cvc,cvč,krúžky,kruzky,vzdelavanie,vzdelávanie,výchova,vychova"
++      }
++      amenity/grit_bin: {
++        name: "Nádoba s posypom"
++        terms: "nadoba s posypom,posyp,strk,štrk,posypový materiál,posypovy material"
++      }
++      amenity/public_bookcase: {
++        name: "Verejná knihovnička"
++        terms: "verejna knihovnicka,policka na knihy,polička na knihy,verejná požičovňa kníh,verejna pozicovna knih"
++      }
++      amenity/register_office: {
++        name: "Matričný úrad"
++        terms: "matricny urad,matrika"
++      }
++      amenity/social_facility/group_home: {
++        name: "Domov dôchodcov"
++        terms: "domov dochodcov"
++      }
++      craft/confectionery: {
++        name: "Výroba cukroviniek"
++        terms: "vyroba cukroviniek,cukrovinky,sladkosti"
++      }
++      craft/winery: {
++        name: "Výroba vín"
++        terms: "vyroba vin,vino,víno,vína,vina,vinaren,vináreň,vinica,vínna pivnica,vinna pivnica,pivnica"
++      }
++      highway/motorway_junction: {
++        name: "Dialničná križovatka / výjazd"
++        terms: "dialnicna krizovatka,vyjazd,exit"
++      }
++      highway/raceway: {
++        name: "Pretekárska strať"
++        terms: "pretekarska trat,nascar,formula,enduro"
++      }
++      junction: {
++        name: "Križovatka"
++        terms: "krizovatka"
++      }
++      landuse/garages: {
++        name: "Garáže"
++        terms: "garaze,parkovanie,kryte parkovanie,kryté parkovanie"
++      }
++      leisure/nature_reserve: {
++        name: "Prírodná rezervácia"
++        terms: "prirodna rezervacia,park,chko,narodný park,narodny park"
++      }
++      leisure/running_track: {
++        name: "Bežecká trať"
++        terms: "bezecka trat"
++      }
++      leisure/sports_center: {
++        name: "Športové centrum"
++        terms: "sportove centrum,fitko,fitness centrum,posilňovňa,posilnovna,posilovna,polovňa"
++      }
++      leisure/track: {
++        name: "Pretekárska dráha (nemotoristická)"
++        terms: "pretekarska draha (nemotoristicka),zavodná dráha,zavodna draha"
++      }
++      man_made/water_well: {
++        name: "Studňa"
++        terms: "studna,voda"
++      }
++      natural/cave_entrance: {
++        name: "Vstup do jaskyne"
++        terms: "jaskyňa,jaskyna"
++      }
++      power/substation: {
++        name: "Elektrická rozvodňa"
++        terms: "elektricka rozvodna,transformator,transformátor"
++      }
++      shop/anime: {
++        name: "Obchod s anime"
++        terms: "anime"
++      }
++      shop/antiques: {
++        name: "Obchod so tarožitnosťami"
++        terms: "obchod so starozitnostami,starozitnosti,starožitnosti,starý nábytok,stary nabytok"
++      }
++      shop/art: {
++        name: "Obchod s umením"
++        terms: "obchod s umenim,obrazy,umelecké diela,umelecke diela"
++      }
++      shop/baby_goods: {
++        name: "Obchod s detskými potrebami"
++        terms: "obchod s detskymi potrebami"
++      }
++      shop/bag: {
++        name: "Obchod s kuframi"
++        terms: "kufre,kufor,batoh,batožina,batozina"
++      }
++      shop/bathroom_furnishing: {
++        name: "Obchod s kúpelňami"
++        terms: "obchod s kuplenami,kupelka,kúpelka,kúpelňa,kupelna"
++      }
++      shop/bed: {
++        name: "Obchod s posteľami/matracmi"
++        terms: "matrac,matrace,posteľ,postel,postele,spálňa,spalna"
++      }
++      shop/books: {
++        name: "Kníhkupectvo"
++        terms: "knihkupectvo,knihy,kniha,obchod s knihami"
++      }
++      shop/candles: {
++        name: "Obchod so svičkami"
++        terms: "obchod so svieckami,sviecka,sviečka,sviečky,sviecky"
++      }
++      shop/carpet: {
++        name: "Obchod s kobercami"
++        terms: "koberec,koberce,pokrovec,rokožka,rohozka"
++      }
++      shop/cheese: {
++        name: "Obchod so syrmi"
++        terms: "syr,syry,korbáčiki,korbaciky,oštiepok,ostiepok,oštiepky,ostiepky"
++      }
++      shop/chocolate: {
++        name: "Obchod s čokoládou"
++        terms: "obchod s cokoladou,cokolada,čokoláda,pralinky"
++      }
++      shop/confectionery: {
++        name: "Obchod so sladkosťami"
++        terms: "obchod so sladkostami,sladkosti,cukrovinky"
++      }
++      shop/copyshop: {
++        name: "Fotokopírovanie"
++        terms: "fotokopirovanie,fotokopírka,fotokopirka"
++      }
++      shop/cosmetics: {
++        name: "Obchod s kozmetikou"
++        terms: "kozmetika,drogeria"
++      }
++      shop/craft: {
++        name: "Obchod s umeleckými potrebami"
++        terms: "Obchod s umeleckymi potrebami,umelecké potreby,umelecke potreby"
++      }
++      shop/curtain: {
++        name: "Obchod so záclonami"
++        terms: "obchod so zaclonami,záclony,zaclony,záclona,zaclona,záves,zaves,závesy,zavesy"
++      }
++      shop/dairy: {
++        name: "Obchod s mliečnymi výrobkami"
++        terms: "obchod s mliecnymi vyrobkami,mlieko,jogurt,jogurty,smotana,syr,syry"
++      }
++      shop/dry_cleaning: {
++        name: "Čistiareň odevov"
++        terms: "cistiaren odevov,suché čistenie,suche cistenie"
++      }
++      shop/erotic: {
++        name: "Ochod s erotickými potrebami"
++        terms: "obchod s erotickymi potrebami,sexshop,sex shop"
++      }
++      shop/fabric: {
++        name: "Obchod s látkami"
++        terms: "obchod s latkami,textil"
++      }
++      shop/fashion: {
++        name: "Obchod s módnymi doplnkami"
++        terms: "obchod s modmymi doplnkami"
++      }
++      shop/frame: {
++        name: "Obchod s rámami"
++        terms: "obchod s ramami,obrazy,rám,ram"
++      }
++      shop/furnace: {
++        name: "Obchod so kotlami"
++        terms: "pec,kotol"
++      }
++      shop/hearing_aids: {
++        name: "Obchod s načúvacími prístrojmi"
++        terms: "obchod s nacuvacimi pristrojmi,nacuvaci pristroj,načúvací prístroj"
++      }
++      shop/herbalist: {
++        name: "Bylinkárstvo"
++        terms: "bylinkarstvo,bylinky"
++      }
++      shop/houseware: {
++        name: "Domáce potreby"
++        terms: "domace potreby,zeleziarstvo,železiarstvo"
++      }
++      shop/interior_decoration: {
++        name: "Obchod s bytovými dekoráciami"
++        terms: "obchod s bytovami dekoraciami,intriérové dekorácie,intrierove dekoracie"
++      }
++      shop/kiosk: {
++        name: "Novinový stánok"
++        terms: "novinovy stanok,noviny,casopisy,časopisy"
++      }
++      shop/kitchen: {
++        name: "Kuchynské štúdio"
++        terms: "kuchynske studio,kuchyna,uchyňa,kuchyne,kuchyňe,kuchynský kút,kuchynsky kut,kuchynské kúty,kuchynske kuty"
++      }
++      shop/leather: {
++        name: "Obchod s kožennými výrobkami"
++        terms: "obchod s kozennymi vyrobkami,koza,koža"
++      }
++      shop/massage: {
++        name: "Masérstvo"
++        terms: "maserstvo,masáže,masaze,masáž,masaz"
++      }
++      shop/medical_supply: {
++        name: "Obchod so zdravotníckymi pomôckami"
++        terms: "obchod so zdravonickymi pomockami"
++      }
++      shop/money_lender: {
++        name: "Požičovňa peňazí"
++        terms: "pozicovna penazi,peniaze,pôžicky,pozicky"
++      }
++      shop/musical_instrument: {
++        name: "Obchod s hudobnými nástrojmi"
++        terms: "obchod s hudobnymi nastrojmi, hudobne nastroje,hudobné nástroje"
++      }
++      shop/newsagent: {
++        name: "Obchod s novinami/časopismi"
++        terms: "obchod s novinami/casopismi,noviny,casopisy,časopisy"
++      }
++      shop/organic: {
++        name: "Obchod s eko potravinami"
++        terms: "eko potraviny"
++      }
++      shop/outdoor: {
++        name: "Outdoorový obchod"
++        terms: "outdoorovy obchod,trekový obchod,trekovy ochod,outdoor"
++      }
++      shop/paint: {
++        name: "Obchod s nátermi"
++        terms: "obchod s natermi,farby,laky,nátery,natery"
++      }
++      shop/pawnbroker: {
++        name: "Záložňa"
++        terms: "zalozna"
++      }
++      shop/pyrotechnics: {
++        name: "Obchod s pyrotechnikov"
++        terms: "pyrotechnika,ohňostroj,ohnostroj,prskavky,rakety,delobuchy"
++      }
++      shop/radiotechnics: {
++        name: "Obchod s elektronikou"
++        terms: "elektronika"
++      }
++      shop/religion: {
++        name: "Obchod s náboženkými pomôckami"
++        terms: "obchod s nabozenskymi pomockami"
++      }
++      shop/scuba_diving: {
++        name: "Obchod s potápačským vybavením"
++        terms: "obchod s potapacskym vybavemin,potapacske vybavenie,potapačské vybanie,"
++      }
++      shop/second_hand: {
++        name: "Second hand"
++        terms: "z druhej ruky"
++      }
++      shop/tailor: {
++        name: "Krajčírstvo"
++        terms: "krajcirstvo,krajcir,krajčir"
++      }
++      shop/tattoo: {
++        name: "Tetovací salón"
++        terms: "tetovaci salon,tetovania,tetovanie"
++      }
++      shop/tea: {
++        name: "Obchod s čajom"
++        terms: "obchod s cajom,cajovy obchod,čajový ochod"
++      }
++      shop/ticket: {
++        name: "Predajňa vstupeniek"
++        terms: "predajna listkov,vstupenky,predajna vstupeniek,vstupenka,listok,lístok"
++      }
++      shop/tobacco: {
++        name: "Obchod s tabakom"
++        terms: "tabak,trafika"
++      }
++      shop/vacuum_cleaner: {
++        name: "Obchod s vysavačmi"
++        terms: "bchod s vysavacmi,vysavače,vysavace,vysavač,vysavac"
++      }
++      shop/video_games: {
++        name: "Obchod s videohrami"
++        terms: "videohry,počítačové hry,pocitacove hry"
++      }
++      shop/water_sports: {
++        name: "Ochod s plaveckým vybavením"
++        terms: "ochod s plaveckym vybavenim"
++      }
++      shop/weapons: {
++        name: "Ochod so zbraňami"
++        terms: "obchod so zbranami,zbraňe,zbrane,nože,noze"
++      }
++      shop/window_blind: {
++        name: "Obchod so žalúziami"
++        terms: "obchod so zaluziami,zaluzie,žalúzie"
++      }
++      traffic_calming/bump: {
++        name: "Spomalovcí prah"
++        terms: "spomalovaci prah,retardér,retarder"
++      }
++      traffic_calming/hump: {
++        name: "Spomalovací hrb"
++        terms: "spomalovaci hrb"
++      }
++      traffic_calming/rumble_strip: {
++        name: "Nízky spomaľovací prah"
++        terms: "nizky spomalovaci prah"
++      }
++      traffic_calming/table: {
++        name: "Vyvýšený prechod pre chodcov"
++        terms: "vyvyseny prechod pre chodcov"
++      }
+       landuse/commercial: {
+-        name: "Obchodné"
++        name: "Komerčná zóna"
+-        terms: "obchodne,komercia,komercne,komerčné"
++        terms: "komercna zona,business park,kancelárie,kancelarie,plocha"
+       }
+       landuse/farmland: {
 -        name: "Farma"
++        name: "Pestovateľská plocha"
 -        terms: "druzstvo,družstvo,chov,výbeh,vybeh,pole,roľa,rola"
--      }
++        terms: "pole,farma,dobytok,polia,záhrady,zahrady,pestovatelska plocha"
+       }
+       landuse/farmyard: {
+-        terms: "pole,farma,dobytok,polia,záhrady,zahrady,pestovatelska plocha"
++        terms: "Družstvo,druztvo,jrd,jzd,kravín,kravin,statok,gazdovstvo"
+       }
+       landuse/industrial: {
+-        name: "Priemyselné"
++        name: "Priemyselná zóna"
+-        terms: "priemyselne,vyroba,industrialne,industriálne"
++        terms: "priemyselna plocha,továreň,tovaren,závod,zavod,priemyselna zona"
+       }
+       landuse/military: {
+-        name: "Armádne"
++        name: "Vojenský obvod"
+-        terms: "armadne, armada"
++        terms: "vojensky obvod,vojenské cvičisko,vojenske cvicisko,tankodrom,armádna zóna,zrmadna zona"
+       }
+       landuse/residential: {
+-        name: "Obytné"
++        name: "Obytná zóna"
+-        terms: "obytne,domy"
++        terms: "obytna oblast,mesto,dedina,rezidencna oblast,rezidenčná oblast,obytna zona"
+       }
+       landuse/retail: {
+-        name: "Maloobchod"
++        name: "Maloobchodná zóna"
+-        terms: "obchod,maloobchodny,maloobchodný"
++        terms: "maloobchodna zona,maloobchod,predajna,predajňa,predaj,obchod,obchodná zóna"
+       }
      }
    }
  }

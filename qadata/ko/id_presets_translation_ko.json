@@ -2,15 +2,21 @@
   "area_fill": {
     "full": {
       "description__en": "Full Fill",
-      "tooltip__en": "Areas are drawn fully filled."
+      "description__transl": "전체 채우기",
+      "tooltip__en": "Areas are drawn fully filled.",
+      "tooltip__transl": "지역이 전체로 채워 그려집니다."
     },
     "partial": {
       "description__en": "Partial Fill",
-      "tooltip__en": "Areas are drawn with fill only around their inner edges. (Recommended for beginner mappers)"
+      "description__transl": "부분 채우기",
+      "tooltip__en": "Areas are drawn with fill only around their inner edges. (Recommended for beginner mappers)",
+      "tooltip__transl": "지역은 그들의 안쪽 가장자리 주변으로만 채워 그려집니다. (초보자 매퍼에게 권장)"
     },
     "wireframe": {
       "description__en": "No Fill (Wireframe)",
-      "tooltip__en": "Enabling wireframe mode makes it easy to see the background imagery."
+      "description__transl": "채우기 없음 (와이어프레임)",
+      "tooltip__en": "Enabling wireframe mode makes it easy to see the background imagery.",
+      "tooltip__transl": "와이어프레임 모드를 활성화하면 쉽게 배경 영상을 볼 수 있도록 합니다."
     }
   },
   "background": {
@@ -83,35 +89,44 @@
     "buildings": {
       "description__en": "Buildings",
       "description__transl": "건물",
-      "tooltip__en": "Buildings, Shelters, Garages, etc."
+      "tooltip__en": "Buildings, Shelters, Garages, etc.",
+      "tooltip__transl": "건물, 대피소, 차고 등"
     },
     "landuse": {
       "description__en": "Landuse Features",
       "description__transl": "토지 이용 기능",
-      "tooltip__en": "Forests, Farmland, Parks, Residential, Commercial, etc."
+      "tooltip__en": "Forests, Farmland, Parks, Residential, Commercial, etc.",
+      "tooltip__transl": "숲, 농토, 공원, 주거, 상업 등"
     },
     "major_roads": {
       "description__en": "Major Roads",
+      "description__transl": "주요 도로",
       "tooltip__en": "Highways, Streets, etc.",
       "tooltip__transl": "고속도로, 거리 등"
     },
     "minor_roads": {
       "description__en": "Minor Roads",
-      "tooltip__en": "Service Roads, Parking Aisles, Tracks, etc."
+      "description__transl": "보조 도로",
+      "tooltip__en": "Service Roads, Parking Aisles, Tracks, etc.",
+      "tooltip__transl": "취부 도로, 주차장 통로, 트랙 등"
     },
     "others": {
       "description__en": "Others",
       "description__transl": "기타",
-      "tooltip__en": "Everything Else"
+      "tooltip__en": "Everything Else",
+      "tooltip__transl": "그 밖의 모두"
     },
     "past_future": {
       "description__en": "Past/Future",
-      "tooltip__en": "Proposed, Construction, Abandoned, Demolished, etc."
+      "description__transl": "과거/미래",
+      "tooltip__en": "Proposed, Construction, Abandoned, Demolished, etc.",
+      "tooltip__transl": "제안, 건설, 폐지, 철거 등"
     },
     "paths": {
       "description__en": "Paths",
       "description__transl": "경로",
-      "tooltip__en": "Sidewalks, Foot Paths, Cycle Paths, etc."
+      "tooltip__en": "Sidewalks, Foot Paths, Cycle Paths, etc.",
+      "tooltip__transl": "인도, 보도, 자전거로 등"
     },
     "points": {
       "description__en": "Points",
@@ -121,16 +136,21 @@
     },
     "power": {
       "description__en": "Power Features",
-      "tooltip__en": "Power Lines, Power Plants, Substations, etc."
+      "description__transl": "전력 기능",
+      "tooltip__en": "Power Lines, Power Plants, Substations, etc.",
+      "tooltip__transl": "송전선, 발전소, 변전소 등"
     },
     "rail": {
       "description__en": "Rail Features",
-      "tooltip__en": "Railways"
+      "description__transl": "철로 기능",
+      "tooltip__en": "Railways",
+      "tooltip__transl": "철도"
     },
     "water": {
       "description__en": "Water Features",
       "description__transl": "물 기능",
-      "tooltip__en": "Rivers, Lakes, Ponds, Basins, etc."
+      "tooltip__en": "Rivers, Lakes, Ponds, Basins, etc.",
+      "tooltip__transl": "강, 호수, 연못, 웅덩이 등"
     }
   },
   "feature_info": {
@@ -169,6 +189,7 @@
     "editing_saving__en": "# Editing & Saving\n\nThis editor is designed to work primarily online, and you're accessing\nit through a website right now.\n\n### Selecting Features\n\nTo select a map feature, like a road or point of interest, click\non it on the map. This will highlight the selected feature, open a panel with\ndetails about it, and show a menu of things you can do with the feature.\n\nTo select multiple features, hold down the 'Shift' key. Then either click\non the features you want to select, or drag on the map to draw a rectangle.\nThis will draw a box and select all the points within it.\n\n### Saving Edits\n\nWhen you make changes like editing roads, buildings, and places, these are\nstored locally until you save them to the server. Don't worry if you make\na mistake - you can undo changes by clicking the undo button, and redo\nchanges by clicking the redo button.\n\nClick 'Save' to finish a group of edits - for instance, if you've completed\nan area of town and would like to start on a new area. You'll have a chance\nto review what you've done, and the editor supplies helpful suggestions\nand warnings if something doesn't seem right about the changes.\n\nIf everything looks good, you can enter a short comment explaining the change\nyou made, and click 'Save' again to post the changes\nto [OpenStreetMap.org](http://www.openstreetmap.org/), where they are visible\nto all other users and available for others to build and improve upon.\n\nIf you can't finish your edits in one sitting, you can leave the editor\nwindow and come back (on the same browser and computer), and the\neditor application will offer to restore your work.\n",
     "editing_saving__transl": "# 편집 및 저장\n\n이 편집기는 주로 온라인으로 작동하도록 설계되었고, 지금 웹사이트를 통해\n접근할 수 있습니다.\n\n### 기능 선택하기\n\n도로나 관심 있는 지점과 같은 지도 기능을 선택하려면, 지도에\n그것을 클릭하세요. 선택된 기능이 강조되고, 그것에 대한 세부 정보로\n된 패널을 열고, 기능을 수행할 수 있는 메뉴를 보여줍니다.\n\n여러 기능을 선택하려면 'Shift' 키를 누르고 있으세요. 다음 선택하려는\n기능을 클릭하거나, 사각형으로 그리기 위해 지도에 드래그하세요.\n상자가 그려지고 그 안에 있는 모든 지점이 선택됩니다.\n\n### 편집 저장하기\n\n도로, 건물과 장소 등을 편집하여 바꿀 때, 서버에 저장할 때까지는\n로컬에 저장됩니다. 실수를 걱정하지 마십시오 - 실행 취소\n버튼을 클릭해 바뀜을 실행 취소할 수 있고, 다시 실행 버튼을 클릭해\n바뀜을 다시 실행할 수 있습니다.\n\n편집의 그룹을 마치려면 '저장'을 클릭하세요 - 예를 들어, 마을의\n지역을 완료했고 새 지역에서 시작하고 싶으면 말입니다. 무엇을\n했는지 검토할 기회가 있을 것이며, 무언가 바꾸는 것에 대한 권한이\n없어 보이면 편집기가 유용한 제안과 경고를 제공합니다.\n\n모든 것이 좋아 보이면, 모든 다른 사용자에게 보여지고 구축하고 개선하기 위해 다른\n사용자가 사용할 수 있는 곳인, [OpenStreetMap.org](http://www.openstreetmap.org/)에\n바뀜을 게시하기 위해 바꾼 것을 설명할 짧은 요약을 입력하고 '저장'을\n다시 클릭할 수 있습니다.\n\n한 번에 앉아서 편집을 마칠 수 없으면, (같은 브라우저와 컴퓨터에서)\n편집기 창을 떠나고 나서 돌아올 수 있으며, 편집기 애플리케이션은\n작업을 되돌리도록 제공합니다.\n",
     "gps__en": "# GPS\n\nGPS data is the most trusted source of data for OpenStreetMap. This editor\nsupports local traces - `.gpx` files on your local computer. You can collect\nthis kind of GPS trace with a number of smartphone applications as well as\npersonal GPS hardware.\n\nFor information on how to perform a GPS survey, read\n[Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/).\n\nTo use a GPX track for mapping, drag and drop the GPX file onto the map\neditor. If it's recognized, it will be added to the map as a bright purple\nline. Click on the 'Map Data' menu on the right side to enable,\ndisable, or zoom to this new GPX-powered layer.\n\nThe GPX track isn't directly uploaded to OpenStreetMap - the best way to\nuse it is to draw on the map, using it as a guide for the new features that\nyou add, and also to [upload it to OpenStreetMap](http://www.openstreetmap.org/trace/create)\nfor other users to use.\n",
+    "gps__transl": "# GPS\n\nGPS 데이터는 OpenStreetMap에 대한 데이터의 가장 신뢰할 수 있는 자료입니다.\n이 편집기는 로컬 컴퓨터에 있는 `.gpx` 파일로 로컬 추적을 지원합니다. 스마트폰\n애플리케이션의 수와 같은 개인 GPS 하드웨어로 GPS 추적의 종류를 모을 수 있습니다.\n\nGPS 측량을 수행하는 방법에 대한 자세한 정보는\n[Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/)를 읽으세요.\n\n매핑에 GPX 트랙을 사용하려면, 지도 편집기 위에 GPX 파일을 끌어 놓으세요.\n인식되면, 밝은 보라 선으로 지도에 추가됩니다. 새 GPX 레이어로 활성화, 비활성화,\n또는 확대하려면 오른쪽에 있는 '지도 데이터' 메뉴를 클릭하세요.\n\nGPX 트랙은 OpenStreetMap에 직접 올려지지 않습니다 - 그것을 사용하는 최상의\n방법은 추가하는 새로운 기능을 위한 가이드로 사용하여, 지도를 그리는 것이며,\n다른 사용자가 사용하기 위해 [OpenStreetMap에 그것을 올리는](http://www.openstreetmap.org/trace/create)\n것입니다.\n",
     "help__en": "# Help\n\nThis is an editor for [OpenStreetMap](http://www.openstreetmap.org/), the\nfree and editable map of the world. You can use it to add and update\ndata in your area, making an open-source and open-data map of the world\nbetter for everyone.\n\nEdits that you make on this map will be visible to everyone who uses\nOpenStreetMap. In order to make an edit, you'll need a\n[free OpenStreetMap account](https://www.openstreetmap.org/user/new).\n\nThe [iD editor](http://ideditor.com/) is a collaborative project with [source\ncode available on GitHub](https://github.com/openstreetmap/iD).\n",
     "help__transl": "# 도움말\n\n이 편집기는 세계의 자유롭고 편집할 수 있는 지도인,\n[OpenStreetMap](http://www.openstreetmap.org/)을 위한 편집기입니다.\n모두를 위한 더 나은 세계의 오픈 소스 및 오픈 데이터 지도를 만들고, 당신의\n지역에서 데이터를 추가하거나 업데이드하려면 이를 사용할 수 있습니다.\n\n이 지도에서 만든 편집은 OpenStreetMap을 사용하는 모두에게\n보여질 수 있습니다. 편집을 하기 위해, [무료 OpenStreetMap\n계정](https://www.openstreetmap.org/user/new)이 필요합니다.\n\n[iD 편집기](http://ideditor.com/)는 [GitHub에 사용할 수 있는 소스\n코드](https://github.com/openstreetmap/iD)로 된 협업 프로젝트입니다.\n",
     "imagery__en": "# Imagery\n\nAerial imagery is an important resource for mapping. A combination of\nairplane flyovers, satellite views, and freely-compiled sources are available\nin the editor under the 'Background Settings' menu on the right.\n\nBy default a [Bing Maps](http://www.bing.com/maps/) satellite layer is\npresented in the editor, but as you pan and zoom the map to new geographical\nareas, new sources will become available. Some countries, like the United\nStates, France, and Denmark have very high-quality imagery available for some areas.\n\nImagery is sometimes offset from the map data because of a mistake on the\nimagery provider's side. If you see a lot of roads shifted from the background,\ndon't immediately move them all to match the background. Instead you can adjust\nthe imagery so that it matches the existing data by clicking 'Fix alignment' at\nthe bottom of the Background Settings UI.\n",
@@ -195,7 +216,9 @@
     "back_tooltip__transl": "기능 바꾸기",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "아니오",
+      "yes__en": "Yes",
+      "yes__transl": "예"
     },
     "choose__en": "Select feature type",
     "choose__transl": "기능 유형 선택",
@@ -338,6 +361,7 @@
     "description__en": "Map Data",
     "description__transl": "지도 데이터",
     "fill_area__en": "Fill Areas",
+    "fill_area__transl": "지역 채우기",
     "map_features__en": "Map Features",
     "map_features__transl": "지도 기능",
     "title__en": "Map Data",
@@ -426,6 +450,7 @@
         "line__transl": "선을 둥글게 만들었습니다."
       },
       "connected_to_hidden__en": "This can't be made circular because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "이것은 숨겨진 지물에 연결되어 있기 때문에 둥글게 만들 수 없습니다.",
       "description": {
         "area__en": "Make this area circular.",
         "area__transl": "이 지역을 둥글게 만듭니다.",
@@ -487,10 +512,12 @@
         "vertex__transl": "길에서 노드를 삭제했습니다."
       },
       "connected_to_hidden__en": "This can't be deleted because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "이것은 숨겨진 지물에 연결되어 있기 때문에 삭제할 수 없습니다.",
       "description__en": "Delete object permanently.",
       "description__transl": "개체를 영구히 삭제합니다.",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
-      "incomplete_relation__transl": "이 기능은 완전히 다운로드되어 있지 않기 때문에 삭제할 수 없습니다.",
+      "incomplete_relation__transl": "이 지물은 완전히 다운로드되어 있지 않기 때문에 삭제할 수 없습니다.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "삭제"
     },
@@ -502,6 +529,7 @@
       "annotation__en": "Disconnected lines/areas.",
       "annotation__transl": "선/지역을 연결 해제했습니다.",
       "connected_to_hidden__en": "This can't be disconnected because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "이것은 숨겨진 기능에 연결되어 있기 때문에 연결을 해제할 수 없습니다.",
       "description__en": "Disconnect these lines/areas from each other.",
       "description__transl": "서로 이 선/지역을 연결 해제합니다.",
       "key__en": "D",
@@ -543,6 +571,7 @@
         "vertex__transl": "길에서 노드를 이동했습니다."
       },
       "connected_to_hidden__en": "This can't be moved because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "이것은 숨겨진 기능에 연결되어 있기 때문에 이동할 수 없습니다.",
       "description__en": "Move this to a different location.",
       "description__transl": "다른 위치로 이동합니다.",
       "incomplete_relation__en": "This feature can't be moved because it hasn't been fully downloaded.",
@@ -552,7 +581,7 @@
       "title__en": "Move",
       "title__transl": "이동",
       "too_large__en": "This can't be moved because not enough of it is currently visible.",
-      "too_large__transl": "지역이 현재 충분히 보이지 않기 때문에 옮길 수 없습니다."
+      "too_large__transl": "지역이 현재 충분히 보이지 않기 때문에 이동할 수 없습니다."
     },
     "orthogonalize": {
       "annotation": {
@@ -562,6 +591,7 @@
         "line__transl": "선의 모서리를 사각지게 했습니다."
       },
       "connected_to_hidden__en": "This can't be made square because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "이것은 숨겨진 지물에 연결되어 있기 때문에 사각지게 만들 수 없습니다.",
       "description": {
         "area__en": "Square the corners of this area.",
         "area__transl": "이 지역의 모서리를 사각지게 합니다.",
@@ -613,6 +643,7 @@
         "line__transl": "선을 회전했습니다."
       },
       "connected_to_hidden__en": "This can't be rotated because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "이것은 숨겨진 기능에 연결되어 있기 때문에 회전할 수 없습니다.",
       "description__en": "Rotate this object around its center point.",
       "description__transl": "중심점을 기준으로 이 개체를 회전합니다.",
       "key__en": "R",
@@ -632,6 +663,7 @@
         "multiple__transl": "선/지역 {n}개 경계를 분할합니다."
       },
       "connected_to_hidden__en": "This can't be split because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "이것은 숨겨진 기능에 연결되어 있기 때문에 분할할 수 없습니다.",
       "description": {
         "area__en": "Split the boundary of this area into two.",
         "area__transl": "이 지억을 둘로 경계를 분할합니다.",
@@ -661,6 +693,7 @@
       "annotation__en": "Straightened a line.",
       "annotation__transl": "선을 곧게 했습니다.",
       "connected_to_hidden__en": "This line can't be straightened because it is connected to a hidden feature.",
+      "connected_to_hidden__transl": "이것은 숨겨진 지물에 연결되어 있기 때문에 곧게 할 수 없습니다.",
       "description__en": "Straighten this line.",
       "description__transl": "이 선을 곧게 합니다.",
       "key__en": "S",
@@ -750,7 +783,7 @@
         ],
         "name": "Rail",
         "name__en": "Rail",
-        "name__transl": "선로"
+        "name__transl": "철로"
       },
       "category-restriction": {
         "geometry": "relation",
@@ -1193,6 +1226,7 @@
         "key": "bench",
         "label": "Bench",
         "label__en": "Bench",
+        "label__transl": "벤치",
         "type": "check"
       },
       "bicycle_parking": {
@@ -1213,6 +1247,7 @@
         "key": "brand",
         "label": "Brand",
         "label__en": "Brand",
+        "label__transl": "상표",
         "type": "text"
       },
       "building": {
@@ -1381,6 +1416,7 @@
         "key": "delivery",
         "label": "Delivery",
         "label__en": "Delivery",
+        "label__transl": "배달",
         "type": "check"
       },
       "denomination": {
@@ -1408,16 +1444,20 @@
         "key": "electrified",
         "label": "Electrification",
         "label__en": "Electrification",
+        "label__transl": "전력화",
         "options": {
           "contact_line__en": "Contact Line",
+          "contact_line__transl": "연결로",
           "no__en": "No",
           "no__transl": "아니오",
           "rail__en": "Electrified Rail",
+          "rail__transl": "전철",
           "yes__en": "Yes (unspecified)",
           "yes__transl": "예 (지정되지 않음)"
         },
         "placeholder": "Contact Line, Electrified Rail...",
         "placeholder__en": "Contact Line, Electrified Rail...",
+        "placeholder__transl": "연결로, 전철...",
         "strings": {
           "options": {
             "contact_line": "Contact Line",
@@ -1455,6 +1495,7 @@
         "key": "except",
         "label": "Exceptions",
         "label__en": "Exceptions",
+        "label__transl": "예외",
         "type": "combo"
       },
       "fax": {
@@ -1481,9 +1522,11 @@
         "label__transl": "유형",
         "options": {
           "pillar__en": "Pillar/Aboveground",
+          "pillar__transl": "기둥/지상",
           "pond__en": "Pond",
-          "pond__transl": "호수",
+          "pond__transl": "연못",
           "underground__en": "Underground",
+          "underground__transl": "지하",
           "wall__en": "Wall",
           "wall__transl": "벽"
         },
@@ -1578,8 +1621,37 @@
         "key": "gauge",
         "label": "Gauge",
         "label__en": "Gauge",
-        "label__transl": "게이지",
+        "label__transl": "궤간",
         "type": "combo"
+      },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "label__transl": "성별",
+        "options": {
+          "female__en": "Female",
+          "female__transl": "여자",
+          "male__en": "Male",
+          "male__transl": "남자",
+          "unisex__en": "Unisex",
+          "unisex__transl": "남녀 공용"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "placeholder__transl": "알 수 없음",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
       },
       "generator/method": {
         "key": "generator:method",
@@ -2042,6 +2114,7 @@
         "options": {
           "carports__en": "Carports",
           "garage_boxes__en": "Garage Boxes",
+          "garage_boxes__transl": "차고 상자",
           "lane__en": "Roadside Lane",
           "multi-storey__en": "Multilevel",
           "sheds__en": "Sheds",
@@ -2180,6 +2253,7 @@
         "key": "population",
         "label": "Population",
         "label__en": "Population",
+        "label__transl": "인구",
         "type": "text"
       },
       "power": {
@@ -2333,8 +2407,11 @@
         "label__en": "Chain Tool",
         "options": {
           "no__en": "No",
+          "no__transl": "아니오",
           "undefined__en": "Assumed to be No",
-          "yes__en": "Yes"
+          "undefined__transl": "아니오로 간주",
+          "yes__en": "Yes",
+          "yes__transl": "예"
         },
         "strings": {
           "options": {
@@ -2351,8 +2428,11 @@
         "label__en": "Air Pump",
         "options": {
           "no__en": "No",
+          "no__transl": "아니오",
           "undefined__en": "Assumed to be No",
-          "yes__en": "Yes"
+          "undefined__transl": "아니오로 간주",
+          "yes__en": "Yes",
+          "yes__transl": "예"
         },
         "strings": {
           "options": {
@@ -2367,7 +2447,7 @@
         "key": "shelter",
         "label": "Shelter",
         "label__en": "Shelter",
-        "label__transl": "피난처",
+        "label__transl": "대피소",
         "type": "check"
       },
       "shelter_type": {
@@ -2433,7 +2513,7 @@
           "excellent__en": "Thin Rollers: rollerblade, skateboard",
           "good__en": "Thin Wheels: racing bike",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
-          "impassible__en": "Impassible / No wheeled vehicle",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
           "very_horrible__en": "Specialized off-road: tractor, ATV"
@@ -2446,7 +2526,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -2604,8 +2684,10 @@
         "label__en": "Takeaway",
         "options": {
           "no__en": "No",
+          "no__transl": "아니오",
           "only__en": "Takeaway Only",
-          "yes__en": "Yes"
+          "yes__en": "Yes",
+          "yes__transl": "예"
         },
         "placeholder": "Yes, No, Takeaway Only...",
         "placeholder__en": "Yes, No, Takeaway Only...",
@@ -2682,7 +2764,7 @@
         "key": "trail_visibility",
         "label": "Trail Visibility",
         "label__en": "Trail Visibility",
-        "label__transl": "도로의 가시성",
+        "label__transl": "철로의 가시성",
         "options": {
           "bad__en": "Bad: no markers, path sometimes invisible/pathless",
           "excellent__en": "Excellent: unambiguous path or markers everywhere",
@@ -20507,7 +20589,7 @@
         ],
         "name": "Shelter",
         "name__en": "Shelter",
-        "name__transl": "피난처",
+        "name__transl": "대피소",
         "tags": {
           "amenity": "shelter"
         },
@@ -20605,6 +20687,7 @@
         ],
         "name": "Homeless Shelter",
         "name__en": "Homeless Shelter",
+        "name__transl": "이재민 대피소",
         "tags": {
           "amenity": "social_facility",
           "social_facility": "shelter",
@@ -20727,7 +20810,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -21296,6 +21380,7 @@
         "icon": "building",
         "name": "College Building",
         "name__en": "College Building",
+        "name__transl": "대학 건물",
         "tags": {
           "building": "college"
         },
@@ -21335,6 +21420,7 @@
         "icon": "building",
         "name": "Building Under Construction",
         "name__en": "Building Under Construction",
+        "name__transl": "공사 중인 건물",
         "tags": {
           "building": "construction"
         },
@@ -21417,6 +21503,7 @@
         "icon": "warehouse",
         "name": "Garages",
         "name__en": "Garages",
+        "name__transl": "차고",
         "tags": {
           "building": "garages"
         },
@@ -21537,6 +21624,7 @@
         "icon": "building",
         "name": "Preschool/Kindergarten Building",
         "name__en": "Preschool/Kindergarten Building",
+        "name__transl": "유치원 건물",
         "tags": {
           "building": "kindergarten"
         },
@@ -21742,6 +21830,7 @@
         "icon": "building",
         "name": "University Building",
         "name__en": "University Building",
+        "name__transl": "대학교 건물",
         "tags": {
           "building": "university"
         },
@@ -22878,7 +22967,7 @@
         ],
         "name": "Sidewalk",
         "name__en": "Sidewalk",
-        "name__transl": "보도",
+        "name__transl": "인도",
         "tags": {
           "footway": "sidewalk",
           "highway": "footway"
@@ -23655,6 +23744,7 @@
         ],
         "name": "Service Area",
         "name__en": "Service Area",
+        "name__transl": "서비스 지역",
         "tags": {
           "highway": "services"
         },
@@ -23715,6 +23805,7 @@
         ],
         "name": "Street Lamp",
         "name__en": "Street Lamp",
+        "name__transl": "가로등",
         "tags": {
           "highway": "street_lamp"
         },
@@ -24072,7 +24163,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24087,18 +24177,18 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
         "name__en": "Basin",
-        "name__transl": "분지",
+        "name__transl": "웅덩이",
         "tags": {
           "landuse": "basin"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "분지"
       },
       "landuse/cemetery": {
         "fields": [
@@ -24106,8 +24196,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24140,13 +24228,12 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "상업",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
+        "name__transl": "상업 지역",
         "tags": {
           "landuse": "commercial"
         },
@@ -24160,7 +24247,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24182,9 +24268,9 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "농장",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "농토",
         "searchable": false,
         "tags": {
           "landuse": "farm"
@@ -24198,26 +24284,24 @@
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "농토",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland"
+        "terms__en": ""
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24237,7 +24321,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24258,6 +24341,7 @@
         ],
         "name": "Garages",
         "name__en": "Garages",
+        "name__transl": "차고",
         "tags": {
           "landuse": "garages"
         },
@@ -24267,7 +24351,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24282,13 +24365,12 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "산업",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
+        "name__transl": "산업 지역",
         "tags": {
           "landuse": "industrial"
         },
@@ -24313,7 +24395,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24330,9 +24411,9 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "군사지",
+        "name": "Military Area",
+        "name__en": "Military Area",
+        "name__transl": "군사 지역",
         "tags": {
           "landuse": "military"
         },
@@ -24345,7 +24426,6 @@
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24361,7 +24441,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24376,13 +24455,12 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "주거",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
+        "name__transl": "주거 지역",
         "tags": {
           "landuse": "residential"
         },
@@ -24392,13 +24470,12 @@
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "소매점",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
+        "name__transl": "소매점 지역",
         "tags": {
           "landuse": "retail"
         },
@@ -24406,7 +24483,6 @@
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -24839,6 +24915,7 @@
         "icon": "pitch",
         "name": "Running Track",
         "name__en": "Running Track",
+        "name__transl": "육상 트랙",
         "tags": {
           "leisure": "track",
           "sport": "running"
@@ -25254,14 +25331,13 @@
         ],
         "name": "Military Range",
         "name__en": "Military Range",
-        "name__transl": "군사지",
+        "name__transl": "군사 범위",
         "tags": {
           "military": "range"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "군사 지역"
+        "terms__en": ""
       },
       "natural": {
         "fields": [
@@ -25559,7 +25635,7 @@
         "icon": "water",
         "name": "Pond",
         "name__en": "Pond",
-        "name__transl": "호수",
+        "name__transl": "연못",
         "tags": {
           "natural": "water",
           "water": "pond"
@@ -26123,6 +26199,7 @@
         "icon": "skiing",
         "name": "Piste/Ski Trail",
         "name__en": "Piste/Ski Trail",
+        "name__transl": "활강/스키 트레일",
         "tags": {
           "piste:type": "*"
         },
@@ -26384,7 +26461,7 @@
         "icon": "power-line",
         "name": "Minor Power Line",
         "name__en": "Minor Power Line",
-        "name__transl": "작은 송전선",
+        "name__transl": "보조 송전선",
         "tags": {
           "power": "minor_line"
         },
@@ -26433,6 +26510,7 @@
         ],
         "name": "Substation",
         "name__en": "Substation",
+        "name__transl": "변전소",
         "tags": {
           "power": "substation"
         },
@@ -26654,6 +26732,7 @@
         "icon": "railway-rail",
         "name": "Narrow Gauge Rail",
         "name__en": "Narrow Gauge Rail",
+        "name__transl": "협궤 철로",
         "tags": {
           "railway": "narrow_gauge"
         },
@@ -26690,7 +26769,7 @@
         "icon": "railway-rail",
         "name": "Rail",
         "name__en": "Rail",
-        "name__transl": "선로",
+        "name__transl": "철로",
         "tags": {
           "railway": "rail"
         },
@@ -34883,7 +34962,7 @@
         ],
         "terms__en": "stereo,video"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -34895,15 +34974,16 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household"
       },
       "shop/interior_decoration": {
         "fields": [
@@ -42867,7 +42947,7 @@
         "icon": "water",
         "name": "Riverbank",
         "name__en": "Riverbank",
-        "name__transl": "강가",
+        "name__transl": "강둑",
         "tags": {
           "waterway": "riverbank"
         },
@@ -42961,6 +43041,7 @@
     "title__en": "Save",
     "title__transl": "저장",
     "unknown_error_details__en": "Please ensure you are connected to the internet.",
+    "unknown_error_details__transl": "인터넷에 연결되어 있는지 확인해주세요.",
     "unsaved_changes__en": "You have unsaved changes",
     "unsaved_changes__transl": "저장하지 않은 바뀜이 있습니다",
     "uploading__en": "Uploading changes to OpenStreetMap.",

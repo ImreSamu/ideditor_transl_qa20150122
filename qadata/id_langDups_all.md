@@ -5,7 +5,7 @@
 |af|Apteek|Chemist|shop/chemist| |chemist|shop=chemist| | | | |area| |point| | |
 |af|Apteek|Pharmacy|amenity/pharmacy| |pharmacy|amenity=pharmacy| | | | |area| |point| | |
 |af|Begrafplaas|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|af|Begrafplaas|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|af|Begrafplaas|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |af|Dorpie|Village|place/village| |village|place=village| | | | |area| |point| | |
 |af|Dorpie|Hamlet|place/hamlet| |triangle-stroked|place=hamlet| | | | |area| |point| | |
 |af|Fontein|Fountain|amenity/fountain| | |amenity=fountain| | | | |area| |point| | |
@@ -18,7 +18,7 @@
 |af|Snelweg|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |af|Veerbootroete|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |af|Veerbootroete|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
-|af|Woud|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|af|Woud|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |af|Woud|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
 |ar-AA| | | | ||||||||||||
 |ar|بقالة|Greengrocer|shop/greengrocer| |shop|shop=greengrocer| | | | |area| |point| | |
@@ -37,48 +37,44 @@
 |ar|طريق|Path|highway/path| |highway-path|highway=path| | | | | |line| | | |
 |ar|طريق سريع|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |
 |ar|طريق سريع|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
-|ar|مرج|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
+|ar|مرج|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| | | | |
 |ar|مرج|Heath|natural/heath| | |natural=heath| | | | |area| | | | |
-|ar|مقبرة|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|ar|مقبرة|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |ar|مقبرة|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
 |ar|نصب تذكاري|Memorial|historic/memorial| |monument|historic=memorial| | | | |area| |point|vertex| |
 |ar|نصب تذكاري|Monument|historic/monument| |monument|historic=monument| | | | |area| |point|vertex| |
 |ast|Barrera|Lift Gate|barrier/lift_gate| | |barrier=lift_gate| | | | | | |point|vertex| |
 |ast|Barrera|Barrier|barrier| | |barrier=*| | | | |area|line|point|vertex| |
-|ast|Capiella|Chapel|building/chapel| |place-of-worship|building=chapel| | | | |area| |point| | |
 |ast|Capiella|Wayside Shrine|historic/wayside_shrine| | |historic=wayside_shrine| | | | |area| |point|vertex| |
-|ast|Comercial|Retail|landuse/retail| |shop|landuse=retail| | | | |area| |point| | |
-|ast|Comercial|Commercial|landuse/commercial| |commercial|landuse=commercial| | | | |area| |point| | |
+|ast|Capiella|Chapel|building/chapel| |place-of-worship|building=chapel| | | | |area| |point| | |
 |ast|Edificiu comercial|Commercial Building|building/commercial| |commercial|building=commercial| | | | |area| |point| | |
 |ast|Edificiu comercial|Retail Building|building/retail| |building|building=retail| | | | |area| |point| | |
-|ast|Fotografía|Photography Store|shop/photo| |camera|shop=photo| | | | |area| |point| | |
 |ast|Fotografía|Photographer|craft/photographer| |camera|craft=photographer| | | | |area| |point| | |
+|ast|Fotografía|Photography Store|shop/photo| |camera|shop=photo| | | | |area| |point| | |
 |ast|Ilesia|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |ast|Ilesia|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
-|ast|Llende alministrativa|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
 |ast|Llende alministrativa|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
-|ast|Pasu de peatones|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|ast|Llende alministrativa|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
 |ast|Pasu de peatones|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
+|ast|Pasu de peatones|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
 |ast|Riega|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
 |ast|Riega|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |ast|Ruta de ferry|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |ast|Ruta de ferry|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
-|ast|Vivienda aisllada|Isolated Dwelling|place/isolated_dwelling| | |place=isolated_dwelling| | | | |area| |point| | |
 |ast|Vivienda aisllada|Detached Home|building/detached| |building|building=detached| | | | |area| |point| | |
-|bg-BG|Административна граница|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
+|ast|Vivienda aisllada|Isolated Dwelling|place/isolated_dwelling| | |place=isolated_dwelling| | | | |area| |point| | |
 |bg-BG|Административна граница|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
+|bg-BG|Административна граница|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
+|bg-BG|Гора|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |bg-BG|Гора|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
-|bg-BG|Гора|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
 |bg-BG|Канавка|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
 |bg-BG|Канавка|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |bg-BG|Път|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |bg-BG|Път|Road Route|type/route/road| |route-road|type=route|route=road| | | | | | | |relation|
-|bg-BG|Търговия|Retail|landuse/retail| |shop|landuse=retail| | | | |area| |point| | |
-|bg-BG|Търговия|Commercial|landuse/commercial| |commercial|landuse=commercial| | | | |area| |point| | |
 |bg-BG|Фериботна връзка|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |bg-BG|Фериботна връзка|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |bn|কবরখানা|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|bn|কবরখানা|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|bn|কবরখানা|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |bn|ক্রসিং|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
 |bn|ক্রসিং|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
 |bn|প্রশাসনিক সীমানা|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
@@ -88,7 +84,7 @@
 |bs|Admninistrativna granica|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
 |bs|Admninistrativna granica|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
 |bs|Groblje|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|bs|Groblje|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|bs|Groblje|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |bs|Jarak|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
 |bs|Jarak|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |bs|Prelaz|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
@@ -96,11 +92,11 @@
 |bs|Trajektna ruta|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |bs|Trajektna ruta|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |bs|Šuma|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
-|bs|Šuma|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|bs|Šuma|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |ca|Banc|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
 |ca|Banc|Bank|amenity/bank| |bank|amenity=bank| | | | |area| |point| | |
 |ca|Bosc|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
-|ca|Bosc|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|ca|Bosc|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |ca|Botiga de cosmètics|Cosmetics Store|shop/cosmetics| |shop|shop=cosmetics| | | | |area| |point| | |
 |ca|Botiga de cosmètics|Beauty Shop|shop/beauty| |shop|shop=beauty| | | | |area| |point| | |
 |ca|Botiga de roba|Fashion Store|shop/fashion| |shop|shop=fashion| | | | |area| |point| | |
@@ -112,7 +108,7 @@
 |ca|Capella|Wayside Shrine|historic/wayside_shrine| | |historic=wayside_shrine| | | | |area| |point|vertex| |
 |ca|Capella|Chapel|building/chapel| |place-of-worship|building=chapel| | | | |area| |point| | |
 |ca|Cementiri|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|ca|Cementiri|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|ca|Cementiri|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |ca|Església|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |ca|Església|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |ca|Farmàcia|Medical Supply Store|shop/medical_supply| |shop|shop=medical_supply| | | | |area| |point| | |
@@ -136,18 +132,10 @@
 |ca|Sastreria|Dressmaker|craft/dressmaker| |clothing-store|craft=dressmaker| | | | |area| |point| | |
 |cs|Administrativní hranice|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
 |cs|Administrativní hranice|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
-|cs|Garáže|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
-|cs|Garáže|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
-|cs|Kostel|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
-|cs|Kostel|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
-|cs|Les|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
-|cs|Les|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
-|cs|Příkop|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
-|cs|Příkop|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
-|cs|Přechod typu zebra|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |cs|Přechod typu zebra|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
-|cs|Řemeslník|Handicraft|craft/handicraft| |art-gallery|craft=handicraft| | | | |area| |point| | |
+|cs|Přechod typu zebra|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |cs|Řemeslník|Craft|craft| |marker-stroked|craft=*| | | | |area| |point| | |
+|cs|Řemeslník|Handicraft|craft/handicraft| |art-gallery|craft=handicraft| | | | |area| |point| | |
 |da|Dam|Dam|waterway/dam| |dam|waterway=dam| | | | |area|line|point|vertex| |
 |da|Dam|Pond|natural/water/pond| |water|natural=water|water=pond| | | |area| | | | |
 |da|Ej brugt jernbanespor|Disused Railway|railway/disused| |railway-disused|railway=disused| | | | | |line| | | |
@@ -192,52 +180,50 @@
 |da|Vandrerute|Hiking Route|type/route/hiking| |route-foot|type=route|route=hiking| | | | | | | |relation|
 |da|Vinforhandler|Liquor Store|shop/alcohol| |alcohol-shop|shop=alcohol| | | | |area| |point| | |
 |da|Vinforhandler|Beverage Store|shop/beverages| |shop|shop=beverages| | | | |area| |point| | |
-|da|Vingård|Vineyard|landuse/vineyard| | |landuse=vineyard| | | | |area| |point| | |
+|da|Vingård|Vineyard|landuse/vineyard| | |landuse=vineyard| | | | |area| | | | |
 |da|Vingård|Winery|craft/winery| |alcohol-shop|craft=winery| | | | |area| |point| | |
 |de-DE| | | | ||||||||||||
-|de|Administrative Grenze|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
 |de|Administrative Grenze|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
-|de|Bahnsteig|Railway Platform|railway/platform| | |railway=platform| | | | |area|line|point|vertex| |
+|de|Administrative Grenze|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
 |de|Bahnsteig|Platform|public_transport/platform| | |public_transport=platform| | | | |area|line|point|vertex| |
-|de|Bauernhof|Farmyard|landuse/farmyard| |farm|landuse=farmyard| | | | |area| |point| | |
-|de|Bauernhof|Farm|landuse/farmland| |farm|landuse=farmland| | | | |area| |point| | |
-|de|Boutique|Fabric Store|shop/fabric| |shop|shop=fabric| | | | |area| |point| | |
+|de|Bahnsteig|Railway Platform|railway/platform| | |railway=platform| | | | |area|line|point|vertex| |
 |de|Boutique|Boutique|shop/boutique| |shop|shop=boutique| | | | |area| |point| | |
+|de|Boutique|Fabric Store|shop/fabric| |shop|shop=fabric| | | | |area| |point| | |
 |de|Campingplatz|Camp Site|tourism/camp_site| |campsite|tourism=camp_site| | | | |area| |point|vertex| |
 |de|Campingplatz|RV Park|tourism/caravan_site| | |tourism=caravan_site| | | | |area| |point|vertex| |
 |de|Drogerie|Chemist|shop/chemist| |chemist|shop=chemist| | | | |area| |point| | |
 |de|Drogerie|Cosmetics Store|shop/cosmetics| |shop|shop=cosmetics| | | | |area| |point| | |
 |de|Eisenbahn|Rail|railway/rail| |railway-rail|railway=rail| | | | | |line| | | |
 |de|Eisenbahn|Railway|railway| | |railway=*| | | | |area|line|point|vertex| |
-|de|Fährenroute|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |de|Fährenroute|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
-|de|Friedhof|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|de|Fährenroute|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |de|Friedhof|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|de|Garagen|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
+|de|Friedhof|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |de|Garagen|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
+|de|Garagen|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |de|Gemischtwarenhandel|Convenience Store|shop/convenience| |shop|shop=convenience| | | | |area| |point| | |
 |de|Gemischtwarenhandel|Variety Store|shop/variety_store| |shop|shop=variety_store| | | | |area| |point| | |
-|de|Graben|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |de|Graben|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
-|de|Hütte|Cabin|building/cabin| |building|building=cabin| | | | |area| |point| | |
+|de|Graben|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |de|Hütte|Hut|building/hut| | |building=hut| | | | |area| |point| | |
-|de|Kehrtwendeverbot|No U-turn|type/restriction/no_u_turn| |restriction-no-u-turn|type=restriction|restriction=no_u_turn| | | | | | | |relation|
+|de|Hütte|Cabin|building/cabin| |building|building=cabin| | | | |area| |point| | |
 |de|Kehrtwendeverbot|No Turns|type/restriction/only_straight_on| |restriction-only-straight-on|type=restriction|restriction=only_straight_on| | | | | | | |relation|
-|de|Kirche|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
+|de|Kehrtwendeverbot|No U-turn|type/restriction/no_u_turn| |restriction-no-u-turn|type=restriction|restriction=no_u_turn| | | | | | | |relation|
 |de|Kirche|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|de|Kirche|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |de|Radweg|Cycle Path|highway/cycleway| |highway-cycleway|highway=cycleway| | | | | |line| | | |
 |de|Radweg|Cycle Route|type/route/bicycle| |route-bicycle|type=route|route=bicycle| | | | | | | |relation|
 |de|Seilbahn|Cable Car|aerialway/cable_car| | |aerialway=cable_car| | | | | |line| | | |
 |de|Seilbahn|Aerialway|aerialway| | |aerialway=*| | | | | |line|point|vertex| |
-|de|Uhrmacher|Watchmaker|craft/watchmaker| |circle-stroked|craft=watchmaker| | | | |area| |point| | |
 |de|Uhrmacher|Clockmaker|craft/clockmaker| |circle-stroked|craft=clockmaker| | | | |area| |point| | |
-|de|Wald|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|de|Uhrmacher|Watchmaker|craft/watchmaker| |circle-stroked|craft=watchmaker| | | | |area| |point| | |
 |de|Wald|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
-|de|Zebrastreifen|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
+|de|Wald|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |de|Zebrastreifen|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
+|de|Zebrastreifen|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |el|Αυτοκινητόδρομος|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |el|Αυτοκινητόδρομος|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |
-|el|Δάσος|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|el|Δάσος|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |el|Δάσος|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
 |el|Διαδρομή Πορθμείου|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |el|Διαδρομή Πορθμείου|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
@@ -247,7 +233,7 @@
 |el|Εκκλησία|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |el|Θαμνότοπος|Scrub|natural/scrub| | |natural=scrub| | | | |area| | | | |
 |el|Θαμνότοπος|Heath|natural/heath| | |natural=heath| | | | |area| | | | |
-|el|Κοιμητήριο|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|el|Κοιμητήριο|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |el|Κοιμητήριο|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
 |el|Μνημείο|Memorial|historic/memorial| |monument|historic=memorial| | | | |area| |point|vertex| |
 |el|Μνημείο|Monument|historic/monument| |monument|historic=monument| | | | |area| |point|vertex| |
@@ -280,38 +266,28 @@
 |eo| | | | ||||||||||||
 |es|Artesanía|Handicraft|craft/handicraft| |art-gallery|craft=handicraft| | | | |area| |point| | |
 |es|Artesanía|Craft|craft| |marker-stroked|craft=*| | | | |area| |point| | |
-|es|Banco|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
 |es|Banco|Bank|amenity/bank| |bank|amenity=bank| | | | |area| |point| | |
-|es|Canal|Fairway|golf/fairway| |golf|golf=fairway|landuse=grass| | | |area| | | | |
+|es|Banco|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
 |es|Canal|Canal|waterway/canal| |waterway-canal|waterway=canal| | | | | |line| | | |
-|es|Ciudad|Town|place/town| |town|place=town| | | | |area| |point| | |
-|es|Ciudad|City|place/city| |city|place=city| | | | |area| |point| | |
+|es|Canal|Fairway|golf/fairway| |golf|golf=fairway|landuse=grass| | | |area| | | | |
 |es|Confitería|Confectionery|craft/confectionery| |bakery|craft=confectionery| | | | |area| |point| | |
 |es|Confitería|Candy Store|shop/confectionery| |shop|shop=confectionery| | | | |area| |point| | |
-|es|Cruce peatonal|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
-|es|Cruce peatonal|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
-|es|Farmacia|Medical Supply Store|shop/medical_supply| |shop|shop=medical_supply| | | | |area| |point| | |
-|es|Farmacia|Pharmacy|amenity/pharmacy| |pharmacy|amenity=pharmacy| | | | |area| |point| | |
-|es|Garajes|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |es|Garajes|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
-|es|Granja|Farm|landuse/farmland| |farm|landuse=farmland| | | | |area| |point| | |
-|es|Granja|Farmyard|landuse/farmyard| |farm|landuse=farmyard| | | | |area| |point| | |
-|es|Iglesia|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
-|es|Iglesia|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
-|es|Médico|Physician|office/physician| |commercial|office=physician| | | | |area| |point|vertex| |
-|es|Médico|Doctor|amenity/doctor| |hospital|amenity=doctors| | | | |area| |point| | |
-|es|Paso de peatones|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|es|Garajes|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
+|es|Lugar de culto|Place of Worship|amenity/place_of_worship| |place-of-worship|amenity=place_of_worship| | | | |area| |point| | |
+|es|Lugar de culto|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |es|Paso de peatones|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
-|es|Presa|Weir|waterway/weir| |dam|waterway=weir| | | | | |line| |vertex| |
-|es|Presa|Dam|waterway/dam| |dam|waterway=dam| | | | |area|line|point|vertex| |
-|es|Refugio|Hut|building/hut| | |building=hut| | | | |area| |point| | |
-|es|Refugio|Shelter|amenity/shelter| | |amenity=shelter| | | | |area| |point|vertex| |
+|es|Paso de peatones|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|es|Paso de peatones|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
+|es|Paso de peatones|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
+|es|Pueblo|Town|place/town| |town|place=town| | | | |area| |point| | |
+|es|Pueblo|Village|place/village| |village|place=village| | | | |area| |point| | |
 |es|Relojero|Watchmaker|craft/watchmaker| |circle-stroked|craft=watchmaker| | | | |area| |point| | |
 |es|Relojero|Clockmaker|craft/clockmaker| |circle-stroked|craft=clockmaker| | | | |area| |point| | |
 |es|Ruta de ferry|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |es|Ruta de ferry|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
-|es|Teleférico|Cable Car|aerialway/cable_car| | |aerialway=cable_car| | | | | |line| | | |
-|es|Teleférico|Aerialway|aerialway| | |aerialway=*| | | | | |line|point|vertex| |
+|es|Área Comercial|Commercial Area|landuse/commercial| |commercial|landuse=commercial| | | | |area| | | | |
+|es|Área Comercial|Retail Area|landuse/retail| |shop|landuse=retail| | | | |area| | | | |
 |et|Aed|Garden|leisure/garden| |garden|leisure=garden| | | | |area| |point|vertex| |
 |et|Aed|Fence|barrier/fence| | |barrier=fence| | | | | |line| | | |
 |et|Hotell|Hotel Building|building/hotel| |building|building=hotel| | | | |area| |point| | |
@@ -324,7 +300,7 @@
 |et|Linn|Town|place/town| |town|place=town| | | | |area| |point| | |
 |et|Raudtee|Railway|railway| | |railway=*| | | | |area|line|point|vertex| |
 |et|Raudtee|Rail|railway/rail| |railway-rail|railway=rail| | | | | |line| | | |
-|et|Surnuaed|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|et|Surnuaed|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |et|Surnuaed|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
 |fa|بزرگراه|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |
 |fa|بزرگراه|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
@@ -344,17 +320,15 @@
 |fa|کلیسا|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |fa|گاراژ|Garage|building/garage| |warehouse|building=garage| | | | |area| |point| | |
 |fa|گاراژ|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
-|fi|Asuinalue|Neighborhood|place/neighbourhood| |triangle-stroked|place=neighbourhood| | | | |area| |point| | |
-|fi|Asuinalue|Residential|landuse/residential| |building|landuse=residential| | | | |area| |point| | |
 |fi|Hallinnollinen raja|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
 |fi|Hallinnollinen raja|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
-|fi|Hautausmaa|Churchyard|landuse/churchyard| | |landuse=churchyard| | | | |area| | | | |
+|fi|Hautausmaa|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |fi|Hautausmaa|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|fi|Hautausmaa|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
-|fi|Jalkakäytävä|Sidewalk|footway/sidewalk| | |highway=footway|footway=sidewalk| | | | |line| | | |
+|fi|Hautausmaa|Churchyard|landuse/churchyard| | |landuse=churchyard| | | | |area| | | | |
 |fi|Jalkakäytävä|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
-|fi|Kiitorata|Runway|aeroway/runway| | |aeroway=runway| | | | |area|line| | | |
+|fi|Jalkakäytävä|Sidewalk|footway/sidewalk| | |highway=footway|footway=sidewalk| | | | |line| | | |
 |fi|Kiitorata|Aeroway|aeroway| |airport|aeroway=*| | | | |area|line|point|vertex| |
+|fi|Kiitorata|Runway|aeroway/runway| | |aeroway=runway| | | | |area|line| | | |
 |fi|Kirkko|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |fi|Kirkko|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |fi|Lauttareitti|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
@@ -367,13 +341,12 @@
 |fi|Valokuvausliike|Photographic Laboratory|craft/photographic_laboratory| |camera|craft=photographic_laboratory| | | | |area| |point| | |
 |fi|Voimalinja|Power Route|type/route/power| |route-power|type=route|route=power| | | | | | | |relation|
 |fi|Voimalinja|Power Line|power/line| |power-line|power=line| | | | | |line| | | |
-|fil| | | | ||||||||||||
 |fr|Artisanat|Craft|craft| |marker-stroked|craft=*| | | | |area| |point| | |
 |fr|Artisanat|Handicraft|craft/handicraft| |art-gallery|craft=handicraft| | | | |area| |point| | |
 |fr|Bunker|Bunker|military/bunker| | |military=bunker| | | | |area| |point|vertex| |
 |fr|Bunker|Sand Trap|golf/bunker| |golf|golf=bunker|natural=sand| | | |area| | | | |
 |fr|Cimetière|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|fr|Cimetière|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|fr|Cimetière|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |fr|Confiserie|Candy Store|shop/confectionery| |shop|shop=confectionery| | | | |area| |point| | |
 |fr|Confiserie|Confectionery|craft/confectionery| |bakery|craft=confectionery| | | | |area| |point| | |
 |fr|Fossé|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
@@ -399,7 +372,7 @@
 |fr|Poteau|Power Pole|power/pole| | |power=pole| | | | | | | |vertex| |
 |fr|Prêteur sur gages|Pawn Shop|shop/pawnbroker| |shop|shop=pawnbroker| | | | |area| |point| | |
 |fr|Prêteur sur gages|Money Lender|shop/money_lender| |bank|shop=money_lender| | | | |area| |point| | |
-|fr|Prairie|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
+|fr|Prairie|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| | | | |
 |fr|Prairie|Grassland|natural/grassland| | |natural=grassland| | | | |area| |point| | |
 |fr|Route|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |fr|Route|Route|type/route| |route|type=route| | | | | | | | |relation|
@@ -413,7 +386,7 @@
 |gl|Banco|Bank|amenity/bank| |bank|amenity=bank| | | | |area| |point| | |
 |gl|Banco|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
 |gl|Cemiterio|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|gl|Cemiterio|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|gl|Cemiterio|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |gl|Cidade|Town|place/town| |town|place=town| | | | |area| |point| | |
 |gl|Cidade|City|place/city| |city|place=city| | | | |area| |point| | |
 |gl|Cuneta|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
@@ -429,6 +402,8 @@
 |gl|Presa|Dam|waterway/dam| |dam|waterway=dam| | | | |area|line|point|vertex| |
 |gl|Presa|Weir|waterway/weir| |dam|waterway=weir| | | | | |line| |vertex| |
 |hi-IN| | | | ||||||||||||
+|hr|Administrativna granica|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
+|hr|Administrativna granica|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
 |hr|Autobusna stanica|Bus Stop|highway/bus_stop| |bus|highway=bus_stop| | | | | | |point|vertex| |
 |hr|Autobusna stanica|Bus Station|amenity/bus_station| |bus|amenity=bus_station| | | | |area| |point| | |
 |hr|Brodska linija|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
@@ -437,22 +412,24 @@
 |hr|Crkva|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |hr|Fakultetsko zemljište|University Grounds|amenity/university| |college|amenity=university| | | | |area| |point| | |
 |hr|Fakultetsko zemljište|College Grounds|amenity/college| |college|amenity=college| | | | |area| |point| | |
+|hr|Groblje|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |hr|Groblje|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|hr|Groblje|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
-|hr|Odmorište|Service Area|highway/services| | |highway=services| | | | |area| |point|vertex| |
 |hr|Odmorište|Rest Area|highway/rest_area| | |highway=rest_area| | | | |area| |point|vertex| |
-|hr|Travnjak|Grass|landuse/grass| | |landuse=grass| | | | |area| |point| | |
+|hr|Odmorište|Service Area|highway/services| | |highway=services| | | | |area| |point|vertex| |
+|hr|Travnjak|Grass|landuse/grass| | |landuse=grass| | | | |area| | | | |
 |hr|Travnjak|Grassland|natural/grassland| | |natural=grassland| | | | |area| |point| | |
 |hr|Zgrada fakulteta|University Building|building/university| |building|building=university| | | | |area| |point| | |
 |hr|Zgrada fakulteta|College Building|building/college| |building|building=college| | | | |area| |point| | |
-|hu|Füves terület|Grass|landuse/grass| | |landuse=grass| | | | |area| |point| | |
-|hu|Füves terület|Grassland|natural/grassland| | |natural=grassland| | | | |area| |point| | |
-|hu|Temető|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
-|hu|Temető|Churchyard|landuse/churchyard| | |landuse=churchyard| | | | |area| | | | |
-|hu|Vasút|Railway|railway| | |railway=*| | | | |area|line|point|vertex| |
-|hu|Vasút|Rail|railway/rail| |railway-rail|railway=rail| | | | | |line| | | |
+|hu|Kerékpárút|Cycle Path|highway/cycleway| |highway-cycleway|highway=cycleway| | | | | |line| | | |
+|hu|Kerékpárút|Cycle Route|type/route/bicycle| |route-bicycle|type=route|route=bicycle| | | | | | | |relation|
+|hu|Kunyhó|Hut|building/hut| | |building=hut| | | | |area| |point| | |
+|hu|Kunyhó|Shed|building/shed| |building|building=shed| | | | |area| |point| | |
+|hu|Szálloda|Hotel Building|building/hotel| |building|building=hotel| | | | |area| |point| | |
+|hu|Szálloda|Hotel|tourism/hotel| |lodging|tourism=hotel| | | | |area| |point| | |
 |hu|Zebra - gyalogátkelőhely|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
 |hu|Zebra - gyalogátkelőhely|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
+|hu|Újságos|Newspaper|office/newspaper| |commercial|office=newspaper| | | | |area| |point|vertex| |
+|hu|Újságos|Newspaper/Magazine Shop|shop/newsagent| |shop|shop=newsagent| | | | |area| |point| | |
 |hy| | | | ||||||||||||
 |id|Batas Administrasi|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
 |id|Batas Administrasi|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
@@ -463,15 +440,15 @@
 |id|Gereja|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |id|Gereja|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |id|Hutan|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
-|id|Hutan|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|id|Hutan|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |id|Jalan Tol|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |
 |id|Jalan Tol|Motorway Link|highway/motorway_link| |highway-motorway-link|highway=motorway_link| | | | | |line| | | |
 |id|Kota|Town|place/town| |town|place=town| | | | |area| |point| | |
 |id|Kota|City|place/city| |city|place=city| | | | |area| |point| | |
-|id|Kuburan|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|id|Kuburan|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |id|Kuburan|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
 |id|Padang Rumput|Grassland|natural/grassland| | |natural=grassland| | | | |area| |point| | |
-|id|Padang Rumput|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
+|id|Padang Rumput|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| | | | |
 |id|Titian|Steps|highway/steps| |highway-steps|highway=steps| | | | | |line| | | |
 |id|Titian|Track|highway/track| |highway-track|highway=track| | | | | |line| | | |
 |id|Toko Minuman|Liquor Store|shop/alcohol| |alcohol-shop|shop=alcohol| | | | |area| |point| | |
@@ -486,30 +463,28 @@
 |is|Minnismerki|Monument|historic/monument| |monument|historic=monument| | | | |area| |point|vertex| |
 |is|Raðhús|Detached Home|building/detached| |building|building=detached| | | | |area| |point| | |
 |is|Raðhús|Row Houses|building/terrace| |building|building=terrace| | | | |area| |point| | |
-|is|Skógur|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|is|Skógur|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |is|Skógur|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
 |is|Skurður|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
 |is|Skurður|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |is|Stjórnsýslumörk|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
 |is|Stjórnsýslumörk|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
-|is|Verslun|Retail|landuse/retail| |shop|landuse=retail| | | | |area| |point| | |
-|is|Verslun|Shop|shop| |shop|shop=*| | | | |area| |point| | |
 |is|Útsýnisstaður|Survey Point|man_made/survey_point| |monument|man_made=survey_point| | | | | | |point|vertex| |
 |is|Útsýnisstaður|Viewpoint|tourism/viewpoint| | |tourism=viewpoint| | | | | | |point|vertex| |
 |it|Aeroporto|Aeroway|aeroway| |airport|aeroway=*| | | | |area|line|point|vertex| |
 |it|Aeroporto|Airport|aeroway/aerodrome| |airport|aeroway=aerodrome| | | | |area| |point| | |
 |it|Attraversamento|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
 |it|Attraversamento|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
-|it|Attraversamento pedonale|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |it|Attraversamento pedonale|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
-|it|Bunker|Sand Trap|golf/bunker| |golf|golf=bunker|natural=sand| | | |area| | | | |
+|it|Attraversamento pedonale|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |it|Bunker|Bunker|military/bunker| | |military=bunker| | | | |area| |point|vertex| |
-|it|Capanno|Shed|building/shed| |building|building=shed| | | | |area| |point| | |
+|it|Bunker|Sand Trap|golf/bunker| |golf|golf=bunker|natural=sand| | | |area| | | | |
 |it|Capanno|Hut|building/hut| | |building=hut| | | | |area| |point| | |
-|it|Chiesa|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
+|it|Capanno|Shed|building/shed| |building|building=shed| | | | |area| |point| | |
 |it|Chiesa|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
-|it|Cimitero|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|it|Chiesa|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |it|Cimitero|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
+|it|Cimitero|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |it|Confine Amministrativo|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
 |it|Confine Amministrativo|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
 |it|Dormitorio|Dormitory|building/dormitory| |building|building=dormitory| | | | |area| |point| | |
@@ -517,28 +492,26 @@
 |it|Ferrovia|Railway|railway| | |railway=*| | | | |area|line|point|vertex| |
 |it|Ferrovia|Rail|railway/rail| |railway-rail|railway=rail| | | | | |line| | | |
 |it|Foresta|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
-|it|Foresta|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
-|it|Fossato|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
+|it|Foresta|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |it|Fossato|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
-|it|Fotografo|Photography Store|shop/photo| |camera|shop=photo| | | | |area| |point| | |
+|it|Fossato|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |it|Fotografo|Photographer|craft/photographer| |camera|craft=photographer| | | | |area| |point| | |
+|it|Fotografo|Photography Store|shop/photo| |camera|shop=photo| | | | |area| |point| | |
 |it|Garage|Garage|building/garage| |warehouse|building=garage| | | | |area| |point| | |
 |it|Garage|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |it|Garage|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
 |it|Lavanderia|Dry Cleaner|shop/dry_cleaning| |shop|shop=dry_cleaning| | | | |area| |point| | |
 |it|Lavanderia|Laundry|shop/laundry| |laundry|shop=laundry| | | | |area| |point| | |
-|it|Linea elettrica|Power Line|power/line| |power-line|power=line| | | | | |line| | | |
 |it|Linea elettrica|Power Route|type/route/power| |route-power|type=route|route=power| | | | | | | |relation|
+|it|Linea elettrica|Power Line|power/line| |power-line|power=line| | | | | |line| | | |
 |it|Negozio|Retail Building|building/retail| |building|building=retail| | | | |area| |point| | |
 |it|Negozio|Shop|shop| |shop|shop=*| | | | |area| |point| | |
-|it|Residenziale|Residential|landuse/residential| |building|landuse=residential| | | | |area| |point| | |
-|it|Residenziale|Residential Road|highway/residential| |highway-residential|highway=residential| | | | | |line| | | |
 |it|Rotta|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |it|Rotta|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |it|Sartoria|Tailor|shop/tailor| |clothing-store|shop=tailor| | | | |area| |point| | |
 |it|Sartoria|Dressmaker|craft/dressmaker| |clothing-store|craft=dressmaker| | | | |area| |point| | |
-|it|Supermercato|Supermarket|shop/supermarket| |grocery|shop=supermarket| | | | |area| |point| | |
 |it|Supermercato|Department Store|shop/department_store| |shop|shop=department_store| | | | |area| |point| | |
+|it|Supermercato|Supermarket|shop/supermarket| |grocery|shop=supermarket| | | | |area| |point| | |
 |ja|ケーブルカー|Cable Car|aerialway/cable_car| | |aerialway=cable_car| | | | | |line| | | |
 |ja|ケーブルカー|Funicular|railway/funicular| |railway-rail|railway=funicular| | | | | |line| | | |
 |ja|会計事務所|Financial Office|office/financial| |commercial|office=financial| | | | |area| |point|vertex| |
@@ -563,40 +536,39 @@
 |km| | | | ||||||||||||
 |kn| | | | ||||||||||||
 |ko-KR| | | | ||||||||||||
-|ko|고속도로|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |ko|고속도로|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |
+|ko|고속도로|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |ko|구거|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |ko|구거|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
-|ko|군사지|Military Range|military/range| | |military=range| | | | |area| |point|vertex| |
-|ko|군사지|Military|landuse/military| | |landuse=military| | | | |area| | | | |
 |ko|마을|Village|place/village| |village|place=village| | | | |area| |point| | |
 |ko|마을|Town|place/town| |town|place=town| | | | |area| |point| | |
+|ko|묘지|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |ko|묘지|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|ko|묘지|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
 |ko|버스 정류장|Bus Station|amenity/bus_station| |bus|amenity=bus_station| | | | |area| |point| | |
 |ko|버스 정류장|Bus Stop|highway/bus_stop| |bus|highway=bus_stop| | | | | | |point|vertex| |
-|ko|보도|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
-|ko|보도|Sidewalk|footway/sidewalk| | |highway=footway|footway=sidewalk| | | | |line| | | |
-|ko|지역|Area|area| | |area=yes| | | | |area| | | | |
 |ko|지역|Locality|place/locality| |marker|place=locality| | | | |area| |point| | |
+|ko|지역|Area|area| | |area=yes| | | | |area| | | | |
+|ko|차고|Garage|building/garage| |warehouse|building=garage| | | | |area| |point| | |
+|ko|차고|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
+|ko|차고|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
 |ko|페리 노선|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |ko|페리 노선|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |ko|행정 경계|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
 |ko|행정 경계|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
-|ko|호수|Lake|natural/water/lake| |water|natural=water|water=lake| | | |area| | | | |
-|ko|호수|Pond|natural/water/pond| |water|natural=water|water=pond| | | |area| | | | |
 |ko|횡단 보도|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
 |ko|횡단 보도|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |lt|Angaras|Hangar|aeroway/hangar| | |aeroway=hangar| | | | |area| | | | |
 |lt|Angaras|Shed|building/shed| |building|building=shed| | | | |area| |point| | |
-|lt|Bažnyčia|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |lt|Bažnyčia|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
+|lt|Bažnyčia|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|lt|Garažai|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
+|lt|Garažai|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |lt|Greitkelis|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |
 |lt|Greitkelis|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |lt|Griovys|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
 |lt|Griovys|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
+|lt|Kapinės|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |lt|Kapinės|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|lt|Kapinės|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
 |lt|Kelto maršrutas|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |lt|Kelto maršrutas|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |lt|Laikrodininkas|Clockmaker|craft/clockmaker| |circle-stroked|craft=clockmaker| | | | |area| |point| | |
@@ -605,14 +577,14 @@
 |lt|Medis|Tree|natural/tree| |park|natural=tree| | | | | | |point|vertex| |
 |lt|Miestelis|Town|place/town| |town|place=town| | | | |area| |point| | |
 |lt|Miestelis|Borough|place/suburb| |triangle-stroked|place=suburb| | | | |area| |point| | |
-|lt|Pėsčiųjų perėja|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |lt|Pėsčiųjų perėja|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
+|lt|Pėsčiųjų perėja|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |lt|Parduotuvė|Shop|shop| |shop|shop=*| | | | |area| |point| | |
 |lt|Parduotuvė|Boutique|shop/boutique| |shop|shop=boutique| | | | |area| |point| | |
 |lt|Pieva|Grassland|natural/grassland| | |natural=grassland| | | | |area| |point| | |
-|lt|Pieva|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
-|lt|Prekybos centras|Mall|shop/mall| |shop|shop=mall| | | | |area| |point| | |
+|lt|Pieva|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| | | | |
 |lt|Prekybos centras|Supermarket|shop/supermarket| |grocery|shop=supermarket| | | | |area| |point| | |
+|lt|Prekybos centras|Mall|shop/mall| |shop|shop=mall| | | | |area| |point| | |
 |lt|Prieplauka|Marina|leisure/marina| |harbor|leisure=marina| | | | |area| |point|vertex| |
 |lt|Prieplauka|Pier|man_made/pier| | |man_made=pier| | | | |area|line| | | |
 |lt|Raktininkas|Locksmith|shop/locksmith| |shop|shop=locksmith| | | | |area| |point| | |
@@ -621,7 +593,7 @@
 |lt|Sankryža|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
 |lt|Siena|Wall|barrier/wall| | |barrier=wall| | | | |area|line| | | |
 |lt|Siena|Boundary|type/boundary| |boundary|type=boundary| | | | | | | | |relation|
-|lt|Sodyba|Farmyard|landuse/farmyard| |farm|landuse=farmyard| | | | |area| |point| | |
+|lt|Sodyba|Farmyard|landuse/farmyard| |farm|landuse=farmyard| | | | |area| | | | |
 |lt|Sodyba|Chalet|tourism/chalet| |lodging|tourism=chalet| | | | |area| |point| | |
 |lt|Užtvanka|Dam|waterway/dam| |dam|waterway=dam| | | | |area|line|point|vertex| |
 |lt|Užtvanka|Weir|waterway/weir| |dam|waterway=weir| | | | | |line| |vertex| |
@@ -640,38 +612,38 @@
 |lv|Veikals|Boutique|shop/boutique| |shop|shop=boutique| | | | |area| |point| | |
 |lv|Veikals|Convenience Store|shop/convenience| |shop|shop=convenience| | | | |area| |point| | |
 |lv|Veikals|Shop|shop| |shop|shop=*| | | | |area| |point| | |
-|nl|Bank|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
 |nl|Bank|Bank|amenity/bank| |bank|amenity=bank| | | | |area| |point| | |
-|nl|Begraafplaats|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|nl|Bank|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
 |nl|Begraafplaats|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|nl|Bestuurlijke grens|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
+|nl|Begraafplaats|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |nl|Bestuurlijke grens|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
-|nl|Bruingoedwinkel|Electronics Store|shop/electronics| |shop|shop=electronics| | | | |area| |point| | |
-|nl|Bruingoedwinkel|Hifi Store|shop/hifi| |shop|shop=hifi| | | | |area| |point| | |
+|nl|Bestuurlijke grens|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
+|nl|Bunker|Sand Trap|golf/bunker| |golf|golf=bunker|natural=sand| | | |area| | | | |
+|nl|Bunker|Bunker|military/bunker| | |military=bunker| | | | |area| |point|vertex| |
 |nl|Café|Pub|amenity/pub| |beer|amenity=pub| | | | |area| |point| | |
 |nl|Café|Bar|amenity/bar| |bar|amenity=bar| | | | |area| |point| | |
 |nl|Garages|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
 |nl|Garages|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |nl|In onbruik geraakte spoorbaan|Disused Railway|railway/disused| |railway-disused|railway=disused| | | | | |line| | | |
 |nl|In onbruik geraakte spoorbaan|Abandoned Railway|railway/abandoned| |railway-abandoned|railway=abandoned| | | | | |line| | | |
-|nl|Kerk|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |nl|Kerk|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|nl|Kerk|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |nl|Lijn|Route Master|type/route_master| |route-master|type=route_master| | | | | | | | |relation|
 |nl|Lijn|Line|line| | | | | | | | |line| | | |
-|nl|Loodgieter|Tinsmith|craft/tinsmith| |marker-stroked|craft=tinsmith| | | | |area| |point| | |
 |nl|Loodgieter|Plumber|craft/plumber| |marker-stroked|craft=plumber| | | | |area| |point| | |
+|nl|Loodgieter|Tinsmith|craft/tinsmith| |marker-stroked|craft=tinsmith| | | | |area| |point| | |
 |nl|Perron|Railway Platform|railway/platform| | |railway=platform| | | | |area|line|point|vertex| |
 |nl|Perron|Platform|public_transport/platform| | |public_transport=platform| | | | |area|line|point|vertex| |
 |nl|Plaats|Place|place| | |place=*| | | | |area| |point|vertex| |
 |nl|Plaats|Town|place/town| |town|place=town| | | | |area| |point| | |
-|nl|Sloot, greppel of gracht|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |nl|Sloot, greppel of gracht|Drain|waterway/drain| |waterway-stream|waterway=drain| | | | | |line| | | |
-|nl|Veerboottraject|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
+|nl|Sloot, greppel of gracht|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |nl|Veerboottraject|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
-|nl|Vliegveld|Airfield|military/airfield| |airfield|military=airfield| | | | |area| |point|vertex| |
+|nl|Veerboottraject|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |nl|Vliegveld|Aeroway|aeroway| |airport|aeroway=*| | | | |area|line|point|vertex| |
-|nl|Voetpad|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
+|nl|Vliegveld|Airfield|military/airfield| |airfield|military=airfield| | | | |area| |point|vertex| |
 |nl|Voetpad|Sidewalk|footway/sidewalk| | |highway=footway|footway=sidewalk| | | | |line| | | |
+|nl|Voetpad|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
 |nl|Zebrapad|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |nl|Zebrapad|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
 |nl|Zebrapad|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
@@ -679,8 +651,8 @@
 |no|Fergerute|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |no|Fergerute|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |no|Kirkegård|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|no|Kirkegård|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
-|no|Skog|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|no|Kirkegård|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
+|no|Skog|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |no|Skog|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
 |no|Tettsted|Town|place/town| |town|place=town| | | | |area| |point| | |
 |no|Tettsted|Village|place/village| |village|place=village| | | | |area| |point| | |
@@ -688,7 +660,7 @@
 |pl|Budynek uczelni|College Building|building/college| |building|building=college| | | | |area| |point| | |
 |pl|Chata|Cabin|building/cabin| |building|building=cabin| | | | |area| |point| | |
 |pl|Chata|Hut|building/hut| | |building=hut| | | | |area| |point| | |
-|pl|Cmentarz|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|pl|Cmentarz|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |pl|Cmentarz|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
 |pl|Dekarz|Roofer|craft/roofer| |marker-stroked|craft=roofer| | | | |area| |point| | |
 |pl|Dekarz|Tiler|craft/tiler| |marker-stroked|craft=tiler| | | | |area| |point| | |
@@ -712,12 +684,12 @@
 |pl|Przejście dla pieszych|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
 |pl|Rów|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
 |pl|Rów|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
-|pl|Winnica|Vineyard|landuse/vineyard| | |landuse=vineyard| | | | |area| |point| | |
+|pl|Winnica|Vineyard|landuse/vineyard| | |landuse=vineyard| | | | |area| | | | |
 |pl|Winnica|Winery|craft/winery| |alcohol-shop|craft=winery| | | | |area| |point| | |
 |pl|Zegarmistrz|Watchmaker|craft/watchmaker| |circle-stroked|craft=watchmaker| | | | |area| |point| | |
 |pl|Zegarmistrz|Clockmaker|craft/clockmaker| |circle-stroked|craft=clockmaker| | | | |area| |point| | |
 |pl|Łąka|Grassland|natural/grassland| | |natural=grassland| | | | |area| |point| | |
-|pl|Łąka|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
+|pl|Łąka|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| | | | |
 |pt-BR|Artesanato|Craft|craft| |marker-stroked|craft=*| | | | |area| |point| | |
 |pt-BR|Artesanato|Handicraft|craft/handicraft| |art-gallery|craft=handicraft| | | | |area| |point| | |
 |pt-BR|Banca de Revistas|News Kiosk|shop/kiosk| |shop|shop=kiosk| | | | |area| |point| | |
@@ -728,8 +700,10 @@
 |pt-BR|Doceria|Candle Shop|shop/candles| |shop|shop=candles| | | | |area| |point| | |
 |pt-BR|Escritório|Company Office|office/company| |commercial|office=company| | | | |area| |point|vertex| |
 |pt-BR|Escritório|Office|office| |commercial|office=*| | | | |area| |point|vertex| |
-|pt-BR|Financeira|Money Lender|shop/money_lender| |bank|shop=money_lender| | | | |area| |point| | |
 |pt-BR|Financeira|Consignment/Thrift Store|shop/second_hand| |shop|shop=second_hand| | | | |area| |point| | |
+|pt-BR|Financeira|Money Lender|shop/money_lender| |bank|shop=money_lender| | | | |area| |point| | |
+|pt-BR|Garagens|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
+|pt-BR|Garagens|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |pt-BR|Hotel|Hotel|tourism/hotel| |lodging|tourism=hotel| | | | |area| |point| | |
 |pt-BR|Hotel|Hotel Building|building/hotel| |building|building=hotel| | | | |area| |point| | |
 |pt-BR|Igreja|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
@@ -786,7 +760,7 @@
 |ru|Кондитерская|Candy Store|shop/confectionery| |shop|shop=confectionery| | | | |area| |point| | |
 |ru|Легкоатлетический стадион|Racetrack (non-Motorsport)|leisure/track| |highway-road|leisure=track| | | | | |line|point| | |
 |ru|Легкоатлетический стадион|Running Track|leisure/running_track| |pitch|leisure=track|sport=running| | | | |line|point| | |
-|ru|Лес / деревья|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|ru|Лес / деревья|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |ru|Лес / деревья|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
 |ru|Мастерская часовщика|Clockmaker|craft/clockmaker| |circle-stroked|craft=clockmaker| | | | |area| |point| | |
 |ru|Мастерская часовщика|Watchmaker|craft/watchmaker| |circle-stroked|craft=watchmaker| | | | |area| |point| | |
@@ -806,12 +780,18 @@
 |sk|Autobusová zastávka|Bus Stop|highway/bus_stop| |bus|highway=bus_stop| | | | | | |point|vertex| |
 |sk|Chata|Cabin|building/cabin| |building|building=cabin| | | | |area| |point| | |
 |sk|Chata|Hut|building/hut| | |building=hut| | | | |area| |point| | |
-|sk|Chodník|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
 |sk|Chodník|Sidewalk|footway/sidewalk| | |highway=footway|footway=sidewalk| | | | |line| | | |
+|sk|Chodník|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
+|sk|Garáže|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
+|sk|Garáže|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
 |sk|Kabínková lanovka|Cable Car|aerialway/cable_car| | |aerialway=cable_car| | | | | |line| | | |
 |sk|Kabínková lanovka|Chair Lift|aerialway/chair_lift| | |aerialway=chair_lift| | | | | |line| | | |
-|sk|Kostol|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |sk|Kostol|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
+|sk|Kostol|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|sk|Krajčírstvo|Dressmaker|craft/dressmaker| |clothing-store|craft=dressmaker| | | | |area| |point| | |
+|sk|Krajčírstvo|Tailor|shop/tailor| |clothing-store|shop=tailor| | | | |area| |point| | |
+|sk|Obytná zóna|Residential Area|landuse/residential| |building|landuse=residential| | | | |area| | | | |
+|sk|Obytná zóna|Living Street|highway/living_street| |highway-living-street|highway=living_street| | | | | |line| | | |
 |sk|Prechod|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
 |sk|Prechod|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
 |sk|Priekopa|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
@@ -833,7 +813,7 @@
 |sl|Pešpot|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
 |sl|Pešpot|Foot Route|type/route/foot| |route-foot|type=route|route=foot| | | | | | | |relation|
 |sl|Pokopališče|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|sl|Pokopališče|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|sl|Pokopališče|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |sl|Prehod za pešce|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |sl|Prehod za pešce|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
 |sl|Prehod za pešce|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
@@ -844,7 +824,7 @@
 |sl|Trajektna linija|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |sl|Vrata|Gate|barrier/gate| | |barrier=gate| | | | | |line|point|vertex| |
 |sl|Vrata|Airport gate|aeroway/gate| |airport|aeroway=gate| | | | | | |point| | |
-|sl|Zelenica|Grass|landuse/grass| | |landuse=grass| | | | |area| |point| | |
+|sl|Zelenica|Grass|landuse/grass| | |landuse=grass| | | | |area| | | | |
 |sl|Zelenica|Putting Green|golf/green| |golf|golf=green|landuse=grass|leisure=pitch|sport=golf| |area| | | | |
 |sq-AL| | | | ||||||||||||
 |sq| | | | ||||||||||||
@@ -878,7 +858,7 @@
 |sr|Црква|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |sr|Црква|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |sr|Шума|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
-|sr|Шума|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|sr|Шума|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |sv|Administrativ gräns|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
 |sv|Administrativ gräns|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
 |sv|Bunker|Bunker|military/bunker| | |military=bunker| | | | |area| |point|vertex| |
@@ -921,9 +901,9 @@
 |tr|Feribot Güzergahı|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |tr|Kilise|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |tr|Kilise|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
-|tr|Mezarlık|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|tr|Mezarlık|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |tr|Mezarlık|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|tr|Orman|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|tr|Orman|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |tr|Orman|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
 |tr|Otoyol|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |tr|Otoyol|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |
@@ -937,40 +917,40 @@
 |uk|Адміністративний кордон|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
 |uk|Аеропорт|Aeroway|aeroway| |airport|aeroway=*| | | | |area|line|point|vertex| |
 |uk|Аеропорт|Airport|aeroway/aerodrome| |airport|aeroway=aerodrome| | | | |area| |point| | |
-|uk|Бутік|Fashion Store|shop/fashion| |shop|shop=fashion| | | | |area| |point| | |
 |uk|Бутік|Boutique|shop/boutique| |shop|shop=boutique| | | | |area| |point| | |
-|uk|Водяна пастка|Water Hazard|golf/water_hazard| |golf|golf=water_hazard|natural=water| | | |area|line| | | |
+|uk|Бутік|Fashion Store|shop/fashion| |shop|shop=fashion| | | | |area| |point| | |
 |uk|Водяна пастка|Lateral Water Hazard|golf/lateral_water_hazard| |golf|golf=lateral_water_hazard|natural=water| | | |area|line| | | |
+|uk|Водяна пастка|Water Hazard|golf/water_hazard| |golf|golf=water_hazard|natural=water| | | |area|line| | | |
 |uk|Гаражі|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
 |uk|Гаражі|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |uk|Годинникар|Watchmaker|craft/watchmaker| |circle-stroked|craft=watchmaker| | | | |area| |point| | |
 |uk|Годинникар|Clockmaker|craft/clockmaker| |circle-stroked|craft=clockmaker| | | | |area| |point| | |
+|uk|Господарські товари|Hardware Store|shop/hardware| |shop|shop=hardware| | | | |area| |point| | |
+|uk|Господарські товари|Houseware Store|shop/houseware| |shop|shop=houseware| | | | |area| |point| | |
 |uk|Готель|Hotel Building|building/hotel| |building|building=hotel| | | | |area| |point| | |
 |uk|Готель|Hotel|tourism/hotel| |lodging|tourism=hotel| | | | |area| |point| | |
-|uk|Житлова зона|Residential|landuse/residential| |building|landuse=residential| | | | |area| |point| | |
+|uk|Житлова зона|Residential Area|landuse/residential| |building|landuse=residential| | | | |area| | | | |
 |uk|Житлова зона|Living Street|highway/living_street| |highway-living-street|highway=living_street| | | | | |line| | | |
-|uk|Канава|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
 |uk|Канава|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
-|uk|Кравець|Tailor|shop/tailor| |clothing-store|shop=tailor| | | | |area| |point| | |
+|uk|Канава|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
 |uk|Кравець|Dressmaker|craft/dressmaker| |clothing-store|craft=dressmaker| | | | |area| |point| | |
+|uk|Кравець|Tailor|shop/tailor| |clothing-store|shop=tailor| | | | |area| |point| | |
 |uk|Лежачий поліцейський|Speed Bump|traffic_calming/bump| | |traffic_calming=bump| | | | | | | |vertex| |
 |uk|Лежачий поліцейський|Speed Hump|traffic_calming/hump| | |traffic_calming=hump| | | | | | | |vertex| |
-|uk|Лікар|Physician|office/physician| |commercial|office=physician| | | | |area| |point|vertex| |
 |uk|Лікар|Doctor|amenity/doctor| |hospital|amenity=doctors| | | | |area| |point| | |
+|uk|Лікар|Physician|office/physician| |commercial|office=physician| | | | |area| |point|vertex| |
 |uk|Місто|City|place/city| |city|place=city| | | | |area| |point| | |
 |uk|Місто|Town|place/town| |town|place=town| | | | |area| |point| | |
-|uk|Місце для пікніка|Picnic Table|leisure/picnic_table| | |leisure=picnic_table| | | | | | |point| | |
 |uk|Місце для пікніка|Picnic Site|tourism/picnic_site| |park|tourism=picnic_site| | | | |area| |point|vertex| |
-|uk|Місцевість|Locality|place/locality| |marker|place=locality| | | | |area| |point| | |
+|uk|Місце для пікніка|Picnic Table|leisure/picnic_table| | |leisure=picnic_table| | | | | | |point| | |
 |uk|Місцевість|Place|place| | |place=*| | | | |area| |point|vertex| |
+|uk|Місцевість|Locality|place/locality| |marker|place=locality| | | | |area| |point| | |
 |uk|Паром|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |uk|Паром|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
-|uk|Пішохідний перехід|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
 |uk|Пішохідний перехід|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
-|uk|Роздрібна торгівля|Retail Building|building/retail| |building|building=retail| | | | |area| |point| | |
-|uk|Роздрібна торгівля|Retail|landuse/retail| |shop|landuse=retail| | | | |area| |point| | |
+|uk|Пішохідний перехід|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
+|uk|Сад|Orchard|landuse/orchard| |park2|landuse=orchard| | | | |area| | | | |
 |uk|Сад|Garden|leisure/garden| |garden|leisure=garden| | | | |area| |point|vertex| |
-|uk|Сад|Orchard|landuse/orchard| |park2|landuse=orchard| | | | |area| |point| | |
 |uk|Такелажник|Rigger|craft/rigger| |marker-stroked|craft=rigger| | | | |area| |point| | |
 |uk|Такелажник|Scaffolder|craft/scaffolder| |marker-stroked|craft=scaffolder| | | | |area| |point| | |
 |uk|Тротуар|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
@@ -979,35 +959,31 @@
 |uk|Трубопровід|Pipeline Route|type/route/pipeline| |route-pipeline|type=route|route=pipeline| | | | | | | |relation|
 |uk|Церква|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |uk|Церква|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
-|vi|Ga ra|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |vi|Ga ra|Garage|building/garage| |warehouse|building=garage| | | | |area| |point| | |
-|vi|Lối Băng qua Đường|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
-|vi|Lối Băng qua Đường|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
-|vi|Lối Băng qua Đường|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|vi|Ga ra|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |vi|Lối Băng qua Đường|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
+|vi|Lối Băng qua Đường|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
+|vi|Lối Băng qua Đường|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
+|vi|Lối Băng qua Đường|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |vi|Mương|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |vi|Mương|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
-|vi|Nhà ga|Railway Station|railway/station| |rail|railway=station| | | | |area| |point|vertex| |
-|vi|Nhà ga|Railway Platform|railway/platform| | |railway=platform| | | | |area|line|point|vertex| |
-|vi|Nhà thờ|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |vi|Nhà thờ|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|vi|Nhà thờ|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |vi|Ranh giới Hành chính|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
 |vi|Ranh giới Hành chính|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
-|vi|Sân bay|Airport|aeroway/aerodrome| |airport|aeroway=aerodrome| | | | |area| |point| | |
-|vi|Sân bay|Airfield|military/airfield| |airfield|military=airfield| | | | |area| |point|vertex| |
-|vi|Tiệm Kẹo|Candy Store|shop/confectionery| |shop|shop=confectionery| | | | |area| |point| | |
 |vi|Tiệm Kẹo|Confectionery|craft/confectionery| |bakery|craft=confectionery| | | | |area| |point| | |
-|vi|Tiệm Mỹ phẩm|Beauty Shop|shop/beauty| |shop|shop=beauty| | | | |area| |point| | |
+|vi|Tiệm Kẹo|Candy Store|shop/confectionery| |shop|shop=confectionery| | | | |area| |point| | |
 |vi|Tiệm Mỹ phẩm|Cosmetics Store|shop/cosmetics| |shop|shop=cosmetics| | | | |area| |point| | |
-|vi|Tiệm Thời trang|Boutique|shop/boutique| |shop|shop=boutique| | | | |area| |point| | |
+|vi|Tiệm Mỹ phẩm|Beauty Shop|shop/beauty| |shop|shop=beauty| | | | |area| |point| | |
 |vi|Tiệm Thời trang|Fashion Store|shop/fashion| |shop|shop=fashion| | | | |area| |point| | |
-|vi|Tiệm Trang trí Nội thất|Kitchen Design Store|shop/kitchen| |shop|shop=kitchen| | | | |area| |point| | |
+|vi|Tiệm Thời trang|Boutique|shop/boutique| |shop|shop=boutique| | | | |area| |point| | |
 |vi|Tiệm Trang trí Nội thất|Interior Decoration Store|shop/interior_decoration| |shop|shop=interior_decoration| | | | |area| |point| | |
+|vi|Tiệm Trang trí Nội thất|Kitchen Design Store|shop/kitchen| |shop|shop=kitchen| | | | |area| |point| | |
 |vi|Đường sắt|Rail|railway/rail| |railway-rail|railway=rail| | | | | |line| | | |
 |vi|Đường sắt|Railway|railway| | |railway=*| | | | |area|line|point|vertex| |
 |vi|Địa phương|Locality|place/locality| |marker|place=locality| | | | |area| |point| | |
 |vi|Địa phương|Place|place| | |place=*| | | | |area| |point|vertex| |
-|vi|Đồng cỏ|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
+|vi|Đồng cỏ|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| | | | |
 |vi|Đồng cỏ|Grassland|natural/grassland| | |natural=grassland| | | | |area| |point| | |
 |yue|溝|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
 |yue|溝|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
@@ -1027,10 +1003,10 @@
 |zh-CN|公交车站|Bus Stop|highway/bus_stop| |bus|highway=bus_stop| | | | | | |point|vertex| |
 |zh-CN|公交车站|Bus Station|amenity/bus_station| |bus|amenity=bus_station| | | | |area| |point| | |
 |zh-CN|墓地|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|zh-CN|墓地|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|zh-CN|墓地|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |zh-CN|墓地|Churchyard|landuse/churchyard| | |landuse=churchyard| | | | |area| | | | |
 |zh-CN|建筑物|Building|building| |building|building=*| | | | |area| | | | |
-|zh-CN|建筑物|Construction|landuse/construction| | |landuse=construction| | | | |area| |point| | |
+|zh-CN|建筑物|Construction|landuse/construction| | |landuse=construction| | | | |area| | | | |
 |zh-CN|教堂|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |zh-CN|教堂|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |zh-CN|村庄|Village|place/village| |village|place=village| | | | |area| |point| | |
@@ -1045,8 +1021,8 @@
 |zh-CN|纪念碑|Memorial|historic/memorial| |monument|historic=memorial| | | | |area| |point|vertex| |
 |zh-CN|缆车|Funicular|railway/funicular| |railway-rail|railway=funicular| | | | | |line| | | |
 |zh-CN|缆车|Cable Car|aerialway/cable_car| | |aerialway=cable_car| | | | | |line| | | |
-|zh-CN|草地|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
-|zh-CN|草地|Grass|landuse/grass| | |landuse=grass| | | | |area| |point| | |
+|zh-CN|草地|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| | | | |
+|zh-CN|草地|Grass|landuse/grass| | |landuse=grass| | | | |area| | | | |
 |zh-CN|路口|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
 |zh-CN|路口|Crossing|footway/crossing| | |highway=footway|footway=crossing| | | | |line| | | |
 |zh-CN|车库|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
@@ -1090,11 +1066,11 @@
 |zh-TW|閘門|Lift Gate|barrier/lift_gate| | |barrier=lift_gate| | | | | | |point|vertex| |
 |zh-TW|閘門|Gate|barrier/gate| | |barrier=gate| | | | | |line|point|vertex| |
 |zh|墓地|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|zh|墓地|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|zh|墓地|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |zh|废弃的铁路|Disused Railway|railway/disused| |railway-disused|railway=disused| | | | | |line| | | |
 |zh|废弃的铁路|Abandoned Railway|railway/abandoned| |railway-abandoned|railway=abandoned| | | | | |line| | | |
 |zh|建筑物|Building|building| |building|building=*| | | | |area| | | | |
-|zh|建筑物|Construction|landuse/construction| | |landuse=construction| | | | |area| |point| | |
+|zh|建筑物|Construction|landuse/construction| | |landuse=construction| | | | |area| | | | |
 |zh|村庄|Village|place/village| |village|place=village| | | | |area| |point| | |
 |zh|村庄|Hamlet|place/hamlet| |triangle-stroked|place=hamlet| | | | |area| |point| | |
 |zh|渡轮航线|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |

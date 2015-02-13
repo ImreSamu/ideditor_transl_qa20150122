@@ -1,12 +1,49 @@
  {
++  feature_info: {
++    hidden_warning: "非表示の地物{count}件"
++    hidden_details: "現在非表示の地物: {details}"
++  }
+   operations: {
+     circularize: {
++      connected_to_hidden: "非表示の地物に接続しているため、円状に整形することができません。"
+     }
+     orthogonalize: {
++      connected_to_hidden: "非表示の地物に接続しているため、四角形に整形することができません。"
+     }
+     straighten: {
++      connected_to_hidden: "非表示の地物に接続しているため、直線に整形することができません。"
+     }
+     delete: {
++      connected_to_hidden: "非表示の地物に接続しているため、削除できません。"
+     }
+     disconnect: {
++      connected_to_hidden: "非表示の地物に接続しているため、切り離すことができません。"
+     }
+     move: {
++      connected_to_hidden: "非表示の地物に接続しているため、移動することができません。"
+     }
+     rotate: {
++      connected_to_hidden: "非表示の地物に接続しているため、回転させることができません。"
+     }
+     split: {
++      connected_to_hidden: "非表示の地物に接続しているため、分割することができません。"
+     }
+   }
    commit: {
 +    changes: "{count} 個の変更"
+   }
+   inspector: {
++    check: {
++      yes: "はい"
++      no: "いいえ"
++    }
    }
    save: {
 +    unknown_error_details: "インターネットに接続されているか、確認してください。"
    }
    help: {
 -    gps: "# GPS\n\nOpenStreetMapにおいて、GPSデータは最も信用できる情報源です。iDエディタはあなたのPC上にある`.gpx`ファイルのトレース機能をサポートしています。GPSログは、スマートフォンのアプリケーションやGPSロガーを使用することで収集することができます。\n\nGPSを使用した現地調査の詳細な進め方については、[GPSによる調査](http://learnosm.org/jp/beginner/using-gps/)を参照してください。\n\nGPXログファイルをエディタの上にドラッグ＆ドロップすることで、ファイルの内容をエディタ上に表示させることができます。ファイル形式の読み込みが正常に完了すると、ログは明るい緑色の線としてエディタ上に表示されます。エディタの左側に配置されている'背景画像設定'メニューをクリックすると、ログの表示/非表示、GPXが配置されたレイヤーへのズームを設定することができます。\n\nこのGPXログファイルはOpenStreetMapへ直接アップロードされたものではありません。このログを参考情報として地図を描いたり、あなたが追加する地物の配置場所の参考情報とするのがよいでしょう。また、あなた以外のユーザにもGPSログを使ってもらうためには[OpenStreetMapへのアップロード機能](http://www.openstreetmap.org/trace/create)を利用してください。\n"
++    gps: "# GPS\n\nOpenStreetMapにおいて、GPSデータは最も信用できる情報源です。iDエディタはあなたのPC上にある`.gpx`ファイルのトレース機能をサポートしています。GPSログは、スマートフォンのアプリケーションやGPSロガーを使用することで収集することができます。\n\nGPSを使用した現地調査の詳細な進め方については、[GPSによる調査](http://learnosm.org/jp/beginner/using-gps/)を参照してください。\n\nGPXログファイルをエディタの上にドラッグ＆ドロップすることで、ファイルの内容をエディタ上に表示させることができます。ファイル形式の読み込みが正常に完了すると、ログは明るい紫色の線としてエディタ上に表示されます。エディタの左側に配置されている「地図データ」メニューをクリックすると、ログの表示/非表示、GPXが配置されたレイヤーへのズームを設定することができます。\n\nこのGPXログファイルはOpenStreetMapへ直接アップロードされたものではありません。このログを参考情報として地図を描いたり、あなたが追加する地物の配置場所の参考情報とするのがよいでしょう。また、あなた以外のユーザにもGPSログを使ってもらうためには[OpenStreetMapへのアップロード機能](http://www.openstreetmap.org/trace/create)を利用してください。\n"
    }
    presets: {
      fields: {
@@ -16,6 +53,34 @@
 -      wood: {
 -        label: "タイプ"
 -      }
++      bench: {
++        label: "ベンチ"
++      }
++      brand: {
++        label: "ブランド"
++      }
++      delivery: {
++        label: "配達"
++      }
++      leaf_cycle: {
++        label: "葉の季節変化"
++        options: {
++          evergreen: "常緑樹"
++          deciduous: "落葉樹"
++          semi_evergreen: "ほぼ常緑樹"
++          semi_deciduous: "ほぼ落葉樹"
++          mixed: "混合"
++        }
++      }
++      leaf_type: {
++        label: "葉の種類"
++        options: {
++          broadleaved: "広葉樹"
++          needleleaved: "針葉樹"
++          mixed: "混合"
++          leafless: "葉なし"
++        }
++      }
        address: {
          placeholders: {
 -          suburb: "Suburb"
@@ -69,6 +134,7 @@
        }
        smoothness: {
          options: {
+-          impassible: "通過不能／車両通行不可"
 -          intermediate: "二輪車など：ママチャリ・車いす・スクーター"
 +          intermediate: "二輪車など：シティバイク・車いす・スクーター"
 -          bad: "二輪車・四輪車：マウンテンバイク・自動車・オートリキシャ"
@@ -81,9 +147,33 @@
 -        name: "製菓店"
 -        terms: "製菓店"
 -      }
+-      landuse/commercial: {
+-        name: "オフィス地区"
+-        terms: "ビジネス街,オフィス街,オフィス地区"
+-      }
+-      landuse/farm: {
+-        name: "農地（旧）"
+-        terms: "農地（旧）"
+-      }
 -      landuse/farmland: {
 -        name: "農地"
 -        terms: "農地"
+-      }
+-      landuse/industrial: {
+-        name: "工業用地"
+-        terms: "工業用地"
+-      }
+-      landuse/military: {
+-        name: "軍事"
+-        terms: "軍事,自衛隊"
+-      }
+-      landuse/residential: {
+-        name: "住宅地"
+-        terms: "住宅地, 宅地, 居住区域"
+-      }
+-      landuse/retail: {
+-        name: "商業地"
+-        terms: "商業地,ショッピング地区,ショッピング街"
 -      }
 +      amenity/childcare: {
 +        name: "保育園/幼稚園"

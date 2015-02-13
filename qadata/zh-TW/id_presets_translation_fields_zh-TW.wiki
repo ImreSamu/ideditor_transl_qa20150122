@@ -423,7 +423,7 @@
 | 1
 | text
 | Brand
-|  
+| 品牌
 |  
 |  
 | brand
@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+|  
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+|  
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -1638,7 +1653,7 @@
 | 1
 | combo
 | Leaf Cycle
-|  
+| 落葉期
 |  
 |  
 | leaf_cycle
@@ -3277,9 +3292,9 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
-| 不可能 / 無輪車輛
+| impassable
+| Impassable / No wheeled vehicle
+| 
 |  
 |  
 | last

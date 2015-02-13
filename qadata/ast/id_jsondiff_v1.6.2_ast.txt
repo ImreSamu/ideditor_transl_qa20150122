@@ -13,6 +13,24 @@
 -        name: "Confitería"
 -        terms: "Pastelería, Bollería"
 -      }
+-      landuse/commercial: {
+-        name: "Comercial"
+-      }
+-      landuse/farm: {
+-        name: "Tierra de llabor"
+-      }
+-      landuse/industrial: {
+-        name: "Industrial"
+-      }
+-      landuse/military: {
+-        name: "Militar"
+-      }
+-      landuse/residential: {
+-        name: "Residencial"
+-      }
+-      landuse/retail: {
+-        name: "Comercial"
+-      }
      }
    }
  }

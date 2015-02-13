@@ -24,7 +24,7 @@
 |atm|1|check|ATM|Bankomat| | |atm| | | | | |last|
 |backrest|1|check|Backrest|Naslon| | |backrest| | | | | |last|
 |barrier|1|typeCombo|Type|Vrsta| | |barrier| | | | | |last|
-|bench|1|check|Bench| | | |bench| | | | | |last|
+|bench|1|check|Bench|Klupa| | |bench| | | | | |last|
 |bicycle_parking|1|combo|Type|Vrsta| | |bicycle_parking| | | | | |last|
 |boundary|1|combo|Type|Vrsta| | |boundary| | | | | |last|
 |brand|1|text|Brand| | | |brand| | | | | |last|
@@ -87,6 +87,7 @@
 |fuel/octane_95|1|check|Sells Midgrade Gasoline|Prodaje benzin 95 oktana| | |fuel:octane_95| | | | | |last|
 |fuel/octane_98|1|check|Sells Premium Gasoline|Prodaje benzin 98 oktana| | |fuel:octane_98| | | | | |last|
 |gauge|1|combo|Gauge|Širina kolosijeka| | |gauge| | | | | |last|
+|gender|1|radio|Gender| | | |male,female,unisex| | | |Unknown| |last|
 |generator/method|1|combo|Method|Metoda| | |generator:method| | | | | |last|
 |generator/source|1|combo|Source|Izvor| | |generator:source| | | | | |last|
 |generator/type|1|combo|Type|Vrsta| | |generator:type| | | | | |last|
@@ -217,7 +218,7 @@
 |smoothness|5|combo| | | | | |very_bad|High Clearance: light duty off-road vehicle|| | |last|
 |smoothness|6|combo| | | | | |horrible|Off-Road: heavy duty off-road vehicle|| | |last|
 |smoothness|7|combo| | | | | |very_horrible|Specialized off-road: tractor, ATV|| | |last|
-|smoothness|8|combo| | | | | |impassible|Impassible / No wheeled vehicle|| | |last|
+|smoothness|8|combo| | | | | |impassable|Impassable / No wheeled vehicle|| | |last|
 |social_facility_for|1|radio|People served| | | |social_facility:for| | | |Homeless, Disabled, Child, etc| |last|
 |source|1|text|Source|Izvor|source|true|source| | | | | |last|
 |sport|1|combo|Sport|Sport| | |sport| | | | | |last|

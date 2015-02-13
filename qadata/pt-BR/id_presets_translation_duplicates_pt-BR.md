@@ -10,8 +10,10 @@
 |Doceria|Candle Shop|shop/candles| |shop|shop=candles| | | | |area| |point| | |
 |Escritório|Company Office|office/company| |commercial|office=company| | | | |area| |point|vertex| |
 |Escritório|Office|office| |commercial|office=*| | | | |area| |point|vertex| |
-|Financeira|Money Lender|shop/money_lender| |bank|shop=money_lender| | | | |area| |point| | |
 |Financeira|Consignment/Thrift Store|shop/second_hand| |shop|shop=second_hand| | | | |area| |point| | |
+|Financeira|Money Lender|shop/money_lender| |bank|shop=money_lender| | | | |area| |point| | |
+|Garagens|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
+|Garagens|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |Hotel|Hotel|tourism/hotel| |lodging|tourism=hotel| | | | |area| |point| | |
 |Hotel|Hotel Building|building/hotel| |building|building=hotel| | | | |area| |point| | |
 |Igreja|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |

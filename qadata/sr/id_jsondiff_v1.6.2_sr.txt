@@ -12,8 +12,26 @@
 -      }
      }
      presets: {
+-      landuse/commercial: {
+-        name: "Пословна област"
+-      }
+-      landuse/farm: {
+-        name: "Фарма"
+-      }
 -      landuse/farmland: {
 -        name: "Обрадиво земљиште"
+-      }
+-      landuse/industrial: {
+-        name: "Индустријска област"
+-      }
+-      landuse/military: {
+-        name: "Војска "
+-      }
+-      landuse/residential: {
+-        name: "Стамбена област"
+-      }
+-      landuse/retail: {
+-        name: "Малопродаја"
 -      }
 +      shop/weapons: {
 +        name: "Оружарница"

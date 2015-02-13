@@ -16,6 +16,22 @@
 ! style="font-weight: bold;" | geometryRelation
 |-
 | Ga ra
+| Garage
+| building/garage
+|  
+| warehouse
+| building=garage
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Ga ra
 | Garages
 | landuse/garages
 |  
@@ -31,19 +47,19 @@
 |  
 |  
 |-
-| Ga ra
-| Garage
-| building/garage
-|  
-| warehouse
-| building=garage
+| Lối Băng qua Đường
+| Crossing
+| footway/crossing
 |  
 |  
+| highway=footway
+| footway=crossing
 |  
 |  
-| area
 |  
-| point
+|  
+| line
+|  
 |  
 |  
 |-
@@ -64,22 +80,6 @@
 |  
 |-
 | Lối Băng qua Đường
-| Crosswalk
-| highway/crosswalk
-|  
-|  
-| highway=crossing
-| crossing=zebra
-|  
-|  
-|  
-|  
-|  
-|  
-| vertex
-|  
-|-
-| Lối Băng qua Đường
 | Crossing
 | highway/crossing
 |  
@@ -96,19 +96,19 @@
 |  
 |-
 | Lối Băng qua Đường
-| Crossing
-| footway/crossing
+| Crosswalk
+| highway/crosswalk
 |  
 |  
-| highway=footway
-| footway=crossing
+| highway=crossing
+| crossing=zebra
 |  
 |  
 |  
 |  
-| line
 |  
 |  
+| vertex
 |  
 |-
 | Mương
@@ -143,36 +143,20 @@
 |  
 |  
 |-
-| Nhà ga
-| Railway Station
-| railway/station
+| Nhà thờ
+| Church
+| amenity/place_of_worship/christian
 |  
-| rail
-| railway=station
-|  
+| religious-christian
+| amenity=place_of_worship
+| religion=christian
 |  
 |  
 |  
 | area
 |  
 | point
-| vertex
 |  
-|-
-| Nhà ga
-| Railway Platform
-| railway/platform
-|  
-|  
-| railway=platform
-|  
-|  
-|  
-|  
-| area
-| line
-| point
-| vertex
 |  
 |-
 | Nhà thờ
@@ -182,22 +166,6 @@
 | place-of-worship
 | building=church
 |  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Nhà thờ
-| Church
-| amenity/place_of_worship/christian
-|  
-| religious-christian
-| amenity=place_of_worship
-| religion=christian
 |  
 |  
 |  
@@ -239,54 +207,6 @@
 |  
 |  
 |-
-| Sân bay
-| Airport
-| aeroway/aerodrome
-|  
-| airport
-| aeroway=aerodrome
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Sân bay
-| Airfield
-| military/airfield
-|  
-| airfield
-| military=airfield
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
-| Tiệm Kẹo
-| Candy Store
-| shop/confectionery
-|  
-| shop
-| shop=confectionery
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
 | Tiệm Kẹo
 | Confectionery
 | craft/confectionery
@@ -303,12 +223,12 @@
 |  
 |  
 |-
-| Tiệm Mỹ phẩm
-| Beauty Shop
-| shop/beauty
+| Tiệm Kẹo
+| Candy Store
+| shop/confectionery
 |  
 | shop
-| shop=beauty
+| shop=confectionery
 |  
 |  
 |  
@@ -335,12 +255,12 @@
 |  
 |  
 |-
-| Tiệm Thời trang
-| Boutique
-| shop/boutique
+| Tiệm Mỹ phẩm
+| Beauty Shop
+| shop/beauty
 |  
 | shop
-| shop=boutique
+| shop=beauty
 |  
 |  
 |  
@@ -367,12 +287,12 @@
 |  
 |  
 |-
-| Tiệm Trang trí Nội thất
-| Kitchen Design Store
-| shop/kitchen
+| Tiệm Thời trang
+| Boutique
+| shop/boutique
 |  
 | shop
-| shop=kitchen
+| shop=boutique
 |  
 |  
 |  
@@ -389,6 +309,22 @@
 |  
 | shop
 | shop=interior_decoration
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Tiệm Trang trí Nội thất
+| Kitchen Design Store
+| shop/kitchen
+|  
+| shop
+| shop=kitchen
 |  
 |  
 |  
@@ -475,7 +411,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-

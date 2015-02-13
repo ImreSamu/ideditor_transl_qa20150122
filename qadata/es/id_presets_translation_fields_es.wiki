@@ -423,7 +423,7 @@
 | 1
 | text
 | Brand
-|  
+| Marca
 |  
 |  
 | brand
@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+| Género
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Desconocido
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -1638,13 +1653,13 @@
 | 1
 | combo
 | Leaf Cycle
-|  
+| Ciclo hoja
 |  
 |  
 | leaf_cycle
 | evergreen
 | Evergreen
-| 
+| Perenne
 |  
 |  
 | last
@@ -1659,7 +1674,7 @@
 |  
 | deciduous
 | Deciduous
-| 
+| Caduco
 |  
 |  
 | last
@@ -1674,7 +1689,7 @@
 |  
 | semi_evergreen
 | Semi-Evergreen
-| 
+| Semi-perenne
 |  
 |  
 | last
@@ -1689,7 +1704,7 @@
 |  
 | semi_deciduous
 | Semi-Deciduous
-| 
+| Semi-caduco
 |  
 |  
 | last
@@ -1704,7 +1719,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Mixta
 |  
 |  
 | last
@@ -1713,13 +1728,13 @@
 | 1
 | combo
 | Leaf Type
-|  
+| Tipo hoja
 |  
 |  
 | leaf_type
 | broadleaved
 | Broadleaved
-| 
+| Hoja ancha
 |  
 |  
 | last
@@ -1734,7 +1749,7 @@
 |  
 | needleleaved
 | Needleleaved
-| 
+| Hoja angosta
 |  
 |  
 | last
@@ -1749,7 +1764,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Mixta
 |  
 |  
 | last
@@ -1764,7 +1779,7 @@
 |  
 | leafless
 | Leafless
-| 
+| Sin hojas
 |  
 |  
 | last
@@ -3277,9 +3292,9 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
-| Impracticable / No apto para vehículos de ruedas
+| impassable
+| Impassable / No wheeled vehicle
+| Impasable / Ningún vehículo con ruedas
 |  
 |  
 | last

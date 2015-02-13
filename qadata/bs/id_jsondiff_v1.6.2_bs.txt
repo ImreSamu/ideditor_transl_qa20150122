@@ -12,9 +12,29 @@
 -      }
      }
      presets: {
+-      landuse/commercial: {
+-        name: "Poslovno područje"
+-        terms: "komercijalno područje,poslovno područje"
+-      }
+-      landuse/farm: {
+-        name: "Farma"
+-        terms: "farma,imanje,salaš"
+-      }
 -      landuse/farmland: {
 -        name: "Agrarno zemljište"
 -        terms: "agrarno zemljište,obradivo zemljište,obradiva površina"
+-      }
+-      landuse/industrial: {
+-        name: "Industrijsko područje"
+-        terms: "industrijsko područje,industrijska zona"
+-      }
+-      landuse/residential: {
+-        name: "Stambeno područje"
+-        terms: "stambeno područje,stambena zona"
+-      }
+-      landuse/retail: {
+-        name: "Maloprodaja"
+-        terms: "maloprodaja,prodaja na malo"
 -      }
      }
    }

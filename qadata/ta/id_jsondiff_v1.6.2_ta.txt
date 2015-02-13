@@ -8,5 +8,13 @@
 -        label: "வகை"
 -      }
      }
+     presets: {
+-      landuse/farm: {
+-        name: "பண்ணை"
+-      }
+-      landuse/industrial: {
+-        name: "தொழிற்சாலை"
+-      }
+     }
    }
  }

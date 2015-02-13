@@ -230,14 +230,14 @@
 |  
 | Gondola
 | Gondola
+| Gondola
+| 7
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| Gondola
+| 7
 |  
 |  
 |  
@@ -596,8 +596,8 @@
 |  
 |  
 | airplane,airport,aerodrome
-|  
-| 0
+| Oro uostas
+| 10
 |  
 | airport
 |  
@@ -686,8 +686,8 @@
 |  
 |  
 | 
-|  
-| 0
+| oro uosto vartai,vartai
+| 23
 |  
 | airport
 |  
@@ -776,8 +776,8 @@
 |  
 |  
 | helicopter,helipad,heliport
-|  
-| 0
+| sraigtasparnuo aikštelė,sraigtasparnio nusileidimo aikštelė,malūnsparnio aikštelė
+| 81
 |  
 | heliport
 |  
@@ -821,8 +821,8 @@
 |  
 |  
 | landing strip
-|  
-| 0
+| pakilimo takas
+| 14
 |  
 |  
 |  
@@ -1271,8 +1271,8 @@
 |  
 |  
 | bike
-|  
-| 0
+| dviračių stovas,dviračių stovėjimas,dviračių stovėjimo aikštelė
+| 63
 |  
 | bicycle
 |  
@@ -1316,8 +1316,8 @@
 |  
 |  
 | bike
-|  
-| 0
+| dviračių nuoma
+| 14
 |  
 | bicycle
 |  
@@ -1361,8 +1361,8 @@
 |  
 |  
 | bike
-|  
-| 0
+| dviračių remontas
+| 17
 |  
 | bicycle
 |  
@@ -1406,8 +1406,8 @@
 |  
 |  
 | 
-|  
-| 0
+| laivų nuoma,valčių nuoma
+| 24
 |  
 |  
 |  
@@ -1451,8 +1451,8 @@
 |  
 |  
 | bureau de change,money changer
-|  
-| 0
+| keitykla,valiutos keitykla
+| 26
 |  
 | bank
 |  
@@ -1496,8 +1496,8 @@
 |  
 |  
 | 
-|  
-| 0
+| stotis,autobusų stotis
+| 22
 |  
 | bus
 |  
@@ -1586,8 +1586,8 @@
 |  
 |  
 | 
-|  
-| 0
+| nuoma,mašinų nuoma,automobilių nuoma
+| 36
 |  
 | car
 |  
@@ -1676,8 +1676,8 @@
 |  
 |  
 | 
-|  
-| 0
+| plovykla,mašinų plovykla,automobilių plovykla
+| 45
 |  
 | car
 |  
@@ -1721,8 +1721,8 @@
 |  
 |  
 | EV,Electric Vehicle,Supercharger
-|  
-| 0
+| įkrovimo stotelė,įkrovimo stotis
+| 32
 |  
 | car
 |  
@@ -2036,8 +2036,8 @@
 |  
 |  
 | 
-|  
-| 0
+| suspaustas oras
+| 15
 |  
 | car
 |  
@@ -2171,8 +2171,8 @@
 |  
 |  
 | medic*
-|  
-| 0
+| daktaras,gydytojas,medikas
+| 26
 |  
 | hospital
 |  
@@ -2351,8 +2351,8 @@
 |  
 |  
 | restaurant
-|  
-| 0
+| greitas maistas
+| 15
 |  
 | fast-food
 |  
@@ -2486,8 +2486,8 @@
 |  
 |  
 | petrol,fuel,propane,diesel,lng,cng,biodiesel
-|  
-| 0
+| dujų stotis
+| 11
 |  
 | fuel
 |  
@@ -2711,8 +2711,8 @@
 |  
 |  
 | book
-|  
-| 0
+| biblioteka,skaitykla
+| 20
 |  
 | library
 |  
@@ -2801,8 +2801,8 @@
 |  
 |  
 | disco*,night club,dancing,dance club
-|  
-| 0
+| klubas,naktinis klubas
+| 22
 |  
 | bar
 |  
@@ -2846,8 +2846,8 @@
 |  
 |  
 | 
-|  
-| 0
+| aikštelė,stovėjimo aikštelė
+| 27
 |  
 | parking
 |  
@@ -2936,8 +2936,8 @@
 | duplicate
 |  
 | drug,medicine
-|  
-| 0
+| vaistinė
+| 8
 |  
 | pharmacy
 |  
@@ -2981,8 +2981,8 @@
 |  
 |  
 | abbey,basilica,bethel,cathedral,chancel,chantry,chapel,church,fold,house of God,house of prayer,house of worship,minster,mission,mosque,oratory,parish,sacellum,sanctuary,shrine,synagogue,tabernacle,temple
-|  
-| 0
+| maldos namai
+| 12
 |  
 | place-of-worship
 |  
@@ -3026,8 +3026,8 @@
 |  
 |  
 | stupa,vihara,monastery,temple,pagoda,zendo,dojo
-|  
-| 0
+| budistų šventykla,šventykla
+| 27
 |  
 | place-of-worship
 |  
@@ -3071,8 +3071,8 @@
 | duplicate
 |  
 | christian,abbey,basilica,bethel,cathedral,chancel,chantry,chapel,fold,house of God,house of prayer,house of worship,minster,mission,oratory,parish,sacellum,sanctuary,shrine,tabernacle,temple
-|  
-| 0
+| bažnyčia
+| 8
 |  
 | religious-christian
 |  
@@ -3116,8 +3116,8 @@
 |  
 |  
 | jewish
-|  
-| 0
+| sinagoga
+| 8
 |  
 | religious-jewish
 |  
@@ -3161,8 +3161,8 @@
 |  
 |  
 | muslim
-|  
-| 0
+| mečetė
+| 6
 |  
 | religious-muslim
 |  
@@ -3206,8 +3206,8 @@
 |  
 |  
 | badge,constable,constabulary,cop,detective,fed,law,enforcement,officer,patrol
-|  
-| 0
+| policija
+| 8
 |  
 | police
 |  
@@ -3251,8 +3251,8 @@
 |  
 |  
 | letter,post
-|  
-| 0
+| paštadėžė,pašto dėžė
+| 20
 |  
 | post
 |  
@@ -3296,8 +3296,8 @@
 |  
 |  
 | letter,mail
-|  
-| 0
+| paštas,pašto skyrius
+| 20
 |  
 | post
 |  
@@ -3341,8 +3341,8 @@
 |  
 |  
 | dive,beer,bier,booze
-|  
-| 0
+| baras,aludė
+| 11
 |  
 | beer
 |  
@@ -3566,8 +3566,8 @@
 |  
 |  
 | bar,breakfast,cafe,café,canteen,coffee,dine,dining,dinner,drive-in,eat,grill,lunch,table
-|  
-| 0
+| rastoranas
+| 10
 |  
 | restaurant
 |  
@@ -3656,8 +3656,8 @@
 |  
 |  
 | lean-to,gazebo,picnic
-|  
-| 0
+| pastogė
+| 7
 |  
 |  
 |  
@@ -3746,8 +3746,8 @@
 |  
 |  
 | 
-|  
-| 0
+| maisto bankas
+| 13
 |  
 |  
 |  
@@ -3830,14 +3830,14 @@
 | homeless_shelter
 | Homeless Shelter
 | Homeless Shelter
+| Benamių prieglauda
+| 18
 |  
-| 0
 |  
 |  
-| notTranslated
 | houseless,unhoused,displaced
-|  
-| 0
+| prieglauda,benamių prieglauda
+| 29
 |  
 |  
 |  
@@ -3881,8 +3881,8 @@
 |  
 |  
 | recording,radio,television
-|  
-| 0
+| studija
+| 7
 |  
 | music
 |  
@@ -3926,8 +3926,8 @@
 |  
 |  
 | 
-|  
-| 0
+| baseinas,plaukimo baseinas
+| 26
 |  
 | swimming
 |  
@@ -3971,8 +3971,8 @@
 |  
 |  
 | cab
-|  
-| 0
+| taksi aikštelė
+| 14
 |  
 | car
 |  
@@ -4016,8 +4016,8 @@
 |  
 |  
 | phone
-|  
-| 0
+| telefonas
+| 9
 |  
 | telephone
 |  
@@ -4061,8 +4061,8 @@
 |  
 |  
 | theatre,performance,play,musical
-|  
-| 0
+| teatras
+| 7
 |  
 | theatre
 |  
@@ -4106,12 +4106,12 @@
 |  
 |  
 | bathroom,restroom,outhouse,privy,head,lavatory,latrine,water closet,WC,W.C.
-|  
-| 0
+| tualetas,išvietė
+| 16
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -4151,8 +4151,8 @@
 |  
 |  
 | village,city,government,courthouse,municipal
-|  
-| 0
+| rotušė
+| 6
 |  
 | town-hall
 |  
@@ -4196,8 +4196,8 @@
 |  
 |  
 | college
-|  
-| 0
+| universiteto teritorija
+| 23
 |  
 | college
 |  
@@ -4286,8 +4286,8 @@
 |  
 |  
 | pet clinic,veterinarian,animal hospital,pet doctor
-|  
-| 0
+| veterinaras
+| 11
 |  
 | dog-park
 |  
@@ -4331,8 +4331,8 @@
 |  
 |  
 | rubbish,litter,trash,garbage
-|  
-| 0
+| šiukšliadėžė
+| 12
 |  
 | waste-basket
 |  
@@ -4376,8 +4376,8 @@
 |  
 |  
 | 
-|  
-| 0
+| plotas
+| 6
 |  
 |  
 |  
@@ -4421,8 +4421,8 @@
 |  
 |  
 | 
-|  
-| 0
+| barieras,kliūtis
+| 16
 |  
 |  
 |  
@@ -4460,14 +4460,14 @@
 |  
 | Block
 | Block
+| Blokas
+| 6
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| blokas,akmuo
+| 12
 |  
 |  
 |  
@@ -4601,8 +4601,8 @@
 |  
 |  
 | 
-|  
-| 0
+| siena,miesto siena
+| 18
 |  
 |  
 |  
@@ -4640,14 +4640,14 @@
 |  
 | Cycle Barrier
 | Cycle Barrier
+| Dviračių barjeras
+| 17
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| dviračių barjeras
+| 17
 |  
 |  
 |  
@@ -4691,8 +4691,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| griovys
+| 7
 |  
 |  
 |  
@@ -4736,8 +4736,8 @@
 |  
 |  
 | 
-|  
-| 0
+| įėjimas
+| 7
 |  
 | entrance
 |  
@@ -4781,8 +4781,8 @@
 |  
 |  
 | 
-|  
-| 0
+| tvora
+| 5
 |  
 |  
 |  
@@ -4826,8 +4826,8 @@
 |  
 |  
 | 
-|  
-| 0
+| vartai
+| 6
 |  
 |  
 |  
@@ -4865,14 +4865,14 @@
 |  
 | Hedge
 | Hedge
+| Gyvatvorė
+| 9
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| gyvatvorė
+| 9
 |  
 |  
 |  
@@ -4961,8 +4961,8 @@
 |  
 |  
 | 
-|  
-| 0
+| pakeliami vartai
+| 16
 |  
 |  
 |  
@@ -5045,14 +5045,14 @@
 |  
 | Stile
 | Stile
+| Perlipa
+| 7
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| perlipa
+| 7
 |  
 |  
 |  
@@ -5141,8 +5141,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| siena
+| 5
 |  
 |  
 |  
@@ -5186,8 +5186,8 @@
 |  
 |  
 | 
-|  
-| 0
+| riba,administracinė riba,siena
+| 30
 |  
 |  
 |  
@@ -5276,8 +5276,8 @@
 |  
 |  
 | 
-|  
-| 0
+| apartamentai
+| 12
 |  
 | commercial
 |  
@@ -5456,8 +5456,8 @@
 |  
 |  
 | 
-|  
-| 0
+| katedra
+| 7
 |  
 | place-of-worship
 |  
@@ -5501,8 +5501,8 @@
 |  
 |  
 | 
-|  
-| 0
+| koplyčia
+| 8
 |  
 | place-of-worship
 |  
@@ -5546,8 +5546,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| bažnyčia
+| 8
 |  
 | place-of-worship
 |  
@@ -5591,8 +5591,8 @@
 |  
 |  
 | university
-|  
-| 0
+| koledžas
+| 8
 |  
 | building
 |  
@@ -5681,8 +5681,8 @@
 |  
 |  
 | 
-|  
-| 0
+| statomas pastatas, statybos
+| 27
 |  
 | building
 |  
@@ -5771,8 +5771,8 @@
 |  
 |  
 | 
-|  
-| 0
+| bendrabutis
+| 11
 |  
 | building
 |  
@@ -5816,8 +5816,8 @@
 |  
 |  
 | 
-|  
-| 0
+| įėjimas/išėjimas
+| 16
 |  
 | entrance
 |  
@@ -5861,8 +5861,8 @@
 |  
 |  
 | 
-|  
-| 0
+| garažas
+| 7
 |  
 | warehouse
 |  
@@ -5903,11 +5903,11 @@
 | Garažai
 | 7
 |  
-|  
+| duplicate
 |  
 | 
-|  
-| 0
+| garažai
+| 7
 |  
 | warehouse
 |  
@@ -5951,8 +5951,8 @@
 |  
 |  
 | 
-|  
-| 0
+| šiltnamis
+| 9
 |  
 | building
 |  
@@ -5996,8 +5996,8 @@
 |  
 |  
 | 
-|  
-| 0
+| ligoninės pastatas,ligoninė
+| 27
 |  
 | building
 |  
@@ -6041,8 +6041,8 @@
 |  
 |  
 | 
-|  
-| 0
+| viešbučio pastatas,viešbutis
+| 28
 |  
 | building
 |  
@@ -6086,8 +6086,8 @@
 |  
 |  
 | 
-|  
-| 0
+| namas
+| 5
 |  
 | building
 |  
@@ -6266,8 +6266,8 @@
 |  
 |  
 | 
-|  
-| 0
+| visuomeninis pastatas
+| 21
 |  
 | building
 |  
@@ -6356,8 +6356,8 @@
 |  
 |  
 | 
-|  
-| 0
+| prekybos pastatas,prekybvietė
+| 29
 |  
 | building
 |  
@@ -6401,8 +6401,8 @@
 |  
 |  
 | 
-|  
-| 0
+| stogas
+| 6
 |  
 | building
 |  
@@ -6446,8 +6446,8 @@
 |  
 |  
 | academy,elementary school,middle school,high school
-|  
-| 0
+| mokyklos pastatas,mokykla
+| 25
 |  
 | building
 |  
@@ -6491,8 +6491,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| pašiūrė
+| 7
 |  
 | building
 |  
@@ -6536,8 +6536,8 @@
 |  
 |  
 | 
-|  
-| 0
+| arklidės
+| 8
 |  
 | building
 |  
@@ -6671,8 +6671,8 @@
 |  
 |  
 | 
-|  
-| 0
+| geležinkleio stotis
+| 19
 |  
 | building
 |  
@@ -6716,8 +6716,8 @@
 |  
 |  
 | college
-|  
-| 0
+| universiteto pastatas,universitetas
+| 35
 |  
 | building
 |  
@@ -6761,8 +6761,8 @@
 |  
 |  
 | 
-|  
-| 0
+| sandėlys
+| 8
 |  
 | building
 |  
@@ -6896,8 +6896,8 @@
 |  
 |  
 | 
-|  
-| 0
+| bitininkas
+| 10
 |  
 | farm
 |  
@@ -6941,8 +6941,8 @@
 |  
 |  
 | 
-|  
-| 0
+| kalvis
+| 6
 |  
 | farm
 |  
@@ -6986,8 +6986,8 @@
 |  
 |  
 | 
-|  
-| 0
+| laivadirbys,laivų statykla
+| 26
 |  
 | marker-stroked
 |  
@@ -7031,8 +7031,8 @@
 |  
 |  
 | book repair
-|  
-| 0
+| knygryšys
+| 9
 |  
 | library
 |  
@@ -7121,8 +7121,8 @@
 |  
 |  
 | woodworker
-|  
-| 0
+| stalius
+| 7
 |  
 | logging
 |  
@@ -7256,8 +7256,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| laikrodininkas
+| 14
 |  
 | circle-stroked
 |  
@@ -7295,14 +7295,14 @@
 |  
 | Confectionery
 | Confectionery
+| Konditerija
+| 11
 |  
-| 0
 |  
 |  
-| notTranslated
 | sweets,candy
-|  
-| 0
+| konditerija,saldumynai
+| 22
 |  
 | bakery
 |  
@@ -7346,8 +7346,8 @@
 |  
 |  
 | seamstress
-|  
-| 0
+| siuvėjas
+| 8
 |  
 | clothing-store
 |  
@@ -7391,8 +7391,8 @@
 |  
 |  
 | power,wire
-|  
-| 0
+| elektrikas
+| 10
 |  
 | marker-stroked
 |  
@@ -7565,14 +7565,14 @@
 |  
 | HVAC
 | HVAC
+| HVAC
+| 4
 |  
-| 0
 |  
 |  
-| notTranslated
 | heat*,vent*,air conditioning
-|  
-| 0
+| hvac
+| 4
 |  
 | marker-stroked
 |  
@@ -7661,8 +7661,8 @@
 |  
 |  
 | 
-|  
-| 0
+| juvelyras
+| 9
 |  
 | marker-stroked
 |  
@@ -7745,14 +7745,14 @@
 |  
 | Locksmith
 | Locksmith
+| Šaltkalvis
+| 10
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| šaltkalvis
+| 10
 |  
 | marker-stroked
 |  
@@ -7931,8 +7931,8 @@
 |  
 |  
 | 
-|  
-| 0
+| fotografas
+| 10
 |  
 | camera
 |  
@@ -8066,8 +8066,8 @@
 |  
 |  
 | pipe
-|  
-| 0
+| santechnikas
+| 12
 |  
 | marker-stroked
 |  
@@ -8201,8 +8201,8 @@
 |  
 |  
 | 
-|  
-| 0
+| stogdengys
+| 10
 |  
 | marker-stroked
 |  
@@ -8336,8 +8336,8 @@
 |  
 |  
 | lumber
-|  
-| 0
+| lentpjūvė
+| 9
 |  
 | park
 |  
@@ -8426,8 +8426,8 @@
 |  
 |  
 | 
-|  
-| 0
+| skulptorius
+| 11
 |  
 | art-gallery
 |  
@@ -8516,8 +8516,8 @@
 |  
 |  
 | masonry
-|  
-| 0
+| mūrininkas
+| 10
 |  
 | marker-stroked
 |  
@@ -8561,8 +8561,8 @@
 |  
 |  
 | 
-|  
-| 0
+| kaminkrėtys
+| 11
 |  
 | marker-stroked
 |  
@@ -8606,8 +8606,8 @@
 |  
 |  
 | clothes,suit
-|  
-| 0
+| siuvėjas
+| 8
 |  
 | clothing-store
 |  
@@ -8786,8 +8786,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| laikrodininkas
+| 14
 |  
 | circle-stroked
 |  
@@ -8876,8 +8876,8 @@
 |  
 |  
 | 
-|  
-| 0
+| vyninė
+| 6
 |  
 | alcohol-shop
 |  
@@ -9056,8 +9056,8 @@
 |  
 |  
 | 
-|  
-| 0
+| avarinis telefonas
+| 18
 |  
 | emergency-telephone
 |  
@@ -9101,8 +9101,8 @@
 |  
 |  
 | 
-|  
-| 0
+| įėjimas,išėjimas
+| 16
 |  
 | entrance
 |  
@@ -9146,8 +9146,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| sankryža,perėja
+| 15
 |  
 |  
 |  
@@ -9236,8 +9236,8 @@
 |  
 |  
 | 
-|  
-| 0
+| šaligatvis
+| 10
 |  
 |  
 |  
@@ -9275,14 +9275,14 @@
 |  
 | Ford
 | Ford
+| Brasta
+| 6
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| brasta
+| 6
 |  
 |  
 |  
@@ -9461,8 +9461,8 @@
 |  
 |  
 | 
-|  
-| 0
+| duobutė,golfo duobutė
+| 21
 |  
 | golf
 |  
@@ -9686,8 +9686,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| kelias,greitkelis,gatvė,takas
+| 29
 |  
 |  
 |  
@@ -9731,8 +9731,8 @@
 |  
 |  
 | bridleway,equestrian,horse
-|  
-| 0
+| jodinėjimo takas,arklių takas
+| 29
 |  
 | highway-bridleway
 |  
@@ -9776,8 +9776,8 @@
 |  
 |  
 | 
-|  
-| 0
+| stotelė,autobusų stotelė,troleibusų stotelė
+| 43
 |  
 | bus
 |  
@@ -9821,8 +9821,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| perėja,pervaža
+| 14
 |  
 |  
 |  
@@ -9866,8 +9866,8 @@
 | duplicate
 |  
 | zebra crossing
-|  
-| 0
+| perėja
+| 6
 |  
 |  
 |  
@@ -9911,8 +9911,8 @@
 |  
 |  
 | bike
-|  
-| 0
+| dviračių takas
+| 14
 |  
 | highway-cycleway
 |  
@@ -9956,8 +9956,8 @@
 |  
 |  
 | hike,hiking,trackway,trail,walk
-|  
-| 0
+| pėsčiųjų takas
+| 14
 |  
 | highway-footway
 |  
@@ -10001,8 +10001,8 @@
 |  
 |  
 | 
-|  
-| 0
+| gyvenamoji zona,gyvenamoji gatvė
+| 32
 |  
 | highway-living-street
 |  
@@ -10046,8 +10046,8 @@
 |  
 |  
 | 
-|  
-| 0
+| mini-žiedas,žiedas
+| 18
 |  
 |  
 |  
@@ -10091,8 +10091,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| greitkelis,automagistralė
+| 25
 |  
 | highway-motorway
 |  
@@ -10226,8 +10226,8 @@
 |  
 |  
 | hike,hiking,trackway,trail,walk
-|  
-| 0
+| takas
+| 5
 |  
 | highway-path
 |  
@@ -10271,8 +10271,8 @@
 |  
 |  
 | 
-|  
-| 0
+| pėsčiųjų
+| 8
 |  
 |  
 |  
@@ -10496,8 +10496,8 @@
 |  
 |  
 | rest stop
-|  
-| 0
+| poilsio zona
+| 12
 |  
 |  
 |  
@@ -10541,8 +10541,8 @@
 |  
 |  
 | 
-|  
-| 0
+| nežinomas kelias
+| 16
 |  
 | highway-road
 |  
@@ -10676,8 +10676,8 @@
 |  
 |  
 | 
-|  
-| 0
+| aptarnavimo kelias,privažiavimas
+| 32
 |  
 | highway-service
 |  
@@ -10766,8 +10766,8 @@
 |  
 |  
 | 
-|  
-| 0
+| pravažiavimas
+| 13
 |  
 | highway-service
 |  
@@ -10856,8 +10856,8 @@
 |  
 |  
 | 
-|  
-| 0
+| avarinis priėjimas,avarinis privažiavimas
+| 41
 |  
 | highway-service
 |  
@@ -10946,8 +10946,8 @@
 |  
 |  
 | services,travel plaza,service station
-|  
-| 0
+| aptarnavimo zona,aptarnavimo plotas
+| 35
 |  
 |  
 |  
@@ -10991,8 +10991,8 @@
 |  
 |  
 | stairs,staircase
-|  
-| 0
+| laiptai
+| 7
 |  
 | highway-steps
 |  
@@ -11036,8 +11036,8 @@
 |  
 |  
 | stop sign
-|  
-| 0
+| stop ženklas
+| 12
 |  
 |  
 |  
@@ -11081,8 +11081,8 @@
 |  
 |  
 | streetlight,street light,lamp,light,gaslight
-|  
-| 0
+| lempa,žibintas,gatvės žibintas
+| 30
 |  
 |  
 |  
@@ -11216,8 +11216,8 @@
 |  
 |  
 | woods road,fire road
-|  
-| 0
+| kelias
+| 6
 |  
 | highway-track
 |  
@@ -11261,8 +11261,8 @@
 |  
 |  
 | light,stoplight,traffic light
-|  
-| 0
+| šviesoforas
+| 11
 |  
 |  
 |  
@@ -11441,8 +11441,8 @@
 |  
 |  
 | 
-|  
-| 0
+| neklasifikuotas kelias
+| 22
 |  
 | highway-unclassified
 |  
@@ -11486,8 +11486,8 @@
 |  
 |  
 | 
-|  
-| 0
+| istorinė vieta
+| 14
 |  
 |  
 |  
@@ -11531,8 +11531,8 @@
 |  
 |  
 | 
-|  
-| 0
+| archeologinė vieta
+| 18
 |  
 |  
 |  
@@ -11570,14 +11570,14 @@
 |  
 | Boundary Stone
 | Boundary Stone
+| Riboženklis akmuo
+| 17
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| riboženklis,akmuo
+| 17
 |  
 |  
 |  
@@ -11621,8 +11621,8 @@
 |  
 |  
 | 
-|  
-| 0
+| pilis,tvirtovė
+| 14
 |  
 |  
 |  
@@ -11666,8 +11666,8 @@
 |  
 |  
 | 
-|  
-| 0
+| paminklas
+| 9
 |  
 | monument
 |  
@@ -11711,8 +11711,8 @@
 |  
 |  
 | 
-|  
-| 0
+| monumentas,paminklas
+| 20
 |  
 | monument
 |  
@@ -11756,8 +11756,8 @@
 |  
 |  
 | 
-|  
-| 0
+| griuvėsiai 
+| 11
 |  
 |  
 |  
@@ -11801,8 +11801,8 @@
 |  
 |  
 | 
-|  
-| 0
+| pakelės kryžius
+| 15
 |  
 |  
 |  
@@ -11846,8 +11846,8 @@
 |  
 |  
 | 
-|  
-| 0
+| pakelės šventykla,rūpintojėlis,koplytstulpis
+| 44
 |  
 |  
 |  
@@ -11885,14 +11885,14 @@
 |  
 | Junction
 | Junction
+| Jungtis
+| 7
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| jungtis,sankryža
+| 16
 |  
 |  
 |  
@@ -11936,8 +11936,8 @@
 |  
 |  
 | 
-|  
-| 0
+| žemėnauda
+| 9
 |  
 |  
 |  
@@ -11981,8 +11981,8 @@
 |  
 |  
 | 
-|  
-| 0
+| sodai,kolektyviniai sodai
+| 25
 |  
 |  
 |  
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12026,8 +12026,8 @@
 |  
 |  
 | 
-|  
-| 0
+| prūdas,kūdra,baseinas
+| 21
 |  
 |  
 |  
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12071,8 +12071,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| kapinės
+| 7
 |  
 | cemetery
 |  
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,16 +12153,16 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| Reklama
-| 7
+| Commercial Area
+| Commercial Area
+| Komercinė zona
+| 14
 |  
 |  
 |  
 | 
-|  
-| 0
+| komercinė zona,komercinė,komercija
+| 34
 |  
 | commercial
 |  
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12206,8 +12206,8 @@
 |  
 |  
 | 
-|  
-| 0
+| statybos
+| 8
 |  
 |  
 |  
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,16 +12243,16 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
-| Ūkis
-| 4
+| Farmland
+| Farmland
+| Dirbama žemė
+| 12
 |  
 |  
 |  
 | 
-|  
-| 0
+| dirbama žemė,žemdirbystė
+| 24
 |  
 | farm
 |  
@@ -12288,16 +12288,16 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
+| Dirbama žemė
+| 12
 |  
-| 0
 |  
 |  
-| notTranslated
-| farmland
-|  
-| 0
+| 
+| dirbama žemė,žemdirbystė
+| 24
 |  
 | farm
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12341,8 +12341,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| ūkio sodyba,ferma
+| 17
 |  
 | farm
 |  
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12386,8 +12386,8 @@
 |  
 |  
 | tree
-|  
-| 0
+| miškas
+| 6
 |  
 | park2
 |  
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12425,14 +12425,14 @@
 |  
 | Garages
 | Garages
+| Garažai
+| 7
 |  
-| 0
+| duplicate
 |  
-|  
-| notTranslated
 | 
-|  
-| 0
+| garažai
+| 7
 |  
 |  
 |  
@@ -12476,8 +12476,8 @@
 |  
 |  
 | 
-|  
-| 0
+| žolė
+| 4
 |  
 |  
 |  
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,16 +12513,16 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
-| Pramoninė
-| 9
+| Industrial Area
+| Industrial Area
+| Pramoninė zona
+| 14
 |  
 |  
 |  
 | 
-|  
-| 0
+| pramoninė zona,pramonė
+| 22
 |  
 | industrial
 |  
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12566,8 +12566,8 @@
 |  
 |  
 | dump
-|  
-| 0
+| sąvartynas
+| 10
 |  
 |  
 |  
@@ -12611,8 +12611,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| pieva,ganykla
+| 13
 |  
 |  
 |  
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,16 +12648,16 @@
 | landuse
 | military
 |  
-| Military
-| Military
-| Karinė
-| 6
+| Military Area
+| Military Area
+| Karinė zona
+| 11
 |  
 |  
 |  
 | 
-|  
-| 0
+| karinė zona,poligonas,kareivinės
+| 32
 |  
 |  
 |  
@@ -12701,8 +12701,8 @@
 |  
 |  
 | 
-|  
-| 0
+| sodas,vaisių sodas
+| 18
 |  
 | park2
 |  
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12746,8 +12746,8 @@
 |  
 |  
 | 
-|  
-| 0
+| karjeras
+| 8
 |  
 |  
 |  
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,16 +12783,16 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
-| Gyvenamosios vietos
-| 19
+| Residential Area
+| Residential Area
+| Gyvenamoji zona
+| 15
 |  
 |  
 |  
 | 
-|  
-| 0
+| gyvenamoji zona,miegamoji zona
+| 30
 |  
 | building
 |  
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,16 +12828,16 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
-| Prekyba
-| 7
+| Retail Area
+| Retail Area
+| Gelžkelio zona
+| 14
 |  
 |  
 |  
 | 
-|  
-| 0
+| geležinkelio zona,gelžkelio zona
+| 32
 |  
 | shop
 |  
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12881,8 +12881,8 @@
 |  
 |  
 | 
-|  
-| 0
+| vynuogynas
+| 10
 |  
 |  
 |  
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12926,8 +12926,8 @@
 |  
 |  
 | 
-|  
-| 0
+| laisvalaikis
+| 12
 |  
 |  
 |  
@@ -13016,8 +13016,8 @@
 |  
 |  
 | 
-|  
-| 0
+| šunparkis,šunų parkas
+| 21
 |  
 | dog-park
 |  
@@ -13106,8 +13106,8 @@
 |  
 |  
 | 
-|  
-| 0
+| sodas
+| 5
 |  
 | garden
 |  
@@ -13241,8 +13241,8 @@
 | duplicate
 |  
 | boat
-|  
-| 0
+| jachtklubas
+| 11
 |  
 | harbor
 |  
@@ -13280,14 +13280,14 @@
 |  
 | Nature Reserve
 | Nature Reserve
+| Draustinis
+| 10
 |  
-| 0
 |  
 |  
-| notTranslated
 | protected,wildlife
-|  
-| 0
+| gamtos rezervatas,rezervatas,draustinis
+| 39
 |  
 | park
 |  
@@ -13331,8 +13331,8 @@
 |  
 |  
 | esplanade,estate,forest,garden,grass,green,grounds,lawn,lot,meadow,parkland,place,playground,plaza,pleasure garden,recreation area,square,tract,village green,woodland
-|  
-| 0
+| parkas
+| 6
 |  
 | park
 |  
@@ -13376,8 +13376,8 @@
 |  
 |  
 | bench
-|  
-| 0
+| poilsio stalas
+| 14
 |  
 |  
 |  
@@ -13466,8 +13466,8 @@
 |  
 |  
 | 
-|  
-| 0
+| amerikietiško futbolo aikštė
+| 28
 |  
 | america-football
 |  
@@ -13646,8 +13646,8 @@
 |  
 |  
 | 
-|  
-| 0
+| futbolo aikštė
+| 14
 |  
 | soccer
 |  
@@ -13691,8 +13691,8 @@
 |  
 |  
 | 
-|  
-| 0
+| teniso kortai
+| 13
 |  
 | tennis
 |  
@@ -13781,8 +13781,8 @@
 |  
 |  
 | jungle gym,play area
-|  
-| 0
+| žaidimų aikštelė
+| 16
 |  
 | playground
 |  
@@ -13826,8 +13826,8 @@
 |  
 |  
 | 
-|  
-| 0
+| bėgimo takelis
+| 14
 |  
 | pitch
 |  
@@ -13961,8 +13961,8 @@
 |  
 |  
 | 
-|  
-| 0
+| stadionas
+| 9
 |  
 | pitch
 |  
@@ -14006,8 +14006,8 @@
 |  
 |  
 | 
-|  
-| 0
+| baseinas,maudymosi baseinas
+| 27
 |  
 | swimming
 |  
@@ -14141,8 +14141,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Žmogaus sukurtas
+| 16
 |  
 |  
 |  
@@ -14225,14 +14225,14 @@
 |  
 | Cut line
 | Cut line
+| Proskyna
+| 8
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| proskyna
+| 8
 |  
 |  
 |  
@@ -14366,8 +14366,8 @@
 |  
 |  
 | 
-|  
-| 0
+| švyturys
+| 8
 |  
 | lighthouse
 |  
@@ -14411,8 +14411,8 @@
 |  
 |  
 | lookout tower,fire tower
-|  
-| 0
+| stebėjimo bokštas
+| 17
 |  
 |  
 |  
@@ -14546,8 +14546,8 @@
 |  
 |  
 | 
-|  
-| 0
+| stebėjimo taškas
+| 16
 |  
 | monument
 |  
@@ -14591,8 +14591,8 @@
 |  
 |  
 | 
-|  
-| 0
+| bokštas
+| 7
 |  
 |  
 |  
@@ -14636,8 +14636,8 @@
 |  
 |  
 | sewage*,water treatment plant,reclamation plant
-|  
-| 0
+| vandens valymo įrenginiai
+| 25
 |  
 | water
 |  
@@ -14681,8 +14681,8 @@
 |  
 |  
 | 
-|  
-| 0
+| vandens bokštas
+| 15
 |  
 | water
 |  
@@ -14810,14 +14810,14 @@
 |  
 | Airfield
 | Airfield
+| Aerodromas
+| 10
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| aerodromas
+| 10
 |  
 | airfield
 |  
@@ -14951,8 +14951,8 @@
 |  
 |  
 | 
-|  
-| 0
+| šaudykla,poligonas
+| 18
 |  
 |  
 |  
@@ -15041,8 +15041,8 @@
 |  
 |  
 | 
-|  
-| 0
+| įlanka
+| 6
 |  
 |  
 |  
@@ -15086,8 +15086,8 @@
 |  
 |  
 | 
-|  
-| 0
+| maudykla,paplūdimys
+| 19
 |  
 |  
 |  
@@ -15125,14 +15125,14 @@
 |  
 | Cave Entrance
 | Cave Entrance
+| Įėjimas į olą
+| 13
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| įėjimas į olą
+| 13
 |  
 |  
 |  
@@ -15221,8 +15221,8 @@
 |  
 |  
 | shore
-|  
-| 0
+| krantas
+| 7
 |  
 |  
 |  
@@ -15311,8 +15311,8 @@
 |  
 |  
 | 
-|  
-| 0
+| ledynas
+| 7
 |  
 |  
 |  
@@ -15446,8 +15446,8 @@
 |  
 |  
 | acme,aiguille,alp,climax,crest,crown,hill,mount,mountain,pinnacle,summit,tip,top
-|  
-| 0
+| viršūnė,viršukalnė
+| 18
 |  
 | triangle
 |  
@@ -15536,8 +15536,8 @@
 |  
 |  
 | 
-|  
-| 0
+| krūmai
+| 6
 |  
 |  
 |  
@@ -15581,8 +15581,8 @@
 |  
 |  
 | 
-|  
-| 0
+| šaltinis
+| 8
 |  
 |  
 |  
@@ -15626,8 +15626,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| medis
+| 5
 |  
 | park
 |  
@@ -15671,8 +15671,8 @@
 |  
 |  
 | 
-|  
-| 0
+| vanduo
+| 6
 |  
 | water
 |  
@@ -15716,8 +15716,8 @@
 |  
 |  
 | lakelet,loch,mere
-|  
-| 0
+| ežeras
+| 6
 |  
 | water
 |  
@@ -15761,8 +15761,8 @@
 |  
 |  
 | lakelet,millpond,tarn,pool,mere
-|  
-| 0
+| prūdas,kūdra
+| 12
 |  
 | water
 |  
@@ -15806,8 +15806,8 @@
 |  
 |  
 | 
-|  
-| 0
+| tvenkinys,rezervuaras
+| 21
 |  
 | water
 |  
@@ -15896,8 +15896,8 @@
 | duplicate
 |  
 | tree
-|  
-| 0
+| medžiai
+| 7
 |  
 | park2
 |  
@@ -15941,8 +15941,8 @@
 |  
 |  
 | 
-|  
-| 0
+| kontora
+| 7
 |  
 | commercial
 |  
@@ -15980,14 +15980,14 @@
 |  
 | Accountant
 | Accountant
+| Buhalteris
+| 10
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| buhalteris
+| 10
 |  
 | commercial
 |  
@@ -16076,8 +16076,8 @@
 |  
 |  
 | 
-|  
-| 0
+| architektas
+| 11
 |  
 | commercial
 |  
@@ -16391,8 +16391,8 @@
 |  
 |  
 | 
-|  
-| 0
+| draudimas,draudimo kontora
+| 26
 |  
 | commercial
 |  
@@ -16436,8 +16436,8 @@
 |  
 |  
 | 
-|  
-| 0
+| it kontora,informacinės technologijos
+| 37
 |  
 | commercial
 |  
@@ -16526,8 +16526,8 @@
 |  
 |  
 | 
-|  
-| 0
+| laikraštis
+| 10
 |  
 | commercial
 |  
@@ -16661,8 +16661,8 @@
 |  
 |  
 | 
-|  
-| 0
+| politinė partija
+| 16
 |  
 | commercial
 |  
@@ -16706,8 +16706,8 @@
 |  
 |  
 | 
-|  
-| 0
+| tyrimų kontora
+| 14
 |  
 | commercial
 |  
@@ -16841,8 +16841,8 @@
 |  
 |  
 | 
-|  
-| 0
+| kelionių agentūra
+| 17
 |  
 | suitcase
 |  
@@ -16931,8 +16931,8 @@
 |  
 |  
 | 
-|  
-| 0
+| gyvenvietė,vietovė
+| 18
 |  
 |  
 |  
@@ -16976,8 +16976,8 @@
 |  
 |  
 | 
-|  
-| 0
+| didmiestis
+| 10
 |  
 | city
 |  
@@ -17021,8 +17021,8 @@
 |  
 |  
 | 
-|  
-| 0
+| viensėdis
+| 9
 |  
 | triangle-stroked
 |  
@@ -17066,8 +17066,8 @@
 |  
 |  
 | archipelago,atoll,bar,cay,isle,islet,key,reef
-|  
-| 0
+| sala
+| 4
 |  
 |  
 |  
@@ -17156,8 +17156,8 @@
 |  
 |  
 | 
-|  
-| 0
+| vietovė
+| 7
 |  
 | marker
 |  
@@ -17291,8 +17291,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| miestas
+| 7
 |  
 | town
 |  
@@ -17336,8 +17336,8 @@
 |  
 |  
 | 
-|  
-| 0
+| kaimas
+| 6
 |  
 | village
 |  
@@ -17381,8 +17381,8 @@
 |  
 |  
 | 
-|  
-| 0
+| taškas
+| 6
 |  
 |  
 |  
@@ -17426,8 +17426,8 @@
 |  
 |  
 | 
-|  
-| 0
+| įtampa,elektra
+| 14
 |  
 |  
 |  
@@ -17471,8 +17471,8 @@
 |  
 |  
 | 
-|  
-| 0
+| generatorius,elektros generatorius
+| 34
 |  
 |  
 |  
@@ -17516,8 +17516,8 @@
 |  
 |  
 | 
-|  
-| 0
+| elektros linija
+| 15
 |  
 | power-line
 |  
@@ -17606,8 +17606,8 @@
 |  
 |  
 | 
-|  
-| 0
+| stulpas,elektros stulpas
+| 24
 |  
 |  
 |  
@@ -17651,8 +17651,8 @@
 |  
 |  
 | 
-|  
-| 0
+| pastotė
+| 7
 |  
 |  
 |  
@@ -17690,14 +17690,14 @@
 |  
 | Substation
 | Substation
+| Pastotė
+| 7
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| pastotė
+| 7
 |  
 |  
 |  
@@ -17741,8 +17741,8 @@
 |  
 |  
 | 
-|  
-| 0
+| aukštos įtampos stulpas
+| 23
 |  
 |  
 |  
@@ -17786,8 +17786,8 @@
 |  
 |  
 | 
-|  
-| 0
+| transformatorius
+| 16
 |  
 |  
 |  
@@ -17831,8 +17831,8 @@
 |  
 |  
 | 
-|  
-| 0
+| platforma
+| 9
 |  
 |  
 |  
@@ -17921,8 +17921,8 @@
 |  
 |  
 | 
-|  
-| 0
+| gelžkelis,geležinkelis,bėgiai
+| 29
 |  
 |  
 |  
@@ -17966,8 +17966,8 @@
 |  
 |  
 | 
-|  
-| 0
+| apleistas gelžkelis,nebenaudojamas gelžkelis
+| 44
 |  
 | railway-abandoned
 |  
@@ -18011,8 +18011,8 @@
 |  
 |  
 | 
-|  
-| 0
+| nenaudojamas geležinkelis,nenaudojami bėgiai
+| 44
 |  
 | railway-disused
 |  
@@ -18095,14 +18095,14 @@
 |  
 | Railway Halt
 | Railway Halt
+| Geležinkelio stotelė
+| 20
 |  
-| 0
 |  
 |  
-| notTranslated
 | break,interrupt,rest,wait,interruption
-|  
-| 0
+| geležinkelio stotelė
+| 20
 |  
 | rail
 |  
@@ -18230,14 +18230,14 @@
 |  
 | Narrow Gauge Rail
 | Narrow Gauge Rail
+| Siaurukas
+| 9
 |  
-| 0
 |  
 |  
-| notTranslated
 | narrow gauge railway,narrow gauge railroad
-|  
-| 0
+| siaurukas
+| 9
 |  
 | railway-rail
 |  
@@ -18275,14 +18275,14 @@
 |  
 | Railway Platform
 | Railway Platform
+| Geležinkelio platforma
+| 22
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| platforma,geležinkelio platforma
+| 32
 |  
 |  
 |  
@@ -18326,8 +18326,8 @@
 |  
 |  
 | 
-|  
-| 0
+| geležinkelis,gelžkelis
+| 22
 |  
 | railway-rail
 |  
@@ -18371,8 +18371,8 @@
 |  
 |  
 | train station,station
-|  
-| 0
+| stotis,geležinkelio stotis
+| 26
 |  
 | rail
 |  
@@ -18416,8 +18416,8 @@
 |  
 |  
 | 
-|  
-| 0
+| metro
+| 5
 |  
 | railway-subway
 |  
@@ -18461,8 +18461,8 @@
 |  
 |  
 | 
-|  
-| 0
+| įėjimas į metro
+| 15
 |  
 | rail-metro
 |  
@@ -18506,8 +18506,8 @@
 |  
 |  
 | streetcar
-|  
-| 0
+| tramvajus
+| 9
 |  
 | railway-light-rail
 |  
@@ -18551,8 +18551,8 @@
 |  
 |  
 | 
-|  
-| 0
+| ryšys
+| 5
 |  
 | relation
 |  
@@ -18596,8 +18596,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| kelto maršrutas
+| 15
 |  
 | ferry
 |  
@@ -18641,8 +18641,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| parduotuvė
+| 10
 |  
 | shop
 |  
@@ -18686,8 +18686,8 @@
 |  
 |  
 | alcohol,beer,booze,wine
-|  
-| 0
+| alkoholio parduotuvė
+| 20
 |  
 | alcohol-shop
 |  
@@ -18776,8 +18776,8 @@
 |  
 |  
 | 
-|  
-| 0
+| antikvariatas
+| 13
 |  
 | shop
 |  
@@ -18821,8 +18821,8 @@
 |  
 |  
 | 
-|  
-| 0
+| meno galerija,galerija
+| 22
 |  
 | art-gallery
 |  
@@ -18956,8 +18956,8 @@
 |  
 |  
 | 
-|  
-| 0
+| kepykla
+| 7
 |  
 | bakery
 |  
@@ -19046,8 +19046,8 @@
 |  
 |  
 | nail spa,spa,salon,tanning
-|  
-| 0
+| grožio salonas
+| 14
 |  
 | shop
 |  
@@ -19136,8 +19136,8 @@
 |  
 |  
 | 
-|  
-| 0
+| gėrimų parduotuvė
+| 17
 |  
 | shop
 |  
@@ -19181,8 +19181,8 @@
 |  
 |  
 | 
-|  
-| 0
+| dviračių parduotuvė
+| 19
 |  
 | bicycle
 |  
@@ -19271,8 +19271,8 @@
 |  
 |  
 | 
-|  
-| 0
+| knygynas,knygų parduotuvė
+| 25
 |  
 | shop
 |  
@@ -19316,8 +19316,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| butikas
+| 7
 |  
 | shop
 |  
@@ -19361,8 +19361,8 @@
 |  
 |  
 | meat
-|  
-| 0
+| mėsininkas
+| 10
 |  
 | slaughterhouse
 |  
@@ -19451,8 +19451,8 @@
 |  
 |  
 | auto
-|  
-| 0
+| autosalonas
+| 11
 |  
 | car
 |  
@@ -19496,8 +19496,8 @@
 |  
 |  
 | auto
-|  
-| 0
+| automobilių dalys
+| 17
 |  
 | car
 |  
@@ -19586,8 +19586,8 @@
 |  
 |  
 | rug
-|  
-| 0
+| kilimai,kilimų parduotuvė
+| 25
 |  
 | shop
 |  
@@ -19631,8 +19631,8 @@
 |  
 |  
 | 
-|  
-| 0
+| sūrio parduotuvė
+| 16
 |  
 | shop
 |  
@@ -19721,8 +19721,8 @@
 |  
 |  
 | 
-|  
-| 0
+| šokolado parduotuvė
+| 19
 |  
 | shop
 |  
@@ -19766,8 +19766,8 @@
 |  
 |  
 | 
-|  
-| 0
+| drabužių parduotuvė
+| 19
 |  
 | clothing-store
 |  
@@ -21194,18 +21194,18 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
+| Houseware Store
+| Houseware Store
 |  
 | 0
 |  
 |  
 | notTranslated
-| home
+| home,household
 |  
 | 0
 |  
@@ -21214,7 +21214,7 @@
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  
@@ -21296,8 +21296,8 @@
 |  
 |  
 | diamond,gem,ring
-|  
-| 0
+| juvelyras
+| 9
 |  
 | shop
 |  
@@ -21470,14 +21470,14 @@
 |  
 | Leather Store
 | Leather Store
+| Odos dirbinių parduotuvė
+| 24
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| oda,odos dirbiniai,odos dirbinių parduotuvė
+| 43
 |  
 | shop
 |  
@@ -21611,8 +21611,8 @@
 | duplicate
 |  
 | 
-|  
-| 0
+| prekybos centras
+| 16
 |  
 | shop
 |  
@@ -21881,8 +21881,8 @@
 |  
 |  
 | CD,vinyl
-|  
-| 0
+| muzikos prekės,muzikos prekių parduotuvė
+| 40
 |  
 | music
 |  

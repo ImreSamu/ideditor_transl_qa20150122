@@ -110,6 +110,10 @@
 +    changes: "{count} Змін"
    }
    inspector: {
++    check: {
++      yes: "Так"
++      no: "Ні"
++    }
 +    add_fields: "Додадти поле:"
    }
    save: {
@@ -129,6 +133,9 @@
 -      }
 +      bench: {
 +        label: "Лавка"
++      }
++      brand: {
++        label: "Марка"
 +      }
 +      covered: {
 +        label: "Під навісом"
@@ -150,6 +157,34 @@
 +      }
 +      gauge: {
 +        label: "Колія"
++      }
++      gender: {
++        label: "Стать"
++        placeholder: "Невідомо"
++        options: {
++          male: "Чоловіча"
++          female: "Жіноча"
++          unisex: "Унісекс"
++        }
++      }
++      leaf_cycle: {
++        label: "Сезонність"
++        options: {
++          evergreen: "Вічнозелений"
++          deciduous: "Листяний"
++          semi_evergreen: "Напів-вичнозелений"
++          semi_deciduous: "Напів-лістяний"
++          mixed: "Змішаний"
++        }
++      }
++      leaf_type: {
++        label: "Тип лісття"
++        options: {
++          broadleaved: "Широколисті"
++          needleleaved: "Хвоя"
++          mixed: "Змішана"
++          leafless: "Без лисття"
++        }
 +      }
 +      mtb/scale/imba: {
 +        label: "Складність маршруту IMBA"
@@ -218,7 +253,6 @@
 +          very_bad: "Великий кліренс: автомобілі і малі позашляховики"
 +          horrible: "Позашляховики: повноцінні позашляховики"
 +          very_horrible: "Спеціалізовані позашляховики: трактори, мотоусюдиходи, танки, тріалбайкі"
-+          impassible: "Неможливо для будь-якої колісної техніки"
 +        }
 +      }
 +      social_facility_for: {
@@ -723,8 +757,8 @@
 +        terms: "гараж, парковка, стоянка, автомобіль"
 +      }
 +      landuse/military: {
-+        name: "Військова частина"
-+        terms: "полігон, частина, бій, дії, зброя, війська"
++        name: "Військова зона"
++        terms: "віська, територія, полігон, тренування, зброя, небезпека"
 +      }
 +      leisure/common: {
 +        name: "Громада"
@@ -941,6 +975,10 @@
 +      shop/herbalist: {
 +        name: "Ботаник"
 +        terms: "рослини, трави, ботаника"
++      }
++      shop/houseware: {
++        name: "Господарські товари"
++        terms: "господарство, прибирання, побутова, хімія, товар, гігієна"
 +      }
 +      shop/interior_decoration: {
 +        name: "Оформлення інтер’єру"
@@ -1801,21 +1839,23 @@
        }
        landuse/commercial: {
 -        terms: "Commercial,lskjdbq hfqjy"
-+        terms: "Commercial, lskjdbq hfqjy, діловий район"
++        terms: "офис, бізнес, торгівля, ринок, магазин"
        }
        landuse/construction: {
 -        terms: "Construction,elsdybwndj"
 +        terms: "Construction, elsdybwndj, будівництво"
        }
        landuse/farm: {
+-        name: "Ферма"
++        name: "Сільськогосподарські угіддя"
 -        terms: "Farm,athvf"
-+        terms: "Farm, athvf, ферма"
++        terms: "поле, левада, пасовище, врожай"
        }
        landuse/farmland: {
 -        name: "Сільгосп. угіддя"
-+        name: "Поля"
++        name: "Сільськогосподарські угіддя"
 -        terms: "farmland, афкьдфтв, поля, поле, сільськогосподарські угіддя"
-+        terms: "поля, угіддя, сільське, господарство"
++        terms: "поле, левада, пасовище, врожай"
        }
        landuse/farmyard: {
 -        terms: "Farmyard,ldsh athvb"
@@ -1830,8 +1870,10 @@
 +        terms: "Grass, nhfdf, трава"
        }
        landuse/industrial: {
+-        name: "Промзона"
++        name: "Промислова зона"
 -        terms: "Industrial,ghjvpjyf"
-+        terms: "Industrial, ghjvpjyf, промзона"
++        terms: "завод, фабрика, промисловість, виробництво, робоа, підприємство"
        }
        landuse/landfill: {
 -        terms: "Landfill, Pdfkbot, смітник, свалка, мусорка, "
@@ -1851,11 +1893,13 @@
        }
        landuse/residential: {
 -        terms: "Residential,bnkjdf pjyf"
-+        terms: "Residential, bnkjdf pjyf, житлова зона"
++        terms: "житло, помешкання, будинок, маєток, садиба, город"
        }
        landuse/retail: {
+-        name: "Роздрібна торгівля"
++        name: "Торговельний квартал"
 -        terms: "Retail,hjplhsyf njhusdkz"
-+        terms: "Retail, hjplhsyf njhusdkz, роздрібна торгівля"
++        terms: "магазин, супермаркет, центр, торговий, мегастор, розпродаж, знижки"
        }
        landuse/vineyard: {
 -        terms: "Vineyard,dbyjuhflybr"

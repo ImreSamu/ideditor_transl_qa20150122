@@ -132,6 +132,15 @@
 +      delivery: {
 +        label: "Giao hàng"
 +      }
++      gender: {
++        label: "Giới tính"
++        placeholder: "Không rõ"
++        options: {
++          male: "Nam"
++          female: "Nữ"
++          unisex: "Chung"
++        }
++      }
 +      leaf_cycle: {
 +        label: "Thời gian Mọc Lá"
 +        options: {
@@ -193,6 +202,12 @@
 +          yes: "Một chiều"
          }
        }
+       smoothness: {
+         options: {
+-          impassible: "Không thể qua được bằng bánh xe"
++          impassable: "Không thể qua được bằng bánh xe"
+         }
+       }
      }
      presets: {
 -      craft/confectionary: {
@@ -235,19 +250,61 @@
 +        name: "Cửa Hang"
 +        terms: "cửa hang, lối vào hang, cua hang, loi vao hang"
 +      }
-+      shop/household: {
-+        name: "Gia dụng"
-+        terms: "tiệm gia dụng, cửa hàng gia dụng, tiệm bán đồ gia dụng, cửa hàng bán đồ gia dụng, tiệm bán đồ dùng gia đình, cửa hàng bán đồ dùng gia đình, tiem gia dung, cua hang gia dung, tiem ban do gia dung, cua hang ban do gia dung, tiem ban do dung gia dinh, cua hang ban do dung gia dinh"
++      shop/houseware: {
++        name: "Tiệm Gia dụng"
++        terms: "tiệm gia dụng, tiệm đồ gia dụng, tiệm đồ dùng gia đình, cửa hàng gia dụng, cửa hàng đồ gia dụng, tiem gia dung, tiem do gia dung, tiem do dung gia dinh, cua hang gia dung, cua hang do gia dung"
 +      }
+       landuse/commercial: {
+-        name: "Thương mại"
++        name: "Đất Thương mại"
+-        terms: "thương mại, văn phòng, công ty, công ti, buôn bán, thuong mai, van phong, cong ty, cong ti, buon ban"
++        terms: "đất thương mại, khu vực thương mại, vùng thương mại, phố thương mại, văn phòng, công ty, công ti, đất buôn bán, khu vực buôn bán, vùng buôn bán, dat thuong mai, khu vuc thuong mai, vung thuong mai, pho thuong mai, van phong, cong ty, cong ti, dat buon ban, khu vuc buon ban, vung buon ban"
+       }
+       landuse/farm: {
+-        name: "Trang trại"
++        name: "Đất Nông nghiệp"
+-        terms: "trang trại, nông trại, nông nghiệp, đồn điền, điền trang, sơn trang, cánh đồng, trang trai, nong trai, nong nghiep, don dien, dien trang, son trang, canh dong"
++        terms: "đất nông nghiệp, đất trang trại, đất nông trại, đồn điền, điền trang, sơn trang, cánh đồng, dat nong nghiep, dat trang trai, dat nong trai, don dien, dien trang, son trang, canh dong"
+       }
        landuse/farmland: {
 -        name: "Nông nghiệp"
-+        name: "Trại"
++        name: "Đất Nông nghiệp"
 -        terms: "nông nghiệp, đất nông nghiệp, đất canh tác, đất trồng trọt, nong nghiep, dat nong nghiep, dat canh tac, dat trong trot"
-+        terms: "trại,nông nghiệp,trang trại,đồn điền,trai,nong nghiep,trang trại,don dien"
++        terms: "đất nông nghiệp, đất trang trại, đất nông trại, đồn điền, điền trang, sơn trang, cánh đồng, dat nong nghiep, dat trang trai, dat nong trai, don dien, dien trang, son trang, canh dong"
+       }
+       landuse/industrial: {
+-        name: "Công nghiệp"
++        name: "Đất Công nghiệp"
+-        terms: "công nghiệp, nhà máy, xưởng, cong nghiep, nha may, xuong"
++        terms: "đất công nghiệp, khu vực công nghiệp, vùng công nghiệp nhà máy, xưởng, dat cong nghiep, khu vuc cong nghiep, vung cong nghiep, nha may, xuong"
+       }
+       landuse/military: {
+-        name: "Quân đội"
++        name: "Đất Quân đội"
+-        terms: "quân đội, căn cứ quân đội, không quân, căn cứ không quân, hải quân, căn cứ hải quân, quân sự, lính, bộ đội, quan doi, can cu quan doi, khong quan, can cu khong quan, hai quan, can cu hai quan, quan su, linh, bo doi"
++        terms: "đất quân đội, căn cứ quân đội, khu vực quân đội, vùng quân đội, căn cứ không quân, đất không quân, căn cứ hải quân, đất hải quân, đất quân sự, khu vực quân sự, vùng quân sự, lính, bộ đội, dat quan doi, can cu quan doi, khu vuc quan doi, vung quan doi, can cu khong quan, dat khong quan, can cu hai quan, dat hai quan, dat quan su, khu vuc quan su, vung quan su, linh, bo doi"
+       }
+       landuse/residential: {
+-        name: "Dân cư"
++        name: "Đất Dân cư"
+-        terms: "dân cư, nhà ở, dân sinh, hàng xóm, dan cu, nha o, dan sinh, hang xom"
++        terms: "đất dân cư, khu vực dân cư, vùng dân cư, khu vực nhà ở, vùng nhà ở, đất dân sinh, khu vực dân sinh, vùng dân sinh, hàng xóm, dat dan cu, khu vuc dan cu, vung dan cu, khu vuc nha o, vung nha o, dat dan sinh, khu vuc dan sinh, vung dan sinh, hang xom"
+       }
+       landuse/retail: {
+-        name: "Bán lẻ"
++        name: "Khu vực Bán lẻ"
+-        terms: "bán lẻ, buôn bán, tiệm, cửa hàng, ban le, buon ban, tiem, cua hang"
++        terms: "khu vực bán lẻ, vùng bán lẻ, đất bán lẻ, khu vực buôn bán, vùng buôn bán, đất buôn bán, tiệm, cửa hàng, khu vuc ban le, vung ban le, dat ban le, khu vuc buon ban, vung buon ban, dat buon ban, tiem, cua hang"
        }
        leisure/park: {
 -        terms: "công viên, vườn, vườn hoa, vườn cây, bãi cỏ, bãi cỏ xanh, thảm cỏ xanh, vành đai xanh, sân chơi, khu vui chơi, khu vui chơi trẻ em, khu chơi trẻ em, quảng trường, rừng, cong vien, vuon, vuon hoa, vuon cay, bai co, bai co xanh, tham co xanh, vanh dai xanh, san choi, khu vui choi, khu vui choi tre em, khu choi tre em, quang truong, rung"
 +        terms: "công viên, vườn, vườn hoa, vườn cây, bãi cỏ, bãi cỏ xanh, thảm cỏ xanh, vành đai xanh, khu vui chơi, khu vui chơi trẻ em, khu chơi trẻ em, sân chơi, quảng trường, rừng, cong vien, vuon, vuon hoa, vuon cay, bai co, bai co xanh, tham co xanh, vanh dai xanh, khu vui choi, khu vui choi tre em, khu choi tre em, san choi, quang truong, rung"
+       }
+       military/airfield: {
+-        name: "Sân bay"
++        name: "Căn cứ Không quân"
+-        terms: "sân bay, phi trường, trường bay, san bay, phi truong, truong bay"
++        terms: "căn cứ không quân, sân bay, phi trường, trường bay, can cu khong quan, san bay, phi truong, truong bay"
        }
        place/hamlet: {
 -        name: "Xóm"
@@ -258,6 +315,12 @@
        place/isolated_dwelling: {
 -        terms: "chỗ ở hẻo lánh, cho o heo lanh"
 +        terms: "chỗ ở hẻo lánh, xóm, liên gia, cho o heo lanh, xom, lien gia"
+       }
+       railway/platform: {
+-        name: "Nhà ga"
++        name: "Ke ga"
+-        terms: "ke ga"
++        terms: "ke ga, sân ga, san ga"
        }
      }
    }

@@ -10,15 +10,44 @@
 -      wood: {
 -        label: "Vrsta"
 -      }
+       smoothness: {
+         options: {
+-          impassible: "Neprehodno - za nobeno vozilo s kolesi"
+         }
+       }
      }
      presets: {
 -      craft/confectionary: {
 -        name: "Slaščičarstvo"
 -        terms: "slaščice,bonboni,slaščičarna"
 -      }
+-      landuse/commercial: {
+-        name: "Poslovna cona"
+-        terms: "trgovina,trgovstvo"
+-      }
+-      landuse/farm: {
+-        name: "Kmetijsko zemljišče"
+-        terms: "njiva,njive,polje,polja"
+-      }
 -      landuse/farmland: {
 -        name: "Obdelovalna zemlja"
 -        terms: "poljedeljstvo,paša"
+-      }
+-      landuse/industrial: {
+-        name: "Industrijska cona"
+-        terms: "industrijsko-poslovna cona"
+-      }
+-      landuse/military: {
+-        name: "Vojaško območje"
+-        terms: "vojašnice,poligoni"
+-      }
+-      landuse/residential: {
+-        name: "Stanovanjska cona"
+-        terms: "poseljeno območje,pozidano območje"
+-      }
+-      landuse/retail: {
+-        name: "Trgovine"
+-        terms: "trgovina,trg"
 -      }
      }
    }

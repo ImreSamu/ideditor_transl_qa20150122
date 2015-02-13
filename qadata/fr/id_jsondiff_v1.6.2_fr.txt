@@ -105,6 +105,10 @@
 +    changes: "{count} changements"
    }
    inspector: {
++    check: {
++      yes: "Oui"
++      no: "Non"
++    }
 +    add_fields: "Ajouter champ:"
    }
    save: {
@@ -125,8 +129,39 @@
 +      bench: {
 +        label: "Banc"
 +      }
++      brand: {
++        label: "Marque"
++      }
 +      delivery: {
 +        label: "Livraison"
++      }
++      gender: {
++        label: "Genre"
++        placeholder: "Inconnu"
++        options: {
++          male: "Homme"
++          female: "Femme"
++          unisex: "Unisexe"
++        }
++      }
++      leaf_cycle: {
++        label: "Phénologie des feuilles"
++        options: {
++          evergreen: "Sempervirent"
++          deciduous: "Caduc"
++          semi_evergreen: "Semi-Sempervirent"
++          semi_deciduous: "Semi-Caduc"
++          mixed: "Mélangé"
++        }
++      }
++      leaf_type: {
++        label: "Type de feuille"
++        options: {
++          broadleaved: "Feuillus"
++          needleleaved: "Arbres à aiguilles"
++          mixed: "Mélangé"
++          leafless: "Sans feuilles"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        label: "Outil de réparation de chaînes de vélo"
@@ -156,6 +191,18 @@
 +          only: "À emporter seulement"
 +        }
 +      }
+       internet_access: {
+         options: {
+-          terminal: "Ordinateur"
++          terminal: "Terminal"
+         }
+       }
+       smoothness: {
+         options: {
+-          impassible: "Impossible / Pas de véhicule avec des roues"
++          impassable: "Infranchissable / Pas de véhicules à roues"
+         }
+       }
      }
      presets: {
 -      craft/confectionary: {
@@ -206,6 +253,10 @@
 +        name: "Sous-station"
 +        terms: "Sous-station électrique"
 +      }
++      shop/houseware: {
++        name: "Magasin d’articles ménagers"
++        terms: "Vente d'articles de cuisine"
++      }
 +      traffic_calming/bump: {
 +        name: "Ralentisseur"
 +        terms: "ralentisseur, casse-vitesse"
@@ -222,19 +273,61 @@
 +        name: "Passage pour piétons surélévé"
 +        terms: "Passage piéton surélevé, Ralentisseur de type trapézoïdal"
 +      }
+       historic/memorial: {
+-        terms: "Mémorial"
++        terms: "Mémorial, Monument aux morts, statue, buste, stèle, plaque"
+       }
+       historic/monument: {
+-        name: "Monument"
++        name: "Monument commémoratif"
+-        terms: "Monument"
++        terms: "Grand mémorial"
+       }
+       landuse/commercial: {
+-        name: "Commerciale"
++        name: "Zone Commerciale"
+-        terms: "Commercial"
++        terms: "Commerces"
+       }
        landuse/farm: {
+-        name: "Cultures"
++        name: "Zone agricole"
 -        terms: "Ferme"
-+        terms: "Terres cultivées, champs cultivés"
++        terms: "Terre agricole : cultures et élevage"
        }
        landuse/farmland: {
 -        name: "Terre agricole"
-+        name: "Cultures"
++        name: "Zone agricole"
 -        terms: "Terre agricole, Cultures"
-+        terms: "Terres cultivées, champs cultivés"
++        terms: "Terre agricole : cultures et élevage"
        }
        landuse/farmyard: {
 -        terms: "Cour de ferme"
 +        terms: "Cour de ferme, ensemble des bâtiments d'une ferme"
+       }
+       landuse/industrial: {
+-        name: "Industrielle"
++        name: "Zone Industrielle"
+-        terms: "Industriel"
++        terms: "Usines"
+       }
+       landuse/military: {
+-        name: "Militaire"
++        name: "Zone Militaire"
+-        terms: "Militaire"
++        terms: "Zone Militaire"
+       }
+       landuse/residential: {
+-        name: "Résidentielle"
++        name: "Zone Résidentielle"
+-        terms: "Résidentiel"
++        terms: "Zone d’habitation"
+       }
+       landuse/retail: {
+-        name: "Commerce"
++        name: "Zone de vente au détail"
+-        terms: "Vente"
++        terms: "Zone de magasins"
        }
      }
    }

@@ -135,8 +135,39 @@
 +      bench: {
 +        label: "Bänk"
 +      }
++      brand: {
++        label: "Varumärke"
++      }
 +      delivery: {
 +        label: "Hemleverans"
++      }
++      gender: {
++        label: "Kön"
++        placeholder: "Okänt"
++        options: {
++          male: "Man"
++          female: "Kvinna"
++          unisex: "Unisex"
++        }
++      }
++      leaf_cycle: {
++        label: "Lövcykel"
++        options: {
++          evergreen: "Vintergröna"
++          deciduous: "Lövfällande"
++          semi_evergreen: "Delvist vintergröna"
++          semi_deciduous: "Delvist lövfällande"
++          mixed: "Mixat"
++        }
++      }
++      leaf_type: {
++        label: "Lövtyp"
++        options: {
++          broadleaved: "Löv"
++          needleleaved: "Barr"
++          mixed: "Blandat"
++          leafless: "Utan löv"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        label: "Kedjebrytare"
@@ -166,6 +197,12 @@
 +          only: "Enbart hämtmat"
 +        }
 +      }
+       smoothness: {
+         options: {
+-          impassible: "Ogenomträngliga / Ej hjulbaserade fordon"
++          impassable: "Oframkomligt / Inga hjulfordon"
+         }
+       }
      }
      presets: {
 -      craft/confectionary: {
@@ -216,6 +253,10 @@
 +        name: "Fördelningsstation"
 +        terms: "Transformator, elomvandling, elskåp, fördelningsstation, stadsnätstation, elfördelning"
 +      }
++      shop/houseware: {
++        name: "Husgeråd"
++        terms: "husgeråd, köksredskap, bestick, porslin, prydnadsföremål"
++      }
 +      traffic_calming/bump: {
 +        name: "Fartbula (kort gupp)"
 +        terms: "Fartbula, bula, fartgupp, farthinder, gupp, vägbula, bump"
@@ -232,11 +273,39 @@
 +        name: "Platågupp"
 +        terms: "Platågupp, gupp, farthinder, fartgupp"
 +      }
-       landuse/farmland: {
+       landuse/commercial: {
+-        name: "Kommersiell"
++        name: "Kommersiell område"
+-        terms: "Kommersiell, kommersiellt, affärsområde, handelsområde, shoppingområde"
++        terms: "Kommersiell, kommersiellt, affärsområde, handelsområde, shoppingområde, handel, butiksområde"
+       }
+       landuse/farm: {
 -        name: "Åker"
 +        name: "Gård"
 -        terms: "Åker, åkerjord, åkerfält, fält, gärde, teg, åkerlapp, inäga, odling, odlingsfält, lantbruk"
-+        terms: "gård, jordbruk, lantgård, farm, bondgård, lantbruk, lantegendom, gårdsplan"
++        terms: "Bondgård, gård, jordbruk, lantbruk, lantegendom, lantgård"
+       }
+       landuse/farmland: {
+-        name: "Åker"
++        name: "Åkermark"
+-        terms: "Åker, åkerjord, åkerfält, fält, gärde, teg, åkerlapp, inäga, odling, odlingsfält, lantbruk"
++        terms: "Åker, åkerjord, åkerfält, fält, gärde, teg, åkerlapp, inäga, odling, odlingsfält, lantbruk, åkermark"
+       }
+       landuse/industrial: {
+-        name: "Industriell"
++        name: "Industriområde"
+-        terms: "Industriell, industriområde, fabriksområde, fabrik"
++        terms: "Industriområde, fabriksområde, fabriksdistrikt, industricentrum"
+       }
+       landuse/military: {
+-        name: "Militärt"
++        name: "Militärt område"
+-        terms: "Militärt, militärt område, regemente, övningsområde, försvar, krigsmakt"
++        terms: "Militärt område, militärt övningsområde, regemente, försvar, krigsmakt"
+       }
+       landuse/residential: {
+-        terms: "Bostadsområde, villaområde, lägenhetsområde, getto, miljonområde, förort"
++        terms: "Bostadsområde, villaområde, lägenhetsområde, getto, miljonområde, förort, "
        }
      }
    }

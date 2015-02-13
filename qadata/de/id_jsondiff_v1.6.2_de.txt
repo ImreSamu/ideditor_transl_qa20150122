@@ -105,6 +105,10 @@
 +    changes: "{count} Änderungen"
    }
    inspector: {
++    check: {
++      yes: "Ja"
++      no: "Nein"
++    }
 +    add_fields: "Feld hinzufügen:"
    }
    help: {
@@ -122,8 +126,39 @@
 +      bench: {
 +        label: "Sitzbank"
 +      }
++      brand: {
++        label: "Marke"
++      }
 +      delivery: {
 +        label: "Zustellung"
++      }
++      gender: {
++        label: "Geschlecht"
++        placeholder: "Unbekannt"
++        options: {
++          male: "Männlich"
++          female: "Weiblich"
++          unisex: "Geschlechtsneutral"
++        }
++      }
++      leaf_cycle: {
++        label: "Blätterzyklus"
++        options: {
++          evergreen: "Immergrün"
++          deciduous: "Sommergrün"
++          semi_evergreen: "Halbimmergrün"
++          semi_deciduous: "Halbimmergrün"
++          mixed: "Gemischt"
++        }
++      }
++      leaf_type: {
++        label: "Blatttyp"
++        options: {
++          broadleaved: "Breitblättrig"
++          needleleaved: "Nadelblätter"
++          mixed: "Gemischt"
++          leafless: "Blattlos"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        label: "Kettennietdrücker"
@@ -162,6 +197,12 @@
        mtb/scale: {
 -        label: "Mountain Bike Schwierigkeit"
 +        label: "MTB Schwierigkeitsgrad"
+       }
+       smoothness: {
+         options: {
+-          impassible: "Unpassierbar / keine Reifen-Fahrzeuge"
++          impassable: "Unpassierbar / Keine Fahrzeuge mit Rädern"
+         }
        }
        toilets/disposal: {
          options: {
@@ -211,6 +252,10 @@
 +        name: "Höhleneingang"
 +        terms: "Höhleneingang, Höhlenzugang"
 +      }
++      shop/houseware: {
++        name: "Haushaltswarengeschäft"
++        terms: "Haushaltswarengeschäft, Haushaltswarenladen"
++      }
        amenity/bbq: {
 -        name: "Grillgerät"
 +        name: "Grillrestaurant"
@@ -233,11 +278,43 @@
 -        name: "Schneiderei"
 +        name: "Damenschneiderei"
        }
+       landuse/commercial: {
+-        terms: "Gewerbezone,Gewerbegebiet,gewerblich genutzte Gebäude,Business Park,Büros"
++        terms: "Gewerbegebiet, Gewerbefläche"
+       }
+       landuse/farm: {
+-        name: " Landwirtschaftliche Fläche"
++        name: "Ackerland"
+-        terms: "Acker, Feld, Plantage, Tierhaltung"
++        terms: "Ackerland, Landwirtschaftsflächen, Ackerboden"
+       }
        landuse/farmland: {
 -        name: "Acker"
-+        name: "Bauernhof"
++        name: "Ackerland"
 -        terms: "Acker, Ackerboden, Ackerland, landwirtschaftliche Fläche"
-+        terms: "Bauernhof, Bauernhaus, Farm"
++        terms: "Ackerland, Landwirtschaftsflächen, Ackerboden"
+       }
+       landuse/industrial: {
+-        name: "Industrie"
++        name: "Industriegebiet"
+-        terms: "Industriegebiet, Gewerbegebiet"
++        terms: "Industriegebiet, Industriegelände, Industriegegend"
+       }
+       landuse/military: {
+-        name: "Militär"
++        name: "Militärgelände"
+-        terms: "Militär, Armee, Landesverteidigung"
++        terms: "Militärgelände, Militärgebiet"
+       }
+       landuse/residential: {
+-        terms: "Wohngebiet"
++        terms: "Wohngebiet, Wohnanlage, Wohngegend, Wohnregion"
+       }
+       landuse/retail: {
+-        name: "Geschäfte"
++        name: "Fachmarktzentrum"
+-        terms: "Geschäfte,Einzelhandel,Einzelhandelsgeschäfte,Einkaufszentrum,Einkaufszone"
++        terms: "Fachmarktzentrum, Einkaufszentrum"
        }
        office/educational_institution: {
 -        name: "Schulamt"

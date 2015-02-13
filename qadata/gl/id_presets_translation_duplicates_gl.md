@@ -3,7 +3,7 @@
 |Banco|Bank|amenity/bank| |bank|amenity=bank| | | | |area| |point| | |
 |Banco|Bench|amenity/bench| | |amenity=bench| | | | | |line|point|vertex| |
 |Cemiterio|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|Cemiterio|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Cemiterio|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |Cidade|Town|place/town| |town|place=town| | | | |area| |point| | |
 |Cidade|City|place/city| |city|place=city| | | | |area| |point| | |
 |Cuneta|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |

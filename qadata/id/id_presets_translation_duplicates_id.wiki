@@ -171,7 +171,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -251,8 +251,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | Kuburan
@@ -299,7 +299,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-

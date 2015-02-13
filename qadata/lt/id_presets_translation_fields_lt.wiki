@@ -423,7 +423,7 @@
 | 1
 | text
 | Brand
-|  
+| Markė
 |  
 |  
 | brand
@@ -1008,7 +1008,7 @@
 | 1
 | check
 | Emergency
-|  
+| Avarinis
 |  
 |  
 | emergency
@@ -1317,6 +1317,21 @@
 |  
 |  
 |  
+| last
+|-
+| gender
+| 1
+| radio
+| Gender
+| Lytis
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Nežinoma
 | last
 |-
 | generator/method
@@ -1638,13 +1653,13 @@
 | 1
 | combo
 | Leaf Cycle
-|  
+| Lapų ciklas
 |  
 |  
 | leaf_cycle
 | evergreen
 | Evergreen
-| 
+| Amžinai žaliuojantis
 |  
 |  
 | last
@@ -1659,7 +1674,7 @@
 |  
 | deciduous
 | Deciduous
-| 
+| Nukrintantis
 |  
 |  
 | last
@@ -1674,7 +1689,7 @@
 |  
 | semi_evergreen
 | Semi-Evergreen
-| 
+| Pusiau-amžinai žaliuojantis
 |  
 |  
 | last
@@ -1689,7 +1704,7 @@
 |  
 | semi_deciduous
 | Semi-Deciduous
-| 
+| Pusiau-nukrentantis
 |  
 |  
 | last
@@ -1704,7 +1719,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Mišrus
 |  
 |  
 | last
@@ -1713,13 +1728,13 @@
 | 1
 | combo
 | Leaf Type
-|  
+| Lapų tipas
 |  
 |  
 | leaf_type
 | broadleaved
 | Broadleaved
-| 
+| Plačialapiai
 |  
 |  
 | last
@@ -1734,7 +1749,7 @@
 |  
 | needleleaved
 | Needleleaved
-| 
+| Spygliuočiai
 |  
 |  
 | last
@@ -1749,7 +1764,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Mišrūs
 |  
 |  
 | last
@@ -1764,7 +1779,7 @@
 |  
 | leafless
 | Leafless
-| 
+| Belapiai
 |  
 |  
 | last
@@ -1983,7 +1998,7 @@
 | 1
 | combo
 | IMBA Trail Difficulty
-|  
+| IMBA maršruto sudėtingumas
 |  
 |  
 | mtb:scale:imba
@@ -2058,7 +2073,7 @@
 | 1
 | combo
 | Mountain Biking Uphill Difficulty
-|  
+| Kalnų dviračių sudėtingumas
 |  
 |  
 | mtb:scale:uphill
@@ -2347,9 +2362,9 @@
 |  
 |  
 |  
-| underground
+| sheds
 | Underground
-| 
+| Pašiūrės
 |  
 |  
 | last
@@ -2439,9 +2454,9 @@
 | piste:difficulty
 | novice
 | Novice (instructional)
-| 
+| Naujokams (instrukcijos)
 | Easy, Intermediate, Advanced...
-|  
+| Lengvas, vidutinis, sudėtingas...
 | last
 |-
 | piste/difficulty
@@ -2454,7 +2469,7 @@
 |  
 | easy
 | Easy (green circle)
-| 
+| Lengvas (žalias žiedas)
 |  
 |  
 | last
@@ -2469,7 +2484,7 @@
 |  
 | intermediate
 | Intermediate (blue square)
-| 
+| Vidutinis (mėlynas kvadratas)
 |  
 |  
 | last
@@ -2484,7 +2499,7 @@
 |  
 | advanced
 | Advanced (black diamond)
-| 
+| Sudėtingas (juodas deimantas)
 |  
 |  
 | last
@@ -2499,7 +2514,7 @@
 |  
 | expert
 | Expert (double black diamond)
-| 
+| Eksperto (dvigubas juodas deimantas)
 |  
 |  
 | last
@@ -2512,9 +2527,9 @@
 |  
 |  
 |  
-| freeride
+| extreme
 | Freeride (off-piste)
-| 
+| Ekstremalus (būtina kopimo įranga)
 |  
 |  
 | last
@@ -2557,9 +2572,9 @@
 |  
 |  
 |  
-| mogul
+| skating
 | Mogul
-| 
+| Čiuožimas
 |  
 |  
 | last
@@ -3003,7 +3018,7 @@
 | 1
 | check
 | Air Pump
-|  
+| Oro pompa
 |  
 |  
 | service:bicycle:pump
@@ -3172,9 +3187,9 @@
 |  
 |  
 | smoothness
-| impassible
+| excellent
 | Thin Rollers: rollerblade, skateboard
-| Nepravažiuojama / jokiam ratuotam transportui
+| 
 | Thin Rollers, Wheels, Off-Road...
 |  
 | last
@@ -3277,8 +3292,8 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
+| impassable
+| Impassable / No wheeled vehicle
 | 
 |  
 |  
@@ -3288,7 +3303,7 @@
 | 1
 | radio
 | People served
-|  
+| Aptarnaujama žmonių
 |  
 |  
 | social_facility:for
@@ -3296,7 +3311,7 @@
 |  
 |  
 | Homeless, Disabled, Child, etc
-|  
+| Benamiai, neįgalūs, vaikai ir pan.
 | last
 |-
 | source
@@ -3408,7 +3423,7 @@
 | 1
 | check
 | Supervised
-|  
+| Prižiūrimas
 |  
 |  
 | supervised
@@ -3438,7 +3453,7 @@
 | 1
 | check
 | Tactile Paving
-|  
+| Apčiuopiama danga
 |  
 |  
 | tactile_paving
@@ -3596,7 +3611,7 @@
 | Solid: paved or heavily compacted hardcore surface
 | 
 | Solid, Mostly Solid, Soft...
-|  
+| Tvirtas, daugiausia tvirtas, minkštas...
 | last
 |-
 | tracktype
@@ -3669,7 +3684,7 @@
 | trail_visibility
 | excellent
 | Excellent: unambiguous path or markers everywhere
-| 
+| Puiku: nedviprasmiškas kelias arba žymės visur
 | Excellent, Good, Bad...
 | Puikus, Geras, Prastas...
 | last
@@ -3684,7 +3699,7 @@
 |  
 | good
 | Good: markers visible, sometimes require searching
-| 
+| Gerai: žymės matomos, kartais reikia paieškoti
 |  
 |  
 | last
@@ -3699,7 +3714,7 @@
 |  
 | intermediate
 | Intermediate: few markers, path mostly visible
-| 
+| Vidutiniškai: šiek tiek žymų, kelias daugiausia matomas
 |  
 |  
 | last
@@ -3714,7 +3729,7 @@
 |  
 | bad
 | Bad: no markers, path sometimes invisible/pathless
-| 
+| Blogai: nėra žymų, kelio kartais nėra ar jis nesimato
 |  
 |  
 | last
@@ -3729,7 +3744,7 @@
 |  
 | horrible
 | Horrible: often pathless, some orientation skills required
-| 
+| Tragiškai: dažnų atkarpų nėra, reikia orientavimosi sugebėjimų
 |  
 |  
 | last
@@ -3744,7 +3759,7 @@
 |  
 | no
 | No: pathless, excellent orientation skills required
-| 
+| Nėra: nėra kelio, reikia puikių orientavimosi sugebėjimų
 |  
 |  
 | last

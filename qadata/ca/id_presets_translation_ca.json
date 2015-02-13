@@ -517,6 +517,7 @@
       "description__transl": "Eliminar permanentment l'objecte",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "No es pot eliminar aquesta característica ja que no s'ha baixat completament.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Eliminar"
     },
@@ -1625,6 +1626,30 @@
         "label__transl": "Ample",
         "type": "combo"
       },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "options": {
+          "female__en": "Female",
+          "male__en": "Male",
+          "unisex__en": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
+      },
       "generator/method": {
         "key": "generator:method",
         "label": "Method",
@@ -2540,8 +2565,7 @@
           "good__transl": "Rodes primes: bicicleta de competició",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
           "horrible__transl": "Tot terreny : vehicle utilitari pesant tot terreny",
-          "impassible__en": "Impassible / No wheeled vehicle",
-          "impassible__transl": "Intransitable / Cap vehicle amb rodes",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "intermediate__transl": "Rodes: bicicleta urbana, cadira de rodes, patinet",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
@@ -2558,7 +2582,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -20927,7 +20951,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -24422,7 +24447,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24438,7 +24462,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24458,8 +24481,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24494,20 +24515,17 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "Zona comercial",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
         "tags": {
           "landuse": "commercial"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "Comercial,Botiga"
+        "terms__en": ""
       },
       "landuse/construction": {
         "fields": [
@@ -24515,7 +24533,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24538,44 +24555,38 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Granja",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "searchable": false,
         "tags": {
           "landuse": "farm"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "Granja"
+        "terms__en": ""
       },
       "landuse/farmland": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Granja",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland"
+        "terms__en": ""
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24596,7 +24607,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24628,7 +24638,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24644,20 +24653,17 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Zona industrial",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "Indústria, Industrial,Fàbrica"
+        "terms__en": ""
       },
       "landuse/landfill": {
         "geometry": [
@@ -24676,7 +24682,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24694,9 +24699,8 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "Zona militar",
+        "name": "Military Area",
+        "name__en": "Military Area",
         "tags": {
           "landuse": "military"
         },
@@ -24709,7 +24713,6 @@
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24726,7 +24729,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24742,39 +24744,32 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "Zona residencial",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
         "tags": {
           "landuse": "residential"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "Residencial,Cases"
+        "terms__en": ""
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "Comerç minorista",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
         "tags": {
           "landuse": "retail"
         },
-        "terms__en": "",
-        "terms__transl": "Venda al detall,Botiga,Minoristes"
+        "terms__en": ""
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -35349,7 +35344,7 @@
         ],
         "terms__en": "stereo,video"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -35361,16 +35356,16 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
-        "name__transl": "Botiga de la llar",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household"
       },
       "shop/interior_decoration": {
         "fields": [

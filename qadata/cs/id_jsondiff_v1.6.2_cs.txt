@@ -212,6 +212,15 @@
 +      fuel/octane_98: {
 +        label: "Benzín s okt. číslem 98"
 +      }
++      gender: {
++        label: "Pohlaví"
++        placeholder: "Neznámé"
++        options: {
++          male: "Muži"
++          female: "Ženy"
++          unisex: "Muži i ženy"
++        }
++      }
 +      hoops: {
 +        label: "Počet košů"
 +        placeholder: "1, 2, 4..."
@@ -346,7 +355,7 @@
 +          very_bad: "Vysoký podvozek: lehká terénní auta"
 +          horrible: "Terénní kola: off-road auta"
 +          very_horrible: "Speciální terénní kola: traktory, čtyřkolky, tanky, MTB"
-+          impassible: "Nesjízdné pro žádná vozidla s koly"
++          impassable: "Neprůjezdné žádným vozidlem"
 +        }
 +      }
 +      sport_ice: {
@@ -706,7 +715,7 @@
 +        terms: "kostel,kaple,kaplička,hřbitov,krchov,krematorium"
 +      }
 +      landuse/garages: {
-+        name: "Garáže"
++        name: "Plocha garáží"
 +        terms: "garáže,garáž,parkování,parkoviště"
 +      }
 +      landuse/landfill: {
@@ -873,9 +882,9 @@
 +        name: "Bylinkářství"
 +        terms: "bylinkář,bylinkářka,bylinář,bylinářka,bylinkářství,bylinářství,kořenář,kořenářka,kořenářství,herbalista,bylinky,byliny,bylinka,bylina"
 +      }
-+      shop/household: {
++      shop/houseware: {
 +        name: "Domácí potřeby"
-+        terms: "domácí potřeby,potřeby pro domácnost,domácnost,kuchyňské potřeby"
++        terms: "domácí potřeby,kuchyňské potřeby,potřeby pro domácnost,nádobí"
 +      }
 +      shop/interior_decoration: {
 +        name: "Obchod s bytovými doplňky"
@@ -1038,6 +1047,10 @@
 -        name: "Bezdomovecký úkryt"
 +        name: "Noclehárna pro bezdomovce"
        }
+       barrier/ditch: {
+-        name: "Příkop"
++        name: "Příkop jako překážka"
+       }
        barrier/entrance: {
 -        name: "Vchod"
 +        name: "Vchod/východ"
@@ -1063,6 +1076,8 @@
        }
        building/church: {
 +        terms: "kostel,chrám,bazilika,rotunda,megakostel"
+-        name: "Kostel"
++        name: "Budova kostela"
        }
        building/construction: {
 +        terms: "stavba,výstavba,konstrukce"
@@ -1071,6 +1086,8 @@
        }
        building/garages: {
 +        terms: "garáž,garáže,parkování,kryté parkování"
+-        name: "Garáže"
++        name: "Budova garáží"
        }
        building/hospital: {
 +        terms: "nemocnice,klinika,špitál,středisko,hospic,LDN,sanatorium,nemocniční,lazaret,ambulance,poliklinika,pohotovost"
@@ -1125,18 +1142,56 @@
 -        name: "Dálnice / Sjezd"
 +        name: "Dálniční křižovatka/sjezd"
        }
+       landuse/commercial: {
+-        name: "Podniky, kanceláře"
++        name: "Oblast kanceláří, podniků"
+-        terms: "obchodní,komerční"
++        terms: "kancelář,kancelářský,kancelářská,podnikový,podnik,komerční"
+       }
        landuse/farm: {
 -        name: "Zemědělská půda"
 +        name: "Zemědělská půda (zastaralý tag)"
+-        terms: "pole,farma,dobytek,zahrady,pěstitelská plocha"
++        terms: "(zastaralý tag pro zemědělskou půdu)"
+       }
+       landuse/forest: {
+-        name: "Les"
++        name: "Hospodářský les"
+       }
+       landuse/industrial: {
+-        name: "Průmysl"
++        name: "Průmyslová oblast"
+-        terms: "průmyslové,výroba,industriální"
++        terms: "průmysl,průmyslová,průmyslové,průmyslový,industriální,továrna,továrny,fabrika,fabriky"
+       }
+       landuse/residential: {
+-        terms: "obytné,domy"
++        terms: "obytná oblast,rezidenční oblast,byty,domy,bydlení,obytné,sídelní"
+       }
+       landuse/retail: {
+-        name: "Obchody"
++        name: "Nákupní zóna"
+-        terms: "obchod,maloobchodní"
++        terms: "nákupní,obchod,maloobchodní,nákup"
        }
        leisure/sports_center: {
 +        terms: "sportovní centrum,sportovní areál,sportoviště,posilovna"
 -        name: "Sportovní Centrum / Posilovna"
 +        name: "Sportovní centrum / Posilovna"
        }
+       natural/wood: {
+-        name: "Les"
++        name: "Prales"
+-        terms: "prales,přírodní les"
++        terms: "prales,přírodní les,neudržovaný les,nehospodářský les"
+       }
        railway/station: {
 -        name: "Nádraží"
 +        name: "Železniční stanice"
+       }
+       waterway/ditch: {
+-        name: "Příkop"
++        name: "Příkop / strouha"
        }
      }
    }

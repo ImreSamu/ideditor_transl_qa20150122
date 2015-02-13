@@ -2,10 +2,13 @@
   "area_fill": {
     "full": {
       "description__en": "Full Fill",
-      "tooltip__en": "Areas are drawn fully filled."
+      "description__transl": "Tamamen Doldur",
+      "tooltip__en": "Areas are drawn fully filled.",
+      "tooltip__transl": "Alanlar tamamen doldurulmuş olarak çizildi."
     },
     "partial": {
       "description__en": "Partial Fill",
+      "description__transl": "Kısmen Doldur",
       "tooltip__en": "Areas are drawn with fill only around their inner edges. (Recommended for beginner mappers)"
     },
     "wireframe": {
@@ -74,19 +77,25 @@
   "feature": {
     "boundaries": {
       "description__en": "Boundaries",
+      "description__transl": "Sınırlar",
       "tooltip__en": "Administrative Boundaries"
     },
     "buildings": {
       "description__en": "Buildings",
-      "tooltip__en": "Buildings, Shelters, Garages, etc."
+      "description__transl": "Binalar",
+      "tooltip__en": "Buildings, Shelters, Garages, etc.",
+      "tooltip__transl": "Binalar, Barınaklar, Garajlar, vb."
     },
     "landuse": {
       "description__en": "Landuse Features",
-      "tooltip__en": "Forests, Farmland, Parks, Residential, Commercial, etc."
+      "description__transl": "Arazi Özellikleri",
+      "tooltip__en": "Forests, Farmland, Parks, Residential, Commercial, etc.",
+      "tooltip__transl": "Ormanlar, Tarım arazisi, Parklar, Yerleşim, Ticari, vb."
     },
     "major_roads": {
       "description__en": "Major Roads",
-      "tooltip__en": "Highways, Streets, etc."
+      "tooltip__en": "Highways, Streets, etc.",
+      "tooltip__transl": "Karayolu, Sokak, vb."
     },
     "minor_roads": {
       "description__en": "Minor Roads",
@@ -94,7 +103,8 @@
     },
     "others": {
       "description__en": "Others",
-      "tooltip__en": "Everything Else"
+      "tooltip__en": "Everything Else",
+      "tooltip__transl": "Geriye Kalanlar"
     },
     "past_future": {
       "description__en": "Past/Future",
@@ -106,19 +116,24 @@
     },
     "points": {
       "description__en": "Points",
+      "description__transl": "Noktalar",
       "tooltip__en": "Points of Interest"
     },
     "power": {
       "description__en": "Power Features",
-      "tooltip__en": "Power Lines, Power Plants, Substations, etc."
+      "tooltip__en": "Power Lines, Power Plants, Substations, etc.",
+      "tooltip__transl": "Enerji Nakil Hatları, Enerji Santralleri, Trafolar, vb."
     },
     "rail": {
       "description__en": "Rail Features",
-      "tooltip__en": "Railways"
+      "description__transl": "Demiryolu Özellikleri",
+      "tooltip__en": "Railways",
+      "tooltip__transl": "Demiryolları"
     },
     "water": {
       "description__en": "Water Features",
-      "tooltip__en": "Rivers, Lakes, Ponds, Basins, etc."
+      "tooltip__en": "Rivers, Lakes, Ponds, Basins, etc.",
+      "tooltip__transl": "Nehirler, Göller, Havuzlar, Havzalar, vb."
     }
   },
   "feature_info": {
@@ -228,6 +243,7 @@
       "describe__en": "**Add a name, and close the feature editor**",
       "describe__transl": "**Bir ad ekleyerek editörü kapatınız**",
       "place__en": "Draw the area by placing more nodes. Finish the area by clicking on the starting node. **Draw an area for the playground.**",
+      "place__transl": "Alanı daha fazla nokta ekleyerek çiziniz. Başladığınız noktaya tıklayarak alan çizimini bitiriniz. **Test alanı için bir alan çiziniz.**",
       "search__en": "**Search for '{name}'.**",
       "search__transl": "**'{name}' ara.**",
       "title__en": "Areas",
@@ -307,16 +323,23 @@
   "logout__transl": "Çıkış",
   "map_data": {
     "autohidden__en": "These features have been automatically hidden because too many would be shown on the screen.  You can zoom in to edit them.",
+    "autohidden__transl": "Bu özellikler ekranda çok sayıda gösterilebileceği için otomatik olarak gizlendi. Düzenlemek için zum yapabilirsiniz.",
     "data_layers__en": "Data Layers",
+    "data_layers__transl": "Veri Katmanları",
     "description__en": "Map Data",
+    "description__transl": "Harita Verisi",
     "fill_area__en": "Fill Areas",
+    "fill_area__transl": "Alanları Doldur",
     "map_features__en": "Map Features",
-    "title__en": "Map Data"
+    "map_features__transl": "Harita Özellikleri",
+    "title__en": "Map Data",
+    "title__transl": "Harita Verisi"
   },
   "mapillary": {
     "title__en": "Photo Overlay (Mapillary)",
     "tooltip__en": "Street-level photos from Mapillary",
-    "view_on_mapillary__en": "View this image on Mapillary"
+    "view_on_mapillary__en": "View this image on Mapillary",
+    "view_on_mapillary__transl": "Bu resmi Mapillary'de görüntüle"
   },
   "modes": {
     "add_area": {
@@ -458,6 +481,7 @@
       "description__transl": "Nesneyi kalıcı olarak sil. ",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "Bu özellik silinemez çünkü henüz bütünüyle indirilmedi. ",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Sil"
     },
@@ -1511,6 +1535,30 @@
         "label__en": "Gauge",
         "type": "combo"
       },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "options": {
+          "female__en": "Female",
+          "male__en": "Male",
+          "unisex__en": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
+      },
       "generator/method": {
         "key": "generator:method",
         "label": "Method",
@@ -2304,7 +2352,7 @@
           "excellent__en": "Thin Rollers: rollerblade, skateboard",
           "good__en": "Thin Wheels: racing bike",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
-          "impassible__en": "Impassible / No wheeled vehicle",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
           "very_horrible__en": "Specialized off-road: tractor, ATV"
@@ -2317,7 +2365,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -20561,7 +20609,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -23898,7 +23947,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -23913,7 +23961,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -23932,8 +23979,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -23966,13 +24011,11 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "Ticari",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
         "tags": {
           "landuse": "commercial"
         },
@@ -23986,7 +24029,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24008,9 +24050,8 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Tarla",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "searchable": false,
         "tags": {
           "landuse": "farm"
@@ -24024,26 +24065,23 @@
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland"
+        "terms__en": ""
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24063,7 +24101,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24093,7 +24130,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24108,13 +24144,11 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Endüstri",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
         "tags": {
           "landuse": "industrial"
         },
@@ -24139,7 +24173,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24156,9 +24189,8 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "Çeril",
+        "name": "Military Area",
+        "name__en": "Military Area",
         "tags": {
           "landuse": "military"
         },
@@ -24171,7 +24203,6 @@
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24187,7 +24218,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24202,13 +24232,11 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "Yerleşim",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
         "tags": {
           "landuse": "residential"
         },
@@ -24218,12 +24246,11 @@
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
         "tags": {
           "landuse": "retail"
         },
@@ -24231,7 +24258,6 @@
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -34637,7 +34663,7 @@
         ],
         "terms__en": "stereo,video"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -34649,15 +34675,16 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household"
       },
       "shop/interior_decoration": {
         "fields": [
@@ -42675,6 +42702,7 @@
     "title__en": "Save",
     "title__transl": "Kaydet",
     "unknown_error_details__en": "Please ensure you are connected to the internet.",
+    "unknown_error_details__transl": "Lütfen internete bağlı olduğunuzdan emin olun.",
     "unsaved_changes__en": "You have unsaved changes",
     "unsaved_changes__transl": "Kaydedilmemiş değişiklikleriniz var",
     "uploading__en": "Uploading changes to OpenStreetMap.",

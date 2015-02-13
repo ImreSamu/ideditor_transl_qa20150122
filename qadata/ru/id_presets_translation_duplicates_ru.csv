@@ -11,7 +11,7 @@
 "Кондитерская","Candy Store","shop/confectionery"," ","shop","shop=confectionery"," "," "," "," ","area"," ","point"," "," "
 "Легкоатлетический стадион","Racetrack (non-Motorsport)","leisure/track"," ","highway-road","leisure=track"," "," "," "," "," ","line","point"," "," "
 "Легкоатлетический стадион","Running Track","leisure/running_track"," ","pitch","leisure=track","sport=running"," "," "," "," ","line","point"," "," "
-"Лес / деревья","Forest","landuse/forest"," ","park2","landuse=forest"," "," "," "," ","area"," ","point"," "," "
+"Лес / деревья","Forest","landuse/forest"," ","park2","landuse=forest"," "," "," "," ","area"," "," "," "," "
 "Лес / деревья","Wood","natural/wood"," ","park2","natural=wood"," "," "," "," ","area"," ","point"," "," "
 "Мастерская часовщика","Clockmaker","craft/clockmaker"," ","circle-stroked","craft=clockmaker"," "," "," "," ","area"," ","point"," "," "
 "Мастерская часовщика","Watchmaker","craft/watchmaker"," ","circle-stroked","craft=watchmaker"," "," "," "," ","area"," ","point"," "," "

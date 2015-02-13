@@ -1068,7 +1068,7 @@
 | 1
 | check
 | Fee
-| Стоимость
+| Есть оплата
 |  
 |  
 | fee
@@ -1316,6 +1316,21 @@
 |  
 |  
 |  
+|  
+| last
+|-
+| gender
+| 1
+| radio
+| Gender
+|  
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
 |  
 | last
 |-
@@ -1608,7 +1623,7 @@
 | 1
 | number
 | Lanes
-| Линии
+| Полосы движения
 |  
 |  
 | lanes
@@ -3277,9 +3292,9 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
-| Непроходимо ни для какой колесной техники
+| impassable
+| Impassable / No wheeled vehicle
+| 
 |  
 |  
 | last

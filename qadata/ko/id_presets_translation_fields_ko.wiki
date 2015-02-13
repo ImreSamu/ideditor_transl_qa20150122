@@ -378,7 +378,7 @@
 | 1
 | check
 | Bench
-|  
+| 벤치
 |  
 |  
 | bench
@@ -423,7 +423,7 @@
 | 1
 | text
 | Brand
-|  
+| 상표
 |  
 |  
 | brand
@@ -873,7 +873,7 @@
 | 1
 | check
 | Delivery
-|  
+| 배달
 |  
 |  
 | delivery
@@ -933,15 +933,15 @@
 | 1
 | combo
 | Electrification
-|  
+| 전력화
 |  
 |  
 | electrified
-| yes
+| contact_line
 | Contact Line
-| 예 (지정되지 않음)
+| 연결로
 | Contact Line, Electrified Rail...
-|  
+| 연결로, 전철...
 | last
 |-
 | electrified
@@ -952,9 +952,9 @@
 |  
 |  
 |  
-| no
+| rail
 | Electrified Rail
-| 아니오
+| 전철
 |  
 |  
 | last
@@ -969,7 +969,7 @@
 |  
 | yes
 | Yes (unspecified)
-| 
+| 예 (지정되지 않음)
 |  
 |  
 | last
@@ -984,7 +984,7 @@
 |  
 | no
 | No
-| 
+| 아니오
 |  
 |  
 | last
@@ -1038,7 +1038,7 @@
 | 1
 | combo
 | Exceptions
-|  
+| 예외
 |  
 |  
 | except
@@ -1087,9 +1087,9 @@
 |  
 |  
 | fire_hydrant:type
-| wall
+| pillar
 | Pillar/Aboveground
-| 벽
+| 기둥/지상
 |  
 |  
 | last
@@ -1102,9 +1102,9 @@
 |  
 |  
 |  
-| pond
+| underground
 | Underground
-| 호수
+| 지하
 |  
 |  
 | last
@@ -1119,7 +1119,7 @@
 |  
 | wall
 | Wall
-| 
+| 벽
 |  
 |  
 | last
@@ -1134,7 +1134,7 @@
 |  
 | pond
 | Pond
-| 
+| 연못
 |  
 |  
 | last
@@ -1308,7 +1308,7 @@
 | 1
 | combo
 | Gauge
-| 게이지
+| 궤간
 |  
 |  
 | gauge
@@ -1317,6 +1317,21 @@
 |  
 |  
 |  
+| last
+|-
+| gender
+| 1
+| radio
+| Gender
+| 성별
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| 알 수 없음
 | last
 |-
 | generator/method
@@ -2332,9 +2347,9 @@
 |  
 |  
 |  
-| multi-storey
+| garage_boxes
 | Multilevel
-| 
+| 차고 상자
 |  
 |  
 | last
@@ -2658,7 +2673,7 @@
 | 1
 | text
 | Population
-|  
+| 인구
 |  
 |  
 | population
@@ -3018,7 +3033,7 @@
 | 1
 | check
 | Shelter
-| 피난처
+| 대피소
 |  
 |  
 | shelter
@@ -3277,8 +3292,8 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
+| impassable
+| Impassable / No wheeled vehicle
 | 
 |  
 |  
@@ -3459,7 +3474,7 @@
 | takeaway
 | yes
 | Yes
-| 
+| 예
 | Yes, No, Takeaway Only...
 |  
 | last
@@ -3474,7 +3489,7 @@
 |  
 | no
 | No
-| 
+| 아니오
 |  
 |  
 | last
@@ -3663,7 +3678,7 @@
 | 1
 | combo
 | Trail Visibility
-| 도로의 가시성
+| 철로의 가시성
 |  
 |  
 | trail_visibility

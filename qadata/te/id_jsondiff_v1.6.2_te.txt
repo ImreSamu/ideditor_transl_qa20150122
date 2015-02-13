@@ -5,5 +5,16 @@
 -        label: "రకం"
 -      }
      }
+     presets: {
+-      landuse/farm: {
+-        name: "పొలం"
+-      }
+-      landuse/industrial: {
+-        name: "పారిశ్రామికం"
+-      }
+-      landuse/residential: {
+-        name: "నివాస ప్రాంతం"
+-      }
+     }
    }
  }

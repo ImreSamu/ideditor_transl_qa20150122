@@ -216,7 +216,9 @@
     "back_tooltip__transl": "Alterar elemento",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "Não",
+      "yes__en": "Yes",
+      "yes__transl": "Sim"
     },
     "choose__en": "Select feature type",
     "choose__transl": "Selecione o tipo de elemento",
@@ -515,6 +517,7 @@
       "description__transl": "Remover objeto permanentemente",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "Este elemento não pode ser excluído porque não foi ainda totalmente baixado.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Excluir"
     },
@@ -1246,6 +1249,7 @@
         "key": "brand",
         "label": "Brand",
         "label__en": "Brand",
+        "label__transl": "Marca",
         "type": "text"
       },
       "building": {
@@ -1414,6 +1418,7 @@
         "key": "delivery",
         "label": "Delivery",
         "label__en": "Delivery",
+        "label__transl": "Entrega em domicílio",
         "type": "check"
       },
       "denomination": {
@@ -1621,6 +1626,35 @@
         "label__transl": "Bitola",
         "type": "combo"
       },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "label__transl": "Gênero",
+        "options": {
+          "female__en": "Female",
+          "female__transl": "Feminino",
+          "male__en": "Male",
+          "male__transl": "Masculino",
+          "unisex__en": "Unisex",
+          "unisex__transl": "Unissex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "placeholder__transl": "Desconhecido",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
+      },
       "generator/method": {
         "key": "generator:method",
         "label": "Method",
@@ -1777,12 +1811,18 @@
         "key": "leaf_cycle",
         "label": "Leaf Cycle",
         "label__en": "Leaf Cycle",
+        "label__transl": "Ciclo de Folhagem",
         "options": {
           "deciduous__en": "Deciduous",
+          "deciduous__transl": "Caducifólia",
           "evergreen__en": "Evergreen",
+          "evergreen__transl": "Perenifólia",
           "mixed__en": "Mixed",
+          "mixed__transl": "Mista",
           "semi_deciduous__en": "Semi-Deciduous",
-          "semi_evergreen__en": "Semi-Evergreen"
+          "semi_deciduous__transl": "Semi-caducifólia",
+          "semi_evergreen__en": "Semi-Evergreen",
+          "semi_evergreen__transl": "Semi-perenifólia"
         },
         "strings": {
           "options": {
@@ -1799,11 +1839,16 @@
         "key": "leaf_type",
         "label": "Leaf Type",
         "label__en": "Leaf Type",
+        "label__transl": "Tipo de Folha",
         "options": {
           "broadleaved__en": "Broadleaved",
+          "broadleaved__transl": "Latifoliada",
           "leafless__en": "Leafless",
+          "leafless__transl": "Sem folhas",
           "mixed__en": "Mixed",
-          "needleleaved__en": "Needleleaved"
+          "mixed__transl": "Mista",
+          "needleleaved__en": "Needleleaved",
+          "needleleaved__transl": "Acicufoliada"
         },
         "strings": {
           "options": {
@@ -2409,10 +2454,14 @@
         "key": "service:bicycle:chaintool",
         "label": "Chain Tool",
         "label__en": "Chain Tool",
+        "label__transl": "Ferramenta de corrente",
         "options": {
           "no__en": "No",
+          "no__transl": "Não",
           "undefined__en": "Assumed to be No",
-          "yes__en": "Yes"
+          "undefined__transl": "Assumindo ser Não",
+          "yes__en": "Yes",
+          "yes__transl": "Sim"
         },
         "strings": {
           "options": {
@@ -2427,10 +2476,14 @@
         "key": "service:bicycle:pump",
         "label": "Air Pump",
         "label__en": "Air Pump",
+        "label__transl": "Bomba de ar",
         "options": {
           "no__en": "No",
+          "no__transl": "Não",
           "undefined__en": "Assumed to be No",
-          "yes__en": "Yes"
+          "undefined__transl": "Assumindo ser Não",
+          "yes__en": "Yes",
+          "yes__transl": "Sim"
         },
         "strings": {
           "options": {
@@ -2517,8 +2570,7 @@
           "good__transl": "Rodas estreintas: bicicleta de corridas",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
           "horrible__transl": "Fora de estrada:  veículo fora de estrada para serviço pesado.",
-          "impassible__en": "Impassible / No wheeled vehicle",
-          "impassible__transl": "Indiferente / Não para veículos sobre rodas",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "intermediate__transl": "Rodas: bicicleta urbana, cadeira de rodas, lambreta",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
@@ -2535,7 +2587,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -2667,6 +2719,7 @@
         "key": "substation",
         "label": "Type",
         "label__en": "Type",
+        "label__transl": "Tipo",
         "type": "typeCombo"
       },
       "supervised": {
@@ -2694,13 +2747,18 @@
         "key": "takeaway",
         "label": "Takeaway",
         "label__en": "Takeaway",
+        "label__transl": "Para viagem",
         "options": {
           "no__en": "No",
+          "no__transl": "Não",
           "only__en": "Takeaway Only",
-          "yes__en": "Yes"
+          "only__transl": "Somente para viagem",
+          "yes__en": "Yes",
+          "yes__transl": "Sim"
         },
         "placeholder": "Yes, No, Takeaway Only...",
         "placeholder__en": "Yes, No, Takeaway Only...",
+        "placeholder__transl": "Sim, Não, Somente para viagem...",
         "strings": {
           "options": {
             "no": "No",
@@ -8583,13 +8641,15 @@
         "icon": "bicycle",
         "name": "Bicycle Repair Station",
         "name__en": "Bicycle Repair Station",
+        "name__transl": "Estação de conserto de bicicletas",
         "tags": {
           "amenity": "bicycle_repair_station"
         },
         "terms": [
           "bike"
         ],
-        "terms__en": "bike"
+        "terms__en": "bike",
+        "terms__transl": "Oficina de bicicleta, Conserto de bicicleta, Estação de reparo de bicicletas, Reparo de bicicletas"
       },
       "amenity/boat_rental": {
         "fields": [
@@ -9567,7 +9627,7 @@
         "icon": "college",
         "name": "College Grounds",
         "name__en": "College Grounds",
-        "name__transl": "Área da faculdade",
+        "name__transl": "Escola técnica",
         "tags": {
           "amenity": "college"
         },
@@ -9575,7 +9635,7 @@
           "university"
         ],
         "terms__en": "university",
-        "terms__transl": "Faculdade, Universidade, Ensino superior, Graduação"
+        "terms__transl": "Colégio técnico, Ensino profissionalizante, Educação profissional"
       },
       "amenity/community_centre": {
         "fields": [
@@ -14895,6 +14955,7 @@
         ],
         "name": "Grit Bin",
         "name__en": "Grit Bin",
+        "name__transl": "Caixa de sal",
         "tags": {
           "amenity": "grit_bin"
         },
@@ -14902,7 +14963,8 @@
           "salt",
           "sand"
         ],
-        "terms__en": "salt,sand"
+        "terms__en": "salt,sand",
+        "terms__transl": "Grit bin"
       },
       "amenity/hospital": {
         "fields": [
@@ -17655,6 +17717,7 @@
         "icon": "library",
         "name": "Public Bookcase",
         "name__en": "Public Bookcase",
+        "name__transl": "Estante pública",
         "tags": {
           "amenity": "public_bookcase"
         },
@@ -17662,7 +17725,8 @@
           "library",
           "bookcrossing"
         ],
-        "terms__en": "library,bookcrossing"
+        "terms__en": "library,bookcrossing",
+        "terms__transl": "Biblioteca pública"
       },
       "amenity/ranger_station": {
         "fields": [
@@ -17737,12 +17801,14 @@
         "icon": "town-hall",
         "name": "Register Office",
         "name__en": "Register Office",
+        "name__transl": "Cartório",
         "tags": {
           "amenity": "register_office"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "Ofício de notas, Cartório de notas, Serventia extrajudicial"
       },
       "amenity/restaurant": {
         "fields": [
@@ -20929,7 +20995,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -21538,7 +21605,7 @@
         "icon": "building",
         "name": "College Building",
         "name__en": "College Building",
-        "name__transl": "Edifício da faculdade",
+        "name__transl": "Edifício de escola técnica",
         "tags": {
           "building": "college"
         },
@@ -21546,7 +21613,7 @@
           "university"
         ],
         "terms__en": "university",
-        "terms__transl": "Faculdade, Universidade, Ensino superior, Graduação, Laboratório"
+        "terms__transl": "Colégio técnico, Ensino profissionalizante, Educação profissional"
       },
       "building/commercial": {
         "fields": [
@@ -24486,10 +24553,12 @@
         ],
         "name": "Junction",
         "name__en": "Junction",
+        "name__transl": "Entroncamento",
         "tags": {
           "junction": "yes"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "Encruzilhada, junção"
       },
       "landuse": {
         "fields": [
@@ -24511,7 +24580,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24527,7 +24595,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24547,8 +24614,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24584,20 +24649,19 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "Comercial",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
+        "name__transl": "Área comercial",
         "tags": {
           "landuse": "commercial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Comercial"
+        "terms__transl": "Comércio, comercial"
       },
       "landuse/construction": {
         "fields": [
@@ -24605,7 +24669,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24628,9 +24691,9 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Lavoura",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Fazenda",
         "searchable": false,
         "tags": {
           "landuse": "farm"
@@ -24638,33 +24701,32 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Fazenda"
+        "terms__transl": "Campo agrícola, agricultura, campanha, quinta, agrícola, rural, terra arável"
       },
       "landuse/farmland": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Fazenda",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland"
+        "terms__en": "",
+        "terms__transl": "Campo agrícola, agricultura, campanha, quinta, agrícola, rural, terra arável"
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24685,7 +24747,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24707,16 +24768,17 @@
         ],
         "name": "Garages",
         "name__en": "Garages",
+        "name__transl": "Garagens",
         "tags": {
           "landuse": "garages"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "Garagem, estacionamento, estacionamentos"
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24732,20 +24794,19 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Industrial",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
+        "name__transl": "Área industrial",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Industrial"
+        "terms__transl": "Indústria, Parque industrial, Fábrica, Fábricas"
       },
       "landuse/landfill": {
         "geometry": [
@@ -24765,7 +24826,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24783,23 +24843,22 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "Militar",
+        "name": "Military Area",
+        "name__en": "Military Area",
+        "name__transl": "Área militar",
         "tags": {
           "landuse": "military"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Militar"
+        "terms__transl": "Zona militar, militar"
       },
       "landuse/orchard": {
         "fields": [
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24816,7 +24875,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24832,39 +24890,36 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "Residencial",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
+        "name__transl": "Área residencial",
         "tags": {
           "landuse": "residential"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Residencial"
+        "terms__transl": "Residencial, residências"
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
         "name__transl": "Varejo",
         "tags": {
           "landuse": "retail"
         },
         "terms__en": "",
-        "terms__transl": "Varejo, comércio"
+        "terms__transl": "Comércio, varejistas, comercial"
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -25042,6 +25097,7 @@
         "icon": "park",
         "name": "Nature Reserve",
         "name__en": "Nature Reserve",
+        "name__transl": "Reserva natural",
         "tags": {
           "leisure": "nature_reserve"
         },
@@ -25049,7 +25105,8 @@
           "protected",
           "wildlife"
         ],
-        "terms__en": "protected,wildlife"
+        "terms__en": "protected,wildlife",
+        "terms__transl": "Reserva florestal, floresta"
       },
       "leisure/park": {
         "geometry": [
@@ -25826,12 +25883,14 @@
         ],
         "name": "Cave Entrance",
         "name__en": "Cave Entrance",
+        "name__transl": "Entrada de caverna",
         "tags": {
           "natural": "cave_entrance"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "Entrada de gruta, abertura de caverna, abertura de gruta, caverna, gruta, entrada de toca, toca"
       },
       "natural/cliff": {
         "geometry": [
@@ -35537,7 +35596,7 @@
         "terms__en": "stereo,video",
         "terms__transl": "Loja de Equipamentos de Áudio, Loja de Aparelhos de Alta Fidelidade"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -35549,15 +35608,18 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
+        "name__transl": "Loja de utensílios domésticos",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household",
+        "terms__transl": "Loja de utensílios, Loja de acessórios para casa"
       },
       "shop/interior_decoration": {
         "fields": [

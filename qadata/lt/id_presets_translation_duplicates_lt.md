@@ -2,14 +2,16 @@
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 |Angaras|Hangar|aeroway/hangar| | |aeroway=hangar| | | | |area| | | | |
 |Angaras|Shed|building/shed| |building|building=shed| | | | |area| |point| | |
-|Bažnyčia|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |Bažnyčia|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
+|Bažnyčia|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
+|Garažai|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
+|Garažai|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
 |Greitkelis|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |
 |Greitkelis|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |Griovys|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
 |Griovys|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
+|Kapinės|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |Kapinės|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|Kapinės|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
 |Kelto maršrutas|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |Kelto maršrutas|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |Laikrodininkas|Clockmaker|craft/clockmaker| |circle-stroked|craft=clockmaker| | | | |area| |point| | |
@@ -18,14 +20,14 @@
 |Medis|Tree|natural/tree| |park|natural=tree| | | | | | |point|vertex| |
 |Miestelis|Town|place/town| |town|place=town| | | | |area| |point| | |
 |Miestelis|Borough|place/suburb| |triangle-stroked|place=suburb| | | | |area| |point| | |
-|Pėsčiųjų perėja|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |Pėsčiųjų perėja|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
+|Pėsčiųjų perėja|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |
 |Parduotuvė|Shop|shop| |shop|shop=*| | | | |area| |point| | |
 |Parduotuvė|Boutique|shop/boutique| |shop|shop=boutique| | | | |area| |point| | |
 |Pieva|Grassland|natural/grassland| | |natural=grassland| | | | |area| |point| | |
-|Pieva|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| |point| | |
-|Prekybos centras|Mall|shop/mall| |shop|shop=mall| | | | |area| |point| | |
+|Pieva|Meadow|landuse/meadow| | |landuse=meadow| | | | |area| | | | |
 |Prekybos centras|Supermarket|shop/supermarket| |grocery|shop=supermarket| | | | |area| |point| | |
+|Prekybos centras|Mall|shop/mall| |shop|shop=mall| | | | |area| |point| | |
 |Prieplauka|Marina|leisure/marina| |harbor|leisure=marina| | | | |area| |point|vertex| |
 |Prieplauka|Pier|man_made/pier| | |man_made=pier| | | | |area|line| | | |
 |Raktininkas|Locksmith|shop/locksmith| |shop|shop=locksmith| | | | |area| |point| | |
@@ -34,7 +36,7 @@
 |Sankryža|Crossing|highway/crossing| | |highway=crossing| | | | | | | |vertex| |
 |Siena|Wall|barrier/wall| | |barrier=wall| | | | |area|line| | | |
 |Siena|Boundary|type/boundary| |boundary|type=boundary| | | | | | | | |relation|
-|Sodyba|Farmyard|landuse/farmyard| |farm|landuse=farmyard| | | | |area| |point| | |
+|Sodyba|Farmyard|landuse/farmyard| |farm|landuse=farmyard| | | | |area| | | | |
 |Sodyba|Chalet|tourism/chalet| |lodging|tourism=chalet| | | | |area| |point| | |
 |Užtvanka|Dam|waterway/dam| |dam|waterway=dam| | | | |area|line|point|vertex| |
 |Užtvanka|Weir|waterway/weir| |dam|waterway=weir| | | | | |line| |vertex| |

@@ -378,7 +378,7 @@
 | 1
 | check
 | Bench
-|  
+| Klupa
 |  
 |  
 | bench
@@ -1316,6 +1316,21 @@
 |  
 |  
 |  
+|  
+| last
+|-
+| gender
+| 1
+| radio
+| Gender
+|  
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
 |  
 | last
 |-
@@ -3277,8 +3292,8 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
+| impassable
+| Impassable / No wheeled vehicle
 | 
 |  
 |  

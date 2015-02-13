@@ -1,1 +1,9 @@
- undefined
+ {
+   presets: {
+     presets: {
+-      landuse/commercial: {
+-        name: "Commercial landuse"
+-      }
+     }
+   }
+ }

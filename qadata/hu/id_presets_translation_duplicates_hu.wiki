@@ -15,92 +15,12 @@
 ! style="font-weight: bold;" | geometryVertex
 ! style="font-weight: bold;" | geometryRelation
 |-
-| Füves terület
-| Grass
-| landuse/grass
+| Kerékpárút
+| Cycle Path
+| highway/cycleway
 |  
-|  
-| landuse=grass
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Füves terület
-| Grassland
-| natural/grassland
-|  
-|  
-| natural=grassland
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Temető
-| Cemetery
-| landuse/cemetery
-|  
-| cemetery
-| landuse=cemetery
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
-| Temető
-| Churchyard
-| landuse/churchyard
-|  
-|  
-| landuse=churchyard
-|  
-|  
-|  
-|  
-| area
-|  
-|  
-|  
-|  
-|-
-| Vasút
-| Railway
-| railway
-|  
-|  
-| railway=*
-|  
-|  
-|  
-|  
-| area
-| line
-| point
-| vertex
-|  
-|-
-| Vasút
-| Rail
-| railway/rail
-|  
-| railway-rail
-| railway=rail
+| highway-cycleway
+| highway=cycleway
 |  
 |  
 |  
@@ -108,6 +28,86 @@
 |  
 | line
 |  
+|  
+|  
+|-
+| Kerékpárút
+| Cycle Route
+| type/route/bicycle
+|  
+| route-bicycle
+| type=route
+| route=bicycle
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Kunyhó
+| Hut
+| building/hut
+|  
+|  
+| building=hut
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Kunyhó
+| Shed
+| building/shed
+|  
+| building
+| building=shed
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Szálloda
+| Hotel Building
+| building/hotel
+|  
+| building
+| building=hotel
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Szálloda
+| Hotel
+| tourism/hotel
+|  
+| lodging
+| tourism=hotel
+|  
+|  
+|  
+|  
+| area
+|  
+| point
 |  
 |  
 |-
@@ -141,5 +141,37 @@
 |  
 |  
 | vertex
+|  
+|-
+| Újságos
+| Newspaper
+| office/newspaper
+|  
+| commercial
+| office=newspaper
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Újságos
+| Newspaper/Magazine Shop
+| shop/newsagent
+|  
+| shop
+| shop=newsagent
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
 |  
 |}

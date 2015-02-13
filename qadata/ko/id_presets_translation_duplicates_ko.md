@@ -1,26 +1,23 @@
 |nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-|고속도로|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |고속도로|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |
+|고속도로|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |구거|Ditch|waterway/ditch| |waterway-ditch|waterway=ditch| | | | | |line| | | |
 |구거|Ditch|barrier/ditch| | |barrier=ditch| | | | |area|line| | | |
-|군사지|Military Range|military/range| | |military=range| | | | |area| |point|vertex| |
-|군사지|Military|landuse/military| | |landuse=military| | | | |area| | | | |
 |마을|Village|place/village| |village|place=village| | | | |area| |point| | |
 |마을|Town|place/town| |town|place=town| | | | |area| |point| | |
+|묘지|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |묘지|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|묘지|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
 |버스 정류장|Bus Station|amenity/bus_station| |bus|amenity=bus_station| | | | |area| |point| | |
 |버스 정류장|Bus Stop|highway/bus_stop| |bus|highway=bus_stop| | | | | | |point|vertex| |
-|보도|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
-|보도|Sidewalk|footway/sidewalk| | |highway=footway|footway=sidewalk| | | | |line| | | |
-|지역|Area|area| | |area=yes| | | | |area| | | | |
 |지역|Locality|place/locality| |marker|place=locality| | | | |area| |point| | |
+|지역|Area|area| | |area=yes| | | | |area| | | | |
+|차고|Garage|building/garage| |warehouse|building=garage| | | | |area| |point| | |
+|차고|Garages|landuse/garages| | |landuse=garages| | | | |area| | | | |
+|차고|Garages|building/garages| |warehouse|building=garages| | | | |area| |point| | |
 |페리 노선|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |페리 노선|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |행정 경계|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
 |행정 경계|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
-|호수|Lake|natural/water/lake| |water|natural=water|water=lake| | | |area| | | | |
-|호수|Pond|natural/water/pond| |water|natural=water|water=pond| | | |area| | | | |
 |횡단 보도|Crosswalk|footway/crosswalk| | |highway=footway|footway=crossing|crossing=zebra| | | |line| | | |
 |횡단 보도|Crosswalk|highway/crosswalk| | |highway=crossing|crossing=zebra| | | | | | |vertex| |

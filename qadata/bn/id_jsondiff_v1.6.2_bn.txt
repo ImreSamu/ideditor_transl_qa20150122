@@ -5,5 +5,22 @@
 -        label: "টাইপ"
 -      }
      }
+     presets: {
+-      landuse/commercial: {
+-        name: "বানিজ্যিক"
+-      }
+-      landuse/farm: {
+-        name: "খামারবাড়ি"
+-      }
+-      landuse/industrial: {
+-        name: "শিল্পায়িত"
+-      }
+-      landuse/residential: {
+-        name: "অাবাসিক"
+-      }
+-      landuse/retail: {
+-        name: "খুচরো ব্যবসা"
+-      }
+     }
    }
  }

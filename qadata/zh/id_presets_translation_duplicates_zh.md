@@ -1,11 +1,11 @@
 |nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 |墓地|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|墓地|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|墓地|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |废弃的铁路|Disused Railway|railway/disused| |railway-disused|railway=disused| | | | | |line| | | |
 |废弃的铁路|Abandoned Railway|railway/abandoned| |railway-abandoned|railway=abandoned| | | | | |line| | | |
 |建筑物|Building|building| |building|building=*| | | | |area| | | | |
-|建筑物|Construction|landuse/construction| | |landuse=construction| | | | |area| |point| | |
+|建筑物|Construction|landuse/construction| | |landuse=construction| | | | |area| | | | |
 |村庄|Village|place/village| |village|place=village| | | | |area| |point| | |
 |村庄|Hamlet|place/hamlet| |triangle-stroked|place=hamlet| | | | |area| |point| | |
 |渡轮航线|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |

@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,8 +12153,8 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
+| Commercial Area
+| Commercial Area
 | Kommercielt område
 | 18
 |  
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,8 +12243,8 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
 | Landbrugsjord
 | 13
 |  
@@ -12288,16 +12288,16 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
-| Gård
-| 4
+| Farmland
+| Farmland
+| Landbrugsjord
+| 13
 |  
 |  
 |  
-| farmland
-| Gård, Bondegård
-| 15
+| 
+| Landbrugsjord
+| 13
 |  
 | farm
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,16 +12513,16 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
+| Industrial Area
+| Industrial Area
 | Industriområde
 | 14
 |  
 |  
 |  
 | 
-| Industriområde, Fabriksområde
-| 29
+| Industriområde
+| 14
 |  
 | industrial
 |  
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,16 +12648,16 @@
 | landuse
 | military
 |  
-| Military
-| Military
-| Militær
-| 7
+| Military Area
+| Military Area
+| Militært område
+| 15
 |  
 |  
 |  
 | 
-| Militær
-| 7
+| Militært område, Militærbase
+| 28
 |  
 |  
 |  
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,16 +12783,16 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
-| Beboelsesområde
-| 15
+| Residential Area
+| Residential Area
+| Beboet område
+| 13
 |  
 |  
 |  
 | 
-| Boligområde
-| 11
+| Beboet område
+| 13
 |  
 | building
 |  
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,16 +12828,16 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
+| Retail Area
+| Retail Area
 | Handelsområde
 | 13
 |  
 |  
 |  
 | 
-| Handelsområde, Butiksområde
-| 27
+| Handelsområde
+| 13
 |  
 | shop
 |  
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -13370,7 +13370,7 @@
 |  
 | Picnic Table
 | Picnic Table
-| Picnicborg
+| Picnicbord
 | 10
 |  
 |  
@@ -21194,18 +21194,18 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
+| Houseware Store
+| Houseware Store
 | Køkkenudstyr
 | 12
 |  
 |  
 |  
-| home
+| home,household
 | Køkkenudstyr
 | 12
 |  
@@ -21214,7 +21214,7 @@
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  

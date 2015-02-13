@@ -48,22 +48,6 @@
 |  
 |-
 | Capiella
-| Chapel
-| building/chapel
-|  
-| place-of-worship
-| building=chapel
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Capiella
 | Wayside Shrine
 | historic/wayside_shrine
 |  
@@ -79,28 +63,12 @@
 | vertex
 |  
 |-
-| Comercial
-| Retail
-| landuse/retail
+| Capiella
+| Chapel
+| building/chapel
 |  
-| shop
-| landuse=retail
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Comercial
-| Commercial
-| landuse/commercial
-|  
-| commercial
-| landuse=commercial
+| place-of-worship
+| building=chapel
 |  
 |  
 |  
@@ -144,11 +112,11 @@
 |  
 |-
 | Fotografía
-| Photography Store
-| shop/photo
+| Photographer
+| craft/photographer
 |  
 | camera
-| shop=photo
+| craft=photographer
 |  
 |  
 |  
@@ -160,11 +128,11 @@
 |  
 |-
 | Fotografía
-| Photographer
-| craft/photographer
+| Photography Store
+| shop/photo
 |  
 | camera
-| craft=photographer
+| shop=photo
 |  
 |  
 |  
@@ -209,6 +177,22 @@
 |-
 | Llende alministrativa
 | Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Llende alministrativa
+| Administrative Boundary
 | type/boundary/administrative
 |  
 | boundary
@@ -223,13 +207,13 @@
 |  
 | relation
 |-
-| Llende alministrativa
-| Administrative Boundary
-| boundary/administrative
+| Pasu de peatones
+| Crossing
+| footway/crossing
 |  
 |  
-| boundary=administrative
-|  
+| highway=footway
+| footway=crossing
 |  
 |  
 |  
@@ -253,22 +237,6 @@
 |  
 |  
 | vertex
-|  
-|-
-| Pasu de peatones
-| Crossing
-| footway/crossing
-|  
-|  
-| highway=footway
-| footway=crossing
-|  
-|  
-|  
-|  
-| line
-|  
-|  
 |  
 |-
 | Riega
@@ -336,11 +304,11 @@
 | relation
 |-
 | Vivienda aisllada
-| Isolated Dwelling
-| place/isolated_dwelling
+| Detached Home
+| building/detached
 |  
-|  
-| place=isolated_dwelling
+| building
+| building=detached
 |  
 |  
 |  
@@ -352,11 +320,11 @@
 |  
 |-
 | Vivienda aisllada
-| Detached Home
-| building/detached
+| Isolated Dwelling
+| place/isolated_dwelling
 |  
-| building
-| building=detached
+|  
+| place=isolated_dwelling
 |  
 |  
 |  

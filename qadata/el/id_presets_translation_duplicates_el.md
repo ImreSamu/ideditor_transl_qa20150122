@@ -2,7 +2,7 @@
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 |Αυτοκινητόδρομος|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |Αυτοκινητόδρομος|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |
-|Δάσος|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|Δάσος|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |Δάσος|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
 |Διαδρομή Πορθμείου|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |
 |Διαδρομή Πορθμείου|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
@@ -12,7 +12,7 @@
 |Εκκλησία|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |Θαμνότοπος|Scrub|natural/scrub| | |natural=scrub| | | | |area| | | | |
 |Θαμνότοπος|Heath|natural/heath| | |natural=heath| | | | |area| | | | |
-|Κοιμητήριο|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Κοιμητήριο|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |Κοιμητήριο|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
 |Μνημείο|Memorial|historic/memorial| |monument|historic=memorial| | | | |area| |point|vertex| |
 |Μνημείο|Monument|historic/monument| |monument|historic=monument| | | | |area| |point|vertex| |

@@ -423,7 +423,7 @@
 | 1
 | text
 | Brand
-|  
+| Márka
 |  
 |  
 | brand
@@ -873,7 +873,7 @@
 | 1
 | check
 | Delivery
-|  
+| Házhozszállítás
 |  
 |  
 | delivery
@@ -954,7 +954,7 @@
 |  
 | rail
 | Electrified Rail
-|  Sínes  áramfelvétel -  metroban  
+| Sínes áramfelvétel pl. metróban  
 |  
 |  
 | last
@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+| Nem
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Ismeretlen
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -1638,13 +1653,13 @@
 | 1
 | combo
 | Leaf Cycle
-|  
+| Levélváltási ciklus
 |  
 |  
 | leaf_cycle
 | evergreen
 | Evergreen
-| 
+| Örökzöld
 |  
 |  
 | last
@@ -1659,7 +1674,7 @@
 |  
 | deciduous
 | Deciduous
-| 
+| Lombhullató
 |  
 |  
 | last
@@ -1674,7 +1689,7 @@
 |  
 | semi_evergreen
 | Semi-Evergreen
-| 
+| Félörökzöld 
 |  
 |  
 | last
@@ -1689,7 +1704,7 @@
 |  
 | semi_deciduous
 | Semi-Deciduous
-| 
+| Félig lombhullató
 |  
 |  
 | last
@@ -1704,7 +1719,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Kevert, vegyes
 |  
 |  
 | last
@@ -1713,13 +1728,13 @@
 | 1
 | combo
 | Leaf Type
-|  
+| Levél és lomb típusa 
 |  
 |  
 | leaf_type
 | broadleaved
 | Broadleaved
-| 
+| Lombos
 |  
 |  
 | last
@@ -1734,7 +1749,7 @@
 |  
 | needleleaved
 | Needleleaved
-| 
+| Tűlevelű
 |  
 |  
 | last
@@ -1749,7 +1764,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Kevert, vegyes
 |  
 |  
 | last
@@ -1764,7 +1779,7 @@
 |  
 | leafless
 | Leafless
-| 
+| Lombtalan
 |  
 |  
 | last
@@ -2988,7 +3003,7 @@
 | 1
 | check
 | Chain Tool
-|  
+| láncbontó, lánc eszközök
 |  
 |  
 | service:bicycle:chaintool
@@ -3277,9 +3292,9 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
-| Lehetetlen kerekes járművel közlekedni
+| impassable
+| Impassable / No wheeled vehicle
+| 
 |  
 |  
 | last

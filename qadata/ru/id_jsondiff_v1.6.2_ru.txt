@@ -113,6 +113,10 @@
 +    changes: "{count} правок"
    }
    inspector: {
++    check: {
++      yes: "Да"
++      no: "Нет"
++    }
 +    add_fields: "Добавить поле:"
    }
    save: {
@@ -242,6 +246,10 @@
 -        label: "Исключения"
 +        label: "Не действует для"
        }
+       fee: {
+-        label: "Стоимость"
++        label: "Есть оплата"
+       }
        fire_hydrant/type: {
 -        label: "Тип"
 +        label: "Тип пожарного гидранта"
@@ -249,6 +257,10 @@
        highway: {
 -        label: "Тип"
 +        label: "Тип дороги"
+       }
+       lanes: {
+-        label: "Линии"
++        label: "Полосы движения"
        }
        mtb/scale: {
 +        options: {
@@ -348,6 +360,11 @@
 -        label: "Тип"
 +        label: "Тип магазина"
        }
+       smoothness: {
+         options: {
+-          impassible: "Непроходимо ни для какой колесной техники"
+         }
+       }
        social_facility_for: {
 +        label: "Кого обслуживает"
        }
@@ -388,12 +405,30 @@
 -      craft/confectionary: {
 -        name: "Мастерская кондитера"
 -      }
+-      landuse/commercial: {
+-        name: "Коммерческая застройка"
+-        terms: "Коммерческое землепользование, Территории торгово-офисного назначения"
+-      }
 -      landuse/farm: {
 -        name: "Земельные угодья"
 -        terms: "Ферма, Сельхоз предприятие"
 -      }
 -      landuse/farmland: {
 -        name: "Сельскохозяйственные угодья"
+-      }
+-      landuse/industrial: {
+-        name: "Промышленная застройка"
+-        terms: "Промышленная территория, Производственная территория, Промышленное землепользование"
+-      }
+-      landuse/military: {
+-        name: "Военная территория"
+-      }
+-      landuse/residential: {
+-        name: "Жилой квартал"
+-        terms: "Жилая территория, Селитебная территория, Жилые земли, Селитебные земли"
+-      }
+-      landuse/retail: {
+-        name: "Торговая территория"
 -      }
 +      amenity/childcare: {
 +        name: "Детская комната"
@@ -768,10 +803,6 @@
        landuse/churchyard: {
 +        terms: "кладбище, церковный двор, церковь"
        }
-       landuse/commercial: {
--        name: "Коммерческая застройка"
-+        name: "Коммерческая территория"
-       }
        landuse/farmyard: {
 -        name: "Ферма"
 +        name: "Территория фермы (без полей)"
@@ -780,13 +811,6 @@
 -        name: "Лес"
 +        name: "Лес / деревья"
        }
-       landuse/industrial: {
--        name: "Промышленная застройка"
-+        name: "Промышленная территория"
-       }
-       landuse/military: {
-+        terms: "полигон, часть, бой, действия, оружие, войска"
-       }
        landuse/orchard: {
 -        name: "Плодовый сад"
 +        name: "Территория плодового сада"
@@ -794,13 +818,6 @@
        landuse/quarry: {
 -        name: "Карьер"
 +        name: "Территория карьера"
-       }
-       landuse/residential: {
--        name: "Жилой квартал"
-+        name: "Жилая зона"
-       }
-       landuse/retail: {
-+        terms: "розница, торговля"
        }
        leisure: {
 -        name: "Отдых"

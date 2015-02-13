@@ -1355,14 +1355,14 @@
 |  
 | Bicycle Repair Station
 | Bicycle Repair Station
+| Stojan pre opravu bicyklov
+| 26
 |  
-| 0
 |  
 |  
-| notTranslated
 | bike
-|  
-| 0
+| stojan,oprava,bicykle,bicykel,reťaz,retaz,pumpa,hustilka,vzduch,koleso,kolesá,kolesa
+| 84
 |  
 | bicycle
 |  
@@ -1985,14 +1985,14 @@
 |  
 | Community Center
 | Community Center
+| Komunitné centrum
+| 17
 |  
-| 0
 |  
 |  
-| notTranslated
 | event,hall
-|  
-| 0
+| komunitne centrum,centrum voľného času,centrum volneho casu,cvc,cvč,krúžky,kruzky,vzdelavanie,vzdelávanie,výchova,vychova
+| 121
 |  
 | town-hall
 |  
@@ -2570,14 +2570,14 @@
 |  
 | Grit Bin
 | Grit Bin
+| Nádoba s posypom
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | salt,sand
-|  
-| 0
+| nadoba s posypom,posyp,strk,štrk,posypový materiál,posypovy material
+| 68
 |  
 |  
 |  
@@ -3380,14 +3380,14 @@
 |  
 | Public Bookcase
 | Public Bookcase
+| Verejná knihovnička
+| 19
 |  
-| 0
 |  
 |  
-| notTranslated
 | library,bookcrossing
-|  
-| 0
+| verejna knihovnicka,policka na knihy,polička na knihy,verejná požičovňa kníh,verejna pozicovna knih
+| 99
 |  
 | library
 |  
@@ -3515,14 +3515,14 @@
 |  
 | Register Office
 | Register Office
+| Matričný úrad
+| 13
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| matricny urad,matrika
+| 21
 |  
 | town-hall
 |  
@@ -3785,14 +3785,14 @@
 | group_home
 | Elderly Group Home
 | Elderly Group Home
+| Domov dôchodcov
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | old,senior,living
-|  
-| 0
+| domov dochodcov
+| 15
 |  
 |  
 |  
@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -5903,7 +5903,7 @@
 | Garáže
 | 6
 |  
-|  
+| duplicate
 |  
 | 
 | garaze,garaz,garáž
@@ -7295,14 +7295,14 @@
 |  
 | Confectionery
 | Confectionery
+| Výroba cukroviniek
+| 18
 |  
-| 0
 |  
 |  
-| notTranslated
 | sweets,candy
-|  
-| 0
+| vyroba cukroviniek,cukrovinky,sladkosti
+| 39
 |  
 | bakery
 |  
@@ -7343,7 +7343,7 @@
 | Krajčírstvo
 | 11
 |  
-|  
+| duplicate
 |  
 | seamstress
 | krajcirstvo,krajčír,krajcir,krajčírka,krajcirka
@@ -8870,14 +8870,14 @@
 |  
 | Winery
 | Winery
+| Výroba vín
+| 10
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| vyroba vin,vino,víno,vína,vina,vinaren,vináreň,vinica,vínna pivnica,vinna pivnica,pivnica
+| 89
 |  
 | alcohol-shop
 |  
@@ -9998,7 +9998,7 @@
 | Obytná zóna
 | 11
 |  
-|  
+| duplicate
 |  
 | 
 | obytna zona,obytna ulica,obytná ulica
@@ -10130,14 +10130,14 @@
 |  
 | Motorway Junction / Exit
 | Motorway Junction / Exit
+| Dialničná križovatka / výjazd
+| 29
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| dialnicna krizovatka,vyjazd,exit
+| 32
 |  
 |  
 |  
@@ -10400,14 +10400,14 @@
 |  
 | Motor Raceway
 | Motor Raceway
+| Pretekárska strať
+| 17
 |  
-| 0
 |  
 |  
-| notTranslated
 | auto*,race*,nascar
-|  
-| 0
+| pretekarska trat,nascar,formula,enduro
+| 38
 |  
 | highway-unclassified
 |  
@@ -11885,14 +11885,14 @@
 |  
 | Junction
 | Junction
+| Križovatka
+| 10
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| krizovatka
+| 10
 |  
 |  
 |  
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,16 +12153,16 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| Obchodné
-| 8
+| Commercial Area
+| Commercial Area
+| Komerčná zóna
+| 13
 |  
 |  
 |  
 | 
-| obchodne,komercia,komercne,komerčné
-| 35
+| komercna zona,business park,kancelárie,kancelarie,plocha
+| 56
 |  
 | commercial
 |  
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,8 +12243,8 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
 | Pestovateľská plocha
 | 20
 |  
@@ -12288,16 +12288,16 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
+| Pestovateľská plocha
+| 20
 |  
-| 0
 |  
 |  
-| notTranslated
-| farmland
-|  
-| 0
+| 
+| pole,farma,dobytok,polia,záhrady,zahrady,pestovatelska plocha
+| 61
 |  
 | farm
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12341,8 +12341,8 @@
 |  
 |  
 | 
-| pole,farma,dobytok,polia,záhrady,zahrady,pestovatelska plocha
-| 61
+| Družstvo,druztvo,jrd,jzd,kravín,kravin,statok,gazdovstvo
+| 56
 |  
 | farm
 |  
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12425,14 +12425,14 @@
 |  
 | Garages
 | Garages
+| Garáže
+| 6
 |  
-| 0
+| duplicate
 |  
-|  
-| notTranslated
 | 
-|  
-| 0
+| garaze,parkovanie,kryte parkovanie,kryté parkovanie
+| 51
 |  
 |  
 |  
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,16 +12513,16 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
-| Priemyselné
-| 11
+| Industrial Area
+| Industrial Area
+| Priemyselná zóna
+| 16
 |  
 |  
 |  
 | 
-| priemyselne,vyroba,industrialne,industriálne
-| 44
+| priemyselna plocha,továreň,tovaren,závod,zavod,priemyselna zona
+| 63
 |  
 | industrial
 |  
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,16 +12648,16 @@
 | landuse
 | military
 |  
-| Military
-| Military
-| Armádne
-| 7
+| Military Area
+| Military Area
+| Vojenský obvod
+| 14
 |  
 |  
 |  
 | 
-| armadne, armada
-| 15
+| vojensky obvod,vojenské cvičisko,vojenske cvicisko,tankodrom,armádna zóna,zrmadna zona
+| 86
 |  
 |  
 |  
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,16 +12783,16 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
-| Obytné
-| 6
+| Residential Area
+| Residential Area
+| Obytná zóna
+| 11
 |  
-|  
+| duplicate
 |  
 | 
-| obytne,domy
-| 11
+| obytna oblast,mesto,dedina,rezidencna oblast,rezidenčná oblast,obytna zona
+| 74
 |  
 | building
 |  
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,16 +12828,16 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
-| Maloobchod
-| 10
+| Retail Area
+| Retail Area
+| Maloobchodná zóna
+| 17
 |  
 |  
 |  
 | 
-| obchod,maloobchodny,maloobchodný
-| 32
+| maloobchodna zona,maloobchod,predajna,predajňa,predaj,obchod,obchodná zóna
+| 74
 |  
 | shop
 |  
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -13280,14 +13280,14 @@
 |  
 | Nature Reserve
 | Nature Reserve
+| Prírodná rezervácia
+| 19
 |  
-| 0
 |  
 |  
-| notTranslated
 | protected,wildlife
-|  
-| 0
+| prirodna rezervacia,park,chko,narodný park,narodny park
+| 55
 |  
 | park
 |  
@@ -13820,14 +13820,14 @@
 |  
 | Running Track
 | Running Track
+| Bežecká trať
+| 12
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| bezecka trat
+| 12
 |  
 | pitch
 |  
@@ -13910,14 +13910,14 @@
 |  
 | Sports Center / Gym
 | Sports Center / Gym
+| Športové centrum
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | gym
-|  
-| 0
+| sportove centrum,fitko,fitness centrum,posilňovňa,posilnovna,posilovna,polovňa
+| 78
 |  
 | pitch
 |  
@@ -14045,14 +14045,14 @@
 |  
 | Racetrack (non-Motorsport)
 | Racetrack (non-Motorsport)
+| Pretekárska dráha (nemotoristická)
+| 34
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| pretekarska draha (nemotoristicka),zavodná dráha,zavodna draha
+| 62
 |  
 | highway-road
 |  
@@ -14720,14 +14720,14 @@
 |  
 | Water Well
 | Water Well
+| Studňa
+| 6
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| studna,voda
+| 11
 |  
 |  
 |  
@@ -15125,14 +15125,14 @@
 |  
 | Cave Entrance
 | Cave Entrance
+| Vstup do jaskyne
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| jaskyňa,jaskyna
+| 15
 |  
 |  
 |  
@@ -17690,14 +17690,14 @@
 |  
 | Substation
 | Substation
+| Elektrická rozvodňa
+| 19
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| elektricka rozvodna,transformator,transformátor
+| 47
 |  
 |  
 |  
@@ -18725,14 +18725,14 @@
 |  
 | Anime Shop
 | Anime Shop
+| Obchod s anime
+| 14
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| anime
+| 5
 |  
 | shop
 |  
@@ -18770,14 +18770,14 @@
 |  
 | Antiques Shop
 | Antiques Shop
+| Obchod so tarožitnosťami
+| 24
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod so starozitnostami,starozitnosti,starožitnosti,starý nábytok,stary nabytok
+| 81
 |  
 | shop
 |  
@@ -18815,14 +18815,14 @@
 |  
 | Art Gallery
 | Art Gallery
+| Obchod s umením
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s umenim,obrazy,umelecké diela,umelecke diela
+| 52
 |  
 | art-gallery
 |  
@@ -18860,14 +18860,14 @@
 |  
 | Baby Goods Store
 | Baby Goods Store
+| Obchod s detskými potrebami
+| 27
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s detskymi potrebami
+| 27
 |  
 | shop
 |  
@@ -18905,14 +18905,14 @@
 |  
 | Bag/Luggage Store
 | Bag/Luggage Store
+| Obchod s kuframi
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | handbag,purse
-|  
-| 0
+| kufre,kufor,batoh,batožina,batozina
+| 35
 |  
 | shop
 |  
@@ -18995,14 +18995,14 @@
 |  
 | Bathroom Furnishing Store
 | Bathroom Furnishing Store
+| Obchod s kúpelňami
+| 18
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s kuplenami,kupelka,kúpelka,kúpelňa,kupelna
+| 50
 |  
 | shop
 |  
@@ -19085,14 +19085,14 @@
 |  
 | Bedding/Mattress Store
 | Bedding/Mattress Store
+| Obchod s posteľami/matracmi
+| 27
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| matrac,matrace,posteľ,postel,postele,spálňa,spalna
+| 50
 |  
 | lodging
 |  
@@ -19265,14 +19265,14 @@
 |  
 | Book Store
 | Book Store
+| Kníhkupectvo
+| 12
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| knihkupectvo,knihy,kniha,obchod s knihami
+| 41
 |  
 | shop
 |  
@@ -19400,14 +19400,14 @@
 |  
 | Candle Shop
 | Candle Shop
+| Obchod so svičkami
+| 18
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod so svieckami,sviecka,sviečka,sviečky,sviecky
+| 51
 |  
 | shop
 |  
@@ -19580,14 +19580,14 @@
 |  
 | Carpet Store
 | Carpet Store
+| Obchod s kobercami
+| 18
 |  
-| 0
 |  
 |  
-| notTranslated
 | rug
-|  
-| 0
+| koberec,koberce,pokrovec,rokožka,rohozka
+| 40
 |  
 | shop
 |  
@@ -19625,14 +19625,14 @@
 |  
 | Cheese Store
 | Cheese Store
+| Obchod so syrmi
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| syr,syry,korbáčiki,korbaciky,oštiepok,ostiepok,oštiepky,ostiepky
+| 64
 |  
 | shop
 |  
@@ -19715,14 +19715,14 @@
 |  
 | Chocolate Store
 | Chocolate Store
+| Obchod s čokoládou
+| 18
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s cokoladou,cokolada,čokoláda,pralinky
+| 45
 |  
 | shop
 |  
@@ -19850,14 +19850,14 @@
 |  
 | Candy Store
 | Candy Store
+| Obchod so sladkosťami
+| 21
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod so sladkostami,sladkosti,cukrovinky
+| 42
 |  
 | shop
 |  
@@ -19940,14 +19940,14 @@
 |  
 | Copy Store
 | Copy Store
+| Fotokopírovanie
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| fotokopirovanie,fotokopírka,fotokopirka
+| 39
 |  
 | shop
 |  
@@ -19985,14 +19985,14 @@
 |  
 | Cosmetics Store
 | Cosmetics Store
+| Obchod s kozmetikou
+| 19
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| kozmetika,drogeria
+| 18
 |  
 | shop
 |  
@@ -20030,14 +20030,14 @@
 |  
 | Arts and Crafts Store
 | Arts and Crafts Store
+| Obchod s umeleckými potrebami
+| 29
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| Obchod s umeleckymi potrebami,umelecké potreby,umelecke potreby
+| 63
 |  
 | art-gallery
 |  
@@ -20075,14 +20075,14 @@
 |  
 | Curtain Store
 | Curtain Store
+| Obchod so záclonami
+| 19
 |  
-| 0
 |  
 |  
-| notTranslated
 | drape*,window
-|  
-| 0
+| obchod so zaclonami,záclony,zaclony,záclona,zaclona,záves,zaves,závesy,zavesy
+| 77
 |  
 | shop
 |  
@@ -20120,14 +20120,14 @@
 |  
 | Dairy Store
 | Dairy Store
+| Obchod s mliečnymi výrobkami
+| 28
 |  
-| 0
 |  
 |  
-| notTranslated
 | milk,egg,cheese
-|  
-| 0
+| obchod s mliecnymi vyrobkami,mlieko,jogurt,jogurty,smotana,syr,syry
+| 67
 |  
 | shop
 |  
@@ -20300,14 +20300,14 @@
 |  
 | Dry Cleaner
 | Dry Cleaner
+| Čistiareň odevov
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| cistiaren odevov,suché čistenie,suche cistenie
+| 46
 |  
 | shop
 |  
@@ -20390,14 +20390,14 @@
 |  
 | Erotic Store
 | Erotic Store
+| Ochod s erotickými potrebami
+| 28
 |  
-| 0
 |  
 |  
-| notTranslated
 | sex,porn
-|  
-| 0
+| obchod s erotickymi potrebami,sexshop,sex shop
+| 46
 |  
 | shop
 |  
@@ -20435,14 +20435,14 @@
 |  
 | Fabric Store
 | Fabric Store
+| Obchod s látkami
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | sew
-|  
-| 0
+| obchod s latkami,textil
+| 23
 |  
 | shop
 |  
@@ -20525,14 +20525,14 @@
 |  
 | Fashion Store
 | Fashion Store
+| Obchod s módnymi doplnkami
+| 26
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s modmymi doplnkami
+| 26
 |  
 | shop
 |  
@@ -20660,14 +20660,14 @@
 |  
 | Framing Shop
 | Framing Shop
+| Obchod s rámami
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s ramami,obrazy,rám,ram
+| 30
 |  
 | shop
 |  
@@ -20750,14 +20750,14 @@
 |  
 | Furnace Store
 | Furnace Store
+| Obchod so kotlami
+| 17
 |  
-| 0
 |  
 |  
-| notTranslated
 | oven,stove
-|  
-| 0
+| pec,kotol
+| 9
 |  
 | shop
 |  
@@ -21065,14 +21065,14 @@
 |  
 | Hearing Aids Store
 | Hearing Aids Store
+| Obchod s načúvacími prístrojmi
+| 30
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s nacuvacimi pristrojmi,nacuvaci pristroj,načúvací prístroj
+| 66
 |  
 | shop
 |  
@@ -21110,14 +21110,14 @@
 |  
 | Herbalist
 | Herbalist
+| Bylinkárstvo
+| 12
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| bylinkarstvo,bylinky
+| 20
 |  
 | shop
 |  
@@ -21194,27 +21194,27 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
+| Houseware Store
+| Houseware Store
+| Domáce potreby
+| 14
 |  
-| 0
 |  
 |  
-| notTranslated
-| home
-|  
-| 0
+| home,household
+| domace potreby,zeleziarstvo,železiarstvo
+| 40
 |  
 | shop
 |  
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  
@@ -21245,14 +21245,14 @@
 |  
 | Interior Decoration Store
 | Interior Decoration Store
+| Obchod s bytovými dekoráciami
+| 29
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s bytovami dekoraciami,intriérové dekorácie,intrierove dekoracie
+| 71
 |  
 | shop
 |  
@@ -21335,14 +21335,14 @@
 |  
 | News Kiosk
 | News Kiosk
+| Novinový stánok
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| novinovy stanok,noviny,casopisy,časopisy
+| 40
 |  
 | shop
 |  
@@ -21380,14 +21380,14 @@
 |  
 | Kitchen Design Store
 | Kitchen Design Store
+| Kuchynské štúdio
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| kuchynske studio,kuchyna,uchyňa,kuchyne,kuchyňe,kuchynský kút,kuchynsky kut,kuchynské kúty,kuchynske kuty
+| 105
 |  
 | shop
 |  
@@ -21470,14 +21470,14 @@
 |  
 | Leather Store
 | Leather Store
+| Obchod s kožennými výrobkami
+| 28
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s kozennymi vyrobkami,koza,koža
+| 38
 |  
 | shop
 |  
@@ -21650,14 +21650,14 @@
 |  
 | Massage Shop
 | Massage Shop
+| Masérstvo
+| 9
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| maserstvo,masáže,masaze,masáž,masaz
+| 35
 |  
 | shop
 |  
@@ -21695,14 +21695,14 @@
 |  
 | Medical Supply Store
 | Medical Supply Store
+| Obchod so zdravotníckymi pomôckami
+| 34
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod so zdravonickymi pomockami
+| 33
 |  
 | shop
 |  
@@ -21785,14 +21785,14 @@
 |  
 | Money Lender
 | Money Lender
+| Požičovňa peňazí
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| pozicovna penazi,peniaze,pôžicky,pozicky
+| 40
 |  
 | bank
 |  
@@ -21920,14 +21920,14 @@
 |  
 | Musical Instrument Store
 | Musical Instrument Store
+| Obchod s hudobnými nástrojmi
+| 28
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s hudobnymi nastrojmi, hudobne nastroje,hudobné nástroje
+| 63
 |  
 | music
 |  
@@ -21965,14 +21965,14 @@
 |  
 | Newspaper/Magazine Shop
 | Newspaper/Magazine Shop
+| Obchod s novinami/časopismi
+| 27
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s novinami/casopismi,noviny,casopisy,časopisy
+| 52
 |  
 | shop
 |  
@@ -22055,14 +22055,14 @@
 |  
 | Organic Goods Store
 | Organic Goods Store
+| Obchod s eko potravinami
+| 24
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| eko potraviny
+| 13
 |  
 | shop
 |  
@@ -22100,14 +22100,14 @@
 |  
 | Outdoors Store
 | Outdoors Store
+| Outdoorový obchod
+| 17
 |  
-| 0
 |  
 |  
-| notTranslated
 | camping,climbing,hiking
-|  
-| 0
+| outdoorovy obchod,trekový obchod,trekovy ochod,outdoor
+| 54
 |  
 | shop
 |  
@@ -22145,14 +22145,14 @@
 |  
 | Paint Store
 | Paint Store
+| Obchod s nátermi
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s natermi,farby,laky,nátery,natery
+| 41
 |  
 | water
 |  
@@ -22190,14 +22190,14 @@
 |  
 | Pawn Shop
 | Pawn Shop
+| Záložňa
+| 7
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| zalozna
+| 7
 |  
 | shop
 |  
@@ -22325,14 +22325,14 @@
 |  
 | Fireworks Store
 | Fireworks Store
+| Obchod s pyrotechnikov
+| 22
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| pyrotechnika,ohňostroj,ohnostroj,prskavky,rakety,delobuchy
+| 58
 |  
 | shop
 |  
@@ -22370,14 +22370,14 @@
 |  
 | Radio/Electronic Component Store
 | Radio/Electronic Component Store
+| Obchod s elektronikou
+| 21
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| elektronika
+| 11
 |  
 | shop
 |  
@@ -22415,14 +22415,14 @@
 |  
 | Religious Store
 | Religious Store
+| Obchod s náboženkými pomôckami
+| 30
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s nabozenskymi pomockami
+| 31
 |  
 | shop
 |  
@@ -22460,14 +22460,14 @@
 |  
 | Scuba Diving Shop
 | Scuba Diving Shop
+| Obchod s potápačským vybavením
+| 30
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s potapacskym vybavemin,potapacske vybavenie,potapačské vybanie,
+| 71
 |  
 | swimming
 |  
@@ -22550,15 +22550,15 @@
 |  
 | Consignment/Thrift Store
 | Consignment/Thrift Store
+| Second hand
+| 11
 |  
-| 0
 |  
 |  
-| notTranslated
 | secondhand,second hand,resale,thrift,used
-|  
-| 0
-|  
+| z druhej ruky
+| 13
+| SpaceStart
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -22775,14 +22775,14 @@
 |  
 | Tailor
 | Tailor
+| Krajčírstvo
+| 11
 |  
-| 0
+| duplicate
 |  
-|  
-| notTranslated
 | clothes,suit
-|  
-| 0
+| krajcirstvo,krajcir,krajčir
+| 27
 |  
 | clothing-store
 |  
@@ -22820,14 +22820,14 @@
 |  
 | Tattoo Parlor
 | Tattoo Parlor
+| Tetovací salón
+| 14
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| tetovaci salon,tetovania,tetovanie
+| 34
 |  
 | shop
 |  
@@ -22865,14 +22865,14 @@
 |  
 | Tea Store
 | Tea Store
+| Obchod s čajom
+| 14
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod s cajom,cajovy obchod,čajový ochod
+| 41
 |  
 | cafe
 |  
@@ -22910,14 +22910,14 @@
 |  
 | Ticket Seller
 | Ticket Seller
+| Predajňa vstupeniek
+| 19
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| predajna listkov,vstupenky,predajna vstupeniek,vstupenka,listok,lístok
+| 70
 |  
 | shop
 |  
@@ -22955,14 +22955,14 @@
 |  
 | Tobacco Shop
 | Tobacco Shop
+| Obchod s tabakom
+| 16
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| tabak,trafika
+| 13
 |  
 | shop
 |  
@@ -23180,14 +23180,14 @@
 |  
 | Vacuum Cleaner Store
 | Vacuum Cleaner Store
+| Obchod s vysavačmi
+| 18
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| bchod s vysavacmi,vysavače,vysavace,vysavač,vysavac
+| 51
 |  
 | shop
 |  
@@ -23315,14 +23315,14 @@
 |  
 | Video Game Store
 | Video Game Store
+| Obchod s videohrami
+| 19
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| videohry,počítačové hry,pocitacove hry
+| 38
 |  
 | shop
 |  
@@ -23360,14 +23360,14 @@
 |  
 | Watersport/Swim Shop
 | Watersport/Swim Shop
+| Ochod s plaveckým vybavením
+| 27
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| ochod s plaveckym vybavenim
+| 27
 |  
 | shop
 |  
@@ -23405,14 +23405,14 @@
 |  
 | Weapon Shop
 | Weapon Shop
+| Ochod so zbraňami
+| 17
 |  
-| 0
 |  
 |  
-| notTranslated
 | ammo,gun,knife,knives
-|  
-| 0
+| obchod so zbranami,zbraňe,zbrane,nože,noze
+| 42
 |  
 | shop
 |  
@@ -23450,14 +23450,14 @@
 |  
 | Window Blind Store
 | Window Blind Store
+| Obchod so žalúziami
+| 19
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| obchod so zaluziami,zaluzie,žalúzie
+| 35
 |  
 | shop
 |  
@@ -24305,14 +24305,14 @@
 |  
 | Speed Bump
 | Speed Bump
+| Spomalovcí prah
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | speed hump
-|  
-| 0
+| spomalovaci prah,retardér,retarder
+| 34
 |  
 |  
 |  
@@ -24350,14 +24350,14 @@
 |  
 | Speed Hump
 | Speed Hump
+| Spomalovací hrb
+| 15
 |  
-| 0
 |  
 |  
-| notTranslated
 | speed bump
-|  
-| 0
+| spomalovaci hrb
+| 15
 |  
 |  
 |  
@@ -24395,14 +24395,14 @@
 |  
 | Rumble Strip
 | Rumble Strip
+| Nízky spomaľovací prah
+| 22
 |  
-| 0
 |  
 |  
-| notTranslated
 | sleeper lines,audible lines,growlers
-|  
-| 0
+| nizky spomalovaci prah
+| 22
 |  
 |  
 |  
@@ -24440,14 +24440,14 @@
 |  
 | Raised Pedestrian Crossing
 | Raised Pedestrian Crossing
+| Vyvýšený prechod pre chodcov
+| 28
 |  
-| 0
 |  
 |  
-| notTranslated
 | speed table,flat top hump
-|  
-| 0
+| vyvyseny prechod pre chodcov
+| 28
 |  
 |  
 |  

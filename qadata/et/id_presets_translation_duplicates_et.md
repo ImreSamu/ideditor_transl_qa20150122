@@ -12,5 +12,5 @@
 |Linn|Town|place/town| |town|place=town| | | | |area| |point| | |
 |Raudtee|Railway|railway| | |railway=*| | | | |area|line|point|vertex| |
 |Raudtee|Rail|railway/rail| |railway-rail|railway=rail| | | | | |line| | | |
-|Surnuaed|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Surnuaed|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |Surnuaed|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |

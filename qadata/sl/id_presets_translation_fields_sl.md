@@ -87,6 +87,7 @@
 |fuel/octane_95|1|check|Sells Midgrade Gasoline|Prodaja 95 oktanski bencin| | |fuel:octane_95| | | | | |last|
 |fuel/octane_98|1|check|Sells Premium Gasoline|Prodaja 98 oktanski bencin| | |fuel:octane_98| | | | | |last|
 |gauge|1|combo|Gauge|Širina tirov| | |gauge| | | | | |last|
+|gender|1|radio|Gender| | | |male,female,unisex| | | |Unknown| |last|
 |generator/method|1|combo|Method|Način| | |generator:method| | | | | |last|
 |generator/source|1|combo|Source|Vir| | |generator:source| | | | | |last|
 |generator/type|1|combo|Type|Vrsta| | |generator:type| | | | | |last|
@@ -217,7 +218,7 @@
 |smoothness|5|combo| | | | | |very_bad|High Clearance: light duty off-road vehicle|Visoko podvozje: za vozila z večjim odmikom od tal, lažje terence| | |last|
 |smoothness|6|combo| | | | | |horrible|Off-Road: heavy duty off-road vehicle|Terenska vozila: za terenska vozila ipd.| | |last|
 |smoothness|7|combo| | | | | |very_horrible|Specialized off-road: tractor, ATV|Posebna terenska vozila: traktor, štirikolesnik, tank, gorsko kolo| | |last|
-|smoothness|8|combo| | | | | |impassible|Impassible / No wheeled vehicle|Neprehodno - za nobeno vozilo s kolesi| | |last|
+|smoothness|8|combo| | | | | |impassable|Impassable / No wheeled vehicle|| | |last|
 |social_facility_for|1|radio|People served|Socialna ustanova - ciljna skupina| | |social_facility:for| | | |Homeless, Disabled, Child, etc|brezdomci,invalidi,otroci|last|
 |source|1|text|Source|Vir|source|true|source| | | | | |last|
 |sport|1|combo|Sport|Šport| | |sport| | | | | |last|

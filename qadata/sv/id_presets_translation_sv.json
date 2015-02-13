@@ -517,6 +517,7 @@
       "description__transl": "Ta bort objekt permanent.",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "Detta objekt kan inte raderas, då det inte är komplett hämtad.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Ta bort"
     },
@@ -1248,6 +1249,7 @@
         "key": "brand",
         "label": "Brand",
         "label__en": "Brand",
+        "label__transl": "Varumärke",
         "type": "text"
       },
       "building": {
@@ -1624,6 +1626,35 @@
         "label__transl": "Spårvidd",
         "type": "combo"
       },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "label__transl": "Kön",
+        "options": {
+          "female__en": "Female",
+          "female__transl": "Kvinna",
+          "male__en": "Male",
+          "male__transl": "Man",
+          "unisex__en": "Unisex",
+          "unisex__transl": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "placeholder__transl": "Okänt",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
+      },
       "generator/method": {
         "key": "generator:method",
         "label": "Method",
@@ -1780,12 +1811,18 @@
         "key": "leaf_cycle",
         "label": "Leaf Cycle",
         "label__en": "Leaf Cycle",
+        "label__transl": "Lövcykel",
         "options": {
           "deciduous__en": "Deciduous",
+          "deciduous__transl": "Lövfällande",
           "evergreen__en": "Evergreen",
+          "evergreen__transl": "Vintergröna",
           "mixed__en": "Mixed",
+          "mixed__transl": "Mixat",
           "semi_deciduous__en": "Semi-Deciduous",
-          "semi_evergreen__en": "Semi-Evergreen"
+          "semi_deciduous__transl": "Delvist lövfällande",
+          "semi_evergreen__en": "Semi-Evergreen",
+          "semi_evergreen__transl": "Delvist vintergröna"
         },
         "strings": {
           "options": {
@@ -1802,11 +1839,16 @@
         "key": "leaf_type",
         "label": "Leaf Type",
         "label__en": "Leaf Type",
+        "label__transl": "Lövtyp",
         "options": {
           "broadleaved__en": "Broadleaved",
+          "broadleaved__transl": "Löv",
           "leafless__en": "Leafless",
+          "leafless__transl": "Utan löv",
           "mixed__en": "Mixed",
-          "needleleaved__en": "Needleleaved"
+          "mixed__transl": "Blandat",
+          "needleleaved__en": "Needleleaved",
+          "needleleaved__transl": "Barr"
         },
         "strings": {
           "options": {
@@ -2528,8 +2570,8 @@
           "good__transl": "Tunna Hjul: racercykel",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
           "horrible__transl": "Terräng: tunga terrängfordon",
-          "impassible__en": "Impassible / No wheeled vehicle",
-          "impassible__transl": "Ogenomträngliga / Ej hjulbaserade fordon",
+          "impassable__en": "Impassable / No wheeled vehicle",
+          "impassable__transl": "Oframkomligt / Inga hjulfordon",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "intermediate__transl": "Hjul: cykel, rullstol, scooter",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
@@ -2546,7 +2588,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -20954,7 +20996,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -24538,7 +24581,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24554,7 +24596,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24574,8 +24615,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24611,20 +24650,19 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "Kommersiell",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
+        "name__transl": "Kommersiell område",
         "tags": {
           "landuse": "commercial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Kommersiell, kommersiellt, affärsområde, handelsområde, shoppingområde"
+        "terms__transl": "Kommersiell, kommersiellt, affärsområde, handelsområde, shoppingområde, handel, butiksområde"
       },
       "landuse/construction": {
         "fields": [
@@ -24632,7 +24670,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24655,9 +24692,9 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Åker",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Gård",
         "searchable": false,
         "tags": {
           "landuse": "farm"
@@ -24665,35 +24702,32 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Åker, åkerjord, åkerfält, fält, gärde, teg, åkerlapp, inäga, odling, odlingsfält, lantbruk"
+        "terms__transl": "Bondgård, gård, jordbruk, lantbruk, lantegendom, lantgård"
       },
       "landuse/farmland": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Gård",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Åkermark",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland",
-        "terms__transl": "gård, jordbruk, lantgård, farm, bondgård, lantbruk, lantegendom, gårdsplan"
+        "terms__en": "",
+        "terms__transl": "Åker, åkerjord, åkerfält, fält, gärde, teg, åkerlapp, inäga, odling, odlingsfält, lantbruk, åkermark"
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24714,7 +24748,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24747,7 +24780,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24763,20 +24795,19 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Industriell",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
+        "name__transl": "Industriområde",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Industriell, industriområde, fabriksområde, fabrik"
+        "terms__transl": "Industriområde, fabriksområde, fabriksdistrikt, industricentrum"
       },
       "landuse/landfill": {
         "geometry": [
@@ -24796,7 +24827,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24814,23 +24844,22 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "Militärt",
+        "name": "Military Area",
+        "name__en": "Military Area",
+        "name__transl": "Militärt område",
         "tags": {
           "landuse": "military"
         },
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Militärt, militärt område, regemente, övningsområde, försvar, krigsmakt"
+        "terms__transl": "Militärt område, militärt övningsområde, regemente, försvar, krigsmakt"
       },
       "landuse/orchard": {
         "fields": [
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24847,7 +24876,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24863,12 +24891,11 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
         "name__transl": "Bostadsområde",
         "tags": {
           "landuse": "residential"
@@ -24876,16 +24903,15 @@
         "terms": [
         ],
         "terms__en": "",
-        "terms__transl": "Bostadsområde, villaområde, lägenhetsområde, getto, miljonområde, förort"
+        "terms__transl": "Bostadsområde, villaområde, lägenhetsområde, getto, miljonområde, förort, "
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
         "name__transl": "Detaljhandel",
         "tags": {
           "landuse": "retail"
@@ -24895,7 +24921,6 @@
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -35572,7 +35597,7 @@
         "terms__en": "stereo,video",
         "terms__transl": "HIFI-butik, hifi, ljud, ljudåtergivning, förstärkare, högtalare, ljudanläggning, audio, stereo, stereoanläggning"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -35584,15 +35609,18 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
+        "name__transl": "Husgeråd",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household",
+        "terms__transl": "husgeråd, köksredskap, bestick, porslin, prydnadsföremål"
       },
       "shop/interior_decoration": {
         "fields": [

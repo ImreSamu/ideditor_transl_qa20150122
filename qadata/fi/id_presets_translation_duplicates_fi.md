@@ -1,16 +1,14 @@
 |nameTransl|nameEn|presetKey|searchable|icon|tags0|tags1|tags2|tags3|tags4|geometryArea|geometryLine|geometryPoint|geometryVertex|geometryRelation|
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-|Asuinalue|Neighborhood|place/neighbourhood| |triangle-stroked|place=neighbourhood| | | | |area| |point| | |
-|Asuinalue|Residential|landuse/residential| |building|landuse=residential| | | | |area| |point| | |
 |Hallinnollinen raja|Administrative Boundary|type/boundary/administrative| |boundary|type=boundary|boundary=administrative| | | | | | | |relation|
 |Hallinnollinen raja|Administrative Boundary|boundary/administrative| | |boundary=administrative| | | | | |line| | | |
-|Hautausmaa|Churchyard|landuse/churchyard| | |landuse=churchyard| | | | |area| | | | |
+|Hautausmaa|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |Hautausmaa|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|Hautausmaa|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
-|Jalkakäytävä|Sidewalk|footway/sidewalk| | |highway=footway|footway=sidewalk| | | | |line| | | |
+|Hautausmaa|Churchyard|landuse/churchyard| | |landuse=churchyard| | | | |area| | | | |
 |Jalkakäytävä|Foot Path|highway/footway| |highway-footway|highway=footway| | | | |area|line| | | |
-|Kiitorata|Runway|aeroway/runway| | |aeroway=runway| | | | |area|line| | | |
+|Jalkakäytävä|Sidewalk|footway/sidewalk| | |highway=footway|footway=sidewalk| | | | |line| | | |
 |Kiitorata|Aeroway|aeroway| |airport|aeroway=*| | | | |area|line|point|vertex| |
+|Kiitorata|Runway|aeroway/runway| | |aeroway=runway| | | | |area|line| | | |
 |Kirkko|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |Kirkko|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
 |Lauttareitti|Ferry Route|route/ferry| |ferry|route=ferry| | | | | |line| | | |

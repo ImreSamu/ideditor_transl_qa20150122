@@ -423,7 +423,7 @@
 | 1
 | text
 | Brand
-|  
+| Brand
 |  
 |  
 | brand
@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+| Genere
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Sconosciuto
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -1638,13 +1653,13 @@
 | 1
 | combo
 | Leaf Cycle
-|  
+| Fogliame
 |  
 |  
 | leaf_cycle
 | evergreen
 | Evergreen
-| 
+| Sempreverde
 |  
 |  
 | last
@@ -1659,7 +1674,7 @@
 |  
 | deciduous
 | Deciduous
-| 
+| Deciduo
 |  
 |  
 | last
@@ -1674,7 +1689,7 @@
 |  
 | semi_evergreen
 | Semi-Evergreen
-| 
+| Semi-sempreverde
 |  
 |  
 | last
@@ -1689,7 +1704,7 @@
 |  
 | semi_deciduous
 | Semi-Deciduous
-| 
+| Semi-deciduo
 |  
 |  
 | last
@@ -1704,7 +1719,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Misto
 |  
 |  
 | last
@@ -1713,13 +1728,13 @@
 | 1
 | combo
 | Leaf Type
-|  
+| Tipo di foglia
 |  
 |  
 | leaf_type
 | broadleaved
 | Broadleaved
-| 
+| Latifoglia
 |  
 |  
 | last
@@ -1734,7 +1749,7 @@
 |  
 | needleleaved
 | Needleleaved
-| 
+| Aghifoglia
 |  
 |  
 | last
@@ -1749,7 +1764,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Misto
 |  
 |  
 | last
@@ -1764,7 +1779,7 @@
 |  
 | leafless
 | Leafless
-| 
+| Senza foglie
 |  
 |  
 | last
@@ -3277,8 +3292,8 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
+| impassable
+| Impassable / No wheeled vehicle
 | Nessun veicolo ruotato
 |  
 |  

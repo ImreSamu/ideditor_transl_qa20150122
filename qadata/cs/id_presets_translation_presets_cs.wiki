@@ -3068,7 +3068,7 @@
 | Kostel
 | 6
 |  
-| duplicate
+|  
 |  
 | christian,abbey,basilica,bethel,cathedral,chancel,chantry,chapel,fold,house of God,house of prayer,house of worship,minster,mission,oratory,parish,sacellum,sanctuary,shrine,tabernacle,temple
 | křesťanský,křesťanství,kostel,kostelík,chrám,bazilika,katedrála,kaple,kaplička,chrám páně,rotunda,farnost,diecéze
@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -4685,10 +4685,10 @@
 |  
 | Ditch
 | Ditch
-| Příkop
-| 6
+| Příkop jako překážka
+| 20
 |  
-| duplicate
+|  
 |  
 | 
 | příkop,járek,jáma,strouha,škarpa,stoka
@@ -5540,10 +5540,10 @@
 |  
 | Church
 | Church
-| Kostel
-| 6
+| Budova kostela
+| 14
 |  
-| duplicate
+|  
 |  
 | 
 | kostel,chrám,bazilika,rotunda,megakostel
@@ -5900,10 +5900,10 @@
 |  
 | Garages
 | Garages
-| Garáže
-| 6
+| Budova garáží
+| 13
 |  
-| duplicate
+|  
 |  
 | 
 | garáž,garáže,parkování,kryté parkování
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,16 +12153,16 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| Podniky, kanceláře
-| 18
+| Commercial Area
+| Commercial Area
+| Oblast kanceláří, podniků
+| 25
 |  
 |  
 |  
 | 
-| obchodní,komerční
-| 17
+| kancelář,kancelářský,kancelářská,podnikový,podnik,komerční
+| 58
 |  
 | commercial
 |  
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,16 +12243,16 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
 | Zemědělská půda (zastaralý tag)
 | 31
 |  
 |  
 |  
 | 
-| pole,farma,dobytek,zahrady,pěstitelská plocha
-| 45
+| (zastaralý tag pro zemědělskou půdu)
+| 36
 |  
 | farm
 |  
@@ -12288,14 +12288,14 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
 | Zemědělská půda
 | 15
 |  
 |  
 |  
-| farmland
+| 
 | pole,farma,dobytek,zahrady,pěstitelská plocha
 | 45
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12380,10 +12380,10 @@
 |  
 | Forest
 | Forest
-| Les
-| 3
+| Hospodářský les
+| 15
 |  
-| duplicate
+|  
 |  
 | tree
 | les,hospodářský les
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12425,10 +12425,10 @@
 |  
 | Garages
 | Garages
-| Garáže
-| 6
+| Plocha garáží
+| 13
 |  
-| duplicate
+|  
 |  
 | 
 | garáže,garáž,parkování,parkoviště
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,16 +12513,16 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
-| Průmysl
-| 7
+| Industrial Area
+| Industrial Area
+| Průmyslová oblast
+| 17
 |  
 |  
 |  
 | 
-| průmyslové,výroba,industriální
-| 30
+| průmysl,průmyslová,průmyslové,průmyslový,industriální,továrna,továrny,fabrika,fabriky
+| 85
 |  
 | industrial
 |  
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,8 +12648,8 @@
 | landuse
 | military
 |  
-| Military
-| Military
+| Military Area
+| Military Area
 | Vojenský prostor
 | 16
 |  
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,16 +12783,16 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
+| Residential Area
+| Residential Area
 | Rezidenční oblast
 | 17
 |  
 |  
 |  
 | 
-| obytné,domy
-| 11
+| obytná oblast,rezidenční oblast,byty,domy,bydlení,obytné,sídelní
+| 64
 |  
 | building
 |  
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,16 +12828,16 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
-| Obchody
-| 7
+| Retail Area
+| Retail Area
+| Nákupní zóna
+| 12
 |  
 |  
 |  
 | 
-| obchod,maloobchodní
-| 19
+| nákupní,obchod,maloobchodní,nákup
+| 33
 |  
 | shop
 |  
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -15890,14 +15890,14 @@
 |  
 | Wood
 | Wood
-| Les
-| 3
+| Prales
+| 6
 |  
-| duplicate
+|  
 |  
 | tree
-| prales,přírodní les
-| 19
+| prales,přírodní les,neudržovaný les,nehospodářský les
+| 53
 |  
 | park2
 |  
@@ -21194,27 +21194,27 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
+| Houseware Store
+| Houseware Store
 | Domácí potřeby
 | 14
 |  
 |  
 |  
-| home
-| domácí potřeby,potřeby pro domácnost,domácnost,kuchyňské potřeby
-| 64
+| home,household
+| domácí potřeby,kuchyňské potřeby,potřeby pro domácnost,nádobí
+| 61
 |  
 | shop
 |  
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  
@@ -25745,10 +25745,10 @@
 |  
 | Ditch
 | Ditch
-| Příkop
-| 6
+| Příkop / strouha
+| 16
 |  
-| duplicate
+|  
 |  
 | 
 | příkop, strouha, škarpa

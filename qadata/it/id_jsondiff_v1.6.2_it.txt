@@ -105,6 +105,10 @@
 +    changes: "{count} Cambiamenti"
    }
    inspector: {
++    check: {
++      yes: "Sì"
++      no: "No"
++    }
 +    add_fields: "Aggiungi campo:"
    }
    save: {
@@ -125,8 +129,39 @@
 +      bench: {
 +        label: "Panchina"
 +      }
++      brand: {
++        label: "Brand"
++      }
 +      delivery: {
 +        label: "Consegna"
++      }
++      gender: {
++        label: "Genere"
++        placeholder: "Sconosciuto"
++        options: {
++          male: "Maschile"
++          female: "Femminile"
++          unisex: "Unisex"
++        }
++      }
++      leaf_cycle: {
++        label: "Fogliame"
++        options: {
++          evergreen: "Sempreverde"
++          deciduous: "Deciduo"
++          semi_evergreen: "Semi-sempreverde"
++          semi_deciduous: "Semi-deciduo"
++          mixed: "Misto"
++        }
++      }
++      leaf_type: {
++        label: "Tipo di foglia"
++        options: {
++          broadleaved: "Latifoglia"
++          needleleaved: "Aghifoglia"
++          mixed: "Misto"
++          leafless: "Senza foglie"
++        }
 +      }
 +      service/bicycle/chaintool: {
 +        label: "Smagliacatene"
@@ -185,6 +220,12 @@
 +          4: "4: Pendenza media <30%, in cattive condizioni, rami/roccie grandi"
 +          5: "5: Pendenza estrema, in genere è necessario spigere o sollevare la bici"
 +        }
+       }
+       smoothness: {
+         options: {
+-          impassible: "Nessun veicolo ruotato"
++          impassable: "Nessun veicolo ruotato"
+         }
        }
      }
      presets: {
@@ -277,12 +318,48 @@
 +        name: "Negozio erotico"
 +        terms: "Sexy shop"
 +      }
++      shop/houseware: {
++        name: "Casalinghi"
++        terms: "casalinghi,negozio di casalinghi,pentole"
++      }
        amenity/car_sharing: {
 -        terms: "'Car Sharing"
 +        terms: "Car Sharing"
        }
        amenity/charging_station: {
 +        terms: "stazione di ricarica,ricarica"
+       }
+       landuse/commercial: {
+-        name: "Commerciale"
++        name: "Area commerciale"
+-        terms: "Commerciale"
++        terms: "centro commerciale,area commerciale,commerciale,commercio"
+       }
+       landuse/farm: {
+-        name: "Agricolo"
++        name: "Terreno agricolo"
+-        terms: "Fattoria"
++        terms: "fattoria"
+       }
+       landuse/industrial: {
+-        name: "Industriale"
++        name: "Area industriale"
+-        terms: "Industriale"
++        terms: "zona industriale,zona artigianale,industria,artigianato"
+       }
+       landuse/military: {
+-        name: "Militare"
++        name: "Area militare"
+       }
+       landuse/residential: {
+-        name: "Residenziale"
++        name: "Area residenziale"
+-        terms: "Residenziale"
++        terms: "residenziale,zona residenziale,case,abitazioni,alloggi"
+       }
+       landuse/retail: {
+-        name: "Negozio di vendita al dettaglio"
++        name: "Area di vendita al dettaglio"
        }
      }
    }

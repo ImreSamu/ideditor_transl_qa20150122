@@ -5,5 +5,22 @@
 -        label: "类型"
 -      }
      }
+     presets: {
+-      landuse/commercial: {
+-        name: "商业区"
+-      }
+-      landuse/farm: {
+-        name: "农场"
+-      }
+-      landuse/industrial: {
+-        name: "工业区"
+-      }
+-      landuse/residential: {
+-        name: "住宅区"
+-      }
+-      landuse/retail: {
+-        name: "零售"
+-      }
+     }
    }
  }

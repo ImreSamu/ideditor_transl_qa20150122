@@ -101,7 +101,7 @@
 |  
 |  
 | ski lift,funifor,funitel
-| kötélpálya
+| Kötélpálya
 | 10
 |  
 |  
@@ -326,8 +326,8 @@
 |  
 |  
 | button lift,poma lift
-|  
-| 0
+| Tányéros felvonó
+| 16
 |  
 |  
 |  
@@ -416,8 +416,8 @@
 |  
 |  
 | handle tow,bugel lift
-|  
-| 0
+| Kapaszkodólift
+| 14
 |  
 |  
 |  
@@ -506,8 +506,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Csákányos felvonó
+| 17
 |  
 |  
 |  
@@ -551,8 +551,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Légi közeledés
+| 14
 |  
 | airport
 |  
@@ -641,8 +641,8 @@
 |  
 |  
 | ramp
-|  
-| 0
+| Forgalmi előtér
+| 15
 |  
 | airport
 |  
@@ -866,8 +866,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Gurulóút
+| 8
 |  
 |  
 |  
@@ -956,8 +956,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Szolgáltatás
+| 12
 |  
 |  
 |  
@@ -1091,9 +1091,9 @@
 |  
 |  
 | credit union,check,deposit,fund,investment,repository,reserve,safe,savings,stock,treasury,trust,vault
-| Takarékszövetkezet,  Pénzintézet, Takarék, 
-| 43
-| DoubleSpace
+| Takarékszövetkezet, Pénzintézet, Takarék
+| 40
+|  
 | bank
 |  
 | atm,operator,address,building_area,opening_hours
@@ -1316,9 +1316,9 @@
 |  
 |  
 | bike
-| bicaj - bringa - bicikli - kétkerekű  kölcsönző, 
-| 49
-| DoubleSpace
+| bicaj - bringa - bicikli - kétkerekű kölcsönző 
+| 47
+|  
 | bicycle
 |  
 | capacity,network,operator
@@ -1361,8 +1361,8 @@
 |  
 |  
 | bike
-|  
-| 0
+| Biciklijavító állomás
+| 21
 |  
 | bicycle
 |  
@@ -1586,9 +1586,9 @@
 |  
 |  
 | 
-| gépkocsi - gépjármű - személygépkocsi -személygépjármű, automobil - jármű - verda -kocsi -  járgány - tragacs köcsönzés és bérlés
-| 129
-| DoubleSpace
+| gépkocsi - gépjármű - személygépkocsi -személygépjármű, automobil - jármű - verda -kocsi - járgány - tragacs köcsönzés és bérlés
+| 128
+|  
 | car
 |  
 | operator
@@ -1946,8 +1946,8 @@
 |  
 |  
 | university
-|  
-| 0
+| Felsőoktatási épület
+| 20
 |  
 | college
 |  
@@ -1991,8 +1991,8 @@
 |  
 |  
 | event,hall
-|  
-| 0
+| Közösségi központ
+| 17
 |  
 | town-hall
 |  
@@ -2030,7 +2030,7 @@
 |  
 | Compressed Air
 | Compressed Air
-| sűrített levegő és kompresszor állomás
+| Sűrített levegő és kompresszor állomás
 | 38
 |  
 |  
@@ -2570,14 +2570,14 @@
 |  
 | Grit Bin
 | Grit Bin
+| Úti sótároló 
+| 13
 |  
-| 0
 |  
 |  
-| notTranslated
 | salt,sand
-|  
-| 0
+| grit bin
+| 8
 |  
 |  
 |  
@@ -2621,8 +2621,8 @@
 |  
 |  
 | clinic,doctor,emergency room,health service,hospice,infirmary,institution,nursing home,sanatorium,sanitarium,sick,surgery,ward
-|  
-| 0
+| Kórház
+| 6
 |  
 | hospital
 |  
@@ -3341,9 +3341,9 @@
 |  
 |  
 | dive,beer,bier,booze
-| italmérés,  késdobáló, csehó, borozó, poharazó, italbolt, ivó, talponálló, kricsmi, piálda, söntés, csapszék, söröző, sörház, 
-| 126
-| DoubleSpace
+| italmérés, késdobáló, csehó, borozó, poharazó, italbolt, ivó, talponálló, kricsmi, piálda, söntés, csapszék, söröző, sörház
+| 123
+|  
 | beer
 |  
 | address,building_area,opening_hours,smoking
@@ -3380,14 +3380,14 @@
 |  
 | Public Bookcase
 | Public Bookcase
+| Közösségi könyvespolc
+| 21
 |  
-| 0
 |  
 |  
-| notTranslated
 | library,bookcrossing
-|  
-| 0
+| Közösségi könyvespolc
+| 21
 |  
 | library
 |  
@@ -3431,8 +3431,8 @@
 |  
 |  
 | visitor center,visitor centre,permit center,permit centre,backcountry office,warden office,warden center
-|  
-| 0
+| Természeti megfigyelő
+| 21
 |  
 |  
 |  
@@ -3515,14 +3515,14 @@
 |  
 | Register Office
 | Register Office
+| Anyakönyvi/Házasságkötési hivatal
+| 33
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| házasságok születések és halálozások regisztrálása
+| 50
 |  
 | town-hall
 |  
@@ -3611,8 +3611,8 @@
 |  
 |  
 | academy,elementary school,middle school,high school
-|  
-| 0
+| Iskola
+| 6
 |  
 | school
 |  
@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -4466,8 +4466,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Torlasz, Akadály
+| 16
 |  
 |  
 |  
@@ -4511,8 +4511,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Oszlop
+| 6
 |  
 |  
 |  
@@ -4646,8 +4646,8 @@
 |  
 |  
 | 
-| bicikli akadály
-| 15
+| bicikliakadály
+| 14
 |  
 |  
 |  
@@ -4691,8 +4691,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Árok
+| 4
 |  
 |  
 |  
@@ -4871,8 +4871,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Sövény
+| 6
 |  
 |  
 |  
@@ -4916,8 +4916,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Ütközős csapóajtó
+| 17
 |  
 |  
 |  
@@ -5006,8 +5006,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Támfal
+| 6
 |  
 |  
 |  
@@ -5051,8 +5051,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Létra
+| 5
 |  
 |  
 |  
@@ -5096,8 +5096,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Fizetőkapu
+| 10
 |  
 |  
 |  
@@ -5726,8 +5726,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Különálló ház
+| 13
 |  
 | building
 |  
@@ -5810,8 +5810,8 @@
 |  
 | Entrance/Exit
 | Entrance/Exit
-| Épület be-kijárat
-| 17
+| Épület be- és kijárat
+| 21
 |  
 |  
 |  
@@ -5900,13 +5900,13 @@
 |  
 | Garages
 | Garages
-| Garazsak
+| Garázsok
 | 8
 |  
 |  
 |  
 | 
-| Garazsak
+| Garázsok
 | 8
 |  
 | warehouse
@@ -6035,14 +6035,14 @@
 |  
 | Hotel Building
 | Hotel Building
-| Hotel épület
-| 12
+| Szálloda
+| 8
 |  
-|  
+| duplicate
 |  
 | 
-| Hotel épület
-| 12
+| Hotel, szálloda
+| 15
 |  
 | building
 |  
@@ -6125,14 +6125,14 @@
 |  
 | Hut
 | Hut
-| Kalyiba
-| 7
+| Kunyhó
+| 6
 |  
-|  
+| duplicate
 |  
 | 
-|  
-| 0
+| Kunyhó, kalyiba, viskó
+| 22
 |  
 |  
 |  
@@ -6356,7 +6356,7 @@
 |  
 |  
 | 
-| boltépület
+| Boltépület
 | 10
 |  
 | building
@@ -6401,8 +6401,8 @@
 |  
 |  
 | 
-| Tető
-| 4
+| Tető, fedél, esőbeállló
+| 23
 |  
 | building
 |  
@@ -6488,7 +6488,7 @@
 | Kunyhó
 | 6
 |  
-|  
+| duplicate
 |  
 | 
 | Kunyhó, Fészer, Pajta,csűr,raktár,viskó
@@ -6575,14 +6575,14 @@
 |  
 | Static Mobile Home
 | Static Mobile Home
-| Rögzített Lakókocsi
-| 19
+| Telepített lakókocsi
+| 20
 |  
 |  
 |  
 | 
-|  
-| 0
+| Rögzített lakókocsi, telepített lakókocsi
+| 41
 |  
 | building
 |  
@@ -6980,14 +6980,14 @@
 |  
 | Boat Builder
 | Boat Builder
-| Hajótervező és építő hely
-| 25
+| Hajótervező és -építő hely
+| 26
 |  
 |  
 |  
 | 
-| Hajó és csónak építészet 
-| 25
+| Hajó- és csónaképítő
+| 20
 |  
 | marker-stroked
 |  
@@ -7115,14 +7115,14 @@
 |  
 | Carpenter
 | Carpenter
-| Asztalos - ács
-| 14
+| Épületasztalos, ács
+| 19
 |  
 |  
 |  
 | woodworker
-| Tetőfedő
-| 8
+| Tetőfedő, épületasztalos
+| 24
 |  
 | logging
 |  
@@ -7160,8 +7160,8 @@
 |  
 | Carpet Layer
 | Carpet Layer
-| Padlószőnyeg lerakó műhely
-| 26
+| Padlószőnyeglerakó műhely
+| 25
 |  
 |  
 |  
@@ -7295,13 +7295,13 @@
 |  
 | Confectionery
 | Confectionery
-| cukrász műhely
-| 14
+| Cukrászat
+| 9
 |  
 |  
 |  
 | sweets,candy
-| Édesség gyártás,csokoládé és a csokoládékészítmény gyártása, rágógumi gyártása, tortakészítő
+| Édességgyártás, csokoládé és a csokoládékészítmény gyártása, rágógumi gyártása, tortakészítő
 | 92
 |  
 | bakery
@@ -7436,7 +7436,7 @@
 |  
 |  
 | landscaper,grounds keeper
-| melegházi termelő, bolgárkertész
+| Melegházi termelő, bolgárkertész
 | 32
 |  
 | garden
@@ -7520,9 +7520,9 @@
 |  
 | Handicraft
 | Handicraft
-| Kézműves - iparművész  műhely 
-| 30
-| DoubleSpace
+| Kézműves - iparművész műhely 
+| 29
+|  
 |  
 |  
 | 
@@ -7841,8 +7841,8 @@
 |  
 |  
 | 
-| Szemész és látásműhely, Optikus műhely,  Látszerész műhely,  látszerész  labor, 
-| 80
+| Szemész és látásműhely, Optikus műhely, Látszerész műhely,  Látszerész labor
+| 76
 | DoubleSpace
 | marker-stroked
 |  
@@ -8156,8 +8156,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Hajójavító műhely
+| 17
 |  
 | marker-stroked
 |  
@@ -8516,8 +8516,8 @@
 |  
 |  
 | masonry
-|  
-| 0
+| Kőfaragó műhely
+| 15
 |  
 | marker-stroked
 |  
@@ -8651,8 +8651,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Burkoló mester
+| 14
 |  
 | marker-stroked
 |  
@@ -9191,8 +9191,8 @@
 | duplicate
 |  
 | zebra crossing
-|  
-| 0
+| Zebra - gyalogátkelőhely
+| 24
 |  
 |  
 |  
@@ -9236,8 +9236,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Járda
+| 5
 |  
 |  
 |  
@@ -9281,8 +9281,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Gázló
+| 5
 |  
 |  
 |  
@@ -9545,9 +9545,9 @@
 |  
 | Rough
 | Rough
-| Rough -  vágatlan fűves rész
-| 28
-| DoubleSpace
+| Rough - vágatlan fűves rész
+| 27
+|  
 |  
 |  
 | 
@@ -9731,8 +9731,8 @@
 |  
 |  
 | bridleway,equestrian,horse
-|  
-| 0
+| Lovas út
+| 8
 |  
 | highway-bridleway
 |  
@@ -9908,7 +9908,7 @@
 | Kerékpárút
 | 10
 |  
-|  
+| duplicate
 |  
 | bike
 | Bicikliút
@@ -10226,8 +10226,8 @@
 |  
 |  
 | hike,hiking,trackway,trail,walk
-|  
-| 0
+| Ösvény
+| 6
 |  
 | highway-path
 |  
@@ -10766,8 +10766,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Átjáró
+| 6
 |  
 | highway-service
 |  
@@ -10811,8 +10811,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Kocsibejáró
+| 11
 |  
 | highway-service
 |  
@@ -10856,8 +10856,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Vészhelyzeti bejárat
+| 20
 |  
 | highway-service
 |  
@@ -10901,8 +10901,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Parkolóút
+| 9
 |  
 | highway-service
 |  
@@ -10946,8 +10946,8 @@
 |  
 |  
 | services,travel plaza,service station
-|  
-| 0
+| Autós pihenőhely
+| 16
 |  
 |  
 |  
@@ -11486,8 +11486,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Történelmi hely
+| 15
 |  
 |  
 |  
@@ -11531,8 +11531,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Régészeti lelőhely
+| 18
 |  
 |  
 |  
@@ -11885,14 +11885,14 @@
 |  
 | Junction
 | Junction
+| Elágazás
+| 8
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| Elágazás, útkereszteződés, csomópont
+| 36
 |  
 |  
 |  
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12026,8 +12026,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Vízgyűjtő terület
+| 17
 |  
 |  
 |  
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12068,7 +12068,7 @@
 | Temető
 | 6
 |  
-| duplicate
+|  
 |  
 | 
 | Köztemető
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12110,14 +12110,14 @@
 |  
 | Churchyard
 | Churchyard
-| Temető
-| 6
+| Templomkert - sírok nélkül
+| 26
 |  
-| duplicate
+|  
 |  
 | 
-|  
-| 0
+| Templomkert
+| 11
 |  
 |  
 |  
@@ -12153,16 +12153,16 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| Irodák
-| 6
+| Commercial Area
+| Commercial Area
+| Irodák - üzleti park
+| 20
 |  
 |  
 |  
 | 
-| Kereskedelmi
-| 12
+| Üzleti park
+| 11
 |  
 | commercial
 |  
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,16 +12243,16 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
-| Farm
-| 4
+| Farmland
+| Farmland
+| Farm körüli - mezőgazdasági terület
+| 35
 |  
 |  
 |  
 | 
-| Farm
-| 4
+| Legelő, Szántó
+| 14
 |  
 | farm
 |  
@@ -12288,16 +12288,16 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
+| Farm körüli - mezőgazdasági terület
+| 35
 |  
-| 0
 |  
 |  
-| notTranslated
-| farmland
-|  
-| 0
+| 
+| Legelő, Szántó
+| 14
 |  
 | farm
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12335,14 +12335,14 @@
 |  
 | Farmyard
 | Farmyard
-| Tanyaudvar
-| 10
+| Farm épület - Tanya épület
+| 26
 |  
 |  
 |  
 | 
-|  
-| 0
+| Tanyaudvar
+| 10
 |  
 | farm
 |  
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12425,14 +12425,14 @@
 |  
 | Garages
 | Garages
+| Garázsterület
+| 13
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| Garázsterület
+| 13
 |  
 |  
 |  
@@ -12470,10 +12470,10 @@
 |  
 | Grass
 | Grass
-| Füves terület
-| 13
+| Füvesített terület - gyep
+| 25
 |  
-| duplicate
+|  
 |  
 | 
 | Fű
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,16 +12513,16 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
-| Iparterület - Ipari park
-| 24
+| Industrial Area
+| Industrial Area
+| Iparterület
+| 11
 |  
 |  
 |  
 | 
-| Iparterület
-| 11
+| Iparterület, Iparvidék, Ipar, Gyárterület, Gyár
+| 47
 |  
 | industrial
 |  
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,17 +12648,17 @@
 | landuse
 | military
 |  
-| Military
-| Military
+| Military Area
+| Military Area
 | Katonai terület
 | 15
 |  
 |  
 |  
 | 
-| Katonai, Honvédségi
-| 19
-|  
+| Lőtér,  Gyakorló terep
+| 22
+| DoubleSpace
 |  
 |  
 |  
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,16 +12783,16 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
-| Lakóövezet
-| 10
+| Residential Area
+| Residential Area
+| Lakóövezet - terület lakóházakkal
+| 33
 |  
 |  
 |  
 | 
-| Lakott terület
-| 14
+| lakótelep
+| 9
 |  
 | building
 |  
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,16 +12828,16 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
-| Kereskedelmi övezet
-| 19
+| Retail Area
+| Retail Area
+| Kereskedelmi övezet -boltokkal
+| 30
 |  
 |  
 |  
 | 
-| Kereskedelmi terület
-| 20
+| Kereskedelmi övezet -boltokkal
+| 30
 |  
 | shop
 |  
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12926,8 +12926,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Szabadidő
+| 9
 |  
 |  
 |  
@@ -12971,8 +12971,8 @@
 |  
 |  
 | open space
-|  
-| 0
+| Közterület
+| 10
 |  
 |  
 |  
@@ -13280,14 +13280,14 @@
 |  
 | Nature Reserve
 | Nature Reserve
+| Természetvédelmi terület
+| 24
 |  
-| 0
 |  
 |  
-| notTranslated
 | protected,wildlife
-|  
-| 0
+| Természetvédelmi terület
+| 24
 |  
 | park
 |  
@@ -13511,8 +13511,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Baseballpálya
+| 13
 |  
 | baseball
 |  
@@ -13556,8 +13556,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Kosárlabdapálya
+| 15
 |  
 | basketball
 |  
@@ -13601,8 +13601,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Gördeszkapark
+| 13
 |  
 | pitch
 |  
@@ -13871,8 +13871,8 @@
 |  
 |  
 | boat launch,boat ramp
-|  
-| 0
+| Sólya
+| 5
 |  
 |  
 |  
@@ -14045,9 +14045,9 @@
 |  
 | Racetrack (non-Motorsport)
 | Racetrack (non-Motorsport)
-| Versenypálya  ( nem motoros sportoknak )
-| 40
-| DoubleSpace
+| Versenypálya (nem motoros sportoknak)
+| 37
+|  
 |  
 |  
 | 
@@ -14096,8 +14096,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Vonal
+| 5
 |  
 |  
 |  
@@ -14186,8 +14186,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Hullámtörő
+| 10
 |  
 |  
 |  
@@ -14225,14 +14225,14 @@
 |  
 | Cut line
 | Cut line
-| Irtás
-| 5
+| Nyiladék
+| 8
 |  
 |  
 |  
 | 
-|  
-| 0
+| Irtás
+| 5
 |  
 |  
 |  
@@ -14321,8 +14321,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Zászlórúd
+| 9
 |  
 | embassy
 |  
@@ -14456,8 +14456,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Móló
+| 4
 |  
 |  
 |  
@@ -14810,14 +14810,14 @@
 |  
 | Airfield
 | Airfield
-| Katonai Repülőtér
+| Katonai repülőtér
 | 17
 |  
 |  
 |  
 | 
-|  
-| 0
+| Katonai repülőtér
+| 17
 |  
 | airfield
 |  
@@ -14996,8 +14996,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Természet
+| 9
 |  
 |  
 |  
@@ -15041,8 +15041,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Öböl
+| 4
 |  
 |  
 |  
@@ -15125,14 +15125,14 @@
 |  
 | Cave Entrance
 | Cave Entrance
+| Barlangbejárat
+| 14
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
-|  
-| 0
+| Barlangbejárat
+| 14
 |  
 |  
 |  
@@ -15221,8 +15221,8 @@
 |  
 |  
 | shore
-|  
-| 0
+| Tengerpart
+| 10
 |  
 |  
 |  
@@ -15260,14 +15260,14 @@
 |  
 | Fell
 | Fell
-| Kopár hegyoldal
-| 15
+| Irtás
+| 5
 |  
 |  
 |  
 | 
-| Fell
-| 4
+| Irtás
+| 5
 |  
 |  
 |  
@@ -15350,14 +15350,14 @@
 |  
 | Grassland
 | Grassland
-| Füves terület
-| 13
+| Füves terület (természetes)
+| 27
 |  
-| duplicate
+|  
 |  
 | 
-| Mező
-| 4
+| Mező, Rét
+| 9
 |  
 |  
 |  
@@ -15401,8 +15401,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Fenyér
+| 6
 |  
 |  
 |  
@@ -15446,8 +15446,8 @@
 |  
 |  
 | acme,aiguille,alp,climax,crest,crown,hill,mount,mountain,pinnacle,summit,tip,top
-| Hegycsúcs,Hegytető
-| 18
+| Hegycsúcs, hegytető, csúcs
+| 26
 |  
 | triangle
 |  
@@ -15755,14 +15755,14 @@
 | pond
 | Pond
 | Pond
-| Sólepárló
-| 9
+| Tavacska
+| 8
 |  
 |  
 |  
 | lakelet,millpond,tarn,pool,mere
-|  
-| 0
+| Tavacska
+| 8
 |  
 | water
 |  
@@ -15896,8 +15896,8 @@
 |  
 |  
 | tree
-| erdő, őserdő,liget,fás terület
-| 30
+| erdő, őserdő, liget, fás terület
+| 32
 |  
 | park2
 |  
@@ -16076,8 +16076,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Építész
+| 7
 |  
 | commercial
 |  
@@ -16121,8 +16121,8 @@
 |  
 |  
 | 
-| vállalkozás, iroda, magánvállalkozás
-| 36
+| vállalkozás, iroda, magánvállalkozás, vállalat
+| 46
 |  
 | commercial
 |  
@@ -16301,8 +16301,8 @@
 |  
 |  
 | 
-|  
-| 0
+| pénzügyi hivatal
+| 16
 |  
 | commercial
 |  
@@ -16391,8 +16391,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Biztosító telephely
+| 19
 |  
 | commercial
 |  
@@ -16430,8 +16430,8 @@
 |  
 | IT Office
 | IT Office
-| Informatika
-| 11
+| Informatika 
+| 12
 |  
 |  
 |  
@@ -16523,7 +16523,7 @@
 | Újságos
 | 7
 |  
-|  
+| duplicate
 |  
 | 
 | Újság
@@ -16571,8 +16571,8 @@
 |  
 |  
 | 
-|  
-| 0
+| NGO szervezet
+| 13
 |  
 | commercial
 |  
@@ -16706,8 +16706,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Kutatási és fejlesztési iroda
+| 29
 |  
 | commercial
 |  
@@ -16751,8 +16751,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Telekommunikációs iroda
+| 23
 |  
 | commercial
 |  
@@ -17021,8 +17021,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Falucska
+| 8
 |  
 | triangle-stroked
 |  
@@ -17066,8 +17066,8 @@
 |  
 |  
 | archipelago,atoll,bar,cay,isle,islet,key,reef
-| ziget
-| 5
+| sziget
+| 6
 |  
 |  
 |  
@@ -17111,8 +17111,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Elszigetelt otthon
+| 18
 |  
 |  
 |  
@@ -17156,8 +17156,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Locality
+| 8
 |  
 | marker
 |  
@@ -17240,14 +17240,14 @@
 |  
 | Borough
 | Borough
-| Településrész - városrész
-| 25
+| Településrész, városrész
+| 24
 |  
 |  
 |  
 | Boro,Quarter
-|  
-| 0
+| kerület
+| 7
 |  
 | triangle-stroked
 |  
@@ -17561,8 +17561,8 @@
 |  
 |  
 | 
-| távvezeték, villanyvezeték, magasfesztültségű vezeték
-| 53
+| távvezeték, villanyvezeték, kisfesztültségű vezeték
+| 51
 |  
 | power-line
 |  
@@ -17690,8 +17690,8 @@
 |  
 | Substation
 | Substation
-| Alállomás neve
-| 14
+| Alállomás
+| 9
 |  
 |  
 |  
@@ -17786,8 +17786,8 @@
 |  
 |  
 | 
-| ranszformátor
-| 13
+| transzformátor
+| 14
 |  
 |  
 |  
@@ -17915,14 +17915,14 @@
 |  
 | Railway
 | Railway
-| Vasút
-| 5
+| Vasút (sínpálya)
+| 16
 |  
-| duplicate
+|  
 |  
 | 
-| vasút
-| 5
+| vasút, vasútvonal
+| 17
 |  
 |  
 |  
@@ -18281,8 +18281,8 @@
 |  
 |  
 | 
-| vasúti fel és leszállóhely, vasútmenti járda
-| 44
+| vasúti fel- és leszállóhely, vasútmenti járda
+| 45
 |  
 |  
 |  
@@ -18323,7 +18323,7 @@
 | Vasút
 | 5
 |  
-| duplicate
+|  
 |  
 | 
 | Vasútvonal
@@ -18371,7 +18371,7 @@
 |  
 |  
 | train station,station
-| vasúti pályaudvar
+| Vasúti pályaudvar
 | 17
 |  
 | rail
@@ -18590,14 +18590,14 @@
 |  
 | Ferry Route
 | Ferry Route
-| Kompút
-| 6
+| Komp
+| 4
 |  
 |  
 |  
 | 
-|  
-| 0
+| Kompút
+| 6
 |  
 | ferry
 |  
@@ -18680,7 +18680,7 @@
 |  
 | Liquor Store
 | Liquor Store
-| alkoholüzlet
+| Alkoholüzlet
 | 12
 |  
 |  
@@ -18725,8 +18725,8 @@
 |  
 | Anime Shop
 | Anime Shop
-| Anime rajzfilmekkel kapcsolatos bolt
-| 36
+| Anime képregényekkel kapcsolatos bolt
+| 37
 |  
 |  
 |  
@@ -18815,7 +18815,7 @@
 |  
 | Art Gallery
 | Art Gallery
-| Művészeti Galéria
+| Művészeti galéria
 | 17
 |  
 |  
@@ -18905,8 +18905,8 @@
 |  
 | Bag/Luggage Store
 | Bag/Luggage Store
-| Táska és böröndbolt
-| 19
+| Táska- és böröndbolt
+| 20
 |  
 |  
 |  
@@ -18995,8 +18995,8 @@
 |  
 | Bathroom Furnishing Store
 | Bathroom Furnishing Store
-|  Fürdőszobabútor bolt
-| 21
+| Fürdőszobabútorbolt
+| 19
 |  
 |  
 |  
@@ -19085,14 +19085,14 @@
 |  
 | Bedding/Mattress Store
 | Bedding/Mattress Store
-| Ágy és matrac bolt
+| Ágy- és matracbolt
 | 18
 |  
 |  
 |  
 | 
-|  Hálószobabútorok és franciaágyak szaküzlete
-| 44
+|  Hálószobabútorok és ágyak szaküzlete
+| 37
 |  
 | lodging
 |  
@@ -19316,8 +19316,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Butik
+| 5
 |  
 | shop
 |  
@@ -19400,14 +19400,14 @@
 |  
 | Candle Shop
 | Candle Shop
-| Gyertya és Mécses bolt
+| Gyertya- és mécsesbolt
 | 22
 |  
 |  
 |  
 | 
-|  
-| 0
+| Gyertya- és mécsesbolt
+| 22
 |  
 | shop
 |  
@@ -19631,8 +19631,8 @@
 |  
 |  
 | 
-| Kecskesajt bolt, Francia sajtok boltja
-| 38
+| Kecskesajtbolt, Francia sajtok boltja
+| 37
 |  
 | shop
 |  
@@ -19676,8 +19676,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Drogéria
+| 8
 |  
 | chemist
 |  
@@ -19715,14 +19715,14 @@
 |  
 | Chocolate Store
 | Chocolate Store
-| Csokoládé bolt
-| 14
+| Csokoládébolt
+| 13
 |  
 |  
 |  
 | 
-| Csokoládé Bolt, Gombóc Artúr kedvenc boltja, Kézműves csokoládé bolt, Bonbon bolt, kézzel készült egyedi bonbonok és kézműves csokoládé bolt,  Csokibolt
-| 152
+| Csokoládébolt, Gombóc Artúr kedvenc boltja, Kézműves csokoládébolt, Bonbon bolt, kézzel készült egyedi bonbonok és kézműves csokoládébolt,  Csokibolt
+| 149
 | DoubleSpace
 | shop
 |  
@@ -19766,8 +19766,8 @@
 |  
 |  
 | 
-| Ruházati bolt , fehérnemű bolt, öltönyáruház, 
-| 46
+| Ruházati bolt , fehérneműbolt, öltönyáruház, 
+| 45
 |  
 | clothing-store
 |  
@@ -19856,9 +19856,9 @@
 |  
 |  
 | 
-|  Édesség és süteménybolt,  Tortaszaküzlet,   cukrászüzlet, cukrászat
-| 68
-| DoubleSpace
+|  Édességbolt, süteménybolt, tortaszaküzlet, cukrászüzlet, cukrászat
+| 67
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -19901,8 +19901,8 @@
 |  
 |  
 | 
-| ABC, sarki élelmiszer, kisbolt
-| 30
+| ABC, sarki élelmiszer, kisbolt, közért
+| 38
 |  
 | shop
 |  
@@ -20120,7 +20120,7 @@
 |  
 | Dairy Store
 | Dairy Store
-| Tej-Tejtermékek Boltja
+| Tej-tejtermékek boltja
 | 22
 |  
 |  
@@ -20171,8 +20171,8 @@
 |  
 |  
 | lunch,meat,sandwich
-| Delikát
-| 7
+| Delikát, csemege
+| 16
 |  
 | restaurant
 |  
@@ -20216,8 +20216,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Áruház
+| 6
 |  
 | shop
 |  
@@ -20351,8 +20351,8 @@
 |  
 |  
 | appliance,audio,computer,tv
-| Elektromos üzlet
-| 16
+| Elektromos üzlet, villanyszerelők boltja
+| 40
 |  
 | shop
 |  
@@ -20396,9 +20396,9 @@
 |  
 |  
 | sex,porn
-| vibrátorok - erotikus ruhák  - szex kiegészítők boltja, Szexshop, Szexáruház, intim bolt, erotikus segédeszközök boltja
-| 119
-| DoubleSpace
+| Vibrátorok - erotikus ruhák - szex kiegészítők boltja, Szexshop, Szexáruház, Intim bolt, Erotikus segédeszközök boltja
+| 118
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -20435,7 +20435,7 @@
 |  
 | Fabric Store
 | Fabric Store
-| Rövidáru és Méteráru bolt
+| Rövidáru- és méterárubolt
 | 25
 |  
 |  
@@ -20480,14 +20480,14 @@
 |  
 | Produce Stand
 | Produce Stand
-| Árú stand
-| 9
+| Árustand
+| 8
 |  
 |  
 |  
 | farm shop,farm stand
-|  
-| 0
+| Árubemutató
+| 11
 |  
 | shop
 |  
@@ -20570,8 +20570,8 @@
 |  
 | Fishmonger
 | Fishmonger
-| halaskofa
-| 9
+| Halárus
+| 7
 |  
 |  
 |  
@@ -20621,9 +20621,9 @@
 |  
 |  
 | flower
-| Rózsák boltja,  Szobanövény bolt,   dísznövény és bonsai bolt, virágdísznövények és kaktuszok boltja
-| 100
-| DoubleSpace
+| Rózsák boltja, Szobanövény bolt, Dísznövény és bonsai bolt, Virágdísznövények és kaktuszok boltja
+| 97
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -20756,9 +20756,9 @@
 |  
 |  
 | oven,stove
-| Gázkazán - radiátor  konvektor és fűtésszerelési bolt, Fűtéstechnika radiátor  szerelvény és kazánbolt,gáz,fűtés
-| 112
-| DoubleSpace
+| Gázkazán - radiátor konvektor és fűtésszerelési bolt, Fűtéstechnika radiátor szerelvény és kazánbolt,gáz,fűtés
+| 110
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -20981,9 +20981,9 @@
 |  
 |  
 | 
-| hajszobrász, frizérozó, frizuraszerviz, hajvágás, borbély, hajszalon ,  mesterfodrász, hajegyenesítés,haj,bajusz
-| 112
-| DoubleSpace
+| hajszobrász, frizérozó, frizuraszerviz, hajvágás, borbély, hajszalon , mesterfodrász, hajegyenesítés,haj,bajusz
+| 111
+|  
 | hairdresser
 |  
 | operator,address,building_area,opening_hours
@@ -21026,8 +21026,8 @@
 |  
 |  
 | 
-|  
-| 0
+| Háztartási bolt
+| 15
 |  
 | shop
 |  
@@ -21116,10 +21116,9 @@
 |  
 |  
 | 
-| Gyógynövények - teák - étrendkiegészítők boltja, 
-Gyógynövény és biobolt 
-| 73
-| LineFeed
+| Gyógynövények - teák - étrend kiegészítők boltja,Gyógynövény és biobolt 
+| 72
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -21195,27 +21194,27 @@ Gyógynövény és biobolt
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
+| Houseware Store
+| Houseware Store
+| Háztartási és konyhai felszerelés bolt
+| 38
 |  
-| 0
 |  
 |  
-| notTranslated
-| home
-|  
-| 0
+| home,household
+| edények - evőeszközök - konyhai - háztartási kisgépek boltja
+| 60
 |  
 | shop
 |  
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  
@@ -21252,8 +21251,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Belsőépítészeti bolt
+| 20
 |  
 | shop
 |  
@@ -21297,8 +21296,8 @@ Gyógynövény és biobolt
 |  
 |  
 | diamond,gem,ring
-| ékszerüzlet,arany, ezüst, gyémánt, briliáns,  ékszer,bijou,bizsu,fülbevaló,nyakék,karkötő,divatékszer,jegygyűrű,gyűrű
-| 117
+| ékszerüzlet,arany, ezüst, gyémánt, briliáns,  ékszer,bijou,bizsu,fülbevaló, nyakék,karkötő,divatékszer,jegygyűrű, gyűrű
+| 119
 | DoubleSpace
 | shop
 |  
@@ -21342,8 +21341,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-| újságos trafik
-| 14
+| újságos, trafik
+| 15
 |  
 | shop
 |  
@@ -21432,9 +21431,9 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-| önkiszolgáló textil és ruhatisztító,  Önkiszolgáló mosoda, önkiszolgáló gyorstisztító,  
-| 88
-| DoubleSpace
+| önkiszolgáló textil és ruhatisztító, Önkiszolgáló mosoda, önkiszolgáló gyors-tisztító
+| 85
+|  
 | laundry
 |  
 | operator,address,building_area,opening_hours
@@ -21477,8 +21476,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-| bőrkézműves
-| 11
+| bőrdíszműves
+| 12
 |  
 | shop
 |  
@@ -21567,9 +21566,9 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-| Szerencsejáték  bolt, Szerencsejáték fogadóiroda, Joker üzlet és lottozó
-| 72
-| DoubleSpace
+| Szerencsejáték bolt, Szerencsejáték fogadóiroda, Joker üzlet és lottozó, totó
+| 77
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -21612,8 +21611,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Bevásárlóközpont
+| 16
 |  
 | shop
 |  
@@ -21651,15 +21650,15 @@ Gyógynövény és biobolt
 |  
 | Massage Shop
 | Massage Shop
-| Masszázs szalon
-| 15
+| Masszázsszalon
+| 14
 |  
 |  
 |  
 | 
-| masszőr,  masszázs, gyógymasszázs, svédmasszázs, thai masszázs, keleti masszázs, gyúrás
-| 87
-| DoubleSpace
+| Masszőr, Masszázs, Gyógymasszázs, Svédmasszázs, Thai masszázs, Keleti masszázs, Gyúrás
+| 86
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -21792,9 +21791,9 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-| gyorskölcsön pénzkölcsönző, hitel centrum, Cofidis Gyorskölcsönző, gyorshitelező,  Személyi kölcsönző
-| 101
-| DoubleSpace
+| Gyorskölcsön pénzkölcsönző, Hitel centrum, Cofidis Gyorskölcsönző, Gyorshitelező, Személyi kölcsönző
+| 100
+|  
 | bank
 |  
 | operator,address,building_area,opening_hours
@@ -21882,9 +21881,9 @@ Gyógynövény és biobolt
 |  
 |  
 | CD,vinyl
-| Zenebolt, CD és DVD bolt, Zeneműbolt, Muzsikabolt,   kotta és hanglemezbolt
-| 75
-| DoubleSpace
+| Zenebolt, CD és DVD bolt, Zeneműbolt, Muzsikabolt, kotta és hanglemezbolt
+| 73
+|  
 | music
 |  
 | operator,address,building_area,opening_hours
@@ -21921,8 +21920,8 @@ Gyógynövény és biobolt
 |  
 | Musical Instrument Store
 | Musical Instrument Store
-| Hangszer bolt
-| 13
+| Hangszerbolt
+| 12
 |  
 |  
 |  
@@ -21966,13 +21965,13 @@ Gyógynövény és biobolt
 |  
 | Newspaper/Magazine Shop
 | Newspaper/Magazine Shop
-| újságos
+| Újságos
 | 7
 |  
-|  
+| duplicate
 |  
 | 
-| Őjságos
+| Újságos
 | 7
 |  
 | shop
@@ -22011,8 +22010,8 @@ Gyógynövény és biobolt
 |  
 | Optician
 | Optician
-| Optikus bolt
-| 12
+| Optikus
+| 7
 |  
 |  
 |  
@@ -22062,9 +22061,9 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-| Bio és natúr élelmiszer bolt, Biominőségű és egészséges táplálékok boltja, Natura bolt,  Natura Reformtáplálkozási Szaküzlet, Bio és organikus ételek és áruk boltja
-| 164
-| DoubleSpace
+| Bio és natúr élelmiszer bolt, Biominőségű és egészséges táplálékok boltja, Natura bolt, Natura Reformtáplálkozási Szaküzlet, Bio és organikus ételek és áruk boltja
+| 163
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -22107,9 +22106,9 @@ Gyógynövény és biobolt
 |  
 |  
 | camping,climbing,hiking
-| Hegymászó felszerelés bolt,  Outdoor sportbolt, Világjárók Boltja, Bakancs - sátor - túracipő - hátizsák és hálózsák bolt
-| 121
-| DoubleSpace
+| Hegymászó felszerelés bolt, Outdoor sportbolt, Világjárók Boltja, Bakancs - sátor - túracipő - hátizsák és hálózsák bolt
+| 120
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -22152,9 +22151,9 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  Falfesték bolt,  Tikkurila Festékbolt, Színkeverő bolt,  Festék- vegyi áru szaküzlet 
-| 86
-| DoubleSpace
+|  Falfesték bolt, Tikkurila Festékbolt, Színkeverő bolt, Festék- vegyi áru szaküzlet
+| 83
+|  
 | water
 |  
 | operator,address,building_area,opening_hours
@@ -22197,8 +22196,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Zálogház, zaci, bizományi
+| 25
 |  
 | shop
 |  
@@ -22242,9 +22241,9 @@ Gyógynövény és biobolt
 |  
 |  
 | cat,dog,fish
-| Kisállat kereskedés, Kisállat és  állateledelt árusító bolt, Állateledel, 
-| 74
-| DoubleSpace
+| Kisállat kereskedés, Kisállat és állateledelt árusító bolt, Állateledel
+| 71
+|  
 | dog-park
 |  
 | operator,address,building_area,opening_hours
@@ -22512,9 +22511,9 @@ Gyógynövény és biobolt
 |  
 |  
 | fishmonger
-| Tengeri halak boltja,  Halkereskedés, Tengeri halak és finomságok boltja, Halak - rákok - kagylók és más tengeri jószágok boltja,halárus, halaskofa,halkereskedő, halas
-| 167
-| DoubleSpace
+| Tengeri halak boltja, Halkereskedés, Tengeri halak és finomságok boltja, Halak - rákok - kagylók és más tengeri jószágok boltja,halárus, halaskofa,halkereskedő, halas
+| 166
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -22557,9 +22556,9 @@ Gyógynövény és biobolt
 |  
 |  
 | secondhand,second hand,resale,thrift,used
-| Használtruha bolt, Turkáló , Turi, Turkáló butik, bálás bolt,  second hand bolt
-| 79
-| DoubleSpace
+| Használtruha bolt, Turkáló, Turi, Turkáló butik, bálás bolt, second hand bolt
+| 77
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -22602,9 +22601,9 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-| cipőbolt,  cipő papucs csizma és más lábbelik boltja , cipobolt
-| 63
-| DoubleSpace
+| cipőbolt, cipő papucs csizma és más lábbelik boltja, cipobolt
+| 61
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -22647,8 +22646,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Sportfelszerelés bolt
+| 21
 |  
 | shop
 |  
@@ -22962,9 +22961,9 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-| Nemzeti dohánybolt, Dohány  cigaretta szivar és pipadohány bolt
-| 63
-| DoubleSpace
+| Nemzeti dohánybolt, Dohány cigaretta szivar és pipadohány bolt
+| 62
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -23097,9 +23096,9 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-| téli és nyári autógumi,gumiabroncs,michelin,continental,bridgestone, goodyear, avon, michelin, nexen, pirelli, dunlop,hankook,négyévszakos gumi,4x4 gumiabroncs, gumiszerelés,terepjáró gumi, transporter gumi, barum, falken, kumho, toyo, semperit, nokian, infinity, debica, fulda,  nankang, strial, kormoran, kleber, vredestein, firestone, dayton, bfgoodrich, sava, zetum, uniroyal
-| 379
-| DoubleSpace
+| téli és nyári autógumi, gumiabroncs, michelin,continental,bridgestone, goodyear, avon, michelin, nexen, pirelli, dunlop,hankook,négyévszakos gumi,4x4 gumiabroncs, gumiszerelés,terepjáró gumi, transporter gumi, barum, falken, kumho, toyo, semperit, nokian, infinity, debica, fulda, nankang, strial, kormoran, kleber, vredestein, firestone, dayton, bfgoodrich, sava, zetum, uniroyal
+| 380
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -23412,9 +23411,9 @@ Gyógynövény és biobolt
 |  
 |  
 | ammo,gun,knife,knives
-|  Kések  lőfegyverek és riasztófegyverek boltja
-| 46
-| DoubleSpace
+| Kések lőfegyverek és riasztófegyverek boltja
+| 44
+|  
 | shop
 |  
 | operator,address,building_area,opening_hours
@@ -23547,8 +23546,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Idegenforgalom
+| 14
 |  
 |  
 |  
@@ -23592,8 +23591,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Menedékház
+| 10
 |  
 | lodging
 |  
@@ -23727,8 +23726,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Kemping, camping
+| 16
 |  
 | campsite
 |  
@@ -23772,8 +23771,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Lakókocsi park
+| 14
 |  
 |  
 |  
@@ -23817,8 +23816,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Vikkendház
+| 10
 |  
 | lodging
 |  
@@ -23946,14 +23945,14 @@ Gyógynövény és biobolt
 |  
 | Hotel
 | Hotel
-| Hotel
-| 5
+| Szálloda
+| 8
 |  
-|  
+| duplicate
 |  
 | 
-| Hotel
-| 5
+| Hotel, szálloda
+| 15
 |  
 | lodging
 |  
@@ -24042,8 +24041,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-| Motel
-| 5
+| Motel, fogadó
+| 13
 |  
 | lodging
 |  
@@ -24537,8 +24536,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Közigazgatási határ
+| 19
 |  
 | boundary
 |  
@@ -25026,14 +25025,14 @@ Gyógynövény és biobolt
 | bicycle
 | Cycle Route
 | Cycle Route
-| Kerékpáros útvonal
-| 18
+| Kerékpárút
+| 10
 |  
-|  
+| duplicate
 |  
 | 
-|  
-| 0
+| Biciklis útvonal
+| 16
 |  
 | route-bicycle
 |  
@@ -25122,8 +25121,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Elkerülőút
+| 10
 |  
 | route-detour
 |  
@@ -25167,8 +25166,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Kompjárat útvonal
+| 17
 |  
 | route-ferry
 |  
@@ -25257,7 +25256,7 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-| túraút, gyalogtúra
+| Túraút, Gyalogtúra
 | 18
 |  
 | route-foot
@@ -25392,8 +25391,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Autóút útvonal
+| 14
 |  
 | route-road
 |  
@@ -25527,8 +25526,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Route Master
+| 12
 |  
 | route-master
 |  
@@ -25752,8 +25751,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Vizesárok
+| 9
 |  
 | waterway-ditch
 |  
@@ -25932,8 +25931,8 @@ Gyógynövény és biobolt
 |  
 |  
 | beck,branch,brook,burn,course,creek,current,drift,flood,flow,freshet,race,rill,rindle,rivulet,run,runnel,rush,spate,spritz,surge,tide,torrent,tributary,watercourse
-|  
-| 0
+| Patak
+| 5
 |  
 | waterway-stream
 |  
@@ -25977,8 +25976,8 @@ Gyógynövény és biobolt
 |  
 |  
 | 
-|  
-| 0
+| Bukógát
+| 7
 |  
 | dam
 |  

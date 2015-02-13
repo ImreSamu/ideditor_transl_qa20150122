@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+| Pohlaví
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Neznámé
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -3277,9 +3292,9 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
-| Nesjízdné pro žádná vozidla s koly
+| impassable
+| Impassable / No wheeled vehicle
+| Neprůjezdné žádným vozidlem
 |  
 |  
 | last

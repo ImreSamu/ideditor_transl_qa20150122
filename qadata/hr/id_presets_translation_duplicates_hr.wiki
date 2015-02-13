@@ -15,6 +15,38 @@
 ! style="font-weight: bold;" | geometryVertex
 ! style="font-weight: bold;" | geometryRelation
 |-
+| Administrativna granica
+| Administrative Boundary
+| type/boundary/administrative
+|  
+| boundary
+| type=boundary
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+|  
+|  
+| relation
+|-
+| Administrativna granica
+| Administrative Boundary
+| boundary/administrative
+|  
+|  
+| boundary=administrative
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
 | Autobusna stanica
 | Bus Stop
 | highway/bus_stop
@@ -144,6 +176,22 @@
 |  
 |-
 | Groblje
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| Groblje
 | Graveyard
 | amenity/grave_yard
 |  
@@ -159,12 +207,12 @@
 |  
 |  
 |-
-| Groblje
-| Cemetery
-| landuse/cemetery
+| Odmorište
+| Rest Area
+| highway/rest_area
 |  
-| cemetery
-| landuse=cemetery
+|  
+| highway=rest_area
 |  
 |  
 |  
@@ -191,22 +239,6 @@
 | vertex
 |  
 |-
-| Odmorište
-| Rest Area
-| highway/rest_area
-|  
-|  
-| highway=rest_area
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
 | Travnjak
 | Grass
 | landuse/grass
@@ -219,7 +251,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-

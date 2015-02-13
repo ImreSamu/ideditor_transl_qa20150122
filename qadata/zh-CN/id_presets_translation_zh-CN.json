@@ -476,6 +476,7 @@
       "description__transl": "彻底删除对象。",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "此内容暂未下载完成无法删除。",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "删除"
     },
@@ -1576,6 +1577,30 @@
         "label__transl": "轨距",
         "type": "combo"
       },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "options": {
+          "female__en": "Female",
+          "male__en": "Male",
+          "unisex__en": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
+      },
       "generator/method": {
         "key": "generator:method",
         "label": "Method",
@@ -2472,8 +2497,7 @@
           "good__transl": "细轮：竞速自行车",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
           "horrible__transl": "越野：高负重越野车辆",
-          "impassible__en": "Impassible / No wheeled vehicle",
-          "impassible__transl": "不可能/无轮车辆",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "intermediate__transl": "轮胎：通勤脚踏车，轮椅，滑板车",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
@@ -2490,7 +2514,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -20852,7 +20876,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -24348,7 +24373,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24364,7 +24388,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24384,8 +24407,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24421,20 +24442,17 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "商业区",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
         "tags": {
           "landuse": "commercial"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "商业区"
+        "terms__en": ""
       },
       "landuse/construction": {
         "fields": [
@@ -24442,7 +24460,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24465,43 +24482,38 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "农场",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "searchable": false,
         "tags": {
           "landuse": "farm"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "农场"
+        "terms__en": ""
       },
       "landuse/farmland": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland"
+        "terms__en": ""
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24522,7 +24534,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24553,7 +24564,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24569,20 +24579,17 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "工业区",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "工业区"
+        "terms__en": ""
       },
       "landuse/landfill": {
         "geometry": [
@@ -24601,7 +24608,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24619,23 +24625,20 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "军事",
+        "name": "Military Area",
+        "name__en": "Military Area",
         "tags": {
           "landuse": "military"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "军事,军队,军事区"
+        "terms__en": ""
       },
       "landuse/orchard": {
         "fields": [
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24652,7 +24655,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24668,39 +24670,32 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "住宅区",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
         "tags": {
           "landuse": "residential"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "住宅区"
+        "terms__en": ""
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "零售",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
         "tags": {
           "landuse": "retail"
         },
-        "terms__en": "",
-        "terms__transl": "零售"
+        "terms__en": ""
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -35308,7 +35303,7 @@
         "terms__en": "stereo,video",
         "terms__transl": "音响店"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -35320,15 +35315,16 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household"
       },
       "shop/interior_decoration": {
         "fields": [

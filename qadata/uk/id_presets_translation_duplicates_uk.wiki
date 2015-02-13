@@ -80,22 +80,6 @@
 |  
 |-
 | Бутік
-| Fashion Store
-| shop/fashion
-|  
-| shop
-| shop=fashion
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Бутік
 | Boutique
 | shop/boutique
 |  
@@ -111,12 +95,28 @@
 |  
 |  
 |-
+| Бутік
+| Fashion Store
+| shop/fashion
+|  
+| shop
+| shop=fashion
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
 | Водяна пастка
-| Water Hazard
-| golf/water_hazard
+| Lateral Water Hazard
+| golf/lateral_water_hazard
 |  
 | golf
-| golf=water_hazard
+| golf=lateral_water_hazard
 | natural=water
 |  
 |  
@@ -128,11 +128,11 @@
 |  
 |-
 | Водяна пастка
-| Lateral Water Hazard
-| golf/lateral_water_hazard
+| Water Hazard
+| golf/water_hazard
 |  
 | golf
-| golf=lateral_water_hazard
+| golf=water_hazard
 | natural=water
 |  
 |  
@@ -207,6 +207,38 @@
 |  
 |  
 |-
+| Господарські товари
+| Hardware Store
+| shop/hardware
+|  
+| shop
+| shop=hardware
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Господарські товари
+| Houseware Store
+| shop/houseware
+|  
+| shop
+| shop=houseware
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
 | Готель
 | Hotel Building
 | building/hotel
@@ -240,7 +272,7 @@
 |  
 |-
 | Житлова зона
-| Residential
+| Residential Area
 | landuse/residential
 |  
 | building
@@ -251,7 +283,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -261,6 +293,22 @@
 |  
 | highway-living-street
 | highway=living_street
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
+| Канава
+| Ditch
+| waterway/ditch
+|  
+| waterway-ditch
+| waterway=ditch
 |  
 |  
 |  
@@ -287,28 +335,12 @@
 |  
 |  
 |-
-| Канава
-| Ditch
-| waterway/ditch
-|  
-| waterway-ditch
-| waterway=ditch
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
 | Кравець
-| Tailor
-| shop/tailor
+| Dressmaker
+| craft/dressmaker
 |  
 | clothing-store
-| shop=tailor
+| craft=dressmaker
 |  
 |  
 |  
@@ -320,11 +352,11 @@
 |  
 |-
 | Кравець
-| Dressmaker
-| craft/dressmaker
+| Tailor
+| shop/tailor
 |  
 | clothing-store
-| craft=dressmaker
+| shop=tailor
 |  
 |  
 |  
@@ -368,22 +400,6 @@
 |  
 |-
 | Лікар
-| Physician
-| office/physician
-|  
-| commercial
-| office=physician
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
-|  
-|-
-| Лікар
 | Doctor
 | amenity/doctor
 |  
@@ -397,6 +413,22 @@
 |  
 | point
 |  
+|  
+|-
+| Лікар
+| Physician
+| office/physician
+|  
+| commercial
+| office=physician
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
 |  
 |-
 | Місто
@@ -432,6 +464,22 @@
 |  
 |-
 | Місце для пікніка
+| Picnic Site
+| tourism/picnic_site
+|  
+| park
+| tourism=picnic_site
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+| vertex
+|  
+|-
+| Місце для пікніка
 | Picnic Table
 | leisure/picnic_table
 |  
@@ -447,12 +495,12 @@
 |  
 |  
 |-
-| Місце для пікніка
-| Picnic Site
-| tourism/picnic_site
+| Місцевість
+| Place
+| place
 |  
-| park
-| tourism=picnic_site
+|  
+| place=*
 |  
 |  
 |  
@@ -477,22 +525,6 @@
 |  
 | point
 |  
-|  
-|-
-| Місцевість
-| Place
-| place
-|  
-|  
-| place=*
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
 |  
 |-
 | Паром
@@ -528,22 +560,6 @@
 |  
 |-
 | Пішохідний перехід
-| Crosswalk
-| footway/crosswalk
-|  
-|  
-| highway=footway
-| footway=crossing
-| crossing=zebra
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| Пішохідний перехід
 | Crossing
 | highway/crossing
 |  
@@ -559,35 +575,35 @@
 | vertex
 |  
 |-
-| Роздрібна торгівля
-| Retail Building
-| building/retail
-|  
-| building
-| building=retail
+| Пішохідний перехід
+| Crosswalk
+| footway/crosswalk
 |  
 |  
+| highway=footway
+| footway=crossing
+| crossing=zebra
 |  
 |  
-| area
 |  
-| point
+| line
+|  
 |  
 |  
 |-
-| Роздрібна торгівля
-| Retail
-| landuse/retail
+| Сад
+| Orchard
+| landuse/orchard
 |  
-| shop
-| landuse=retail
+| park2
+| landuse=orchard
 |  
 |  
 |  
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -605,22 +621,6 @@
 |  
 | point
 | vertex
-|  
-|-
-| Сад
-| Orchard
-| landuse/orchard
-|  
-| park2
-| landuse=orchard
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
 |  
 |-
 | Такелажник

@@ -8,9 +8,9 @@
 |Feribot Güzergahı|Ferry Route|type/route/ferry| |route-ferry|type=route|route=ferry| | | | | | | |relation|
 |Kilise|Church|amenity/place_of_worship/christian| |religious-christian|amenity=place_of_worship|religion=christian| | | |area| |point| | |
 |Kilise|Church|building/church| |place-of-worship|building=church| | | | |area| |point| | |
-|Mezarlık|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| |point|vertex| |
+|Mezarlık|Cemetery|landuse/cemetery| |cemetery|landuse=cemetery| | | | |area| | | | |
 |Mezarlık|Graveyard|amenity/grave_yard| |cemetery|amenity=grave_yard| | | | |area| |point| | |
-|Orman|Forest|landuse/forest| |park2|landuse=forest| | | | |area| |point| | |
+|Orman|Forest|landuse/forest| |park2|landuse=forest| | | | |area| | | | |
 |Orman|Wood|natural/wood| |park2|natural=wood| | | | |area| |point| | |
 |Otoyol|Highway|highway| | |highway=*| | | | |area|line|point|vertex| |
 |Otoyol|Motorway|highway/motorway| |highway-motorway|highway=motorway| | | | | |line| | | |

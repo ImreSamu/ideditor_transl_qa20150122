@@ -87,6 +87,7 @@
 |fuel/octane_95|1|check|Sells Midgrade Gasoline| | | |fuel:octane_95| | | | | |last|
 |fuel/octane_98|1|check|Sells Premium Gasoline| | | |fuel:octane_98| | | | | |last|
 |gauge|1|combo|Gauge|مقیاس| | |gauge| | | | | |last|
+|gender|1|radio|Gender| | | |male,female,unisex| | | |Unknown| |last|
 |generator/method|1|combo|Method|شیوه| | |generator:method| | | | | |last|
 |generator/source|1|combo|Source|منبع| | |generator:source| | | | | |last|
 |generator/type|1|combo|Type|نوع| | |generator:type| | | | | |last|
@@ -217,7 +218,7 @@
 |smoothness|5|combo| | | | | |very_bad|High Clearance: light duty off-road vehicle|| | |last|
 |smoothness|6|combo| | | | | |horrible|Off-Road: heavy duty off-road vehicle|| | |last|
 |smoothness|7|combo| | | | | |very_horrible|Specialized off-road: tractor, ATV|| | |last|
-|smoothness|8|combo| | | | | |impassible|Impassible / No wheeled vehicle|| | |last|
+|smoothness|8|combo| | | | | |impassable|Impassable / No wheeled vehicle|| | |last|
 |social_facility_for|1|radio|People served| | | |social_facility:for| | | |Homeless, Disabled, Child, etc|بی خانمان، معلول، کودک، و غیره|last|
 |source|1|text|Source|منبع|source|true|source| | | | | |last|
 |sport|1|combo|Sport|ورزشي| | |sport| | | | | |last|

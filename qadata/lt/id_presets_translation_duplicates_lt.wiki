@@ -49,6 +49,22 @@
 |-
 | Bažnyčia
 | Church
+| building/church
+|  
+| place-of-worship
+| building=church
+|  
+|  
+|  
+|  
+| area
+|  
+| point
+|  
+|  
+|-
+| Bažnyčia
+| Church
 | amenity/place_of_worship/christian
 |  
 | religious-christian
@@ -63,12 +79,12 @@
 |  
 |  
 |-
-| Bažnyčia
-| Church
-| building/church
+| Garažai
+| Garages
+| building/garages
 |  
-| place-of-worship
-| building=church
+| warehouse
+| building=garages
 |  
 |  
 |  
@@ -76,6 +92,22 @@
 | area
 |  
 | point
+|  
+|  
+|-
+| Garažai
+| Garages
+| landuse/garages
+|  
+|  
+| landuse=garages
+|  
+|  
+|  
+|  
+| area
+|  
+|  
 |  
 |  
 |-
@@ -144,6 +176,22 @@
 |  
 |-
 | Kapinės
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+|  
+|  
+|  
+|-
+| Kapinės
 | Graveyard
 | amenity/grave_yard
 |  
@@ -157,22 +205,6 @@
 |  
 | point
 |  
-|  
-|-
-| Kapinės
-| Cemetery
-| landuse/cemetery
-|  
-| cemetery
-| landuse=cemetery
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-| vertex
 |  
 |-
 | Kelto maršrutas
@@ -305,22 +337,6 @@
 |-
 | Pėsčiųjų perėja
 | Crosswalk
-| highway/crosswalk
-|  
-|  
-| highway=crossing
-| crossing=zebra
-|  
-|  
-|  
-|  
-|  
-|  
-| vertex
-|  
-|-
-| Pėsčiųjų perėja
-| Crosswalk
 | footway/crosswalk
 |  
 |  
@@ -333,6 +349,22 @@
 | line
 |  
 |  
+|  
+|-
+| Pėsčiųjų perėja
+| Crosswalk
+| highway/crosswalk
+|  
+|  
+| highway=crossing
+| crossing=zebra
+|  
+|  
+|  
+|  
+|  
+|  
+| vertex
 |  
 |-
 | Parduotuvė
@@ -395,16 +427,16 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
 | Prekybos centras
-| Mall
-| shop/mall
+| Supermarket
+| shop/supermarket
 |  
-| shop
-| shop=mall
+| grocery
+| shop=supermarket
 |  
 |  
 |  
@@ -416,11 +448,11 @@
 |  
 |-
 | Prekybos centras
-| Supermarket
-| shop/supermarket
+| Mall
+| shop/mall
 |  
-| grocery
-| shop=supermarket
+| shop
+| shop=mall
 |  
 |  
 |  
@@ -571,7 +603,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-

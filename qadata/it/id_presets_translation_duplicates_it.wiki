@@ -81,22 +81,6 @@
 |-
 | Attraversamento pedonale
 | Crosswalk
-| highway/crosswalk
-|  
-|  
-| highway=crossing
-| crossing=zebra
-|  
-|  
-|  
-|  
-|  
-|  
-| vertex
-|  
-|-
-| Attraversamento pedonale
-| Crosswalk
 | footway/crosswalk
 |  
 |  
@@ -111,20 +95,20 @@
 |  
 |  
 |-
-| Bunker
-| Sand Trap
-| golf/bunker
-|  
-| golf
-| golf=bunker
-| natural=sand
+| Attraversamento pedonale
+| Crosswalk
+| highway/crosswalk
 |  
 |  
-|  
-| area
+| highway=crossing
+| crossing=zebra
 |  
 |  
 |  
+|  
+|  
+|  
+| vertex
 |  
 |-
 | Bunker
@@ -143,19 +127,19 @@
 | vertex
 |  
 |-
-| Capanno
-| Shed
-| building/shed
+| Bunker
+| Sand Trap
+| golf/bunker
 |  
-| building
-| building=shed
-|  
+| golf
+| golf=bunker
+| natural=sand
 |  
 |  
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -175,12 +159,12 @@
 |  
 |  
 |-
-| Chiesa
-| Church
-| building/church
+| Capanno
+| Shed
+| building/shed
 |  
-| place-of-worship
-| building=church
+| building
+| building=shed
 |  
 |  
 |  
@@ -207,12 +191,12 @@
 |  
 |  
 |-
-| Cimitero
-| Cemetery
-| landuse/cemetery
+| Chiesa
+| Church
+| building/church
 |  
-| cemetery
-| landuse=cemetery
+| place-of-worship
+| building=church
 |  
 |  
 |  
@@ -220,7 +204,7 @@
 | area
 |  
 | point
-| vertex
+|  
 |  
 |-
 | Cimitero
@@ -236,6 +220,22 @@
 | area
 |  
 | point
+|  
+|  
+|-
+| Cimitero
+| Cemetery
+| landuse/cemetery
+|  
+| cemetery
+| landuse=cemetery
+|  
+|  
+|  
+|  
+| area
+|  
+|  
 |  
 |  
 |-
@@ -363,22 +363,6 @@
 |  
 | area
 |  
-| point
-|  
-|  
-|-
-| Fossato
-| Ditch
-| waterway/ditch
-|  
-| waterway-ditch
-| waterway=ditch
-|  
-|  
-|  
-|  
-|  
-| line
 |  
 |  
 |  
@@ -399,12 +383,28 @@
 |  
 |  
 |-
+| Fossato
+| Ditch
+| waterway/ditch
+|  
+| waterway-ditch
+| waterway=ditch
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
+|-
 | Fotografo
-| Photography Store
-| shop/photo
+| Photographer
+| craft/photographer
 |  
 | camera
-| shop=photo
+| craft=photographer
 |  
 |  
 |  
@@ -416,11 +416,11 @@
 |  
 |-
 | Fotografo
-| Photographer
-| craft/photographer
+| Photography Store
+| shop/photo
 |  
 | camera
-| craft=photographer
+| shop=photo
 |  
 |  
 |  
@@ -512,22 +512,6 @@
 |  
 |-
 | Linea elettrica
-| Power Line
-| power/line
-|  
-| power-line
-| power=line
-|  
-|  
-|  
-|  
-|  
-| line
-|  
-|  
-|  
-|-
-| Linea elettrica
 | Power Route
 | type/route/power
 |  
@@ -542,6 +526,22 @@
 |  
 |  
 | relation
+|-
+| Linea elettrica
+| Power Line
+| power/line
+|  
+| power-line
+| power=line
+|  
+|  
+|  
+|  
+|  
+| line
+|  
+|  
+|  
 |-
 | Negozio
 | Retail Building
@@ -572,38 +572,6 @@
 | area
 |  
 | point
-|  
-|  
-|-
-| Residenziale
-| Residential
-| landuse/residential
-|  
-| building
-| landuse=residential
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Residenziale
-| Residential Road
-| highway/residential
-|  
-| highway-residential
-| highway=residential
-|  
-|  
-|  
-|  
-|  
-| line
-|  
 |  
 |  
 |-
@@ -672,11 +640,11 @@
 |  
 |-
 | Supermercato
-| Supermarket
-| shop/supermarket
+| Department Store
+| shop/department_store
 |  
-| grocery
-| shop=supermarket
+| shop
+| shop=department_store
 |  
 |  
 |  
@@ -688,11 +656,11 @@
 |  
 |-
 | Supermercato
-| Department Store
-| shop/department_store
+| Supermarket
+| shop/supermarket
 |  
-| shop
-| shop=department_store
+| grocery
+| shop=supermarket
 |  
 |  
 |  

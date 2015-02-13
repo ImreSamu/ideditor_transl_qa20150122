@@ -27,7 +27,7 @@
 |bench|1|check|Bench|Suolas| | |bench| | | | | |last|
 |bicycle_parking|1|combo|Type|Tipas| | |bicycle_parking| | | | | |last|
 |boundary|1|combo|Type|Tipas| | |boundary| | | | | |last|
-|brand|1|text|Brand| | | |brand| | | | | |last|
+|brand|1|text|Brand|Markė| | |brand| | | | | |last|
 |building|1|typeCombo|Building|Pastatas| | |building| | | | | |last|
 |building_area|1|defaultcheck|Building|Pastatas| | |building| | | | | |last|
 |capacity|1|number|Capacity|Talpumas| | |capacity| | | |50, 100, 200...|50, 100, 200...|last|
@@ -66,7 +66,7 @@
 |electrified|3|combo| | | | | |yes|Yes (unspecified)|Taip (nepatikslinta)| | |last|
 |electrified|4|combo| | | | | |no|No|Ne| | |last|
 |elevation|1|number|Elevation|Aukštis|elevation|true|ele| | | | | |last|
-|emergency|1|check|Emergency| | | |emergency| | | | | |last|
+|emergency|1|check|Emergency|Avarinis| | |emergency| | | | | |last|
 |entrance|1|typeCombo|Type|Tipas| | |entrance| | | | | |last|
 |except|1|combo|Exceptions|Išimtys| | |except| | | | | |last|
 |fax|1|tel|Fax|Faksas| | |fax| | | |+31 42 123 4567|+31 42 123 4567|last|
@@ -87,6 +87,7 @@
 |fuel/octane_95|1|check|Sells Midgrade Gasoline|Parduoda vidutinės kokybės benziną| | |fuel:octane_95| | | | | |last|
 |fuel/octane_98|1|check|Sells Premium Gasoline|Parduoda aukščiausios kokybės benziną| | |fuel:octane_98| | | | | |last|
 |gauge|1|combo|Gauge|Matuoklis| | |gauge| | | | | |last|
+|gender|1|radio|Gender|Lytis| | |male,female,unisex| | | |Unknown|Nežinoma|last|
 |generator/method|1|combo|Method|Metodas| | |generator:method| | | | | |last|
 |generator/source|1|combo|Source|Šaltinis| | |generator:source| | | | | |last|
 |generator/type|1|combo|Type|Tipas| | |generator:type| | | | | |last|
@@ -108,15 +109,15 @@
 |landuse|1|typeCombo|Type|Tipas| | |landuse| | | | | |last|
 |lanes|1|number|Lanes|Juostos| | |lanes| | | |1, 2, 3...|1, 2, 3...|last|
 |layer|1|combo|Layer|Sluoksnis| | |layer| | | | | |last|
-|leaf_cycle|1|combo|Leaf Cycle| | | |leaf_cycle|evergreen|Evergreen|| | |last|
-|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|| | |last|
-|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|| | |last|
-|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|| | |last|
-|leaf_cycle|5|combo| | | | | |mixed|Mixed|| | |last|
-|leaf_type|1|combo|Leaf Type| | | |leaf_type|broadleaved|Broadleaved|| | |last|
-|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|| | |last|
-|leaf_type|3|combo| | | | | |mixed|Mixed|| | |last|
-|leaf_type|4|combo| | | | | |leafless|Leafless|| | |last|
+|leaf_cycle|1|combo|Leaf Cycle|Lapų ciklas| | |leaf_cycle|evergreen|Evergreen|Amžinai žaliuojantis| | |last|
+|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|Nukrintantis| | |last|
+|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|Pusiau-amžinai žaliuojantis| | |last|
+|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|Pusiau-nukrentantis| | |last|
+|leaf_cycle|5|combo| | | | | |mixed|Mixed|Mišrus| | |last|
+|leaf_type|1|combo|Leaf Type|Lapų tipas| | |leaf_type|broadleaved|Broadleaved|Plačialapiai| | |last|
+|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|Spygliuočiai| | |last|
+|leaf_type|3|combo| | | | | |mixed|Mixed|Mišrūs| | |last|
+|leaf_type|4|combo| | | | | |leafless|Leafless|Belapiai| | |last|
 |leisure|1|typeCombo|Type|Tipas| | |leisure| | | | | |last|
 |length|1|number|Length (Meters)|Ilgis (metrais)| | |length| | | | | |last|
 |levels|1|number|Levels|Lygiai| | |building:levels| | | |2, 4, 6...|2, 4, 6...|last|
@@ -131,12 +132,12 @@
 |mtb/scale|5|combo| | | | | |4|4: Loose surface or boulders, dangerous hairpins|| | |last|
 |mtb/scale|6|combo| | | | | |5|5: Maximum difficulty, boulder fields, landslides|| | |last|
 |mtb/scale|7|combo| | | | | |6|6: Not rideable except by the very best mountain bikers|| | |last|
-|mtb/scale/imba|1|combo|IMBA Trail Difficulty| | | |mtb:scale:imba|0|Easiest (white circle)|Lengviausias (baltas apskritimas)|Easy, Medium, Difficult...|Lengvas, vidutinis, sunkus...|last|
+|mtb/scale/imba|1|combo|IMBA Trail Difficulty|IMBA maršruto sudėtingumas| | |mtb:scale:imba|0|Easiest (white circle)|Lengviausias (baltas apskritimas)|Easy, Medium, Difficult...|Lengvas, vidutinis, sunkus...|last|
 |mtb/scale/imba|2|combo| | | | | |1|Easy (green circle)|Lengvas (žalias apskritimas)| | |last|
 |mtb/scale/imba|3|combo| | | | | |2|Medium (blue square)|Vidutinis (mėlynas apskritimas)| | |last|
 |mtb/scale/imba|4|combo| | | | | |3|Difficult (black diamond)|Sunkus (juodas rombas)| | |last|
 |mtb/scale/imba|5|combo| | | | | |4|Extremely Difficult (double black diamond)|Ypač sunkus (dvigubas juodas rombas)| | |last|
-|mtb/scale/uphill|1|combo|Mountain Biking Uphill Difficulty| | | |mtb:scale:uphill|0|0: Avg. incline <10%, gravel/packed earth, no obstacles||0, 1, 2, 3...|0, 1, 2, 3...|last|
+|mtb/scale/uphill|1|combo|Mountain Biking Uphill Difficulty|Kalnų dviračių sudėtingumas| | |mtb:scale:uphill|0|0: Avg. incline <10%, gravel/packed earth, no obstacles||0, 1, 2, 3...|0, 1, 2, 3...|last|
 |mtb/scale/uphill|2|combo| | | | | |1|1: Avg. incline <15%, gravel/packed earth, few small objects|| | |last|
 |mtb/scale/uphill|3|combo| | | | | |2|2: Avg. incline <20%, stable surface, fistsize rocks/roots|| | |last|
 |mtb/scale/uphill|4|combo| | | | | |3|3: Avg. incline <25%, variable surface, fistsize rocks/branches|| | |last|
@@ -155,21 +156,21 @@
 |park_ride|1|check|Park and Ride|Palik automobilį ir važiuok| | |park_ride| | | | | |last|
 |parking|1|combo|Type|Tipas| | |parking|surface|Surface|Danga| | |last|
 |parking|2|combo| | | | | |underground|Multilevel|Požeminis| | |last|
-|parking|3|combo| | | | | |underground|Underground|| | |last|
+|parking|3|combo| | | | | |sheds|Underground|Pašiūrės| | |last|
 |parking|4|combo| | | | | |sheds|Sheds|| | |last|
 |parking|5|combo| | | | | |carports|Carports|| | |last|
 |parking|6|combo| | | | | |garage_boxes|Garage Boxes|| | |last|
 |parking|7|combo| | | | | |lane|Roadside Lane|| | |last|
 |phone|1|tel|Phone|Telefonas|telephone|true|phone| | | |+31 42 123 4567|+31 42 123 4567|last|
-|piste/difficulty|1|combo|Difficulty|Sudėtingumas| | |piste:difficulty|novice|Novice (instructional)||Easy, Intermediate, Advanced...| |last|
-|piste/difficulty|2|combo| | | | | |easy|Easy (green circle)|| | |last|
-|piste/difficulty|3|combo| | | | | |intermediate|Intermediate (blue square)|| | |last|
-|piste/difficulty|4|combo| | | | | |advanced|Advanced (black diamond)|| | |last|
-|piste/difficulty|5|combo| | | | | |expert|Expert (double black diamond)|| | |last|
-|piste/difficulty|6|combo| | | | | |freeride|Freeride (off-piste)|| | |last|
+|piste/difficulty|1|combo|Difficulty|Sudėtingumas| | |piste:difficulty|novice|Novice (instructional)|Naujokams (instrukcijos)|Easy, Intermediate, Advanced...|Lengvas, vidutinis, sudėtingas...|last|
+|piste/difficulty|2|combo| | | | | |easy|Easy (green circle)|Lengvas (žalias žiedas)| | |last|
+|piste/difficulty|3|combo| | | | | |intermediate|Intermediate (blue square)|Vidutinis (mėlynas kvadratas)| | |last|
+|piste/difficulty|4|combo| | | | | |advanced|Advanced (black diamond)|Sudėtingas (juodas deimantas)| | |last|
+|piste/difficulty|5|combo| | | | | |expert|Expert (double black diamond)|Eksperto (dvigubas juodas deimantas)| | |last|
+|piste/difficulty|6|combo| | | | | |extreme|Freeride (off-piste)|Ekstremalus (būtina kopimo įranga)| | |last|
 |piste/difficulty|7|combo| | | | | |extreme|Extreme (climbing equipment required)|| | |last|
 |piste/grooming|1|combo|Grooming| | | |piste:grooming|classic|Classic|Klasikinis| | |last|
-|piste/grooming|2|combo| | | | | |mogul|Mogul|| | |last|
+|piste/grooming|2|combo| | | | | |skating|Mogul|Čiuožimas| | |last|
 |piste/grooming|3|combo| | | | | |backcountry|Backcountry|| | |last|
 |piste/grooming|4|combo| | | | | |classic+skating|Classic and Skating|| | |last|
 |piste/grooming|5|combo| | | | | |scooter|Scooter/Snowmobile|| | |last|
@@ -199,7 +200,7 @@
 |seasonal|1|check|Seasonal|Sezoninis| | |seasonal| | | | | |last|
 |service|1|combo|Type|Tipas| | |service| | | | | |last|
 |service/bicycle/chaintool|1|check|Chain Tool| | | |service:bicycle:chaintool| | | | | |last|
-|service/bicycle/pump|1|check|Air Pump| | | |service:bicycle:pump| | | | | |last|
+|service/bicycle/pump|1|check|Air Pump|Oro pompa| | |service:bicycle:pump| | | | | |last|
 |shelter|1|check|Shelter|Prieglobstis| | |shelter| | | | | |last|
 |shelter_type|1|combo|Type|Tipas| | |shelter_type| | | | | |last|
 |shop|1|typeCombo|Type|Tipas| | |shop| | | | | |last|
@@ -210,15 +211,15 @@
 |smoking|4|combo| | | | | |outside|Allowed outside|Leidžiama lauke| | |last|
 |smoking|5|combo| | | | | |yes|Allowed everywhere|Leidžiama visur| | |last|
 |smoking|6|combo| | | | | |dedicated|Dedicated to smokers (e.g. smokers' club)|Skirta rūkantiems (pvz.: rūkančiųjų klubas)| | |last|
-|smoothness|1|combo|Smoothness|Tikslumas| | |smoothness|impassible|Thin Rollers: rollerblade, skateboard|Nepravažiuojama / jokiam ratuotam transportui|Thin Rollers, Wheels, Off-Road...| |last|
+|smoothness|1|combo|Smoothness|Tikslumas| | |smoothness|excellent|Thin Rollers: rollerblade, skateboard||Thin Rollers, Wheels, Off-Road...| |last|
 |smoothness|2|combo| | | | | |good|Thin Wheels: racing bike|| | |last|
 |smoothness|3|combo| | | | | |intermediate|Wheels: city bike, wheelchair, scooter|| | |last|
 |smoothness|4|combo| | | | | |bad|Robust Wheels: trekking bike, car, rickshaw|| | |last|
 |smoothness|5|combo| | | | | |very_bad|High Clearance: light duty off-road vehicle|| | |last|
 |smoothness|6|combo| | | | | |horrible|Off-Road: heavy duty off-road vehicle|| | |last|
 |smoothness|7|combo| | | | | |very_horrible|Specialized off-road: tractor, ATV|| | |last|
-|smoothness|8|combo| | | | | |impassible|Impassible / No wheeled vehicle|| | |last|
-|social_facility_for|1|radio|People served| | | |social_facility:for| | | |Homeless, Disabled, Child, etc| |last|
+|smoothness|8|combo| | | | | |impassable|Impassable / No wheeled vehicle|| | |last|
+|social_facility_for|1|radio|People served|Aptarnaujama žmonių| | |social_facility:for| | | |Homeless, Disabled, Child, etc|Benamiai, neįgalūs, vaikai ir pan.|last|
 |source|1|text|Source|Šaltinis|source|true|source| | | | | |last|
 |sport|1|combo|Sport|Sportas| | |sport| | | | | |last|
 |sport_ice|1|combo|Sport|Sportas| | |sport| | | | | |last|
@@ -226,9 +227,9 @@
 |structure|1|radio|Structure|Struktūra| | |bridge,tunnel,embankment,cutting,ford| | | |Unknown|Nežinoma|last|
 |studio_type|1|combo|Type|Tipas| | |type| | | | | |last|
 |substation|1|typeCombo|Type|Tipas| | |substation| | | | | |last|
-|supervised|1|check|Supervised| | | |supervised| | | | | |last|
+|supervised|1|check|Supervised|Prižiūrimas| | |supervised| | | | | |last|
 |surface|1|combo|Surface|Paviršius| | |surface| | | | | |last|
-|tactile_paving|1|check|Tactile Paving| | | |tactile_paving| | | | | |last|
+|tactile_paving|1|check|Tactile Paving|Apčiuopiama danga| | |tactile_paving| | | | | |last|
 |takeaway|1|combo|Takeaway|Išsinešimui| | |takeaway|yes|Yes|Taip|Yes, No, Takeaway Only...|Taip, ne, tik išsinešimui...|last|
 |takeaway|2|combo| | | | | |no|No|Ne| | |last|
 |takeaway|3|combo| | | | | |only|Takeaway Only|Tik išsinešimui| | |last|
@@ -238,17 +239,17 @@
 |toilets/disposal|4|combo| | | | | |bucket|Bucket|| | |last|
 |tourism|1|typeCombo|Type|Tipas| | |tourism| | | | | |last|
 |towertype|1|combo|Tower type|Bokšto tipas| | |tower:type| | | | | |last|
-|tracktype|1|combo|Track Type|Kelio tipas| | |tracktype|grade1|Solid: paved or heavily compacted hardcore surface||Solid, Mostly Solid, Soft...| |last|
+|tracktype|1|combo|Track Type|Kelio tipas| | |tracktype|grade1|Solid: paved or heavily compacted hardcore surface||Solid, Mostly Solid, Soft...|Tvirtas, daugiausia tvirtas, minkštas...|last|
 |tracktype|2|combo| | | | | |grade2|Mostly Solid: gravel/rock with some soft material mixed in|| | |last|
 |tracktype|3|combo| | | | | |grade3|Even mixture of hard and soft materials|| | |last|
 |tracktype|4|combo| | | | | |grade4|Mostly Soft: soil/sand/grass with some hard material mixed in|| | |last|
 |tracktype|5|combo| | | | | |grade5|Soft: soil/sand/grass|| | |last|
-|trail_visibility|1|combo|Trail Visibility|Maršruto matomumas| | |trail_visibility|excellent|Excellent: unambiguous path or markers everywhere||Excellent, Good, Bad...|Puikus, Geras, Prastas...|last|
-|trail_visibility|2|combo| | | | | |good|Good: markers visible, sometimes require searching|| | |last|
-|trail_visibility|3|combo| | | | | |intermediate|Intermediate: few markers, path mostly visible|| | |last|
-|trail_visibility|4|combo| | | | | |bad|Bad: no markers, path sometimes invisible/pathless|| | |last|
-|trail_visibility|5|combo| | | | | |horrible|Horrible: often pathless, some orientation skills required|| | |last|
-|trail_visibility|6|combo| | | | | |no|No: pathless, excellent orientation skills required|| | |last|
+|trail_visibility|1|combo|Trail Visibility|Maršruto matomumas| | |trail_visibility|excellent|Excellent: unambiguous path or markers everywhere|Puiku: nedviprasmiškas kelias arba žymės visur|Excellent, Good, Bad...|Puikus, Geras, Prastas...|last|
+|trail_visibility|2|combo| | | | | |good|Good: markers visible, sometimes require searching|Gerai: žymės matomos, kartais reikia paieškoti| | |last|
+|trail_visibility|3|combo| | | | | |intermediate|Intermediate: few markers, path mostly visible|Vidutiniškai: šiek tiek žymų, kelias daugiausia matomas| | |last|
+|trail_visibility|4|combo| | | | | |bad|Bad: no markers, path sometimes invisible/pathless|Blogai: nėra žymų, kelio kartais nėra ar jis nesimato| | |last|
+|trail_visibility|5|combo| | | | | |horrible|Horrible: often pathless, some orientation skills required|Tragiškai: dažnų atkarpų nėra, reikia orientavimosi sugebėjimų| | |last|
+|trail_visibility|6|combo| | | | | |no|No: pathless, excellent orientation skills required|Nėra: nėra kelio, reikia puikių orientavimosi sugebėjimų| | |last|
 |trees|1|combo|Trees|Medžiai| | |trees| | | | | |last|
 |tunnel|1|combo|Tunnel|Tunelis| | |tunnel| | | | | |last|
 |vending|1|combo|Type of Goods|Prekių tipas| | |vending| | | | | |last|

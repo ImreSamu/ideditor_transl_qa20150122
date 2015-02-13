@@ -12,9 +12,29 @@
 -      }
      }
      presets: {
+-      landuse/commercial: {
+-        name: "商地"
+-        terms: "Commercial,商地,商業區"
+-      }
+-      landuse/farm: {
+-        name: "農場"
+-        terms: "Farm,田,稻田,農地,農場,農田"
+-      }
 -      landuse/farmland: {
 -        name: "耕地"
 -        terms: "Farmland,田地,耕地,農田"
+-      }
+-      landuse/industrial: {
+-        name: "工地"
+-        terms: "Industrial,工地,工業區"
+-      }
+-      landuse/residential: {
+-        name: "住"
+-        terms: "Residential,住,住宅區"
+-      }
+-      landuse/retail: {
+-        name: "零售"
+-        terms: "Retail,零售"
 -      }
      }
    }

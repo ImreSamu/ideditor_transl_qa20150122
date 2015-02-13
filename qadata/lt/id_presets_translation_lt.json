@@ -216,7 +216,9 @@
     "back_tooltip__transl": "Keisti objektą",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "Ne",
+      "yes__en": "Yes",
+      "yes__transl": "Taip"
     },
     "choose__en": "Select feature type",
     "choose__transl": "Parinkite geoobjekto tipą",
@@ -515,6 +517,7 @@
       "description__transl": "Ištrinti objektą visam.",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "Šio objekto negalima panaikinti, nes jis nebuvo pilnai atsiųstas.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Ištrinti"
     },
@@ -967,6 +970,7 @@
         "type": "access",
         "types": {
           "access__en": "General",
+          "access__transl": "Bendra",
           "bicycle__en": "Bicycles",
           "bicycle__transl": "Dviračiai",
           "foot__en": "Foot",
@@ -1245,6 +1249,7 @@
         "key": "brand",
         "label": "Brand",
         "label__en": "Brand",
+        "label__transl": "Markė",
         "type": "text"
       },
       "building": {
@@ -1478,6 +1483,7 @@
         "key": "emergency",
         "label": "Emergency",
         "label__en": "Emergency",
+        "label__transl": "Avarinis",
         "type": "check"
       },
       "entrance": {
@@ -1618,6 +1624,34 @@
         "label__en": "Gauge",
         "label__transl": "Matuoklis",
         "type": "combo"
+      },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "label__transl": "Lytis",
+        "options": {
+          "female__en": "Female",
+          "female__transl": "Moteris",
+          "male__en": "Male",
+          "male__transl": "Vyras",
+          "unisex__en": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "placeholder__transl": "Nežinoma",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
       },
       "generator/method": {
         "key": "generator:method",
@@ -1772,12 +1806,18 @@
         "key": "leaf_cycle",
         "label": "Leaf Cycle",
         "label__en": "Leaf Cycle",
+        "label__transl": "Lapų ciklas",
         "options": {
           "deciduous__en": "Deciduous",
+          "deciduous__transl": "Nukrintantis",
           "evergreen__en": "Evergreen",
+          "evergreen__transl": "Amžinai žaliuojantis",
           "mixed__en": "Mixed",
+          "mixed__transl": "Mišrus",
           "semi_deciduous__en": "Semi-Deciduous",
-          "semi_evergreen__en": "Semi-Evergreen"
+          "semi_deciduous__transl": "Pusiau-nukrentantis",
+          "semi_evergreen__en": "Semi-Evergreen",
+          "semi_evergreen__transl": "Pusiau-amžinai žaliuojantis"
         },
         "strings": {
           "options": {
@@ -1794,11 +1834,16 @@
         "key": "leaf_type",
         "label": "Leaf Type",
         "label__en": "Leaf Type",
+        "label__transl": "Lapų tipas",
         "options": {
           "broadleaved__en": "Broadleaved",
+          "broadleaved__transl": "Plačialapiai",
           "leafless__en": "Leafless",
+          "leafless__transl": "Belapiai",
           "mixed__en": "Mixed",
-          "needleleaved__en": "Needleleaved"
+          "mixed__transl": "Mišrūs",
+          "needleleaved__en": "Needleleaved",
+          "needleleaved__transl": "Spygliuočiai"
         },
         "strings": {
           "options": {
@@ -1901,6 +1946,7 @@
         "key": "mtb:scale:imba",
         "label": "IMBA Trail Difficulty",
         "label__en": "IMBA Trail Difficulty",
+        "label__transl": "IMBA maršruto sudėtingumas",
         "options": {
           "0__en": "Easiest (white circle)",
           "0__transl": "Lengviausias (baltas apskritimas)",
@@ -1931,6 +1977,7 @@
         "key": "mtb:scale:uphill",
         "label": "Mountain Biking Uphill Difficulty",
         "label__en": "Mountain Biking Uphill Difficulty",
+        "label__transl": "Kalnų dviračių sudėtingumas",
         "options": {
           "0__en": "0: Avg. incline <10%, gravel/packed earth, no obstacles",
           "1__en": "1: Avg. incline <15%, gravel/packed earth, few small objects",
@@ -2079,6 +2126,7 @@
           "lane__en": "Roadside Lane",
           "multi-storey__en": "Multilevel",
           "sheds__en": "Sheds",
+          "sheds__transl": "Pašiūrės",
           "surface__en": "Surface",
           "surface__transl": "Danga",
           "underground__en": "Underground",
@@ -2116,15 +2164,22 @@
         "label__transl": "Sudėtingumas",
         "options": {
           "advanced__en": "Advanced (black diamond)",
+          "advanced__transl": "Sudėtingas (juodas deimantas)",
           "easy__en": "Easy (green circle)",
+          "easy__transl": "Lengvas (žalias žiedas)",
           "expert__en": "Expert (double black diamond)",
+          "expert__transl": "Eksperto (dvigubas juodas deimantas)",
           "extreme__en": "Extreme (climbing equipment required)",
+          "extreme__transl": "Ekstremalus (būtina kopimo įranga)",
           "freeride__en": "Freeride (off-piste)",
           "intermediate__en": "Intermediate (blue square)",
-          "novice__en": "Novice (instructional)"
+          "intermediate__transl": "Vidutinis (mėlynas kvadratas)",
+          "novice__en": "Novice (instructional)",
+          "novice__transl": "Naujokams (instrukcijos)"
         },
         "placeholder": "Easy, Intermediate, Advanced...",
         "placeholder__en": "Easy, Intermediate, Advanced...",
+        "placeholder__transl": "Lengvas, vidutinis, sudėtingas...",
         "strings": {
           "options": {
             "advanced": "Advanced (black diamond)",
@@ -2149,7 +2204,8 @@
           "classic__transl": "Klasikinis",
           "mogul__en": "Mogul",
           "scooter__en": "Scooter/Snowmobile",
-          "skating__en": "Skating"
+          "skating__en": "Skating",
+          "skating__transl": "Čiuožimas"
         },
         "strings": {
           "options": {
@@ -2178,7 +2234,8 @@
           "skitour__en": "Skitour",
           "sled__en": "Sled",
           "sleigh__en": "Sleigh",
-          "snow_park__en": "Snow Park"
+          "snow_park__en": "Snow Park",
+          "snow_park__transl": "Sniego parkas"
         },
         "strings": {
           "options": {
@@ -2376,6 +2433,7 @@
         "key": "service:bicycle:pump",
         "label": "Air Pump",
         "label__en": "Air Pump",
+        "label__transl": "Oro pompa",
         "options": {
           "no__en": "No",
           "no__transl": "Ne",
@@ -2465,8 +2523,7 @@
           "excellent__en": "Thin Rollers: rollerblade, skateboard",
           "good__en": "Thin Wheels: racing bike",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
-          "impassible__en": "Impassible / No wheeled vehicle",
-          "impassible__transl": "Nepravažiuojama / jokiam ratuotam transportui",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
           "very_horrible__en": "Specialized off-road: tractor, ATV"
@@ -2479,7 +2536,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -2491,6 +2548,7 @@
         "key": "social_facility:for",
         "label": "People served",
         "label__en": "People served",
+        "label__transl": "Aptarnaujama žmonių",
         "options": [
           "abused",
           "child",
@@ -2509,6 +2567,7 @@
         ],
         "placeholder": "Homeless, Disabled, Child, etc",
         "placeholder__en": "Homeless, Disabled, Child, etc",
+        "placeholder__transl": "Benamiai, neįgalūs, vaikai ir pan.",
         "type": "radio"
       },
       "source": {
@@ -2574,6 +2633,7 @@
           "cutting__en": "Cutting",
           "embankment__en": "Embankment",
           "ford__en": "Ford",
+          "ford__transl": "Brasta",
           "tunnel__en": "Tunnel",
           "tunnel__transl": "Tunelis"
         },
@@ -2613,6 +2673,7 @@
         "key": "supervised",
         "label": "Supervised",
         "label__en": "Supervised",
+        "label__transl": "Prižiūrimas",
         "type": "check"
       },
       "surface": {
@@ -2626,6 +2687,7 @@
         "key": "tactile_paving",
         "label": "Tactile Paving",
         "label__en": "Tactile Paving",
+        "label__transl": "Apčiuopiama danga",
         "type": "check"
       },
       "takeaway": {
@@ -2701,6 +2763,7 @@
         },
         "placeholder": "Solid, Mostly Solid, Soft...",
         "placeholder__en": "Solid, Mostly Solid, Soft...",
+        "placeholder__transl": "Tvirtas, daugiausia tvirtas, minkštas...",
         "strings": {
           "options": {
             "grade1": "Solid: paved or heavily compacted hardcore surface",
@@ -2719,11 +2782,17 @@
         "label__transl": "Maršruto matomumas",
         "options": {
           "bad__en": "Bad: no markers, path sometimes invisible/pathless",
+          "bad__transl": "Blogai: nėra žymų, kelio kartais nėra ar jis nesimato",
           "excellent__en": "Excellent: unambiguous path or markers everywhere",
+          "excellent__transl": "Puiku: nedviprasmiškas kelias arba žymės visur",
           "good__en": "Good: markers visible, sometimes require searching",
+          "good__transl": "Gerai: žymės matomos, kartais reikia paieškoti",
           "horrible__en": "Horrible: often pathless, some orientation skills required",
+          "horrible__transl": "Tragiškai: dažnų atkarpų nėra, reikia orientavimosi sugebėjimų",
           "intermediate__en": "Intermediate: few markers, path mostly visible",
-          "no__en": "No: pathless, excellent orientation skills required"
+          "intermediate__transl": "Vidutiniškai: šiek tiek žymų, kelias daugiausia matomas",
+          "no__en": "No: pathless, excellent orientation skills required",
+          "no__transl": "Nėra: nėra kelio, reikia puikių orientavimosi sugebėjimų"
         },
         "placeholder": "Excellent, Good, Bad...",
         "placeholder__en": "Excellent, Good, Bad...",
@@ -2922,10 +2991,12 @@
         ],
         "name": "Gondola",
         "name__en": "Gondola",
+        "name__transl": "Gondola",
         "tags": {
           "aerialway": "gondola"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "Gondola"
       },
       "aerialway/magic_carpet": {
         "fields": [
@@ -3069,7 +3140,8 @@
           "airport",
           "aerodrome"
         ],
-        "terms__en": "airplane,airport,aerodrome"
+        "terms__en": "airplane,airport,aerodrome",
+        "terms__transl": "Oro uostas"
       },
       "aeroway/apron": {
         "fields": [
@@ -3104,7 +3176,8 @@
         "tags": {
           "aeroway": "gate"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "oro uosto vartai,vartai"
       },
       "aeroway/hangar": {
         "fields": [
@@ -3139,7 +3212,8 @@
           "helipad",
           "heliport"
         ],
-        "terms__en": "helicopter,helipad,heliport"
+        "terms__en": "helicopter,helipad,heliport",
+        "terms__transl": "sraigtasparnuo aikštelė,sraigtasparnio nusileidimo aikštelė,malūnsparnio aikštelė"
       },
       "aeroway/runway": {
         "fields": [
@@ -3161,7 +3235,8 @@
         "terms": [
           "landing strip"
         ],
-        "terms__en": "landing strip"
+        "terms__en": "landing strip",
+        "terms__transl": "pakilimo takas"
       },
       "aeroway/taxiway": {
         "fields": [
@@ -8434,7 +8509,8 @@
         "terms": [
           "bike"
         ],
-        "terms__en": "bike"
+        "terms__en": "bike",
+        "terms__transl": "dviračių stovas,dviračių stovėjimas,dviračių stovėjimo aikštelė"
       },
       "amenity/bicycle_rental": {
         "fields": [
@@ -8457,7 +8533,8 @@
         "terms": [
           "bike"
         ],
-        "terms__en": "bike"
+        "terms__en": "bike",
+        "terms__transl": "dviračių nuoma"
       },
       "amenity/bicycle_repair_station": {
         "fields": [
@@ -8483,7 +8560,8 @@
         "terms": [
           "bike"
         ],
-        "terms__en": "bike"
+        "terms__en": "bike",
+        "terms__transl": "dviračių remontas"
       },
       "amenity/boat_rental": {
         "fields": [
@@ -8499,7 +8577,8 @@
         "tags": {
           "amenity": "boat_rental"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "laivų nuoma,valčių nuoma"
       },
       "amenity/bureau_de_change": {
         "fields": [
@@ -8520,7 +8599,8 @@
           "bureau de change",
           "money changer"
         ],
-        "terms__en": "bureau de change,money changer"
+        "terms__en": "bureau de change,money changer",
+        "terms__transl": "keitykla,valiutos keitykla"
       },
       "amenity/bus_station": {
         "fields": [
@@ -8538,7 +8618,8 @@
         "tags": {
           "amenity": "bus_station"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "stotis,autobusų stotis"
       },
       "amenity/cafe": {
         "fields": [
@@ -9175,7 +9256,8 @@
         "tags": {
           "amenity": "car_rental"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "nuoma,mašinų nuoma,automobilių nuoma"
       },
       "amenity/car_rental/Avis": {
         "fields": [
@@ -9324,7 +9406,8 @@
         "tags": {
           "amenity": "car_wash"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "plovykla,mašinų plovykla,automobilių plovykla"
       },
       "amenity/charging_station": {
         "fields": [
@@ -9346,7 +9429,8 @@
           "Electric Vehicle",
           "Supercharger"
         ],
-        "terms__en": "EV,Electric Vehicle,Supercharger"
+        "terms__en": "EV,Electric Vehicle,Supercharger",
+        "terms__transl": "įkrovimo stotelė,įkrovimo stotis"
       },
       "amenity/childcare": {
         "fields": [
@@ -9497,7 +9581,8 @@
         "tags": {
           "amenity": "compressed_air"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "suspaustas oras"
       },
       "amenity/courthouse": {
         "fields": [
@@ -9563,7 +9648,8 @@
         "terms": [
           "medic*"
         ],
-        "terms__en": "medic*"
+        "terms__en": "medic*",
+        "terms__transl": "daktaras,gydytojas,medikas"
       },
       "amenity/dojo": {
         "fields": [
@@ -9651,7 +9737,8 @@
         "terms": [
           "restaurant"
         ],
-        "terms__en": "restaurant"
+        "terms__en": "restaurant",
+        "terms__transl": "greitas maistas"
       },
       "amenity/fast_food/A&W": {
         "fields": [
@@ -11511,7 +11598,8 @@
           "cng",
           "biodiesel"
         ],
-        "terms__en": "petrol,fuel,propane,diesel,lng,cng,biodiesel"
+        "terms__en": "petrol,fuel,propane,diesel,lng,cng,biodiesel",
+        "terms__transl": "dujų stotis"
       },
       "amenity/fuel/1-2-3": {
         "fields": [
@@ -14860,7 +14948,8 @@
         "terms": [
           "book"
         ],
-        "terms__en": "book"
+        "terms__en": "book",
+        "terms__transl": "biblioteka,skaitykla"
       },
       "amenity/marketplace": {
         "fields": [
@@ -14907,7 +14996,8 @@
           "dancing",
           "dance club"
         ],
-        "terms__en": "disco*,night club,dancing,dance club"
+        "terms__en": "disco*,night club,dancing,dance club",
+        "terms__transl": "klubas,naktinis klubas"
       },
       "amenity/parking": {
         "fields": [
@@ -14934,7 +15024,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "aikštelė,stovėjimo aikštelė"
       },
       "amenity/parking_entrance": {
         "fields": [
@@ -14974,7 +15065,8 @@
           "drug",
           "medicine"
         ],
-        "terms__en": "drug,medicine"
+        "terms__en": "drug,medicine",
+        "terms__transl": "vaistinė"
       },
       "amenity/pharmacy/Adler Apotheke": {
         "fields": [
@@ -16425,7 +16517,8 @@
           "tabernacle",
           "temple"
         ],
-        "terms__en": "abbey,basilica,bethel,cathedral,chancel,chantry,chapel,church,fold,house of God,house of prayer,house of worship,minster,mission,mosque,oratory,parish,sacellum,sanctuary,shrine,synagogue,tabernacle,temple"
+        "terms__en": "abbey,basilica,bethel,cathedral,chancel,chantry,chapel,church,fold,house of God,house of prayer,house of worship,minster,mission,mosque,oratory,parish,sacellum,sanctuary,shrine,synagogue,tabernacle,temple",
+        "terms__transl": "maldos namai"
       },
       "amenity/place_of_worship/buddhist": {
         "fields": [
@@ -16454,7 +16547,8 @@
           "zendo",
           "dojo"
         ],
-        "terms__en": "stupa,vihara,monastery,temple,pagoda,zendo,dojo"
+        "terms__en": "stupa,vihara,monastery,temple,pagoda,zendo,dojo",
+        "terms__transl": "budistų šventykla,šventykla"
       },
       "amenity/place_of_worship/christian": {
         "fields": [
@@ -16497,7 +16591,8 @@
           "tabernacle",
           "temple"
         ],
-        "terms__en": "christian,abbey,basilica,bethel,cathedral,chancel,chantry,chapel,fold,house of God,house of prayer,house of worship,minster,mission,oratory,parish,sacellum,sanctuary,shrine,tabernacle,temple"
+        "terms__en": "christian,abbey,basilica,bethel,cathedral,chancel,chantry,chapel,fold,house of God,house of prayer,house of worship,minster,mission,oratory,parish,sacellum,sanctuary,shrine,tabernacle,temple",
+        "terms__transl": "bažnyčia"
       },
       "amenity/place_of_worship/jewish": {
         "fields": [
@@ -16520,7 +16615,8 @@
         "terms": [
           "jewish"
         ],
-        "terms__en": "jewish"
+        "terms__en": "jewish",
+        "terms__transl": "sinagoga"
       },
       "amenity/place_of_worship/muslim": {
         "fields": [
@@ -16543,7 +16639,8 @@
         "terms": [
           "muslim"
         ],
-        "terms__en": "muslim"
+        "terms__en": "muslim",
+        "terms__transl": "mečetė"
       },
       "amenity/police": {
         "fields": [
@@ -16574,7 +16671,8 @@
           "officer",
           "patrol"
         ],
-        "terms__en": "badge,constable,constabulary,cop,detective,fed,law,enforcement,officer,patrol"
+        "terms__en": "badge,constable,constabulary,cop,detective,fed,law,enforcement,officer,patrol",
+        "terms__transl": "policija"
       },
       "amenity/post_box": {
         "fields": [
@@ -16596,7 +16694,8 @@
           "letter",
           "post"
         ],
-        "terms__en": "letter,post"
+        "terms__en": "letter,post",
+        "terms__transl": "paštadėžė,pašto dėžė"
       },
       "amenity/post_office": {
         "fields": [
@@ -16620,7 +16719,8 @@
           "letter",
           "mail"
         ],
-        "terms__en": "letter,mail"
+        "terms__en": "letter,mail",
+        "terms__transl": "paštas,pašto skyrius"
       },
       "amenity/pub": {
         "fields": [
@@ -16646,7 +16746,8 @@
           "bier",
           "booze"
         ],
-        "terms__en": "dive,beer,bier,booze"
+        "terms__en": "dive,beer,bier,booze",
+        "terms__transl": "baras,aludė"
       },
       "amenity/pub/Cross Keys": {
         "fields": [
@@ -17642,7 +17743,8 @@
           "lunch",
           "table"
         ],
-        "terms__en": "bar,breakfast,cafe,café,canteen,coffee,dine,dining,dinner,drive-in,eat,grill,lunch,table"
+        "terms__en": "bar,breakfast,cafe,café,canteen,coffee,dine,dining,dinner,drive-in,eat,grill,lunch,table",
+        "terms__transl": "rastoranas"
       },
       "amenity/restaurant/Adler": {
         "fields": [
@@ -20564,7 +20666,8 @@
           "gazebo",
           "picnic"
         ],
-        "terms__en": "lean-to,gazebo,picnic"
+        "terms__en": "lean-to,gazebo,picnic",
+        "terms__transl": "pastogė"
       },
       "amenity/social_facility": {
         "fields": [
@@ -20609,7 +20712,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "maisto bankas"
       },
       "amenity/social_facility/group_home": {
         "fields": [
@@ -20653,6 +20757,7 @@
         ],
         "name": "Homeless Shelter",
         "name__en": "Homeless Shelter",
+        "name__transl": "Benamių prieglauda",
         "tags": {
           "amenity": "social_facility",
           "social_facility": "shelter",
@@ -20663,7 +20768,8 @@
           "unhoused",
           "displaced"
         ],
-        "terms__en": "houseless,unhoused,displaced"
+        "terms__en": "houseless,unhoused,displaced",
+        "terms__transl": "prieglauda,benamių prieglauda"
       },
       "amenity/studio": {
         "fields": [
@@ -20687,7 +20793,8 @@
           "radio",
           "television"
         ],
-        "terms__en": "recording,radio,television"
+        "terms__en": "recording,radio,television",
+        "terms__transl": "studija"
       },
       "amenity/swimming_pool": {
         "geometry": [
@@ -20703,7 +20810,8 @@
         "tags": {
           "amenity": "swimming_pool"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "baseinas,plaukimo baseinas"
       },
       "amenity/taxi": {
         "fields": [
@@ -20725,7 +20833,8 @@
         "terms": [
           "cab"
         ],
-        "terms__en": "cab"
+        "terms__en": "cab",
+        "terms__transl": "taksi aikštelė"
       },
       "amenity/telephone": {
         "geometry": [
@@ -20742,7 +20851,8 @@
         "terms": [
           "phone"
         ],
-        "terms__en": "phone"
+        "terms__en": "phone",
+        "terms__transl": "telefonas"
       },
       "amenity/theatre": {
         "fields": [
@@ -20767,14 +20877,16 @@
           "play",
           "musical"
         ],
-        "terms__en": "theatre,performance,play,musical"
+        "terms__en": "theatre,performance,play,musical",
+        "terms__transl": "teatras"
       },
       "amenity/toilets": {
         "fields": [
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -20800,7 +20912,8 @@
           "WC",
           "W.C."
         ],
-        "terms__en": "bathroom,restroom,outhouse,privy,head,lavatory,latrine,water closet,WC,W.C."
+        "terms__en": "bathroom,restroom,outhouse,privy,head,lavatory,latrine,water closet,WC,W.C.",
+        "terms__transl": "tualetas,išvietė"
       },
       "amenity/townhall": {
         "fields": [
@@ -20826,7 +20939,8 @@
           "courthouse",
           "municipal"
         ],
-        "terms__en": "village,city,government,courthouse,municipal"
+        "terms__en": "village,city,government,courthouse,municipal",
+        "terms__transl": "rotušė"
       },
       "amenity/university": {
         "fields": [
@@ -20847,7 +20961,8 @@
         "terms": [
           "college"
         ],
-        "terms__en": "college"
+        "terms__en": "college",
+        "terms__transl": "universiteto teritorija"
       },
       "amenity/vending_machine": {
         "fields": [
@@ -20894,7 +21009,8 @@
           "animal hospital",
           "pet doctor"
         ],
-        "terms__en": "pet clinic,veterinarian,animal hospital,pet doctor"
+        "terms__en": "pet clinic,veterinarian,animal hospital,pet doctor",
+        "terms__transl": "veterinaras"
       },
       "amenity/waste_basket": {
         "geometry": [
@@ -20914,7 +21030,8 @@
           "trash",
           "garbage"
         ],
-        "terms__en": "rubbish,litter,trash,garbage"
+        "terms__en": "rubbish,litter,trash,garbage",
+        "terms__transl": "šiukšliadėžė"
       },
       "area": {
         "geometry": [
@@ -20927,7 +21044,8 @@
         "tags": {
           "area": "yes"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "plotas"
       },
       "barrier": {
         "fields": [
@@ -20945,7 +21063,8 @@
         "tags": {
           "barrier": "*"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "barieras,kliūtis"
       },
       "barrier/block": {
         "fields": [
@@ -20957,10 +21076,12 @@
         ],
         "name": "Block",
         "name__en": "Block",
+        "name__transl": "Blokas",
         "tags": {
           "barrier": "block"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "blokas,akmuo"
       },
       "barrier/bollard": {
         "fields": [
@@ -21000,7 +21121,8 @@
         "tags": {
           "barrier": "city_wall"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "siena,miesto siena"
       },
       "barrier/cycle_barrier": {
         "fields": [
@@ -21011,10 +21133,12 @@
         ],
         "name": "Cycle Barrier",
         "name__en": "Cycle Barrier",
+        "name__transl": "Dviračių barjeras",
         "tags": {
           "barrier": "cycle_barrier"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "dviračių barjeras"
       },
       "barrier/ditch": {
         "geometry": [
@@ -21027,7 +21151,8 @@
         "tags": {
           "barrier": "ditch"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "griovys"
       },
       "barrier/entrance": {
         "geometry": [
@@ -21041,7 +21166,8 @@
         "tags": {
           "barrier": "entrance"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "įėjimas"
       },
       "barrier/fence": {
         "geometry": [
@@ -21053,7 +21179,8 @@
         "tags": {
           "barrier": "fence"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "tvora"
       },
       "barrier/gate": {
         "fields": [
@@ -21070,7 +21197,8 @@
         "tags": {
           "barrier": "gate"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "vartai"
       },
       "barrier/hedge": {
         "geometry": [
@@ -21079,10 +21207,12 @@
         ],
         "name": "Hedge",
         "name__en": "Hedge",
+        "name__transl": "Gyvatvorė",
         "tags": {
           "barrier": "hedge"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "gyvatvorė"
       },
       "barrier/kissing_gate": {
         "fields": [
@@ -21112,7 +21242,8 @@
         "tags": {
           "barrier": "lift_gate"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pakeliami vartai"
       },
       "barrier/retaining_wall": {
         "geometry": [
@@ -21136,10 +21267,12 @@
         ],
         "name": "Stile",
         "name__en": "Stile",
+        "name__transl": "Perlipa",
         "tags": {
           "barrier": "stile"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "perlipa"
       },
       "barrier/toll_booth": {
         "fields": [
@@ -21167,7 +21300,8 @@
         "tags": {
           "barrier": "wall"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "siena"
       },
       "boundary/administrative": {
         "fields": [
@@ -21182,7 +21316,8 @@
         "tags": {
           "boundary": "administrative"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "riba,administracinė riba,siena"
       },
       "building": {
         "fields": [
@@ -21221,7 +21356,8 @@
         "tags": {
           "building": "apartments"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "apartamentai"
       },
       "building/barn": {
         "fields": [
@@ -21293,7 +21429,8 @@
         "tags": {
           "building": "cathedral"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "katedra"
       },
       "building/chapel": {
         "fields": [
@@ -21311,7 +21448,8 @@
         "tags": {
           "building": "chapel"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "koplyčia"
       },
       "building/church": {
         "fields": [
@@ -21329,7 +21467,8 @@
         "tags": {
           "building": "church"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "bažnyčia"
       },
       "building/college": {
         "fields": [
@@ -21350,7 +21489,8 @@
         "terms": [
           "university"
         ],
-        "terms__en": "university"
+        "terms__en": "university",
+        "terms__transl": "koledžas"
       },
       "building/commercial": {
         "fields": [
@@ -21388,7 +21528,8 @@
         "tags": {
           "building": "construction"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "statomas pastatas, statybos"
       },
       "building/detached": {
         "fields": [
@@ -21425,7 +21566,8 @@
         "tags": {
           "building": "dormitory"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "bendrabutis"
       },
       "building/entrance": {
         "geometry": [
@@ -21439,7 +21581,8 @@
         "tags": {
           "building": "entrance"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "įėjimas/išėjimas"
       },
       "building/garage": {
         "fields": [
@@ -21456,7 +21599,8 @@
         "tags": {
           "building": "garage"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "garažas"
       },
       "building/garages": {
         "fields": [
@@ -21473,7 +21617,8 @@
         "tags": {
           "building": "garages"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "garažai"
       },
       "building/greenhouse": {
         "fields": [
@@ -21491,7 +21636,8 @@
         "tags": {
           "building": "greenhouse"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "šiltnamis"
       },
       "building/hospital": {
         "fields": [
@@ -21509,7 +21655,8 @@
         "tags": {
           "building": "hospital"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "ligoninės pastatas,ligoninė"
       },
       "building/hotel": {
         "fields": [
@@ -21528,7 +21675,8 @@
         "tags": {
           "building": "hotel"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "viešbučio pastatas,viešbutis"
       },
       "building/house": {
         "fields": [
@@ -21546,7 +21694,8 @@
         "tags": {
           "building": "house"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "namas"
       },
       "building/hut": {
         "geometry": [
@@ -21619,7 +21768,8 @@
         "tags": {
           "building": "public"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "visuomeninis pastatas"
       },
       "building/residential": {
         "fields": [
@@ -21657,7 +21807,8 @@
         "tags": {
           "building": "retail"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "prekybos pastatas,prekybvietė"
       },
       "building/roof": {
         "fields": [
@@ -21674,7 +21825,8 @@
         "tags": {
           "building": "roof"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "stogas"
       },
       "building/school": {
         "fields": [
@@ -21698,7 +21850,8 @@
           "middle school",
           "high school"
         ],
-        "terms__en": "academy,elementary school,middle school,high school"
+        "terms__en": "academy,elementary school,middle school,high school",
+        "terms__transl": "mokyklos pastatas,mokykla"
       },
       "building/shed": {
         "fields": [
@@ -21716,7 +21869,8 @@
         "tags": {
           "building": "shed"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pašiūrė"
       },
       "building/stable": {
         "fields": [
@@ -21734,7 +21888,8 @@
         "tags": {
           "building": "stable"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "arklidės"
       },
       "building/static_caravan": {
         "fields": [
@@ -21789,7 +21944,8 @@
         "tags": {
           "building": "train_station"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "geležinkleio stotis"
       },
       "building/university": {
         "fields": [
@@ -21810,7 +21966,8 @@
         "terms": [
           "college"
         ],
-        "terms__en": "college"
+        "terms__en": "college",
+        "terms__transl": "universiteto pastatas,universitetas"
       },
       "building/warehouse": {
         "fields": [
@@ -21828,7 +21985,8 @@
         "tags": {
           "building": "warehouse"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "sandėlys"
       },
       "craft": {
         "fields": [
@@ -21889,7 +22047,8 @@
         "tags": {
           "craft": "beekeeper"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "bitininkas"
       },
       "craft/blacksmith": {
         "fields": [
@@ -21909,7 +22068,8 @@
         "tags": {
           "craft": "blacksmith"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "kalvis"
       },
       "craft/boatbuilder": {
         "fields": [
@@ -21929,7 +22089,8 @@
         "tags": {
           "craft": "boatbuilder"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "laivadirbys,laivų statykla"
       },
       "craft/bookbinder": {
         "fields": [
@@ -21952,7 +22113,8 @@
         "terms": [
           "book repair"
         ],
-        "terms__en": "book repair"
+        "terms__en": "book repair",
+        "terms__transl": "knygryšys"
       },
       "craft/brewery": {
         "fields": [
@@ -22000,7 +22162,8 @@
         "terms": [
           "woodworker"
         ],
-        "terms__en": "woodworker"
+        "terms__en": "woodworker",
+        "terms__transl": "stalius"
       },
       "craft/carpet_layer": {
         "fields": [
@@ -22059,7 +22222,8 @@
         "tags": {
           "craft": "clockmaker"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "laikrodininkas"
       },
       "craft/confectionery": {
         "fields": [
@@ -22075,6 +22239,7 @@
         "icon": "bakery",
         "name": "Confectionery",
         "name__en": "Confectionery",
+        "name__transl": "Konditerija",
         "tags": {
           "craft": "confectionery"
         },
@@ -22082,7 +22247,8 @@
           "sweets",
           "candy"
         ],
-        "terms__en": "sweets,candy"
+        "terms__en": "sweets,candy",
+        "terms__transl": "konditerija,saldumynai"
       },
       "craft/dressmaker": {
         "fields": [
@@ -22105,7 +22271,8 @@
         "terms": [
           "seamstress"
         ],
-        "terms__en": "seamstress"
+        "terms__en": "seamstress",
+        "terms__transl": "siuvėjas"
       },
       "craft/electrician": {
         "fields": [
@@ -22129,7 +22296,8 @@
           "power",
           "wire"
         ],
-        "terms__en": "power,wire"
+        "terms__en": "power,wire",
+        "terms__transl": "elektrikas"
       },
       "craft/gardener": {
         "fields": [
@@ -22214,6 +22382,7 @@
         "icon": "marker-stroked",
         "name": "HVAC",
         "name__en": "HVAC",
+        "name__transl": "HVAC",
         "tags": {
           "craft": "hvac"
         },
@@ -22222,7 +22391,8 @@
           "vent*",
           "air conditioning"
         ],
-        "terms__en": "heat*,vent*,air conditioning"
+        "terms__en": "heat*,vent*,air conditioning",
+        "terms__transl": "hvac"
       },
       "craft/insulator": {
         "fields": [
@@ -22262,7 +22432,8 @@
         "tags": {
           "craft": "jeweler"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "juvelyras"
       },
       "craft/key_cutter": {
         "fields": [
@@ -22298,11 +22469,13 @@
         "icon": "marker-stroked",
         "name": "Locksmith",
         "name__en": "Locksmith",
+        "name__transl": "Šaltkalvis",
         "searchable": false,
         "tags": {
           "craft": "locksmith"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "šaltkalvis"
       },
       "craft/metal_construction": {
         "fields": [
@@ -22384,7 +22557,8 @@
         "tags": {
           "craft": "photographer"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "fotografas"
       },
       "craft/photographic_laboratory": {
         "fields": [
@@ -22450,7 +22624,8 @@
         "terms": [
           "pipe"
         ],
-        "terms__en": "pipe"
+        "terms__en": "pipe",
+        "terms__transl": "santechnikas"
       },
       "craft/pottery": {
         "fields": [
@@ -22513,7 +22688,8 @@
         "tags": {
           "craft": "roofer"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "stogdengys"
       },
       "craft/saddler": {
         "fields": [
@@ -22576,7 +22752,8 @@
         "terms": [
           "lumber"
         ],
-        "terms__en": "lumber"
+        "terms__en": "lumber",
+        "terms__transl": "lentpjūvė"
       },
       "craft/scaffolder": {
         "fields": [
@@ -22616,7 +22793,8 @@
         "tags": {
           "craft": "sculpter"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "skulptorius"
       },
       "craft/shoemaker": {
         "fields": [
@@ -22663,7 +22841,8 @@
         "terms": [
           "masonry"
         ],
-        "terms__en": "masonry"
+        "terms__en": "masonry",
+        "terms__transl": "mūrininkas"
       },
       "craft/sweep": {
         "fields": [
@@ -22683,7 +22862,8 @@
         "tags": {
           "craft": "sweep"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "kaminkrėtys"
       },
       "craft/tailor": {
         "fields": [
@@ -22708,7 +22888,8 @@
           "clothes",
           "suit"
         ],
-        "terms__en": "clothes,suit"
+        "terms__en": "clothes,suit",
+        "terms__transl": "siuvėjas"
       },
       "craft/tiler": {
         "fields": [
@@ -22786,7 +22967,8 @@
         "tags": {
           "craft": "watchmaker"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "laikrodininkas"
       },
       "craft/window_construction": {
         "fields": [
@@ -22829,7 +23011,8 @@
         "tags": {
           "craft": "winery"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "vyninė"
       },
       "embankment": {
         "geometry": [
@@ -22898,7 +23081,8 @@
         "tags": {
           "emergency": "phone"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "avarinis telefonas"
       },
       "entrance": {
         "fields": [
@@ -22916,7 +23100,8 @@
         "tags": {
           "entrance": "*"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "įėjimas,išėjimas"
       },
       "footway/crossing": {
         "fields": [
@@ -22938,7 +23123,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "sankryža,perėja"
       },
       "footway/crosswalk": {
         "fields": [
@@ -22984,7 +23170,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "šaligatvis"
       },
       "ford": {
         "geometry": [
@@ -22992,10 +23179,12 @@
         ],
         "name": "Ford",
         "name__en": "Ford",
+        "name__transl": "Brasta",
         "tags": {
           "ford": "yes"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "brasta"
       },
       "golf/bunker": {
         "geometry": [
@@ -23058,7 +23247,8 @@
         "tags": {
           "golf": "hole"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "duobutė,golfo duobutė"
       },
       "golf/lateral_water_hazard": {
         "geometry": [
@@ -23133,7 +23323,8 @@
         "tags": {
           "highway": "*"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "kelias,greitkelis,gatvė,takas"
       },
       "highway/bridleway": {
         "fields": [
@@ -23157,7 +23348,8 @@
           "equestrian",
           "horse"
         ],
-        "terms__en": "bridleway,equestrian,horse"
+        "terms__en": "bridleway,equestrian,horse",
+        "terms__transl": "jodinėjimo takas,arklių takas"
       },
       "highway/bus_stop": {
         "fields": [
@@ -23179,7 +23371,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "stotelė,autobusų stotelė,troleibusų stotelė"
       },
       "highway/crossing": {
         "fields": [
@@ -23198,7 +23391,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "perėja,pervaža"
       },
       "highway/crosswalk": {
         "fields": [
@@ -23219,7 +23413,8 @@
         "terms": [
           "zebra crossing"
         ],
-        "terms__en": "zebra crossing"
+        "terms__en": "zebra crossing",
+        "terms__transl": "perėja"
       },
       "highway/cycleway": {
         "fields": [
@@ -23243,7 +23438,8 @@
         "terms": [
           "bike"
         ],
-        "terms__en": "bike"
+        "terms__en": "bike",
+        "terms__transl": "dviračių takas"
       },
       "highway/footway": {
         "fields": [
@@ -23271,7 +23467,8 @@
           "trail",
           "walk"
         ],
-        "terms__en": "hike,hiking,trackway,trail,walk"
+        "terms__en": "hike,hiking,trackway,trail,walk",
+        "terms__transl": "pėsčiųjų takas"
       },
       "highway/living_street": {
         "fields": [
@@ -23291,7 +23488,8 @@
         "tags": {
           "highway": "living_street"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "gyvenamoji zona,gyvenamoji gatvė"
       },
       "highway/mini_roundabout": {
         "fields": [
@@ -23306,7 +23504,8 @@
         "tags": {
           "highway": "mini_roundabout"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "mini-žiedas,žiedas"
       },
       "highway/motorway": {
         "fields": [
@@ -23330,7 +23529,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "greitkelis,automagistralė"
       },
       "highway/motorway_junction": {
         "fields": [
@@ -23402,7 +23602,8 @@
           "trail",
           "walk"
         ],
-        "terms__en": "hike,hiking,trackway,trail,walk"
+        "terms__en": "hike,hiking,trackway,trail,walk",
+        "terms__transl": "takas"
       },
       "highway/pedestrian": {
         "fields": [
@@ -23425,7 +23626,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pėsčiųjų"
       },
       "highway/primary": {
         "fields": [
@@ -23540,7 +23742,8 @@
         "terms": [
           "rest stop"
         ],
-        "terms__en": "rest stop"
+        "terms__en": "rest stop",
+        "terms__transl": "poilsio zona"
       },
       "highway/road": {
         "fields": [
@@ -23562,7 +23765,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "nežinomas kelias"
       },
       "highway/secondary": {
         "fields": [
@@ -23634,7 +23838,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "aptarnavimo kelias,privažiavimas"
       },
       "highway/service/alley": {
         "fields": [
@@ -23672,7 +23877,8 @@
           "highway": "service",
           "service": "drive-through"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pravažiavimas"
       },
       "highway/service/driveway": {
         "fields": [
@@ -23710,7 +23916,8 @@
           "highway": "service",
           "service": "emergency_access"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "avarinis priėjimas,avarinis privažiavimas"
       },
       "highway/service/parking_aisle": {
         "fields": [
@@ -23747,7 +23954,8 @@
           "travel plaza",
           "service station"
         ],
-        "terms__en": "services,travel plaza,service station"
+        "terms__en": "services,travel plaza,service station",
+        "terms__transl": "aptarnavimo zona,aptarnavimo plotas"
       },
       "highway/steps": {
         "fields": [
@@ -23770,7 +23978,8 @@
           "stairs",
           "staircase"
         ],
-        "terms__en": "stairs,staircase"
+        "terms__en": "stairs,staircase",
+        "terms__transl": "laiptai"
       },
       "highway/stop": {
         "geometry": [
@@ -23785,7 +23994,8 @@
         "terms": [
           "stop sign"
         ],
-        "terms__en": "stop sign"
+        "terms__en": "stop sign",
+        "terms__transl": "stop ženklas"
       },
       "highway/street_lamp": {
         "fields": [
@@ -23809,7 +24019,8 @@
           "light",
           "gaslight"
         ],
-        "terms__en": "streetlight,street light,lamp,light,gaslight"
+        "terms__en": "streetlight,street light,lamp,light,gaslight",
+        "terms__transl": "lempa,žibintas,gatvės žibintas"
       },
       "highway/tertiary": {
         "fields": [
@@ -23886,7 +24097,8 @@
           "woods road",
           "fire road"
         ],
-        "terms__en": "woods road,fire road"
+        "terms__en": "woods road,fire road",
+        "terms__transl": "kelias"
       },
       "highway/traffic_signals": {
         "geometry": [
@@ -23903,7 +24115,8 @@
           "stoplight",
           "traffic light"
         ],
-        "terms__en": "light,stoplight,traffic light"
+        "terms__en": "light,stoplight,traffic light",
+        "terms__transl": "šviesoforas"
       },
       "highway/trunk": {
         "fields": [
@@ -23990,7 +24203,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "neklasifikuotas kelias"
       },
       "historic": {
         "fields": [
@@ -24007,7 +24221,8 @@
         "tags": {
           "historic": "*"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "istorinė vieta"
       },
       "historic/archaeological_site": {
         "geometry": [
@@ -24021,7 +24236,8 @@
         "tags": {
           "historic": "archaeological_site"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "archeologinė vieta"
       },
       "historic/boundary_stone": {
         "geometry": [
@@ -24030,10 +24246,12 @@
         ],
         "name": "Boundary Stone",
         "name__en": "Boundary Stone",
+        "name__transl": "Riboženklis akmuo",
         "tags": {
           "historic": "boundary_stone"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "riboženklis,akmuo"
       },
       "historic/castle": {
         "geometry": [
@@ -24046,7 +24264,8 @@
         "tags": {
           "historic": "castle"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pilis,tvirtovė"
       },
       "historic/memorial": {
         "geometry": [
@@ -24061,7 +24280,8 @@
         "tags": {
           "historic": "memorial"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "paminklas"
       },
       "historic/monument": {
         "geometry": [
@@ -24076,7 +24296,8 @@
         "tags": {
           "historic": "monument"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "monumentas,paminklas"
       },
       "historic/ruins": {
         "geometry": [
@@ -24090,7 +24311,8 @@
         "tags": {
           "historic": "ruins"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "griuvėsiai "
       },
       "historic/wayside_cross": {
         "geometry": [
@@ -24104,7 +24326,8 @@
         "tags": {
           "historic": "wayside_cross"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pakelės kryžius"
       },
       "historic/wayside_shrine": {
         "geometry": [
@@ -24118,7 +24341,8 @@
         "tags": {
           "historic": "wayside_shrine"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pakelės šventykla,rūpintojėlis,koplytstulpis"
       },
       "junction": {
         "geometry": [
@@ -24127,10 +24351,12 @@
         ],
         "name": "Junction",
         "name__en": "Junction",
+        "name__transl": "Jungtis",
         "tags": {
           "junction": "yes"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "jungtis,sankryža"
       },
       "landuse": {
         "fields": [
@@ -24147,11 +24373,11 @@
         "tags": {
           "landuse": "*"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "žemėnauda"
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24162,11 +24388,11 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "sodai,kolektyviniai sodai"
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24177,7 +24403,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "prūdas,kūdra,baseinas"
       },
       "landuse/cemetery": {
         "fields": [
@@ -24185,8 +24412,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24198,7 +24423,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "kapinės"
       },
       "landuse/churchyard": {
         "fields": [
@@ -24219,19 +24445,19 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "Reklama",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
+        "name__transl": "Komercinė zona",
         "tags": {
           "landuse": "commercial"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "komercinė zona,komercinė,komercija"
       },
       "landuse/construction": {
         "fields": [
@@ -24239,7 +24465,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24250,7 +24475,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "statybos"
       },
       "landuse/farm": {
         "fields": [
@@ -24261,42 +24487,42 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "Ūkis",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Dirbama žemė",
         "searchable": false,
         "tags": {
           "landuse": "farm"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "dirbama žemė,žemdirbystė"
       },
       "landuse/farmland": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
+        "name__transl": "Dirbama žemė",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland"
+        "terms__en": "",
+        "terms__transl": "dirbama žemė,žemdirbystė"
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24308,7 +24534,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "ūkio sodyba,ferma"
       },
       "landuse/forest": {
         "fields": [
@@ -24316,7 +24543,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24329,7 +24555,8 @@
         "terms": [
           "tree"
         ],
-        "terms__en": "tree"
+        "terms__en": "tree",
+        "terms__transl": "miškas"
       },
       "landuse/garages": {
         "geometry": [
@@ -24337,16 +24564,17 @@
         ],
         "name": "Garages",
         "name__en": "Garages",
+        "name__transl": "Garažai",
         "tags": {
           "landuse": "garages"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "garažai"
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24357,23 +24585,24 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "žolė"
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Pramoninė",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
+        "name__transl": "Pramoninė zona",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pramoninė zona,pramonė"
       },
       "landuse/landfill": {
         "geometry": [
@@ -24388,11 +24617,11 @@
         "terms": [
           "dump"
         ],
-        "terms__en": "dump"
+        "terms__en": "dump",
+        "terms__transl": "sąvartynas"
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24403,28 +24632,29 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pieva,ganykla"
       },
       "landuse/military": {
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "Karinė",
+        "name": "Military Area",
+        "name__en": "Military Area",
+        "name__transl": "Karinė zona",
         "tags": {
           "landuse": "military"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "karinė zona,poligonas,kareivinės"
       },
       "landuse/orchard": {
         "fields": [
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24436,11 +24666,11 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "sodas,vaisių sodas"
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24451,41 +24681,41 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "karjeras"
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "Gyvenamosios vietos",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
+        "name__transl": "Gyvenamoji zona",
         "tags": {
           "landuse": "residential"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "gyvenamoji zona,miegamoji zona"
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "Prekyba",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
+        "name__transl": "Gelžkelio zona",
         "tags": {
           "landuse": "retail"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "geležinkelio zona,gelžkelio zona"
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -24496,7 +24726,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "vynuogynas"
       },
       "leisure": {
         "fields": [
@@ -24513,7 +24744,8 @@
         "tags": {
           "leisure": "*"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "laisvalaikis"
       },
       "leisure/common": {
         "geometry": [
@@ -24545,7 +24777,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "šunparkis,šunų parkas"
       },
       "leisure/firepit": {
         "geometry": [
@@ -24577,7 +24810,8 @@
         "tags": {
           "leisure": "garden"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "sodas"
       },
       "leisure/golf_course": {
         "fields": [
@@ -24644,7 +24878,8 @@
         "terms": [
           "boat"
         ],
-        "terms__en": "boat"
+        "terms__en": "boat",
+        "terms__transl": "jachtklubas"
       },
       "leisure/nature_reserve": {
         "geometry": [
@@ -24654,6 +24889,7 @@
         "icon": "park",
         "name": "Nature Reserve",
         "name__en": "Nature Reserve",
+        "name__transl": "Draustinis",
         "tags": {
           "leisure": "nature_reserve"
         },
@@ -24661,7 +24897,8 @@
           "protected",
           "wildlife"
         ],
-        "terms__en": "protected,wildlife"
+        "terms__en": "protected,wildlife",
+        "terms__transl": "gamtos rezervatas,rezervatas,draustinis"
       },
       "leisure/park": {
         "geometry": [
@@ -24697,7 +24934,8 @@
           "village green",
           "woodland"
         ],
-        "terms__en": "esplanade,estate,forest,garden,grass,green,grounds,lawn,lot,meadow,parkland,place,playground,plaza,pleasure garden,recreation area,square,tract,village green,woodland"
+        "terms__en": "esplanade,estate,forest,garden,grass,green,grounds,lawn,lot,meadow,parkland,place,playground,plaza,pleasure garden,recreation area,square,tract,village green,woodland",
+        "terms__transl": "parkas"
       },
       "leisure/picnic_table": {
         "geometry": [
@@ -24712,7 +24950,8 @@
         "terms": [
           "bench"
         ],
-        "terms__en": "bench"
+        "terms__en": "bench",
+        "terms__transl": "poilsio stalas"
       },
       "leisure/pitch": {
         "fields": [
@@ -24755,7 +24994,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "amerikietiško futbolo aikštė"
       },
       "leisure/pitch/baseball": {
         "fields": [
@@ -24837,7 +25077,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "futbolo aikštė"
       },
       "leisure/pitch/tennis": {
         "fields": [
@@ -24858,7 +25099,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "teniso kortai"
       },
       "leisure/pitch/volleyball": {
         "fields": [
@@ -24897,7 +25139,8 @@
           "jungle gym",
           "play area"
         ],
-        "terms__en": "jungle gym,play area"
+        "terms__en": "jungle gym,play area",
+        "terms__transl": "žaidimų aikštelė"
       },
       "leisure/running_track": {
         "fields": [
@@ -24919,7 +25162,8 @@
           "leisure": "track",
           "sport": "running"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "bėgimo takelis"
       },
       "leisure/slipway": {
         "geometry": [
@@ -24976,7 +25220,8 @@
         "tags": {
           "leisure": "stadium"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "stadionas"
       },
       "leisure/swimming_pool": {
         "fields": [
@@ -24996,7 +25241,8 @@
         "tags": {
           "leisure": "swimming_pool"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "baseinas,maudymosi baseinas"
       },
       "leisure/track": {
         "fields": [
@@ -25046,7 +25292,8 @@
         "tags": {
           "man_made": "*"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "Žmogaus sukurtas"
       },
       "man_made/breakwater": {
         "geometry": [
@@ -25066,10 +25313,12 @@
         ],
         "name": "Cut line",
         "name__en": "Cut line",
+        "name__transl": "Proskyna",
         "tags": {
           "man_made": "cutline"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "proskyna"
       },
       "man_made/embankment": {
         "geometry": [
@@ -25108,7 +25357,8 @@
         "tags": {
           "man_made": "lighthouse"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "švyturys"
       },
       "man_made/observation": {
         "geometry": [
@@ -25126,7 +25376,8 @@
           "lookout tower",
           "fire tower"
         ],
-        "terms__en": "lookout tower,fire tower"
+        "terms__en": "lookout tower,fire tower",
+        "terms__transl": "stebėjimo bokštas"
       },
       "man_made/pier": {
         "geometry": [
@@ -25173,7 +25424,8 @@
         "tags": {
           "man_made": "survey_point"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "stebėjimo taškas"
       },
       "man_made/tower": {
         "fields": [
@@ -25189,7 +25441,8 @@
         "tags": {
           "man_made": "tower"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "bokštas"
       },
       "man_made/wastewater_plant": {
         "fields": [
@@ -25212,7 +25465,8 @@
           "water treatment plant",
           "reclamation plant"
         ],
-        "terms__en": "sewage*,water treatment plant,reclamation plant"
+        "terms__en": "sewage*,water treatment plant,reclamation plant",
+        "terms__transl": "vandens valymo įrenginiai"
       },
       "man_made/water_tower": {
         "fields": [
@@ -25229,7 +25483,8 @@
         "tags": {
           "man_made": "water_tower"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "vandens bokštas"
       },
       "man_made/water_well": {
         "fields": [
@@ -25273,12 +25528,14 @@
         "icon": "airfield",
         "name": "Airfield",
         "name__en": "Airfield",
+        "name__transl": "Aerodromas",
         "tags": {
           "military": "airfield"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "aerodromas"
       },
       "military/barracks": {
         "geometry": [
@@ -25325,7 +25582,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "šaudykla,poligonas"
       },
       "natural": {
         "fields": [
@@ -25357,7 +25615,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "įlanka"
       },
       "natural/beach": {
         "fields": [
@@ -25375,7 +25634,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "maudykla,paplūdimys"
       },
       "natural/cave_entrance": {
         "fields": [
@@ -25388,12 +25648,14 @@
         ],
         "name": "Cave Entrance",
         "name__en": "Cave Entrance",
+        "name__transl": "Įėjimas į olą",
         "tags": {
           "natural": "cave_entrance"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "įėjimas į olą"
       },
       "natural/cliff": {
         "geometry": [
@@ -25425,7 +25687,8 @@
         "terms": [
           "shore"
         ],
-        "terms__en": "shore"
+        "terms__en": "shore",
+        "terms__transl": "krantas"
       },
       "natural/fell": {
         "geometry": [
@@ -25452,7 +25715,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "ledynas"
       },
       "natural/grassland": {
         "geometry": [
@@ -25512,7 +25776,8 @@
           "tip",
           "top"
         ],
-        "terms__en": "acme,aiguille,alp,climax,crest,crown,hill,mount,mountain,pinnacle,summit,tip,top"
+        "terms__en": "acme,aiguille,alp,climax,crest,crown,hill,mount,mountain,pinnacle,summit,tip,top",
+        "terms__transl": "viršūnė,viršukalnė"
       },
       "natural/scree": {
         "geometry": [
@@ -25540,7 +25805,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "krūmai"
       },
       "natural/spring": {
         "geometry": [
@@ -25555,7 +25821,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "šaltinis"
       },
       "natural/tree": {
         "fields": [
@@ -25576,7 +25843,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "medis"
       },
       "natural/water": {
         "fields": [
@@ -25592,7 +25860,8 @@
         "tags": {
           "natural": "water"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "vanduo"
       },
       "natural/water/lake": {
         "geometry": [
@@ -25611,7 +25880,8 @@
           "loch",
           "mere"
         ],
-        "terms__en": "lakelet,loch,mere"
+        "terms__en": "lakelet,loch,mere",
+        "terms__transl": "ežeras"
       },
       "natural/water/pond": {
         "geometry": [
@@ -25632,7 +25902,8 @@
           "pool",
           "mere"
         ],
-        "terms__en": "lakelet,millpond,tarn,pool,mere"
+        "terms__en": "lakelet,millpond,tarn,pool,mere",
+        "terms__transl": "prūdas,kūdra"
       },
       "natural/water/reservoir": {
         "geometry": [
@@ -25646,7 +25917,8 @@
           "natural": "water",
           "water": "reservoir"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "tvenkinys,rezervuaras"
       },
       "natural/wetland": {
         "fields": [
@@ -25686,7 +25958,8 @@
         "terms": [
           "tree"
         ],
-        "terms__en": "tree"
+        "terms__en": "tree",
+        "terms__transl": "medžiai"
       },
       "office": {
         "fields": [
@@ -25710,7 +25983,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "kontora"
       },
       "office/accountant": {
         "fields": [
@@ -25726,12 +26000,14 @@
         "icon": "commercial",
         "name": "Accountant",
         "name__en": "Accountant",
+        "name__transl": "Buhalteris",
         "tags": {
           "office": "accountant"
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "buhalteris"
       },
       "office/administrative": {
         "fields": [
@@ -25775,7 +26051,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "architektas"
       },
       "office/company": {
         "fields": [
@@ -25934,7 +26211,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "draudimas,draudimo kontora"
       },
       "office/it": {
         "fields": [
@@ -25956,7 +26234,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "it kontora,informacinės technologijos"
       },
       "office/lawyer": {
         "fields": [
@@ -26000,7 +26279,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "laikraštis"
       },
       "office/ngo": {
         "fields": [
@@ -26067,7 +26347,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "politinė partija"
       },
       "office/research": {
         "fields": [
@@ -26089,7 +26370,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "tyrimų kontora"
       },
       "office/telecommunication": {
         "fields": [
@@ -26157,7 +26439,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "kelionių agentūra"
       },
       "piste": {
         "fields": [
@@ -26204,7 +26487,8 @@
         "tags": {
           "place": "*"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "gyvenvietė,vietovė"
       },
       "place/city": {
         "fields": [
@@ -26221,7 +26505,8 @@
         "tags": {
           "place": "city"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "didmiestis"
       },
       "place/hamlet": {
         "fields": [
@@ -26238,7 +26523,8 @@
         "tags": {
           "place": "hamlet"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "viensėdis"
       },
       "place/island": {
         "geometry": [
@@ -26261,7 +26547,8 @@
           "key",
           "reef"
         ],
-        "terms__en": "archipelago,atoll,bar,cay,isle,islet,key,reef"
+        "terms__en": "archipelago,atoll,bar,cay,isle,islet,key,reef",
+        "terms__transl": "sala"
       },
       "place/isolated_dwelling": {
         "geometry": [
@@ -26291,7 +26578,8 @@
         "tags": {
           "place": "locality"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "vietovė"
       },
       "place/neighbourhood": {
         "fields": [
@@ -26350,7 +26638,8 @@
         "tags": {
           "place": "town"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "miestas"
       },
       "place/village": {
         "fields": [
@@ -26367,7 +26656,8 @@
         "tags": {
           "place": "village"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "kaimas"
       },
       "point": {
         "geometry": [
@@ -26379,7 +26669,8 @@
         "name__transl": "Taškas",
         "tags": {
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "taškas"
       },
       "power": {
         "fields": [
@@ -26397,7 +26688,8 @@
         "tags": {
           "power": "*"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "įtampa,elektra"
       },
       "power/generator": {
         "fields": [
@@ -26417,7 +26709,8 @@
         "tags": {
           "power": "generator"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "generatorius,elektros generatorius"
       },
       "power/line": {
         "geometry": [
@@ -26430,7 +26723,8 @@
         "tags": {
           "power": "line"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "elektros linija"
       },
       "power/minor_line": {
         "geometry": [
@@ -26454,7 +26748,8 @@
         "tags": {
           "power": "pole"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "stulpas,elektros stulpas"
       },
       "power/sub_station": {
         "fields": [
@@ -26473,7 +26768,8 @@
         "tags": {
           "power": "sub_station"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pastotė"
       },
       "power/substation": {
         "fields": [
@@ -26487,10 +26783,12 @@
         ],
         "name": "Substation",
         "name__en": "Substation",
+        "name__transl": "Pastotė",
         "tags": {
           "power": "substation"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "pastotė"
       },
       "power/tower": {
         "geometry": [
@@ -26502,7 +26800,8 @@
         "tags": {
           "power": "tower"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "aukštos įtampos stulpas"
       },
       "power/transformer": {
         "geometry": [
@@ -26516,7 +26815,8 @@
         "tags": {
           "power": "transformer"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "transformatorius"
       },
       "public_transport/platform": {
         "fields": [
@@ -26537,7 +26837,8 @@
         "tags": {
           "public_transport": "platform"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "platforma"
       },
       "public_transport/stop_position": {
         "fields": [
@@ -26573,7 +26874,8 @@
         "tags": {
           "railway": "*"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "gelžkelis,geležinkelis,bėgiai"
       },
       "railway/abandoned": {
         "fields": [
@@ -26591,7 +26893,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "apleistas gelžkelis,nebenaudojamas gelžkelis"
       },
       "railway/disused": {
         "fields": [
@@ -26609,7 +26912,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "nenaudojamas geležinkelis,nenaudojami bėgiai"
       },
       "railway/funicular": {
         "fields": [
@@ -26644,6 +26948,7 @@
         "icon": "rail",
         "name": "Railway Halt",
         "name__en": "Railway Halt",
+        "name__transl": "Geležinkelio stotelė",
         "tags": {
           "railway": "halt"
         },
@@ -26654,7 +26959,8 @@
           "wait",
           "interruption"
         ],
-        "terms__en": "break,interrupt,rest,wait,interruption"
+        "terms__en": "break,interrupt,rest,wait,interruption",
+        "terms__transl": "geležinkelio stotelė"
       },
       "railway/level_crossing": {
         "geometry": [
@@ -26708,6 +27014,7 @@
         "icon": "railway-rail",
         "name": "Narrow Gauge Rail",
         "name__en": "Narrow Gauge Rail",
+        "name__transl": "Siaurukas",
         "tags": {
           "railway": "narrow_gauge"
         },
@@ -26715,7 +27022,8 @@
           "narrow gauge railway",
           "narrow gauge railroad"
         ],
-        "terms__en": "narrow gauge railway,narrow gauge railroad"
+        "terms__en": "narrow gauge railway,narrow gauge railroad",
+        "terms__transl": "siaurukas"
       },
       "railway/platform": {
         "geometry": [
@@ -26726,10 +27034,12 @@
         ],
         "name": "Railway Platform",
         "name__en": "Railway Platform",
+        "name__transl": "Geležinkelio platforma",
         "tags": {
           "railway": "platform"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "platforma,geležinkelio platforma"
       },
       "railway/rail": {
         "fields": [
@@ -26749,7 +27059,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "geležinkelis,gelžkelis"
       },
       "railway/station": {
         "fields": [
@@ -26773,7 +27084,8 @@
           "train station",
           "station"
         ],
-        "terms__en": "train station,station"
+        "terms__en": "train station,station",
+        "terms__transl": "stotis,geležinkelio stotis"
       },
       "railway/subway": {
         "fields": [
@@ -26793,7 +27105,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "metro"
       },
       "railway/subway_entrance": {
         "geometry": [
@@ -26808,7 +27121,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "įėjimas į metro"
       },
       "railway/tram": {
         "fields": [
@@ -26829,7 +27143,8 @@
         "terms": [
           "streetcar"
         ],
-        "terms__en": "streetcar"
+        "terms__en": "streetcar",
+        "terms__transl": "tramvajus"
       },
       "relation": {
         "fields": [
@@ -26844,7 +27159,8 @@
         "name__transl": "Ryšys",
         "tags": {
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "ryšys"
       },
       "route/ferry": {
         "geometry": [
@@ -26857,7 +27173,8 @@
         "tags": {
           "route": "ferry"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "kelto maršrutas"
       },
       "shop": {
         "fields": [
@@ -26880,7 +27197,8 @@
         },
         "terms": [
         ],
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "parduotuvė"
       },
       "shop/alcohol": {
         "fields": [
@@ -26906,7 +27224,8 @@
           "booze",
           "wine"
         ],
-        "terms__en": "alcohol,beer,booze,wine"
+        "terms__en": "alcohol,beer,booze,wine",
+        "terms__transl": "alkoholio parduotuvė"
       },
       "shop/alcohol/Alko": {
         "fields": [
@@ -27174,7 +27493,8 @@
         "tags": {
           "shop": "antiques"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "antikvariatas"
       },
       "shop/art": {
         "fields": [
@@ -27194,7 +27514,8 @@
         "tags": {
           "shop": "art"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "meno galerija,galerija"
       },
       "shop/baby_goods": {
         "fields": [
@@ -27258,7 +27579,8 @@
         "tags": {
           "shop": "bakery"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "kepykla"
       },
       "shop/bakery/Anker": {
         "fields": [
@@ -27836,7 +28158,8 @@
           "salon",
           "tanning"
         ],
-        "terms__en": "nail spa,spa,salon,tanning"
+        "terms__en": "nail spa,spa,salon,tanning",
+        "terms__transl": "grožio salonas"
       },
       "shop/bed": {
         "fields": [
@@ -27875,7 +28198,8 @@
         "tags": {
           "shop": "beverages"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "gėrimų parduotuvė"
       },
       "shop/bicycle": {
         "fields": [
@@ -27895,7 +28219,8 @@
         "tags": {
           "shop": "bicycle"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "dviračių parduotuvė"
       },
       "shop/bookmaker": {
         "fields": [
@@ -27934,7 +28259,8 @@
         "tags": {
           "shop": "books"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "knygynas,knygų parduotuvė"
       },
       "shop/books/Barnes & Noble": {
         "fields": [
@@ -28087,7 +28413,8 @@
         "tags": {
           "shop": "boutique"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "butikas"
       },
       "shop/butcher": {
         "fields": [
@@ -28110,7 +28437,8 @@
         "terms": [
           "meat"
         ],
-        "terms__en": "meat"
+        "terms__en": "meat",
+        "terms__transl": "mėsininkas"
       },
       "shop/candles": {
         "fields": [
@@ -28153,7 +28481,8 @@
         "terms": [
           "auto"
         ],
-        "terms__en": "auto"
+        "terms__en": "auto",
+        "terms__transl": "autosalonas"
       },
       "shop/car/Audi": {
         "fields": [
@@ -28613,7 +28942,8 @@
         "terms": [
           "auto"
         ],
-        "terms__en": "auto"
+        "terms__en": "auto",
+        "terms__transl": "automobilių dalys"
       },
       "shop/car_repair": {
         "fields": [
@@ -29039,7 +29369,8 @@
         "terms": [
           "rug"
         ],
-        "terms__en": "rug"
+        "terms__en": "rug",
+        "terms__transl": "kilimai,kilimų parduotuvė"
       },
       "shop/cheese": {
         "fields": [
@@ -29059,7 +29390,8 @@
         "tags": {
           "shop": "cheese"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "sūrio parduotuvė"
       },
       "shop/chemist": {
         "fields": [
@@ -29289,7 +29621,8 @@
         "tags": {
           "shop": "chocolate"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "šokolado parduotuvė"
       },
       "shop/clothes": {
         "fields": [
@@ -29309,7 +29642,8 @@
         "tags": {
           "shop": "clothes"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "drabužių parduotuvė"
       },
       "shop/clothes/AOKI": {
         "fields": [
@@ -34957,7 +35291,7 @@
         ],
         "terms__en": "stereo,video"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -34969,15 +35303,16 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household"
       },
       "shop/interior_decoration": {
         "fields": [
@@ -35022,7 +35357,8 @@
           "gem",
           "ring"
         ],
-        "terms__en": "diamond,gem,ring"
+        "terms__en": "diamond,gem,ring",
+        "terms__transl": "juvelyras"
       },
       "shop/jewelry/Bijou Brigitte": {
         "fields": [
@@ -35155,10 +35491,12 @@
         "icon": "shop",
         "name": "Leather Store",
         "name__en": "Leather Store",
+        "name__transl": "Odos dirbinių parduotuvė",
         "tags": {
           "shop": "leather"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "oda,odos dirbiniai,odos dirbinių parduotuvė"
       },
       "shop/locksmith": {
         "fields": [
@@ -35222,7 +35560,8 @@
         "tags": {
           "shop": "mall"
         },
-        "terms__en": ""
+        "terms__en": "",
+        "terms__transl": "prekybos centras"
       },
       "shop/massage": {
         "fields": [
@@ -35763,7 +36102,8 @@
           "CD",
           "vinyl"
         ],
-        "terms__en": "CD,vinyl"
+        "terms__en": "CD,vinyl",
+        "terms__transl": "muzikos prekės,muzikos prekių parduotuvė"
       },
       "shop/musical_instrument": {
         "fields": [

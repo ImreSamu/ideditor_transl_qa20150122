@@ -6,8 +6,20 @@
 -      }
      }
      presets: {
+-      landuse/commercial: {
+-        name: "Comercial"
+-      }
+-      landuse/farm: {
+-        name: "Terra de cultivo"
+-      }
 -      landuse/farmland: {
 -        name: "Terra de cultivo"
+-      }
+-      landuse/industrial: {
+-        name: "Industrial"
+-      }
+-      landuse/residential: {
+-        name: "Urbano"
 -      }
      }
    }

@@ -90,7 +90,7 @@
 |amenity/taxi|amenity|taxi| |Taxi Stand|Taxi Stand|Taksi stajalište|16| | | |cab|taksi stajalište,parkirno mjesto za taksi,parkirališno mjesto za taksi,mjesto za taksi,taksi mjesto|99| |car| |operator,capacity| | |amenity=taxi| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |amenity/telephone|amenity|telephone| |Telephone|Telephone|Telefon|7| | | |phone|telefon|7| |telephone| | | | |amenity=telephone| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
 |amenity/theatre|amenity|theatre| |Theater|Theater|Kazalište|9| | | |theatre,performance,play,musical|kazalište|9| |theatre| |operator,address,building_area| | |amenity=theatre| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|amenity/toilets|amenity|toilets| |Toilets|Toilets|Toalet|6| | | |bathroom,restroom,outhouse,privy,head,lavatory,latrine,water closet,WC,W.C.|WC,toalet,nužnik,sanitarni čvor|31| |toilets| |toilets/disposal,operator,building_area,access_toilets| | |amenity=toilets| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
+|amenity/toilets|amenity|toilets| |Toilets|Toilets|Toalet|6| | | |bathroom,restroom,outhouse,privy,head,lavatory,latrine,water closet,WC,W.C.|WC,toalet,nužnik,sanitarni čvor|31| |toilets| |toilets/disposal,operator,building_area,access_toilets,gender| | |amenity=toilets| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |amenity/townhall|amenity|townhall| |Town Hall|Town Hall|Gradska vijećnica|17| | | |village,city,government,courthouse,municipal|gradska vijećnica,vijećnica,općinski dom|40| |town-hall| |operator,address,building_area| | |amenity=townhall| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/university|amenity|university| |University Grounds|University Grounds|Fakultetsko zemljište|21| |duplicate| |college| |0| |college| |operator,address| | |amenity=university| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |amenity/vending_machine|amenity|vending_machine| |Vending Machine|Vending Machine|Automat za prodaju|18| | | |snack,soda,ticket|aparat za prodaju sokova,aparat za prodaju slatkiša,aparat za prodaju,aparat za kupovinu,prodajni aparat,automat za prodaju,automat za kupovinu,prodajni automat,automat za kavu|176| | | |vending,operator| | |amenity=vending_machine| | | | |1| | | | | |0| | | | | |0| | |point| | |last|
@@ -114,7 +114,7 @@
 |barrier/stile|barrier|stile| |Stile|Stile|Ograda preko koje pješaci mogu preći|36| | | || |0| | | |access| | |barrier=stile| | | | |1| | | | | |0| | | | | |0| | |point|vertex| |last|
 |barrier/toll_booth|barrier|toll_booth| |Toll Booth|Toll Booth|Naplatna kućica|15| | | || |0| | | |access| | |barrier=toll_booth| | | | |1| | | | | |0| | | | | |0| | | |vertex| |last|
 |barrier/wall|barrier|wall| |Wall|Wall|Zid|3| | | || |0| | | | | | |barrier=wall| | | | |1| | | | | |0| | | | | |0|area|line| | | |last|
-|boundary/administrative|boundary|administrative| |Administrative Boundary|Administrative Boundary|Administrativne granice|23| | | || |0| | | |admin_level| | |boundary=administrative| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
+|boundary/administrative|boundary|administrative| |Administrative Boundary|Administrative Boundary|Administrativna granica|23| |duplicate| || |0| | | |admin_level| | |boundary=administrative| | | | |1| | | | | |0| | | | | |0| |line| | | |last|
 |building|building| | |Building|Building|Građevina|9| | | ||zgrada,kuća,građevina,neboder|29| |building| |building,levels,address| | |building=*| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |building/apartments|building|apartments| |Apartments|Apartments|Apartmani|9| | | || |0| |commercial| |address,levels| | |building=apartments| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |building/barn|building|barn| |Barn|Barn|Ambar|5| | | ||žitnica, štagalj|16| |building| |address,levels| | |building=barn| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -265,27 +265,27 @@
 |historic/wayside_shrine|historic|wayside_shrine| |Wayside Shrine|Wayside Shrine|Svetište uz cestu|17| | | ||svetište uz cestu,svetište uz put|33| | | | | | |historic=wayside_shrine| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |junction|junction| | |Junction|Junction| |0| | |notTranslated|| |0| | | | | | |junction=yes| | | | |1| | | | | |0| | | | | |0|area| | |vertex| |last|
 |landuse|landuse| | |Landuse|Landuse|Korištenje|10| | | || |0| | | |landuse| | |landuse=*| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
-|landuse/allotments|landuse|allotments| |Allotments|Allotments|Vrtovi|6| | | ||urbani vrtovi,gradski vrtovi|28| | | | | | |landuse=allotments| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/basin|landuse|basin| |Basin|Basin|Bazen kišnice|13| | | || |0| | | | | | |landuse=basin| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/cemetery|landuse|cemetery| |Cemetery|Cemetery|Groblje|7| |duplicate| || |0| |cemetery| |religion,denomination| | |landuse=cemetery| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
+|landuse/allotments|landuse|allotments| |Allotments|Allotments|Vrtovi|6| | | ||urbani vrtovi,gradski vrtovi|28| | | | | | |landuse=allotments| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/basin|landuse|basin| |Basin|Basin|Bazen kišnice|13| | | || |0| | | | | | |landuse=basin| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/cemetery|landuse|cemetery| |Cemetery|Cemetery|Groblje|7| |duplicate| || |0| |cemetery| |religion,denomination| | |landuse=cemetery| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |landuse/churchyard|landuse|churchyard| |Churchyard|Churchyard| |0| | |notTranslated|| |0| | | |religion,denomination| | |landuse=churchyard| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
-|landuse/commercial|landuse|commercial| |Commercial|Commercial|Poslovno|8| | | || |0| |commercial| | | | |landuse=commercial| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/construction|landuse|construction| |Construction|Construction|Građevinsko|11| | | || |0| | | |construction,operator| | |landuse=construction| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/farm|landuse|farm| |Farm|Farm|Poljoprivredno zemljište|24| | | || |0| |farm| |crop|false| |landuse=farm| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/farmland|landuse|farmland| |Farm|Farm| |0| | |notTranslated|farmland| |0| |farm| |crop| | |landuse=farmland| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/farmyard|landuse|farmyard| |Farmyard|Farmyard|Gospodarsko imanje|18| | | || |0| |farm| |crop| | |landuse=farmyard| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/forest|landuse|forest| |Forest|Forest|Šuma|4| | | |tree|šuma,održavana šuma,šuma nasada,upravljana šuma|47| |park2| |leaf_type,leaf_cycle| | |landuse=forest| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|landuse/commercial|landuse|commercial| |Commercial Area|Commercial Area| |0| | |notTranslated|| |0| |commercial| | | | |landuse=commercial| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/construction|landuse|construction| |Construction|Construction|Građevinsko|11| | | || |0| | | |construction,operator| | |landuse=construction| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/farm|landuse|farm| |Farmland|Farmland| |0| | |notTranslated|| |0| |farm| |crop|false| |landuse=farm| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|landuse/farmland|landuse|farmland| |Farmland|Farmland| |0| | |notTranslated|| |0| |farm| |crop| | |landuse=farmland| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/farmyard|landuse|farmyard| |Farmyard|Farmyard|Gospodarsko imanje|18| | | || |0| |farm| |crop| | |landuse=farmyard| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/forest|landuse|forest| |Forest|Forest|Šuma|4| | | |tree|šuma,održavana šuma,šuma nasada,upravljana šuma|47| |park2| |leaf_type,leaf_cycle| | |landuse=forest| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |landuse/garages|landuse|garages| |Garages|Garages| |0| | |notTranslated|| |0| | | | | | |landuse=garages| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
-|landuse/grass|landuse|grass| |Grass|Grass|Travnjak|8| |duplicate| || |0| | | | | | |landuse=grass| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/industrial|landuse|industrial| |Industrial|Industrial|Industrijsko|12| | | || |0| |industrial| | | | |landuse=industrial| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|landuse/grass|landuse|grass| |Grass|Grass|Travnjak|8| |duplicate| || |0| | | | | | |landuse=grass| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/industrial|landuse|industrial| |Industrial Area|Industrial Area| |0| | |notTranslated|| |0| |industrial| | | | |landuse=industrial| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |landuse/landfill|landuse|landfill| |Landfill|Landfill| |0| | |notTranslated|dump| |0| | | | | | |landuse=landfill| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
-|landuse/meadow|landuse|meadow| |Meadow|Meadow|Livada|6| | | || |0| | | | | | |landuse=meadow| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/military|landuse|military| |Military|Military| |0| | |notTranslated|| |0| | | | | | |landuse=military| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
-|landuse/orchard|landuse|orchard| |Orchard|Orchard|Voćnjak|7| | | || |0| |park2| |trees| | |landuse=orchard| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/quarry|landuse|quarry| |Quarry|Quarry|Kamenolom|9| | | || |0| | | | | | |landuse=quarry| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/residential|landuse|residential| |Residential|Residential|Stambeno|8| | | || |0| |building| | | | |landuse=residential| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/retail|landuse|retail| |Retail|Retail|Maloprodaja|11| | | || |0| |shop| | | | |landuse=retail| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|landuse/vineyard|landuse|vineyard| |Vineyard|Vineyard|Vinograd|8| | | || |0| | | | | | |landuse=vineyard| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|landuse/meadow|landuse|meadow| |Meadow|Meadow|Livada|6| | | || |0| | | | | | |landuse=meadow| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/military|landuse|military| |Military Area|Military Area| |0| | |notTranslated|| |0| | | | | | |landuse=military| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/orchard|landuse|orchard| |Orchard|Orchard|Voćnjak|7| | | || |0| |park2| |trees| | |landuse=orchard| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/quarry|landuse|quarry| |Quarry|Quarry|Kamenolom|9| | | || |0| | | | | | |landuse=quarry| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/residential|landuse|residential| |Residential Area|Residential Area| |0| | |notTranslated|| |0| |building| | | | |landuse=residential| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/retail|landuse|retail| |Retail Area|Retail Area| |0| | |notTranslated|| |0| |shop| | | | |landuse=retail| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
+|landuse/vineyard|landuse|vineyard| |Vineyard|Vineyard|Vinograd|8| | | || |0| | | | | | |landuse=vineyard| | | | |1| | | | | |0| | | | | |0|area| | | | |last|
 |leisure|leisure| | |Leisure|Leisure|Razonoda|8| | | || |0| | | |leisure| | |leisure=*| | | | |1| | | | | |0| | | | | |0|area| |point|vertex| |last|
 |leisure/common|leisure|common| |Common|Common|Zelena površina po kojoj se može hodati - u UK|46| | | |open space|zelena površina,zelena površina po kojoj se može hodati,zajednička zelena površina|82| | | | | | |leisure=common| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |leisure/dog_park|leisure|dog_park| |Dog Park|Dog Park|Park za pse|11| | | || |0| |dog-park| | | | |leisure=dog_park| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -470,7 +470,7 @@
 |shop/hearing_aids|shop|hearing_aids| |Hearing Aids Store|Hearing Aids Store| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=hearing_aids| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/herbalist|shop|herbalist| |Herbalist|Herbalist| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=herbalist| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/hifi|shop|hifi| |Hifi Store|Hifi Store|Prodavaonica audio opreme|25| | | |stereo,video|trgovina audio opreme|21| |shop| |operator,address,building_area,opening_hours| | |shop=hifi| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
-|shop/household|shop|household| |Household Store|Household Store| |0| | |notTranslated|home| |0| |shop| |operator,address,building_area,opening_hours| | |shop=household| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
+|shop/houseware|shop|houseware| |Houseware Store|Houseware Store| |0| | |notTranslated|home,household| |0| |shop| |operator,address,building_area,opening_hours| | |shop=houseware| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/interior_decoration|shop|interior_decoration| |Interior Decoration Store|Interior Decoration Store| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=interior_decoration| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/jewelry|shop|jewelry| |Jeweler|Jeweler|Zlatarnica|10| | | |diamond,gem,ring|zlatarna,zlatara,zlatar|23| |shop| |operator,address,building_area,opening_hours| | |shop=jewelry| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
 |shop/kiosk|shop|kiosk| |News Kiosk|News Kiosk| |0| | |notTranslated|| |0| |shop| |operator,address,building_area,opening_hours| | |shop=kiosk| | | | |1| | | | | |0| | | | | |0|area| |point| | |last|
@@ -544,7 +544,7 @@
 |traffic_calming/rumble_strip|traffic_calming|rumble_strip| |Rumble Strip|Rumble Strip| |0| | |notTranslated|sleeper lines,audible lines,growlers| |0| | | | | | |traffic_calming=rumble_strip| | | | |1| | | | | |0| | | | | |0| | | |vertex| |last|
 |traffic_calming/table|traffic_calming|table| |Raised Pedestrian Crossing|Raised Pedestrian Crossing| |0| | |notTranslated|speed table,flat top hump| |0| | | |surface| | |highway=crossing|traffic_calming=table| | | |2| | | | | |0| | | | | |0| | | |vertex| |last|
 |type/boundary|type|boundary| |Boundary|Boundary|Granica|7| | | ||granica,međa,linija,linija razgraničenja|40| |boundary| |boundary| | |type=boundary| | | | |1| | | | | |0| | | | | |0| | | | |relation|last|
-|type/boundary/administrative|type|boundary|administrative|Administrative Boundary|Administrative Boundary|Administrativna granica|23| | | ||granica,međa,linija,linija razgraničenja,državna granica,županijska granica,administrativna granica,administrativna linija|122| |boundary| |admin_level| | |type=boundary|boundary=administrative| | | |2| | | | | |0| | | | | |0| | | | |relation|last|
+|type/boundary/administrative|type|boundary|administrative|Administrative Boundary|Administrative Boundary|Administrativna granica|23| |duplicate| ||granica,međa,linija,linija razgraničenja,državna granica,županijska granica,administrativna granica,administrativna linija|122| |boundary| |admin_level| | |type=boundary|boundary=administrative| | | |2| | | | | |0| | | | | |0| | | | |relation|last|
 |type/multipolygon|type|multipolygon| |Multipolygon|Multipolygon|Multipoligon|12| | | ||multipoligon,višestruki poligon,dvostruki poligon,trostruki poligon|67| |multipolygon| | |false|0.1|type=multipolygon| | | | |1| | | | | |0| | | | | |0|area| | | |relation|last|
 |type/restriction|type|restriction| |Restriction|Restriction|Ograničenje|11| | | ||ograničenje,blokiranje,ograničavanje,restrikcija,zadržavanje,zabrana,zabrana za vozila,zabrana pristupa|103| |restriction| |restriction,except| | |type=restriction| | | | |1| | | | | |0| | | | | |0| | | | |relation|last|
 |type/restriction/no_left_turn|type|restriction|no_left_turn|No Left Turn|No Left Turn| |0| | |notTranslated|| |0| |restriction-no-left-turn| |except| | |type=restriction|restriction=no_left_turn| | | |2| | | | | |0| | | | | |0| | | | |relation|last|

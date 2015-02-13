@@ -423,7 +423,7 @@
 | 1
 | text
 | Brand
-|  
+| Značka
 |  
 |  
 | brand
@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+| Pohlavie
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Neznáme
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -1638,13 +1653,13 @@
 | 1
 | combo
 | Leaf Cycle
-|  
+| Opadavosť
 |  
 |  
 | leaf_cycle
 | evergreen
 | Evergreen
-| 
+| Neopadavý
 |  
 |  
 | last
@@ -1659,7 +1674,7 @@
 |  
 | deciduous
 | Deciduous
-| 
+| Opadavý
 |  
 |  
 | last
@@ -1674,7 +1689,7 @@
 |  
 | semi_evergreen
 | Semi-Evergreen
-| 
+| Poloopadavý
 |  
 |  
 | last
@@ -1689,7 +1704,7 @@
 |  
 | semi_deciduous
 | Semi-Deciduous
-| 
+| Krátkoopadavé
 |  
 |  
 | last
@@ -1704,7 +1719,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Zmiešaný
 |  
 |  
 | last
@@ -1713,13 +1728,13 @@
 | 1
 | combo
 | Leaf Type
-|  
+| Typ listov
 |  
 |  
 | leaf_type
 | broadleaved
 | Broadleaved
-| 
+| Širokolisté
 |  
 |  
 | last
@@ -1734,7 +1749,7 @@
 |  
 | needleleaved
 | Needleleaved
-| 
+| Ihličnaté
 |  
 |  
 | last
@@ -1749,7 +1764,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Zmiešané
 |  
 |  
 | last
@@ -1764,7 +1779,7 @@
 |  
 | leafless
 | Leafless
-| 
+| Bezlisté
 |  
 |  
 | last
@@ -3174,7 +3189,7 @@
 | smoothness
 | excellent
 | Thin Rollers: rollerblade, skateboard
-| 
+| Malé kolieska: kolieskové korčule, skateboard
 | Thin Rollers, Wheels, Off-Road...
 | Malé kolieska, kolesá, off-road...
 | last
@@ -3189,7 +3204,7 @@
 |  
 | good
 | Thin Wheels: racing bike
-| 
+| Tenké kolesá: závodný bicykel
 |  
 |  
 | last
@@ -3204,7 +3219,7 @@
 |  
 | intermediate
 | Wheels: city bike, wheelchair, scooter
-| 
+| Kolesá: mestský bicykel, invalidný vozík, skúter
 |  
 |  
 | last
@@ -3219,7 +3234,7 @@
 |  
 | bad
 | Robust Wheels: trekking bike, car, rickshaw
-| 
+| Pevné kolesá: trekový bicykel, auto, rikša
 |  
 |  
 | last
@@ -3234,7 +3249,7 @@
 |  
 | very_bad
 | High Clearance: light duty off-road vehicle
-| 
+| Zvýšený podvozok: ľahké off-road vozidlo
 |  
 |  
 | last
@@ -3249,7 +3264,7 @@
 |  
 | horrible
 | Off-Road: heavy duty off-road vehicle
-| 
+| Off-road: výkonné off-road vozidlo
 |  
 |  
 | last
@@ -3264,7 +3279,7 @@
 |  
 | very_horrible
 | Specialized off-road: tractor, ATV
-| 
+| Špecializovaný off-road: traktor, štvorkolka
 |  
 |  
 | last
@@ -3277,8 +3292,8 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
+| impassable
+| Impassable / No wheeled vehicle
 | 
 |  
 |  

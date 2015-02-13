@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+| Género
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Desconhecido
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -3277,9 +3292,9 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
-| Intransitável: Transito impossível a veículos com rodas
+| impassable
+| Impassable / No wheeled vehicle
+| Intransitável / Veículos sem rodas
 |  
 |  
 | last

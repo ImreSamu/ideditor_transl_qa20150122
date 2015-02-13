@@ -9,6 +9,7 @@
 +  feature: {
 +    points: {
 +      description: "Punkty"
++      tooltip: "Użyteczne miejsce (POI)"
 +    }
 +    major_roads: {
 +      description: "Główne drogi"
@@ -25,6 +26,9 @@
 +    boundaries: {
 +      description: "Granice"
 +    }
++    others: {
++      description: "Inne"
++    }
 +  }
 +  area_fill: {
 +    wireframe: {
@@ -39,8 +43,16 @@
 +  }
 +  mapillary: {
 +    title: "Nakładka zdjęć (Mapillary)"
++    view_on_mapillary: "Zobacz ten obraz w Mapillary"
 +  }
+   commit: {
++    changes: "{count} zmian"
+   }
    inspector: {
++    check: {
++      yes: "Tak"
++      no: "Nie"
++    }
 +    add_fields: "Dodaj pole:"
    }
    help: {
@@ -123,13 +135,38 @@
 +          pond: "Staw"
 +        }
        }
+       smoothness: {
+         options: {
+-          impassible: "Nieprzejezdny dla pojazdów kołowych"
+         }
+       }
      }
      presets: {
 -      craft/confectionary: {
 -        name: "Cukiernik"
 -      }
+-      landuse/commercial: {
+-        name: "Handlowy"
+-      }
+-      landuse/farm: {
+-        name: "Teren rolny (orny)"
+-        terms: "Farma, gospodarstwo, zagroda"
+-      }
 -      landuse/farmland: {
 -        name: "Pole uprawne"
+-      }
+-      landuse/industrial: {
+-        name: "Obszar przemysłowy"
+-      }
+-      landuse/military: {
+-        name: "Wojskowy"
+-      }
+-      landuse/residential: {
+-        name: "Zabudowa mieszkalna"
+-        terms: "mieszkalny, zamieszkany, mieszkaniowy"
+-      }
+-      landuse/retail: {
+-        name: "Obszar handlowy"
 -      }
 +      amenity/bicycle_repair_station: {
 +        name: "Punkt naprawy rowerów"
@@ -152,9 +189,30 @@
 +      natural/cave_entrance: {
 +        name: "Wejście do jaskini"
 +      }
++      power/substation: {
++        name: "Podstacja"
++      }
 +      shop/copyshop: {
 +        name: "Punkt ksero"
 +        terms: "kopiowanie"
++      }
++      shop/kiosk: {
++        name: "Kiosk z prasą"
++      }
++      shop/newsagent: {
++        name: "Sklep z prasą"
++      }
++      shop/pyrotechnics: {
++        name: "Sklep z ogniami sztucznymi"
++      }
++      shop/religion: {
++        name: "Sklep z dewocjonaliami"
++      }
++      shop/scuba_diving: {
++        name: "Sklep nurkowy"
++      }
++      shop/tea: {
++        name: "Herbaciarnia"
 +      }
        amenity/boat_rental: {
 -        name: "Wpożyczalnia łodzi"

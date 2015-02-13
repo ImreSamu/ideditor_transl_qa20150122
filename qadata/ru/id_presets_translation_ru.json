@@ -216,7 +216,9 @@
     "back_tooltip__transl": "Изменить объект",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "Нет",
+      "yes__en": "Yes",
+      "yes__transl": "Да"
     },
     "choose__en": "Select feature type",
     "choose__transl": "Что это за объект?",
@@ -515,6 +517,7 @@
       "description__transl": "Удалить объект окончательно.",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "Этот объект нельзя удалить, потому что он загружен целиком.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "Удалить"
     },
@@ -1509,7 +1512,7 @@
         "key": "fee",
         "label": "Fee",
         "label__en": "Fee",
-        "label__transl": "Стоимость",
+        "label__transl": "Есть оплата",
         "type": "check"
       },
       "fire_hydrant/type": {
@@ -1620,6 +1623,30 @@
         "label__en": "Gauge",
         "label__transl": "Колея",
         "type": "combo"
+      },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "options": {
+          "female__en": "Female",
+          "male__en": "Male",
+          "unisex__en": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
       },
       "generator/method": {
         "key": "generator:method",
@@ -1760,7 +1787,7 @@
         "key": "lanes",
         "label": "Lanes",
         "label__en": "Lanes",
-        "label__transl": "Линии",
+        "label__transl": "Полосы движения",
         "placeholder": "1, 2, 3...",
         "placeholder__en": "1, 2, 3...",
         "placeholder__transl": "1, 2, 3...",
@@ -2517,8 +2544,7 @@
           "good__transl": "Тонкие колёса: гоночные велосипеды",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
           "horrible__transl": "Внедорожники: полноценные внедорожники",
-          "impassible__en": "Impassible / No wheeled vehicle",
-          "impassible__transl": "Непроходимо ни для какой колесной техники",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "intermediate__transl": "Колёса: городские велосипеды, коляски, скутеры",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
@@ -2535,7 +2561,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -20931,7 +20957,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -24511,7 +24538,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -24527,7 +24553,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -24547,8 +24572,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24584,20 +24607,17 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "Коммерческая территория",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
         "tags": {
           "landuse": "commercial"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "Коммерческое землепользование, Территории торгово-офисного назначения"
+        "terms__en": ""
       },
       "landuse/construction": {
         "fields": [
@@ -24605,7 +24625,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24628,8 +24647,8 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "searchable": false,
         "tags": {
           "landuse": "farm"
@@ -24643,26 +24662,23 @@
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland"
+        "terms__en": ""
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24683,7 +24699,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24716,7 +24731,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24732,20 +24746,17 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "Промышленная территория",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "Промышленная территория, Производственная территория, Промышленное землепользование"
+        "terms__en": ""
       },
       "landuse/landfill": {
         "geometry": [
@@ -24765,7 +24776,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24783,23 +24793,20 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
-        "name__transl": "Военная территория",
+        "name": "Military Area",
+        "name__en": "Military Area",
         "tags": {
           "landuse": "military"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "полигон, часть, бой, действия, оружие, войска"
+        "terms__en": ""
       },
       "landuse/orchard": {
         "fields": [
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24816,7 +24823,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24832,39 +24838,32 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "Жилая зона",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
         "tags": {
           "landuse": "residential"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "Жилая территория, Селитебная территория, Жилые земли, Селитебные земли"
+        "terms__en": ""
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "Торговая территория",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
         "tags": {
           "landuse": "retail"
         },
-        "terms__en": "",
-        "terms__transl": "розница, торговля"
+        "terms__en": ""
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -35532,7 +35531,7 @@
         "terms__en": "stereo,video",
         "terms__transl": "Техника Hi-fi, Акустика Hi-fi, домашний кинотеатр"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -35544,15 +35543,16 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household"
       },
       "shop/interior_decoration": {
         "fields": [

@@ -12,8 +12,26 @@
 -      craft/confectionary: {
 -        name: "قنادی"
 -      }
+-      landuse/commercial: {
+-        name: "تجاری"
+-      }
+-      landuse/farm: {
+-        name: "مزرعه"
+-      }
 -      landuse/farmland: {
 -        name: "زمین کشاورزی"
+-      }
+-      landuse/industrial: {
+-        name: "صنعتی"
+-      }
+-      landuse/military: {
+-        name: "نظامی"
+-      }
+-      landuse/residential: {
+-        name: "مسکونی"
+-      }
+-      landuse/retail: {
+-        name: "خرده فروشی"
 -      }
      }
    }

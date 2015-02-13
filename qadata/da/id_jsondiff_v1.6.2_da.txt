@@ -131,6 +131,15 @@
 +      delivery: {
 +        label: "Levering"
 +      }
++      gender: {
++        label: "Køn"
++        placeholder: "Ukendt"
++        options: {
++          male: "Mand"
++          female: "Kvinde"
++          unisex: "Unisex"
++        }
++      }
 +      leaf_cycle: {
 +        label: "Bladcyklus"
 +        options: {
@@ -178,6 +187,12 @@
 +          only: "Kun Takeway"
 +        }
 +      }
+       smoothness: {
+         options: {
+-          impassible: "Ufremkommelige / Ingen køretøjer på hjem"
++          impassable: "Ufremkommeligt /Intet køretøj på hjul"
+         }
+       }
      }
      presets: {
 -      craft/confectionary: {
@@ -228,7 +243,7 @@
 +        name: "Transformatorstation"
 +        terms: "Transformatorstation"
 +      }
-+      shop/household: {
++      shop/houseware: {
 +        name: "Køkkenudstyr"
 +        terms: "Køkkenudstyr"
 +      }
@@ -249,10 +264,32 @@
 +        terms: "Fodgængerfelt, Fodgængerovergang"
 +      }
        landuse/farmland: {
--        name: "Landbrugsjord"
-+        name: "Gård"
 -        terms: "Landbrugsjord, Marker"
-+        terms: "Gård, Bondegård"
++        terms: "Landbrugsjord"
+       }
+       landuse/industrial: {
+-        terms: "Industriområde, Fabriksområde"
++        terms: "Industriområde"
+       }
+       landuse/military: {
+-        name: "Militær"
++        name: "Militært område"
+-        terms: "Militær"
++        terms: "Militært område, Militærbase"
+       }
+       landuse/residential: {
+-        name: "Beboelsesområde"
++        name: "Beboet område"
+-        terms: "Boligområde"
++        terms: "Beboet område"
+       }
+       landuse/retail: {
+-        terms: "Handelsområde, Butiksområde"
++        terms: "Handelsområde"
+       }
+       leisure/picnic_table: {
+-        name: "Picnicborg"
++        name: "Picnicbord"
        }
      }
    }

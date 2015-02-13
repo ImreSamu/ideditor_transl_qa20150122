@@ -19,6 +19,7 @@
 +        placeholder: "Nekonata"
 +        types: {
 +          bicycle: "Bicikloj"
++          horse: "Ĉevaloj"
 +        }
 +        options: {
 +          yes: {
@@ -62,8 +63,17 @@
 +          no: "Ne"
 +        }
 +      }
++      fax: {
++        placeholder: "+31 42 123 4567"
++      }
++      gender: {
++        placeholder: "Nekonata"
++      }
 +      golf_hole: {
 +        label: "Referenco"
++      }
++      handicap: {
++        placeholder: "1-18"
 +      }
 +      hoops: {
 +        placeholder: "1, 2, 4..."
@@ -78,6 +88,7 @@
 +        options: {
 +          yes: "Jes"
 +          no: "Ne"
++          wlan: "Wi-Fi"
 +        }
 +      }
 +      lanes: {

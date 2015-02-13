@@ -156,6 +156,7 @@
   },
   "inspector": {
     "add_fields__en": "Add field:",
+    "add_fields__transl": "أضف حقل",
     "all_members__en": "All members",
     "all_members__transl": "كل اﻷعضاء",
     "all_relations__en": "All relations",
@@ -166,7 +167,9 @@
     "back_tooltip__transl": "غيّر ميزة",
     "check": {
       "no__en": "No",
-      "yes__en": "Yes"
+      "no__transl": "لا",
+      "yes__en": "Yes",
+      "yes__transl": "نعم"
     },
     "choose__en": "Select feature type",
     "choose__transl": "اختر نوع الميزة",
@@ -176,6 +179,7 @@
     "feature_list__transl": "إبحث عن الميزات",
     "incomplete__en": "<not downloaded>",
     "location__en": "Location",
+    "location__transl": "مكان",
     "multiselect__en": "Selected items",
     "multiselect__transl": "العناصر المحددة",
     "new_relation__en": "New relation...",
@@ -190,6 +194,7 @@
     "reference__en": "View on OpenStreetMap Wiki",
     "reference__transl": "العرض على ويكي openstreetmap.org",
     "relation__en": "Relation",
+    "relation__transl": "علاقة",
     "remove__en": "Remove",
     "remove__transl": "إزالة",
     "results__en": "{n} results for {search}",
@@ -204,7 +209,8 @@
     "unknown__transl": "غير معروف",
     "view_on_osm__en": "View on openstreetmap.org",
     "view_on_osm__transl": "العرض على openstreetmap.org",
-    "way__en": "Way"
+    "way__en": "Way",
+    "way__transl": "مسار"
   },
   "intro": {
     "areas": {
@@ -296,7 +302,7 @@
       "description__en": "Add parks, buildings, lakes or other areas to the map.",
       "description__transl": "أضف مواقف أو مباني أو بحيرات أو مناطق أخرى إلى الخارطة.",
       "tail__en": "Click on the map to start drawing an area, like a park, lake, or building.",
-      "tail__transl": "انقر على الخارطة للبدء في رسم منطقة، كحديقة, بجيرة أو مبنى.",
+      "tail__transl": "انقر على الخارطة للبدء في رسم منطقة مثل حديقة أو بحيرة أو مبنى.",
       "title__en": "Area",
       "title__transl": "المساحة"
     },
@@ -310,7 +316,7 @@
     },
     "add_point": {
       "description__en": "Add restaurants, monuments, postal boxes or other points to the map.",
-      "description__transl": "أضف مطاعم، نُصب تذكارية، مكاتب بريد أو نقاط اخرى إلى الخارطة.",
+      "description__transl": "أضف مطاعم، نُصب تذكارية، مكاتب بريد أو نقاط أخري إلى الخارطة.",
       "tail__en": "Click on the map to add a point.",
       "tail__transl": "اضغط على الخارطة ﻹضافة نقطة. ",
       "title__en": "Point",
@@ -401,6 +407,7 @@
       "description__en": "Continue this line.",
       "description__transl": "مواصلة هذا الخط.",
       "key__en": "A",
+      "key__transl": "A",
       "multiple__en": "Several lines can be continued here. To choose a line, press the Shift key and click on it to select it.",
       "multiple__transl": "يمكن أن تستمر عدة أسطر هنا. لاختيار خط، اضغط على مفتاح Shift ثم انقر عليه لتحديده.",
       "not_eligible__en": "No line can be continued here.",
@@ -425,8 +432,10 @@
       },
       "connected_to_hidden__en": "This can't be deleted because it is connected to a hidden feature.",
       "description__en": "Delete object permanently.",
+      "description__transl": "احذف الكائن نهائيا",
       "incomplete_relation__en": "This feature can't be deleted because it hasn't been fully downloaded.",
       "incomplete_relation__transl": "لا يمكن حذف هذه الميزة لأنه لم يتم تحميلها بالكامل.",
+      "part_of_relation__en": "This feature can't be deleted because it's part of a larger relation. You must remove it from the relation first.",
       "title__en": "Delete",
       "title__transl": "حذف"
     },
@@ -453,11 +462,13 @@
       "description__en": "Merge these lines.",
       "description__transl": "ادمج هذه الخطوط",
       "incomplete_relation__en": "These features can't be merged because at least one hasn't been fully downloaded.",
+      "incomplete_relation__transl": "لا يمكن دمج هذه المميزات لأن واحد منها على الأقل لم يتم تحميله بالكامل.",
       "key__en": "C",
       "key__transl": "C",
       "not_adjacent__en": "These lines can't be merged because they aren't connected.",
       "not_adjacent__transl": "لا يمكن دمج هذه الخطوط لأنها غير متصلة.",
       "not_eligible__en": "These features can't be merged.",
+      "not_eligible__transl": "هذه المميزات لا يمكن دمجها",
       "restriction__en": "These lines can't be merged because at least one is a member of a \"{relation}\" relation.",
       "restriction__transl": "لا يمكن دمج هذه الخطوط بسبب أن أحدها على الأقل لديه علاقة بـ \"{relation}\"",
       "title__en": "Merge",
@@ -548,6 +559,7 @@
     "split": {
       "annotation": {
         "area__en": "Split an area boundary.",
+        "area__transl": "افصل حدود منطقة",
         "line__en": "Split a line.",
         "line__transl": "افصل الخط.",
         "multiple__en": "Split {n} lines/area boundaries.",
@@ -585,6 +597,7 @@
       "description__en": "Straighten this line.",
       "description__transl": "اجعل هذا الخط مستقيماً.",
       "key__en": "S",
+      "key__transl": "S",
       "title__en": "Straighten",
       "title__transl": "مستقيم",
       "too_bendy__en": "This can't be straightened because it bends too much."
@@ -620,7 +633,8 @@
           "golf/water_hazard"
         ],
         "name": "Golf",
-        "name__en": "Golf"
+        "name__en": "Golf",
+        "name__transl": "جولف"
       },
       "category-landuse": {
         "geometry": "area",
@@ -878,12 +892,14 @@
         ],
         "placeholder": "yes",
         "placeholder__en": "yes",
+        "placeholder__transl": "نعم",
         "type": "combo"
       },
       "access_toilets": {
         "key": "access",
         "label": "Access",
         "label__en": "Access",
+        "label__transl": "الدخول",
         "options": [
           "public",
           "permissive",
@@ -908,14 +924,19 @@
           "city__en": "City",
           "city__transl": "المدينة",
           "country__en": "Country",
+          "country__transl": "دولة",
           "district__en": "District",
           "hamlet__en": "Hamlet",
           "housename__en": "Housename",
+          "housename__transl": "اسم المنزل",
           "housenumber__en": "123",
+          "housenumber__transl": "123",
           "place__en": "Place",
           "postcode__en": "Postcode",
+          "postcode__transl": "الرمز البريدي",
           "province__en": "Province",
           "state__en": "State",
+          "state__transl": "ولاية",
           "street__en": "Street",
           "street__transl": "الشارع",
           "subdistrict__en": "Subdistrict",
@@ -955,16 +976,21 @@
         "key": "aerialway",
         "label": "Type",
         "label__en": "Type",
+        "label__transl": "نوع",
         "type": "typeCombo"
       },
       "aerialway/access": {
         "key": "aerialway:access",
         "label": "Access",
         "label__en": "Access",
+        "label__transl": "دخول",
         "options": {
           "both__en": "Both",
+          "both__transl": "كلاهما",
           "entry__en": "Entry",
-          "exit__en": "Exit"
+          "entry__transl": "مدخل",
+          "exit__en": "Exit",
+          "exit__transl": "مخرج"
         },
         "strings": {
           "options": {
@@ -993,8 +1019,10 @@
         "key": "aerialway:duration",
         "label": "Duration (minutes)",
         "label__en": "Duration (minutes)",
+        "label__transl": "المدة (دقائق)",
         "placeholder": "1, 2, 3...",
         "placeholder__en": "1, 2, 3...",
+        "placeholder__transl": "1, 2, 3...",
         "type": "number"
       },
       "aerialway/heating": {
@@ -1435,6 +1463,30 @@
         "label": "Gauge",
         "label__en": "Gauge",
         "type": "combo"
+      },
+      "gender": {
+        "keys": [
+          "male",
+          "female",
+          "unisex"
+        ],
+        "label": "Gender",
+        "label__en": "Gender",
+        "options": {
+          "female__en": "Female",
+          "male__en": "Male",
+          "unisex__en": "Unisex"
+        },
+        "placeholder": "Unknown",
+        "placeholder__en": "Unknown",
+        "strings": {
+          "options": {
+            "female": "Female",
+            "male": "Male",
+            "unisex": "Unisex"
+          }
+        },
+        "type": "radio"
       },
       "generator/method": {
         "key": "generator:method",
@@ -2227,7 +2279,7 @@
           "excellent__en": "Thin Rollers: rollerblade, skateboard",
           "good__en": "Thin Wheels: racing bike",
           "horrible__en": "Off-Road: heavy duty off-road vehicle",
-          "impassible__en": "Impassible / No wheeled vehicle",
+          "impassable__en": "Impassable / No wheeled vehicle",
           "intermediate__en": "Wheels: city bike, wheelchair, scooter",
           "very_bad__en": "High Clearance: light duty off-road vehicle",
           "very_horrible__en": "Specialized off-road: tractor, ATV"
@@ -2240,7 +2292,7 @@
             "excellent": "Thin Rollers: rollerblade, skateboard",
             "good": "Thin Wheels: racing bike",
             "horrible": "Off-Road: heavy duty off-road vehicle",
-            "impassible": "Impassible / No wheeled vehicle",
+            "impassable": "Impassable / No wheeled vehicle",
             "intermediate": "Wheels: city bike, wheelchair, scooter",
             "very_bad": "High Clearance: light duty off-road vehicle",
             "very_horrible": "Specialized off-road: tractor, ATV"
@@ -20538,7 +20590,8 @@
           "toilets/disposal",
           "operator",
           "building_area",
-          "access_toilets"
+          "access_toilets",
+          "gender"
         ],
         "geometry": [
           "point",
@@ -23932,7 +23985,6 @@
       },
       "landuse/allotments": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Allotments",
@@ -23948,7 +24000,6 @@
       },
       "landuse/basin": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Basin",
@@ -23968,8 +24019,6 @@
           "denomination"
         ],
         "geometry": [
-          "point",
-          "vertex",
           "area"
         ],
         "icon": "cemetery",
@@ -24003,20 +24052,17 @@
       },
       "landuse/commercial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "commercial",
-        "name": "Commercial",
-        "name__en": "Commercial",
-        "name__transl": "تجاري",
+        "name": "Commercial Area",
+        "name__en": "Commercial Area",
         "tags": {
           "landuse": "commercial"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "تجاري"
+        "terms__en": ""
       },
       "landuse/construction": {
         "fields": [
@@ -24024,7 +24070,6 @@
           "operator"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Construction",
@@ -24047,43 +24092,38 @@
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
-        "name__transl": "مزرعة",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "searchable": false,
         "tags": {
           "landuse": "farm"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "مزرعة"
+        "terms__en": ""
       },
       "landuse/farmland": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
-        "name": "Farm",
-        "name__en": "Farm",
+        "name": "Farmland",
+        "name__en": "Farmland",
         "tags": {
           "landuse": "farmland"
         },
         "terms": [
-          "farmland"
         ],
-        "terms__en": "farmland"
+        "terms__en": ""
       },
       "landuse/farmyard": {
         "fields": [
           "crop"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "farm",
@@ -24104,7 +24144,6 @@
           "leaf_cycle"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24135,7 +24174,6 @@
       },
       "landuse/grass": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Grass",
@@ -24151,20 +24189,17 @@
       },
       "landuse/industrial": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "industrial",
-        "name": "Industrial",
-        "name__en": "Industrial",
-        "name__transl": "صناعي",
+        "name": "Industrial Area",
+        "name__en": "Industrial Area",
         "tags": {
           "landuse": "industrial"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "صناعي"
+        "terms__en": ""
       },
       "landuse/landfill": {
         "geometry": [
@@ -24182,7 +24217,6 @@
       },
       "landuse/meadow": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Meadow",
@@ -24200,8 +24234,8 @@
         "geometry": [
           "area"
         ],
-        "name": "Military",
-        "name__en": "Military",
+        "name": "Military Area",
+        "name__en": "Military Area",
         "tags": {
           "landuse": "military"
         },
@@ -24214,7 +24248,6 @@
           "trees"
         ],
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "park2",
@@ -24231,7 +24264,6 @@
       },
       "landuse/quarry": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Quarry",
@@ -24247,39 +24279,32 @@
       },
       "landuse/residential": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "building",
-        "name": "Residential",
-        "name__en": "Residential",
-        "name__transl": "سكني",
+        "name": "Residential Area",
+        "name__en": "Residential Area",
         "tags": {
           "landuse": "residential"
         },
         "terms": [
         ],
-        "terms__en": "",
-        "terms__transl": "سكتي"
+        "terms__en": ""
       },
       "landuse/retail": {
         "geometry": [
-          "point",
           "area"
         ],
         "icon": "shop",
-        "name": "Retail",
-        "name__en": "Retail",
-        "name__transl": "بيع بالتجزئة",
+        "name": "Retail Area",
+        "name__en": "Retail Area",
         "tags": {
           "landuse": "retail"
         },
-        "terms__en": "",
-        "terms__transl": "بيع بالتجزئة ، بالقطاعي ، بالمفرق"
+        "terms__en": ""
       },
       "landuse/vineyard": {
         "geometry": [
-          "point",
           "area"
         ],
         "name": "Vineyard",
@@ -34854,7 +34879,7 @@
         "terms__en": "stereo,video",
         "terms__transl": "محل بيع أجهزة عالية الدقة"
       },
-      "shop/household": {
+      "shop/houseware": {
         "fields": [
           "operator",
           "address",
@@ -34866,15 +34891,16 @@
           "area"
         ],
         "icon": "shop",
-        "name": "Household Store",
-        "name__en": "Household Store",
+        "name": "Houseware Store",
+        "name__en": "Houseware Store",
         "tags": {
-          "shop": "household"
+          "shop": "houseware"
         },
         "terms": [
-          "home"
+          "home",
+          "household"
         ],
-        "terms__en": "home"
+        "terms__en": "home,household"
       },
       "shop/interior_decoration": {
         "fields": [

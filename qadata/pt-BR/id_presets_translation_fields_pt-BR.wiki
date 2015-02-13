@@ -423,7 +423,7 @@
 | 1
 | text
 | Brand
-|  
+| Marca
 |  
 |  
 | brand
@@ -873,7 +873,7 @@
 | 1
 | check
 | Delivery
-|  
+| Entrega em domicílio
 |  
 |  
 | delivery
@@ -1319,6 +1319,21 @@
 |  
 | last
 |-
+| gender
+| 1
+| radio
+| Gender
+| Gênero
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
+| Desconhecido
+| last
+|-
 | generator/method
 | 1
 | combo
@@ -1638,13 +1653,13 @@
 | 1
 | combo
 | Leaf Cycle
-|  
+| Ciclo de Folhagem
 |  
 |  
 | leaf_cycle
 | evergreen
 | Evergreen
-| 
+| Perenifólia
 |  
 |  
 | last
@@ -1659,7 +1674,7 @@
 |  
 | deciduous
 | Deciduous
-| 
+| Caducifólia
 |  
 |  
 | last
@@ -1674,7 +1689,7 @@
 |  
 | semi_evergreen
 | Semi-Evergreen
-| 
+| Semi-perenifólia
 |  
 |  
 | last
@@ -1689,7 +1704,7 @@
 |  
 | semi_deciduous
 | Semi-Deciduous
-| 
+| Semi-caducifólia
 |  
 |  
 | last
@@ -1704,7 +1719,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Mista
 |  
 |  
 | last
@@ -1713,13 +1728,13 @@
 | 1
 | combo
 | Leaf Type
-|  
+| Tipo de Folha
 |  
 |  
 | leaf_type
 | broadleaved
 | Broadleaved
-| 
+| Latifoliada
 |  
 |  
 | last
@@ -1734,7 +1749,7 @@
 |  
 | needleleaved
 | Needleleaved
-| 
+| Acicufoliada
 |  
 |  
 | last
@@ -1749,7 +1764,7 @@
 |  
 | mixed
 | Mixed
-| 
+| Mista
 |  
 |  
 | last
@@ -1764,7 +1779,7 @@
 |  
 | leafless
 | Leafless
-| 
+| Sem folhas
 |  
 |  
 | last
@@ -2988,7 +3003,7 @@
 | 1
 | check
 | Chain Tool
-|  
+| Ferramenta de corrente
 |  
 |  
 | service:bicycle:chaintool
@@ -3003,7 +3018,7 @@
 | 1
 | check
 | Air Pump
-|  
+| Bomba de ar
 |  
 |  
 | service:bicycle:pump
@@ -3277,9 +3292,9 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
-| Indiferente / Não para veículos sobre rodas
+| impassable
+| Impassable / No wheeled vehicle
+| 
 |  
 |  
 | last
@@ -3393,7 +3408,7 @@
 | 1
 | typeCombo
 | Type
-|  
+| Tipo
 |  
 |  
 | substation
@@ -3453,15 +3468,15 @@
 | 1
 | combo
 | Takeaway
-|  
+| Para viagem
 |  
 |  
 | takeaway
 | yes
 | Yes
-| 
+| Sim
 | Yes, No, Takeaway Only...
-|  
+| Sim, Não, Somente para viagem...
 | last
 |-
 | takeaway
@@ -3474,7 +3489,7 @@
 |  
 | no
 | No
-| 
+| Não
 |  
 |  
 | last
@@ -3489,7 +3504,7 @@
 |  
 | only
 | Takeaway Only
-| 
+| Somente para viagem
 |  
 |  
 | last

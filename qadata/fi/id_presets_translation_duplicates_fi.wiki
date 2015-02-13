@@ -15,38 +15,6 @@
 ! style="font-weight: bold;" | geometryVertex
 ! style="font-weight: bold;" | geometryRelation
 |-
-| Asuinalue
-| Neighborhood
-| place/neighbourhood
-|  
-| triangle-stroked
-| place=neighbourhood
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
-| Asuinalue
-| Residential
-| landuse/residential
-|  
-| building
-| landuse=residential
-|  
-|  
-|  
-|  
-| area
-|  
-| point
-|  
-|  
-|-
 | Hallinnollinen raja
 | Administrative Boundary
 | type/boundary/administrative
@@ -80,11 +48,11 @@
 |  
 |-
 | Hautausmaa
-| Churchyard
-| landuse/churchyard
+| Cemetery
+| landuse/cemetery
 |  
-|  
-| landuse=churchyard
+| cemetery
+| landuse=cemetery
 |  
 |  
 |  
@@ -112,33 +80,17 @@
 |  
 |-
 | Hautausmaa
-| Cemetery
-| landuse/cemetery
+| Churchyard
+| landuse/churchyard
 |  
-| cemetery
-| landuse=cemetery
+|  
+| landuse=churchyard
 |  
 |  
 |  
 |  
 | area
 |  
-| point
-| vertex
-|  
-|-
-| Jalkakäytävä
-| Sidewalk
-| footway/sidewalk
-|  
-|  
-| highway=footway
-| footway=sidewalk
-|  
-|  
-|  
-|  
-| line
 |  
 |  
 |  
@@ -159,17 +111,17 @@
 |  
 |  
 |-
-| Kiitorata
-| Runway
-| aeroway/runway
+| Jalkakäytävä
+| Sidewalk
+| footway/sidewalk
 |  
 |  
-| aeroway=runway
+| highway=footway
+| footway=sidewalk
 |  
 |  
 |  
 |  
-| area
 | line
 |  
 |  
@@ -189,6 +141,22 @@
 | line
 | point
 | vertex
+|  
+|-
+| Kiitorata
+| Runway
+| aeroway/runway
+|  
+|  
+| aeroway=runway
+|  
+|  
+|  
+|  
+| area
+| line
+|  
+|  
 |  
 |-
 | Kirkko

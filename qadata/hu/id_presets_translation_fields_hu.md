@@ -27,7 +27,7 @@
 |bench|1|check|Bench|Pad| | |bench| | | | | |last|
 |bicycle_parking|1|combo|Type|típus| | |bicycle_parking| | | | | |last|
 |boundary|1|combo|Type|Típus| | |boundary| | | | | |last|
-|brand|1|text|Brand| | | |brand| | | | | |last|
+|brand|1|text|Brand|Márka| | |brand| | | | | |last|
 |building|1|typeCombo|Building|Épület| | |building| | | | | |last|
 |building_area|1|defaultcheck|Building|Épület| | |building| | | | | |last|
 |capacity|1|number|Capacity|Kapacitás| | |capacity| | | |50, 100, 200...|50, 100, 200...|last|
@@ -57,12 +57,12 @@
 |crop|1|combo|Crop|Termés| | |crop| | | | | |last|
 |crossing|1|combo|Type|Típus| | |crossing| | | | | |last|
 |cuisine|1|combo|Cuisine|Konyha| | |cuisine| | | | | |last|
-|delivery|1|check|Delivery| | | |delivery| | | | | |last|
+|delivery|1|check|Delivery|Házhozszállítás| | |delivery| | | | | |last|
 |denomination|1|combo|Denomination|Felekezet| | |denomination| | | | | |last|
 |denotation|1|combo|Denotation|Jelentőség| | |denotation| | | | | |last|
 |description|1|textarea|Description|Leírás| | |description| | | | | |last|
 |electrified|1|combo|Electrification|Villamosítottság| | |electrified|contact_line|Contact Line|Felsővezeték|Contact Line, Electrified Rail...|Felső-vezetékes, sínes áramfelvétel, ...|last|
-|electrified|2|combo| | | | | |rail|Electrified Rail| Sínes  áramfelvétel -  metroban  | | |last|
+|electrified|2|combo| | | | | |rail|Electrified Rail|Sínes áramfelvétel pl. metróban  | | |last|
 |electrified|3|combo| | | | | |yes|Yes (unspecified)|Igen (nem részletezett)| | |last|
 |electrified|4|combo| | | | | |no|No|Nem| | |last|
 |elevation|1|number|Elevation|Tengerszint feletti magasság|elevation|true|ele| | | | | |last|
@@ -87,6 +87,7 @@
 |fuel/octane_95|1|check|Sells Midgrade Gasoline|95-ös oktánszámú szuperbenzint árul| | |fuel:octane_95| | | | | |last|
 |fuel/octane_98|1|check|Sells Premium Gasoline|Prémium benzint árul| | |fuel:octane_98| | | | | |last|
 |gauge|1|combo|Gauge|Nyomtáv| | |gauge| | | | | |last|
+|gender|1|radio|Gender|Nem| | |male,female,unisex| | | |Unknown|Ismeretlen|last|
 |generator/method|1|combo|Method|Módszer| | |generator:method| | | | | |last|
 |generator/source|1|combo|Source|Forrás| | |generator:source| | | | | |last|
 |generator/type|1|combo|Type|Típus| | |generator:type| | | | | |last|
@@ -108,15 +109,15 @@
 |landuse|1|typeCombo|Type|Típus| | |landuse| | | | | |last|
 |lanes|1|number|Lanes|Sávok| | |lanes| | | |1, 2, 3...|1, 2, 3...|last|
 |layer|1|combo|Layer|Réteg| | |layer| | | | | |last|
-|leaf_cycle|1|combo|Leaf Cycle| | | |leaf_cycle|evergreen|Evergreen|| | |last|
-|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|| | |last|
-|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|| | |last|
-|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|| | |last|
-|leaf_cycle|5|combo| | | | | |mixed|Mixed|| | |last|
-|leaf_type|1|combo|Leaf Type| | | |leaf_type|broadleaved|Broadleaved|| | |last|
-|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|| | |last|
-|leaf_type|3|combo| | | | | |mixed|Mixed|| | |last|
-|leaf_type|4|combo| | | | | |leafless|Leafless|| | |last|
+|leaf_cycle|1|combo|Leaf Cycle|Levélváltási ciklus| | |leaf_cycle|evergreen|Evergreen|Örökzöld| | |last|
+|leaf_cycle|2|combo| | | | | |deciduous|Deciduous|Lombhullató| | |last|
+|leaf_cycle|3|combo| | | | | |semi_evergreen|Semi-Evergreen|Félörökzöld | | |last|
+|leaf_cycle|4|combo| | | | | |semi_deciduous|Semi-Deciduous|Félig lombhullató| | |last|
+|leaf_cycle|5|combo| | | | | |mixed|Mixed|Kevert, vegyes| | |last|
+|leaf_type|1|combo|Leaf Type|Levél és lomb típusa | | |leaf_type|broadleaved|Broadleaved|Lombos| | |last|
+|leaf_type|2|combo| | | | | |needleleaved|Needleleaved|Tűlevelű| | |last|
+|leaf_type|3|combo| | | | | |mixed|Mixed|Kevert, vegyes| | |last|
+|leaf_type|4|combo| | | | | |leafless|Leafless|Lombtalan| | |last|
 |leisure|1|typeCombo|Type|Típus| | |leisure| | | | | |last|
 |length|1|number|Length (Meters)|Hosszúság (méterben)| | |length| | | | | |last|
 |levels|1|number|Levels|Szintek| | |building:levels| | | |2, 4, 6...|2, 4, 6...|last|
@@ -198,7 +199,7 @@
 |sac_scale|6|combo| | | | | |difficult_alpine_hiking|T6: Difficult Alpine Hiking|T6: Hegymászó technikát igénylő kitett magashegyi túraút, csak nagyon tapasztaltaknak| | |last|
 |seasonal|1|check|Seasonal|Időszakos| | |seasonal| | | | | |last|
 |service|1|combo|Type|Típus| | |service| | | | | |last|
-|service/bicycle/chaintool|1|check|Chain Tool| | | |service:bicycle:chaintool| | | | | |last|
+|service/bicycle/chaintool|1|check|Chain Tool|láncbontó, lánc eszközök| | |service:bicycle:chaintool| | | | | |last|
 |service/bicycle/pump|1|check|Air Pump|Levegő pumpa| | |service:bicycle:pump| | | | | |last|
 |shelter|1|check|Shelter|Esőbeálló| | |shelter| | | | | |last|
 |shelter_type|1|combo|Type|Típus| | |shelter_type| | | | | |last|
@@ -217,7 +218,7 @@
 |smoothness|5|combo| | | | | |very_bad|High Clearance: light duty off-road vehicle|Nagyon rossz:  Könnyű terepjárós út| | |last|
 |smoothness|6|combo| | | | | |horrible|Off-Road: heavy duty off-road vehicle|Borzalmas: Off-Road - nagy teherbírású terepjáróval járható| | |last|
 |smoothness|7|combo| | | | | |very_horrible|Specialized off-road: tractor, ATV|Extrém borzalmas: Traktor ajánlott.| | |last|
-|smoothness|8|combo| | | | | |impassible|Impassible / No wheeled vehicle|Lehetetlen kerekes járművel közlekedni| | |last|
+|smoothness|8|combo| | | | | |impassable|Impassable / No wheeled vehicle|| | |last|
 |social_facility_for|1|radio|People served|Szociálisan rászorultak| | |social_facility:for| | | |Homeless, Disabled, Child, etc|Hajléktalanok,Sérültek, Gyermekek, stb.|last|
 |source|1|text|Source|Forrás|source|true|source| | | | | |last|
 |sport|1|combo|Sport|Sport| | |sport| | | | | |last|

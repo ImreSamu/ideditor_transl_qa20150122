@@ -50,6 +50,12 @@
 +      bench: {
 +        label: "長凳"
 +      }
++      brand: {
++        label: "品牌"
++      }
++      leaf_cycle: {
++        label: "落葉期"
++      }
 +      service/bicycle/pump: {
 +        label: "打氣設備"
 +        options: {
@@ -70,11 +76,44 @@
 +          only: "只能外帶"
 +        }
 +      }
+       smoothness: {
+         options: {
+-          impassible: "不可能 / 無輪車輛"
+         }
+       }
      }
      presets: {
 -      craft/confectionary: {
 -        name: "甜品店"
 -        terms: "甜品店"
+-      }
+-      landuse/commercial: {
+-        name: "商業區"
+-        terms: "商業區"
+-      }
+-      landuse/farm: {
+-        name: "農場"
+-        terms: "農田,稻田,農地,田"
+-      }
+-      landuse/farmland: {
+-        name: "耕地"
+-        terms: "耕地"
+-      }
+-      landuse/industrial: {
+-        name: "工業區"
+-        terms: "工業區"
+-      }
+-      landuse/military: {
+-        name: "軍事用地"
+-        terms: "軍用地,部隊用地"
+-      }
+-      landuse/residential: {
+-        name: "住宅區"
+-        terms: "住宅區"
+-      }
+-      landuse/retail: {
+-        name: "零售"
+-        terms: "零售"
 -      }
 +      amenity/bicycle_repair_station: {
 +        name: "自行車維修站"
@@ -129,12 +168,6 @@
 +        name: "德來速車道"
 -        terms: "駕駛通過以獲取服務,穿越性道路"
 +        terms: "駕駛通過以獲取服務,德來速車道"
-       }
-       landuse/farmland: {
--        name: "耕地"
-+        name: "農場"
--        terms: "耕地"
-+        terms: "農場"
        }
        power/transformer: {
 -        name: "變電所"

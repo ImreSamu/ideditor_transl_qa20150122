@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,10 +12153,10 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| Zona de Escritórios
-| 19
+| Commercial Area
+| Commercial Area
+| Zona de Escritórios 
+| 20
 |  
 |  
 |  
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,16 +12243,16 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
 | Quinta
 | 6
 |  
 |  
 |  
 | 
-| Quinta, Campo Agricula
-| 22
+| Campo Agrícola, Agricultura
+| 27
 |  
 | farm
 |  
@@ -12288,14 +12288,14 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
 | Quinta
 | 6
 |  
 |  
 |  
-| farmland
+| 
 | Farm, Pasto
 | 11
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,8 +12513,8 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
+| Industrial Area
+| Industrial Area
 | Zona Industrial
 | 15
 |  
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,8 +12648,8 @@
 | landuse
 | military
 |  
-| Military
-| Military
+| Military Area
+| Military Area
 | Zona Militar
 | 12
 |  
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,8 +12783,8 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
+| Residential Area
+| Residential Area
 | Zona Residencial
 | 16
 |  
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,8 +12828,8 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
+| Retail Area
+| Retail Area
 | Zona de Retalhos
 | 16
 |  
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -21194,19 +21194,19 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
-| Loja Caseira
-| 12
+| Houseware Store
+| Houseware Store
+| Loja de Decoração e Bricolage
+| 29
 |  
 |  
 |  
-| home
-| Household Store
+| home,household
+| Houseware Store
 | 15
 |  
 | shop
@@ -21214,7 +21214,7 @@
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  

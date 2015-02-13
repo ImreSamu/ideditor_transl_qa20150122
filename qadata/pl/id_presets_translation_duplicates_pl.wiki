@@ -91,8 +91,8 @@
 |  
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 |-
 | Cmentarz
@@ -475,7 +475,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |-
@@ -555,7 +555,7 @@
 |  
 | area
 |  
-| point
+|  
 |  
 |  
 |}

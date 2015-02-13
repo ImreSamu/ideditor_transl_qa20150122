@@ -125,6 +125,25 @@
        }
      }
      presets: {
+-      landuse/commercial: {
+-        name: "Atvinnusvæði"
+-      }
+-      landuse/farm: {
+-        name: "Býli"
+-      }
+-      landuse/industrial: {
+-        name: "Iðnaðarsvæði"
+-      }
+-      landuse/military: {
+-        name: "Hersvæði"
+-        terms: "herstöð, æfingasvæði"
+-      }
+-      landuse/residential: {
+-        name: "Íbúabyggð"
+-      }
+-      landuse/retail: {
+-        name: "Verslun"
+-      }
 +      amenity/shelter: {
 +        name: "Skýli"
 +      }

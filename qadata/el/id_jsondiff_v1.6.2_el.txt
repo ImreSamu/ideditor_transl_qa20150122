@@ -107,6 +107,25 @@
 -        name: "Ζαχαροπλαστείο"
 -        terms: "ζαχαροπλάστης, ζαχαροπλαστική"
 -      }
+-      landuse/commercial: {
+-        name: "Εμπορική"
+-        terms: "Εμπορική"
+-      }
+-      landuse/farm: {
+-        name: "Αγρο"
+-        terms: "Αγρόκτημα, Χωράφι"
+-      }
+-      landuse/industrial: {
+-        name: "Βιομηχανική"
+-        terms: "Βιομηχανική"
+-      }
+-      landuse/residential: {
+-        name: "Οικιστική"
+-        terms: "Αστική, Κατοικημένη, Οικιστική"
+-      }
+-      landuse/retail: {
+-        name: "Λιανικό Εμπόριο"
+-      }
      }
    }
  }

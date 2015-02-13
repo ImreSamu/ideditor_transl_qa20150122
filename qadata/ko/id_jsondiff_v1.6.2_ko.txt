@@ -7,6 +7,7 @@
 +    title: "지도 데이터"
 +    description: "지도 데이터"
 +    data_layers: "데이터 레이어"
++    fill_area: "지역 채우기"
 +    map_features: "지도 기능"
 +    autohidden: "이 기능은 화면에 너무 많이 보여질 수 있기 때문에 자동으로 숨겨집니다. 편집하려면 확대할 수 있습니다."
 +  }
@@ -16,16 +17,24 @@
 +      tooltip: "관심 있는 지점"
 +    }
 +    major_roads: {
++      description: "주요 도로"
 +      tooltip: "고속도로, 거리 등"
++    }
++    minor_roads: {
++      description: "보조 도로"
++      tooltip: "취부 도로, 주차장 통로, 트랙 등"
 +    }
 +    paths: {
 +      description: "경로"
++      tooltip: "인도, 보도, 자전거로 등"
 +    }
 +    buildings: {
 +      description: "건물"
++      tooltip: "건물, 대피소, 차고 등"
 +    }
 +    landuse: {
 +      description: "토지 이용 기능"
++      tooltip: "숲, 농토, 공원, 주거, 상업 등"
 +    }
 +    boundaries: {
 +      description: "경계"
@@ -33,21 +42,93 @@
 +    }
 +    water: {
 +      description: "물 기능"
++      tooltip: "강, 호수, 연못, 웅덩이 등"
++    }
++    rail: {
++      description: "철로 기능"
++      tooltip: "철도"
++    }
++    power: {
++      description: "전력 기능"
++      tooltip: "송전선, 발전소, 변전소 등"
++    }
++    past_future: {
++      description: "과거/미래"
++      tooltip: "제안, 건설, 폐지, 철거 등"
 +    }
 +    others: {
 +      description: "기타"
++      tooltip: "그 밖의 모두"
 +    }
 +  }
++  area_fill: {
++    wireframe: {
++      description: "채우기 없음 (와이어프레임)"
++      tooltip: "와이어프레임 모드를 활성화하면 쉽게 배경 영상을 볼 수 있도록 합니다."
++    }
++    partial: {
++      description: "부분 채우기"
++      tooltip: "지역은 그들의 안쪽 가장자리 주변으로만 채워 그려집니다. (초보자 매퍼에게 권장)"
++    }
++    full: {
++      description: "전체 채우기"
++      tooltip: "지역이 전체로 채워 그려집니다."
++    }
++  }
+   operations: {
+     circularize: {
++      connected_to_hidden: "이것은 숨겨진 지물에 연결되어 있기 때문에 둥글게 만들 수 없습니다."
+     }
+     orthogonalize: {
++      connected_to_hidden: "이것은 숨겨진 지물에 연결되어 있기 때문에 사각지게 만들 수 없습니다."
+     }
+     straighten: {
++      connected_to_hidden: "이것은 숨겨진 지물에 연결되어 있기 때문에 곧게 할 수 없습니다."
+     }
+     delete: {
++      connected_to_hidden: "이것은 숨겨진 지물에 연결되어 있기 때문에 삭제할 수 없습니다."
+-      incomplete_relation: "이 기능은 완전히 다운로드되어 있지 않기 때문에 삭제할 수 없습니다."
++      incomplete_relation: "이 지물은 완전히 다운로드되어 있지 않기 때문에 삭제할 수 없습니다."
+     }
+     disconnect: {
++      connected_to_hidden: "이것은 숨겨진 기능에 연결되어 있기 때문에 연결을 해제할 수 없습니다."
+     }
+     move: {
++      connected_to_hidden: "이것은 숨겨진 기능에 연결되어 있기 때문에 이동할 수 없습니다."
+-      too_large: "지역이 현재 충분히 보이지 않기 때문에 옮길 수 없습니다."
++      too_large: "지역이 현재 충분히 보이지 않기 때문에 이동할 수 없습니다."
+     }
+     rotate: {
++      connected_to_hidden: "이것은 숨겨진 기능에 연결되어 있기 때문에 회전할 수 없습니다."
+     }
+     split: {
++      connected_to_hidden: "이것은 숨겨진 기능에 연결되어 있기 때문에 분할할 수 없습니다."
+     }
+   }
    commit: {
 +    changes: "바뀜 {count}번"
    }
    inspector: {
++    check: {
++      yes: "예"
++      no: "아니오"
++    }
 +    add_fields: "필드 추가:"
+   }
+   save: {
++    unknown_error_details: "인터넷에 연결되어 있는지 확인해주세요."
    }
    help: {
 -    gps: "# GPS\n\nGPS 데이터는 OpenStreetMap에 대한 데이터의 가장 신뢰할 수 있는 자료입니다.\n이 편집기는 로컬 컴퓨터에 있는 `.gpx` 파일로 로컬 추적을 지원합니다. 스마트폰\n애플리케이션과 개인 GPS 하드웨어와 같은 것으로 GPS 추적을 모을 수 있습니다.\n\nGPS 측량을 수행하는 방법에 대한 자세한 정보는\n[GPS에 의한 측량](http://learnosm.org/en/beginner/using-gps/)을 읽으세요.\n\n매핑에 GPX 트랙을 사용하려면, 지도 편집기 위에 GPX 파일을 끌어 놓으세요.\n인식되면, 밝은 초록 선으로 지도에 추가됩니다. 활성화, 비활성화, 또는 새 GPX가\n배치된 레이어로 확대하려면 오른쪽에 있는 '배경 설정' 메뉴를 클릭하세요.\n\nGPX 트랙은 OpenStreetMap에 직접 올려지지 않습니다 - 그것을 사용하는 최상의\n방법은 새로운 기능을 추가하기 위한 가이드로 사용하여, 지도를 그리는 것이며,\n다른 사용자가 사용하기 위해 [OpenStreetMap에 그것을 올리는](http://www.openstreetmap.org/trace/create)\n것입니다.\n"
++    gps: "# GPS\n\nGPS 데이터는 OpenStreetMap에 대한 데이터의 가장 신뢰할 수 있는 자료입니다.\n이 편집기는 로컬 컴퓨터에 있는 `.gpx` 파일로 로컬 추적을 지원합니다. 스마트폰\n애플리케이션의 수와 같은 개인 GPS 하드웨어로 GPS 추적의 종류를 모을 수 있습니다.\n\nGPS 측량을 수행하는 방법에 대한 자세한 정보는\n[Surveying with a GPS](http://learnosm.org/en/beginner/using-gps/)를 읽으세요.\n\n매핑에 GPX 트랙을 사용하려면, 지도 편집기 위에 GPX 파일을 끌어 놓으세요.\n인식되면, 밝은 보라 선으로 지도에 추가됩니다. 새 GPX 레이어로 활성화, 비활성화,\n또는 확대하려면 오른쪽에 있는 '지도 데이터' 메뉴를 클릭하세요.\n\nGPX 트랙은 OpenStreetMap에 직접 올려지지 않습니다 - 그것을 사용하는 최상의\n방법은 추가하는 새로운 기능을 위한 가이드로 사용하여, 지도를 그리는 것이며,\n다른 사용자가 사용하기 위해 [OpenStreetMap에 그것을 올리는](http://www.openstreetmap.org/trace/create)\n것입니다.\n"
    }
    presets: {
+     categories: {
+       category-rail: {
+-        name: "선로"
++        name: "철로"
+       }
+     }
      fields: {
 -      tree_type: {
 -        label: "유형"
@@ -55,12 +136,185 @@
 -      wood: {
 -        label: "유형"
 -      }
++      bench: {
++        label: "벤치"
++      }
++      brand: {
++        label: "상표"
++      }
++      delivery: {
++        label: "배달"
++      }
++      except: {
++        label: "예외"
++      }
++      gender: {
++        label: "성별"
++        placeholder: "알 수 없음"
++        options: {
++          male: "남자"
++          female: "여자"
++          unisex: "남녀 공용"
++        }
++      }
++      population: {
++        label: "인구"
++      }
++      service/bicycle/chaintool: {
++        options: {
++          undefined: "아니오로 간주"
++          yes: "예"
++          no: "아니오"
++        }
++      }
++      service/bicycle/pump: {
++        options: {
++          undefined: "아니오로 간주"
++          yes: "예"
++          no: "아니오"
++        }
++      }
++      takeaway: {
++        options: {
++          yes: "예"
++          no: "아니오"
++        }
++      }
+       electrified: {
++        label: "전력화"
++        placeholder: "연결로, 전철..."
+         options: {
++          contact_line: "연결로"
++          rail: "전철"
+         }
+       }
+       fire_hydrant/type: {
+         options: {
++          pillar: "기둥/지상"
++          underground: "지하"
+-          pond: "호수"
++          pond: "연못"
+         }
+       }
+       gauge: {
+-        label: "게이지"
++        label: "궤간"
+       }
+       parking: {
+         options: {
++          garage_boxes: "차고 상자"
+         }
+       }
+       shelter: {
+-        label: "피난처"
++        label: "대피소"
+       }
+       trail_visibility: {
+-        label: "도로의 가시성"
++        label: "철로의 가시성"
+       }
      }
      presets: {
--      landuse/farmland: {
--        name: "농토"
++      amenity/social_facility/homeless_shelter: {
++        name: "이재민 대피소"
++      }
++      building/college: {
++        name: "대학 건물"
++      }
++      building/construction: {
++        name: "공사 중인 건물"
++      }
++      building/garages: {
++        name: "차고"
++      }
++      building/kindergarten: {
++        name: "유치원 건물"
++      }
++      building/university: {
++        name: "대학교 건물"
++      }
++      highway/services: {
++        name: "서비스 지역"
++      }
++      highway/street_lamp: {
++        name: "가로등"
++      }
++      landuse/garages: {
++        name: "차고"
++      }
++      leisure/running_track: {
++        name: "육상 트랙"
++      }
++      piste: {
++        name: "활강/스키 트레일"
++      }
++      power/substation: {
++        name: "변전소"
++      }
++      railway/narrow_gauge: {
++        name: "협궤 철로"
++      }
+       amenity/shelter: {
+-        name: "피난처"
++        name: "대피소"
+       }
+       footway/sidewalk: {
+-        name: "보도"
++        name: "인도"
+       }
+       landuse/basin: {
++        terms: "분지"
+-        name: "분지"
++        name: "웅덩이"
+       }
+       landuse/commercial: {
+-        name: "상업"
++        name: "상업 지역"
+       }
+       landuse/farm: {
+-        name: "농장"
++        name: "농토"
+       }
+       landuse/farmland: {
 -        terms: "농지"
--      }
+       }
+       landuse/industrial: {
+-        name: "산업"
++        name: "산업 지역"
+       }
+       landuse/military: {
+-        name: "군사지"
++        name: "군사 지역"
+       }
+       landuse/residential: {
+-        name: "주거"
++        name: "주거 지역"
+       }
+       landuse/retail: {
+-        name: "소매점"
++        name: "소매점 지역"
+       }
+       military/range: {
+-        terms: "군사 지역"
+-        name: "군사지"
++        name: "군사 범위"
+       }
+       natural/water/pond: {
+-        name: "호수"
++        name: "연못"
+       }
+       power/minor_line: {
+-        name: "작은 송전선"
++        name: "보조 송전선"
+       }
+       railway/rail: {
+-        name: "선로"
++        name: "철로"
+       }
+       waterway/riverbank: {
+-        name: "강가"
++        name: "강둑"
+       }
      }
    }
  }

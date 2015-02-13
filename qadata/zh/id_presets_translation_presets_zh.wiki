@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,13 +12153,13 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| 商业区
-| 3
+| Commercial Area
+| Commercial Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
 |  
 | 0
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,13 +12243,13 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
-| 农场
-| 2
+| Farmland
+| Farmland
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
 |  
 | 0
@@ -12288,14 +12288,14 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
 |  
 | 0
 |  
 |  
 | notTranslated
-| farmland
+| 
 |  
 | 0
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,13 +12513,13 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
-| 工业区
-| 3
+| Industrial Area
+| Industrial Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
 |  
 | 0
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,8 +12648,8 @@
 | landuse
 | military
 |  
-| Military
-| Military
+| Military Area
+| Military Area
 |  
 | 0
 |  
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,13 +12783,13 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
-| 住宅区
-| 3
+| Residential Area
+| Residential Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
 |  
 | 0
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,13 +12828,13 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
-| 零售
-| 2
+| Retail Area
+| Retail Area
+|  
+| 0
 |  
 |  
-|  
+| notTranslated
 | 
 |  
 | 0
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -21194,18 +21194,18 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
+| Houseware Store
+| Houseware Store
 |  
 | 0
 |  
 |  
 | notTranslated
-| home
+| home,household
 |  
 | 0
 |  
@@ -21214,7 +21214,7 @@
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  

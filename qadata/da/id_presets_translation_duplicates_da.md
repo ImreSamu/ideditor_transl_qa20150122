@@ -44,5 +44,5 @@
 |Vandrerute|Hiking Route|type/route/hiking| |route-foot|type=route|route=hiking| | | | | | | |relation|
 |Vinforhandler|Liquor Store|shop/alcohol| |alcohol-shop|shop=alcohol| | | | |area| |point| | |
 |Vinforhandler|Beverage Store|shop/beverages| |shop|shop=beverages| | | | |area| |point| | |
-|Vingård|Vineyard|landuse/vineyard| | |landuse=vineyard| | | | |area| |point| | |
+|Vingård|Vineyard|landuse/vineyard| | |landuse=vineyard| | | | |area| | | | |
 |Vingård|Winery|craft/winery| |alcohol-shop|craft=winery| | | | |area| |point| | |

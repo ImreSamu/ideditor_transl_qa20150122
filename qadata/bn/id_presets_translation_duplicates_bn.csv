@@ -1,6 +1,6 @@
 "nameTransl","nameEn","presetKey","searchable","icon","tags0","tags1","tags2","tags3","tags4","geometryArea","geometryLine","geometryPoint","geometryVertex","geometryRelation"
 "কবরখানা","Graveyard","amenity/grave_yard"," ","cemetery","amenity=grave_yard"," "," "," "," ","area"," ","point"," "," "
-"কবরখানা","Cemetery","landuse/cemetery"," ","cemetery","landuse=cemetery"," "," "," "," ","area"," ","point","vertex"," "
+"কবরখানা","Cemetery","landuse/cemetery"," ","cemetery","landuse=cemetery"," "," "," "," ","area"," "," "," "," "
 "ক্রসিং","Crossing","footway/crossing"," "," ","highway=footway","footway=crossing"," "," "," "," ","line"," "," "," "
 "ক্রসিং","Crossing","highway/crossing"," "," ","highway=crossing"," "," "," "," "," "," "," ","vertex"," "
 "প্রশাসনিক সীমানা","Administrative Boundary","boundary/administrative"," "," ","boundary=administrative"," "," "," "," "," ","line"," "," "," "

@@ -182,6 +182,21 @@
 -      craft/confectionary: {
 -        name: "Konditoria"
 -      }
+-      landuse/commercial: {
+-        name: "Yritysalue"
+-      }
+-      landuse/farm: {
+-        name: "Maatila"
+-      }
+-      landuse/industrial: {
+-        name: "Teollisuusalue"
+-      }
+-      landuse/residential: {
+-        name: "Asuinalue"
+-      }
+-      landuse/retail: {
+-        name: "Vähittäiskauppa"
+-      }
 +      amenity/bureau_de_change: {
 +        name: "Valuutanvaihtopiste"
 +        terms: "valuutta, raha, vaihto, vaihtaminen, valuutanvaihto, valuutanvaihtaminen, rahanvaihto, rahanvaihtaminen, Forex"

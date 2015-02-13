@@ -41,14 +41,14 @@
 |  
 |  
 | yes
-|  
+| نعم
 | last
 |-
 | access_toilets
 | 1
 | combo
 | Access
-|  
+| الدخول
 |  
 |  
 | access
@@ -93,7 +93,7 @@
 | 1
 | typeCombo
 | Type
-|  
+| نوع
 |  
 |  
 | aerialway
@@ -108,13 +108,13 @@
 | 1
 | combo
 | Access
-|  
+| دخول
 |  
 |  
 | aerialway:access
 | entry
 | Entry
-| 
+| مدخل
 |  
 |  
 | last
@@ -129,7 +129,7 @@
 |  
 | exit
 | Exit
-| 
+| مخرج
 |  
 |  
 | last
@@ -144,7 +144,7 @@
 |  
 | both
 | Both
-| 
+| كلاهما
 |  
 |  
 | last
@@ -183,7 +183,7 @@
 | 1
 | number
 | Duration (minutes)
-|  
+| المدة (دقائق)
 |  
 |  
 | aerialway:duration
@@ -191,7 +191,7 @@
 |  
 |  
 | 1, 2, 3...
-|  
+| 1, 2, 3...
 | last
 |-
 | aerialway/heating
@@ -1316,6 +1316,21 @@
 |  
 |  
 |  
+|  
+| last
+|-
+| gender
+| 1
+| radio
+| Gender
+|  
+|  
+|  
+| male,female,unisex
+|  
+|  
+|  
+| Unknown
 |  
 | last
 |-
@@ -3277,8 +3292,8 @@
 |  
 |  
 |  
-| impassible
-| Impassible / No wheeled vehicle
+| impassable
+| Impassable / No wheeled vehicle
 | 
 |  
 |  

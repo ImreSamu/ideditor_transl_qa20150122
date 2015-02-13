@@ -5,5 +5,19 @@
 -        label: "Tips"
 -      }
      }
+     presets: {
+-      landuse/commercial: {
+-        name: "Komercplatība"
+-      }
+-      landuse/farm: {
+-        name: "Zemnieku saimniecība"
+-      }
+-      landuse/industrial: {
+-        name: "Industriāls rajons"
+-      }
+-      landuse/residential: {
+-        name: "Dzīvojamā zona"
+-      }
+     }
    }
  }

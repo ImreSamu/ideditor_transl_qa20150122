@@ -3650,7 +3650,7 @@
 |  
 | Shelter
 | Shelter
-| 피난처
+| 대피소
 | 3
 |  
 |  
@@ -3830,11 +3830,11 @@
 | homeless_shelter
 | Homeless Shelter
 | Homeless Shelter
+| 이재민 대피소
+| 7
 |  
-| 0
 |  
 |  
-| notTranslated
 | houseless,unhoused,displaced
 |  
 | 0
@@ -4111,7 +4111,7 @@
 |  
 | toilets
 |  
-| toilets/disposal,operator,building_area,access_toilets
+| toilets/disposal,operator,building_area,access_toilets,gender
 |  
 |  
 | amenity=toilets
@@ -5585,11 +5585,11 @@
 |  
 | College Building
 | College Building
+| 대학 건물
+| 5
 |  
-| 0
 |  
 |  
-| notTranslated
 | university
 |  
 | 0
@@ -5675,11 +5675,11 @@
 |  
 | Building Under Construction
 | Building Under Construction
+| 공사 중인 건물
+| 8
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -5858,7 +5858,7 @@
 | 차고
 | 2
 |  
-|  
+| duplicate
 |  
 | 
 |  
@@ -5900,11 +5900,11 @@
 |  
 | Garages
 | Garages
+| 차고
+| 2
 |  
-| 0
+| duplicate
 |  
-|  
-| notTranslated
 | 
 |  
 | 0
@@ -6215,11 +6215,11 @@
 |  
 | Preschool/Kindergarten Building
 | Preschool/Kindergarten Building
+| 유치원 건물
+| 6
 |  
-| 0
 |  
 |  
-| notTranslated
 | kindergarden,pre-school
 |  
 | 0
@@ -6710,11 +6710,11 @@
 |  
 | University Building
 | University Building
+| 대학교 건물
+| 6
 |  
-| 0
 |  
 |  
-| notTranslated
 | college
 |  
 | 0
@@ -9230,10 +9230,10 @@
 |  
 | Sidewalk
 | Sidewalk
-| 보도
+| 인도
 | 2
 |  
-| duplicate
+|  
 |  
 | 
 |  
@@ -9953,7 +9953,7 @@
 | 보도
 | 2
 |  
-| duplicate
+|  
 |  
 | hike,hiking,trackway,trail,walk
 |  
@@ -10940,11 +10940,11 @@
 |  
 | Service Area
 | Service Area
+| 서비스 지역
+| 6
 |  
-| 0
 |  
 |  
-| notTranslated
 | services,travel plaza,service station
 |  
 | 0
@@ -11075,11 +11075,11 @@
 |  
 | Street Lamp
 | Street Lamp
+| 가로등
+| 3
 |  
-| 0
 |  
 |  
-| notTranslated
 | streetlight,street light,lamp,light,gaslight
 |  
 | 0
@@ -12009,7 +12009,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12020,14 +12020,14 @@
 |  
 | Basin
 | Basin
-| 분지
-| 2
+| 웅덩이
+| 3
 |  
 |  
 |  
 | 
-|  
-| 0
+| 분지
+| 2
 |  
 |  
 |  
@@ -12054,7 +12054,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12099,8 +12099,8 @@
 | 0
 | area
 |  
-| point
-| vertex
+|  
+|  
 |  
 | last
 |-
@@ -12153,10 +12153,10 @@
 | landuse
 | commercial
 |  
-| Commercial
-| Commercial
-| 상업
-| 2
+| Commercial Area
+| Commercial Area
+| 상업 지역
+| 5
 |  
 |  
 |  
@@ -12189,7 +12189,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12234,7 +12234,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12243,9 +12243,9 @@
 | landuse
 | farm
 |  
-| Farm
-| Farm
-| 농장
+| Farmland
+| Farmland
+| 농토
 | 2
 |  
 |  
@@ -12288,14 +12288,14 @@
 | landuse
 | farmland
 |  
-| Farm
-| Farm
+| Farmland
+| Farmland
+| 농토
+| 2
 |  
-| 0
 |  
 |  
-| notTranslated
-| farmland
+| 
 |  
 | 0
 |  
@@ -12324,7 +12324,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12369,7 +12369,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12414,7 +12414,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12425,11 +12425,11 @@
 |  
 | Garages
 | Garages
+| 차고
+| 2
 |  
-| 0
+| duplicate
 |  
-|  
-| notTranslated
 | 
 |  
 | 0
@@ -12504,7 +12504,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12513,10 +12513,10 @@
 | landuse
 | industrial
 |  
-| Industrial
-| Industrial
-| 산업
-| 2
+| Industrial Area
+| Industrial Area
+| 산업 지역
+| 5
 |  
 |  
 |  
@@ -12549,7 +12549,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12639,7 +12639,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12648,12 +12648,12 @@
 | landuse
 | military
 |  
-| Military
-| Military
-| 군사지
-| 3
+| Military Area
+| Military Area
+| 군사 지역
+| 5
 |  
-| duplicate
+|  
 |  
 | 
 |  
@@ -12729,7 +12729,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12774,7 +12774,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12783,10 +12783,10 @@
 | landuse
 | residential
 |  
-| Residential
-| Residential
-| 주거
-| 2
+| Residential Area
+| Residential Area
+| 주거 지역
+| 5
 |  
 |  
 |  
@@ -12819,7 +12819,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12828,10 +12828,10 @@
 | landuse
 | retail
 |  
-| Retail
-| Retail
-| 소매점
-| 3
+| Retail Area
+| Retail Area
+| 소매점 지역
+| 6
 |  
 |  
 |  
@@ -12864,7 +12864,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -12909,7 +12909,7 @@
 | 0
 | area
 |  
-| point
+|  
 |  
 |  
 | last
@@ -13820,11 +13820,11 @@
 |  
 | Running Track
 | Running Track
+| 육상 트랙
+| 5
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -14945,14 +14945,14 @@
 |  
 | Military Range
 | Military Range
-| 군사지
-| 3
+| 군사 범위
+| 5
 |  
-| duplicate
+|  
 |  
 | 
-| 군사 지역
-| 5
+|  
+| 0
 |  
 |  
 |  
@@ -15713,7 +15713,7 @@
 | 호수
 | 2
 |  
-| duplicate
+|  
 |  
 | lakelet,loch,mere
 |  
@@ -15755,10 +15755,10 @@
 | pond
 | Pond
 | Pond
-| 호수
+| 연못
 | 2
 |  
-| duplicate
+|  
 |  
 | lakelet,millpond,tarn,pool,mere
 |  
@@ -16880,11 +16880,11 @@
 |  
 | Piste/Ski Trail
 | Piste/Ski Trail
+| 활강/스키 트레일
+| 9
 |  
-| 0
 |  
 |  
-| notTranslated
 | ski,sled,sleigh,snowboard,nordic,downhill,snowmobile
 |  
 | 0
@@ -17555,7 +17555,7 @@
 |  
 | Minor Power Line
 | Minor Power Line
-| 작은 송전선
+| 보조 송전선
 | 6
 |  
 |  
@@ -17690,11 +17690,11 @@
 |  
 | Substation
 | Substation
+| 변전소
+| 3
 |  
-| 0
 |  
 |  
-| notTranslated
 | 
 |  
 | 0
@@ -18230,11 +18230,11 @@
 |  
 | Narrow Gauge Rail
 | Narrow Gauge Rail
+| 협궤 철로
+| 5
 |  
-| 0
 |  
 |  
-| notTranslated
 | narrow gauge railway,narrow gauge railroad
 |  
 | 0
@@ -18320,7 +18320,7 @@
 |  
 | Rail
 | Rail
-| 선로
+| 철로
 | 2
 |  
 |  
@@ -21194,18 +21194,18 @@
 |  
 | last
 |-
-| shop/household
+| shop/houseware
 | shop
-| household
+| houseware
 |  
-| Household Store
-| Household Store
+| Houseware Store
+| Houseware Store
 |  
 | 0
 |  
 |  
 | notTranslated
-| home
+| home,household
 |  
 | 0
 |  
@@ -21214,7 +21214,7 @@
 | operator,address,building_area,opening_hours
 |  
 |  
-| shop=household
+| shop=houseware
 |  
 |  
 |  
@@ -25880,7 +25880,7 @@
 |  
 | Riverbank
 | Riverbank
-| 강가
+| 강둑
 | 2
 |  
 |  
